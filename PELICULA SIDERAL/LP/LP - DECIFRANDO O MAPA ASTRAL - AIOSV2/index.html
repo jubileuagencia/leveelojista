@@ -1,0 +1,1605 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Decifrando o Mapa Astral | Película Sideral</title>
+  <meta name="description" content="Aprenda a ler qualquer mapa astral com um método visual de 5 passos. De confusão total a leitor competente em 23 aulas.">
+  <meta property="og:title" content="Decifrando o Mapa Astral | Película Sideral">
+  <meta property="og:description" content="O mapa astral não é mistério. É um diagrama. E diagramas se aprendem a ler.">
+  <meta property="og:type" content="website">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500&family=Inter:wght@300;400;500;600;700&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+  <style>
+    *, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
+
+    :root {
+      --bg-void: #050510;
+      --bg-deep: #0a0a18;
+      --bg-card: #0e0e24;
+      --bg-card-hover: #12123a;
+      --gold: #c9a23e;
+      --gold-light: #e8c96a;
+      --gold-bright: #f5d87a;
+      --gold-glow: rgba(201, 162, 62, 0.12);
+      --purple: #6b4fa0;
+      --purple-light: #9b7fd4;
+      --blue-cosmic: #2a3a8a;
+      --text: #e4e0d8;
+      --text-soft: #b0acba;
+      --text-muted: #7a7690;
+      --red-aspect: #c25b5b;
+      --blue-aspect: #5b7ec2;
+      --green-aspect: #5bc27e;
+      --font-display: 'Playfair Display', Georgia, serif;
+      --font-body: 'Inter', system-ui, sans-serif;
+      --font-mono: 'Space Mono', monospace;
+      --max-w: 1100px;
+      --radius: 16px;
+      --radius-sm: 10px;
+    }
+
+    html { scroll-behavior: smooth; font-size: 16px; }
+
+    body {
+      font-family: var(--font-body);
+      background: var(--bg-void);
+      color: var(--text);
+      line-height: 1.75;
+      overflow-x: hidden;
+      -webkit-font-smoothing: antialiased;
+    }
+
+    img { max-width: 100%; display: block; }
+    a { color: var(--gold); text-decoration: none; transition: color 0.2s; }
+    a:hover { color: var(--gold-bright); }
+
+    .container { max-width: var(--max-w); margin: 0 auto; padding: 0 24px; }
+    .text-center { text-align: center; }
+
+    /* ============================================
+       STARFIELD CANVAS
+       ============================================ */
+    #starfield {
+      position: fixed;
+      top: 0; left: 0;
+      width: 100vw; height: 100vh;
+      z-index: 0;
+      pointer-events: none;
+    }
+
+    .page-content {
+      position: relative;
+      z-index: 1;
+    }
+
+    /* ============================================
+       SECTION BASE
+       ============================================ */
+    .section { padding: 100px 0; position: relative; }
+    .section--alt { background: rgba(14, 14, 36, 0.6); backdrop-filter: blur(2px); }
+
+    .section-label {
+      font-family: var(--font-mono);
+      font-size: 0.7rem;
+      font-weight: 700;
+      letter-spacing: 4px;
+      text-transform: uppercase;
+      color: var(--gold);
+      margin-bottom: 20px;
+      display: inline-block;
+      position: relative;
+    }
+
+    .section-label::after {
+      content: '';
+      display: block;
+      width: 32px;
+      height: 1px;
+      background: var(--gold);
+      margin-top: 8px;
+    }
+
+    .section-title {
+      font-family: var(--font-display);
+      font-size: clamp(1.8rem, 4vw, 2.8rem);
+      font-weight: 600;
+      line-height: 1.2;
+      margin-bottom: 20px;
+      color: var(--text);
+    }
+
+    .section-subtitle {
+      font-size: 1.05rem;
+      color: var(--text-soft);
+      max-width: 620px;
+      line-height: 1.8;
+    }
+
+    .section-subtitle.centered { margin: 0 auto 56px; }
+
+    /* ============================================
+       CTA BUTTON
+       ============================================ */
+    .cta-btn {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      gap: 10px;
+      background: linear-gradient(135deg, var(--gold) 0%, #a07820 100%);
+      color: var(--bg-void);
+      font-family: var(--font-body);
+      font-size: 1rem;
+      font-weight: 700;
+      padding: 18px 48px;
+      border-radius: 60px;
+      border: none;
+      cursor: pointer;
+      transition: all 0.3s ease;
+      text-transform: uppercase;
+      letter-spacing: 1.5px;
+      position: relative;
+      overflow: hidden;
+    }
+
+    .cta-btn::before {
+      content: '';
+      position: absolute;
+      top: 0; left: -100%;
+      width: 100%; height: 100%;
+      background: linear-gradient(90deg, transparent, rgba(255,255,255,0.15), transparent);
+      transition: left 0.5s;
+    }
+
+    .cta-btn:hover::before { left: 100%; }
+
+    .cta-btn:hover {
+      transform: translateY(-3px);
+      box-shadow: 0 12px 40px rgba(201, 162, 62, 0.35);
+      color: var(--bg-void);
+    }
+
+    .cta-btn--ghost {
+      background: transparent;
+      border: 1.5px solid rgba(201, 162, 62, 0.4);
+      color: var(--gold);
+      font-size: 0.9rem;
+      padding: 14px 36px;
+    }
+
+    .cta-btn--ghost:hover {
+      background: rgba(201, 162, 62, 0.1);
+      border-color: var(--gold);
+      color: var(--gold-bright);
+      box-shadow: none;
+      transform: none;
+    }
+
+    .cta-micro {
+      font-size: 0.78rem;
+      color: var(--text-muted);
+      margin-top: 12px;
+    }
+
+    /* ============================================
+       HERO
+       ============================================ */
+    .hero {
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      padding: 100px 24px 80px;
+      position: relative;
+    }
+
+    .hero__cosmic-ring {
+      position: absolute;
+      top: 50%; left: 50%;
+      transform: translate(-50%, -50%);
+      width: min(700px, 90vw);
+      height: min(700px, 90vw);
+      border-radius: 50%;
+      border: 1px solid rgba(201, 162, 62, 0.06);
+      pointer-events: none;
+      animation: pulse-ring 8s ease-in-out infinite;
+    }
+
+    .hero__cosmic-ring::before,
+    .hero__cosmic-ring::after {
+      content: '';
+      position: absolute;
+      border-radius: 50%;
+      border: 1px solid rgba(107, 79, 160, 0.08);
+    }
+
+    .hero__cosmic-ring::before {
+      top: 10%; left: 10%; right: 10%; bottom: 10%;
+      animation: rotate-slow 90s linear infinite;
+    }
+
+    .hero__cosmic-ring::after {
+      top: 25%; left: 25%; right: 25%; bottom: 25%;
+      border-color: rgba(201, 162, 62, 0.04);
+      animation: rotate-slow 60s linear infinite reverse;
+    }
+
+    @keyframes pulse-ring {
+      0%, 100% { opacity: 1; transform: translate(-50%, -50%) scale(1); }
+      50% { opacity: 0.6; transform: translate(-50%, -50%) scale(1.03); }
+    }
+
+    @keyframes rotate-slow {
+      from { transform: rotate(0deg); }
+      to { transform: rotate(360deg); }
+    }
+
+    /* Cross lines inside ring */
+    .hero__cross {
+      position: absolute;
+      top: 50%; left: 50%;
+      transform: translate(-50%, -50%);
+      width: min(500px, 70vw);
+      height: min(500px, 70vw);
+      pointer-events: none;
+    }
+
+    .hero__cross::before,
+    .hero__cross::after {
+      content: '';
+      position: absolute;
+      background: rgba(201, 162, 62, 0.04);
+    }
+
+    .hero__cross::before {
+      top: 0; bottom: 0; left: 50%;
+      width: 1px;
+    }
+
+    .hero__cross::after {
+      left: 0; right: 0; top: 50%;
+      height: 1px;
+    }
+
+    .hero__content {
+      position: relative;
+      z-index: 2;
+      max-width: 760px;
+    }
+
+    .hero__brand {
+      font-family: var(--font-mono);
+      font-size: 0.7rem;
+      font-weight: 400;
+      letter-spacing: 5px;
+      text-transform: uppercase;
+      color: var(--gold);
+      margin-bottom: 40px;
+      opacity: 0.7;
+    }
+
+    .hero__title {
+      font-family: var(--font-display);
+      font-size: clamp(2.6rem, 6.5vw, 4.2rem);
+      font-weight: 600;
+      line-height: 1.1;
+      margin-bottom: 28px;
+      background: linear-gradient(180deg, var(--text) 40%, var(--gold-light) 100%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-clip: text;
+    }
+
+    .hero__subtitle {
+      font-size: clamp(1rem, 2vw, 1.15rem);
+      color: var(--text-soft);
+      max-width: 560px;
+      margin: 0 auto 16px;
+      line-height: 1.85;
+    }
+
+    .hero__meta {
+      font-family: var(--font-mono);
+      font-size: 0.72rem;
+      color: var(--text-muted);
+      letter-spacing: 2px;
+      margin-bottom: 44px;
+    }
+
+    .hero__meta span {
+      display: inline-block;
+      margin: 0 8px;
+    }
+
+    .hero__cta-wrap {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 16px;
+    }
+
+    /* ============================================
+       PAIN POINTS
+       ============================================ */
+    .pain-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+      gap: 20px;
+      margin-top: 48px;
+    }
+
+    .pain-card {
+      background: linear-gradient(135deg, rgba(14, 14, 36, 0.8), rgba(10, 10, 24, 0.9));
+      border: 1px solid rgba(107, 79, 160, 0.12);
+      border-radius: var(--radius);
+      padding: 36px 28px;
+      position: relative;
+      overflow: hidden;
+      transition: border-color 0.3s, transform 0.3s;
+    }
+
+    .pain-card:hover {
+      border-color: rgba(201, 162, 62, 0.25);
+      transform: translateY(-4px);
+    }
+
+    .pain-card::before {
+      content: '';
+      position: absolute;
+      top: 0; left: 0;
+      width: 100%; height: 3px;
+      background: linear-gradient(90deg, var(--red-aspect), transparent);
+      opacity: 0.5;
+    }
+
+    .pain-card__icon {
+      font-size: 1.8rem;
+      margin-bottom: 16px;
+      display: block;
+    }
+
+    .pain-card__quote {
+      font-family: var(--font-display);
+      font-style: italic;
+      font-size: 1.1rem;
+      color: var(--text);
+      margin-bottom: 14px;
+      line-height: 1.5;
+    }
+
+    .pain-card__text {
+      font-size: 0.9rem;
+      color: var(--text-muted);
+      line-height: 1.7;
+    }
+
+    /* ============================================
+       REFRAME / BRIDGE
+       ============================================ */
+    .reframe {
+      text-align: center;
+      padding: 100px 24px;
+      position: relative;
+    }
+
+    .reframe__line {
+      width: 1px;
+      height: 80px;
+      background: linear-gradient(180deg, transparent, var(--gold), transparent);
+      margin: 0 auto 48px;
+    }
+
+    .reframe__quote {
+      font-family: var(--font-display);
+      font-size: clamp(1.4rem, 3.5vw, 2.2rem);
+      font-weight: 400;
+      font-style: italic;
+      line-height: 1.4;
+      max-width: 700px;
+      margin: 0 auto 24px;
+      color: var(--gold-light);
+    }
+
+    .reframe__attribution {
+      font-family: var(--font-mono);
+      font-size: 0.72rem;
+      letter-spacing: 3px;
+      text-transform: uppercase;
+      color: var(--text-muted);
+    }
+
+    /* ============================================
+       METHOD / WHAT YOU'LL LEARN
+       ============================================ */
+    .method-visual {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 48px;
+      align-items: center;
+      margin-top: 56px;
+    }
+
+    .method-steps { display: flex; flex-direction: column; gap: 28px; }
+
+    .method-step {
+      display: flex;
+      gap: 20px;
+      align-items: flex-start;
+    }
+
+    .method-step__num {
+      font-family: var(--font-display);
+      font-size: 2.4rem;
+      font-weight: 700;
+      color: rgba(201, 162, 62, 0.15);
+      line-height: 1;
+      flex-shrink: 0;
+      width: 48px;
+      text-align: center;
+    }
+
+    .method-step__content h4 {
+      font-family: var(--font-display);
+      font-size: 1.1rem;
+      font-weight: 600;
+      color: var(--text);
+      margin-bottom: 6px;
+    }
+
+    .method-step__content p {
+      font-size: 0.9rem;
+      color: var(--text-soft);
+      line-height: 1.7;
+    }
+
+    /* Interactive Mandala Diagram */
+    .mandala-diagram {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      position: relative;
+    }
+
+    .mandala-svg-wrap {
+      width: 100%;
+      max-width: 420px;
+      aspect-ratio: 1;
+      position: relative;
+    }
+
+    .mandala-svg-wrap svg {
+      width: 100%;
+      height: 100%;
+    }
+
+    /* ============================================
+       MODULES / CURRICULUM
+       ============================================ */
+    .modules-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+      gap: 20px;
+      margin-top: 48px;
+    }
+
+    .module-card {
+      background: var(--bg-card);
+      border: 1px solid rgba(107, 79, 160, 0.1);
+      border-radius: var(--radius);
+      padding: 32px 28px;
+      transition: all 0.3s;
+      cursor: default;
+    }
+
+    .module-card:hover {
+      border-color: rgba(201, 162, 62, 0.2);
+      background: var(--bg-card-hover);
+    }
+
+    .module-card__header {
+      display: flex;
+      align-items: center;
+      gap: 14px;
+      margin-bottom: 16px;
+    }
+
+    .module-card__badge {
+      font-family: var(--font-mono);
+      font-size: 0.65rem;
+      font-weight: 700;
+      letter-spacing: 2px;
+      text-transform: uppercase;
+      color: var(--bg-void);
+      background: var(--gold);
+      padding: 4px 10px;
+      border-radius: 4px;
+      flex-shrink: 0;
+    }
+
+    .module-card__badge--bonus {
+      background: var(--purple);
+      color: #fff;
+    }
+
+    .module-card__title {
+      font-family: var(--font-display);
+      font-size: 1.15rem;
+      font-weight: 600;
+    }
+
+    .module-card__lessons {
+      list-style: none;
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+    }
+
+    .module-card__lessons li {
+      font-size: 0.88rem;
+      color: var(--text-soft);
+      display: flex;
+      align-items: flex-start;
+      gap: 10px;
+      line-height: 1.5;
+    }
+
+    .module-card__lessons li::before {
+      content: '◦';
+      color: var(--gold);
+      flex-shrink: 0;
+      margin-top: 1px;
+    }
+
+    .module-card__duration {
+      font-family: var(--font-mono);
+      font-size: 0.7rem;
+      color: var(--text-muted);
+      margin-top: 16px;
+      letter-spacing: 1px;
+    }
+
+    /* ============================================
+       SOCIAL PROOF / NUMBERS
+       ============================================ */
+    .proof-strip {
+      display: flex;
+      justify-content: center;
+      gap: 60px;
+      flex-wrap: wrap;
+      padding: 56px 24px;
+      border-top: 1px solid rgba(107, 79, 160, 0.08);
+      border-bottom: 1px solid rgba(107, 79, 160, 0.08);
+    }
+
+    .proof-item { text-align: center; }
+
+    .proof-item__number {
+      font-family: var(--font-display);
+      font-size: 2.4rem;
+      font-weight: 700;
+      color: var(--gold);
+      line-height: 1;
+      margin-bottom: 6px;
+    }
+
+    .proof-item__label {
+      font-size: 0.78rem;
+      color: var(--text-muted);
+      text-transform: uppercase;
+      letter-spacing: 2px;
+    }
+
+    /* ============================================
+       INSTRUCTOR
+       ============================================ */
+    .instructor {
+      display: grid;
+      grid-template-columns: auto 1fr;
+      gap: 40px;
+      align-items: center;
+      margin-top: 48px;
+    }
+
+    .instructor__avatar {
+      width: 160px;
+      height: 160px;
+      border-radius: 50%;
+      border: 2px solid rgba(201, 162, 62, 0.2);
+      background: var(--bg-card);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-family: var(--font-display);
+      font-size: 3rem;
+      color: var(--gold);
+    }
+
+    .instructor__name {
+      font-family: var(--font-display);
+      font-size: 1.4rem;
+      font-weight: 600;
+      margin-bottom: 8px;
+    }
+
+    .instructor__role {
+      font-family: var(--font-mono);
+      font-size: 0.72rem;
+      letter-spacing: 2px;
+      text-transform: uppercase;
+      color: var(--gold);
+      margin-bottom: 16px;
+    }
+
+    .instructor__bio {
+      font-size: 0.95rem;
+      color: var(--text-soft);
+      line-height: 1.8;
+    }
+
+    /* ============================================
+       PRICING
+       ============================================ */
+    /* Pricing Grid */
+    .pricing-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 24px;
+      max-width: 860px;
+      margin: 48px auto 0;
+      align-items: stretch;
+    }
+
+    @media (max-width: 768px) {
+      .pricing-grid { grid-template-columns: 1fr; max-width: 480px; }
+    }
+
+    .pricing-card {
+      background: linear-gradient(135deg, rgba(14, 14, 36, 0.9), rgba(20, 20, 50, 0.95));
+      border: 1.5px solid rgba(107, 79, 160, 0.15);
+      border-radius: var(--radius);
+      padding: 40px 32px;
+      text-align: center;
+      position: relative;
+      overflow: hidden;
+      display: flex;
+      flex-direction: column;
+    }
+
+    .pricing-card::before {
+      content: '';
+      position: absolute;
+      top: 0; left: 0; right: 0;
+      height: 3px;
+      background: linear-gradient(90deg, var(--purple), rgba(107, 79, 160, 0.3));
+    }
+
+    .pricing-card--featured {
+      border-color: rgba(201, 162, 62, 0.35);
+      transform: scale(1.03);
+    }
+
+    .pricing-card--featured::before {
+      background: linear-gradient(90deg, var(--gold), var(--purple), var(--gold));
+    }
+
+    .pricing-card__popular {
+      position: absolute;
+      top: 16px; right: -28px;
+      background: var(--gold);
+      color: var(--bg-void);
+      font-family: var(--font-mono);
+      font-size: 0.6rem;
+      font-weight: 700;
+      letter-spacing: 2px;
+      text-transform: uppercase;
+      padding: 5px 36px;
+      transform: rotate(35deg);
+    }
+
+    .pricing-card__label {
+      font-family: var(--font-mono);
+      font-size: 0.68rem;
+      letter-spacing: 3px;
+      text-transform: uppercase;
+      color: var(--gold);
+      margin-bottom: 16px;
+    }
+
+    .pricing-card__name {
+      font-family: var(--font-display);
+      font-size: 1.35rem;
+      font-weight: 600;
+      margin-bottom: 20px;
+      line-height: 1.3;
+    }
+
+    .pricing-card__includes {
+      list-style: none;
+      text-align: left;
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+      margin-bottom: 28px;
+      flex-grow: 1;
+    }
+
+    .pricing-card__includes li {
+      font-size: 0.88rem;
+      color: var(--text-soft);
+      display: flex;
+      align-items: flex-start;
+      gap: 10px;
+      line-height: 1.5;
+    }
+
+    .pricing-card__includes li::before {
+      content: '✦';
+      color: var(--gold);
+      font-size: 0.65rem;
+      flex-shrink: 0;
+      margin-top: 4px;
+    }
+
+    .pricing-card__includes li.highlight {
+      color: var(--gold-light);
+      font-weight: 500;
+    }
+
+    .pricing-card__includes li.highlight::before {
+      content: '★';
+    }
+
+    .pricing-card__divider {
+      width: 60px;
+      height: 1px;
+      background: rgba(201, 162, 62, 0.2);
+      margin: 0 auto 24px;
+    }
+
+    .pricing-card__price-wrap {
+      margin-bottom: 8px;
+    }
+
+    .pricing-card__price {
+      font-family: var(--font-display);
+      font-size: 2.6rem;
+      font-weight: 700;
+      color: var(--gold-bright);
+      line-height: 1;
+    }
+
+    .pricing-card__price small {
+      font-size: 1rem;
+      font-weight: 400;
+    }
+
+    .pricing-card--featured .pricing-card__price {
+      font-size: 3rem;
+    }
+
+    .pricing-card__installments {
+      font-size: 0.82rem;
+      color: var(--text-soft);
+      margin-bottom: 28px;
+    }
+
+    .pricing-card__guarantee {
+      font-size: 0.78rem;
+      color: var(--text-muted);
+      margin-top: 16px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 8px;
+    }
+
+    /* ============================================
+       FAQ
+       ============================================ */
+    .faq-list {
+      max-width: 700px;
+      margin: 48px auto 0;
+      display: flex;
+      flex-direction: column;
+      gap: 12px;
+    }
+
+    .faq-item {
+      border: 1px solid rgba(107, 79, 160, 0.1);
+      border-radius: var(--radius-sm);
+      overflow: hidden;
+      background: var(--bg-card);
+    }
+
+    .faq-item__question {
+      width: 100%;
+      background: none;
+      border: none;
+      padding: 22px 28px;
+      text-align: left;
+      font-family: var(--font-body);
+      font-size: 0.98rem;
+      font-weight: 600;
+      color: var(--text);
+      cursor: pointer;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      transition: color 0.2s;
+    }
+
+    .faq-item__question:hover { color: var(--gold); }
+
+    .faq-item__question::after {
+      content: '+';
+      font-size: 1.4rem;
+      color: var(--gold);
+      transition: transform 0.3s;
+      flex-shrink: 0;
+      margin-left: 16px;
+    }
+
+    .faq-item.open .faq-item__question::after {
+      transform: rotate(45deg);
+    }
+
+    .faq-item__answer {
+      max-height: 0;
+      overflow: hidden;
+      transition: max-height 0.4s ease, padding 0.3s ease;
+    }
+
+    .faq-item.open .faq-item__answer {
+      max-height: 300px;
+      padding: 0 28px 22px;
+    }
+
+    .faq-item__answer p {
+      font-size: 0.9rem;
+      color: var(--text-soft);
+      line-height: 1.8;
+    }
+
+    /* ============================================
+       FINAL CTA
+       ============================================ */
+    .final-cta {
+      text-align: center;
+      padding: 120px 24px;
+      position: relative;
+    }
+
+    .final-cta__glow {
+      position: absolute;
+      top: 50%; left: 50%;
+      transform: translate(-50%, -50%);
+      width: 500px;
+      height: 500px;
+      background: radial-gradient(circle, rgba(201, 162, 62, 0.06) 0%, transparent 70%);
+      pointer-events: none;
+    }
+
+    .final-cta__title {
+      font-family: var(--font-display);
+      font-size: clamp(1.8rem, 4vw, 2.8rem);
+      font-weight: 600;
+      line-height: 1.2;
+      margin-bottom: 20px;
+      position: relative;
+    }
+
+    .final-cta__text {
+      font-size: 1.05rem;
+      color: var(--text-soft);
+      max-width: 540px;
+      margin: 0 auto 40px;
+      line-height: 1.8;
+    }
+
+    /* ============================================
+       FOOTER
+       ============================================ */
+    .footer {
+      padding: 40px 24px;
+      border-top: 1px solid rgba(107, 79, 160, 0.06);
+      text-align: center;
+    }
+
+    .footer__brand {
+      font-family: var(--font-mono);
+      font-size: 0.68rem;
+      letter-spacing: 4px;
+      text-transform: uppercase;
+      color: var(--text-muted);
+      margin-bottom: 8px;
+    }
+
+    .footer__legal {
+      font-size: 0.75rem;
+      color: var(--text-muted);
+      opacity: 0.6;
+    }
+
+    /* ============================================
+       RESPONSIVE
+       ============================================ */
+    @media (max-width: 768px) {
+      .section { padding: 72px 0; }
+      .method-visual { grid-template-columns: 1fr; gap: 40px; }
+      .mandala-diagram { order: -1; }
+      .mandala-svg-wrap { max-width: 280px; margin: 0 auto; }
+      .instructor { grid-template-columns: 1fr; text-align: center; justify-items: center; }
+      .pricing-card { padding: 36px 24px; }
+      .proof-strip { gap: 36px; }
+      .hero__meta span { display: block; margin: 4px 0; }
+    }
+
+    @media (max-width: 480px) {
+      .pain-grid { grid-template-columns: 1fr; }
+      .modules-grid { grid-template-columns: 1fr; }
+      .cta-btn { padding: 16px 36px; font-size: 0.9rem; }
+    }
+
+    /* ============================================
+       ANIMATIONS
+       ============================================ */
+    .fade-in {
+      opacity: 0;
+      transform: translateY(24px);
+      transition: opacity 0.7s ease, transform 0.7s ease;
+    }
+
+    .fade-in.visible {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  </style>
+</head>
+<body>
+
+<!-- STARFIELD BACKGROUND -->
+<canvas id="starfield"></canvas>
+
+<div class="page-content">
+
+  <!-- ==========================================
+       HERO
+       ========================================== -->
+  <section class="hero">
+    <div class="hero__cosmic-ring"></div>
+    <div class="hero__cross"></div>
+
+    <div class="hero__content fade-in">
+      <div class="hero__brand">Película Sideral apresenta</div>
+
+      <h1 class="hero__title">Decifrando o<br>Mapa Astral</h1>
+
+      <p class="hero__subtitle">
+        Você não precisa de dom. Não precisa de anos de estudo.<br>
+        Precisa de um método visual que transforme símbolos em linguagem.
+      </p>
+
+      <p class="hero__meta">
+        <span>23 videoaulas</span>
+        <span>·</span>
+        <span>~2h de conteúdo</span>
+        <span>·</span>
+        <span>Acesso imediato</span>
+      </p>
+
+      <div class="hero__cta-wrap">
+        <a href="#preco" class="cta-btn">Quero decifrar meu mapa</a>
+        <p class="cta-micro">Garantia incondicional de 7 dias</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================
+       PAIN POINTS
+       ========================================== -->
+  <section class="section section--alt">
+    <div class="container">
+      <div class="text-center fade-in">
+        <div class="section-label">O problema</div>
+        <h2 class="section-title">Você já tentou ler seu mapa astral?</h2>
+        <p class="section-subtitle centered">
+          A maioria das pessoas abre o mapa, vê um emaranhado de símbolos e linhas coloridas, e fecha a aba. Você não é exceção.
+        </p>
+      </div>
+
+      <div class="pain-grid">
+        <div class="pain-card fade-in">
+          <span class="pain-card__icon">◯</span>
+          <p class="pain-card__quote">"Gerei meu mapa no Astro.com e parecia uma placa de circuito alienígena."</p>
+          <p class="pain-card__text">Os símbolos parecem arbitrários. As linhas não fazem sentido. Você não sabe por onde começar.</p>
+        </div>
+        <div class="pain-card fade-in">
+          <span class="pain-card__icon">☽</span>
+          <p class="pain-card__quote">"Li dezenas de artigos e cada um dizia algo diferente."</p>
+          <p class="pain-card__text">Sem uma estrutura de leitura, você fica pulando de fragmento em fragmento sem montar o quebra-cabeça.</p>
+        </div>
+        <div class="pain-card fade-in">
+          <span class="pain-card__icon">✚</span>
+          <p class="pain-card__quote">"Decorei que sou de Leão com Lua em Peixes, mas não sei o que fazer com isso."</p>
+          <p class="pain-card__text">Saber o signo solar é como saber que existe um mapa do metrô. Não é a mesma coisa que saber usá-lo.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================
+       REFRAME
+       ========================================== -->
+  <section class="reframe fade-in">
+    <div class="reframe__line"></div>
+    <p class="reframe__quote">
+      "O mapa astral não é o céu.<br>
+      É um diagrama. E diagramas<br>
+      se aprendem a ler."
+    </p>
+    <p class="reframe__attribution">— Premissa central do curso</p>
+  </section>
+
+  <!-- ==========================================
+       METHOD
+       ========================================== -->
+  <section class="section section--alt">
+    <div class="container">
+      <div class="text-center fade-in">
+        <div class="section-label">O método</div>
+        <h2 class="section-title">5 passos para ler qualquer mapa</h2>
+        <p class="section-subtitle centered">
+          Um algoritmo visual. Não decoreba, não misticismo. Um método repetível que funciona com qualquer mapa, de qualquer pessoa.
+        </p>
+      </div>
+
+      <div class="method-visual">
+        <div class="method-steps">
+          <div class="method-step fade-in">
+            <div class="method-step__num">1</div>
+            <div class="method-step__content">
+              <h4>Ancoragem</h4>
+              <p>Encontre o Ascendente e seu regente. Essa é sua bússola — mostra para onde a vida inteira tende a se direcionar.</p>
+            </div>
+          </div>
+          <div class="method-step fade-in">
+            <div class="method-step__num">2</div>
+            <div class="method-step__content">
+              <h4>Luminares</h4>
+              <p>Localize Sol e Lua. A vontade consciente e a segurança emocional. Como eles conversam entre si?</p>
+            </div>
+          </div>
+          <div class="method-step fade-in">
+            <div class="method-step__num">3</div>
+            <div class="method-step__content">
+              <h4>Gestalt</h4>
+              <p>Olhe o desenho geral. Planetas concentrados ou espalhados? Qual hemisfério pesa mais? Tem figura geométrica?</p>
+            </div>
+          </div>
+          <div class="method-step fade-in">
+            <div class="method-step__num">4</div>
+            <div class="method-step__content">
+              <h4>Tensão Principal</h4>
+              <p>A linha vermelha mais exata. Esse é provavelmente o conflito central que a pessoa está sempre tentando resolver.</p>
+            </div>
+          </div>
+          <div class="method-step fade-in">
+            <div class="method-step__num">5</div>
+            <div class="method-step__content">
+              <h4>Síntese</h4>
+              <p>Junte tudo numa frase. Pronto: você acabou de fazer uma leitura estruturada de um mapa astral.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="mandala-diagram fade-in">
+          <div class="mandala-svg-wrap">
+            <svg viewBox="0 0 400 400" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <!-- Outer zodiac ring -->
+              <circle cx="200" cy="200" r="185" stroke="rgba(201,162,62,0.15)" stroke-width="1"/>
+              <circle cx="200" cy="200" r="170" stroke="rgba(201,162,62,0.08)" stroke-width="1"/>
+              <!-- House divisions (12 lines) -->
+              <g stroke="rgba(107,79,160,0.12)" stroke-width="0.5">
+                <line x1="200" y1="15" x2="200" y2="385"/>
+                <line x1="15" y1="200" x2="385" y2="200"/>
+                <line x1="66" y1="66" x2="334" y2="334"/>
+                <line x1="334" y1="66" x2="66" y2="334"/>
+                <line x1="30" y1="107" x2="370" y2="293"/>
+                <line x1="370" y1="107" x2="30" y2="293"/>
+                <line x1="107" y1="30" x2="293" y2="370"/>
+                <line x1="293" y1="30" x2="107" y2="370"/>
+              </g>
+              <!-- Inner aspect circle -->
+              <circle cx="200" cy="200" r="130" stroke="rgba(201,162,62,0.06)" stroke-width="0.5"/>
+              <!-- Aspect lines (tension/harmony) -->
+              <line x1="130" y1="95" x2="280" y2="290" stroke="rgba(194,91,91,0.35)" stroke-width="1.5"/>
+              <line x1="280" y1="95" x2="130" y2="290" stroke="rgba(194,91,91,0.25)" stroke-width="1"/>
+              <line x1="100" y1="200" x2="260" y2="100" stroke="rgba(91,126,194,0.3)" stroke-width="1.5"/>
+              <line x1="260" y1="100" x2="300" y2="270" stroke="rgba(91,126,194,0.25)" stroke-width="1"/>
+              <line x1="300" y1="270" x2="100" y2="200" stroke="rgba(91,126,194,0.2)" stroke-width="1"/>
+              <line x1="150" y1="290" x2="300" y2="150" stroke="rgba(91,194,126,0.2)" stroke-width="1" stroke-dasharray="4 3"/>
+              <!-- Planet dots -->
+              <circle cx="130" cy="95" r="6" fill="rgba(201,162,62,0.8)"/>
+              <circle cx="280" cy="95" r="4" fill="rgba(155,127,212,0.7)"/>
+              <circle cx="260" cy="100" r="5" fill="rgba(91,126,194,0.7)"/>
+              <circle cx="100" cy="200" r="7" fill="rgba(232,201,106,0.9)"/>
+              <circle cx="280" cy="290" r="5" fill="rgba(194,91,91,0.7)"/>
+              <circle cx="300" cy="270" r="4" fill="rgba(91,194,126,0.6)"/>
+              <circle cx="150" cy="290" r="4" fill="rgba(155,127,212,0.5)"/>
+              <circle cx="300" cy="150" r="5" fill="rgba(201,162,62,0.6)"/>
+              <!-- Center point (You) -->
+              <circle cx="200" cy="200" r="3" fill="var(--gold)"/>
+              <circle cx="200" cy="200" r="8" stroke="rgba(201,162,62,0.2)" stroke-width="0.5" fill="none"/>
+              <!-- Labels AC / MC -->
+              <text x="8" y="204" fill="rgba(201,162,62,0.4)" font-family="Space Mono, monospace" font-size="9" letter-spacing="1">AC</text>
+              <text x="192" y="12" fill="rgba(201,162,62,0.4)" font-family="Space Mono, monospace" font-size="9" letter-spacing="1">MC</text>
+              <text x="375" y="204" fill="rgba(201,162,62,0.4)" font-family="Space Mono, monospace" font-size="9" letter-spacing="1">DC</text>
+              <text x="192" y="398" fill="rgba(201,162,62,0.4)" font-family="Space Mono, monospace" font-size="9" letter-spacing="1">IC</text>
+            </svg>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================
+       PROOF STRIP
+       ========================================== -->
+  <div class="proof-strip fade-in">
+    <div class="proof-item">
+      <div class="proof-item__number">23</div>
+      <div class="proof-item__label">Videoaulas</div>
+    </div>
+    <div class="proof-item">
+      <div class="proof-item__number">6</div>
+      <div class="proof-item__label">Módulos</div>
+    </div>
+    <div class="proof-item">
+      <div class="proof-item__number">~2h</div>
+      <div class="proof-item__label">De conteúdo</div>
+    </div>
+    <div class="proof-item">
+      <div class="proof-item__number">5</div>
+      <div class="proof-item__label">Passos do método</div>
+    </div>
+  </div>
+
+  <!-- ==========================================
+       CURRICULUM
+       ========================================== -->
+  <section class="section">
+    <div class="container">
+      <div class="text-center fade-in">
+        <div class="section-label">Conteúdo completo</div>
+        <h2 class="section-title">O que você vai aprender</h2>
+        <p class="section-subtitle centered">
+          De "não entendo nada" a "consigo escanear qualquer mapa e montar uma síntese" em 6 módulos progressivos.
+        </p>
+      </div>
+
+      <div class="modules-grid">
+        <!-- Intro -->
+        <div class="module-card fade-in">
+          <div class="module-card__header">
+            <span class="module-card__badge">Intro</span>
+            <span class="module-card__title">A Astrologia como Design</span>
+          </div>
+          <ul class="module-card__lessons">
+            <li>O mapa não é o céu — é uma representação</li>
+            <li>Por que a mandala é circular (e era quadrada)</li>
+            <li>O setup visual: Astro.com vs. softwares profissionais</li>
+          </ul>
+          <div class="module-card__duration">3 aulas · ~19 min</div>
+        </div>
+
+        <!-- Module 1 -->
+        <div class="module-card fade-in">
+          <div class="module-card__header">
+            <span class="module-card__badge">Mod 1</span>
+            <span class="module-card__title">O Palco — Estrutura do Espaço</span>
+          </div>
+          <ul class="module-card__lessons">
+            <li>As 3 camadas concêntricas do mapa</li>
+            <li>A bússola invertida: por que o Leste fica à esquerda</li>
+            <li>Os 4 pilares: Ascendente, Descendente, MC e IC</li>
+          </ul>
+          <div class="module-card__duration">3 aulas · ~19 min</div>
+        </div>
+
+        <!-- Module 2 -->
+        <div class="module-card fade-in">
+          <div class="module-card__header">
+            <span class="module-card__badge">Mod 2</span>
+            <span class="module-card__title">Os Atores — Semiótica dos Glifos</span>
+          </div>
+          <ul class="module-card__lessons">
+            <li>Os 3 blocos primordiais: Círculo, Crescente e Cruz</li>
+            <li>Decodificando Sol, Lua, Mercúrio, Vênus e Marte</li>
+            <li>Júpiter, Saturno e os transpessoais</li>
+            <li>Nodos Lunares, Lilith e Parte da Fortuna</li>
+          </ul>
+          <div class="module-card__duration">4 aulas · ~27 min</div>
+        </div>
+
+        <!-- Module 3 -->
+        <div class="module-card fade-in">
+          <div class="module-card__header">
+            <span class="module-card__badge">Mod 3</span>
+            <span class="module-card__title">A Arquitetura — As Casas</span>
+          </div>
+          <ul class="module-card__lessons">
+            <li>As "fatias de pizza": cúspides e numeração</li>
+            <li>Placidus vs. Signos Inteiros — qual usar?</li>
+            <li>O fenômeno da interceptação</li>
+          </ul>
+          <div class="module-card__duration">4 aulas · ~11 min</div>
+        </div>
+
+        <!-- Module 4 -->
+        <div class="module-card fade-in">
+          <div class="module-card__header">
+            <span class="module-card__badge">Mod 4</span>
+            <span class="module-card__title">A Trama — Aspectos e Geometria</span>
+          </div>
+          <ul class="module-card__lessons">
+            <li>O código de cores: vermelho, azul e verde</li>
+            <li>Grande Trígono, T-Square, Yod e Stellium</li>
+            <li>Orbe e intensidade: como pesar cada linha</li>
+          </ul>
+          <div class="module-card__duration">3 aulas · ~19 min</div>
+        </div>
+
+        <!-- Module 5 -->
+        <div class="module-card fade-in">
+          <div class="module-card__header">
+            <span class="module-card__badge">Mod 5</span>
+            <span class="module-card__title">As Legendas — Rodapé Técnico</span>
+          </div>
+          <ul class="module-card__lessons">
+            <li>Lendo graus, minutos e segundos de arco</li>
+            <li>Retrógrado, estacionário e os sufixos de estado</li>
+            <li>Tabela de elementos e modalidades</li>
+          </ul>
+          <div class="module-card__duration">3 aulas · ~6 min</div>
+        </div>
+
+        <!-- Module 6 -->
+        <div class="module-card fade-in">
+          <div class="module-card__header">
+            <span class="module-card__badge">Mod 6</span>
+            <span class="module-card__title">O Algoritmo — Prática</span>
+          </div>
+          <ul class="module-card__lessons">
+            <li>O método de 5 passos na prática</li>
+            <li>Prática guiada: decodificando o mapa de Frida Kahlo</li>
+            <li>Agora é com você: leia seu próprio mapa</li>
+          </ul>
+          <div class="module-card__duration">3 aulas · ~17 min</div>
+        </div>
+
+        <!-- Bonus -->
+        <div class="module-card fade-in">
+          <div class="module-card__header">
+            <span class="module-card__badge module-card__badge--bonus">Bônus</span>
+            <span class="module-card__title">Materiais de Apoio</span>
+          </div>
+          <ul class="module-card__lessons">
+            <li>Glossário Visual em PDF com todos os glifos</li>
+            <li>Checklist de Decodificação para imprimir</li>
+          </ul>
+          <div class="module-card__duration">2 materiais complementares</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================
+       INSTRUCTOR
+       ========================================== -->
+  <section class="section section--alt">
+    <div class="container">
+      <div class="text-center fade-in">
+        <div class="section-label">Quem ensina</div>
+        <h2 class="section-title">A Comunidade Película Sideral</h2>
+      </div>
+
+      <div class="instructor fade-in">
+        <div class="instructor__avatar">☿</div>
+        <div>
+          <h3 class="instructor__name">Película Sideral</h3>
+          <div class="instructor__role">Comunidade de Astrologia e Cinema Documental</div>
+          <p class="instructor__bio">
+            A Película Sideral é um projeto na interseção entre astrologia, cinema documental e expansão de consciência.
+            Nosso foco é usar a linguagem visual — a mesma que dá poder ao cinema — para descomplicar a astrologia.
+            Porque antes de interpretar, você precisa enxergar. E enxergar é uma habilidade, não um dom.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================
+       PRICING
+       ========================================== -->
+  <section class="section" id="preco">
+    <div class="container">
+      <div class="text-center fade-in">
+        <div class="section-label">Investimento</div>
+        <h2 class="section-title">Comece a ler o céu hoje</h2>
+      </div>
+
+      <div class="pricing-grid">
+
+        <!-- CARD 1: Curso Solo -->
+        <div class="pricing-card fade-in">
+          <div class="pricing-card__label">Curso</div>
+          <h3 class="pricing-card__name">Decifrando o<br>Mapa Astral</h3>
+
+          <ul class="pricing-card__includes">
+            <li>23 videoaulas gravadas (~2h de conteúdo)</li>
+            <li>6 módulos progressivos</li>
+            <li>Método Visual de 5 Passos</li>
+            <li>Glossário Visual em PDF</li>
+            <li>Checklist de Decodificação</li>
+            <li class="highlight">Bônus: Curso "Introdução à Astrologia"</li>
+            <li>Acesso vitalício</li>
+          </ul>
+
+          <div class="pricing-card__divider"></div>
+
+          <div class="pricing-card__price-wrap">
+            <p class="pricing-card__price"><small>R$</small> 147</p>
+          </div>
+          <p class="pricing-card__installments">ou 12x de R$ 14,23</p>
+
+          <!-- SUBSTITUA PELO LINK DA KIWIFY -->
+          <a href="https://pay.kiwify.com.br/SEU-LINK-CURSO" class="cta-btn cta-btn--ghost" style="width: 100%; text-align: center;">
+            Quero o curso
+          </a>
+
+          <p class="pricing-card__guarantee">
+            🛡 Garantia de 7 dias
+          </p>
+        </div>
+
+        <!-- CARD 2: Pacote Completo -->
+        <div class="pricing-card pricing-card--featured fade-in">
+          <div class="pricing-card__popular">Melhor oferta</div>
+          <div class="pricing-card__label">Pacote Completo</div>
+          <h3 class="pricing-card__name">Cursos + Comunidade<br>Película Sideral</h3>
+
+          <ul class="pricing-card__includes">
+            <li>Tudo do plano Curso (ao lado)</li>
+            <li class="highlight">Comunidade Película Sideral no Substack por 1 ano</li>
+            <li class="highlight">Conteúdos exclusivos da comunidade</li>
+            <li>Troca com outros estudantes</li>
+            <li>Acesso a publicações e análises periódicas</li>
+            <li>Acesso vitalício aos cursos</li>
+          </ul>
+
+          <div class="pricing-card__divider"></div>
+
+          <div class="pricing-card__price-wrap">
+            <p class="pricing-card__price"><small>R$</small> 297</p>
+          </div>
+          <p class="pricing-card__installments">ou 12x de R$ 28,76</p>
+
+          <!-- SUBSTITUA PELO LINK DA KIWIFY -->
+          <a href="https://pay.kiwify.com.br/SEU-LINK-PACOTE" class="cta-btn" style="width: 100%; text-align: center;">
+            Quero o pacote completo
+          </a>
+
+          <p class="pricing-card__guarantee">
+            🛡 Garantia incondicional de 7 dias
+          </p>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================
+       FAQ
+       ========================================== -->
+  <section class="section section--alt">
+    <div class="container">
+      <div class="text-center fade-in">
+        <div class="section-label">Dúvidas</div>
+        <h2 class="section-title">Perguntas frequentes</h2>
+      </div>
+
+      <div class="faq-list">
+        <div class="faq-item fade-in">
+          <button class="faq-item__question">Preciso saber algo de astrologia antes?</button>
+          <div class="faq-item__answer">
+            <p>Não. O curso foi desenhado para quem olha para o mapa e não entende nada. Começamos literalmente explicando por que o mapa é redondo. Se você sabe que é de Leão, já sabe mais do que o necessário para começar.</p>
+          </div>
+        </div>
+        <div class="faq-item fade-in">
+          <button class="faq-item__question">Vou sair do curso fazendo consultas profissionais?</button>
+          <div class="faq-item__answer">
+            <p>O objetivo é te tornar um leitor competente do mapa — alguém que olha para a mandala e entende a estrutura, os símbolos e as relações. A interpretação profissional é o próximo passo, e este curso é o alicerce.</p>
+          </div>
+        </div>
+        <div class="faq-item fade-in">
+          <button class="faq-item__question">Por quanto tempo tenho acesso?</button>
+          <div class="faq-item__answer">
+            <p>Acesso vitalício. Comprou, é seu. Assista no seu ritmo, quantas vezes quiser.</p>
+          </div>
+        </div>
+        <div class="faq-item fade-in">
+          <button class="faq-item__question">As aulas são ao vivo ou gravadas?</button>
+          <div class="faq-item__answer">
+            <p>Gravadas. São 23 videoaulas divididas em 6 módulos, com cerca de 2 horas de conteúdo total. Você acessa imediatamente após a compra e assiste quando quiser.</p>
+          </div>
+        </div>
+        <div class="faq-item fade-in">
+          <button class="faq-item__question">E se eu não gostar?</button>
+          <div class="faq-item__answer">
+            <p>Você tem 7 dias de garantia incondicional. Se assistir e achar que não era o que esperava, basta pedir o reembolso pela Kiwify. Sem perguntas, sem burocracia.</p>
+          </div>
+        </div>
+        <div class="faq-item fade-in">
+          <button class="faq-item__question">Qual a diferença deste curso para os outros de astrologia?</button>
+          <div class="faq-item__answer">
+            <p>A maioria dos cursos ensina interpretação antes de ensinar leitura. É como tentar analisar um filme sem saber o que é um plano-sequência. Nós ensinamos a enxergar o mapa como um diagrama visual primeiro — cada símbolo, cada cor, cada forma. Depois, a interpretação vem naturalmente.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================
+       FINAL CTA
+       ========================================== -->
+  <section class="final-cta">
+    <div class="final-cta__glow"></div>
+    <div class="container" style="position: relative;">
+      <div class="fade-in">
+        <h2 class="final-cta__title">
+          O mapa não é mistério.<br>
+          É uma linguagem.
+        </h2>
+        <p class="final-cta__text">
+          Quando você começou a ler, as letras também eram símbolos sem sentido.
+          O mapa astral é a mesma coisa. A diferença é que ninguém te ensinou o alfabeto — até agora.
+        </p>
+        <a href="#preco" class="cta-btn">Quero aprender a ler o céu</a>
+        <p class="cta-micro">23 aulas · Acesso imediato · Garantia de 7 dias</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================
+       FOOTER
+       ========================================== -->
+  <footer class="footer">
+    <p class="footer__brand">Película Sideral</p>
+    <p class="footer__legal">Todos os direitos reservados · Película Sideral © 2026</p>
+  </footer>
+
+</div><!-- /page-content -->
+
+<!-- ============================================
+     SCRIPTS
+     ============================================ -->
+<script>
+// ========== STARFIELD ==========
+(function() {
+  const canvas = document.getElementById('starfield');
+  const ctx = canvas.getContext('2d');
+  let stars = [];
+  let shootingStars = [];
+  const STAR_COUNT = 200;
+
+  function resize() {
+    canvas.width = window.innerWidth;
+    canvas.height = window.innerHeight;
+  }
+
+  function createStars() {
+    stars = [];
+    for (let i = 0; i < STAR_COUNT; i++) {
+      stars.push({
+        x: Math.random() * canvas.width,
+        y: Math.random() * canvas.height,
+        r: Math.random() * 1.2 + 0.3,
+        alpha: Math.random() * 0.6 + 0.2,
+        twinkleSpeed: Math.random() * 0.015 + 0.005,
+        twinklePhase: Math.random() * Math.PI * 2
+      });
+    }
+  }
+
+  function maybeAddShootingStar() {
+    if (Math.random() < 0.003 && shootingStars.length < 2) {
+      shootingStars.push({
+        x: Math.random() * canvas.width * 0.7,
+        y: Math.random() * canvas.height * 0.4,
+        len: Math.random() * 80 + 40,
+        speed: Math.random() * 4 + 3,
+        angle: Math.PI / 4 + (Math.random() - 0.5) * 0.3,
+        alpha: 1,
+        life: 0
+      });
+    }
+  }
+
+  function draw(time) {
+    ctx.clearRect(0, 0, canvas.width, canvas.height);
+
+    // Stars
+    for (const s of stars) {
+      const a = s.alpha + Math.sin(time * s.twinkleSpeed + s.twinklePhase) * 0.2;
+      ctx.beginPath();
+      ctx.arc(s.x, s.y, s.r, 0, Math.PI * 2);
+      ctx.fillStyle = `rgba(220, 215, 200, ${Math.max(0.05, a)})`;
+      ctx.fill();
+    }
+
+    // Shooting stars
+    for (let i = shootingStars.length - 1; i >= 0; i--) {
+      const ss = shootingStars[i];
+      ss.x += Math.cos(ss.angle) * ss.speed;
+      ss.y += Math.sin(ss.angle) * ss.speed;
+      ss.life++;
+      ss.alpha = Math.max(0, 1 - ss.life / 40);
+
+      if (ss.alpha <= 0) { shootingStars.splice(i, 1); continue; }
+
+      const tailX = ss.x - Math.cos(ss.angle) * ss.len;
+      const tailY = ss.y - Math.sin(ss.angle) * ss.len;
+      const grad = ctx.createLinearGradient(tailX, tailY, ss.x, ss.y);
+      grad.addColorStop(0, `rgba(201, 162, 62, 0)`);
+      grad.addColorStop(1, `rgba(201, 162, 62, ${ss.alpha * 0.6})`);
+
+      ctx.beginPath();
+      ctx.moveTo(tailX, tailY);
+      ctx.lineTo(ss.x, ss.y);
+      ctx.strokeStyle = grad;
+      ctx.lineWidth = 1.5;
+      ctx.stroke();
+    }
+
+    maybeAddShootingStar();
+    requestAnimationFrame(draw);
+  }
+
+  resize();
+  createStars();
+  requestAnimationFrame(draw);
+  window.addEventListener('resize', () => { resize(); createStars(); });
+})();
+
+// ========== SCROLL ANIMATIONS ==========
+(function() {
+  const observer = new IntersectionObserver((entries) => {
+    entries.forEach(entry => {
+      if (entry.isIntersecting) {
+        entry.target.classList.add('visible');
+      }
+    });
+  }, { threshold: 0.15 });
+
+  document.querySelectorAll('.fade-in').forEach(el => observer.observe(el));
+})();
+
+// ========== FAQ ACCORDION ==========
+(function() {
+  document.querySelectorAll('.faq-item__question').forEach(btn => {
+    btn.addEventListener('click', () => {
+      const item = btn.parentElement;
+      const wasOpen = item.classList.contains('open');
+      // Close all
+      document.querySelectorAll('.faq-item').forEach(i => i.classList.remove('open'));
+      // Toggle current
+      if (!wasOpen) item.classList.add('open');
+    });
+  });
+})();
+</script>
+
+</body>
+</html>
