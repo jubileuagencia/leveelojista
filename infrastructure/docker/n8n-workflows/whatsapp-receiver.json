@@ -1,0 +1,440 @@
+{
+  "name": "WhatsApp Receiver — Comandos",
+  "nodes": [
+    {
+      "parameters": {
+        "httpMethod": "POST",
+        "path": "whatsapp-receiver",
+        "options": {}
+      },
+      "id": "d1b2c3d4-0004-4000-a000-000000000001",
+      "name": "Webhook WhatsApp",
+      "type": "n8n-nodes-base.webhook",
+      "typeVersion": 2,
+      "position": [240, 400]
+    },
+    {
+      "parameters": {
+        "jsCode": "const body = $input.first().json.body || $input.first().json;\n\n// Evolution API v2 envia eventos com estrutura:\n// { event: 'messages.upsert', data: { key: {...}, message: {...}, ... } }\nconst event = body.event;\nconst data = body.data || body;\n\n// Ignorar eventos que não são mensagens\nif (event && event !== 'messages.upsert') {\n  return [];\n}\n\n// Extrair mensagem\nconst message = data.message;\nif (!message) return [];\n\n// Texto da mensagem (pode vir de conversation ou extendedTextMessage)\nconst text = message.conversation \n  || message.extendedTextMessage?.text \n  || '';\n\nif (!text || !text.trim()) return [];\n\n// Info do remetente\nconst remoteJid = data.key?.remoteJid || '';\nconst fromMe = data.key?.fromMe || false;\nconst participant = data.key?.participant || remoteJid;\nconst pushName = data.pushName || 'Desconhecido';\nconst isGroup = remoteJid.endsWith('@g.us');\n\n// Detectar comando (case insensitive, trim)\nconst cleanText = text.trim().toLowerCase();\n\nlet command = 'none';\nlet args = '';\n\nif (cleanText.startsWith('status projeto')) {\n  command = 'status_projeto';\n  args = text.trim().substring('status projeto'.length).trim();\n} else if (cleanText === 'tarefas pendentes') {\n  command = 'tarefas_pendentes';\n} else if (cleanText === 'briefing da semana') {\n  command = 'briefing_semana';\n} else if (cleanText === 'resumo diario' || cleanText === 'resumo diário') {\n  command = 'resumo_diario';\n} else if (cleanText === 'ajuda' || cleanText === 'help') {\n  command = 'ajuda';\n}\n\nreturn [{\n  json: {\n    command,\n    args,\n    originalText: text.trim(),\n    remoteJid,\n    participant,\n    pushName,\n    isGroup,\n    fromMe\n  }\n}];"
+      },
+      "id": "d1b2c3d4-0004-4000-a000-000000000002",
+      "name": "Parse Message",
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [460, 400]
+    },
+    {
+      "parameters": {
+        "rules": {
+          "values": [
+            {
+              "conditions": {
+                "options": { "caseSensitive": false, "leftValue": "", "typeValidation": "loose" },
+                "conditions": [
+                  { "leftValue": "={{ $json.command }}", "rightValue": "none", "operator": { "type": "string", "operation": "equals" } }
+                ]
+              },
+              "renameOutput": "Ignorar"
+            },
+            {
+              "conditions": {
+                "options": { "caseSensitive": false, "leftValue": "", "typeValidation": "loose" },
+                "conditions": [
+                  { "leftValue": "={{ $json.command }}", "rightValue": "ajuda", "operator": { "type": "string", "operation": "equals" } }
+                ]
+              },
+              "renameOutput": "Ajuda"
+            },
+            {
+              "conditions": {
+                "options": { "caseSensitive": false, "leftValue": "", "typeValidation": "loose" },
+                "conditions": [
+                  { "leftValue": "={{ $json.command }}", "rightValue": "tarefas_pendentes", "operator": { "type": "string", "operation": "equals" } }
+                ]
+              },
+              "renameOutput": "Tarefas Pendentes"
+            },
+            {
+              "conditions": {
+                "options": { "caseSensitive": false, "leftValue": "", "typeValidation": "loose" },
+                "conditions": [
+                  { "leftValue": "={{ $json.command }}", "rightValue": "status_projeto", "operator": { "type": "string", "operation": "equals" } }
+                ]
+              },
+              "renameOutput": "Status Projeto"
+            },
+            {
+              "conditions": {
+                "options": { "caseSensitive": false, "leftValue": "", "typeValidation": "loose" },
+                "conditions": [
+                  { "leftValue": "={{ $json.command }}", "rightValue": "briefing_semana", "operator": { "type": "string", "operation": "equals" } }
+                ]
+              },
+              "renameOutput": "Briefing Semana"
+            },
+            {
+              "conditions": {
+                "options": { "caseSensitive": false, "leftValue": "", "typeValidation": "loose" },
+                "conditions": [
+                  { "leftValue": "={{ $json.command }}", "rightValue": "resumo_diario", "operator": { "type": "string", "operation": "equals" } }
+                ]
+              },
+              "renameOutput": "Resumo Diário"
+            }
+          ]
+        },
+        "options": {
+          "allMatchingOutputs": false
+        }
+      },
+      "id": "d1b2c3d4-0004-4000-a000-000000000003",
+      "name": "Route Command",
+      "type": "n8n-nodes-base.switch",
+      "typeVersion": 3.2,
+      "position": [680, 400]
+    },
+    {
+      "parameters": {},
+      "id": "d1b2c3d4-0004-4000-a000-000000000010",
+      "name": "No Op (Ignore)",
+      "type": "n8n-nodes-base.noOp",
+      "typeVersion": 1,
+      "position": [920, 100]
+    },
+    {
+      "parameters": {
+        "jsCode": "const input = $('Parse Message').first().json;\n\nconst helpText = `🤖 *Jubileu Bot — Comandos*\\n\\n` +\n  `📊 *status projeto <nome>*\\nBusca tasks de um projeto específico\\n\\n` +\n  `📋 *tarefas pendentes*\\nLista todas as tasks pendentes\\n\\n` +\n  `📰 *briefing da semana*\\nResumo semanal gerado por IA\\n\\n` +\n  `📅 *resumo diario*\\nPanorama do dia com tasks\\n\\n` +\n  `❓ *ajuda*\\nEste menu de comandos\\n\\n` +\n  `_Enviado automaticamente pelo Jubileu Bot_`;\n\nreturn [{\n  json: {\n    message: helpText,\n    replyTo: input.remoteJid\n  }\n}];"
+      },
+      "id": "d1b2c3d4-0004-4000-a000-000000000011",
+      "name": "Build Help Menu",
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [920, 240]
+    },
+    {
+      "parameters": {
+        "method": "GET",
+        "url": "https://api.clickup.com/api/v2/team/90133059528/task",
+        "sendHeaders": true,
+        "headerParameters": {
+          "parameters": [
+            {
+              "name": "Authorization",
+              "value": "={{ $env.CLICKUP_API_TOKEN }}"
+            }
+          ]
+        },
+        "sendQuery": true,
+        "queryParameters": {
+          "parameters": [
+            { "name": "statuses[]", "value": "to do" },
+            { "name": "statuses[]", "value": "a fazer" },
+            { "name": "statuses[]", "value": "in progress" },
+            { "name": "statuses[]", "value": "em andamento" },
+            { "name": "statuses[]", "value": "em revisao" },
+            { "name": "include_closed", "value": "false" },
+            { "name": "order_by", "value": "due_date" },
+            { "name": "space_ids[]", "value": "901313356803" },
+            { "name": "space_ids[]", "value": "901313356810" }
+          ]
+        },
+        "options": {}
+      },
+      "id": "d1b2c3d4-0004-4000-a000-000000000012",
+      "name": "Get Pending Tasks",
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.2,
+      "position": [920, 400]
+    },
+    {
+      "parameters": {
+        "jsCode": "const input = $('Parse Message').first().json;\nconst response = $input.first().json;\nconst tasks = response.tasks || [];\n\nif (tasks.length === 0) {\n  return [{ json: { message: '✅ Nenhuma tarefa pendente! Tudo em dia.', replyTo: input.remoteJid } }];\n}\n\nlet msg = `📋 *Tarefas Pendentes* (${tasks.length})\\n\\n`;\n\nconst grouped = {};\nfor (const t of tasks) {\n  const list = t.list?.name || 'Outros';\n  if (!grouped[list]) grouped[list] = [];\n  grouped[list].push(t);\n}\n\nfor (const [list, listTasks] of Object.entries(grouped)) {\n  msg += `*${list}:*\\n`;\n  for (const t of listTasks.slice(0, 5)) {\n    const status = t.status?.status || '?';\n    const assignee = (t.assignees || []).map(a => a.username).join(', ') || '-';\n    const due = t.due_date ? new Date(parseInt(t.due_date)).toLocaleDateString('pt-BR') : 'S/D';\n    const overdue = t.due_date && parseInt(t.due_date) < Date.now() ? ' ⚠️' : '';\n    msg += `  • ${t.name} [${status}] 👤${assignee} 📅${due}${overdue}\\n`;\n  }\n  if (listTasks.length > 5) msg += `  _... +${listTasks.length - 5} tasks_\\n`;\n  msg += '\\n';\n}\n\nreturn [{ json: { message: msg.trim(), replyTo: input.remoteJid } }];"
+      },
+      "id": "d1b2c3d4-0004-4000-a000-000000000013",
+      "name": "Format Pending Tasks",
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [1140, 400]
+    },
+    {
+      "parameters": {
+        "method": "GET",
+        "url": "https://api.clickup.com/api/v2/team/90133059528/task",
+        "sendHeaders": true,
+        "headerParameters": {
+          "parameters": [
+            {
+              "name": "Authorization",
+              "value": "={{ $env.CLICKUP_API_TOKEN }}"
+            }
+          ]
+        },
+        "sendQuery": true,
+        "queryParameters": {
+          "parameters": [
+            { "name": "include_closed", "value": "false" },
+            { "name": "space_ids[]", "value": "901313356803" },
+            { "name": "space_ids[]", "value": "901313356810" }
+          ]
+        },
+        "options": {}
+      },
+      "id": "d1b2c3d4-0004-4000-a000-000000000014",
+      "name": "Search Project Tasks",
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.2,
+      "position": [920, 560]
+    },
+    {
+      "parameters": {
+        "jsCode": "const input = $('Parse Message').first().json;\nconst projectName = input.args.toLowerCase();\nconst response = $input.first().json;\nconst tasks = (response.tasks || []).filter(t => {\n  const name = (t.name || '').toLowerCase();\n  const tags = (t.tags || []).map(tag => tag.name.toLowerCase());\n  const list = (t.list?.name || '').toLowerCase();\n  return name.includes(projectName) || tags.includes(projectName) || list.includes(projectName);\n});\n\nif (tasks.length === 0) {\n  return [{ json: { message: `🔍 Nenhuma task encontrada para \"${input.args}\".`, replyTo: input.remoteJid } }];\n}\n\nlet msg = `📊 *Status: ${input.args}* (${tasks.length} tasks)\\n\\n`;\nfor (const t of tasks.slice(0, 10)) {\n  const status = t.status?.status || '?';\n  const emoji = status.toLowerCase().includes('complete') || status.toLowerCase().includes('conclu') ? '✅' : status.toLowerCase().includes('progress') || status.toLowerCase().includes('andamento') ? '🔄' : '📋';\n  const assignee = (t.assignees || []).map(a => a.username).join(', ') || '-';\n  msg += `${emoji} *${t.name}*\\n   ${status} | 👤 ${assignee}\\n`;\n}\nif (tasks.length > 10) msg += `\\n_... +${tasks.length - 10} tasks_`;\n\nreturn [{ json: { message: msg.trim(), replyTo: input.remoteJid } }];"
+      },
+      "id": "d1b2c3d4-0004-4000-a000-000000000015",
+      "name": "Format Project Status",
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [1140, 560]
+    },
+    {
+      "parameters": {
+        "method": "GET",
+        "url": "https://api.clickup.com/api/v2/team/90133059528/task",
+        "sendHeaders": true,
+        "headerParameters": {
+          "parameters": [
+            {
+              "name": "Authorization",
+              "value": "={{ $env.CLICKUP_API_TOKEN }}"
+            }
+          ]
+        },
+        "sendQuery": true,
+        "queryParameters": {
+          "parameters": [
+            { "name": "include_closed", "value": "true" },
+            { "name": "date_updated_gt", "value": "={{ Date.now() - (7 * 24 * 60 * 60 * 1000) }}" },
+            { "name": "space_ids[]", "value": "901313356803" },
+            { "name": "space_ids[]", "value": "901313356810" }
+          ]
+        },
+        "options": {}
+      },
+      "id": "d1b2c3d4-0004-4000-a000-000000000016",
+      "name": "Get Week Tasks (Briefing)",
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.2,
+      "position": [920, 720]
+    },
+    {
+      "parameters": {
+        "method": "POST",
+        "url": "https://api.anthropic.com/v1/messages",
+        "sendHeaders": true,
+        "headerParameters": {
+          "parameters": [
+            { "name": "x-api-key", "value": "={{ $env.ANTHROPIC_API_KEY }}" },
+            { "name": "anthropic-version", "value": "2023-06-01" },
+            { "name": "Content-Type", "value": "application/json" }
+          ]
+        },
+        "sendBody": true,
+        "specifyBody": "json",
+        "jsonBody": "={{ JSON.stringify({\n  model: 'claude-haiku-4-5-20251001',\n  max_tokens: 1500,\n  messages: [{\n    role: 'user',\n    content: `Voce e o assistente da agencia Jubileu. Gere um briefing semanal para WhatsApp (max 2000 chars). Seja direto, use emojis, destaque prioridades e alertas. Formato: texto simples para WhatsApp (use * para negrito).\\n\\nTasks da semana: ${JSON.stringify(($input.first().json.tasks || []).slice(0, 30).map(t => ({ name: t.name, status: t.status?.status, list: t.list?.name, assignees: (t.assignees||[]).map(a=>a.username), due: t.due_date ? new Date(parseInt(t.due_date)).toLocaleDateString('pt-BR') : null })))}`\n  }]\n}) }}",
+        "options": {}
+      },
+      "id": "d1b2c3d4-0004-4000-a000-000000000017",
+      "name": "AI Briefing",
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.2,
+      "position": [1140, 720]
+    },
+    {
+      "parameters": {
+        "jsCode": "const input = $('Parse Message').first().json;\nconst response = $input.first().json;\nconst aiMessage = response.content?.[0]?.text || 'Erro ao gerar briefing.';\nreturn [{ json: { message: aiMessage, replyTo: input.remoteJid } }];"
+      },
+      "id": "d1b2c3d4-0004-4000-a000-000000000018",
+      "name": "Extract Briefing",
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [1360, 720]
+    },
+    {
+      "parameters": {
+        "method": "GET",
+        "url": "https://api.clickup.com/api/v2/team/90133059528/task",
+        "sendHeaders": true,
+        "headerParameters": {
+          "parameters": [
+            {
+              "name": "Authorization",
+              "value": "={{ $env.CLICKUP_API_TOKEN }}"
+            }
+          ]
+        },
+        "sendQuery": true,
+        "queryParameters": {
+          "parameters": [
+            { "name": "statuses[]", "value": "to do" },
+            { "name": "statuses[]", "value": "a fazer" },
+            { "name": "statuses[]", "value": "in progress" },
+            { "name": "statuses[]", "value": "em andamento" },
+            { "name": "include_closed", "value": "false" },
+            { "name": "order_by", "value": "due_date" },
+            { "name": "space_ids[]", "value": "901313356803" },
+            { "name": "space_ids[]", "value": "901313356810" }
+          ]
+        },
+        "options": {}
+      },
+      "id": "d1b2c3d4-0004-4000-a000-000000000019",
+      "name": "Get Today Tasks",
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.2,
+      "position": [920, 880]
+    },
+    {
+      "parameters": {
+        "method": "POST",
+        "url": "https://api.anthropic.com/v1/messages",
+        "sendHeaders": true,
+        "headerParameters": {
+          "parameters": [
+            { "name": "x-api-key", "value": "={{ $env.ANTHROPIC_API_KEY }}" },
+            { "name": "anthropic-version", "value": "2023-06-01" },
+            { "name": "Content-Type", "value": "application/json" }
+          ]
+        },
+        "sendBody": true,
+        "specifyBody": "json",
+        "jsonBody": "={{ JSON.stringify({\n  model: 'claude-haiku-4-5-20251001',\n  max_tokens: 1024,\n  messages: [{\n    role: 'user',\n    content: `Voce e o assistente da agencia Jubileu. Gere um resumo diario para WhatsApp (max 1500 chars). Organize por prioridade, destaque atrasadas. Use emojis. Formato: texto simples (use * para negrito).\\n\\nData: ${new Date().toLocaleDateString('pt-BR')}\\nTasks: ${JSON.stringify(($input.first().json.tasks || []).slice(0, 20).map(t => ({ name: t.name, status: t.status?.status, list: t.list?.name, assignees: (t.assignees||[]).map(a=>a.username), due: t.due_date ? new Date(parseInt(t.due_date)).toLocaleDateString('pt-BR') : null, overdue: t.due_date && parseInt(t.due_date) < Date.now() })))}`\n  }]\n}) }}",
+        "options": {}
+      },
+      "id": "d1b2c3d4-0004-4000-a000-000000000020",
+      "name": "AI Daily Summary",
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.2,
+      "position": [1140, 880]
+    },
+    {
+      "parameters": {
+        "jsCode": "const input = $('Parse Message').first().json;\nconst response = $input.first().json;\nconst aiMessage = response.content?.[0]?.text || 'Erro ao gerar resumo diário.';\nreturn [{ json: { message: aiMessage, replyTo: input.remoteJid } }];"
+      },
+      "id": "d1b2c3d4-0004-4000-a000-000000000021",
+      "name": "Extract Daily",
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [1360, 880]
+    },
+    {
+      "parameters": {
+        "method": "POST",
+        "url": "={{ $env.EVOLUTION_BASE_URL + '/message/sendText/' + $env.EVOLUTION_INSTANCE }}",
+        "sendHeaders": true,
+        "headerParameters": {
+          "parameters": [
+            { "name": "apikey", "value": "={{ $env.EVOLUTION_API_KEY }}" },
+            { "name": "Content-Type", "value": "application/json" }
+          ]
+        },
+        "sendBody": true,
+        "specifyBody": "json",
+        "jsonBody": "={{ JSON.stringify({ number: $json.replyTo, text: $json.message }) }}",
+        "options": {}
+      },
+      "id": "d1b2c3d4-0004-4000-a000-000000000030",
+      "name": "Reply WhatsApp",
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.2,
+      "position": [1580, 500]
+    }
+  ],
+  "connections": {
+    "Webhook WhatsApp": {
+      "main": [
+        [{ "node": "Parse Message", "type": "main", "index": 0 }]
+      ]
+    },
+    "Parse Message": {
+      "main": [
+        [{ "node": "Route Command", "type": "main", "index": 0 }]
+      ]
+    },
+    "Route Command": {
+      "main": [
+        [{ "node": "No Op (Ignore)", "type": "main", "index": 0 }],
+        [{ "node": "Build Help Menu", "type": "main", "index": 0 }],
+        [{ "node": "Get Pending Tasks", "type": "main", "index": 0 }],
+        [{ "node": "Search Project Tasks", "type": "main", "index": 0 }],
+        [{ "node": "Get Week Tasks (Briefing)", "type": "main", "index": 0 }],
+        [{ "node": "Get Today Tasks", "type": "main", "index": 0 }]
+      ]
+    },
+    "Build Help Menu": {
+      "main": [
+        [{ "node": "Reply WhatsApp", "type": "main", "index": 0 }]
+      ]
+    },
+    "Get Pending Tasks": {
+      "main": [
+        [{ "node": "Format Pending Tasks", "type": "main", "index": 0 }]
+      ]
+    },
+    "Format Pending Tasks": {
+      "main": [
+        [{ "node": "Reply WhatsApp", "type": "main", "index": 0 }]
+      ]
+    },
+    "Search Project Tasks": {
+      "main": [
+        [{ "node": "Format Project Status", "type": "main", "index": 0 }]
+      ]
+    },
+    "Format Project Status": {
+      "main": [
+        [{ "node": "Reply WhatsApp", "type": "main", "index": 0 }]
+      ]
+    },
+    "Get Week Tasks (Briefing)": {
+      "main": [
+        [{ "node": "AI Briefing", "type": "main", "index": 0 }]
+      ]
+    },
+    "AI Briefing": {
+      "main": [
+        [{ "node": "Extract Briefing", "type": "main", "index": 0 }]
+      ]
+    },
+    "Extract Briefing": {
+      "main": [
+        [{ "node": "Reply WhatsApp", "type": "main", "index": 0 }]
+      ]
+    },
+    "Get Today Tasks": {
+      "main": [
+        [{ "node": "AI Daily Summary", "type": "main", "index": 0 }]
+      ]
+    },
+    "AI Daily Summary": {
+      "main": [
+        [{ "node": "Extract Daily", "type": "main", "index": 0 }]
+      ]
+    },
+    "Extract Daily": {
+      "main": [
+        [{ "node": "Reply WhatsApp", "type": "main", "index": 0 }]
+      ]
+    }
+  },
+  "active": false,
+  "settings": {
+    "executionOrder": "v1",
+    "timezone": "America/Sao_Paulo",
+    "saveExecutionProgress": true
+  },
+  "tags": [
+    { "name": "whatsapp" },
+    { "name": "clickup" },
+    { "name": "comandos" },
+    { "name": "evolution-api" }
+  ]
+}

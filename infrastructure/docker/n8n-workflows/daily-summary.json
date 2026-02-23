@@ -1,0 +1,177 @@
+{
+  "name": "Resumo Diário — Seg a Sex 09h",
+  "nodes": [
+    {
+      "parameters": {
+        "rule": {
+          "interval": [
+            {
+              "field": "cronExpression",
+              "expression": "0 9 * * 1-5"
+            }
+          ]
+        }
+      },
+      "id": "b1b2c3d4-0002-4000-a000-000000000001",
+      "name": "Cron 09h Seg-Sex",
+      "type": "n8n-nodes-base.scheduleTrigger",
+      "typeVersion": 1.2,
+      "position": [240, 300]
+    },
+    {
+      "parameters": {
+        "method": "GET",
+        "url": "https://api.clickup.com/api/v2/team/90133059528/task",
+        "sendHeaders": true,
+        "headerParameters": {
+          "parameters": [
+            {
+              "name": "Authorization",
+              "value": "={{ $env.CLICKUP_API_TOKEN }}"
+            }
+          ]
+        },
+        "sendQuery": true,
+        "queryParameters": {
+          "parameters": [
+            { "name": "statuses[]", "value": "to do" },
+            { "name": "statuses[]", "value": "a fazer" },
+            { "name": "statuses[]", "value": "in progress" },
+            { "name": "statuses[]", "value": "em andamento" },
+            { "name": "statuses[]", "value": "em revisao" },
+            { "name": "subtasks", "value": "true" },
+            { "name": "include_closed", "value": "false" },
+            { "name": "order_by", "value": "due_date" },
+            { "name": "space_ids[]", "value": "901313356803" },
+            { "name": "space_ids[]", "value": "901313356810" }
+          ]
+        },
+        "options": {}
+      },
+      "id": "b1b2c3d4-0002-4000-a000-000000000002",
+      "name": "Get Pending Tasks",
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.2,
+      "position": [460, 300]
+    },
+    {
+      "parameters": {
+        "jsCode": "const response = $input.first().json;\nconst tasks = response.tasks || [];\nconst now = Date.now();\n\nconst overdue = [];\nconst today = [];\nconst inProgress = [];\nconst pending = [];\n\nfor (const task of tasks) {\n  const dueDate = task.due_date ? parseInt(task.due_date) : null;\n  const statusName = task.status?.status?.toLowerCase() || '';\n  const assignees = (task.assignees || []).map(a => a.username).join(', ') || 'N/A';\n\n  const entry = {\n    name: task.name,\n    list: task.list?.name || 'N/A',\n    assignees,\n    priority: task.priority?.priority || 'normal',\n    dueDate: dueDate ? new Date(dueDate).toLocaleDateString('pt-BR') : 'Sem prazo',\n    url: task.url || ''\n  };\n\n  if (dueDate && dueDate < now) {\n    overdue.push(entry);\n  } else if (statusName.includes('progress') || statusName.includes('andamento')) {\n    inProgress.push(entry);\n  } else if (dueDate) {\n    const todayStart = new Date();\n    todayStart.setHours(0, 0, 0, 0);\n    const todayEnd = new Date();\n    todayEnd.setHours(23, 59, 59, 999);\n    if (dueDate >= todayStart.getTime() && dueDate <= todayEnd.getTime()) {\n      today.push(entry);\n    } else {\n      pending.push(entry);\n    }\n  } else {\n    pending.push(entry);\n  }\n}\n\nconst summary = {\n  date: new Date().toLocaleDateString('pt-BR', { weekday: 'long', day: '2-digit', month: '2-digit', year: 'numeric' }),\n  totalTasks: tasks.length,\n  overdue: overdue.slice(0, 10),\n  overdueCount: overdue.length,\n  today: today.slice(0, 10),\n  todayCount: today.length,\n  inProgress: inProgress.slice(0, 10),\n  inProgressCount: inProgress.length,\n  pending: pending.slice(0, 10),\n  pendingCount: pending.length\n};\n\nreturn [{ json: summary }];"
+      },
+      "id": "b1b2c3d4-0002-4000-a000-000000000003",
+      "name": "Organize Tasks",
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [680, 300]
+    },
+    {
+      "parameters": {
+        "method": "POST",
+        "url": "https://api.anthropic.com/v1/messages",
+        "sendHeaders": true,
+        "headerParameters": {
+          "parameters": [
+            {
+              "name": "x-api-key",
+              "value": "={{ $env.ANTHROPIC_API_KEY }}"
+            },
+            {
+              "name": "anthropic-version",
+              "value": "2023-06-01"
+            },
+            {
+              "name": "Content-Type",
+              "value": "application/json"
+            }
+          ]
+        },
+        "sendBody": true,
+        "specifyBody": "json",
+        "jsonBody": "={{ JSON.stringify({\n  model: 'claude-haiku-4-5-20251001',\n  max_tokens: 1024,\n  messages: [{\n    role: 'user',\n    content: `Voce e o assistente da agencia Jubileu. Gere um resumo diario para WhatsApp (max 1500 chars) com base nesses dados. Use emojis, seja direto e organize por prioridade. Formato: texto simples para WhatsApp (sem markdown, use * para negrito).\\n\\nData: ${$json.date}\\nTotal tasks: ${$json.totalTasks}\\nAtrasadas (${$json.overdueCount}): ${JSON.stringify($json.overdue)}\\nHoje (${$json.todayCount}): ${JSON.stringify($json.today)}\\nEm andamento (${$json.inProgressCount}): ${JSON.stringify($json.inProgress)}\\nPendentes (${$json.pendingCount}): ${JSON.stringify($json.pending)}`\n  }]\n}) }}",
+        "options": {}
+      },
+      "id": "b1b2c3d4-0002-4000-a000-000000000004",
+      "name": "AI Generate Summary",
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.2,
+      "position": [900, 300]
+    },
+    {
+      "parameters": {
+        "jsCode": "const response = $input.first().json;\nconst aiMessage = response.content?.[0]?.text || 'Erro ao gerar resumo.';\n\nreturn [{ json: { message: aiMessage } }];"
+      },
+      "id": "b1b2c3d4-0002-4000-a000-000000000005",
+      "name": "Extract AI Response",
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [1120, 300]
+    },
+    {
+      "parameters": {
+        "method": "POST",
+        "url": "={{ $env.EVOLUTION_BASE_URL + '/message/sendText/' + $env.EVOLUTION_INSTANCE }}",
+        "sendHeaders": true,
+        "headerParameters": {
+          "parameters": [
+            {
+              "name": "apikey",
+              "value": "={{ $env.EVOLUTION_API_KEY }}"
+            },
+            {
+              "name": "Content-Type",
+              "value": "application/json"
+            }
+          ]
+        },
+        "sendBody": true,
+        "specifyBody": "json",
+        "jsonBody": "={{ JSON.stringify({ number: $env.WHATSAPP_GROUP_ID, text: $json.message }) }}",
+        "options": {}
+      },
+      "id": "b1b2c3d4-0002-4000-a000-000000000006",
+      "name": "Send WhatsApp",
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.2,
+      "position": [1340, 300]
+    }
+  ],
+  "connections": {
+    "Cron 09h Seg-Sex": {
+      "main": [
+        [{ "node": "Get Pending Tasks", "type": "main", "index": 0 }]
+      ]
+    },
+    "Get Pending Tasks": {
+      "main": [
+        [{ "node": "Organize Tasks", "type": "main", "index": 0 }]
+      ]
+    },
+    "Organize Tasks": {
+      "main": [
+        [{ "node": "AI Generate Summary", "type": "main", "index": 0 }]
+      ]
+    },
+    "AI Generate Summary": {
+      "main": [
+        [{ "node": "Extract AI Response", "type": "main", "index": 0 }]
+      ]
+    },
+    "Extract AI Response": {
+      "main": [
+        [{ "node": "Send WhatsApp", "type": "main", "index": 0 }]
+      ]
+    }
+  },
+  "active": false,
+  "settings": {
+    "executionOrder": "v1",
+    "timezone": "America/Sao_Paulo",
+    "saveExecutionProgress": true
+  },
+  "tags": [
+    { "name": "clickup" },
+    { "name": "whatsapp" },
+    { "name": "resumo" },
+    { "name": "diario" }
+  ]
+}

@@ -1,16 +1,22 @@
 {
-  "language": "english",
+  "language": "portuguese",
   "mcpServers": {
     "clickup": {
       "command": "npx",
-      "args": ["-y", "clickup-mcp-server"],
+      "args": [
+        "-y",
+        "clickup-mcp-server"
+      ],
       "env": {
         "CLICKUP_API_TOKEN": "pk_284457202_BHCMWP2K2UGRXHO39XSZP9XD4120W9HF"
       }
     },
     "google-sheets": {
       "command": "npx",
-      "args": ["-y", "mcp-gsheets@latest"],
+      "args": [
+        "-y",
+        "mcp-gsheets@latest"
+      ],
       "env": {
         "GOOGLE_APPLICATION_CREDENTIALS": "C:\\Users\\fernando\\Documents\\JUBILEU-AGENCIA\\PELICULA SIDERAL\\gen-lang-client-0573668899-a54903fbcb27.json"
       }
@@ -18,7 +24,9 @@
     "hostinger-mcp": {
       "type": "stdio",
       "command": "npx",
-      "args": ["hostinger-api-mcp@latest"],
+      "args": [
+        "hostinger-api-mcp@latest"
+      ],
       "env": {
         "API_TOKEN": "NZqNLsDyNoczJsBhJV5DUl82uyHIkA8CaP1GlzeD9572cbe9"
       }

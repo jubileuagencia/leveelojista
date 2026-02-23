@@ -1,0 +1,173 @@
+{
+  "name": "Resumo Semanal — Sexta 17h",
+  "nodes": [
+    {
+      "parameters": {
+        "rule": {
+          "interval": [
+            {
+              "field": "cronExpression",
+              "expression": "0 17 * * 5"
+            }
+          ]
+        }
+      },
+      "id": "c1b2c3d4-0003-4000-a000-000000000001",
+      "name": "Cron 17h Sexta",
+      "type": "n8n-nodes-base.scheduleTrigger",
+      "typeVersion": 1.2,
+      "position": [240, 300]
+    },
+    {
+      "parameters": {
+        "method": "GET",
+        "url": "https://api.clickup.com/api/v2/team/90133059528/task",
+        "sendHeaders": true,
+        "headerParameters": {
+          "parameters": [
+            {
+              "name": "Authorization",
+              "value": "={{ $env.CLICKUP_API_TOKEN }}"
+            }
+          ]
+        },
+        "sendQuery": true,
+        "queryParameters": {
+          "parameters": [
+            { "name": "include_closed", "value": "true" },
+            { "name": "subtasks", "value": "true" },
+            { "name": "order_by", "value": "updated" },
+            { "name": "date_updated_gt", "value": "={{ Date.now() - (7 * 24 * 60 * 60 * 1000) }}" },
+            { "name": "space_ids[]", "value": "901313356803" },
+            { "name": "space_ids[]", "value": "901313356810" }
+          ]
+        },
+        "options": {}
+      },
+      "id": "c1b2c3d4-0003-4000-a000-000000000002",
+      "name": "Get Week Tasks",
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.2,
+      "position": [460, 300]
+    },
+    {
+      "parameters": {
+        "jsCode": "const response = $input.first().json;\nconst tasks = response.tasks || [];\nconst now = Date.now();\nconst weekAgo = now - (7 * 24 * 60 * 60 * 1000);\n\n// Métricas\nlet completed = [];\nlet created = [];\nlet overdue = [];\nlet inProgress = [];\nlet pending = [];\n\nconst listStats = {};\nconst assigneeStats = {};\n\nfor (const task of tasks) {\n  const statusName = task.status?.status?.toLowerCase() || '';\n  const listName = task.list?.name || 'N/A';\n  const dueDate = task.due_date ? parseInt(task.due_date) : null;\n  const dateCreated = task.date_created ? parseInt(task.date_created) : 0;\n  const assignees = (task.assignees || []).map(a => a.username).join(', ') || 'N/A';\n\n  // Stats por lista\n  if (!listStats[listName]) listStats[listName] = { completed: 0, pending: 0, total: 0 };\n  listStats[listName].total++;\n\n  // Stats por responsável\n  for (const a of (task.assignees || [])) {\n    const name = a.username || 'N/A';\n    if (!assigneeStats[name]) assigneeStats[name] = { completed: 0, total: 0 };\n    assigneeStats[name].total++;\n  }\n\n  const entry = {\n    name: task.name,\n    list: listName,\n    assignees,\n    priority: task.priority?.priority || 'normal'\n  };\n\n  if (statusName.includes('complete') || statusName.includes('conclu') || statusName.includes('done')) {\n    completed.push(entry);\n    listStats[listName].completed++;\n    for (const a of (task.assignees || [])) {\n      const name = a.username || 'N/A';\n      if (assigneeStats[name]) assigneeStats[name].completed++;\n    }\n  } else if (dueDate && dueDate < now) {\n    overdue.push(entry);\n    listStats[listName].pending++;\n  } else if (statusName.includes('progress') || statusName.includes('andamento')) {\n    inProgress.push(entry);\n    listStats[listName].pending++;\n  } else {\n    pending.push(entry);\n    listStats[listName].pending++;\n  }\n\n  if (dateCreated >= weekAgo) {\n    created.push(entry);\n  }\n}\n\nreturn [{\n  json: {\n    weekOf: new Date(weekAgo).toLocaleDateString('pt-BR'),\n    weekEnd: new Date().toLocaleDateString('pt-BR'),\n    metrics: {\n      totalTasks: tasks.length,\n      completedCount: completed.length,\n      createdCount: created.length,\n      overdueCount: overdue.length,\n      inProgressCount: inProgress.length,\n      pendingCount: pending.length,\n      completionRate: tasks.length > 0 ? Math.round((completed.length / tasks.length) * 100) : 0\n    },\n    completed: completed.slice(0, 15),\n    overdue: overdue.slice(0, 10),\n    inProgress: inProgress.slice(0, 10),\n    pending: pending.slice(0, 10),\n    listStats,\n    assigneeStats\n  }\n}];"
+      },
+      "id": "c1b2c3d4-0003-4000-a000-000000000003",
+      "name": "Calculate Metrics",
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [680, 300]
+    },
+    {
+      "parameters": {
+        "method": "POST",
+        "url": "https://api.anthropic.com/v1/messages",
+        "sendHeaders": true,
+        "headerParameters": {
+          "parameters": [
+            {
+              "name": "x-api-key",
+              "value": "={{ $env.ANTHROPIC_API_KEY }}"
+            },
+            {
+              "name": "anthropic-version",
+              "value": "2023-06-01"
+            },
+            {
+              "name": "Content-Type",
+              "value": "application/json"
+            }
+          ]
+        },
+        "sendBody": true,
+        "specifyBody": "json",
+        "jsonBody": "={{ JSON.stringify({\n  model: 'claude-haiku-4-5-20251001',\n  max_tokens: 2048,\n  messages: [{\n    role: 'user',\n    content: `Voce e o assistente da agencia Jubileu. Gere um relatorio semanal para WhatsApp (max 2500 chars). Inclua: destaques da semana, metricas chave, alertas de atraso, e projecao para proxima semana. Use emojis, seja direto. Formato: texto simples para WhatsApp (sem markdown, use * para negrito).\\n\\nPeriodo: ${$json.weekOf} a ${$json.weekEnd}\\nMetricas: ${JSON.stringify($json.metrics)}\\nConcluidas: ${JSON.stringify($json.completed)}\\nAtrasadas: ${JSON.stringify($json.overdue)}\\nEm andamento: ${JSON.stringify($json.inProgress)}\\nPendentes: ${JSON.stringify($json.pending)}\\nStats por lista: ${JSON.stringify($json.listStats)}\\nStats por responsavel: ${JSON.stringify($json.assigneeStats)}`\n  }]\n}) }}",
+        "options": {}
+      },
+      "id": "c1b2c3d4-0003-4000-a000-000000000004",
+      "name": "AI Generate Report",
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.2,
+      "position": [900, 300]
+    },
+    {
+      "parameters": {
+        "jsCode": "const response = $input.first().json;\nconst aiMessage = response.content?.[0]?.text || 'Erro ao gerar relatório semanal.';\n\nreturn [{ json: { message: aiMessage } }];"
+      },
+      "id": "c1b2c3d4-0003-4000-a000-000000000005",
+      "name": "Extract AI Response",
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [1120, 300]
+    },
+    {
+      "parameters": {
+        "method": "POST",
+        "url": "={{ $env.EVOLUTION_BASE_URL + '/message/sendText/' + $env.EVOLUTION_INSTANCE }}",
+        "sendHeaders": true,
+        "headerParameters": {
+          "parameters": [
+            {
+              "name": "apikey",
+              "value": "={{ $env.EVOLUTION_API_KEY }}"
+            },
+            {
+              "name": "Content-Type",
+              "value": "application/json"
+            }
+          ]
+        },
+        "sendBody": true,
+        "specifyBody": "json",
+        "jsonBody": "={{ JSON.stringify({ number: $env.WHATSAPP_GROUP_ID, text: $json.message }) }}",
+        "options": {}
+      },
+      "id": "c1b2c3d4-0003-4000-a000-000000000006",
+      "name": "Send WhatsApp",
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.2,
+      "position": [1340, 300]
+    }
+  ],
+  "connections": {
+    "Cron 17h Sexta": {
+      "main": [
+        [{ "node": "Get Week Tasks", "type": "main", "index": 0 }]
+      ]
+    },
+    "Get Week Tasks": {
+      "main": [
+        [{ "node": "Calculate Metrics", "type": "main", "index": 0 }]
+      ]
+    },
+    "Calculate Metrics": {
+      "main": [
+        [{ "node": "AI Generate Report", "type": "main", "index": 0 }]
+      ]
+    },
+    "AI Generate Report": {
+      "main": [
+        [{ "node": "Extract AI Response", "type": "main", "index": 0 }]
+      ]
+    },
+    "Extract AI Response": {
+      "main": [
+        [{ "node": "Send WhatsApp", "type": "main", "index": 0 }]
+      ]
+    }
+  },
+  "active": false,
+  "settings": {
+    "executionOrder": "v1",
+    "timezone": "America/Sao_Paulo",
+    "saveExecutionProgress": true
+  },
+  "tags": [
+    { "name": "clickup" },
+    { "name": "whatsapp" },
+    { "name": "resumo" },
+    { "name": "semanal" }
+  ]
+}

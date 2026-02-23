@@ -6,6 +6,7 @@
 .env.*.local
 *.key
 *.pem
+.mcp.json
 
 # Dependencies (AIOS)
 node_modules/
@@ -27,3 +28,10 @@ Thumbs.db
 .aios-core/local/
 .claude/settings.local.json
 .aios/install-log.txt
+
+# Docker Volumes & Secrets (Infrastructure)
+infrastructure/docker/.env
+infrastructure/docker/postgres/data/
+infrastructure/docker/n8n/data/
+infrastructure/docker/evolution/instances/
+infrastructure/docker/redis/data/

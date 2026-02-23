@@ -1,0 +1,138 @@
+{
+  "name": "ClickUp Notifier — Status Change",
+  "nodes": [
+    {
+      "parameters": {
+        "httpMethod": "POST",
+        "path": "clickup-status-change",
+        "responseMode": "responseNode",
+        "options": {}
+      },
+      "id": "a1b2c3d4-0001-4000-a000-000000000001",
+      "name": "Webhook ClickUp",
+      "type": "n8n-nodes-base.webhook",
+      "typeVersion": 2,
+      "position": [240, 300]
+    },
+    {
+      "parameters": {
+        "jsCode": "// Parse ClickUp webhook payload\nconst body = $input.first().json.body;\n\nconst taskId = body.task_id;\nconst historyItems = body.history_items || [];\n\n// Extrair mudança de status\nlet statusChange = null;\nfor (const item of historyItems) {\n  if (item.field === 'status') {\n    statusChange = {\n      from: item.before?.status || 'N/A',\n      to: item.after?.status || 'N/A'\n    };\n    break;\n  }\n}\n\nif (!statusChange) {\n  // Não é mudança de status, ignorar\n  return [];\n}\n\nreturn [{\n  json: {\n    taskId,\n    statusFrom: statusChange.from,\n    statusTo: statusChange.to,\n    webhookEvent: body.event\n  }\n}];"
+      },
+      "id": "a1b2c3d4-0001-4000-a000-000000000002",
+      "name": "Parse Status Change",
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [460, 300]
+    },
+    {
+      "parameters": {
+        "method": "GET",
+        "url": "={{ 'https://api.clickup.com/api/v2/task/' + $json.taskId }}",
+        "authentication": "genericCredentialType",
+        "genericAuthType": "httpHeaderAuth",
+        "sendHeaders": true,
+        "headerParameters": {
+          "parameters": [
+            {
+              "name": "Authorization",
+              "value": "={{ $env.CLICKUP_API_TOKEN }}"
+            }
+          ]
+        },
+        "options": {}
+      },
+      "id": "a1b2c3d4-0001-4000-a000-000000000003",
+      "name": "Get Task Details",
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.2,
+      "position": [680, 300]
+    },
+    {
+      "parameters": {
+        "jsCode": "const task = $input.first().json;\nconst prev = $('Parse Status Change').first().json;\n\nconst taskName = task.name || 'Sem nome';\nconst listName = task.list?.name || 'N/A';\nconst assignees = (task.assignees || []).map(a => a.username || a.email).join(', ') || 'Sem responsável';\nconst priority = task.priority?.priority || 'normal';\nconst url = task.url || '';\n\n// Emoji por status\nconst statusEmoji = {\n  'to do': '📋',\n  'a fazer': '📋',\n  'in progress': '🔄',\n  'em andamento': '🔄',\n  'em revisao': '🔍',\n  'review': '🔍',\n  'complete': '✅',\n  'concluido': '✅',\n  'done': '✅'\n};\n\nconst emoji = statusEmoji[prev.statusTo.toLowerCase()] || '📌';\n\nconst message = `${emoji} *Task Atualizada*\\n\\n` +\n  `*${taskName}*\\n` +\n  `📂 ${listName}\\n` +\n  `👤 ${assignees}\\n` +\n  `🔀 ${prev.statusFrom} → *${prev.statusTo}*\\n` +\n  (url ? `🔗 ${url}` : '');\n\nreturn [{ json: { message } }];"
+      },
+      "id": "a1b2c3d4-0001-4000-a000-000000000004",
+      "name": "Format WhatsApp Message",
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [900, 300]
+    },
+    {
+      "parameters": {
+        "method": "POST",
+        "url": "={{ $env.EVOLUTION_BASE_URL + '/message/sendText/' + $env.EVOLUTION_INSTANCE }}",
+        "sendHeaders": true,
+        "headerParameters": {
+          "parameters": [
+            {
+              "name": "apikey",
+              "value": "={{ $env.EVOLUTION_API_KEY }}"
+            },
+            {
+              "name": "Content-Type",
+              "value": "application/json"
+            }
+          ]
+        },
+        "sendBody": true,
+        "specifyBody": "json",
+        "jsonBody": "={{ JSON.stringify({ number: $env.WHATSAPP_GROUP_ID, text: $json.message }) }}",
+        "options": {}
+      },
+      "id": "a1b2c3d4-0001-4000-a000-000000000005",
+      "name": "Send WhatsApp",
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.2,
+      "position": [1120, 300]
+    },
+    {
+      "parameters": {
+        "respondWith": "json",
+        "responseBody": "={{ JSON.stringify({ status: 'ok' }) }}"
+      },
+      "id": "a1b2c3d4-0001-4000-a000-000000000006",
+      "name": "Respond OK",
+      "type": "n8n-nodes-base.respondToWebhook",
+      "typeVersion": 1.1,
+      "position": [1340, 300]
+    }
+  ],
+  "connections": {
+    "Webhook ClickUp": {
+      "main": [
+        [{ "node": "Parse Status Change", "type": "main", "index": 0 }]
+      ]
+    },
+    "Parse Status Change": {
+      "main": [
+        [{ "node": "Get Task Details", "type": "main", "index": 0 }]
+      ]
+    },
+    "Get Task Details": {
+      "main": [
+        [{ "node": "Format WhatsApp Message", "type": "main", "index": 0 }]
+      ]
+    },
+    "Format WhatsApp Message": {
+      "main": [
+        [{ "node": "Send WhatsApp", "type": "main", "index": 0 }]
+      ]
+    },
+    "Send WhatsApp": {
+      "main": [
+        [{ "node": "Respond OK", "type": "main", "index": 0 }]
+      ]
+    }
+  },
+  "active": false,
+  "settings": {
+    "executionOrder": "v1",
+    "timezone": "America/Sao_Paulo",
+    "saveExecutionProgress": true
+  },
+  "tags": [
+    { "name": "clickup" },
+    { "name": "whatsapp" },
+    { "name": "notificacao" }
+  ]
+}
