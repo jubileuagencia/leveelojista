@@ -6,7 +6,6 @@
 .env.*.local
 *.key
 *.pem
-.mcp.json
 
 # Dependencies (AIOS)
 node_modules/

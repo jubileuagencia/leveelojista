@@ -1,0 +1,35 @@
+{
+  "mcpServers": {
+    "playwright": {
+      "type": "stdio",
+      "command": "npx",
+      "args": ["-y", "@playwright/mcp@latest", "--browser", "chromium", "--headless"]
+    },
+    "context7": {
+      "type": "stdio",
+      "command": "npx",
+      "args": ["-y", "@upstash/context7-mcp"]
+    },
+    "exa": {
+      "type": "http",
+      "url": "https://mcp.exa.ai/mcp"
+    },
+    "clickup": {
+      "type": "stdio",
+      "command": "npx",
+      "args": ["-y", "clickup-mcp-server"],
+      "env": {
+        "CLICKUP_API_TOKEN": "pk_284457202_BHCMWP2K2UGRXHO39XSZP9XD4120W9HF"
+      }
+    },
+    "n8n": {
+      "type": "stdio",
+      "command": "npx",
+      "args": ["-y", "@leonardsellem/n8n-mcp-server"],
+      "env": {
+        "N8N_API_URL": "http://localhost:5678",
+        "N8N_API_KEY": "PREENCHER_APOS_CRIAR_API_KEY_NO_N8N"
+      }
+    }
+  }
+}
