@@ -170,7 +170,7 @@
 
 ### 3.4 Deploy
 - [ ] Configurar Vercel ou VPS deploy
-- [ ] vercel.json com rewrites
+- [x] vercel.json com rewrites
 - [ ] Variáveis de ambiente em produção
 
 ---
