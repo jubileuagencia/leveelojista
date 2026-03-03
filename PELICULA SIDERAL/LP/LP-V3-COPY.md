@@ -1,4 +1,4 @@
-# Copy LP V3 — Decifrando o Mapa Astral
+/# Copy LP V3 — Decifrando o Mapa Astral
 ## Película Sideral
 
 **Versão:** 3.1 — Copy enhanced (8 melhorias)

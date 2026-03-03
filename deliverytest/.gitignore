@@ -1,0 +1,40 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+node_modules
+dist
+dist-ssr
+*.local
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Security
+n8n_mcp_config.json
+create_user.js
+verify_supabase.js
+test_n8n.js
+run_migration.cjs
+old_keys.txt
+
+
+.gemini/
+scripts/
+.env
+database/
+script/
+relatorios/

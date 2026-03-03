@@ -1,0 +1,18 @@
+.loading {
+    display: flex;
+    justify-content: center;
+    padding: 50px;
+}
+
+.denied {
+    padding: 50px;
+    text-align: center;
+    color: var(--danger-color);
+}
+
+.backLink {
+    color: var(--text-secondary);
+    text-decoration: underline;
+    margin-top: 20px;
+    display: block;
+}

@@ -29,6 +29,8 @@ AIOS uses Docker MCP Toolkit as the primary MCP infrastructure:
 |-----|---------|
 | **playwright** | Browser automation, screenshots, web testing |
 | **desktop-commander** | Docker container operations via docker-gateway |
+| **figma-design** | Official Figma MCP — create layouts, read designs, generate code (OAuth) |
+| **figma-api** | Figma REST API — comments, webhooks, file data, components, styles (Token) |
 
 ### Inside Docker Desktop (via docker-gateway)
 
@@ -174,3 +176,53 @@ mcp__docker-gateway__fetch-apify-docs              # Fetch documentation page
 **Working MCPs:** EXA works because its key is in `~/.docker/mcp/config.yaml` under `apiKeys`
 
 For detailed instructions, see `*add-mcp` task or ask @devops for assistance.
+
+---
+
+## Figma MCP Usage (2 servers)
+
+### figma-design (Official Figma Remote MCP)
+
+**Transport:** HTTP (OAuth-based, no token needed)
+**URL:** `https://mcp.figma.com/mcp`
+
+### Use figma-design for:
+1. Creating layouts and frames in Figma (Code to Canvas)
+2. Generating code from Figma designs
+3. Extracting design context (variables, components, layout data)
+4. Design system consistency via Code Connect
+
+### figma-api (@thirdstrandstudio/mcp-figma)
+
+**Transport:** stdio (Personal Access Token)
+**Auth:** `FIGMA_ACCESS_TOKEN` in `.env`
+
+### Use figma-api for:
+1. Reading comments from Figma files
+2. Posting comments on designs
+3. Getting file data, nodes, images
+4. Getting components and styles
+5. Managing webhooks
+6. Team projects and analytics
+
+### Figma Workflow Pattern (Design Review Cycle)
+```
+1. Create layout via figma-design (Code to Canvas)
+2. User reviews in Figma and adds comments
+3. Read comments via figma-api (figma_get_comments)
+4. Make adjustments via figma-design
+5. Repeat 2-4 until approved
+6. Extract final layout for code generation
+7. Build pages and deploy
+```
+
+### When to use which Figma MCP:
+| Task | MCP |
+|------|-----|
+| Create/edit layouts | figma-design |
+| Generate code from designs | figma-design |
+| Read comments | figma-api |
+| Post comments | figma-api |
+| Get file/node data | figma-api |
+| Get components/styles | figma-api |
+| Webhooks & analytics | figma-api |

@@ -1,0 +1,68 @@
+.title {
+    font-size: 1.25rem;
+    font-weight: 700;
+    margin-bottom: 20px;
+    color: var(--text-primary);
+}
+
+.row {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 12px;
+}
+
+.label {
+    color: var(--text-secondary);
+    font-size: 0.95rem;
+}
+
+.labelDiscount {
+    color: var(--primary-color);
+    font-size: 0.95rem;
+}
+
+.value {
+    font-weight: 600;
+    color: var(--text-primary);
+}
+
+.valueDiscount {
+    font-weight: 600;
+    color: var(--primary-color);
+}
+
+.divider {
+    height: 1px;
+    background-color: var(--border-color);
+    margin: 16px 0;
+}
+
+.totalLabel {
+    font-size: 1.1rem;
+    font-weight: 700;
+    color: var(--text-primary);
+}
+
+.totalValue {
+    font-size: 1.25rem;
+    font-weight: 800;
+    color: var(--primary-color);
+}
+
+.checkoutBtn {
+    width: 100%;
+    background-color: var(--text-primary);
+    color: #fff;
+    padding: 14px;
+    border-radius: 12px;
+    border: none;
+    font-weight: 600;
+    font-size: 1rem;
+    margin-top: 24px;
+    cursor: pointer;
+    transition: opacity 0.2s;
+}
+
+.checkoutBtn:hover {
+    opacity: 0.9;
+}

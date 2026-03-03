@@ -1,0 +1,287 @@
+.container {
+    width: 100%;
+    margin-top: 24px;
+}
+
+.emptyState {
+    text-align: center;
+    padding: 48px;
+    background-color: var(--surface-color);
+    border-radius: 8px;
+    color: var(--text-secondary);
+    border: 1px solid var(--border-color);
+}
+
+.table {
+    width: 100%;
+    border-collapse: separate;
+    border-spacing: 0;
+    background-color: var(--surface-color);
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);
+    border: 1px solid var(--border-color);
+}
+
+.th {
+    text-align: left;
+    padding: 16px;
+    background-color: #F9FAFB;
+    color: var(--text-secondary);
+    font-weight: 600;
+    font-size: 0.85rem;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    border-bottom: 1px solid var(--border-color);
+}
+
+.td {
+    padding: 16px;
+    border-bottom: 1px solid var(--border-color);
+    vertical-align: middle;
+    color: var(--text-primary);
+    font-size: 0.95rem;
+}
+
+.row:last-child .td {
+    border-bottom: none;
+}
+
+.row:hover {
+    background-color: #F9FAFB;
+}
+
+.rowInactive {
+    opacity: 0.6;
+    background-color: #F9FAFB;
+}
+
+.rowSelected {
+    background-color: #ECFDF5 !important;
+    /* Green-50 */
+}
+
+.textRight {
+    text-align: right;
+}
+
+.productInfo {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.productImage {
+    width: 40px;
+    height: 40px;
+    border-radius: 6px;
+    object-fit: cover;
+    background-color: #eee;
+    border: 1px solid var(--border-color);
+}
+
+.statusBadge {
+    display: inline-flex;
+    align-items: center;
+    padding: 4px 10px;
+    border-radius: 999px;
+    font-size: 0.8rem;
+    font-weight: 500;
+    border: 1px solid transparent;
+    cursor: pointer;
+    transition: all 0.2s;
+    background: none;
+}
+
+.statusBadge.active {
+    color: #15803d;
+    /* Green-700 */
+    background-color: #dcfce7;
+    /* Green-100 */
+    border-color: #bbf7d0;
+}
+
+.statusBadge.inactive {
+    color: #b91c1c;
+    /* Red-700 */
+    background-color: #fee2e2;
+    /* Red-100 */
+    border-color: #fecaca;
+    opacity: 0.8;
+}
+
+.statusBadge:hover {
+    transform: scale(1.05);
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+}
+
+/* Actions */
+.actions {
+    display: flex;
+    gap: 8px;
+    justify-content: flex-end;
+}
+
+.actionBtn {
+    width: 32px;
+    height: 32px;
+    border-radius: 6px;
+    border: 1px solid var(--border-color);
+    background-color: white;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.2s;
+}
+
+.actionBtn:hover {
+    background-color: #F3F4F6;
+    border-color: #D1D5DB;
+}
+
+.deleteBtn:hover {
+    background-color: #FEF2F2;
+    border-color: #FECACA;
+    color: #EF4444;
+}
+
+/* Checkbox */
+.checkbox {
+    width: 18px;
+    height: 18px;
+    border-radius: 4px;
+    cursor: pointer;
+    accent-color: var(--primary-color);
+}
+
+/* Responsive */
+.mobileListContainer {
+    display: none;
+    /* Hidden on desktop */
+}
+
+@media (max-width: 768px) {
+    .table {
+        display: none;
+    }
+
+    .mobileListContainer {
+        display: flex;
+        flex-direction: column;
+        gap: 12px;
+    }
+
+    .mobileActionsHeader {
+        background-color: var(--surface-color);
+        padding: 12px 16px;
+        border-radius: 8px;
+        border: 1px solid var(--border-color);
+        display: flex;
+        align-items: center;
+        box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05);
+    }
+
+    .mobileSelectAllLabel {
+        display: flex;
+        align-items: center;
+        gap: 12px;
+        font-weight: 500;
+        color: var(--text-primary);
+        cursor: pointer;
+        width: 100%;
+    }
+
+    .mobileCard {
+        background-color: var(--surface-color);
+        border: 1px solid var(--border-color);
+        border-radius: 8px;
+        padding: 16px;
+        box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05);
+    }
+
+    .mobileCardInactive {
+        opacity: 0.7;
+        background-color: #F9FAFB;
+    }
+
+    .mobileHeader {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 12px;
+    }
+
+    .mobileCheckboxWrapper {
+        display: flex;
+        align-items: center;
+        padding-right: 8px;
+        border-right: 1px solid #eee;
+    }
+
+    .mobileIdName {
+        flex: 1;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .mobileId {
+        font-size: 0.75rem;
+        color: var(--text-secondary);
+        font-family: monospace;
+    }
+
+    .mobileName {
+        font-weight: 600;
+        color: var(--text-primary);
+    }
+
+    .expandBtn {
+        font-size: 0.8rem;
+        color: var(--primary-color);
+        background: none;
+        border: none;
+        cursor: pointer;
+        padding: 4px;
+    }
+
+    .mobileDetails {
+        margin-top: 12px;
+        padding-top: 12px;
+        border-top: 1px solid #eee;
+        display: flex;
+        flex-direction: column;
+        gap: 8px;
+    }
+
+    .detailRow {
+        display: flex;
+        justify-content: space-between;
+        font-size: 0.9rem;
+    }
+
+    .detailLabel {
+        color: var(--text-secondary);
+    }
+
+    .detailValue {
+        font-weight: 500;
+        color: var(--text-primary);
+    }
+
+    .mobileActions {
+        display: flex;
+        gap: 8px;
+        margin-top: 12px;
+    }
+
+    .mobileActionBtn {
+        flex: 1;
+        padding: 8px;
+        border-radius: 6px;
+        border: 1px solid var(--border-color);
+        background-color: white;
+        font-size: 0.9rem;
+        cursor: pointer;
+    }
+}

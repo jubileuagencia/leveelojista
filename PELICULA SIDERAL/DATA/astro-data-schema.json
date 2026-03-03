@@ -1,0 +1,172 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Astrologer Weekly Analysis Schema",
+  "description": "Schema dos dados processados pelo script astrologer-api.js. Serve como contrato entre o Agente 1 (Analista) e os agentes downstream.",
+  "version": "1.0.0",
+  "type": "object",
+  "required": ["metadata", "planetPositions", "events"],
+  "properties": {
+    "metadata": {
+      "type": "object",
+      "required": ["startDate", "endDate", "generatedAt", "daysProcessed"],
+      "properties": {
+        "startDate": { "type": "string", "format": "date", "description": "Data inicio YYYY-MM-DD" },
+        "endDate": { "type": "string", "format": "date", "description": "Data fim YYYY-MM-DD" },
+        "location": {
+          "type": "object",
+          "properties": {
+            "city": { "type": "string" },
+            "nation": { "type": "string" }
+          }
+        },
+        "generatedAt": { "type": "string", "format": "date-time" },
+        "daysProcessed": { "type": "integer", "minimum": 1 },
+        "daysTotal": { "type": "integer", "minimum": 1 }
+      }
+    },
+    "planetPositions": {
+      "type": "object",
+      "description": "Posicoes planetarias no inicio e fim da semana",
+      "properties": {
+        "weekStart": { "$ref": "#/definitions/planetArray" },
+        "weekEnd": { "$ref": "#/definitions/planetArray" }
+      }
+    },
+    "events": {
+      "type": "array",
+      "description": "Eventos rankeados por peso/importancia",
+      "items": { "$ref": "#/definitions/event" }
+    },
+    "ingresses": {
+      "type": "array",
+      "description": "Planetas que mudam de signo durante o periodo",
+      "items": { "$ref": "#/definitions/ingress" }
+    },
+    "retrogradeChanges": {
+      "type": "array",
+      "description": "Mudancas de retrogradacao durante o periodo",
+      "items": { "$ref": "#/definitions/retrogradeChange" }
+    },
+    "lunarPhases": {
+      "type": "array",
+      "description": "Fases lunares significativas",
+      "items": { "$ref": "#/definitions/lunarPhase" }
+    },
+    "aspects": {
+      "type": "array",
+      "description": "Top 20 aspectos entre planetas",
+      "items": { "$ref": "#/definitions/aspect" }
+    },
+    "dailyData": {
+      "type": "array",
+      "description": "Dados detalhados dia a dia",
+      "items": { "type": "object" }
+    }
+  },
+  "definitions": {
+    "planetData": {
+      "type": "object",
+      "required": ["key", "name", "sign", "signName", "position", "absPos"],
+      "properties": {
+        "key": { "type": "string", "description": "ID interno (ex: sun, moon, mercury)" },
+        "name": { "type": "string", "description": "Nome em portugues (ex: Sol, Lua)" },
+        "symbol": { "type": "string", "description": "Simbolo unicode" },
+        "sign": { "type": "string", "description": "Signo abreviado (ex: Pis, Ari)" },
+        "signName": { "type": "string", "description": "Signo em portugues" },
+        "signEmoji": { "type": "string" },
+        "position": { "type": "number", "minimum": 0, "maximum": 30, "description": "Grau dentro do signo" },
+        "absPos": { "type": "number", "minimum": 0, "maximum": 360, "description": "Posicao absoluta na ecliptica" },
+        "house": { "type": ["string", "null"], "description": "Casa astrologica" },
+        "retrograde": { "type": "boolean" },
+        "speed": { "type": ["number", "null"], "description": "Velocidade em graus/dia" },
+        "declination": { "type": ["number", "null"] },
+        "quality": { "type": ["string", "null"], "enum": ["Cardinal", "Fixed", "Mutable", null] },
+        "element": { "type": ["string", "null"], "enum": ["Fire", "Earth", "Air", "Water", null] },
+        "weight": { "type": "integer", "description": "Peso de importancia do planeta (1-10)" }
+      }
+    },
+    "planetArray": {
+      "type": "array",
+      "items": { "$ref": "#/definitions/planetData" }
+    },
+    "event": {
+      "type": "object",
+      "required": ["type", "label", "weight", "classification"],
+      "properties": {
+        "type": { "type": "string", "enum": ["aspect", "ingress", "station", "eclipse", "lunar_phase"] },
+        "label": { "type": "string", "description": "Descricao curta com simbolos" },
+        "description": { "type": "string" },
+        "weight": { "type": "number", "description": "Peso combinado para rankeamento" },
+        "classification": {
+          "type": "object",
+          "properties": {
+            "level": { "type": "string", "enum": ["critico", "estrutural", "gatilho", "ambiente"] },
+            "emoji": { "type": "string" },
+            "label": { "type": "string" }
+          }
+        },
+        "orb": { "type": "number" },
+        "isExact": { "type": "boolean" },
+        "aspect": { "type": "string" },
+        "planet1": { "type": "string" },
+        "planet2": { "type": "string" }
+      }
+    },
+    "ingress": {
+      "type": "object",
+      "properties": {
+        "planet": { "type": "string" },
+        "planetName": { "type": "string" },
+        "fromSign": { "type": "string" },
+        "fromSignName": { "type": "string" },
+        "toSign": { "type": "string" },
+        "toSignName": { "type": "string" },
+        "weight": { "type": "number" }
+      }
+    },
+    "retrogradeChange": {
+      "type": "object",
+      "properties": {
+        "planet": { "type": "string" },
+        "planetName": { "type": "string" },
+        "type": { "type": "string", "enum": ["station_retrograde", "station_direct"] },
+        "label": { "type": "string" },
+        "sign": { "type": "string" },
+        "signName": { "type": "string" },
+        "position": { "type": "number" },
+        "weight": { "type": "number" }
+      }
+    },
+    "lunarPhase": {
+      "type": "object",
+      "properties": {
+        "date": { "type": "string", "format": "date" },
+        "phase": { "type": "integer" },
+        "phaseName": { "type": "string" },
+        "moonSign": { "type": "string" },
+        "moonSignName": { "type": "string" },
+        "moonPosition": { "type": ["number", "null"] },
+        "isEclipse": { "type": "boolean" },
+        "degreesBetween": { "type": "number" }
+      }
+    },
+    "aspect": {
+      "type": "object",
+      "properties": {
+        "planet1": { "type": "string" },
+        "planet1Name": { "type": "string" },
+        "planet1Symbol": { "type": "string" },
+        "planet1Sign": { "type": "string" },
+        "planet2": { "type": "string" },
+        "planet2Name": { "type": "string" },
+        "planet2Symbol": { "type": "string" },
+        "planet2Sign": { "type": "string" },
+        "aspect": { "type": "string" },
+        "orb": { "type": "number" },
+        "isExact": { "type": "boolean" },
+        "combinedWeight": { "type": "number" },
+        "classification": { "type": "object" }
+      }
+    }
+  }
+}

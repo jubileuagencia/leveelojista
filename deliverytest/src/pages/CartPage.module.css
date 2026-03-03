@@ -1,0 +1,33 @@
+.page {
+    padding: 40px 20px;
+    min-height: 80vh;
+}
+
+.title {
+    font-size: 1.8rem;
+    font-weight: 800;
+    margin-bottom: 30px;
+    color: var(--text-primary);
+}
+
+.emptyState {
+    text-align: center;
+    color: var(--text-secondary);
+    margin-top: 50px;
+}
+
+.emptyText {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+}
+
+.emptyButton {
+    display: inline-block;
+    background-color: var(--primary-color);
+    color: #fff;
+    padding: 12px 24px;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: 600;
+    transition: background 0.3s;
+}

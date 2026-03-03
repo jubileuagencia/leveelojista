@@ -121,7 +121,7 @@ Checklist:
 - [ ] Documentar fluxo MEIO: ManyChat Caminho B (nao sabe → tutorial → Curso)
 - [ ] Documentar fluxo MEIO: Substack expandido → CTA Camarin
 - [ ] Documentar fluxo FUNDO: LPs → Checkout
-- [ ] Criar diagrama visual do funil
+- [x] Criar diagrama visual do funil → `docs/diagrama-funil-pelicula.md`
 - [ ] Aprovar estrategia com equipe
 
 ---

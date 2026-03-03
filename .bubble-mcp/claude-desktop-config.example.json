@@ -1,0 +1,15 @@
+{
+  "mcpServers": {
+    "bubble": {
+      "command": "node",
+      "args": [
+        "/path/to/bubble-mcp/dist/mcp-server.js"
+      ],
+      "env": {
+        "BUBBLE_BASE_URL": "https://your-app.bubbleapps.io",
+        "BUBBLE_API_TOKEN": "your-bubble-api-token-here",
+        "MCP_MODE": "read-write"
+      }
+    }
+  }
+}

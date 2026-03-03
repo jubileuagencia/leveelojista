@@ -1,0 +1,37 @@
+.page {
+    padding-top: 100px;
+    /* Header space */
+    padding-bottom: 100px;
+    min-height: 80vh;
+}
+
+.title {
+    margin-bottom: 24px;
+    font-size: 1.5rem;
+    color: var(--text-primary);
+}
+
+.list {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.group {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.date {
+    font-size: 0.85rem;
+    color: var(--text-secondary);
+    font-weight: 500;
+    margin-left: 4px;
+}
+
+.empty {
+    text-align: center;
+    color: var(--text-muted);
+    margin-top: 50px;
+}

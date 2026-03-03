@@ -23,6 +23,27 @@ When an agent is active:
 - Maintain the agent's perspective throughout the interaction
 <!-- AIOS-MANAGED-END: agent-system -->
 
+<!-- AIOS-MANAGED-START: clickup-tracking -->
+## Universal ClickUp Task Tracking
+
+ALL agents MUST follow the ClickUp Task Tracking Rule (`.claude/rules/clickup-task-tracking.md`).
+
+### Quick Reference
+- **Antes do trabalho**: Verificar se task ClickUp existe (`get_task_details` ou `get_tasks`)
+- **Durante**: Rastrear arquivos alterados, atualizar status "em progresso"
+- **Depois**: Postar relatorio de trabalho via `create_task_comment`, atualizar status final
+- **Pular**: Typos, perguntas rapidas, exploracao, config AIOS interna
+- **Notion**: Sincronizar quando produz documentacao ou entregaveis de cliente
+
+### Opt-Out Keywords
+User can skip tracking by saying: "sem clickup", "skip clickup", "no tracking", "quick fix"
+
+### Key Resources
+- Rule: `.claude/rules/clickup-task-tracking.md`
+- Report Template: `.aios-core/development/templates/work-report-tmpl.md`
+- Quality Gate: `.aios-core/development/checklists/universal-task-tracking-gate.md`
+<!-- AIOS-MANAGED-END: clickup-tracking -->
+
 ## Development Methodology
 
 ### Story-Driven Development

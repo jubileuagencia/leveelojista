@@ -1,0 +1,71 @@
+.container {
+    position: fixed;
+    /* bottom is set dynamically via inline style */
+    left: 20px;
+    right: 20px;
+    background-color: var(--surface-color);
+    border-radius: 12px;
+    padding: 12px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.15);
+    z-index: 2000;
+    animation: slideUp 0.3s ease-out;
+    border: 1px solid var(--bg-secondary);
+    transition: bottom 0.3s ease;
+    /* Smooth transition if nav appears/disappears */
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+}
+
+.label {
+    font-size: 0.85rem;
+    color: var(--text-muted);
+    margin-bottom: 2px;
+}
+
+.values {
+    display: flex;
+    align-items: baseline;
+}
+
+.price {
+    font-size: 1rem;
+    font-weight: 700;
+    color: var(--text-primary);
+    /* Dark gray/black */
+    margin-right: 4px;
+}
+
+.count {
+    font-size: 0.85rem;
+    color: var(--text-muted);
+}
+
+.button {
+    background-color: var(--primary-color);
+    /* Green */
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 0.9rem;
+    transition: background-color 0.2s;
+}
+
+@keyframes slideUp {
+    from {
+        transform: translateY(100%);
+        opacity: 0;
+    }
+
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}

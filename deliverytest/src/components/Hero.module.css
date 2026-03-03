@@ -1,0 +1,14 @@
+.section {
+    padding: 40px 0;
+    text-align: center;
+}
+
+.title {
+    font-size: 3rem;
+    margin-bottom: 10px;
+}
+
+.subtitle {
+    color: var(--text-secondary);
+    font-size: 1.1rem;
+}

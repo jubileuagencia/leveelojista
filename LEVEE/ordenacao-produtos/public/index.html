@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+  <title>Levee - Ordenacao de Produtos</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@600;700&family=Hind+Madurai:wght@400;500;600&family=Quattrocento+Sans:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+  <header class="header">
+    <h1 class="header__title">Ordenacao de Prateleira</h1>
+    <div class="header__stats">
+      <span id="stats-total">0 produtos</span>
+      <span id="stats-ordenados">0 ordenados</span>
+    </div>
+  </header>
+
+  <div class="sticky-group">
+    <div class="controls">
+      <div class="search-bar">
+        <svg class="search-icon" viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2">
+          <circle cx="11" cy="11" r="8"/><path d="m21 21-4.3-4.3"/>
+        </svg>
+        <input type="text" id="search-input" placeholder="Buscar produto..." autocomplete="off">
+        <button id="search-clear" class="search-clear" hidden>&times;</button>
+      </div>
+
+      <div class="filters">
+        <select id="filter-categoria">
+          <option value="">Todas categorias</option>
+        </select>
+        <select id="filter-ordenacao">
+          <option value="ordem-asc">Ordem crescente</option>
+          <option value="ordem-desc">Ordem decrescente</option>
+          <option value="nome-asc">Nome A-Z</option>
+          <option value="nome-desc">Nome Z-A</option>
+          <option value="sem-ordem">Sem ordem primeiro</option>
+        </select>
+      </div>
+    </div>
+
+    <div class="actions-bar">
+      <button id="btn-save-all" class="btn btn--primary" disabled>Salvar Alteracoes</button>
+      <span id="changes-count" class="changes-badge" hidden>0</span>
+      <button id="btn-export-csv" class="btn btn--outline">Exportar CSV</button>
+    </div>
+  </div>
+
+  <div id="product-list" class="product-list">
+    <!-- Products rendered here -->
+  </div>
+
+  <div id="loading" class="loading">
+    <div class="spinner"></div>
+    <p>Carregando produtos...</p>
+  </div>
+
+  <div id="empty-state" class="empty-state" hidden>
+    <p>Nenhum produto encontrado</p>
+  </div>
+
+  <!-- Bottom Sheet Modal -->
+  <div id="modal-overlay" class="modal-overlay">
+    <div id="modal-sheet" class="modal-sheet">
+      <div class="modal-handle"></div>
+      <div class="modal-content">
+        <div class="modal-product">
+          <img id="modal-img" src="" alt="" class="modal-product__img">
+          <div class="modal-product__info">
+            <h3 id="modal-name"></h3>
+            <span id="modal-cat" class="tag"></span>
+          </div>
+        </div>
+        <div class="modal-order">
+          <label>Posicao na prateleira:</label>
+          <div class="order-input-group">
+            <button id="btn-order-prev" class="btn-order-nav">&larr;</button>
+            <input type="number" id="modal-order-input" min="1" class="order-input">
+            <button id="btn-order-next" class="btn-order-nav">&rarr;</button>
+          </div>
+          <p id="modal-swap-info" class="swap-info" hidden></p>
+        </div>
+        <div class="modal-actions">
+          <button id="btn-modal-cancel" class="btn btn--secondary">Cancelar</button>
+          <button id="btn-modal-save" class="btn btn--primary">Aplicar</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Toast -->
+  <div id="toast" class="toast" hidden></div>
+
+  <script src="https://cdn.jsdelivr.net/npm/sortablejs@1.15.6/Sortable.min.js"></script>
+  <script src="/app.js"></script>
+</body>
+</html>

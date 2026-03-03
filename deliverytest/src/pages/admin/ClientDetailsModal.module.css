@@ -1,0 +1,353 @@
+.overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+}
+
+.modal {
+    background-color: var(--surface-color);
+    border-radius: 12px;
+    width: 90%;
+    max-width: 600px;
+    max-height: 90vh;
+    display: flex;
+    flex-direction: column;
+    box-shadow: var(--shadow-xl);
+    animation: fadeIn 0.2s ease-out;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(10px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.header {
+    padding: 16px 20px;
+    border-bottom: 1px solid var(--border-color);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header h2 {
+    margin: 0;
+    font-size: 1.25rem;
+    color: var(--text-primary);
+}
+
+.closeBtn {
+    background: none;
+    border: none;
+    font-size: 1.5rem;
+    color: var(--text-secondary);
+    cursor: pointer;
+    padding: 4px;
+    line-height: 1;
+}
+
+/* Tabs */
+.tabs {
+    display: flex;
+    border-bottom: 1px solid var(--border-color);
+    padding: 0 20px;
+    margin-top: 10px;
+}
+
+.tab {
+    padding: 10px 16px;
+    background: none;
+    border: none;
+    border-bottom: 2px solid transparent;
+    color: var(--text-secondary);
+    font-weight: 500;
+    cursor: pointer;
+    transition: all 0.2s;
+}
+
+.tab:hover {
+    color: var(--primary-color);
+}
+
+.activeTab {
+    color: var(--primary-color);
+    border-bottom-color: var(--primary-color);
+}
+
+.content {
+    padding: 24px;
+    overflow-y: auto;
+    flex: 1;
+}
+
+.formGroup {
+    margin-bottom: 20px;
+}
+
+.formGroup label {
+    display: block;
+    font-size: 0.875rem;
+    color: var(--text-secondary);
+    margin-bottom: 8px;
+    font-weight: 500;
+}
+
+.input,
+.select {
+    width: 100%;
+    padding: 10px 12px;
+    border: 1px solid var(--border-color);
+    border-radius: 8px;
+    background-color: #F9FAFB;
+    color: var(--text-primary);
+    font-size: 1rem;
+    transition: border-color 0.2s, box-shadow 0.2s;
+}
+
+.input:focus,
+.select:focus {
+    outline: none;
+    border-color: var(--primary-color);
+    box-shadow: 0 0 0 2px rgba(34, 197, 94, 0.1);
+}
+
+.input:disabled {
+    background-color: #E5E7EB;
+    cursor: not-allowed;
+    color: #6B7280;
+}
+
+/* Error States */
+.inputError {
+    border-color: #EF4444 !important;
+    background-color: #FEF2F2 !important;
+}
+
+.inputError:focus {
+    box-shadow: 0 0 0 2px rgba(239, 68, 68, 0.1) !important;
+}
+
+.errorMessage {
+    color: #EF4444;
+    font-size: 0.8rem;
+    margin-top: 4px;
+    display: block;
+}
+
+/* Tiers */
+.tierOptions {
+    display: flex;
+    gap: 12px;
+}
+
+.tierLabel {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 12px;
+    border: 1px solid var(--border-color);
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: 600;
+    transition: all 0.2s;
+}
+
+.tierInput {
+    display: none;
+}
+
+.tierInput:checked+.tierContent {
+    color: white;
+}
+
+/* Specific Tier Colors */
+.tierLabel.bronze {
+    border-color: #CD7F32;
+    color: #CD7F32;
+}
+
+.tierLabel.silver {
+    border-color: #718096;
+    color: #718096;
+}
+
+.tierLabel.gold {
+    border-color: #D4AF37;
+    color: #D4AF37;
+}
+
+.tierInput:checked+.tierContent.bronze {
+    background-color: #CD7F32;
+    color: white;
+}
+
+.tierInput:checked+.tierContent.silver {
+    background-color: #718096;
+    color: white;
+}
+
+.tierInput:checked+.tierContent.gold {
+    background-color: #D4AF37;
+    color: white;
+}
+
+.tierContent {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 6px;
+    /* slightly smaller than wrapper */
+}
+
+
+.footer {
+    padding: 16px 20px;
+    border-top: 1px solid var(--border-color);
+    display: flex;
+    justify-content: flex-end;
+    gap: 12px;
+}
+
+.btn {
+    padding: 10px 20px;
+    border-radius: 8px;
+    font-weight: 600;
+    cursor: pointer;
+    border: none;
+    transition: opacity 0.2s;
+}
+
+.cancelBtn {
+    background-color: transparent;
+    color: var(--text-secondary);
+    border: 1px solid var(--border-color);
+}
+
+.saveBtn {
+    background-color: var(--primary-color);
+    color: white;
+}
+
+.btn:disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+}
+
+/* Address List */
+.addressList {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.addressCard {
+    border: 1px solid var(--border-color);
+    border-radius: 8px;
+    padding: 16px;
+    background-color: #fff;
+    position: relative;
+}
+
+.addressHeader {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 8px;
+}
+
+.mainBadge {
+    background-color: var(--primary-color);
+    color: white;
+    font-size: 0.75rem;
+    padding: 2px 8px;
+    border-radius: 12px;
+}
+
+.addressActions {
+    display: flex;
+    gap: 8px;
+    margin-top: 12px;
+}
+
+.actionLink {
+    background: none;
+    border: none;
+    color: var(--primary-color);
+    font-size: 0.875rem;
+    cursor: pointer;
+    font-weight: 500;
+}
+
+.deleteLink {
+    color: #EF4444;
+}
+
+.addAddressBtn {
+    width: 100%;
+    padding: 12px;
+    border: 2px dashed var(--border-color);
+    background: none;
+    color: var(--text-secondary);
+    font-weight: 600;
+    border-radius: 8px;
+    cursor: pointer;
+    margin-top: 12px;
+}
+
+.addAddressBtn:hover {
+    border-color: var(--primary-color);
+    color: var(--primary-color);
+}
+
+/* Status Messages */
+.statusMessage {
+    padding: 12px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    font-size: 0.9rem;
+    font-weight: 500;
+    text-align: center;
+    animation: fadeIn 0.3s ease;
+}
+
+.statusMessage.error {
+    background-color: #FEF2F2;
+    color: #991B1B;
+    border: 1px solid #FCA5A5;
+}
+
+.statusMessage.success {
+    background-color: #ECFDF5;
+    color: #065F46;
+    border: 1px solid #6EE7B7;
+}
+
+/* Delete Confirmation */
+.actionLink.confirmDelete {
+    background-color: #FEF2F2;
+    padding: 4px 8px;
+    border-radius: 4px;
+    color: #DC2626;
+    font-weight: 700;
+    transition: all 0.2s;
+}
+
+.actionLink.confirmDelete:hover {
+    background-color: #FEE2E2;
+    transform: scale(1.05);
+}

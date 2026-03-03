@@ -1,0 +1,19 @@
+version: '3.8'
+
+services:
+  dev-server:
+    image: node:22
+    working_dir: /app
+    # Mapeia a porta 5173 (Vite) e 3000 (Express/API)
+    ports:
+      - "5173:5173"
+      - "3000:3000"
+    # Monta sua pasta atual (.) para dentro do container (/app)
+    volumes:
+      - .:/app
+      - /app/node_modules # Evita conflito entre Windows/Linux na pasta de dependencias
+    # Carrega as variáveis do arquivo .env que criamos no VPS
+    env_file:
+      - .env
+    # Comando mágico: Instala e Roda
+    command: sh -c "npm install && npm run dev -- --host"

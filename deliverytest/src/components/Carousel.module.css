@@ -1,0 +1,52 @@
+.carouselContainer {
+    width: calc(100% + 40px);
+    /* Compensate for container padding (20px * 2) */
+    margin-left: -20px;
+    margin-right: -20px;
+    padding: 10px 0;
+}
+
+.heading {
+    margin-bottom: 20px;
+    font-size: 1.8rem;
+    font-weight: 700;
+    padding-left: 20px;
+    /* Restore heading alignment */
+}
+
+.scrollArea {
+    display: flex;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    padding-bottom: 20px;
+    /* Space for scrollbar or shadow */
+    scrollbar-width: none;
+    /* Firefox */
+    -ms-overflow-style: none;
+    /* IE/Edge */
+    -webkit-overflow-scrolling: touch;
+}
+
+.scrollArea::-webkit-scrollbar {
+    display: none;
+    /* Chrome/Safari */
+}
+
+.cardWrapper {
+    scroll-snap-align: start;
+    padding: 0 5px;
+    flex-shrink: 0;
+    width: 200px;
+}
+
+.spacer {
+    width: 20px;
+    /* Match container padding for left alignment */
+    flex-shrink: 0;
+}
+
+.endSpacer {
+    width: 5px;
+    /* Minimal padding at the end */
+    flex-shrink: 0;
+}

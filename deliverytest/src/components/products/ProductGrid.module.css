@@ -1,0 +1,19 @@
+.grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    /* Strict 2 columns */
+    gap: 12px;
+    /* Reduce gap slightly to fit standard phones */
+    padding-bottom: 20px;
+}
+
+@media (min-width: 1024px) {
+    .grid {
+        grid-template-columns: repeat(4, 1fr);
+        gap: 24px;
+    }
+}
+
+.cardWrapper {
+    width: 100%;
+}

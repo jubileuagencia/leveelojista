@@ -1,0 +1,190 @@
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 80px;
+    /* Taller for 2-line location */
+    background-color: var(--surface-color);
+    /* White bg */
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05);
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 0 20px;
+}
+
+.locationWrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.locationLabel {
+    font-size: 0.75rem;
+    color: var(--text-muted);
+    /* Gray-400 */
+    margin-bottom: 2px;
+}
+
+.locationValue {
+    font-size: 0.95rem;
+    font-weight: 700;
+    color: var(--text-primary);
+    /* Gray-800 */
+    display: flex;
+    align-items: center;
+}
+
+/* Base styles for icon buttons to share common properties */
+.iconButtonBase {
+    width: 40px;
+    height: 40px;
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.iconButton {
+    composes: iconButtonBase;
+    background: var(--bg-secondary);
+    /* Light gray circle */
+    border: none;
+    color: var(--text-primary);
+}
+
+.cartButton {
+    composes: iconButtonBase;
+    background: var(--primary-color);
+    /* Primary Green */
+    color: #fff;
+}
+
+.notifBadge {
+    position: absolute;
+    top: 10px;
+    right: 12px;
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background-color: var(--danger-color);
+    border: 1px solid #FFF;
+}
+
+.badge {
+    position: absolute;
+    top: -5px;
+    right: -5px;
+    background-color: var(--danger-color);
+    color: #fff;
+    font-size: 0.7rem;
+    font-weight: bold;
+    border-radius: 50%;
+    width: 18px;
+    height: 18px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid #FFF;
+}
+
+.loginLink {
+    composes: iconButton;
+    font-size: 0.8rem;
+    font-weight: 600;
+    color: var(--primary-color);
+    width: auto;
+    padding: 0 16px;
+}
+
+.userSection {
+    cursor: pointer;
+}
+
+.userBadge {
+    composes: iconButton;
+    background: var(--bg-secondary);
+    color: var(--text-primary);
+    width: auto;
+    padding: 0 12px;
+    font-size: 0.8rem;
+    font-weight: 600;
+}
+
+.logoutButton {
+    composes: iconButton;
+    color: var(--primary-color);
+}
+
+.rightActions {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+.arrowIcon {
+    margin-left: 4px;
+}
+
+@media (max-width: 640px) {
+    .header {
+        height: 70px;
+    }
+
+    .container {
+        padding: 0 12px;
+    }
+
+    .locationLabel {
+        font-size: 0.65rem;
+    }
+
+    .locationValue {
+        font-size: 0.85rem;
+        max-width: 140px;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+
+    .iconButtonBase {
+        width: 36px;
+        height: 36px;
+    }
+
+    .rightActions {
+        gap: 8px;
+    }
+
+    .loginLink {
+        font-size: 0.75rem;
+        padding: 0 8px !important;
+        /* Override inline style if possible, or expect component update */
+    }
+}
+
+@media (max-width: 380px) {
+    .locationValue {
+        max-width: 100px;
+    }
+
+    /* Hide the text of the login link on very small screens if needed, 
+       but keeping it compact is better for now as requested */
+    .loginLink {
+        max-width: 100px;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+}

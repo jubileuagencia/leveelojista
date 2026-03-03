@@ -1,0 +1,58 @@
+{
+  "pages": {
+    "/_not-found/page": [
+      "static/chunks/webpack-adfcf518a14f40c5.js",
+      "static/chunks/4bd1b696-c023c6e3521b1417.js",
+      "static/chunks/255-ebd51be49873d76c.js",
+      "static/chunks/main-app-f5957de0ba7efbe6.js",
+      "static/chunks/app/_not-found/page-4547dd412e5e4a51.js"
+    ],
+    "/layout": [
+      "static/chunks/webpack-adfcf518a14f40c5.js",
+      "static/chunks/4bd1b696-c023c6e3521b1417.js",
+      "static/chunks/255-ebd51be49873d76c.js",
+      "static/chunks/main-app-f5957de0ba7efbe6.js",
+      "static/css/d4b6a6328dacb6bf.css",
+      "static/chunks/app/layout-682e029be1b0913c.js"
+    ],
+    "/page": [
+      "static/chunks/webpack-adfcf518a14f40c5.js",
+      "static/chunks/4bd1b696-c023c6e3521b1417.js",
+      "static/chunks/255-ebd51be49873d76c.js",
+      "static/chunks/main-app-f5957de0ba7efbe6.js",
+      "static/chunks/app/page-526754a963979b85.js"
+    ],
+    "/decifrando-costar/page": [
+      "static/chunks/webpack-adfcf518a14f40c5.js",
+      "static/chunks/4bd1b696-c023c6e3521b1417.js",
+      "static/chunks/255-ebd51be49873d76c.js",
+      "static/chunks/main-app-f5957de0ba7efbe6.js",
+      "static/chunks/850-de350858a22819d2.js",
+      "static/chunks/848-2a3380c0abc15a3e.js",
+      "static/chunks/app/decifrando-costar/page-5cfd2cc0f8a79129.js"
+    ],
+    "/decifrando/page": [
+      "static/chunks/webpack-adfcf518a14f40c5.js",
+      "static/chunks/4bd1b696-c023c6e3521b1417.js",
+      "static/chunks/255-ebd51be49873d76c.js",
+      "static/chunks/main-app-f5957de0ba7efbe6.js",
+      "static/chunks/850-de350858a22819d2.js",
+      "static/chunks/app/decifrando/page-ff2179f1d224815b.js"
+    ],
+    "/camarim/layout": [
+      "static/chunks/webpack-adfcf518a14f40c5.js",
+      "static/chunks/4bd1b696-c023c6e3521b1417.js",
+      "static/chunks/255-ebd51be49873d76c.js",
+      "static/chunks/main-app-f5957de0ba7efbe6.js",
+      "static/chunks/app/camarim/layout-526754a963979b85.js"
+    ],
+    "/camarim/page": [
+      "static/chunks/webpack-adfcf518a14f40c5.js",
+      "static/chunks/4bd1b696-c023c6e3521b1417.js",
+      "static/chunks/255-ebd51be49873d76c.js",
+      "static/chunks/main-app-f5957de0ba7efbe6.js",
+      "static/chunks/850-de350858a22819d2.js",
+      "static/chunks/app/camarim/page-9482057ff1022edf.js"
+    ]
+  }
+}

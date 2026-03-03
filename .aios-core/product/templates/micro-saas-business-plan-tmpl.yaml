@@ -1,0 +1,753 @@
+template:
+  id: micro-saas-business-plan-v1
+  name: Plano de Negocios — Micro SaaS
+  version: 1.0
+  output:
+    format: markdown
+    filename: docs/business-plan-{{project_slug}}.md
+    title: "Plano de Negocios: {{project_name}}"
+  context: |
+    Micro SaaS = SaaS operado por 1-3 pessoas, bootstrapped, focado em nicho
+    especifico, com receita recorrente (MRR). Este template foi desenhado para
+    validacao rapida e execucao lean, nao para apresentar a investidores.
+
+workflow:
+  mode: interactive
+  elicitation: advanced-elicitation
+  custom_elicitation:
+    title: "Acoes de Elicitacao — Plano Micro SaaS"
+    options:
+      - "Expandir secao com mais detalhes"
+      - "Validar premissa com dados de mercado"
+      - "Stress-test: e se essa premissa estiver errada?"
+      - "Explorar abordagem alternativa"
+      - "Simplificar — manter mais lean"
+      - "Analisar trade-offs custo x beneficio"
+      - "Comparar com concorrentes conhecidos"
+      - "Gerar cenarios otimista/pessimista/realista"
+      - "Prosseguir para proxima secao"
+
+sections:
+  # ============================================================
+  # SECAO 0 — INTRODUCAO E MODO DE TRABALHO
+  # ============================================================
+  - id: introduction
+    instruction: |
+      Este template guia a criacao de um Plano de Negocios completo para Micro SaaS.
+
+      Perguntar ao usuario qual modo prefere:
+
+      1. **Modo Interativo** — Trabalhar secao por secao colaborativamente
+      2. **Modo YOLO** — Gerar rascunho completo para revisao e refinamento
+      3. **Modo Validacao** — Ja tenho uma ideia, quero validar (preencher rapido)
+
+      Antes de comecar, entender:
+      - Qual a ideia/problema que quer resolver?
+      - Ja tem experiencia no nicho ou esta explorando?
+      - Qual o nivel de investimento disponivel (tempo e dinheiro)?
+      - Ja tem audiencia/acesso ao publico-alvo?
+
+  # ============================================================
+  # SECAO 1 — VISAO GERAL (Elevator Pitch)
+  # ============================================================
+  - id: elevator-pitch
+    title: "1. Elevator Pitch"
+    instruction: |
+      Resumo executivo do negocio em formato conciso. Deve responder em 3-5 frases:
+      - O que e? (produto)
+      - Para quem? (publico)
+      - Que problema resolve? (dor)
+      - Como ganha dinheiro? (modelo)
+      - Por que agora? (timing/oportunidade)
+    template: |
+      **{{project_name}}** e um {{tipo_produto}} que ajuda {{publico_alvo}} a {{resolver_problema}}.
+
+      Diferente de {{alternativas}}, nos {{diferencial_chave}}.
+
+      Modelo: {{modelo_receita}} | Preco: {{faixa_preco}} | Mercado: {{tamanho_nicho}}
+
+  # ============================================================
+  # SECAO 2 — PROBLEMA E DOR
+  # ============================================================
+  - id: problem
+    title: "2. Problema & Dor"
+    instruction: |
+      Articular o problema com clareza e evidencias concretas.
+      Para Micro SaaS, o problema deve ser:
+      - Especifico (nao generico)
+      - Recorrente (nao pontual — justifica assinatura)
+      - Doloroso o suficiente para pagar (nao apenas "nice to have")
+      - Mal resolvido pelas opcoes atuais
+    elicit: true
+    sections:
+      - id: pain-description
+        title: "2.1 Descricao da Dor"
+        template: |
+          **Dor principal:** {{dor_principal}}
+
+          **Frequencia:** {{com_que_frequencia_ocorre}}
+
+          **Impacto:** {{impacto_em_tempo_dinheiro_frustacao}}
+
+          **Evidencia:** {{como_voce_sabe_que_isso_e_real}}
+
+      - id: current-solutions
+        title: "2.2 Como Resolvem Hoje"
+        instruction: |
+          Mapear as alternativas atuais (incluindo "nao fazer nada"):
+          - Ferramentas existentes e suas limitacoes
+          - Workarounds manuais (planilhas, processos, etc.)
+          - Por que nenhuma resolve bem
+        type: bullet-list
+        template: "- **{{alternativa}}**: {{como_usam}} → Limitacao: {{limitacao}}"
+
+      - id: problem-validation
+        title: "2.3 Validacao do Problema"
+        instruction: |
+          Como voce validou (ou pretende validar) que o problema e real?
+          Checklist de validacao:
+        template: |
+          - [ ] Conversei com {{N}} pessoas do publico-alvo
+          - [ ] Encontrei discussoes online (Reddit, Twitter, foruns)
+          - [ ] Vi reclamacoes em reviews de concorrentes
+          - [ ] Eu mesmo sinto essa dor (dogfooding)
+          - [ ] Dados de mercado confirmam a demanda
+
+          **Fontes:** {{links_evidencias}}
+
+  # ============================================================
+  # SECAO 3 — SOLUCAO (MVP)
+  # ============================================================
+  - id: solution
+    title: "3. Solucao & MVP"
+    instruction: |
+      Descrever a solucao mantendo o foco em MVP real — o minimo viavel que:
+      1. Resolve a dor principal
+      2. Pode ser construido em 2-6 semanas
+      3. E bom o suficiente para cobrar
+
+      REGRA MICRO SAAS: Se o MVP precisa de mais de 6 semanas, esta grande demais.
+    elicit: true
+    sections:
+      - id: core-concept
+        title: "3.1 Conceito Core"
+        template: |
+          **O que faz:** {{descricao_1_paragrafo}}
+
+          **Como funciona (fluxo principal):**
+          1. {{passo_1}}
+          2. {{passo_2}}
+          3. {{passo_3}}
+
+          **Output/Resultado para o usuario:** {{o_que_o_usuario_ganha}}
+
+      - id: mvp-features
+        title: "3.2 Features do MVP"
+        instruction: |
+          Listar APENAS as features essenciais do MVP. Aplicar o "teste do corte":
+          para cada feature, pergunte "o produto ainda resolve a dor sem isso?"
+          Se sim, nao e MVP.
+        type: bullet-list
+        template: "- **{{feature}}**: {{descricao}} | Prioridade: {{P1_P2_P3}}"
+
+      - id: not-mvp
+        title: "3.3 Fora do MVP (Backlog)"
+        instruction: |
+          O que NAO entra no MVP mas e importante para o futuro.
+          Isso ajuda a manter foco e mostra que voce pensou alem.
+        type: bullet-list
+        template: "- {{feature}} — Razao para adiar: {{razao}}"
+
+      - id: unique-value
+        title: "3.4 Proposta de Valor Unica (USP)"
+        instruction: |
+          Complete a frase: "Somos a unica ferramenta que _____ para _____."
+          Bons diferenciais para Micro SaaS:
+          - Simplicidade (vs. complexidade do incumbente)
+          - Nicho especifico (vs. generalista)
+          - Preco justo (vs. enterprise pricing)
+          - UX superior para caso de uso especifico
+          - Integracao que ninguem faz
+        template: |
+          **USP:** {{proposta_valor_unica}}
+
+          **Diferencial vs. principal concorrente:**
+          | Aspecto | Nos | Concorrente |
+          |---------|-----|-------------|
+          | {{aspecto_1}} | {{nos_1}} | {{eles_1}} |
+          | {{aspecto_2}} | {{nos_2}} | {{eles_2}} |
+          | {{aspecto_3}} | {{nos_3}} | {{eles_3}} |
+
+  # ============================================================
+  # SECAO 4 — PUBLICO-ALVO & PERSONA
+  # ============================================================
+  - id: target-audience
+    title: "4. Publico-Alvo & Persona"
+    instruction: |
+      Para Micro SaaS, a persona deve ser MUITO especifica.
+      "Profissionais de marketing" e amplo demais.
+      "Gestores de trafego pago de e-commerces com faturamento R$50-500k/mes" e bom.
+    elicit: true
+    sections:
+      - id: ideal-customer
+        title: "4.1 Perfil do Cliente Ideal (ICP)"
+        template: |
+          **Cargo/Funcao:** {{cargo}}
+          **Setor/Industria:** {{setor}}
+          **Tamanho da empresa:** {{tamanho}}
+          **Localizacao:** {{geo}}
+          **Faixa de faturamento:** {{faturamento}}
+          **Stack tecnologico:** {{ferramentas_que_ja_usam}}
+          **Ticket medio aceitavel:** {{quanto_pagam_por_ferramentas_similares}}
+
+      - id: persona
+        title: "4.2 Persona Detalhada"
+        template: |
+          **Nome:** {{nome_ficticio}}
+          **Idade:** {{idade}} | **Cargo:** {{cargo}}
+
+          **Dia a dia:** {{rotina_relacionada_ao_problema}}
+
+          **Frustracao principal:** "{{frase_que_a_persona_diria}}"
+
+          **Onde busca solucoes:** {{canais_comunidades_fontes}}
+
+          **Disposicao para pagar:** {{quanto_e_por_que}}
+
+          **Objecoes previsiveis:**
+          - {{objecao_1}}
+          - {{objecao_2}}
+
+      - id: tam-sam-som
+        title: "4.3 Dimensionamento de Mercado (TAM/SAM/SOM)"
+        instruction: |
+          Para Micro SaaS, o SOM e o numero mais importante.
+          Nao precisa ser bilhoes — 1000 clientes pagando $30/mes = $360k ARR.
+        template: |
+          **TAM** (Total Addressable Market): {{tam}}
+          **SAM** (Serviceable Available Market): {{sam}}
+          **SOM** (Serviceable Obtainable Market — 1-2 anos): {{som}}
+
+          **Calculo do SOM:**
+          - Publico acessivel: {{N}} pessoas/empresas
+          - Taxa de conversao estimada: {{X}}%
+          - Ticket medio: R${{Y}}/mes
+          - **SOM = {{N}} x {{X}}% x R${{Y}} x 12 = R${{resultado}}/ano**
+
+  # ============================================================
+  # SECAO 5 — MODELO DE NEGOCIO & PRECIFICACAO
+  # ============================================================
+  - id: business-model
+    title: "5. Modelo de Negocio & Precificacao"
+    instruction: |
+      Definir como o negocio gera receita. Modelos comuns para Micro SaaS:
+      - Assinatura mensal/anual (mais comum)
+      - Freemium + plano pago
+      - Pay-per-use / creditos
+      - Lifetime deal (para validacao inicial)
+      - Plano unico + upsells
+    elicit: true
+    sections:
+      - id: revenue-model
+        title: "5.1 Modelo de Receita"
+        template: |
+          **Modelo principal:** {{modelo}}
+          **Moeda:** {{BRL_USD_EUR}}
+          **Ciclo de cobranca:** {{mensal_anual_ambos}}
+          **Gateway de pagamento:** {{stripe_paddle_kiwify_etc}}
+
+      - id: pricing-tiers
+        title: "5.2 Tabela de Precos"
+        instruction: |
+          Para Micro SaaS bootstrapped, simplicidade e chave.
+          Recomendacao: comece com 2-3 planos no maximo.
+          Incluir sempre: o que cada plano inclui/exclui, limites, e o "gancho" de upgrade.
+        template: |
+          | Plano | Preco/mes | Preco/ano | Inclui | Limite |
+          |-------|-----------|-----------|--------|--------|
+          | {{plano_free}} | Gratis | — | {{features_free}} | {{limites_free}} |
+          | {{plano_pro}} | R${{preco_pro}} | R${{preco_pro_anual}} | {{features_pro}} | {{limites_pro}} |
+          | {{plano_business}} | R${{preco_biz}} | R${{preco_biz_anual}} | {{features_biz}} | {{limites_biz}} |
+
+          **Metrica de valor (value metric):** {{o_que_escala_com_uso — ex: usuarios, projetos, chamadas API}}
+
+          **Estrategia de desconto anual:** {{percentual_desconto}}% (equivale a {{meses}} meses gratis)
+
+      - id: unit-economics
+        title: "5.3 Unit Economics"
+        instruction: |
+          Numeros unitarios — quanto custa e quanto vale cada cliente.
+          Para Micro SaaS, a margem deve ser >80% pois custos de infra sao baixos.
+        template: |
+          **ARPU** (Average Revenue Per User): R${{arpu}}/mes
+          **CAC** (Customer Acquisition Cost): R${{cac}}
+          **LTV** (Lifetime Value): R${{ltv}}
+          **Ratio LTV:CAC:** {{ratio}}x (meta: >3x)
+          **Churn mensal estimado:** {{churn}}% (meta: <5%)
+          **Payback period:** {{meses}} meses
+          **Margem bruta:** {{margem}}%
+
+          **Calculo LTV:** ARPU / Churn = R${{arpu}} / {{churn}}% = R${{ltv}}
+
+  # ============================================================
+  # SECAO 6 — ANALISE COMPETITIVA
+  # ============================================================
+  - id: competitive-analysis
+    title: "6. Analise Competitiva"
+    instruction: |
+      Mapear o cenario competitivo. Para Micro SaaS, considerar:
+      - Concorrentes diretos (fazem a mesma coisa)
+      - Concorrentes indiretos (resolvem a dor de outro jeito)
+      - Substitutos (planilhas, processos manuais, freelancers)
+      - "Nao fazer nada" (o maior concorrente de todo Micro SaaS)
+    elicit: true
+    sections:
+      - id: competitor-map
+        title: "6.1 Mapa de Concorrentes"
+        template: |
+          | Concorrente | Tipo | Preco | Pontos Fortes | Pontos Fracos | Nossa Vantagem |
+          |-------------|------|-------|---------------|---------------|----------------|
+          | {{nome_1}} | {{direto_indireto}} | {{preco}} | {{forte}} | {{fraco}} | {{vantagem}} |
+          | {{nome_2}} | {{direto_indireto}} | {{preco}} | {{forte}} | {{fraco}} | {{vantagem}} |
+          | {{nome_3}} | {{direto_indireto}} | {{preco}} | {{forte}} | {{fraco}} | {{vantagem}} |
+          | Planilha/Manual | Substituto | Gratis | Flexivel | Lento, erro humano | Automacao |
+
+      - id: positioning
+        title: "6.2 Posicionamento"
+        instruction: |
+          Onde voce se posiciona nos eixos:
+          - Preco (barato ↔ caro)
+          - Complexidade (simples ↔ feature-rich)
+          - Nicho (especialista ↔ generalista)
+        template: |
+          ```
+          Preco Alto
+               |
+               |   [Enterprise SaaS]
+               |
+          -----+--------- Complexidade →
+               |
+          [NOS]|   [Concorrente X]
+               |
+          Preco Baixo
+          ```
+
+          **Nosso posicionamento:** {{posicionamento_em_1_frase}}
+
+  # ============================================================
+  # SECAO 7 — ESTRATEGIA DE AQUISICAO (Go-to-Market)
+  # ============================================================
+  - id: go-to-market
+    title: "7. Estrategia de Aquisicao (Go-to-Market)"
+    instruction: |
+      Como voce vai conseguir seus primeiros 100 clientes pagantes?
+      Para Micro SaaS bootstrapped, canais organicos e comunidades sao rei.
+      Ads pagos geralmente so fazem sentido depois de validar product-market fit.
+    elicit: true
+    sections:
+      - id: launch-strategy
+        title: "7.1 Estrategia de Lancamento"
+        instruction: |
+          Plano para os primeiros 30-90 dias apos ter o MVP pronto.
+        template: |
+          **Pre-lancamento (antes do MVP pronto):**
+          - [ ] {{acao_pre_1}}
+          - [ ] {{acao_pre_2}}
+          - [ ] {{acao_pre_3}}
+
+          **Lancamento (dia D):**
+          - [ ] {{acao_lancamento_1}}
+          - [ ] {{acao_lancamento_2}}
+
+          **Pos-lancamento (30-90 dias):**
+          - [ ] {{acao_pos_1}}
+          - [ ] {{acao_pos_2}}
+
+          **Meta primeiros 90 dias:** {{meta_90_dias}}
+
+      - id: acquisition-channels
+        title: "7.2 Canais de Aquisicao"
+        instruction: |
+          Rankear canais por potencial e custo. Para Micro SaaS:
+
+          **Canais organicos (custo zero, alto esforco):**
+          - SEO / Blog / Content Marketing
+          - Comunidades (Reddit, Discord, Slack, Twitter/X)
+          - Product Hunt / Hacker News
+          - YouTube / tutoriais
+          - Parcerias / integrações
+
+          **Canais pagos (custo variavel):**
+          - Google Ads (intent-based)
+          - Facebook/Instagram Ads
+          - Sponsorships em newsletters
+          - Influencers do nicho
+        template: |
+          | Canal | Prioridade | Investimento | CAC Estimado | Timeline |
+          |-------|-----------|--------------|--------------|----------|
+          | {{canal_1}} | {{P1_P2_P3}} | {{investimento}} | R${{cac}} | {{quando}} |
+          | {{canal_2}} | {{P1_P2_P3}} | {{investimento}} | R${{cac}} | {{quando}} |
+          | {{canal_3}} | {{P1_P2_P3}} | {{investimento}} | R${{cac}} | {{quando}} |
+
+      - id: content-strategy
+        title: "7.3 Estrategia de Conteudo"
+        instruction: |
+          SEO e conteudo sao o motor de crescimento #1 para Micro SaaS.
+          Definir: topicos-chave, frequencia, formatos.
+        template: |
+          **Topicos-chave (clusters SEO):**
+          1. {{cluster_1}} — Volume: {{vol}} | Dificuldade: {{dif}}
+          2. {{cluster_2}} — Volume: {{vol}} | Dificuldade: {{dif}}
+          3. {{cluster_3}} — Volume: {{vol}} | Dificuldade: {{dif}}
+
+          **Frequencia de publicacao:** {{frequencia}}
+          **Formatos:** {{blog_video_newsletter_podcast}}
+
+      - id: retention-strategy
+        title: "7.4 Retencao & Reducao de Churn"
+        instruction: |
+          Reter e mais barato que adquirir. Estrategias para Micro SaaS:
+          - Onboarding excelente
+          - Notificacoes de valor ("voce economizou X horas")
+          - Feature gating inteligente (mostrar valor do upgrade)
+          - Suporte rapido e pessoal
+        template: |
+          **Estrategias de retencao:**
+          1. {{estrategia_1}}
+          2. {{estrategia_2}}
+          3. {{estrategia_3}}
+
+          **Early warning signs de churn:**
+          - {{sinal_1}}
+          - {{sinal_2}}
+
+          **Acoes de recuperacao:**
+          - {{acao_win_back_1}}
+          - {{acao_win_back_2}}
+
+  # ============================================================
+  # SECAO 8 — STACK TECNICO
+  # ============================================================
+  - id: tech-stack
+    title: "8. Stack Tecnico"
+    instruction: |
+      Visao de alto nivel da arquitetura. Para Micro SaaS bootstrapped:
+      - Priorizar simplicidade e velocidade de desenvolvimento
+      - Usar servicos gerenciados (evitar ops)
+      - Considerar custo em escala baixa (free tiers)
+      - Monolito > microservicos (no inicio)
+    elicit: true
+    sections:
+      - id: architecture
+        title: "8.1 Arquitetura"
+        template: |
+          **Tipo:** {{monolito_serverless_jamstack}}
+          **Frontend:** {{framework — Next.js, Nuxt, SvelteKit, etc.}}
+          **Backend:** {{framework — Node, Django, Rails, Supabase, etc.}}
+          **Banco de dados:** {{postgres_mysql_mongo_supabase}}
+          **Autenticacao:** {{clerk_auth0_supabase_auth_next_auth}}
+          **Hospedagem:** {{vercel_railway_fly_aws}}
+          **CDN/Assets:** {{cloudflare_vercel_s3}}
+          **Email transacional:** {{resend_sendgrid_ses}}
+          **Pagamentos:** {{stripe_paddle_lemonsqueezy_kiwify}}
+          **Analytics:** {{plausible_posthog_mixpanel}}
+          **Monitoramento:** {{sentry_betterstack}}
+
+      - id: cost-estimate
+        title: "8.2 Estimativa de Custo Mensal (Infra)"
+        instruction: |
+          Mapear custos de infra para cenarios de 0, 100, 1000, 10000 usuarios.
+          Micro SaaS deve custar <$50/mes com 0-100 usuarios.
+        template: |
+          | Servico | 0-100 users | 100-1k users | 1k-10k users |
+          |---------|-------------|--------------|--------------|
+          | Hosting | {{custo}} | {{custo}} | {{custo}} |
+          | Database | {{custo}} | {{custo}} | {{custo}} |
+          | Email | {{custo}} | {{custo}} | {{custo}} |
+          | Auth | {{custo}} | {{custo}} | {{custo}} |
+          | Outros | {{custo}} | {{custo}} | {{custo}} |
+          | **Total** | **${{total}}** | **${{total}}** | **${{total}}** |
+
+      - id: build-timeline
+        title: "8.3 Timeline de Construcao"
+        template: |
+          | Fase | Duracao | Entregavel |
+          |------|---------|------------|
+          | Setup & Boilerplate | {{dias}} dias | Projeto configurado, deploy basico |
+          | Core Features (MVP) | {{semanas}} semanas | Features P1 funcionando |
+          | Polish & Beta | {{semanas}} semanas | UX refinada, bugs corrigidos |
+          | Lancamento | {{dias}} dias | Go-live, monitoramento |
+          | **Total MVP** | **{{total}}** | **Produto cobrando** |
+
+  # ============================================================
+  # SECAO 9 — PROJECOES FINANCEIRAS
+  # ============================================================
+  - id: financial-projections
+    title: "9. Projecoes Financeiras"
+    instruction: |
+      Projecoes para 12 meses. Para Micro SaaS:
+      - Ser conservador (crescimento de 10-20% MoM e otimista)
+      - Incluir cenario pessimista
+      - Focar em MRR como metrica principal
+      - Considerar que primeiros 3 meses sao os mais lentos
+    elicit: true
+    sections:
+      - id: mrr-projection
+        title: "9.1 Projecao de MRR (12 meses)"
+        template: |
+          | Mes | Novos Clientes | Churn | Clientes Ativos | MRR (R$) | MRR Acumulado |
+          |-----|---------------|-------|-----------------|----------|---------------|
+          | 1 | {{n}} | {{c}} | {{a}} | {{mrr}} | {{acc}} |
+          | 2 | {{n}} | {{c}} | {{a}} | {{mrr}} | {{acc}} |
+          | 3 | {{n}} | {{c}} | {{a}} | {{mrr}} | {{acc}} |
+          | ... | ... | ... | ... | ... | ... |
+          | 12 | {{n}} | {{c}} | {{a}} | {{mrr}} | {{acc}} |
+
+          **Premissas:**
+          - Taxa de crescimento mensal: {{growth}}%
+          - Churn mensal: {{churn}}%
+          - ARPU: R${{arpu}}
+
+      - id: cost-projection
+        title: "9.2 Custos Mensais Projetados"
+        template: |
+          | Categoria | Mes 1-3 | Mes 4-6 | Mes 7-12 |
+          |-----------|---------|---------|----------|
+          | Infra/Hosting | R${{v}} | R${{v}} | R${{v}} |
+          | Ferramentas/SaaS | R${{v}} | R${{v}} | R${{v}} |
+          | Marketing | R${{v}} | R${{v}} | R${{v}} |
+          | Dominio/Legal | R${{v}} | R${{v}} | R${{v}} |
+          | **Total** | **R${{t}}** | **R${{t}}** | **R${{t}}** |
+
+      - id: breakeven
+        title: "9.3 Ponto de Equilibrio (Break-Even)"
+        template: |
+          **Custo fixo mensal:** R${{custo_fixo}}
+          **ARPU:** R${{arpu}}
+          **Margem por cliente:** R${{margem}}
+
+          **Break-even = {{custo_fixo}} / {{margem}} = {{N}} clientes pagantes**
+
+          **Estimativa de quando:** Mes {{mes}} (cenario realista)
+
+      - id: scenarios
+        title: "9.4 Cenarios (12 meses)"
+        template: |
+          | Cenario | Clientes M12 | MRR M12 | ARR M12 |
+          |---------|-------------|---------|---------|
+          | Pessimista | {{n}} | R${{mrr}} | R${{arr}} |
+          | Realista | {{n}} | R${{mrr}} | R${{arr}} |
+          | Otimista | {{n}} | R${{mrr}} | R${{arr}} |
+
+  # ============================================================
+  # SECAO 10 — METRICAS & KPIs
+  # ============================================================
+  - id: metrics
+    title: "10. Metricas & KPIs"
+    instruction: |
+      Metricas que importam para Micro SaaS. NAO rastrear tudo —
+      focar nas 5-8 metricas que realmente direcionam decisoes.
+    sections:
+      - id: north-star
+        title: "10.1 North Star Metric"
+        instruction: |
+          A unica metrica que melhor representa o valor entregue ao cliente.
+          Exemplos: "relatorios gerados/semana", "horas economizadas/mes", "projetos gerenciados"
+        template: |
+          **North Star:** {{metrica}}
+          **Por que:** {{justificativa}}
+          **Meta M3:** {{meta_3}} | **Meta M6:** {{meta_6}} | **Meta M12:** {{meta_12}}
+
+      - id: kpi-dashboard
+        title: "10.2 Dashboard de KPIs"
+        template: |
+          | KPI | Formula | Meta | Frequencia |
+          |-----|---------|------|------------|
+          | MRR | Soma assinaturas ativas | R${{meta}} | Semanal |
+          | Churn Rate | Cancelamentos / Total clientes | <{{meta}}% | Mensal |
+          | CAC | Gasto aquisicao / Novos clientes | <R${{meta}} | Mensal |
+          | LTV | ARPU / Churn | >R${{meta}} | Mensal |
+          | LTV:CAC Ratio | LTV / CAC | >3x | Mensal |
+          | Trial-to-Paid | Conversoes / Trials | >{{meta}}% | Semanal |
+          | NPS/CSAT | Survey | >{{meta}} | Trimestral |
+          | {{kpi_custom}} | {{formula}} | {{meta}} | {{freq}} |
+
+  # ============================================================
+  # SECAO 11 — RISCOS & MITIGACOES
+  # ============================================================
+  - id: risks
+    title: "11. Riscos & Mitigacoes"
+    instruction: |
+      Ser honesto sobre riscos. Investidores (e voce mesmo) respeitam
+      quem reconhece riscos e tem planos de mitigacao.
+    elicit: true
+    sections:
+      - id: risk-matrix
+        title: "11.1 Matriz de Riscos"
+        template: |
+          | # | Risco | Probabilidade | Impacto | Mitigacao |
+          |---|-------|--------------|---------|-----------|
+          | 1 | Ninguem paga (no PMF) | {{prob}} | Critico | {{mitigacao}} |
+          | 2 | Churn alto (>10%/mes) | {{prob}} | Alto | {{mitigacao}} |
+          | 3 | Concorrente copia feature | {{prob}} | Medio | {{mitigacao}} |
+          | 4 | Custo de infra escala mal | {{prob}} | Medio | {{mitigacao}} |
+          | 5 | Burnout do fundador | {{prob}} | Alto | {{mitigacao}} |
+          | 6 | {{risco_custom}} | {{prob}} | {{imp}} | {{mitigacao}} |
+
+      - id: kill-criteria
+        title: "11.2 Criterios de Abandono (Kill Criteria)"
+        instruction: |
+          Definir antecipadamente quando pivotar ou abandonar.
+          Isso evita o sunk-cost fallacy.
+        template: |
+          **Abandonar/Pivotar se ate o Mes {{M}}:**
+          - [ ] Menos de {{N}} usuarios pagantes
+          - [ ] MRR abaixo de R${{valor}}
+          - [ ] Churn acima de {{X}}% por 3 meses consecutivos
+          - [ ] CAC acima de {{Y}}x o LTV
+          - [ ] {{criterio_custom}}
+
+  # ============================================================
+  # SECAO 12 — ROADMAP
+  # ============================================================
+  - id: roadmap
+    title: "12. Roadmap"
+    instruction: |
+      Roadmap de alto nivel para os proximos 6-12 meses.
+      Para Micro SaaS: manter flexivel, revisar mensalmente.
+    sections:
+      - id: phases
+        title: "12.1 Fases do Produto"
+        template: |
+          ### Fase 1 — Validacao (Mes 1-2)
+          - [ ] {{meta_1}}
+          - [ ] {{meta_2}}
+          - [ ] {{meta_3}}
+          **Criterio de sucesso:** {{criterio}}
+
+          ### Fase 2 — Lancamento (Mes 2-4)
+          - [ ] {{meta_1}}
+          - [ ] {{meta_2}}
+          - [ ] {{meta_3}}
+          **Criterio de sucesso:** {{criterio}}
+
+          ### Fase 3 — Crescimento (Mes 4-8)
+          - [ ] {{meta_1}}
+          - [ ] {{meta_2}}
+          - [ ] {{meta_3}}
+          **Criterio de sucesso:** {{criterio}}
+
+          ### Fase 4 — Escala (Mes 8-12)
+          - [ ] {{meta_1}}
+          - [ ] {{meta_2}}
+          - [ ] {{meta_3}}
+          **Criterio de sucesso:** {{criterio}}
+
+      - id: milestones
+        title: "12.2 Marcos Criticos"
+        template: |
+          | Marco | Meta | Prazo |
+          |-------|------|-------|
+          | MVP pronto | Produto funcional | {{data}} |
+          | Primeiro cliente pagante | R$1 de MRR | {{data}} |
+          | 10 clientes | Validacao de PMF | {{data}} |
+          | Break-even | MRR = Custos | {{data}} |
+          | 100 clientes | Traction | {{data}} |
+          | R$10k MRR | Ramen profitable | {{data}} |
+
+  # ============================================================
+  # SECAO 13 — EQUIPE & RECURSOS
+  # ============================================================
+  - id: team
+    title: "13. Equipe & Recursos"
+    instruction: |
+      Para Micro SaaS, a "equipe" pode ser 1 pessoa.
+      Mapear skills disponiveis e gaps que precisam ser preenchidos.
+    sections:
+      - id: founders
+        title: "13.1 Fundador(es)"
+        template: |
+          | Nome | Papel | Skills | Dedicacao |
+          |------|-------|--------|-----------|
+          | {{nome}} | {{papel}} | {{skills}} | {{horas_semana}}h/sem |
+
+      - id: skill-gaps
+        title: "13.2 Gaps de Competencia"
+        template: |
+          | Competencia | Necessidade | Solucao | Custo |
+          |-------------|------------|---------|-------|
+          | {{skill}} | {{quando}} | {{como_resolver}} | {{custo}} |
+
+      - id: tools-budget
+        title: "13.3 Ferramentas & Orcamento Inicial"
+        template: |
+          | Ferramenta | Uso | Custo/mes |
+          |------------|-----|-----------|
+          | {{tool_1}} | {{uso}} | R${{custo}} |
+          | {{tool_2}} | {{uso}} | R${{custo}} |
+          | **Total mensal** | | **R${{total}}** |
+
+          **Investimento inicial unico:** R${{investimento_inicial}}
+          **Runway com investimento:** {{meses}} meses
+
+  # ============================================================
+  # SECAO 14 — PROXIMOS PASSOS
+  # ============================================================
+  - id: next-steps
+    title: "14. Proximos Passos Imediatos"
+    instruction: |
+      Acoes concretas para os proximos 7-14 dias.
+      Transformar o plano em acao imediata.
+    sections:
+      - id: action-items
+        title: "14.1 Acoes Imediatas"
+        type: numbered-list
+        template: |
+          1. [ ] {{acao_1}} — Responsavel: {{quem}} — Prazo: {{quando}}
+          2. [ ] {{acao_2}} — Responsavel: {{quem}} — Prazo: {{quando}}
+          3. [ ] {{acao_3}} — Responsavel: {{quem}} — Prazo: {{quando}}
+
+      - id: validation-experiments
+        title: "14.2 Experimentos de Validacao"
+        instruction: |
+          Antes de construir, validar. Experimentos rapidos:
+          - Landing page + waitlist (testar demanda)
+          - Vender manualmente antes de automatizar
+          - Prototipar no Figma e testar com 5 pessoas
+          - Cold outreach no LinkedIn/Twitter
+        template: |
+          | Experimento | Hipotese | Metrica de Sucesso | Prazo |
+          |-------------|----------|--------------------|-------|
+          | {{exp_1}} | {{hipotese}} | {{metrica}} | {{prazo}} |
+          | {{exp_2}} | {{hipotese}} | {{metrica}} | {{prazo}} |
+
+      - id: handoff
+        title: "14.3 Handoff para Execucao"
+        content: |
+          Este Plano de Negocios serve como input para:
+
+          - **@pm** (`*create-doc prd`) — Gerar PRD detalhado
+          - **@architect** — Definir arquitetura tecnica
+          - **@analyst** (`*brainstorm`) — Sessao de brainstorming
+          - **@dev** — Iniciar desenvolvimento do MVP
+
+          Recomendacao: Executar validacao (Secao 14.2) ANTES de iniciar desenvolvimento.
+
+# ============================================================
+# METADATA
+# ============================================================
+metadata:
+  created: "2026-02-26"
+  author: "Orion (aios-master)"
+  category: "business-planning"
+  tags:
+    - micro-saas
+    - business-plan
+    - bootstrap
+    - lean-startup
+    - mvp
+  related_templates:
+    - project-brief-tmpl.yaml
+    - prd-tmpl.yaml
+    - market-research-tmpl.yaml
+    - competitor-analysis-tmpl.yaml

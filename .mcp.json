@@ -3,12 +3,21 @@
     "playwright": {
       "type": "stdio",
       "command": "npx",
-      "args": ["-y", "@playwright/mcp@latest", "--browser", "chromium", "--headless"]
+      "args": [
+        "-y",
+        "@playwright/mcp@latest",
+        "--browser",
+        "chromium",
+        "--headless"
+      ]
     },
     "context7": {
       "type": "stdio",
       "command": "npx",
-      "args": ["-y", "@upstash/context7-mcp"]
+      "args": [
+        "-y",
+        "@upstash/context7-mcp"
+      ]
     },
     "exa": {
       "type": "http",
@@ -17,7 +26,10 @@
     "clickup": {
       "type": "stdio",
       "command": "npx",
-      "args": ["-y", "clickup-mcp-server"],
+      "args": [
+        "-y",
+        "clickup-mcp-server"
+      ],
       "env": {
         "CLICKUP_API_TOKEN": "pk_284457202_BHCMWP2K2UGRXHO39XSZP9XD4120W9HF"
       }
@@ -25,10 +37,50 @@
     "n8n": {
       "type": "stdio",
       "command": "npx",
-      "args": ["-y", "@leonardsellem/n8n-mcp-server"],
+      "args": [
+        "-y",
+        "@leonardsellem/n8n-mcp-server"
+      ],
       "env": {
         "N8N_API_URL": "http://localhost:5678",
         "N8N_API_KEY": "PREENCHER_APOS_CRIAR_API_KEY_NO_N8N"
+      }
+    },
+    "excalidraw": {
+      "type": "stdio",
+      "command": "npx",
+      "args": [
+        "-y",
+        "@anthropic-ai/excalidraw-mcp@latest"
+      ]
+    },
+    "cloudflare": {
+      "type": "stdio",
+      "command": "npx",
+      "args": [
+        "-y",
+        "@cloudflare/mcp-server-cloudflare",
+        "run"
+      ],
+      "env": {
+        "CLOUDFLARE_API_TOKEN": "WQkyuVCZUv48FXB038gkuA2OelHpENIxDFkCSz0A",
+        "CLOUDFLARE_ACCOUNT_ID": "a690d01f20f8821f26451d51efd6745a",
+        "CLOUDFLARE_ZONE_ID": "b9a6dc5adf32edc7a872d59fa489a49b"
+      }
+    },
+    "figma-design": {
+      "type": "http",
+      "url": "https://mcp.figma.com/mcp"
+    },
+    "figma-api": {
+      "type": "stdio",
+      "command": "npx",
+      "args": [
+        "-y",
+        "@thirdstrandstudio/mcp-figma"
+      ],
+      "env": {
+        "FIGMA_API_KEY": "figd_gQq2WmQKwLXkczewpUxlk7LR7donc8h-obpO8eCY"
       }
     }
   }

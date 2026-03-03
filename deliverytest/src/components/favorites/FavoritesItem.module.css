@@ -1,0 +1,209 @@
+.card {
+    display: flex;
+    align-items: center;
+    background: var(--surface-color);
+    border-radius: 16px;
+    padding: 12px;
+    margin-bottom: 12px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.04);
+    position: relative;
+    border: 1px solid var(--bg-secondary);
+}
+
+.imageWrapper {
+    width: 80px;
+    height: 80px;
+    border-radius: 12px;
+    overflow: hidden;
+    background: var(--bg-color);
+    margin-right: 16px;
+    flex-shrink: 0;
+}
+
+.image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.placeholder {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2rem;
+}
+
+.content {
+    flex: 1;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+}
+
+.name {
+    font-size: 1rem;
+    font-weight: 600;
+    color: var(--text-primary);
+    margin: 0 0 4px 0;
+}
+
+.unit {
+    font-size: 0.85rem;
+    color: var(--text-muted);
+    margin: 0 0 4px 0;
+}
+
+.priceRow {
+    display: flex;
+    align-items: baseline;
+    gap: 8px;
+}
+
+.oldPrice {
+    font-size: 0.85rem;
+    color: var(--text-muted);
+    text-decoration: line-through;
+}
+
+.price {
+    font-size: 1rem;
+    font-weight: 700;
+    color: var(--primary-color, #10B981);
+}
+
+.btnAdd {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background: var(--surface-color);
+    border: 1px solid var(--border-color);
+    color: var(--primary-color, #10B981);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+    transition: all 0.2s;
+}
+
+.btnAdd:active {
+    transform: scale(0.95);
+    background: var(--bg-color);
+}
+
+.qtyControl {
+    display: flex;
+    align-items: center;
+    background: var(--bg-secondary);
+    border-radius: 20px;
+    padding: 2px;
+    height: 40px;
+    flex-shrink: 0;
+    /* Prevent shrinking */
+    margin-left: 8px;
+    /* Add spacing from info */
+}
+
+.qtyBtn {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    border: none;
+    background: var(--surface-color);
+    color: var(--text-secondary);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05);
+}
+
+.qtyValue {
+    font-size: 0.9rem;
+    font-weight: 700;
+    color: var(--text-primary);
+    width: 24px;
+    text-align: center;
+    margin: 0 4px;
+}
+
+.removeBtn {
+    position: absolute;
+    top: 8px;
+    right: 8px;
+    background: none;
+    border: none;
+    color: var(--danger-color);
+    cursor: pointer;
+    opacity: 0;
+    transition: opacity 0.2s;
+    padding: 4px;
+}
+
+.card:hover .removeBtn {
+    opacity: 1;
+}
+
+@media (max-width: 640px) {
+    .removeBtn {
+        opacity: 1;
+        /* Always show on mobile since no hover */
+    }
+}
+
+/* Optimization for very small screens (like 320px) */
+@media (max-width: 360px) {
+    .card {
+        padding: 8px;
+    }
+
+    .imageWrapper {
+        width: 60px;
+        height: 60px;
+        margin-right: 10px;
+    }
+
+    .name {
+        font-size: 0.9rem;
+    }
+
+    .unit {
+        font-size: 0.75rem;
+    }
+
+    .price {
+        font-size: 0.9rem;
+    }
+
+    .oldPrice {
+        font-size: 0.75rem;
+    }
+
+    .btnAdd {
+        width: 32px;
+        height: 32px;
+    }
+
+    .qtyControl {
+        height: 32px;
+        padding: 0;
+    }
+
+    .qtyBtn {
+        width: 28px;
+        height: 28px;
+    }
+
+    .qtyValue {
+        font-size: 0.8rem;
+        width: 20px;
+        margin: 0 2px;
+    }
+}
