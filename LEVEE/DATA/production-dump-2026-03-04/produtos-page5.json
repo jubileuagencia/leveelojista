@@ -1,0 +1,3146 @@
+{
+    "response": {
+        "cursor": 400,
+        "results": [
+            {
+                "info nutricional": "Por 100g:\n- Calorias: 20kcal\n- Carboidratos: 4g\n- Açúcar: 2g\n- Fibra: 2g\n- Proteína: 1g\n- Gordura: 0.2g\nVitaminas:\n- Vitamina C: 80mg (89% VD)",
+                "ean": "0000000000148",
+                "cod": "123456",
+                "preço antigo": 6.99,
+                "Created Date": "2024-07-16T01:23:09.226Z",
+                "descriçao": "Variedade de pimentão com sabor mais suave que o pimentão vermelho e amarelo. Receitas: Saladas, refogados, carnes, pizzas. Usos: Consumir cru, assado, grelhado ou refogado.",
+                "preço por kg": 5.99,
+                "como armazenar": "Geladeira (7ºC - 10ºC): Em saco plástico perfurado por até 7 dias.",
+                "relacionados": [
+                    "1721092989210x312664122498456100",
+                    "1721092989213x828846541252632000",
+                    "1721092989222x747290504624399100"
+                ],
+                "ordem_prateleira": 12,
+                "preço novo": 16.99,
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1719347629179x371600876107396300/Piment%C3%A3o%20Verde%20Kg.jpg"
+                ],
+                "_id": "1721092989226x882947952520034000",
+                "estoque": 16642,
+                "Modified Date": "2026-03-04T16:50:32.521Z",
+                "tipo_unidade": "KG",
+                "demanda": 858,
+                "desconto": -143.061516452074,
+                "peso por unidade": 187,
+                "visivel": true,
+                "categorias_produto": [
+                    "Legumes"
+                ],
+                "em oferta": false,
+                "peso/und": "peso",
+                "nome": "Pimentão Verde",
+                "Created By": "admin_user_levee-delivery_test"
+            },
+            {
+                "descriçao": "Fruta exótica originária da América Central, com casca rosa e polpa branca com sementes pretas. Usos: Consumir fresca, em saladas de frutas, sucos ou sobremesas.",
+                "ean": "0000000000342",
+                "preço por kg": 6.99,
+                "info nutricional": "Por 100g (polpa):\n- Calorias: 60kcal\n- Carboidratos: 13g\n- Fibra: 1g\n- Proteína: 1g\n- Gordura: 0.4g\nVitaminas:\n- Vitamina C: 9mg (10% VD)",
+                "preço antigo": 19.99,
+                "em oferta": false,
+                "categorias_produto": [
+                    "Frutas"
+                ],
+                "nome": "Pitaya Roxa",
+                "tipo_unidade": "KG",
+                "peso por unidade": 580,
+                "Modified Date": "2026-01-23T16:13:42.185Z",
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1737653402136x791094053393784000/pitaya%20roxa.jpg"
+                ],
+                "demanda": 451,
+                "cod": "000371",
+                "desconto": 0,
+                "estoque": -651,
+                "peso/und": "peso",
+                "como armazenar": "Ambiente fresco e arejado (13ºC - 18ºC): Até estar madura. Geladeira (7ºC - 10ºC): Por até 5 dias após o amadurecimento.",
+                "Created Date": "2024-07-16T01:23:09.231Z",
+                "Created By": "admin_user_levee-delivery_test",
+                "visivel": false,
+                "preço novo": 19.99,
+                "_id": "1721092989231x957206192975445600"
+            },
+            {
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1721666756448x425965827164502800/Pistache.jpg"
+                ],
+                "_id": "1721092989233x248832148452882200",
+                "como armazenar": "Ambiente fresco e seco (18ºC - 22ºC): Em recipiente hermético por até 6 meses.",
+                "nome": "Pistache 100g",
+                "demanda": 0,
+                "peso/und": "unidade",
+                "preço antigo": 6.99,
+                "Created By": "admin_user_levee-delivery_test",
+                "cod": "002365",
+                "categorias_produto": [
+                    "Chás"
+                ],
+                "Modified Date": "2025-05-21T17:13:01.868Z",
+                "ean": "0192505114815",
+                "estoque": 100000,
+                "visivel": false,
+                "preço novo": 6.99,
+                "descriçao": "Planta medicinal da marca Saúde Plena, conhecida por suas propriedades digestivas. Usos: Preparar chá.",
+                "tipo_unidade": "UN",
+                "relacionados": [
+                    "1721092989224x122386677923919780"
+                ],
+                "desconto": 0,
+                "Created Date": "2024-07-16T01:23:09.233Z",
+                "qtd por unidade": "100g"
+            },
+            {
+                "como armazenar": "Congelador (-18ºC): Até a data de validade da embalagem. Após aberto, consumir em até 2 dias (geladeira).",
+                "demanda": 85,
+                "Modified Date": "2026-03-03T21:52:02.824Z",
+                "peso por unidade": 250,
+                "categorias_produto": [
+                    "Frutas"
+                ],
+                "nome": "Polpa De Maracujá 300 ml",
+                "tipo_unidade": "UN",
+                "estoque": 99699,
+                "cod": "001000",
+                "desconto": -66.7408231368187,
+                "ean": "0000000000376",
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1721212028075x542284942824916350/POLPA%20DE%20MARACUJA%20GARRAFA.jfif"
+                ],
+                "peso/und": "unidade",
+                "relacionados": [
+                    "1721092988000x519723354332058940",
+                    "1721092988141x723796952458377300",
+                    "1721092988142x965800889175492600",
+                    "1721092989239x870513206497701800"
+                ],
+                "descriçao": "Polpa de maracujá congelada, prática para o preparo de sucos, mousses e outras sobremesas. Usos: Descongelar e utilizar em receitas.",
+                "preço por kg": 9.99,
+                "Created Date": "2024-07-16T01:23:09.236Z",
+                "preço antigo": 8.99,
+                "_id": "1721092989236x391234769181438660",
+                "Created By": "admin_user_levee-delivery_test",
+                "visivel": true,
+                "preço novo": 14.99
+            },
+            {
+                "descriçao": "Queijo branco, com textura macia e sabor suave, vendido a quilo. Usos: Consumir puro, com mel, geleia ou como ingrediente em receitas.",
+                "qtd por unidade": "300ml",
+                "tipo_unidade": "UN",
+                "info nutricional": "Por 100g:\n- Calorias: 250kcal\n- Gordura Total: 20g\n- Gordura Saturada: 12g\n- Colesterol: 60mg\n- Sódio: 400mg\n- Proteína: 17g",
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1721668010466x327005189207008100/Polpa%20De%20Maracuj%C3%A1.jpg"
+                ],
+                "preço antigo": 29.99,
+                "visivel": true,
+                "peso/und": "unidade",
+                "preço novo": 14.99,
+                "categorias_produto": [
+                    "Laticíneos"
+                ],
+                "Modified Date": "2026-03-04T03:40:40.549Z",
+                "cod": "002003",
+                "Created By": "admin_user_levee-delivery_test",
+                "desconto": 50.0166722240747,
+                "relacionados": [
+                    "1721092988000x519723354332058940",
+                    "1721092988141x723796952458377300",
+                    "1721092988142x965800889175492600",
+                    "1721092989236x391234769181438660"
+                ],
+                "nome": "Polpa De Maracujá 300ml",
+                "demanda": 26,
+                "peso por unidade": 300,
+                "estoque": 99783,
+                "como armazenar": "Geladeira (4ºC - 8ºC): Em recipiente fechado por até 5 dias.",
+                "_id": "1721092989239x870513206497701800",
+                "ean": "0000000008273",
+                "Created Date": "2024-07-16T01:23:09.239Z"
+            },
+            {
+                "preço novo": 94.9,
+                "visivel": true,
+                "desconto": 0,
+                "Modified Date": "2026-02-28T15:09:15.133Z",
+                "peso/und": "peso",
+                "descriçao": "Queijo minas frescal sem lactose, ideal para pessoas com intolerância à lactose. Usos: Consumir puro, com geleia, doce de leite ou como ingrediente em receitas.",
+                "relacionados": [
+                    "1721092989244x856759688073666000",
+                    "1721092989247x148767147681421180",
+                    "1721092989252x634573008609580000",
+                    "1721092989255x635097551607587800",
+                    "1721092989264x730095162071537700"
+                ],
+                "tipo_unidade": "KG",
+                "_id": "1721092989242x207661537600541060",
+                "como armazenar": "Geladeira (4ºC - 8ºC): Em embalagem original por até 15 dias.",
+                "Created Date": "2024-07-16T01:23:09.242Z",
+                "estoque": 94211,
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1721212074688x874405974031531800/QUEIJO%20MINAS%20PADRAO%20LACFREE%20ZERO%20LACTOSE.jfif"
+                ],
+                "ean": "0000000008150",
+                "demanda": 3,
+                "peso por unidade": 400,
+                "Created By": "admin_user_levee-delivery_test",
+                "cod": "001991",
+                "nome": "Queijo Minas Padrao Lacfree Zero Lactose 400g",
+                "categorias_produto": [
+                    "Laticíneos"
+                ]
+            },
+            {
+                "Modified Date": "2026-02-13T19:37:04.344Z",
+                "cod": "001700",
+                "_id": "1721092989244x856759688073666000",
+                "categorias_produto": [
+                    "Laticíneos"
+                ],
+                "nome": "Queijo Minas Artesanal",
+                "Created Date": "2024-07-16T01:23:09.244Z",
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1763041537969x159403581817264320/eddbae6fce%20%281%29.webp"
+                ],
+                "ean": "0000000005616",
+                "estoque": 66262,
+                "peso por unidade": 400,
+                "como armazenar": "Geladeira (4ºC - 8ºC): Em recipiente fechado por até 10 dias.",
+                "demanda": 10,
+                "peso/und": "peso",
+                "preço novo": 69.9,
+                "Created By": "admin_user_levee-delivery_test",
+                "visivel": true,
+                "tipo_unidade": "KG",
+                "desconto": 0,
+                "relacionados": [
+                    "1721092989242x207661537600541060",
+                    "1721092989247x148767147681421180",
+                    "1721092989252x634573008609580000",
+                    "1721092989255x635097551607587800",
+                    "1721092989264x730095162071537700"
+                ],
+                "descriçao": "Queijo minas frescal produzido artesanalmente, com sabor e textura característicos. Usos: Consumir puro, com geleia, doce de leite ou como ingrediente em receitas."
+            },
+            {
+                "nome": "Queijo canastra",
+                "tipo_unidade": "KG",
+                "peso/und": "peso",
+                "demanda": 15,
+                "preço novo": 59.99,
+                "categorias_produto": [
+                    "Laticíneos"
+                ],
+                "ean": "0000000000638",
+                "Created Date": "2024-07-16T01:23:09.247Z",
+                "desconto": 0,
+                "info nutricional": "Por 100g:\n- Calorias: 360kcal\n- Gordura Total: 28g\n- Gordura Saturada: 18g\n- Colesterol: 80mg\n- Sódio: 600mg\n- Proteína: 26g",
+                "Created By": "admin_user_levee-delivery_test",
+                "descriçao": "Queijo tradicional da região de Araxá, Minas Gerais, com textura macia e sabor suave. Usos: Consumir puro, com geleia, doce de leite ou como ingrediente em receitas.",
+                "visivel": true,
+                "Modified Date": "2026-02-28T13:58:43.435Z",
+                "cod": "000533",
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1763041510316x379039407693681150/eddbae6fce%20%281%29.webp"
+                ],
+                "estoque": 33649,
+                "peso por unidade": 400,
+                "como armazenar": "Geladeira (4ºC - 8ºC): Em recipiente fechado por até 10 dias.",
+                "relacionados": [
+                    "1721092989242x207661537600541060",
+                    "1721092989244x856759688073666000",
+                    "1721092989252x634573008609580000",
+                    "1721092989255x635097551607587800",
+                    "1721092989264x730095162071537700"
+                ],
+                "_id": "1721092989247x148767147681421180"
+            },
+            {
+                "preço antigo": 11.99,
+                "peso/und": "unidade",
+                "tipo_unidade": "UN",
+                "categorias_produto": [
+                    "Laticíneos"
+                ],
+                "ean": "7896051165446",
+                "_id": "1721092989250x398690015916336900",
+                "demanda": 7,
+                "estoque": 99873,
+                "nome": "Queijo Mussarela Fat Presidente 150g",
+                "visivel": true,
+                "preço novo": 9.99,
+                "como armazenar": "Geladeira (4ºC - 8ºC): Em embalagem original por até 15 dias.",
+                "desconto": 0,
+                "Modified Date": "2026-02-26T16:06:18.294Z",
+                "descriçao": "Queijo mussarela tradicional, da marca Presidente, ideal para pizzas e sanduíches. Usos: Utilizar em receitas que levam queijo mussarela.",
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1721212148094x391326487970237400/QUEIJO%20MUSSARELA%20%20FAT%20PRESIDENTE%20150%20G.jfif"
+                ],
+                "qtd por unidade": "150g",
+                "Created Date": "2024-07-16T01:23:09.250Z",
+                "Created By": "admin_user_levee-delivery_test",
+                "cod": "001143"
+            },
+            {
+                "como armazenar": "Geladeira (4ºC - 8ºC): Em embalagem original por até 15 dias.",
+                "peso por unidade": 150,
+                "_id": "1721092989252x634573008609580000",
+                "relacionados": [
+                    "1721092989242x207661537600541060",
+                    "1721092989244x856759688073666000",
+                    "1721092989247x148767147681421180",
+                    "1721092989255x635097551607587800",
+                    "1721092989264x730095162071537700"
+                ],
+                "nome": "Queijo Mussarela Lacfree Zero Lactose 150g",
+                "peso/und": "unidade",
+                "preço novo": 19.99,
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1727966711632x918593322545271400/Mussarela.jpeg"
+                ],
+                "ean": "7898955617526",
+                "qtd por unidade": "150g",
+                "Modified Date": "2025-10-22T18:47:56.353Z",
+                "cod": "001740",
+                "categorias_produto": [
+                    "Laticíneos"
+                ],
+                "Created By": "admin_user_levee-delivery_test",
+                "demanda": 1,
+                "descriçao": "Queijo mussarela fatiado, da marca Presidente, prático para o preparo de sanduíches e lanches. Usos: Utilizar em receitas que levam queijo mussarela.",
+                "tipo_unidade": "UN",
+                "desconto": 0,
+                "Created Date": "2024-07-16T01:23:09.252Z",
+                "estoque": 99999,
+                "visivel": true
+            },
+            {
+                "peso por unidade": 400,
+                "cod": "002005",
+                "relacionados": [
+                    "1721092989242x207661537600541060",
+                    "1721092989244x856759688073666000",
+                    "1721092989247x148767147681421180",
+                    "1721092989252x634573008609580000",
+                    "1721092989264x730095162071537700"
+                ],
+                "categorias_produto": [
+                    "Laticíneos"
+                ],
+                "demanda": 5,
+                "tipo_unidade": "KG",
+                "como armazenar": "Geladeira (4ºC - 8ºC): Em recipiente fechado por até 10 dias.",
+                "_id": "1721092989255x635097551607587800",
+                "peso/und": "peso",
+                "estoque": 91503,
+                "descriçao": "Queijo minas frescal da marca Verde Campo, com sabor suave e textura macia. Usos: Consumir puro, com geleia, doce de leite ou como ingrediente em receitas.",
+                "desconto": 0,
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1721212189769x612107692298084400/QUEIJO%20MINAS%20PADRAO%20VERDE%20CAMPO%20KG.jfif"
+                ],
+                "Created Date": "2024-07-16T01:23:09.255Z",
+                "Modified Date": "2026-02-26T17:37:17.830Z",
+                "visivel": true,
+                "preço novo": 94.9,
+                "ean": "0000000008297",
+                "nome": "Queijo Minas Padrao Verde Campo",
+                "Created By": "admin_user_levee-delivery_test"
+            },
+            {
+                "preço antigo": 11.99,
+                "peso por unidade": 150,
+                "Created Date": "2024-07-16T01:23:09.264Z",
+                "peso/und": "unidade",
+                "categorias_produto": [
+                    "Laticíneos"
+                ],
+                "visivel": true,
+                "ean": "7896051166337",
+                "Created By": "admin_user_levee-delivery_test",
+                "preço novo": 8.99,
+                "desconto": 25.0208507089241,
+                "estoque": 99897,
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1721212164612x541688685593966460/QUEIJO%20PRATO%20FAT%20PRESIDENTE%20150%20G.jfif"
+                ],
+                "cod": "001128",
+                "descriçao": "Queijo prato fatiado, da marca Presidente, prático para o preparo de sanduíches e lanches. Usos: Consumir puro, em sanduíches ou como ingrediente em receitas.",
+                "tipo_unidade": "UN",
+                "Modified Date": "2026-02-28T22:54:23.372Z",
+                "relacionados": [
+                    "1721092989242x207661537600541060",
+                    "1721092989244x856759688073666000",
+                    "1721092989247x148767147681421180",
+                    "1721092989252x634573008609580000",
+                    "1721092989255x635097551607587800"
+                ],
+                "demanda": 6,
+                "qtd por unidade": "150g",
+                "nome": "Queijo Prato Fatiado President 150g",
+                "_id": "1721092989264x730095162071537700",
+                "como armazenar": "Geladeira (4ºC - 8ºC): Em embalagem original por até 15 dias."
+            },
+            {
+                "preço antigo": 11.9,
+                "qtd por unidade": "150g",
+                "Created Date": "2024-07-16T01:23:09.275Z",
+                "peso/und": "unidade",
+                "demanda": 8,
+                "preço novo": 6.99,
+                "Modified Date": "2026-02-18T17:39:04.786Z",
+                "_id": "1721092989275x447955166627025150",
+                "Created By": "admin_user_levee-delivery_test",
+                "nome": "Queijo Parmesão Ralado President 150g",
+                "cod": "001990",
+                "categorias_produto": [
+                    "Laticíneos"
+                ],
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1721666877697x445004042861554940/Queijo%20Parmes%C3%A3o%20Ralado%20President.jpg"
+                ],
+                "desconto": 0,
+                "estoque": 99964,
+                "como armazenar": "Geladeira (4ºC - 8ºC): Em embalagem original por até 10 dias.",
+                "visivel": true,
+                "descriçao": "Queijo cremoso, com baixo teor de gordura, da marca Entre Rios. Usos: Consumir puro, com torradas, pães, em receitas de molhos e recheios.",
+                "ean": "0000000008143",
+                "tipo_unidade": "KG"
+            },
+            {
+                "categorias_produto": [
+                    "Legumes"
+                ],
+                "_id": "1721092989277x520458418324323700",
+                "ordem_prateleira": 19,
+                "peso/und": "unidade",
+                "visivel": true,
+                "nome": "Quiabo 200g",
+                "preço antigo": 8.99,
+                "cod": "000172",
+                "Modified Date": "2026-03-04T16:50:32.279Z",
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1719347631242x192707957303299940/Quiabo%20Bandeja%20300g.jpg"
+                ],
+                "preço novo": 9.99,
+                "demanda": 147,
+                "estoque": 99449,
+                "como armazenar": "Geladeira (7ºC - 10ºC): Na embalagem original por até 5 dias.",
+                "descriçao": "Quiabo fresco comercializado em bandeja, proporcionando praticidade. Receitas: Refogados, carnes, sopas. Usos: Retirar as pontas e consumir cozido.",
+                "ean": "0000000000151",
+                "desconto": -11.1234705228031,
+                "Created Date": "2024-07-16T01:23:09.277Z",
+                "tipo_unidade": "BJ",
+                "peso por unidade": 200,
+                "relacionados": [
+                    "1721092727086x647798335796284400"
+                ],
+                "Created By": "admin_user_levee-delivery_test"
+            },
+            {
+                "tipo_unidade": "UN",
+                "Created Date": "2024-07-16T01:23:09.286Z",
+                "estoque": 99940,
+                "nome": "Rabanete ",
+                "info nutricional": "Por 100g:\n- Calorias: 16kcal\n- Carboidratos: 4g\n- Açúcar: 2g\n- Fibra: 1g\n- Proteína: 1g\n- Gordura: 0.1g\nVitaminas:\n- Vitamina C: 15mg (17% VD)",
+                "demanda": 9,
+                "ean": "0000000000047",
+                "peso por unidade": 1000,
+                "desconto": 0,
+                "ordem_prateleira": 128,
+                "_id": "1721092989286x883604874450111100",
+                "preço antigo": 5.99,
+                "Modified Date": "2026-03-04T14:04:18.405Z",
+                "peso/und": "unidade",
+                "descriçao": "Raiz com sabor picante e textura crocante, originária da Ásia. Receitas: Saladas, patês, conservas. Usos: Consumir cru, em saladas ou como ingrediente em receitas.",
+                "preço novo": 5.99,
+                "como armazenar": "Geladeira (7ºC - 10ºC): Em saco plástico perfurado por até 7 dias.",
+                "categorias_produto": [
+                    "Verduras"
+                ],
+                "cod": "000062",
+                "Created By": "admin_user_levee-delivery_test",
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1719347632045x390270720309013000/Rabanete%20Rama.jpg"
+                ],
+                "visivel": true
+            },
+            {
+                "visivel": false,
+                "preço novo": 3.99,
+                "estoque": 100000,
+                "info nutricional": "Por 100g:\n- Calorias: 23kcal\n- Carboidratos: 5g\n- Fibra: 1g\n- Proteína: 1g\n- Gordura: 0.2g\nVitaminas:\n- Vitamina K: 130mcg (108% VD)",
+                "nome": "Radicchio",
+                "Modified Date": "2025-05-21T17:13:01.879Z",
+                "Created Date": "2024-07-16T01:23:09.289Z",
+                "descriçao": "Variedade de chicória com folhas vermelhas e sabor amargo, originária da Itália. Usos: Consumir cru em saladas.",
+                "como armazenar": "Geladeira (7ºC - 10ºC): Em saco plástico perfurado por até 5 dias.",
+                "_id": "1721092989289x813127650045925200",
+                "peso por unidade": 250,
+                "preço por kg": 8.99,
+                "demanda": 0,
+                "tipo_unidade": "UN",
+                "cod": "002098",
+                "categorias_produto": [
+                    "Verduras"
+                ],
+                "Created By": "admin_user_levee-delivery_test",
+                "preço antigo": 3.99,
+                "ean": "0000000009096",
+                "peso/und": "peso",
+                "desconto": 0
+            },
+            {
+                "Created Date": "2024-07-16T01:23:09.291Z",
+                "preço novo": 3.99,
+                "cod": "002431",
+                "ean": "0000000012317",
+                "desconto": 0,
+                "Created By": "admin_user_levee-delivery_test",
+                "como armazenar": "Geladeira (7ºC - 10ºC): Na embalagem original por até 5 dias.",
+                "tipo_unidade": "BJ",
+                "nome": "Rambutã Bandeja",
+                "preço por kg": 19.99,
+                "peso/und": "peso",
+                "demanda": 0,
+                "info nutricional": "Por 100g (polpa):\n- Calorias: 82kcal\n- Carboidratos: 21g\n- Fibra: 2g\n- Proteína: 0.7g\n- Gordura: 0.3g\nVitaminas:\n- Vitamina C: 4.9mg (5% VD)",
+                "categorias_produto": [
+                    "Frutas"
+                ],
+                "Modified Date": "2025-05-21T17:13:01.888Z",
+                "visivel": false,
+                "preço antigo": 3.99,
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1721212346744x456653331612408400/RAMBUTAO%20BDJ.jfif"
+                ],
+                "descriçao": "Fruta originária do sudeste asiático, com casca vermelha e espinhosa e polpa branca, doce e suculenta, comercializada em bandeja. Usos: Consumir fresca.",
+                "peso por unidade": 300,
+                "_id": "1721092989291x478190069823635460",
+                "estoque": 100000
+            },
+            {
+                "cod": "000663",
+                "peso/und": "unidade",
+                "categorias_produto": [
+                    "Empório"
+                ],
+                "Created Date": "2024-07-16T01:23:09.295Z",
+                "preço antigo": 1.99,
+                "Created By": "admin_user_levee-delivery_test",
+                "visivel": false,
+                "Modified Date": "2026-01-09T16:31:38.354Z",
+                "relacionados": [
+                    "1721092989297x754839590509915900",
+                    "1721092990106x805946285449906200",
+                    "1721092989300x463452422169154300"
+                ],
+                "demanda": 0,
+                "preço novo": 1.99,
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1721212387966x971141332419113600/RAPADURINHA%20CREMOSA%2025%20GR.jfif"
+                ],
+                "tipo_unidade": "UN",
+                "estoque": 99999,
+                "como armazenar": "Ambiente fresco e seco (18ºC - 22ºC): Em embalagem original fechada por até 4 meses.",
+                "nome": "Rapadurinha Cremosa 25g",
+                "desconto": 0,
+                "descriçao": "Rapadura cremosa em porção individual, prática para o consumo. Usos: Consumir como doce ou sobremesa.",
+                "ean": "0000000000810",
+                "_id": "1721092989295x291908363892057660",
+                "qtd por unidade": "25g"
+            },
+            {
+                "nome": "Rapadurinha Cremosa 25g",
+                "peso/und": "unidade",
+                "Created Date": "2024-07-16T01:23:09.297Z",
+                "_id": "1721092989297x754839590509915900",
+                "visivel": false,
+                "tipo_unidade": "UN",
+                "relacionados": [
+                    "1721092989295x291908363892057660",
+                    "1721092990106x805946285449906200",
+                    "1721092989300x463452422169154300"
+                ],
+                "preço antigo": 6.99,
+                "preço novo": 6.99,
+                "Modified Date": "2025-05-21T17:13:01.945Z",
+                "como armazenar": "Ambiente fresco e seco (18ºC - 22ºC): Em recipiente hermético por até 6 meses.",
+                "categorias_produto": [
+                    "Outros"
+                ],
+                "demanda": 0,
+                "desconto": 0,
+                "Created By": "admin_user_levee-delivery_test",
+                "qtd por unidade": "25g",
+                "descriçao": "Rapadura tradicional, com sabor adocicado, em pedaços menores, ideal para o consumo. Usos: Consumir pura, com café ou utilizar em receitas.",
+                "estoque": 100000,
+                "ean": "7898352390022",
+                "cod": "001286"
+            },
+            {
+                "Created Date": "2024-07-16T01:23:09.300Z",
+                "ean": "7898352390374",
+                "nome": "Rapadura Com Amendoim Moído 500g",
+                "_id": "1721092989300x463452422169154300",
+                "relacionados": [
+                    "1721092989295x291908363892057660",
+                    "1721092989297x754839590509915900",
+                    "1721092989303x599017524657527200",
+                    "1721092989436x126651777400327740"
+                ],
+                "categorias_produto": [
+                    "Empório"
+                ],
+                "peso/und": "unidade",
+                "qtd por unidade": "500g",
+                "Created By": "admin_user_levee-delivery_test",
+                "Modified Date": "2026-02-14T16:26:38.715Z",
+                "preço antigo": 12.99,
+                "descriçao": "Rapadura tradicional com amendoim moído, conferindo textura e sabor. Usos: Consumir pura, com café ou utilizar em receitas.",
+                "desconto": 0,
+                "estoque": 99987,
+                "preço novo": 9.99,
+                "cod": "001291",
+                "demanda": 5,
+                "como armazenar": "Ambiente fresco e seco (18ºC - 22ºC): Em recipiente hermético por até 6 meses.",
+                "tipo_unidade": "UN",
+                "visivel": true,
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1721212508450x407917760361468300/RAPADURA%20COM%20AMENDOIM%20MOIDO%20500G.jfif"
+                ]
+            },
+            {
+                "Modified Date": "2026-03-02T11:11:03.531Z",
+                "relacionados": [
+                    "1721092989302x831573350786017000",
+                    "1721092989305x560014772799581000"
+                ],
+                "preço por kg": 5.99,
+                "demanda": 99,
+                "em oferta": false,
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1719347677065x836209991144734200/Repolho.jpg"
+                ],
+                "estoque": 999822942,
+                "ordem_prateleira": 5,
+                "Created Date": "2024-07-16T01:23:09.301Z",
+                "tipo_unidade": "KG",
+                "como armazenar": "Geladeira (7ºC - 10ºC): Em saco plástico perfurado por até 7 dias.",
+                "preço novo": 6.99,
+                "nome": "Repolho Verde",
+                "visivel": true,
+                "cod": "000176",
+                "descriçao": "Variedade de repolho com folhas verdes, rico em vitaminas e minerais. Receitas: Saladas, sucos, sopas, charuto. Usos: Consumir cru, cozido ou fermentado.",
+                "peso/und": "peso",
+                "ean": "0000000000155",
+                "Created By": "admin_user_levee-delivery_test",
+                "desconto": -40.0801603206413,
+                "categorias_produto": [
+                    "Legumes"
+                ],
+                "_id": "1721092989301x494779164460119800",
+                "peso por unidade": 844,
+                "info nutricional": "Por 100g:\n- Calorias: 25kcal\n- Carboidratos: 6g\n- Açúcar: 3g\n- Fibra: 2g\n- Proteína: 1g\n- Gordura: 0.1g\nVitaminas:\n- Vitamina K: 76mcg (63% VD)\n- Vitamina C: 37mg (41% VD)",
+                "preço antigo": 4.99
+            },
+            {
+                "estoque": 18735,
+                "nome": "Repolho Roxo",
+                "Modified Date": "2026-03-02T18:54:12.465Z",
+                "ordem_prateleira": 4,
+                "preço novo": 6.99,
+                "peso por unidade": 1344,
+                "categorias_produto": [
+                    "Legumes"
+                ],
+                "Created By": "admin_user_levee-delivery_test",
+                "desconto": -40.0801603206413,
+                "peso/und": "peso",
+                "visivel": true,
+                "como armazenar": "Geladeira (7ºC - 10ºC): Em saco plástico perfurado por até 7 dias.",
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1719347632095x601298460264870800/Repolho%20Roxo%20Kg.jpg"
+                ],
+                "preço por kg": 5.99,
+                "preço antigo": 4.99,
+                "Created Date": "2024-07-16T01:23:09.302Z",
+                "descriçao": "Variedade de repolho com folhas roxas, rico em antioxidantes. Receitas: Saladas, sucos, chucrute, charuto. Usos: Consumir cru, cozido ou fermentado.",
+                "relacionados": [
+                    "1721092989301x494779164460119800",
+                    "1721092989305x560014772799581000"
+                ],
+                "demanda": 21,
+                "tipo_unidade": "KG",
+                "cod": "000174",
+                "ean": "0000000000153",
+                "info nutricional": "Por 100g:\n- Calorias: 25kcal\n- Carboidratos: 6g\n- Açúcar: 3g\n- Fibra: 2g\n- Proteína: 1g\n- Gordura: 0.1g\nVitaminas:\n- Vitamina K: 76mcg (63% VD)\n- Vitamina C: 37mg (41% VD)",
+                "_id": "1721092989302x831573350786017000"
+            },
+            {
+                "Created By": "admin_user_levee-delivery_test",
+                "como armazenar": "Geladeira (4ºC - 8ºC): Na embalagem original por até 3 dias.",
+                "categorias_produto": [
+                    "Empório"
+                ],
+                "estoque": 99995,
+                "_id": "1721092989303x599017524657527200",
+                "visivel": true,
+                "desconto": 0,
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1721666939748x563076236047211460/Rapadura%20Caiana%20Com%20Amendoim%20Mo%C3%ADdo.jpg"
+                ],
+                "peso por unidade": 500,
+                "tipo_unidade": "UN",
+                "ean": "0000000004183",
+                "qtd por unidade": "500g",
+                "nome": "Rapadura Caiana Com Amendoim Moído 500g",
+                "Created Date": "2024-07-16T01:23:09.303Z",
+                "relacionados": [
+                    "1721092989300x463452422169154300",
+                    "1721092989436x126651777400327740"
+                ],
+                "Modified Date": "2026-01-08T21:27:31.852Z",
+                "cod": "001547",
+                "preço novo": 9.99,
+                "preço antigo": 12.99,
+                "demanda": 1,
+                "peso/und": "unidade",
+                "descriçao": "Repolho roxo já picado e comercializado em bandeja, proporcionando praticidade. Receitas: Saladas, sucos, charuto. Usos: Consumir cru ou cozido."
+            },
+            {
+                "descriçao": "Repolho verde já picado e comercializado em bandeja, proporcionando praticidade. Receitas: Saladas, sucos, charuto. Usos: Consumir cru ou cozido.",
+                "preço novo": 6.99,
+                "Modified Date": "2026-03-04T16:50:32.787Z",
+                "peso por unidade": 200,
+                "tipo_unidade": "BJ",
+                "_id": "1721092989305x560014772799581000",
+                "visivel": true,
+                "cod": "001548",
+                "nome": "Repolho Verde Picado Bandeja 200g",
+                "ean": "0000000004190",
+                "Created Date": "2024-07-16T01:23:09.305Z",
+                "preço antigo": 5.99,
+                "peso/und": "unidade",
+                "demanda": 43,
+                "como armazenar": "Geladeira (4ºC - 8ºC): Na embalagem original por até 3 dias.",
+                "desconto": -16.69449081803005,
+                "categorias_produto": [
+                    "Legumes",
+                    "Kit Processados",
+                    "Higienizados"
+                ],
+                "Created By": "admin_user_levee-delivery_test",
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1736175254404x138011467390377840/20241205_102616.JPG"
+                ],
+                "estoque": 99354,
+                "relacionados": [
+                    "1721092989301x494779164460119800",
+                    "1721092989302x831573350786017000"
+                ]
+            },
+            {
+                "demanda": 0,
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1753904538594x919908799920881900/Damasco%20Turco%20300g.avif"
+                ],
+                "Created Date": "2024-07-16T01:23:09.436Z",
+                "preço antigo": 12.99,
+                "ean": "7896651000604",
+                "Created By": "admin_user_levee-delivery_test",
+                "_id": "1721092989436x126651777400327740",
+                "peso por unidade": 120,
+                "visivel": true,
+                "desconto": -977.675134719015,
+                "preço novo": 139.99,
+                "tipo_unidade": "KG",
+                "cod": "002306",
+                "Modified Date": "2026-02-05T14:20:37.209Z",
+                "nome": "damasco turco seco kg",
+                "relacionados": [
+                    "1740415318146x963844830216585200",
+                    "1721092987210x948987613829097600"
+                ],
+                "peso/und": "peso",
+                "estoque": 99724,
+                "descriçao": "damasco seco "
+            },
+            {
+                "preço novo": 79.9,
+                "desconto": 0,
+                "Modified Date": "2025-05-21T17:12:58.968Z",
+                "ean": "0000000007757",
+                "_id": "1721092989437x135120945099248100",
+                "demanda": 1,
+                "como armazenar": "Geladeira (4ºC - 8ºC): Em recipiente fechado por até 7 dias.",
+                "categorias_produto": [
+                    "Laticíneos"
+                ],
+                "cod": "001949",
+                "Created By": "admin_user_levee-delivery_test",
+                "peso por unidade": 450,
+                "tipo_unidade": "KG",
+                "descriçao": "Requeijão tradicional em barra, com textura firme, ideal para cortar. Usos: Consumir puro, com doces ou utilizar em receitas.",
+                "peso/und": "peso",
+                "Created Date": "2024-07-16T01:23:09.437Z",
+                "info nutricional": "Por 100g:\n- Calorias: 280kcal\n- Gordura Total: 22g\n- Gordura Saturada: 14g\n- Colesterol: 70mg\n- Sódio: 500mg\n- Proteína: 14g",
+                "estoque": 99550,
+                "nome": "Requeijão Barra sem raspa",
+                "relacionados": [
+                    "1721092989439x608445109104000600",
+                    "1721092989444x606688062797075000"
+                ],
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1724108285909x872565464914013300/1949.jpg"
+                ],
+                "visivel": true
+            },
+            {
+                "relacionados": [
+                    "1721092987171x917231706161498500"
+                ],
+                "_id": "1721092989438x233733084603773280",
+                "qtd por unidade": "300g",
+                "descriçao": "Rosquinha tradicional da culinária mineira, feita com coalhada e açúcar. Usos: Consumir como lanche ou café da tarde.",
+                "peso por unidade": 300,
+                "Modified Date": "2025-05-21T17:13:01.965Z",
+                "cod": "001290",
+                "ean": "7898929337412",
+                "Created Date": "2024-07-16T01:23:09.438Z",
+                "nome": "Rosquinha De Coalhada 300g",
+                "demanda": 0,
+                "Created By": "admin_user_levee-delivery_test",
+                "tipo_unidade": "PC",
+                "categorias_produto": [
+                    "Outros"
+                ],
+                "como armazenar": "Ambiente fresco e seco (18ºC - 22ºC): Em recipiente hermético por até 5 dias.",
+                "preço novo": 9.99,
+                "visivel": true,
+                "peso/und": "unidade",
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1740147651165x139892862386869820/download%20%2850%29.jpg"
+                ],
+                "preço antigo": 9.99,
+                "estoque": 100000,
+                "desconto": 0
+            },
+            {
+                "Modified Date": "2026-02-10T15:47:29.806Z",
+                "cod": "001363",
+                "peso/und": "peso",
+                "Created By": "admin_user_levee-delivery_test",
+                "visivel": true,
+                "nome": "Requeijão Cabeça Danta Com Raspa",
+                "relacionados": [
+                    "1721092989437x135120945099248100",
+                    "1721092989444x606688062797075000"
+                ],
+                "_id": "1721092989439x608445109104000600",
+                "desconto": 0,
+                "descriçao": "Requeijão artesanal da marca Cabeça Danta, com pedaços de leite coalhado (rapa). Usos: Consumir puro, com doces ou utilizar em receitas.",
+                "Created Date": "2024-07-16T01:23:09.439Z",
+                "tipo_unidade": "KG",
+                "demanda": 1,
+                "preço novo": 79.99,
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1721212640334x230745572185828260/REQUEIJAO%20CABECA%20DANTA%20COM%20RASPA%20KG.jfif"
+                ],
+                "categorias_produto": [
+                    "Laticíneos"
+                ],
+                "estoque": 94407,
+                "como armazenar": "Geladeira (4ºC - 8ºC): Em recipiente fechado por até 10 dias.",
+                "peso por unidade": 375,
+                "ean": "0000000002455"
+            },
+            {
+                "ean": "7893666312340",
+                "nome": "tareco quitanda ",
+                "visivel": true,
+                "categorias_produto": [
+                    "Outros",
+                    "Biscoitos"
+                ],
+                "estoque": 99961,
+                "Modified Date": "2026-02-27T19:03:21.789Z",
+                "cod": "002592",
+                "Created By": "admin_user_levee-delivery_test",
+                "peso/und": "unidade",
+                "relacionados": [
+                    "1721092986735x598836026994691300"
+                ],
+                "peso por unidade": 150,
+                "como armazenar": "Ambiente fresco e seco (18ºC - 22ºC): Em embalagem original fechada por até 3 dias.",
+                "preço por kg": 5.99,
+                "desconto": 0,
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1721212694869x667045504105114000/ROSCA%20QUITANDA.jfif"
+                ],
+                "Created Date": "2024-07-16T01:23:09.443Z",
+                "descriçao": "Rosca tradicional com sabor amanteigado e textura macia. Usos: Consumir como lanche ou café da tarde.",
+                "tipo_unidade": "UN",
+                "demanda": 2,
+                "preço novo": 17.99,
+                "_id": "1721092989443x275797664959629440"
+            },
+            {
+                "nome": "Requeijão Cabeça Danta com Raspa",
+                "categorias_produto": [
+                    "Outros"
+                ],
+                "preço novo": 79.9,
+                "tipo_unidade": "KG",
+                "descriçao": "Rosquinha tradicional da culinária mineira, feita com nata fresca, da marca Fornada de Minas. Usos: Consumir como lanche ou café da tarde.",
+                "ean": "7898676160356",
+                "demanda": 1,
+                "Modified Date": "2026-02-10T19:24:23.136Z",
+                "peso/und": "peso",
+                "Created Date": "2024-07-16T01:23:09.444Z",
+                "estoque": 97771,
+                "peso por unidade": 375,
+                "relacionados": [
+                    "1721092989437x135120945099248100",
+                    "1721092989439x608445109104000600"
+                ],
+                "cod": "001831",
+                "visivel": true,
+                "desconto": 0,
+                "_id": "1721092989444x606688062797075000",
+                "Created By": "admin_user_levee-delivery_test",
+                "como armazenar": "Ambiente fresco e seco (18ºC - 22ºC): Em recipiente hermético por até 4 dias.",
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1721668094380x397542992764807100/Requeij%C3%A3o%20Cabe%C3%A7a%20Danta%20Com%20Raspa.jpg"
+                ]
+            },
+            {
+                "peso por unidade": 1000,
+                "ean": "7898929337382",
+                "_id": "1721092989445x467706551766786900",
+                "demanda": 0,
+                "Created By": "admin_user_levee-delivery_test",
+                "cod": "001921",
+                "peso/und": "unidade",
+                "categorias_produto": [
+                    "Outros"
+                ],
+                "descriçao": "Rosquinha tradicional feita com leite, da marca Fornada de Minas. Usos: Consumir como lanche ou café da tarde.",
+                "Created Date": "2024-07-16T01:23:09.445Z",
+                "visivel": true,
+                "preço antigo": 12.99,
+                "tipo_unidade": "UN",
+                "nome": "Rosquinha De Leite Caseira Fornada De Minas 1kg",
+                "como armazenar": "Ambiente fresco e seco (18ºC - 22ºC): Em recipiente hermético por até 4 dias.",
+                "Modified Date": "2025-05-21T17:13:01.978Z",
+                "estoque": 100000,
+                "desconto": 0,
+                "preço novo": 12.99,
+                "preço por kg": 39.99
+            },
+            {
+                "_id": "1721092989447x892100783895939200",
+                "visivel": true,
+                "Created By": "admin_user_levee-delivery_test",
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1727123514359x500732961355654600/20240831_161703.png"
+                ],
+                "estoque": 99992,
+                "preço novo": 8.99,
+                "tipo_unidade": "PC",
+                "Modified Date": "2025-11-04T14:58:37.223Z",
+                "nome": "Rosquinha De Nata Macia -So Mineiro 300g",
+                "demanda": 4,
+                "categorias_produto": [
+                    "Outros"
+                ],
+                "cod": "001833",
+                "qtd por unidade": "300g",
+                "desconto": 0,
+                "peso/und": "unidade",
+                "preço antigo": 8.99,
+                "ean": "7898676160301",
+                "como armazenar": "Ambiente fresco e seco (18ºC - 22ºC): Em recipiente hermético por até 5 dias.",
+                "Created Date": "2024-07-16T01:23:09.447Z",
+                "descriçao": "Rosquinha de nata tradicional, macia e saborosa, da marca Só Mineiro. Usos: Consumir como lanche ou café da tarde."
+            },
+            {
+                "categorias_produto": [
+                    "Outros"
+                ],
+                "descriçao": "Rosquinha tradicional com sabor caseiro, da marca Só Mineiro. Usos: Consumir como lanche ou café da tarde.",
+                "_id": "1721092989448x331530569957043200",
+                "qtd por unidade": "300g",
+                "preço novo": 8.99,
+                "peso/und": "unidade",
+                "visivel": true,
+                "ean": "7898676160370",
+                "estoque": 100000,
+                "Created By": "admin_user_levee-delivery_test",
+                "desconto": 0,
+                "Created Date": "2024-07-16T01:23:09.448Z",
+                "cod": "001832",
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1727123422529x460329863530373200/20240831_161619.png"
+                ],
+                "demanda": 0,
+                "nome": "Rosquinha De Vovo -So Mineiro 300g",
+                "Modified Date": "2025-05-21T17:13:01.988Z",
+                "preço antigo": 8.99,
+                "como armazenar": "Ambiente fresco e seco (18ºC - 22ºC): Em recipiente hermético por até 5 dias.",
+                "tipo_unidade": "PC"
+            },
+            {
+                "cod": "002548",
+                "estoque": 100000,
+                "ean": "7891193030140",
+                "qtd por unidade": "400g",
+                "categorias_produto": [
+                    "Outros"
+                ],
+                "descriçao": "Rosquinha sequilho tradicional, da marca Seven Boys, com textura crocante e sabor amanteigado. Usos: Consumir como lanche ou café da tarde.",
+                "Modified Date": "2025-05-21T17:13:01.998Z",
+                "peso/und": "unidade",
+                "demanda": 0,
+                "tipo_unidade": "PC",
+                "Created By": "admin_user_levee-delivery_test",
+                "preço antigo": 7.99,
+                "nome": "Rosquinha Sequilhos 400g",
+                "como armazenar": "Ambiente fresco e seco (18ºC - 22ºC): Em embalagem original fechada por até 7 dias.",
+                "preço novo": 7.99,
+                "desconto": 0,
+                "_id": "1721092989451x408150404425463800",
+                "Created Date": "2024-07-16T01:23:09.451Z",
+                "visivel": false
+            },
+            {
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1721212749029x785027397019733000/RUCULA.jfif"
+                ],
+                "preço antigo": 4.99,
+                "info nutricional": "Por 100g:\n- Calorias: 25kcal\n- Carboidratos: 4g\n- Fibra: 1g\n- Proteína: 2g\n- Gordura: 0.4g\nVitaminas:\n- Vitamina K: 330mcg (275% VD)\n- Vitamina A: 1620 UI (32% VD)\n- Vitamina C: 15mg (17% VD)",
+                "desconto": 0,
+                "cod": "000063",
+                "Created Date": "2024-07-16T01:23:09.452Z",
+                "Created By": "admin_user_levee-delivery_test",
+                "ean": "0000000000048",
+                "relacionados": [
+                    "1721092989453x804120317262137600"
+                ],
+                "estoque": 99788,
+                "visivel": true,
+                "descriçao": "Vegetal folhoso com sabor picante e amargo, originário da região do Mediterrâneo. Receitas: Saladas, pizzas, massas. Usos: Consumir crua, para adicionar sabor e textura às saladas.",
+                "tipo_unidade": "BJ",
+                "peso/und": "unidade",
+                "preço novo": 4.99,
+                "demanda": 48,
+                "categorias_produto": [
+                    "Verduras"
+                ],
+                "Modified Date": "2026-03-04T14:04:15.646Z",
+                "peso por unidade": 300,
+                "_id": "1721092989452x523414320212167500",
+                "ordem_prateleira": 130,
+                "nome": "Rúcula hidroponica",
+                "como armazenar": "Geladeira (4ºC - 8ºC): Em saco plástico perfurado por até 5 dias."
+            },
+            {
+                "nome": "Rúcula 200g",
+                "peso/und": "unidade",
+                "como armazenar": "Geladeira (4ºC - 8ºC): Manter na embalagem original por até 7 dias.",
+                "peso por unidade": 200,
+                "preço antigo": 5.99,
+                "ean": "0000000000049",
+                "relacionados": [
+                    "1721092989452x523414320212167500"
+                ],
+                "Created Date": "2024-07-16T01:23:09.453Z",
+                "_id": "1721092989453x804120317262137600",
+                "Modified Date": "2026-03-04T11:43:50.360Z",
+                "Created By": "admin_user_levee-delivery_test",
+                "demanda": 84,
+                "desconto": 16.6944908180301,
+                "ordem_prateleira": 127,
+                "descriçao": "Rúcula cultivada em sistema hidropônico, sem o uso de agrotóxicos no solo. Receitas: Saladas, pizzas, massas. Usos: Consumir crua, para adicionar sabor e textura às saladas.",
+                "tipo_unidade": "BJ",
+                "estoque": 99558,
+                "cod": "000065",
+                "preço novo": 4.99,
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1724117791147x601911963176742400/R%C3%BAcula%20200g.webp"
+                ],
+                "categorias_produto": [
+                    "Verduras"
+                ],
+                "preço por kg": 10,
+                "visivel": true
+            },
+            {
+                "peso por unidade": 1000,
+                "categorias_produto": [
+                    "Outros"
+                ],
+                "cod": "002590",
+                "Modified Date": "2025-05-21T17:13:02.011Z",
+                "descriçao": "Sabão em barra para lavagem de roupas, com fragrância de limão, ideal para remover manchas e sujeiras. Usos: Lavagem de roupas em geral.",
+                "tipo_unidade": "UN",
+                "estoque": 100000,
+                "Created By": "admin_user_levee-delivery_test",
+                "demanda": 0,
+                "Created Date": "2024-07-16T01:23:09.454Z",
+                "como armazenar": "Ambiente fresco e seco (18ºC - 22ºC): Manter em local seco e arejado.",
+                "desconto": 0,
+                "preço antigo": 14.99,
+                "preço novo": 14.99,
+                "nome": "Sabão Potente Limão Algodão Branco 1kg",
+                "visivel": false,
+                "_id": "1721092989454x487583304272967200",
+                "peso/und": "unidade",
+                "ean": "0000000013390"
+            },
+            {
+                "demanda": 0,
+                "Created By": "admin_user_levee-delivery_test",
+                "nome": "Sal Rosa Fino Do Himalaia 400g",
+                "cod": "000968",
+                "como armazenar": "Ambiente fresco e seco (18ºC - 22ºC): Em recipiente hermético por tempo indeterminado.",
+                "info nutricional": "Por 1g:\n- Sódio: 388mg",
+                "preço novo": 7.99,
+                "categorias_produto": [
+                    "Temperos e Condimentos"
+                ],
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1721212800913x545975973357226500/SAL%20ROSA%20FINO%20DO%20HIMALAIA%20400%20GR.jfif"
+                ],
+                "estoque": 99990,
+                "tipo_unidade": "UN",
+                "visivel": true,
+                "Modified Date": "2026-02-15T18:25:04.312Z",
+                "descriçao": "Sal rosa do Himalaia, conhecido por seu sabor suave e por conter minerais. Usos: Utilizar como o sal tradicional, em receitas ou para temperar alimentos.",
+                "preço antigo": 7.99,
+                "peso/und": "unidade",
+                "ean": "0192505259721",
+                "Created Date": "2024-07-16T01:23:09.458Z",
+                "_id": "1721092989458x878078585329888500",
+                "qtd por unidade": "400g",
+                "desconto": 0,
+                "relacionados": [
+                    "1721092989459x999353563781577600",
+                    "1721092989461x919973487323764600",
+                    "1721092989469x681445311506671500"
+                ]
+            },
+            {
+                "relacionados": [
+                    "1721092989458x878078585329888500",
+                    "1721092989461x919973487323764600",
+                    "1721092989469x681445311506671500"
+                ],
+                "nome": "Sal Rosa Fino Do Himalaia 400g",
+                "Created Date": "2024-07-16T01:23:09.459Z",
+                "tipo_unidade": "UN",
+                "ean": "0000000013406",
+                "desconto": 0,
+                "Created By": "admin_user_levee-delivery_test",
+                "qtd por unidade": "400g",
+                "descriçao": "Sabão em barra para lavagem de roupas, com ação branqueadora, ideal para roupas brancas. Usos: Lavagem de roupas brancas.",
+                "estoque": 100000,
+                "cod": "002591",
+                "peso/und": "unidade",
+                "visivel": false,
+                "categorias_produto": [
+                    "Temperos e Condimentos"
+                ],
+                "_id": "1721092989459x999353563781577600",
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1721667063586x492914812283975700/Sal%20Rosa%20Fino%20Do%20Himalaia.jpg"
+                ],
+                "preço novo": 14.99,
+                "preço antigo": 14.99,
+                "Modified Date": "2025-05-21T17:13:02.028Z",
+                "demanda": 0,
+                "como armazenar": "Ambiente fresco e seco (18ºC - 22ºC): Manter em local seco e arejado."
+            },
+            {
+                "Created Date": "2024-07-16T01:23:09.461Z",
+                "ean": "0000000011150",
+                "como armazenar": "Ambiente fresco e seco (18ºC - 22ºC): Em recipiente hermético por até 1 ano.",
+                "peso/und": "unidade",
+                "peso por unidade": 100,
+                "descriçao": "Sal temperado com raspas de limão, da marca Saúde Plena, ideal para temperar peixes, aves e saladas. Usos: Utilizar como tempero para realçar o sabor dos pratos.",
+                "nome": "Sal Com Limão 100g Saúde Plena",
+                "preço novo": 6.99,
+                "qtd por unidade": "100g",
+                "relacionados": [
+                    "1721092989458x878078585329888500",
+                    "1721092989459x999353563781577600",
+                    "1721092989469x681445311506671500",
+                    "1721092987968x374046634160604350",
+                    "1721092987969x119741221667618580",
+                    "1721092987973x215483350793709280",
+                    "1721092987974x456246290126925500"
+                ],
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1741795954217x386017545585921150/SAL%20COM%20LIM%C3%83O%20100G.JPG"
+                ],
+                "desconto": 0,
+                "visivel": true,
+                "tipo_unidade": "UN",
+                "categorias_produto": [
+                    "Temperos e Condimentos"
+                ],
+                "Created By": "admin_user_levee-delivery_test",
+                "estoque": 99985,
+                "cod": "019250",
+                "demanda": 2,
+                "Modified Date": "2026-02-23T22:08:19.821Z",
+                "_id": "1721092989461x919973487323764600"
+            },
+            {
+                "tipo_unidade": "BJ",
+                "descriçao": "Erva aromática muito utilizada na culinária brasileira, com sabor marcante. Receitas: Molhos, temperos, saladas. Usos: Utilizar as folhas picadas para finalizar e aromatizar os pratos.",
+                "ean": "0000000000051",
+                "info nutricional": "Por 100g:\n- Calorias: 36kcal\n- Carboidratos: 7g\n- Açúcar: 1g\n- Fibra: 3g\n- Proteína: 3g\n- Gordura: 0.5g\nVitaminas:\n- Vitamina K: 582mcg (485% VD)\n- Vitamina A: 6911 UI (138% VD)\n- Vitamina C: 133mg (148% VD)",
+                "relacionados": [
+                    "1721092989463x437961074285129200",
+                    "1721092989469x681445311506671500",
+                    "1721092989473x526688367505997700",
+                    "1721092989476x593511464750558200"
+                ],
+                "demanda": 104,
+                "peso por unidade": 50,
+                "peso/und": "unidade",
+                "Created Date": "2024-07-16T01:23:09.462Z",
+                "Modified Date": "2026-03-03T19:01:51.023Z",
+                "_id": "1721092989462x370634948236613100",
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1719347677497x748285307427490200/Salsinha.jpg"
+                ],
+                "categorias_produto": [
+                    "Verduras"
+                ],
+                "ordem_prateleira": 131,
+                "Created By": "admin_user_levee-delivery_test",
+                "cod": "000068",
+                "preço novo": 2.99,
+                "visivel": true,
+                "preço por kg": 19.99,
+                "nome": "Salsinha 50g",
+                "preço antigo": 2.99,
+                "estoque": 99611,
+                "como armazenar": "Geladeira (4ºC - 8ºC): Em saco plástico perfurado por até 7 dias.",
+                "desconto": 0
+            },
+            {
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1745065506431x790570725373434000/images%20%2814%29.jpeg"
+                ],
+                "demanda": 7,
+                "como armazenar": "Geladeira (4ºC - 8ºC): Manter na embalagem original por até 10 dias.",
+                "_id": "1721092989463x437961074285129200",
+                "preço novo": 8.99,
+                "descriçao": "Salsinha cultivada em sistema hidropônico, sem o uso de agrotóxicos no solo. Receitas: Molhos, temperos, saladas. Usos: Utilizar as folhas picadas para finalizar e aromatizar os pratos.",
+                "relacionados": [
+                    "1721092989462x370634948236613100",
+                    "1721092989469x681445311506671500",
+                    "1721092989473x526688367505997700",
+                    "1721092989476x593511464750558200"
+                ],
+                "tipo_unidade": "BJ",
+                "peso por unidade": 500,
+                "Created Date": "2024-07-16T01:23:09.463Z",
+                "Created By": "admin_user_levee-delivery_test",
+                "categorias_produto": [
+                    "Verduras"
+                ],
+                "nome": "salsao",
+                "peso/und": "unidade",
+                "cod": "001638",
+                "visivel": true,
+                "desconto": -125.31328320802004,
+                "ean": "0000000005050",
+                "estoque": 99960,
+                "Modified Date": "2026-02-26T11:48:05.654Z",
+                "preço antigo": 3.99
+            },
+            {
+                "peso/und": "unidade",
+                "visivel": false,
+                "preço novo": 29.99,
+                "qtd por unidade": "100g",
+                "tipo_unidade": "KG",
+                "relacionados": [
+                    "1721092989458x878078585329888500",
+                    "1721092989459x999353563781577600",
+                    "1721092989461x919973487323764600",
+                    "1721092989462x370634948236613100",
+                    "1721092989463x437961074285129200",
+                    "1721092989473x526688367505997700",
+                    "1721092989476x593511464750558200"
+                ],
+                "cod": "002077",
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1724116479458x105721344267581280/Sal%20Rosa%20Fino%20Do%20Himalaia%20100g.webp"
+                ],
+                "Created By": "admin_user_levee-delivery_test",
+                "demanda": 0,
+                "desconto": 0,
+                "estoque": 100000,
+                "Modified Date": "2025-05-21T17:13:02.039Z",
+                "preço antigo": 29.99,
+                "ean": "0000000008938",
+                "_id": "1721092989469x681445311506671500",
+                "nome": "Sal Rosa Fino Do Himalaia 100g",
+                "como armazenar": "Geladeira (4ºC - 8ºC): Em recipiente fechado por até 2 dias.",
+                "Created Date": "2024-07-16T01:23:09.469Z"
+            },
+            {
+                "como armazenar": "Geladeira (4ºC - 8ºC): Em recipiente fechado por até 3 dias.",
+                "visivel": true,
+                "Modified Date": "2026-03-04T17:08:30.703Z",
+                "ordem_prateleira": 135,
+                "_id": "1721092989473x526688367505997700",
+                "preço antigo": 6.99,
+                "relacionados": [
+                    "1721092989462x370634948236613100",
+                    "1721092989463x437961074285129200",
+                    "1721092989469x681445311506671500",
+                    "1721092989476x593511464750558200"
+                ],
+                "peso/und": "unidade",
+                "cod": "002433",
+                "preço por kg": 8.99,
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1736176236599x662381845968817300/20241205_102756.JPG"
+                ],
+                "estoque": 99661,
+                "tipo_unidade": "BJ",
+                "Created Date": "2024-07-16T01:23:09.473Z",
+                "nome": "Salsinha Picada 90g",
+                "preço novo": 6.99,
+                "ean": "0000000012331",
+                "demanda": 24,
+                "categorias_produto": [
+                    "Verduras",
+                    "Higienizados",
+                    "Kit Processados"
+                ],
+                "descriçao": "Salsinha já picada e embalada, proporcionando praticidade no preparo das receitas. Receitas: Molhos, temperos, saladas. Usos: Utilizar para finalizar e aromatizar os pratos.",
+                "Created By": "admin_user_levee-delivery_test",
+                "desconto": 0,
+                "peso por unidade": 100
+            },
+            {
+                "preço novo": 6.99,
+                "descriçao": "Suco natural de abacaxi com hortelã, refrescante e digestivo.",
+                "peso por unidade": 250,
+                "cod": "001983",
+                "Modified Date": "2025-09-30T10:41:38.522Z",
+                "preço antigo": 5.99,
+                "nome": "Salsinha Picada 250g",
+                "peso/und": "unidade",
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1724117886786x596193141425547600/Salsinha%20Picada%20250g.png"
+                ],
+                "relacionados": [
+                    "1721092989462x370634948236613100",
+                    "1721092989463x437961074285129200",
+                    "1721092989469x681445311506671500",
+                    "1721092989473x526688367505997700"
+                ],
+                "desconto": -16.69449081803005,
+                "Created By": "admin_user_levee-delivery_test",
+                "_id": "1721092989476x593511464750558200",
+                "Created Date": "2024-07-16T01:23:09.476Z",
+                "como armazenar": "Geladeira (4ºC - 8ºC): Manter refrigerado e consumir em até 24 horas após aberto.",
+                "tipo_unidade": "UN",
+                "demanda": 20,
+                "categorias_produto": [
+                    "Bebidas",
+                    "Higienizados"
+                ],
+                "ean": "0000000008075",
+                "estoque": 99961,
+                "visivel": false
+            },
+            {
+                "visivel": false,
+                "Created By": "admin_user_levee-delivery_test",
+                "ean": "0192505114822",
+                "como armazenar": "Ambiente fresco e seco (18ºC - 22ºC): Em recipiente hermético por até 6 meses.",
+                "relacionados": [
+                    "1721092989482x958303893653289700"
+                ],
+                "peso/und": "unidade",
+                "preço novo": 12.99,
+                "descriçao": "Suplemento alimentar em pó, da marca Saúde Plena, rico em proteínas, vitaminas e minerais. Usos: Adicionar em sucos, vitaminas, iogurtes ou consumir conforme orientação profissional.",
+                "categorias_produto": [
+                    "Chás"
+                ],
+                "nome": "Spirulina Em Pó 100g",
+                "cod": "002385",
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1721667187063x735270409822149400/Spirulina%20Em%20P%C3%B3.jpg"
+                ],
+                "estoque": 100000,
+                "preço antigo": 12.99,
+                "_id": "1721092989481x603804999504323300",
+                "info nutricional": "Por 100g:\n- Calorias: 290kcal\n- Proteína: 60g\n- Carboidratos: 24g\n- Gordura Total: 7g\n- Ferro: 58mg\n- Vitamina B12: 2.4mcg",
+                "qtd por unidade": "100g",
+                "Created Date": "2024-07-16T01:23:09.481Z",
+                "desconto": 0,
+                "demanda": 0,
+                "tipo_unidade": "UN",
+                "Modified Date": "2025-05-21T17:13:02.777Z"
+            },
+            {
+                "visivel": false,
+                "tipo_unidade": "UN",
+                "como armazenar": "Geladeira (4ºC - 8ºC): Manter refrigerado e consumir em até 24 horas após aberto.",
+                "nome": "Spirulina Em Pó 400g",
+                "relacionados": [
+                    "1721092989481x603804999504323300"
+                ],
+                "peso por unidade": 400,
+                "preço antigo": 5.99,
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1724117730184x265605745736153820/Spirulina%20Em%20P%C3%B3%20400g.png"
+                ],
+                "estoque": 100000,
+                "desconto": 0,
+                "_id": "1721092989482x958303893653289700",
+                "categorias_produto": [
+                    "Bebidas"
+                ],
+                "demanda": 0,
+                "cod": "001869",
+                "Created By": "admin_user_levee-delivery_test",
+                "peso/und": "unidade",
+                "Created Date": "2024-07-16T01:23:09.482Z",
+                "Modified Date": "2025-05-21T17:13:02.786Z",
+                "ean": "0000000007023",
+                "preço novo": 5.99
+            },
+            {
+                "peso/und": "unidade",
+                "cod": "002440",
+                "como armazenar": "Ambiente fresco e seco (18ºC - 22ºC): Em embalagem original fechada por até 6 meses.",
+                "qtd por unidade": "155g",
+                "Created By": "admin_user_levee-delivery_test",
+                "peso por unidade": 150,
+                "tipo_unidade": "PC",
+                "preço antigo": 14.99,
+                "Created Date": "2024-07-16T01:23:09.483Z",
+                "_id": "1721092989483x951894594558292900",
+                "descriçao": "Biscoito wafer crocante com recheio de caramelo, tradicional da Holanda. Usos: Consumir como lanche ou sobremesa.",
+                "relacionados": [
+                    "1721092989485x318532984143882200"
+                ],
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1721212971285x130356033302561950/STROOP%20WAFEL%20155G.jfif"
+                ],
+                "Modified Date": "2026-02-25T21:43:11.280Z",
+                "categorias_produto": [
+                    "Empório",
+                    "Biscoitos"
+                ],
+                "desconto": 0,
+                "preço novo": 14.99,
+                "estoque": 99987,
+                "demanda": 0,
+                "nome": "Stroop Wafel 150 g Chocolate com Caramelo",
+                "visivel": true,
+                "ean": "7898954874067"
+            },
+            {
+                "categorias_produto": [
+                    "Bebidas"
+                ],
+                "relacionados": [
+                    "1721092989483x951894594558292900"
+                ],
+                "estoque": 99998,
+                "ean": "0000000003933",
+                "cod": "001521",
+                "nome": "Stroop Wafel goiabada 150g",
+                "desconto": 0,
+                "visivel": true,
+                "peso/und": "unidade",
+                "qtd por unidade": "155g",
+                "Modified Date": "2026-01-11T23:41:45.935Z",
+                "tipo_unidade": "UN",
+                "descriçao": "Suco natural de açaí, rico em antioxidantes.",
+                "preço novo": 14.99,
+                "peso por unidade": 150,
+                "_id": "1721092989485x318532984143882200",
+                "preço antigo": 6.99,
+                "demanda": 2,
+                "Created Date": "2024-07-16T01:23:09.485Z",
+                "como armazenar": "Congelador (-18ºC): Até a data de validade da embalagem. Após aberto, consumir imediatamente.",
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1740413256931x759444072995028200/download%20%2863%29.jpg"
+                ],
+                "Created By": "admin_user_levee-delivery_test"
+            },
+            {
+                "Created By": "admin_user_levee-delivery_test",
+                "visivel": false,
+                "peso/und": "unidade",
+                "como armazenar": "Geladeira (4ºC - 8ºC): Manter refrigerado e consumir em até 24 horas após aberto.",
+                "nome": "suco de graviola 300ml",
+                "preço novo": 7.99,
+                "preço antigo": 10,
+                "cod": "001976",
+                "desconto": 20.1,
+                "Created Date": "2024-07-16T01:23:09.486Z",
+                "preço por kg": 39.99,
+                "descriçao": "Suco natural de fruta, sem adição de açúcar, em embalagem econômica de 2 litros.",
+                "demanda": 0,
+                "ean": "0000000008006",
+                "Modified Date": "2026-02-09T16:47:55.014Z",
+                "_id": "1721092989486x701863156435167400",
+                "categorias_produto": [
+                    "Bebidas"
+                ],
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1751717649009x662546019146648300/GRAVIOLA.avif"
+                ],
+                "tipo_unidade": "UN",
+                "peso por unidade": 1000,
+                "estoque": 99994
+            },
+            {
+                "categorias_produto": [
+                    "Bebidas"
+                ],
+                "Created Date": "2024-07-16T01:23:09.488Z",
+                "Modified Date": "2026-02-14T15:58:50.893Z",
+                "preço antigo": 5.99,
+                "estoque": 99997,
+                "demanda": 0,
+                "nome": "Suco De Cenoura /Laranja 200ml",
+                "tipo_unidade": "UN",
+                "cod": "001727",
+                "preço novo": 5.99,
+                "como armazenar": "Geladeira (4ºC - 8ºC): Manter refrigerado e consumir em até 24 horas após aberto.",
+                "ean": "0000000005838",
+                "desconto": 0,
+                "peso/und": "unidade",
+                "visivel": true,
+                "_id": "1721092989488x469293642996159170",
+                "Created By": "admin_user_levee-delivery_test",
+                "relacionados": [
+                    "1721092987816x589131952241444600",
+                    "1721092987816x693686605577855900",
+                    "1721092987820x563079321516814600",
+                    "1721092987821x958973366618376000",
+                    "1721092987822x574124213139493440",
+                    "1721092987823x991350961062525700",
+                    "1721092987949x106342697256816000",
+                    "1721092987950x739237564803018800",
+                    "1721092987951x136681033988863780",
+                    "1721092989492x819804324903324200",
+                    "1721092989495x313504204646375200",
+                    "1721092989497x256648918386721760",
+                    "1721092989500x258625631654315400",
+                    "1721092989502x154192903386114460",
+                    "1721092989504x757744697077282700",
+                    "1721092989506x830283852341406800",
+                    "1721092989508x824185400007115800"
+                ],
+                "descriçao": "Suco natural de cenoura com laranja, rico em betacaroteno e vitamina C.",
+                "peso por unidade": 200
+            },
+            {
+                "ean": "0000000009669",
+                "preço novo": 19.99,
+                "Created By": "admin_user_levee-delivery_test",
+                "_id": "1721092989490x717641124741684700",
+                "demanda": 47,
+                "Modified Date": "2026-03-03T17:33:49.529Z",
+                "nome": "Suco De Laranja Levee 1L",
+                "como armazenar": "Geladeira (4ºC - 8ºC): Manter refrigerado e consumir em até 48 horas após aberto.",
+                "tipo_unidade": "UN",
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1770666986513x741110315978472800/25.png"
+                ],
+                "estoque": 99776,
+                "Created Date": "2024-07-16T01:23:09.490Z",
+                "cod": "002154",
+                "relacionados": [
+                    "1721092987816x589131952241444600",
+                    "1721092987816x693686605577855900",
+                    "1721092987820x563079321516814600",
+                    "1721092987821x958973366618376000",
+                    "1721092987822x574124213139493440",
+                    "1721092987823x991350961062525700",
+                    "1721092987949x106342697256816000",
+                    "1721092987950x739237564803018800",
+                    "1721092987951x136681033988863780",
+                    "1721092989488x469293642996159170",
+                    "1721092989492x819804324903324200",
+                    "1721092989495x313504204646375200",
+                    "1721092989497x256648918386721760",
+                    "1721092989500x258625631654315400",
+                    "1721092989502x154192903386114460",
+                    "1721092989504x757744697077282700",
+                    "1721092989506x830283852341406800",
+                    "1721092989508x824185400007115800"
+                ],
+                "peso por unidade": 1,
+                "desconto": 0,
+                "qtd por unidade": "1L",
+                "peso/und": "unidade",
+                "categorias_produto": [
+                    "Bebidas",
+                    "Sucos"
+                ],
+                "visivel": true,
+                "descriçao": "Ingredientes: 100% Fruta. Sem lactose, sem açúcar.\nExcelente fonte de Vitamina C, este suco é um poderoso aliado para fortalecer sua imunidade e dar energia natural para o dia a dia.\n",
+                "preço antigo": 19.99
+            },
+            {
+                "descriçao": "Suco natural de laranja com maracujá, refrescante e saboroso.",
+                "cod": "001657",
+                "peso por unidade": 150,
+                "tipo_unidade": "UN",
+                "preço novo": 14.99,
+                "estoque": 99993,
+                "_id": "1721092989492x819804324903324200",
+                "nome": "Stroop Wafel café 150g",
+                "visivel": true,
+                "Created By": "admin_user_levee-delivery_test",
+                "demanda": 2,
+                "relacionados": [
+                    "1721092987816x589131952241444600",
+                    "1721092987816x693686605577855900",
+                    "1721092987820x563079321516814600",
+                    "1721092987821x958973366618376000",
+                    "1721092987822x574124213139493440",
+                    "1721092987823x991350961062525700",
+                    "1721092987949x106342697256816000",
+                    "1721092987950x739237564803018800",
+                    "1721092987951x136681033988863780",
+                    "1721092989488x469293642996159170",
+                    "1721092989495x313504204646375200",
+                    "1721092989497x256648918386721760",
+                    "1721092989500x258625631654315400",
+                    "1721092989502x154192903386114460",
+                    "1721092989504x757744697077282700",
+                    "1721092989506x830283852341406800",
+                    "1721092989508x824185400007115800"
+                ],
+                "Modified Date": "2026-01-23T11:02:01.473Z",
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1740413327114x483343853242862000/images%20%282%29.jpg"
+                ],
+                "preço antigo": 5.99,
+                "categorias_produto": [
+                    "Bebidas"
+                ],
+                "peso/und": "unidade",
+                "Created Date": "2024-07-16T01:23:09.492Z",
+                "ean": "0000000005227",
+                "desconto": 0,
+                "como armazenar": "Geladeira (4ºC - 8ºC): Manter refrigerado e consumir em até 24 horas após aberto."
+            },
+            {
+                "preço novo": 6.99,
+                "_id": "1721092989495x313504204646375200",
+                "visivel": false,
+                "info nutricional": "Por 100ml (suco de laranja natural):\n- Calorias: 45kcal\n- Carboidratos: 10g\n- Açúcar: 9g\n- Proteína: 1g\n- Gordura: 0.2g\n- Vitamina C: 30mg (33% VD)",
+                "Created Date": "2024-07-16T01:23:09.495Z",
+                "preço antigo": 5.99,
+                "peso por unidade": 100,
+                "estoque": 99957,
+                "cod": "001025",
+                "Modified Date": "2026-02-09T16:42:00.334Z",
+                "categorias_produto": [
+                    "Bebidas",
+                    "Sucos"
+                ],
+                "peso/und": "unidade",
+                "desconto": -16.69449081803005,
+                "demanda": 10,
+                "nome": "Suco De Laranja 300 ml",
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1743177517177x408483778336262300/l-11a0d8dc6f5143c190555e7eeaef7cf6.png"
+                ],
+                "tipo_unidade": "UN",
+                "Created By": "admin_user_levee-delivery_test",
+                "como armazenar": "Geladeira (4ºC - 8ºC): Manter refrigerado e consumir em até 24 horas após aberto.",
+                "descriçao": "Suco natural de laranja, rico em vitamina C.",
+                "relacionados": [
+                    "1721092987816x589131952241444600",
+                    "1721092987816x693686605577855900",
+                    "1721092987820x563079321516814600",
+                    "1721092987821x958973366618376000",
+                    "1721092987822x574124213139493440",
+                    "1721092987823x991350961062525700",
+                    "1721092987949x106342697256816000",
+                    "1721092987950x739237564803018800",
+                    "1721092987951x136681033988863780",
+                    "1721092989488x469293642996159170",
+                    "1721092989492x819804324903324200",
+                    "1721092989497x256648918386721760",
+                    "1721092989500x258625631654315400",
+                    "1721092989502x154192903386114460",
+                    "1721092989504x757744697077282700",
+                    "1721092989506x830283852341406800",
+                    "1721092989508x824185400007115800"
+                ],
+                "ean": "0000000000614"
+            },
+            {
+                "Modified Date": "2026-03-02T04:10:34.991Z",
+                "Created By": "admin_user_levee-delivery_test",
+                "ean": "0000000005852",
+                "como armazenar": "Geladeira (4ºC - 8ºC): Manter refrigerado e consumir em até 24 horas após aberto.",
+                "demanda": 6,
+                "estoque": 95918,
+                "tipo_unidade": "UN",
+                "descriçao": "Suco natural de laranja, beterraba e cenoura, rico em vitaminas e minerais.",
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1743177475833x278974066281135520/l-11a0d8dc6f5143c190555e7eeaef7cf6.png"
+                ],
+                "nome": "Suco De Laranja Beterraba E Cenoura",
+                "peso/und": "unidade",
+                "Created Date": "2024-07-16T01:23:09.497Z",
+                "desconto": -16.69449081803005,
+                "peso por unidade": 300,
+                "categorias_produto": [
+                    "Bebidas",
+                    "Sucos"
+                ],
+                "preço novo": 6.99,
+                "cod": "001729",
+                "relacionados": [
+                    "1721092987816x589131952241444600",
+                    "1721092987816x693686605577855900",
+                    "1721092987820x563079321516814600",
+                    "1721092987821x958973366618376000",
+                    "1721092987822x574124213139493440",
+                    "1721092987823x991350961062525700",
+                    "1721092987949x106342697256816000",
+                    "1721092987950x739237564803018800",
+                    "1721092987951x136681033988863780",
+                    "1721092989488x469293642996159170",
+                    "1721092989492x819804324903324200",
+                    "1721092989495x313504204646375200",
+                    "1721092989500x258625631654315400",
+                    "1721092989502x154192903386114460",
+                    "1721092989504x757744697077282700",
+                    "1721092989506x830283852341406800",
+                    "1721092989508x824185400007115800",
+                    "1721092986691x686057050690026500",
+                    "1721092986698x541015844165092100",
+                    "1721092989824x677419238888360700"
+                ],
+                "preço por kg": 19.99,
+                "preço antigo": 5.99,
+                "visivel": false,
+                "_id": "1721092989497x256648918386721760"
+            },
+            {
+                "Created By": "admin_user_levee-delivery_test",
+                "cod": "002530",
+                "peso/und": "unidade",
+                "visivel": true,
+                "categorias_produto": [
+                    "Bebidas"
+                ],
+                "demanda": 1,
+                "tipo_unidade": "UN",
+                "Created Date": "2024-07-16T01:23:09.500Z",
+                "preço novo": 21.99,
+                "estoque": 99992,
+                "ean": "7898953148770",
+                "como armazenar": "Geladeira (4ºC - 8ºC): Manter refrigerado e consumir em até 48 horas após aberto.",
+                "descriçao": "Suco de laranja integral, sem adição de açúcar, da marca Fruitz, em embalagem de 1,5 litro.",
+                "preço antigo": 19.99,
+                "relacionados": [
+                    "1721092987816x589131952241444600",
+                    "1721092987816x693686605577855900",
+                    "1721092987820x563079321516814600",
+                    "1721092987821x958973366618376000",
+                    "1721092987822x574124213139493440",
+                    "1721092987823x991350961062525700",
+                    "1721092987949x106342697256816000",
+                    "1721092987950x739237564803018800",
+                    "1721092987951x136681033988863780",
+                    "1721092989488x469293642996159170",
+                    "1721092989492x819804324903324200",
+                    "1721092989495x313504204646375200",
+                    "1721092989497x256648918386721760",
+                    "1721092989502x154192903386114460",
+                    "1721092989504x757744697077282700",
+                    "1721092989506x830283852341406800",
+                    "1721092989508x824185400007115800"
+                ],
+                "Modified Date": "2026-01-01T21:20:21.407Z",
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1721667266657x342475728714462400/Suco%20De%20Laranja%20Integral%20Fruitz.jpg"
+                ],
+                "desconto": -10.01,
+                "_id": "1721092989500x258625631654315400",
+                "qtd por unidade": "1,5L",
+                "nome": "Suco De Laranja Integral Fruitz 1,5L"
+            },
+            {
+                "preço antigo": 14.99,
+                "Created Date": "2024-07-16T01:23:09.502Z",
+                "demanda": 0,
+                "relacionados": [
+                    "1721092987816x589131952241444600",
+                    "1721092987816x693686605577855900",
+                    "1721092987820x563079321516814600",
+                    "1721092987821x958973366618376000",
+                    "1721092987822x574124213139493440",
+                    "1721092987823x991350961062525700",
+                    "1721092987949x106342697256816000",
+                    "1721092987950x739237564803018800",
+                    "1721092987951x136681033988863780",
+                    "1721092989488x469293642996159170",
+                    "1721092989492x819804324903324200",
+                    "1721092989495x313504204646375200",
+                    "1721092989497x256648918386721760",
+                    "1721092989500x258625631654315400",
+                    "1721092989504x757744697077282700",
+                    "1721092989506x830283852341406800",
+                    "1721092989508x824185400007115800"
+                ],
+                "nome": "Suco De Laranja Integral Fruitz 900ml",
+                "Modified Date": "2025-05-21T17:13:02.880Z",
+                "peso/und": "unidade",
+                "visivel": true,
+                "como armazenar": "Geladeira (4ºC - 8ºC): Manter refrigerado e consumir em até 24 horas após aberto.",
+                "cod": "002177",
+                "_id": "1721092989502x154192903386114460",
+                "ean": "7898953148701",
+                "estoque": 100000,
+                "preço novo": 14.99,
+                "tipo_unidade": "UN",
+                "descriçao": "Suco de laranja integral, sem adição de açúcar, da marca Prats, em embalagem de 300ml.",
+                "Created By": "admin_user_levee-delivery_test",
+                "desconto": -41.74,
+                "categorias_produto": [
+                    "Bebidas"
+                ],
+                "qtd por unidade": "300ml"
+            },
+            {
+                "Modified Date": "2025-07-07T11:32:35.277Z",
+                "_id": "1721092989504x757744697077282700",
+                "Created Date": "2024-07-16T01:23:09.504Z",
+                "tipo_unidade": "UN",
+                "desconto": 0,
+                "ean": "7896267700226",
+                "preço antigo": 18.99,
+                "categorias_produto": [
+                    "Bebidas"
+                ],
+                "cod": "002570",
+                "demanda": 0,
+                "peso/und": "unidade",
+                "Created By": "admin_user_levee-delivery_test",
+                "visivel": true,
+                "qtd por unidade": "1,4L",
+                "como armazenar": "Geladeira (4ºC - 8ºC): Manter refrigerado e consumir em até 48 horas após aberto.",
+                "descriçao": "Suco natural de manga, em embalagem de 1,4 litro.",
+                "nome": "Suco De Laranja Integral Prats 1,4L",
+                "preço novo": 18.99,
+                "estoque": 99999,
+                "relacionados": [
+                    "1721092987816x589131952241444600",
+                    "1721092987816x693686605577855900",
+                    "1721092987820x563079321516814600",
+                    "1721092987821x958973366618376000",
+                    "1721092987822x574124213139493440",
+                    "1721092987823x991350961062525700",
+                    "1721092987949x106342697256816000",
+                    "1721092987950x739237564803018800",
+                    "1721092987951x136681033988863780",
+                    "1721092989488x469293642996159170",
+                    "1721092989492x819804324903324200",
+                    "1721092989495x313504204646375200",
+                    "1721092989497x256648918386721760",
+                    "1721092989500x258625631654315400",
+                    "1721092989502x154192903386114460",
+                    "1721092989506x830283852341406800",
+                    "1721092989508x824185400007115800"
+                ]
+            },
+            {
+                "relacionados": [
+                    "1721092987816x589131952241444600",
+                    "1721092987816x693686605577855900",
+                    "1721092987820x563079321516814600",
+                    "1721092987821x958973366618376000",
+                    "1721092987822x574124213139493440",
+                    "1721092987823x991350961062525700",
+                    "1721092987949x106342697256816000",
+                    "1721092987950x739237564803018800",
+                    "1721092987951x136681033988863780",
+                    "1721092989488x469293642996159170",
+                    "1721092989492x819804324903324200",
+                    "1721092989495x313504204646375200",
+                    "1721092989497x256648918386721760",
+                    "1721092989500x258625631654315400",
+                    "1721092989502x154192903386114460",
+                    "1721092989504x757744697077282700",
+                    "1721092989508x824185400007115800"
+                ],
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1721667285651x679893115799246300/Suco%20De%20Laranja%20Integral%20Prats.jpg"
+                ],
+                "Modified Date": "2026-02-24T03:35:09.187Z",
+                "Created Date": "2024-07-16T01:23:09.506Z",
+                "demanda": 12,
+                "tipo_unidade": "UN",
+                "como armazenar": "Geladeira (4ºC - 8ºC): Manter refrigerado e consumir em até 48 horas após aberto.",
+                "_id": "1721092989506x830283852341406800",
+                "desconto": -35.74,
+                "peso/und": "unidade",
+                "qtd por unidade": "900ml",
+                "descriçao": "Suco de laranja integral, sem adição de açúcar, da marca Prats, em embalagem de 900ml.",
+                "estoque": 99943,
+                "preço novo": 18.99,
+                "preço antigo": 13.99,
+                "ean": "0000000005401",
+                "categorias_produto": [
+                    "Bebidas"
+                ],
+                "nome": "Suco De Laranja Integral Prats 900ml",
+                "cod": "001679",
+                "Created By": "admin_user_levee-delivery_test",
+                "visivel": true
+            },
+            {
+                "preço antigo": 14.99,
+                "cod": "001678",
+                "demanda": 0,
+                "_id": "1721092989508x824185400007115800",
+                "preço novo": 18.99,
+                "nome": "Suco De Laranja,Acerola E Maçã Prats 900ml",
+                "ean": "7898953148619",
+                "descriçao": "Suco natural de laranja, acerola e maçã, rico em vitamina C, da marca Prats, em embalagem de 900ml.",
+                "como armazenar": "Geladeira (4ºC - 8ºC): Manter refrigerado e consumir em até 48 horas após aberto.",
+                "categorias_produto": [
+                    "Bebidas"
+                ],
+                "relacionados": [
+                    "1721092987816x589131952241444600",
+                    "1721092987816x693686605577855900",
+                    "1721092987820x563079321516814600",
+                    "1721092987821x958973366618376000",
+                    "1721092987822x574124213139493440",
+                    "1721092987823x991350961062525700",
+                    "1721092987949x106342697256816000",
+                    "1721092987950x739237564803018800",
+                    "1721092987951x136681033988863780",
+                    "1721092989488x469293642996159170",
+                    "1721092989492x819804324903324200",
+                    "1721092989495x313504204646375200",
+                    "1721092989497x256648918386721760",
+                    "1721092989500x258625631654315400",
+                    "1721092989502x154192903386114460",
+                    "1721092989504x757744697077282700",
+                    "1721092989506x830283852341406800",
+                    "1721092987975x881032065688633200",
+                    "1721092987976x649571165134429300",
+                    "1721092987976x688760985255599400",
+                    "1721092987981x484453099412546400",
+                    "1721092987982x921337261624882700"
+                ],
+                "estoque": 99999,
+                "Modified Date": "2025-09-30T17:45:09.985Z",
+                "visivel": true,
+                "tipo_unidade": "UN",
+                "desconto": -26.68,
+                "Created By": "admin_user_levee-delivery_test",
+                "Created Date": "2024-07-16T01:23:09.508Z",
+                "qtd por unidade": "900ml",
+                "peso/und": "unidade"
+            },
+            {
+                "ean": "0000000006415",
+                "visivel": true,
+                "_id": "1721092989821x236859725412430500",
+                "nome": "Suco De Maracujá Com Manga",
+                "Created By": "admin_user_levee-delivery_test",
+                "relacionados": [
+                    "1721092987994x728629767221276000",
+                    "1721092987997x130074901691759950"
+                ],
+                "preço antigo": 5.99,
+                "estoque": 100000,
+                "tipo_unidade": "UN",
+                "Created Date": "2024-07-16T01:23:09.821Z",
+                "categorias_produto": [
+                    "Bebidas"
+                ],
+                "preço novo": 5.99,
+                "peso/und": "peso",
+                "descriçao": "Suco natural de maracujá com manga, exótico e saboroso.",
+                "preço por kg": 8.99,
+                "como armazenar": "Geladeira (4ºC - 8ºC): Manter refrigerado e consumir em até 24 horas após aberto.",
+                "desconto": 0,
+                "Modified Date": "2025-05-21T17:13:02.950Z",
+                "cod": "001787",
+                "demanda": 0,
+                "peso por unidade": 250
+            },
+            {
+                "Created By": "admin_user_levee-delivery_test",
+                "preço antigo": 19.99,
+                "estoque": 100000,
+                "tipo_unidade": "UN",
+                "desconto": 0,
+                "_id": "1721092989823x873694951586918800",
+                "preço novo": 19.99,
+                "peso/und": "unidade",
+                "categorias_produto": [
+                    "Bebidas"
+                ],
+                "visivel": true,
+                "descriçao": "Suco de uva integral, sem adição de açúcar, da marca Iguaria Divina, em embalagem de 1,5 litro.",
+                "demanda": 0,
+                "Modified Date": "2025-05-21T17:13:02.959Z",
+                "cod": "002406",
+                "como armazenar": "Geladeira (4ºC - 8ºC): Manter refrigerado e consumir em até 48 horas após aberto.",
+                "Created Date": "2024-07-16T01:23:09.823Z",
+                "relacionados": [
+                    "1721092989824x677419238888360700",
+                    "1721092989827x178644173411120400",
+                    "1721092989829x737625443710140200",
+                    "1721092989831x153281059206900480",
+                    "1721092989833x457503768822983500"
+                ],
+                "ean": "7898254220441",
+                "qtd por unidade": "1,5L",
+                "nome": "Suco De Uva Integral Iguaria Divina 1,5L"
+            },
+            {
+                "relacionados": [
+                    "1721092989823x873694951586918800",
+                    "1721092989827x178644173411120400",
+                    "1721092989829x737625443710140200",
+                    "1721092989831x153281059206900480",
+                    "1721092989833x457503768822983500",
+                    "1721092986691x686057050690026500",
+                    "1721092986698x541015844165092100"
+                ],
+                "peso/und": "unidade",
+                "preço antigo": 6.99,
+                "demanda": 2,
+                "categorias_produto": [
+                    "Bebidas"
+                ],
+                "visivel": false,
+                "descriçao": "Suco natural de uva com beterraba, rico em antioxidantes.",
+                "tipo_unidade": "UN",
+                "nome": "Stroop Wafel caramelo 150g",
+                "peso por unidade": 200,
+                "ean": "0000000008105",
+                "Created Date": "2024-07-16T01:23:09.824Z",
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1766236643426x911340798259263400/images.jpg"
+                ],
+                "Modified Date": "2026-02-24T12:09:28.595Z",
+                "estoque": 99200,
+                "cod": "001986",
+                "_id": "1721092989824x677419238888360700",
+                "preço por kg": 5.99,
+                "Created By": "admin_user_levee-delivery_test",
+                "preço novo": 14.99,
+                "desconto": 0,
+                "como armazenar": "Geladeira (4ºC - 8ºC): Manter refrigerado e consumir em até 24 horas após aberto."
+            },
+            {
+                "demanda": 10,
+                "visivel": true,
+                "ean": "7898953148220",
+                "nome": "Suco Prats De Uva 900ml",
+                "qtd por unidade": "900ml",
+                "cod": "001675",
+                "tipo_unidade": "UN",
+                "descriçao": "Suco de uva integral, sem adição de açúcar, da marca Prats, em embalagem de 900ml.",
+                "peso/und": "unidade",
+                "categorias_produto": [
+                    "Bebidas"
+                ],
+                "preço novo": 19.99,
+                "estoque": 99966,
+                "Created By": "admin_user_levee-delivery_test",
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1721213071922x329050866522103230/SUCO%20PRATS%20DE%20UVA%20900%20ML.jfif"
+                ],
+                "Modified Date": "2026-02-24T03:35:09.206Z",
+                "_id": "1721092989827x178644173411120400",
+                "Created Date": "2024-07-16T01:23:09.827Z",
+                "como armazenar": "Refrigeração: Entre 0ºC e 8ºC após aberto (7-10 dias).",
+                "preço antigo": 16.99,
+                "desconto": -17.66,
+                "relacionados": [
+                    "1721092989823x873694951586918800",
+                    "1721092989824x677419238888360700",
+                    "1721092989829x737625443710140200",
+                    "1721092989831x153281059206900480",
+                    "1721092989833x457503768822983500"
+                ]
+            },
+            {
+                "estoque": 99996,
+                "preço novo": 22.99,
+                "Created By": "admin_user_levee-delivery_test",
+                "peso por unidade": 1,
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1740139743123x452049775679320700/download%20%2845%29.jpg"
+                ],
+                "como armazenar": "Geladeira (4ºC - 8ºC): Manter refrigerado e consumir em até 48 horas após aberto.",
+                "nome": "Suco De Uva Integral Iguaria Divina 1L",
+                "desconto": -53.37,
+                "Modified Date": "2025-12-30T16:31:10.593Z",
+                "descriçao": "Suco de uva integral, sem adição de açúcar, da marca Iguaria Divina, em embalagem de 1 litro.",
+                "cod": "789892",
+                "Created Date": "2024-07-16T01:23:09.829Z",
+                "tipo_unidade": "UN",
+                "visivel": true,
+                "demanda": 1,
+                "peso/und": "unidade",
+                "categorias_produto": [
+                    "Bebidas"
+                ],
+                "ean": "7898925422129",
+                "qtd por unidade": "1L",
+                "relacionados": [
+                    "1721092989823x873694951586918800",
+                    "1721092989824x677419238888360700",
+                    "1721092989827x178644173411120400",
+                    "1721092989831x153281059206900480",
+                    "1721092989833x457503768822983500"
+                ],
+                "preço antigo": 14.99,
+                "_id": "1721092989829x737625443710140200"
+            },
+            {
+                "desconto": 0,
+                "preço novo": 9.99,
+                "Modified Date": "2026-02-27T13:38:49.320Z",
+                "categorias_produto": [
+                    "Bebidas"
+                ],
+                "_id": "1721092989831x153281059206900480",
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1741872043910x257929543766641120/download%20%2891%29.jpg"
+                ],
+                "Created Date": "2024-07-16T01:23:09.831Z",
+                "cod": "002067",
+                "como armazenar": "Geladeira (4ºC - 8ºC): Manter refrigerado e consumir em até 24 horas após aberto.",
+                "preço antigo": 9.99,
+                "tipo_unidade": "UN",
+                "nome": "Suco De Uva Integral Iguaria Divina 500ml",
+                "qtd por unidade": "500ml",
+                "estoque": 0,
+                "Created By": "admin_user_levee-delivery_test",
+                "ean": "7898254220205",
+                "relacionados": [
+                    "1721092989823x873694951586918800",
+                    "1721092989824x677419238888360700",
+                    "1721092989827x178644173411120400",
+                    "1721092989829x737625443710140200",
+                    "1721092989833x457503768822983500"
+                ],
+                "descriçao": "Suco de uva integral, sem adição de açúcar, da marca Iguaria Divina, em embalagem de 500ml.",
+                "demanda": 0,
+                "peso/und": "unidade",
+                "peso por unidade": 500,
+                "visivel": false
+            },
+            {
+                "como armazenar": "Refrigeração: Entre 0ºC e 8ºC após aberto (7-10 dias).",
+                "Created Date": "2024-07-16T01:23:09.833Z",
+                "descriçao": "Suco com sabor artificial de uva, em embalagem de 1,4 litro.",
+                "nome": "Suco Sabor Uva 1,4L",
+                "peso/und": "unidade",
+                "tipo_unidade": "UN",
+                "Created By": "admin_user_levee-delivery_test",
+                "ean": "7896267781812",
+                "visivel": false,
+                "categorias_produto": [
+                    "Bebidas"
+                ],
+                "Modified Date": "2025-05-21T17:13:02.989Z",
+                "preço novo": 19.99,
+                "preço antigo": 19.99,
+                "estoque": 100000,
+                "cod": "002523",
+                "desconto": 0,
+                "_id": "1721092989833x457503768822983500",
+                "qtd por unidade": "1,4L",
+                "relacionados": [
+                    "1721092989823x873694951586918800",
+                    "1721092989824x677419238888360700",
+                    "1721092989827x178644173411120400",
+                    "1721092989829x737625443710140200",
+                    "1721092989831x153281059206900480"
+                ],
+                "demanda": 0
+            },
+            {
+                "preço novo": 6.99,
+                "Modified Date": "2026-01-30T20:16:41.985Z",
+                "desconto": 0,
+                "visivel": true,
+                "_id": "1721092989835x677056781616101900",
+                "nome": "Suco Frutas Vermelhas",
+                "descriçao": "Suco natural de frutas vermelhas, como morango, amora e framboesa, rico em antioxidantes.",
+                "Created Date": "2024-07-16T01:23:09.835Z",
+                "estoque": 99640,
+                "Created By": "admin_user_levee-delivery_test",
+                "cod": "001522",
+                "tipo_unidade": "UN",
+                "demanda": 0,
+                "ean": "0000000003940",
+                "como armazenar": "Refrigeração: Entre 0ºC e 8ºC após aberto (7-10 dias). Congelamento: -18ºC ou inferior para maior durabilidade (até 3 meses).",
+                "peso/und": "peso",
+                "peso por unidade": 180,
+                "preço por kg": 4.99,
+                "preço antigo": 6.99,
+                "categorias_produto": [
+                    "Bebidas"
+                ]
+            },
+            {
+                "peso/und": "unidade",
+                "descriçao": "Suco natural com combinação de frutas, legumes e verduras, com propriedades antioxidantes e diuréticas.",
+                "Created Date": "2024-07-16T01:23:09.837Z",
+                "como armazenar": "Geladeira (4ºC - 8ºC): Manter refrigerado e consumir em até 24 horas após aberto.",
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1743177325656x114133165154671310/images.jpeg"
+                ],
+                "preço antigo": 5.99,
+                "_id": "1721092989837x843592770268047700",
+                "demanda": 7,
+                "preço por kg": 5.99,
+                "estoque": 99068,
+                "tipo_unidade": "UN",
+                "desconto": -16.69449081803005,
+                "cod": "001523",
+                "categorias_produto": [
+                    "Bebidas"
+                ],
+                "peso por unidade": 300,
+                "Modified Date": "2026-02-21T01:03:57.131Z",
+                "nome": "Suco Detox",
+                "ean": "0000000003957",
+                "visivel": true,
+                "preço novo": 6.99,
+                "Created By": "admin_user_levee-delivery_test"
+            },
+            {
+                "Created By": "admin_user_levee-delivery_test",
+                "Created Date": "2024-07-16T01:23:09.849Z",
+                "peso/und": "unidade",
+                "preço antigo": 6.99,
+                "cod": "001750",
+                "tipo_unidade": "UN",
+                "visivel": true,
+                "Modified Date": "2025-05-21T17:13:03.021Z",
+                "categorias_produto": [
+                    "Bebidas"
+                ],
+                "_id": "1721092989849x533002344667735230",
+                "descriçao": "Bebida tradicional brasileira, feita com tapioca granulada, leite de coco e açúcar.",
+                "desconto": 0,
+                "preço por kg": 4.99,
+                "demanda": 0,
+                "como armazenar": "Refrigeração: Entre 0ºC e 8ºC após aberto (7-10 dias).",
+                "preço novo": 6.99,
+                "estoque": 100000,
+                "nome": "Suco Tapioca",
+                "peso por unidade": 250,
+                "ean": "0000000006064"
+            },
+            {
+                "nome": "Suspiro Canelinha 200g",
+                "preço novo": 12.99,
+                "descriçao": "Doce tradicional brasileiro, feito com claras de ovos e açúcar, com sabor de canela. Usos: Consumir como doce ou sobremesa.",
+                "como armazenar": "Temperatura Ambiente (entre 18ºC e 25ºC), em recipiente hermético (15-20 dias). Evitar umidade.",
+                "Created Date": "2024-07-16T01:23:09.850Z",
+                "peso por unidade": 200,
+                "Created By": "admin_user_levee-delivery_test",
+                "visivel": true,
+                "_id": "1721092989850x660571869648404600",
+                "desconto": 0,
+                "cod": "001813",
+                "peso/und": "unidade",
+                "categorias_produto": [
+                    "Outros"
+                ],
+                "Modified Date": "2025-11-25T15:09:50.711Z",
+                "preço antigo": 12.99,
+                "ean": "7898373010060",
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1721213119228x269811104158225400/SUSPIRO%20CANELINHA.jfif"
+                ],
+                "tipo_unidade": "PC",
+                "demanda": 0,
+                "estoque": 100000
+            },
+            {
+                "tipo_unidade": "UN",
+                "cod": "001385",
+                "descriçao": "Fruta desidratada, originária da Índia, com sabor agridoce. Usos: Consumir como snack, adicionar em receitas de doces e sobremesas.",
+                "categorias_produto": [
+                    "Frutas"
+                ],
+                "demanda": 26,
+                "estoque": 99928,
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1719347638304x772500771735057800/Tamara%20Seca%20com%20Caro%C3%A7o%20Super%20Jumbo%20Kg.jpg"
+                ],
+                "Created By": "admin_user_levee-delivery_test",
+                "preço antigo": 14.99,
+                "preço novo": 14.99,
+                "ean": "6191448200047",
+                "nome": "Tamara Premiun 200g",
+                "como armazenar": "Temperatura Ambiente (entre 18ºC e 25ºC), em local seco e arejado (6-8 meses).",
+                "peso por unidade": 200,
+                "Created Date": "2024-07-16T01:23:09.854Z",
+                "Modified Date": "2026-02-22T01:24:29.377Z",
+                "desconto": 0,
+                "peso/und": "unidade",
+                "visivel": true,
+                "_id": "1721092989854x834245194608302100"
+            },
+            {
+                "demanda": 2,
+                "_id": "1721092989856x700577105709887500",
+                "preço novo": 5.99,
+                "Created By": "admin_user_levee-delivery_test",
+                "desconto": 0,
+                "visivel": true,
+                "categorias_produto": [
+                    "Temperos e Condimentos"
+                ],
+                "descriçao": "Tempero tradicional da culinária síria, da marca Saúde Plena, com especiarias como cominho, coentro e páprica. Usos: Temperar carnes, aves, grãos e legumes.",
+                "Modified Date": "2025-11-19T17:54:15.012Z",
+                "Created Date": "2024-07-16T01:23:09.856Z",
+                "nome": "Tempero Sirio 70g Saúde Plena",
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1741796118207x639128598790823000/TEMPREO%20SIRIO%2070%20G.JPG"
+                ],
+                "peso por unidade": 70,
+                "peso/und": "unidade",
+                "ean": "0000000011082",
+                "tipo_unidade": "UN",
+                "qtd por unidade": "70g",
+                "preço antigo": 5.99,
+                "cod": "002304",
+                "estoque": 99996,
+                "como armazenar": "Temperatura Ambiente (entre 18ºC e 25ºC), em local seco e arejado, longe da luz (12 meses)."
+            },
+            {
+                "tipo_unidade": "UN",
+                "cod": "002131",
+                "preço novo": 5.99,
+                "Modified Date": "2026-03-04T16:50:32.147Z",
+                "peso por unidade": 400,
+                "Created Date": "2024-07-16T01:23:09.858Z",
+                "estoque": 99717,
+                "visivel": true,
+                "como armazenar": "Temperatura Ambiente (entre 18ºC e 25ºC), em recipiente hermético, protegido da luz e umidade (6 meses).",
+                "categorias_produto": [
+                    "Temperos e Condimentos"
+                ],
+                "nome": "Tempero Caseiro 400g",
+                "peso/und": "unidade",
+                "_id": "1721092989858x744801220127189400",
+                "demanda": 70,
+                "Created By": "admin_user_levee-delivery_test",
+                "descriçao": "Mistura de temperos e especiarias, preparada artesanalmente, para realçar o sabor dos pratos.",
+                "preço antigo": 3.99,
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1721213218768x772993130589809900/TEMPERO%20CASEIRO.jfif"
+                ],
+                "desconto": -50.125313283208015,
+                "ean": "0000000009430"
+            },
+            {
+                "desconto": 0,
+                "Created Date": "2024-07-16T01:23:09.864Z",
+                "como armazenar": "Temperatura Ambiente (entre 18ºC e 25ºC), em local seco e arejado, longe da luz (12 meses).",
+                "Modified Date": "2026-02-25T21:43:10.806Z",
+                "nome": "Tempero Baiano sem Pimenta 100g Saúde Plena",
+                "categorias_produto": [
+                    "Temperos e Condimentos"
+                ],
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1741796133650x473030489930042800/TEMPREO%20BAIANO%20100G.JPG"
+                ],
+                "preço novo": 9.99,
+                "peso/und": "unidade",
+                "relacionados": [
+                    "1721092989871x627019346259319700"
+                ],
+                "qtd por unidade": "100g",
+                "cod": "019250",
+                "Created By": "admin_user_levee-delivery_test",
+                "estoque": 99978,
+                "tipo_unidade": "UN",
+                "peso por unidade": 100,
+                "descriçao": "Tempero tradicional da culinária baiana, com pimenta, da marca Saúde Plena. Usos: Temperar frutos do mar, peixes, aves, carnes e utilizar em receitas.",
+                "preço antigo": 9.99,
+                "demanda": 2,
+                "visivel": true,
+                "_id": "1721092989864x116699204473051710",
+                "ean": "0192505259646"
+            },
+            {
+                "Modified Date": "2026-03-04T14:04:18.160Z",
+                "tipo_unidade": "KG",
+                "cod": "000179",
+                "preço antigo": 9.99,
+                "ordem_prateleira": 32,
+                "preço novo": 14.99,
+                "demanda": 4500,
+                "descriçao": "Variedade de tomate italiano, com tamanho grande, ideal para molhos. Receitas: Molhos, saladas, sucos. Usos: Consumir cru ou cozido.",
+                "visivel": true,
+                "peso por unidade": 158,
+                "Created Date": "2024-07-16T01:23:09.867Z",
+                "Created By": "admin_user_levee-delivery_test",
+                "preço por kg": 3.99,
+                "como armazenar": "Refrigeração: Entre 0ºC e 8ºC (7-10 dias).",
+                "relacionados": [
+                    "1721092989873x824677616375826200",
+                    "1721092989874x802180108038060400",
+                    "1721092989880x744563499086775800",
+                    "1721092989884x165658546880404380",
+                    "1721092989886x905860761388734000",
+                    "1721092989888x702848254883737100"
+                ],
+                "peso/und": "peso",
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1719347638696x839186845704378500/Tomate%20Andrea.jpg"
+                ],
+                "_id": "1721092989867x538318385053936830",
+                "estoque": 499992579,
+                "em oferta": false,
+                "nome": "Tomate Andrea Graudo",
+                "categorias_produto": [
+                    "Legumes"
+                ],
+                "ean": "0000000000157",
+                "desconto": -50.0500500500501
+            },
+            {
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1724116362119x173039917855478900/Tempero%20Baiano%20Com%20Pimenta%20100g.webp"
+                ],
+                "Created By": "admin_user_levee-delivery_test",
+                "qtd por unidade": "100g",
+                "demanda": 0,
+                "peso/und": "unidade",
+                "Created Date": "2024-07-16T01:23:09.871Z",
+                "como armazenar": "Temperatura Ambiente (entre 18ºC e 25ºC), em local seco e arejado, longe da luz (12 meses).",
+                "preço novo": 6.99,
+                "descriçao": "Mistura de temperos e especiarias selecionadas, para uso culinário profissional. Usos: Temperar carnes, aves, peixes, legumes e molhos.",
+                "preço antigo": 6.99,
+                "nome": "Tempero Baiano Com Pimenta 100g",
+                "Modified Date": "2025-05-21T17:13:03.041Z",
+                "estoque": 100000,
+                "ean": "0000000003643",
+                "desconto": 0,
+                "visivel": false,
+                "_id": "1721092989871x627019346259319700",
+                "relacionados": [
+                    "1721092989864x116699204473051710"
+                ],
+                "tipo_unidade": "UN",
+                "categorias_produto": [
+                    "Temperos e Condimentos"
+                ],
+                "cod": "001492"
+            },
+            {
+                "preço novo": 19.99,
+                "preço antigo": 14.99,
+                "como armazenar": "Refrigeração: Entre 0ºC e 8ºC (7-10 dias).",
+                "preço por kg": 5.99,
+                "Created Date": "2024-07-16T01:23:09.873Z",
+                "Created By": "admin_user_levee-delivery_test",
+                "_id": "1721092989873x824677616375826200",
+                "desconto": 0,
+                "categorias_produto": [
+                    "Legumes"
+                ],
+                "ean": "0000000000161",
+                "nome": "Tomate Grappe 100g",
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1719347639605x252913970626729600/Tomate%20Grape%20Kg.jpg"
+                ],
+                "tipo_unidade": "KG",
+                "visivel": true,
+                "descriçao": "Variedade de tomate com sabor adocicado, vendido a granel. Usos: Consumir fresco em saladas, lanches e aperitivos.",
+                "estoque": 4135,
+                "peso por unidade": 100,
+                "peso/und": "peso",
+                "info nutricional": "Por 100g:\n- Calorias: 18kcal\n- Carboidratos: 4g\n- Açúcar: 3g\n- Fibra: 1g\n- Proteína: 1g\n- Gordura: 0.2g\nVitaminas:\n- Vitamina C: 14mg (16% VD)\n- Vitamina A: 427 UI (9% VD)",
+                "cod": "000185",
+                "demanda": 3500,
+                "Modified Date": "2026-03-04T15:33:52.820Z",
+                "relacionados": [
+                    "1721092989867x538318385053936830",
+                    "1721092989874x802180108038060400",
+                    "1721092989880x744563499086775800",
+                    "1721092989884x165658546880404380",
+                    "1721092989886x905860761388734000",
+                    "1721092989888x702848254883737100"
+                ]
+            },
+            {
+                "estoque": -96175,
+                "Created By": "admin_user_levee-delivery_test",
+                "descriçao": "Tomate cereja, pequeno e doce, ideal para saladas e aperitivos. Usos: Consumir fresco.",
+                "como armazenar": "Refrigeração: Entre 0ºC e 8ºC (7-10 dias).",
+                "_id": "1721092989874x802180108038060400",
+                "Modified Date": "2026-02-23T18:54:08.391Z",
+                "tipo_unidade": "BJ",
+                "visivel": false,
+                "desconto": 0,
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1719347639605x252913970626729600/Tomate%20Grape%20Kg.jpg"
+                ],
+                "peso/und": "peso",
+                "categorias_produto": [
+                    "Legumes"
+                ],
+                "relacionados": [
+                    "1721092989867x538318385053936830",
+                    "1721092989873x824677616375826200",
+                    "1721092989880x744563499086775800",
+                    "1721092989884x165658546880404380",
+                    "1721092989886x905860761388734000",
+                    "1721092989888x702848254883737100"
+                ],
+                "cod": "001317",
+                "ean": "0000000002011",
+                "peso por unidade": 250,
+                "Created Date": "2024-07-16T01:23:09.874Z",
+                "preço antigo": 6.99,
+                "preço novo": 6.99,
+                "preço por kg": 8.99,
+                "nome": "Tomate Cereja Bj",
+                "demanda": 3
+            },
+            {
+                "cod": "000183",
+                "Created Date": "2024-07-16T01:23:09.880Z",
+                "estoque": 158,
+                "ean": "0000000000160",
+                "preço antigo": 5.99,
+                "visivel": true,
+                "_id": "1721092989880x744563499086775800",
+                "Created By": "admin_user_levee-delivery_test",
+                "peso/und": "unidade",
+                "relacionados": [
+                    "1721092989867x538318385053936830",
+                    "1721092989873x824677616375826200",
+                    "1721092989874x802180108038060400",
+                    "1721092989884x165658546880404380",
+                    "1721092989886x905860761388734000",
+                    "1721092989888x702848254883737100"
+                ],
+                "tipo_unidade": "BJ",
+                "categorias_produto": [
+                    "Legumes"
+                ],
+                "como armazenar": "Refrigeração: Entre 0ºC e 8ºC (7-10 dias).",
+                "desconto": 0,
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1724116321690x958388766084524300/Tomate%20Grappe%20Bandejao%20300g.jpg"
+                ],
+                "descriçao": "Variedade de tomate grape com sabor adocicado, comercializado em bandeja. Usos: Consumir fresco em saladas, lanches e aperitivos.",
+                "Modified Date": "2026-03-04T16:50:31.924Z",
+                "demanda": 181,
+                "nome": "Tomate Grappe Bandeja 250",
+                "preço novo": 5.99,
+                "peso por unidade": 300
+            },
+            {
+                "estoque": -1,
+                "preço antigo": 12.99,
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1721213365676x167164668961613980/TOMATE%20ITALIANO%20%20RAMA%20BAMDEJA%20450G.jfif"
+                ],
+                "cod": "002079",
+                "_id": "1721092989884x165658546880404380",
+                "descriçao": "Tomate italiano, da marca Rama, comercializado em bandeja de 450g, ideal para molhos. Usos: Consumir cozido em molhos e outras receitas.",
+                "Created Date": "2024-07-16T01:23:09.884Z",
+                "tipo_unidade": "KG",
+                "categorias_produto": [
+                    "Legumes"
+                ],
+                "visivel": false,
+                "desconto": 15.3964588144727,
+                "demanda": 0,
+                "como armazenar": "Refrigeração: Entre 0ºC e 8ºC (7-10 dias).",
+                "Created By": "admin_user_levee-delivery_test",
+                "relacionados": [
+                    "1721092989867x538318385053936830",
+                    "1721092989873x824677616375826200",
+                    "1721092989874x802180108038060400",
+                    "1721092989880x744563499086775800",
+                    "1721092989886x905860761388734000",
+                    "1721092989888x702848254883737100"
+                ],
+                "qtd por unidade": "450g",
+                "peso por unidade": 300,
+                "ean": "0000000008952",
+                "Modified Date": "2026-02-25T21:22:30.228Z",
+                "peso/und": "unidade",
+                "nome": "Tomate Italiano Rama Bamdeja 450g",
+                "preço novo": 10.99
+            },
+            {
+                "tipo_unidade": "BJ",
+                "qtd por unidade": "450g",
+                "descriçao": "Tomate pequeno e verde, conservado em vinagre, ideal para lanches e aperitivos. Usos: Consumir como acompanhamento ou ingrediente em receitas.",
+                "demanda": 0,
+                "Created By": "admin_user_levee-delivery_test",
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1724116283674x441460953005872200/Tomate%20Italiano%20Rama%20Bandeja%20450g.webp"
+                ],
+                "ean": "0000000013420",
+                "peso/und": "unidade",
+                "categorias_produto": [
+                    "Legumes"
+                ],
+                "desconto": -225.5639097744361,
+                "relacionados": [
+                    "1721092989867x538318385053936830",
+                    "1721092989873x824677616375826200",
+                    "1721092989874x802180108038060400",
+                    "1721092989880x744563499086775800",
+                    "1721092989884x165658546880404380",
+                    "1721092989888x702848254883737100"
+                ],
+                "como armazenar": "Refrigeração: Entre 0ºC e 8ºC após aberto (3-4 meses).",
+                "visivel": false,
+                "_id": "1721092989886x905860761388734000",
+                "estoque": -444445,
+                "preço antigo": 3.99,
+                "cod": "002598",
+                "preço novo": 12.99,
+                "Created Date": "2024-07-16T01:23:09.886Z",
+                "peso por unidade": 1,
+                "nome": "Tomate Italiano Rama Bandeja 450g",
+                "Modified Date": "2026-03-02T22:53:34.538Z"
+            },
+            {
+                "ordem_prateleira": 31,
+                "demanda": 1544,
+                "Modified Date": "2026-03-04T14:44:50.094Z",
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1719347677920x300114788010700200/Tomate%20Longa%20Vida%20Gra%C3%BAdo.jpg"
+                ],
+                "nome": "Tomate Longa Vida Graudo ",
+                "cod": "000187",
+                "Created Date": "2024-07-16T01:23:09.888Z",
+                "relacionados": [
+                    "1721092989867x538318385053936830",
+                    "1721092989873x824677616375826200",
+                    "1721092989874x802180108038060400",
+                    "1721092989880x744563499086775800",
+                    "1721092989884x165658546880404380",
+                    "1721092989886x905860761388734000"
+                ],
+                "como armazenar": "Temperatura Ambiente (entre 18ºC e 25ºC), em local fresco e arejado (15-20 dias).",
+                "tipo_unidade": "KG",
+                "preço novo": 14.99,
+                "desconto": -50.0500500500501,
+                "estoque": 999999718432,
+                "descriçao": "Variedade de tomate com maior durabilidade, ideal para o consumo durante a semana. Receitas: Saladas, molhos, sucos. Usos: Consumir cru ou cozido.",
+                "_id": "1721092989888x702848254883737100",
+                "ean": "0000000000163",
+                "Created By": "admin_user_levee-delivery_test",
+                "peso por unidade": 212,
+                "preço antigo": 9.99,
+                "peso/und": "peso",
+                "visivel": true,
+                "categorias_produto": [
+                    "Legumes"
+                ]
+            },
+            {
+                "nome": "Top Fritas Batata Chips 200g",
+                "peso/und": "unidade",
+                "peso por unidade": 500,
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1724108281072x995334424097197600/1758.jpg"
+                ],
+                "descriçao": "Torrada feita com farinha integral, fonte de fibras. Usos: Consumir com patês, geleias, requeijão ou como acompanhamento para sopas.",
+                "estoque": 99995,
+                "categorias_produto": [
+                    "Outros"
+                ],
+                "_id": "1721092989896x944825347598863200",
+                "desconto": -100.1001001001001,
+                "preço antigo": 9.99,
+                "tipo_unidade": "UN",
+                "qtd por unidade": "200g",
+                "relacionados": [
+                    "1721092989901x316088437985322600"
+                ],
+                "como armazenar": "Temperatura Ambiente (entre 18ºC e 25ºC), em local seco e fresco (6 meses).",
+                "Created Date": "2024-07-16T01:23:09.896Z",
+                "cod": "001758",
+                "preço novo": 19.99,
+                "demanda": 1,
+                "ean": "7000319850207",
+                "Created By": "admin_user_levee-delivery_test",
+                "visivel": true,
+                "Modified Date": "2026-02-04T19:43:06.918Z"
+            },
+            {
+                "Created By": "admin_user_levee-delivery_test",
+                "estoque": 99964,
+                "desconto": -21.627466882941334,
+                "como armazenar": "Temperatura Ambiente (entre 18ºC e 25ºC), em local seco e fresco (6 meses).",
+                "cod": "002188",
+                "preço novo": 44.99,
+                "Created Date": "2024-07-16T01:23:09.901Z",
+                "descriçao": "Batata chips tradicional, da marca Top Fritas, em embalagem de 500g. Usos: Consumir como aperitivo.",
+                "peso por unidade": 1,
+                "visivel": true,
+                "preço antigo": 36.99,
+                "Modified Date": "2026-03-03T11:43:36.612Z",
+                "categorias_produto": [
+                    "Empório"
+                ],
+                "nome": "Top Fritas Batata Chips 500g",
+                "relacionados": [
+                    "1721092989896x944825347598863200"
+                ],
+                "demanda": 18,
+                "_id": "1721092989901x316088437985322600",
+                "peso/und": "unidade",
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1721213426346x369161844404169800/TOP%20FRITAS%20BATATA%20CHIPS%20200G.jfif"
+                ],
+                "tipo_unidade": "UN",
+                "ean": "0751320582195",
+                "qtd por unidade": "500g"
+            },
+            {
+                "Created By": "admin_user_levee-delivery_test",
+                "desconto": 0,
+                "_id": "1721092989907x909255846958247700",
+                "ean": "7898920237025",
+                "cod": "002608",
+                "descriçao": "Torresmo sequinho e crocante, da marca Nossa Senhora de Fátima. Usos: Consumir como petisco ou ingrediente em receitas.",
+                "demanda": 0,
+                "visivel": false,
+                "preço novo": 9.99,
+                "estoque": 100000,
+                "preço antigo": 9.99,
+                "peso/und": "unidade",
+                "como armazenar": "Temperatura Ambiente (entre 18ºC e 25ºC), em local seco e fresco (4 meses).",
+                "Created Date": "2024-07-16T01:23:09.907Z",
+                "qtd por unidade": "100g",
+                "tipo_unidade": "UN",
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1724108291689x166441744780000200/2608.png"
+                ],
+                "categorias_produto": [
+                    "Outros"
+                ],
+                "nome": "Torresmo Nossa Senhora De Fatima 100g",
+                "Modified Date": "2025-05-21T17:13:03.070Z"
+            },
+            {
+                "peso/und": "unidade",
+                "ean": "3108201501009",
+                "descriçao": "Torresmo sequinho e crocante, da marca Quero Mais. Usos: Consumir como petisco ou ingrediente em receitas.",
+                "preço antigo": 7.99,
+                "categorias_produto": [
+                    "Outros"
+                ],
+                "_id": "1721092989909x959345813876363300",
+                "Modified Date": "2025-05-21T17:13:03.080Z",
+                "nome": "Torresmo Quero Mais 70g",
+                "Created Date": "2024-07-16T01:23:09.909Z",
+                "qtd por unidade": "70g",
+                "preço novo": 7.99,
+                "desconto": 0,
+                "como armazenar": "Temperatura Ambiente (entre 18ºC e 25ºC), em local seco e fresco (4 meses).",
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1724116225416x469605990811486660/Torresmo%20Quero%20Mais%2070g.webp"
+                ],
+                "estoque": 100000,
+                "Created By": "admin_user_levee-delivery_test",
+                "demanda": 0,
+                "cod": "001269",
+                "visivel": false,
+                "tipo_unidade": "UN"
+            },
+            {
+                "preço novo": 7.99,
+                "Created By": "admin_user_levee-delivery_test",
+                "_id": "1721092989913x590109710519628400",
+                "categorias_produto": [
+                    "Frutas"
+                ],
+                "estoque": -99836,
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1719347641620x805308929592799400/Uva%20Crinson%20Cumbuca%20500g.jpg"
+                ],
+                "Modified Date": "2026-03-02T22:53:33.549Z",
+                "cod": "000399",
+                "desconto": 0,
+                "peso/und": "unidade",
+                "peso por unidade": 50,
+                "tipo_unidade": "BJ",
+                "demanda": 20,
+                "descriçao": "Variedade de uva vermelha, sem sementes, doce e suculenta. Usos: Consumir fresca, em saladas de frutas ou sucos.",
+                "info nutricional": "Por 100g:\n- Calorias: 69kcal\n- Carboidratos: 18g\n- Açúcar: 16g\n- Fibra: 0.9g\n- Proteína: 0.7g\n- Gordura: 0.2g\nVitaminas:\n- Vitamina K: 14mcg (12% VD)",
+                "Created Date": "2024-07-16T01:23:09.913Z",
+                "como armazenar": "Refrigeração: Entre 0ºC e 8ºC (7-10 dias).",
+                "nome": "Uva Crinson 500 g",
+                "visivel": false,
+                "ean": "0000000000363"
+            },
+            {
+                "peso/und": "unidade",
+                "desconto": 0,
+                "preço antigo": 8.99,
+                "qtd por unidade": "300g",
+                "Modified Date": "2026-02-26T00:49:53.448Z",
+                "Created Date": "2024-07-16T01:23:09.915Z",
+                "estoque": 99997,
+                "visivel": true,
+                "Created By": "admin_user_levee-delivery_test",
+                "ean": "7898676160295",
+                "demanda": 1,
+                "categorias_produto": [
+                    "Outros"
+                ],
+                "como armazenar": "Refrigeração: Entre 0ºC e 8ºC (7-10 dias).",
+                "descriçao": "Doce tradicional da culinária mineira, feito com nata fresca e açúcar, da marca Só Mineiro. Usos: Consumir como doce ou sobremesa.",
+                "tipo_unidade": "PC",
+                "cod": "001842",
+                "nome": "Trancinha De Nata - Sô Mineiro 300g",
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1727123619294x438943833737098300/20240831_161714.png"
+                ],
+                "preço novo": 8.99,
+                "_id": "1721092989915x495890233648159400"
+            },
+            {
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1719347644554x327768090893248800/Uva%20Vit%C3%B3ria%20Bandeja.jpg"
+                ],
+                "Created Date": "2024-07-16T01:23:09.917Z",
+                "peso por unidade": 200,
+                "categorias_produto": [
+                    "Frutas"
+                ],
+                "Modified Date": "2026-01-15T10:30:20.716Z",
+                "cod": "000390",
+                "demanda": 2,
+                "Created By": "admin_user_levee-delivery_test",
+                "ean": "0000000000356",
+                "preço antigo": 24.99,
+                "preço novo": 25.99,
+                "desconto": -4.0016006402561,
+                "peso/und": "peso",
+                "tipo_unidade": "KG",
+                "nome": "Uva Jubili",
+                "_id": "1721092989917x787861719878472300",
+                "visivel": false,
+                "como armazenar": "Refrigeração: Entre 0ºC e 8ºC (7-10 dias).",
+                "estoque": -81658,
+                "descriçao": "Variedade de uva preta, sem sementes, doce e crocante. Usos: Consumir fresca, em saladas de frutas ou sucos."
+            },
+            {
+                "Modified Date": "2026-01-06T12:25:58.891Z",
+                "demanda": 15,
+                "Created Date": "2024-07-16T01:23:09.920Z",
+                "desconto": -4.0016006402561,
+                "cod": "000383",
+                "categorias_produto": [
+                    "Frutas"
+                ],
+                "nome": "Uva Itália",
+                "ean": "0000000000350",
+                "preço antigo": 24.99,
+                "_id": "1721092989920x246704834405478530",
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1719347643630x123518869808628260/Uva%20Thompson%20Embalagem%20500g.jpg"
+                ],
+                "peso/und": "peso",
+                "preço novo": 25.99,
+                "estoque": -57589,
+                "como armazenar": "Refrigeração: Entre 0ºC e 8ºC (7-10 dias).",
+                "visivel": false,
+                "Created By": "admin_user_levee-delivery_test",
+                "info nutricional": "Por 100g:\n- Calorias: 67kcal\n- Carboidratos: 17g\n- Açúcar: 16g\n- Fibra: 0.8g\n- Proteína: 0.6g\n- Gordura: 0.3g\nVitaminas:\n- Vitamina K: 14mcg (12% VD)",
+                "tipo_unidade": "KG",
+                "descriçao": "Variedade de uva verde, grande e suculenta, vendida a granel. Usos: Consumir fresca, em saladas de frutas ou sucos.",
+                "peso por unidade": 375
+            },
+            {
+                "Created By": "admin_user_levee-delivery_test",
+                "descriçao": "Variedade de uva verde, pequena e doce, com aroma característico, comercializada em bandeja. Usos: Consumir fresca, em saladas de frutas ou para acompanhar queijos.",
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1724116176409x582359277264481400/Uva%20Moscatinho%20Bandeja.webp"
+                ],
+                "peso por unidade": 180,
+                "estoque": 98740,
+                "preço por kg": 10,
+                "tipo_unidade": "BJ",
+                "cod": "002176",
+                "categorias_produto": [
+                    "Frutas"
+                ],
+                "preço novo": 24.99,
+                "demanda": 0,
+                "desconto": 0,
+                "peso/und": "peso",
+                "Modified Date": "2026-02-24T16:35:40.814Z",
+                "como armazenar": "Refrigeração: Entre 0ºC e 8ºC (7-10 dias).",
+                "ean": "7898617620581",
+                "Created Date": "2024-07-16T01:23:09.922Z",
+                "visivel": false,
+                "_id": "1721092989922x184223253336320400",
+                "nome": "Uva Moscatinho Bandeja",
+                "preço antigo": 24.99
+            },
+            {
+                "cod": "000997",
+                "nome": "Uva Redglobe",
+                "como armazenar": "Refrigeração: Entre 0ºC e 8ºC (7-10 dias).",
+                "tipo_unidade": "KG",
+                "desconto": -3.33444481493831,
+                "categorias_produto": [
+                    "Frutas"
+                ],
+                "estoque": -47418,
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1719347642441x542510529268746900/Uva%20Red%20Globe%20Kg.jpg"
+                ],
+                "visivel": false,
+                "peso por unidade": 395,
+                "descriçao": "Variedade de uva vermelha, grande e suculenta. Usos: Consumir fresca, em saladas de frutas ou sucos.",
+                "Created By": "admin_user_levee-delivery_test",
+                "demanda": 5,
+                "Created Date": "2024-07-16T01:23:09.924Z",
+                "peso/und": "peso",
+                "preço por kg": 9,
+                "ean": "0000000000185",
+                "preço novo": 30.99,
+                "Modified Date": "2026-02-10T13:07:23.320Z",
+                "preço antigo": 29.99,
+                "_id": "1721092989924x291953196139986840"
+            },
+            {
+                "preço novo": 39.99,
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1719347678867x367961445350216900/Uva%20Passa%20Preta.jpg"
+                ],
+                "demanda": 0,
+                "ean": "0000000003667",
+                "categorias_produto": [
+                    "Empório"
+                ],
+                "Modified Date": "2026-02-19T15:29:45.631Z",
+                "tipo_unidade": "KG",
+                "desconto": -33.34444814938314,
+                "como armazenar": "Temperatura Ambiente (entre 18ºC e 25ºC), em recipiente hermético, em local fresco e seco (6-8 meses).",
+                "nome": "Uva Passas Preta 300g",
+                "estoque": 95372,
+                "visivel": true,
+                "cod": "001494",
+                "preço antigo": 29.99,
+                "peso por unidade": 300,
+                "peso/und": "peso",
+                "descriçao": "Uvas pretas desidratadas, ricas em fibras e antioxidantes. Receitas: Bolos, pães, farofas, saladas. Usos: Consumir como snack, adicionar em receitas doces ou salgadas.",
+                "info nutricional": "Por 100g:\n- Calorias: 299kcal\n- Carboidratos: 79g\n- Açúcar: 59g\n- Fibra: 4g\n- Proteína: 3g\n- Gordura: 0.5g\nMinerais:\n- Potássio: 860mg (25% VD)\n- Ferro: 2mg (11% VD)",
+                "Created By": "admin_user_levee-delivery_test",
+                "_id": "1721092990063x431208831424671170",
+                "Created Date": "2024-07-16T01:23:10.063Z"
+            },
+            {
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1719347642632x409373819918108300/Uva%20Rosada.jpg"
+                ],
+                "ean": "0000000000353",
+                "tipo_unidade": "KG",
+                "como armazenar": "Refrigeração: Entre 0ºC e 8ºC (7-10 dias).",
+                "cod": "000387",
+                "em oferta": true,
+                "_id": "1721092990064x370241427287587600",
+                "nome": "Uva Rosada ",
+                "demanda": 50,
+                "desconto": 20.0080032012805,
+                "visivel": false,
+                "estoque": -1944,
+                "categorias_produto": [
+                    "Frutas"
+                ],
+                "peso/und": "peso",
+                "preço novo": 19.99,
+                "peso por unidade": 200,
+                "Created Date": "2024-07-16T01:23:10.064Z",
+                "Created By": "admin_user_levee-delivery_test",
+                "descriçao": "Variedade de uva com casca rosada e polpa doce, vendida a granel. Usos: Consumir fresca, em saladas de frutas ou sucos.",
+                "Modified Date": "2026-02-24T16:35:40.825Z",
+                "preço antigo": 24.99
+            },
+            {
+                "nome": "Uva Vitória Bandeja  250g",
+                "como armazenar": "Refrigeração: Entre 0ºC e 8ºC (7-10 dias).",
+                "categorias_produto": [
+                    "Frutas"
+                ],
+                "desconto": 0,
+                "Created By": "admin_user_levee-delivery_test",
+                "visivel": false,
+                "tipo_unidade": "UN",
+                "Created Date": "2024-07-16T01:23:10.065Z",
+                "ean": "7898954999029",
+                "peso/und": "unidade",
+                "preço novo": 5.99,
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1721213521131x563863272824040450/UVA%20VITORIA%20BANDEJA%20250GR.jfif"
+                ],
+                "cod": "002569",
+                "demanda": 12,
+                "_id": "1721092990065x824367134643762800",
+                "peso por unidade": 250,
+                "Modified Date": "2026-01-08T19:04:17.433Z",
+                "estoque": -99973,
+                "qtd por unidade": "250g",
+                "preço antigo": 5.99,
+                "descriçao": "Variedade de uva preta, sem sementes, doce e suculenta, comercializada em bandeja de 250g. Usos: Consumir fresca, em saladas de frutas ou sucos."
+            },
+            {
+                "ean": "0000000000360",
+                "preço antigo": 29.99,
+                "visivel": false,
+                "descriçao": "Variedade de uva vermelha escura, doce e suculenta, vendida a granel. Usos: Consumir fresca, em saladas de frutas ou sucos.",
+                "demanda": 10,
+                "Created Date": "2024-07-16T01:23:10.066Z",
+                "desconto": 0,
+                "tipo_unidade": "KG",
+                "cod": "000396",
+                "_id": "1721092990066x677365600416354700",
+                "preço novo": 29.99,
+                "peso por unidade": 770,
+                "preço por kg": 15,
+                "Created By": "admin_user_levee-delivery_test",
+                "estoque": -76880,
+                "peso/und": "peso",
+                "como armazenar": "Refrigeração: Entre 0ºC e 8ºC (7-10 dias).",
+                "categorias_produto": [
+                    "Frutas"
+                ],
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1719347641620x805308929592799400/Uva%20Crinson%20Cumbuca%20500g.jpg"
+                ],
+                "Modified Date": "2026-01-10T12:44:31.946Z",
+                "nome": "Uva Rubi"
+            },
+            {
+                "ean": "0000000000365",
+                "visivel": false,
+                "Created Date": "2024-07-16T01:23:10.070Z",
+                "cod": "000402",
+                "preço antigo": 11.99,
+                "nome": "Uva Vitória Bandeja 500 g",
+                "como armazenar": "Refrigeração: Entre 0ºC e 8ºC (7-10 dias).",
+                "peso por unidade": 50,
+                "desconto": 16.680567139282733,
+                "demanda": 10,
+                "Modified Date": "2026-02-26T17:04:50.858Z",
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1719347644554x327768090893248800/Uva%20Vit%C3%B3ria%20Bandeja.jpg"
+                ],
+                "categorias_produto": [
+                    "Frutas"
+                ],
+                "Created By": "admin_user_levee-delivery_test",
+                "estoque": 99987,
+                "peso/und": "unidade",
+                "tipo_unidade": "BJ",
+                "_id": "1721092990070x275247503710193800",
+                "descriçao": "Variedade de uva preta, sem sementes, doce e suculenta, comercializada em bandeja. Usos: Consumir fresca, em saladas de frutas ou sucos.",
+                "preço novo": 9.99
+            },
+            {
+                "tipo_unidade": "BJ",
+                "peso/und": "unidade",
+                "Created By": "admin_user_levee-delivery_test",
+                "demanda": 329,
+                "ean": "0000000000369",
+                "nome": "Uva Thompsson  500 g",
+                "estoque": 98849,
+                "desconto": -14.2959256611866,
+                "preço novo": 15.99,
+                "peso por unidade": 50,
+                "cod": "000999",
+                "preço antigo": 13.99,
+                "como armazenar": "Refrigeração: Entre 0ºC e 8ºC (7-10 dias).",
+                "_id": "1721092990071x723999986011996200",
+                "visivel": true,
+                "ordem_prateleira": 47,
+                "Created Date": "2024-07-16T01:23:10.071Z",
+                "categorias_produto": [
+                    "Frutas"
+                ],
+                "Modified Date": "2026-03-04T12:32:24.997Z",
+                "descriçao": "Variedade de uva verde, sem sementes, doce e crocante, comercializada em bandeja. Usos: Consumir fresca, em saladas de frutas ou sucos.",
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1719347645805x352465091380593540/Uvas%20Thompson%20sem%20Semente%20500g.jpg"
+                ]
+            },
+            {
+                "descriçao": "Variedade de vagem achatada e larga, ideal para saltear e refogar. Receitas: Saladas, refogados, acompanhamentos. Usos: Consumir cozida.",
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1719347645959x719863956796567400/Vagem%20Bandeja.jpg"
+                ],
+                "categorias_produto": [
+                    "Legumes",
+                    "Higienizados"
+                ],
+                "Modified Date": "2025-05-21T17:13:03.124Z",
+                "Created By": "admin_user_levee-delivery_test",
+                "peso/und": "unidade",
+                "preço antigo": 7.99,
+                "como armazenar": "Refrigeração: Entre 0ºC e 8ºC (5-7 dias).",
+                "info nutricional": "Por 100g (cozido):\n- Calorias: 44kcal\n- Carboidratos: 8g\n- Açúcar: 3g\n- Fibra: 4g\n- Proteína: 2g\n- Gordura: 0.3g\nVitaminas:\n- Vitamina C: 13mg (14% VD)\n- Vitamina K: 43mcg (36% VD)",
+                "visivel": false,
+                "nome": "Vagem Macarrão 250g",
+                "demanda": 0,
+                "preço novo": 7.99,
+                "desconto": 0,
+                "cod": "000195",
+                "relacionados": [
+                    "1721092990081x116530080397076350"
+                ],
+                "estoque": 100000,
+                "peso por unidade": 250,
+                "ean": "0000000000168",
+                "qtd por unidade": "500g",
+                "Created Date": "2024-07-16T01:23:10.073Z",
+                "tipo_unidade": "BJ",
+                "_id": "1721092990073x500772467589991200"
+            }
+        ],
+        "count": 100,
+        "remaining": 509
+    }
+}

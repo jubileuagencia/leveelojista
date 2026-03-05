@@ -1,0 +1,2189 @@
+{
+    "response": {
+        "cursor": 600,
+        "results": [
+            {
+                "preço novo": 19.99,
+                "desconto": 0,
+                "Modified Date": "2025-05-21T17:13:05.140Z",
+                "demanda": 0,
+                "Created Date": "2025-01-21T15:15:47.251Z",
+                "estoque": 10000,
+                "em oferta": false,
+                "visivel": true,
+                "Created By": "1691143865250x481074744108582500",
+                "peso/und": "unidade",
+                "cod": "0192505114341",
+                "_id": "1737472546516x116121786628440060",
+                "tipo_unidade": "UN",
+                "nome": "Anis estrelado Saúde Plena 50 g",
+                "preço antigo": 19.99
+            },
+            {
+                "Created By": "1691143865250x481074744108582500",
+                "desconto": 0,
+                "demanda": 0,
+                "Created Date": "2025-01-21T16:35:57.812Z",
+                "preço novo": 25.99,
+                "preço antigo": 25.99,
+                "tipo_unidade": "UN",
+                "_id": "1737477357710x906511728744857600",
+                "cod": "019250",
+                "Modified Date": "2025-05-21T17:13:05.151Z",
+                "peso por unidade": 100,
+                "estoque": 10000,
+                "categorias_produto": [
+                    "Bebidas"
+                ],
+                "em oferta": false,
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1739902644318x680515878612024400/download.png"
+                ],
+                "visivel": true,
+                "peso/und": "unidade",
+                "nome": "Pistache torrado Saúde Plena 100 g"
+            },
+            {
+                "desconto": 0,
+                "peso/und": "unidade",
+                "visivel": false,
+                "categorias_produto": [
+                    "Laticíneos"
+                ],
+                "preço novo": 8.99,
+                "_id": "1737477506123x602425964306890800",
+                "tipo_unidade": "UN",
+                "cod": "000000",
+                "demanda": 0,
+                "nome": "Queijo Prato fatiado Président 150 g",
+                "Modified Date": "2025-05-21T17:13:05.163Z",
+                "estoque": 10000,
+                "em oferta": false,
+                "Created Date": "2025-01-21T16:38:26.154Z",
+                "Created By": "1691143865250x481074744108582500"
+            },
+            {
+                "visivel": true,
+                "peso por unidade": 150,
+                "tipo_unidade": "UN",
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1737480517916x416996891236016900/1634576818-Queijo%20Prato%20Fatiado.png"
+                ],
+                "desconto": 0,
+                "preço antigo": 8.99,
+                "nome": "Queijo Prato fatiado Président 150 g",
+                "estoque": 9993,
+                "em oferta": false,
+                "_id": "1737480228111x330335535449243650",
+                "cod": "789895",
+                "Created Date": "2025-01-21T17:25:00.537Z",
+                "Created By": "1691143865250x481074744108582500",
+                "demanda": 0,
+                "preço novo": 8.99,
+                "peso/und": "unidade",
+                "Modified Date": "2025-10-28T11:33:10.262Z"
+            },
+            {
+                "nome": "Manteiga comum Saldanha 200 g",
+                "visivel": true,
+                "Created By": "1691143865250x481074744108582500",
+                "demanda": 0,
+                "estoque": 10000,
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1737480720648x918280229988555500/Manteiga%20comum%20Saldanha%20200%20g.png"
+                ],
+                "em oferta": false,
+                "desconto": 0,
+                "Created Date": "2025-01-21T17:28:53.285Z",
+                "tipo_unidade": "UN",
+                "_id": "1737480460556x588857016303484900",
+                "peso/und": "unidade",
+                "preço novo": 13.99,
+                "preço antigo": 13.99,
+                "Modified Date": "2025-05-21T17:13:05.182Z",
+                "cod": "7898908441024"
+            },
+            {
+                "preço antigo": 14.99,
+                "peso por unidade": 200,
+                "categorias_produto": [
+                    "Laticíneos"
+                ],
+                "estoque": 10000,
+                "preço novo": 14.99,
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1737480900152x181726642859772800/manteigapotesemsal_full.png"
+                ],
+                "Created By": "1691143865250x481074744108582500",
+                "Created Date": "2025-01-21T17:32:12.168Z",
+                "tipo_unidade": "UN",
+                "nome": "Manteiga sem sal Itambé 200 g",
+                "desconto": 0,
+                "cod": "789605",
+                "em oferta": false,
+                "visivel": false,
+                "Modified Date": "2025-06-13T12:21:32.228Z",
+                "demanda": 0,
+                "peso/und": "peso",
+                "_id": "1737480659770x220213056171409400"
+            },
+            {
+                "Created By": "1691143865250x481074744108582500",
+                "peso/und": "unidade",
+                "Created Date": "2025-01-21T17:35:13.149Z",
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1737481038587x447595804873223200/l-961372d4c7df4aa7a5499d6dffb4eab7.png"
+                ],
+                "preço antigo": 11.9,
+                "demanda": 3,
+                "categorias_produto": [
+                    "Laticíneos"
+                ],
+                "tipo_unidade": "UN",
+                "_id": "1737480840595x836178179193307100",
+                "nome": "Queijo tipo cottage Entre Rios 250 g ",
+                "cod": "7896651000451",
+                "visivel": true,
+                "em oferta": false,
+                "Modified Date": "2026-02-18T17:39:04.961Z",
+                "preço novo": 11.9,
+                "desconto": 0,
+                "estoque": 9986
+            },
+            {
+                "tipo_unidade": "UN",
+                "estoque": 10000,
+                "em oferta": false,
+                "Created Date": "2025-01-21T17:42:48.213Z",
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1737481494012x608977967238249300/Manteiga%20comum%20Saldanha%20200%20g.png"
+                ],
+                "preço antigo": 28.99,
+                "desconto": 0,
+                "demanda": 0,
+                "nome": "Manteiga comum Saldanha 500 g",
+                "cod": "7898908441017",
+                "visivel": true,
+                "peso/und": "unidade",
+                "_id": "1737481295800x988377265924735000",
+                "Modified Date": "2025-05-21T17:13:05.202Z",
+                "Created By": "1691143865250x481074744108582500",
+                "preço novo": 28.99,
+                "categorias_produto": [
+                    "Laticíneos"
+                ]
+            },
+            {
+                "tipo_unidade": "UN",
+                "categorias_produto": [
+                    "Laticíneos"
+                ],
+                "em oferta": false,
+                "Created Date": "2025-01-21T17:45:06.150Z",
+                "preço novo": 14.99,
+                "Modified Date": "2026-02-12T03:10:37.711Z",
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1737481646695x674269204783737100/3ditbemanteigapote200gcomsalapenasdoisingredientes_full.png"
+                ],
+                "Created By": "1691143865250x481074744108582500",
+                "desconto": 0,
+                "_id": "1737481433774x743588588296339500",
+                "peso/und": "unidade",
+                "cod": "7896051135456",
+                "estoque": 9980,
+                "nome": "Manteiga Itambé com sal 200 g",
+                "preço antigo": 14.99,
+                "visivel": true,
+                "demanda": 0
+            },
+            {
+                "peso por unidade": 100,
+                "estoque": 9991,
+                "demanda": 1,
+                "preço novo": 4.99,
+                "categorias_produto": [
+                    "Empório"
+                ],
+                "_id": "1737482025592x992051017604137000",
+                "peso/und": "unidade",
+                "visivel": false,
+                "Created By": "1691143865250x481074744108582500",
+                "nome": "Amendoim cebola e salsa Saúde Plena 100 g",
+                "tipo_unidade": "UN",
+                "cod": "019250",
+                "Created Date": "2025-01-21T17:54:58.007Z",
+                "em oferta": false,
+                "Modified Date": "2025-12-19T18:33:31.498Z",
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1741739595219x536105189063823550/AMENDOIM%20CEBOLA%20E%20SALSA%20100G.JPG"
+                ],
+                "desconto": 0,
+                "preço antigo": 4.99
+            },
+            {
+                "_id": "1737482469493x494545982441652200",
+                "cod": "019250",
+                "demanda": 0,
+                "Created Date": "2025-01-21T18:02:21.898Z",
+                "desconto": 0,
+                "em oferta": false,
+                "estoque": 9999,
+                "peso por unidade": 100,
+                "visivel": false,
+                "peso/und": "unidade",
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1741802826190x273562642511155500/amendoim%20crocante%20sabor%20pimenta.JPG"
+                ],
+                "Modified Date": "2025-12-19T18:34:03.855Z",
+                "categorias_produto": [
+                    "Empório"
+                ],
+                "nome": "Amendoim crocante Pimenta Saúde Plena 100 g",
+                "preço antigo": 4.99,
+                "tipo_unidade": "UN",
+                "preço novo": 4.99,
+                "Created By": "1691143865250x481074744108582500"
+            },
+            {
+                "_id": "1737482595002x340524243059998700",
+                "tipo_unidade": "UN",
+                "demanda": 0,
+                "estoque": 10000,
+                "em oferta": false,
+                "Created Date": "2025-01-21T18:04:27.404Z",
+                "Created By": "1691143865250x481074744108582500",
+                "peso/und": "unidade",
+                "preço antigo": 4.99,
+                "visivel": true,
+                "cod": "0192505300591",
+                "Modified Date": "2025-05-21T17:13:05.417Z",
+                "nome": "Amendoim crocante Pimenta Saúde Plena 100 g",
+                "preço novo": 4.99,
+                "desconto": 0
+            },
+            {
+                "nome": "Frutas cristalizadas Saúde Plena 100 g",
+                "_id": "1737482604195x475148628134723600",
+                "preço novo": 4.99,
+                "Modified Date": "2026-01-20T13:23:30.182Z",
+                "tipo_unidade": "UN",
+                "demanda": 2,
+                "Created By": "1691143865250x481074744108582500",
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1737482792852x688707121980300000/images.jpg"
+                ],
+                "desconto": 0,
+                "peso/und": "unidade",
+                "categorias_produto": [
+                    "Empório"
+                ],
+                "Created Date": "2025-01-21T18:04:36.570Z",
+                "preço antigo": 4.99,
+                "estoque": 9991,
+                "visivel": true,
+                "cod": "0192505299543",
+                "em oferta": false
+            },
+            {
+                "Created Date": "2025-01-21T18:04:36.801Z",
+                "peso/und": "unidade",
+                "Created By": "1691143865250x481074744108582500",
+                "tipo_unidade": "UN",
+                "_id": "1737482604297x513465503950307300",
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1739882369494x535367819894671170/download.png"
+                ],
+                "preço novo": 6.99,
+                "visivel": true,
+                "Modified Date": "2025-06-13T12:06:56.393Z",
+                "em oferta": false,
+                "peso por unidade": 20,
+                "preço antigo": 6.99,
+                "demanda": 0,
+                "estoque": 10000,
+                "desconto": 0,
+                "nome": "Limão desidratado Saúde Plena 20 g",
+                "cod": "019250",
+                "categorias_produto": [
+                    "Empório"
+                ]
+            },
+            {
+                "nome": "Limão desidratado Saúde Plena 20 g",
+                "Created By": "1691143865250x481074744108582500",
+                "em oferta": false,
+                "demanda": 0,
+                "_id": "1737482733931x448782035457146900",
+                "visivel": true,
+                "Modified Date": "2025-05-21T17:13:05.457Z",
+                "estoque": 10000,
+                "Created Date": "2025-01-21T18:06:46.460Z",
+                "categorias_produto": [
+                    "Empório"
+                ],
+                "desconto": 0,
+                "cod": "0192505300805",
+                "tipo_unidade": "UN",
+                "peso/und": "unidade",
+                "preço novo": 6.99,
+                "preço antigo": 6.99
+            },
+            {
+                "cod": "0192505114341",
+                "desconto": 0,
+                "Created Date": "2025-01-21T18:06:46.563Z",
+                "peso/und": "unidade",
+                "tipo_unidade": "UN",
+                "nome": "Anis estrelado Saúde Plena 50 g",
+                "Modified Date": "2025-05-21T17:13:05.473Z",
+                "demanda": 0,
+                "preço novo": 19.99,
+                "_id": "1737482734023x403911049808969700",
+                "preço antigo": 19.99,
+                "estoque": 10000,
+                "Created By": "1691143865250x481074744108582500",
+                "visivel": true,
+                "em oferta": false,
+                "categorias_produto": [
+                    "Empório"
+                ]
+            },
+            {
+                "Created By": "1691143865250x481074744108582500",
+                "_id": "1737482927817x932746677350826000",
+                "preço antigo": 25.99,
+                "estoque": 10000,
+                "Modified Date": "2025-05-21T17:13:05.484Z",
+                "peso/und": "unidade",
+                "categorias_produto": [
+                    "Empório"
+                ],
+                "desconto": 0,
+                "demanda": 0,
+                "Created Date": "2025-01-21T18:10:00.219Z",
+                "em oferta": false,
+                "preço novo": 25.99,
+                "cod": "0192505115393",
+                "nome": "Pistache torrado Saúde Plena 100 g",
+                "visivel": true,
+                "tipo_unidade": "UN"
+            },
+            {
+                "nome": "Pistache torrado Saúde Plena 100 g ",
+                "cod": "0192505115393",
+                "em oferta": false,
+                "preço antigo": 25.99,
+                "demanda": 2,
+                "estoque": 9998,
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1737483212512x545510175596349400/7505346b976a731f72a9a8013b60496a.webp"
+                ],
+                "visivel": true,
+                "Created By": "1691143865250x481074744108582500",
+                "categorias_produto": [
+                    "Empório"
+                ],
+                "_id": "1737483051725x559001062269517800",
+                "peso/und": "unidade",
+                "desconto": 0,
+                "Modified Date": "2025-05-21T17:12:57.480Z",
+                "preço novo": 25.99,
+                "tipo_unidade": "UN",
+                "Created Date": "2025-01-21T18:12:04.300Z"
+            },
+            {
+                "preço novo": 14.99,
+                "Created Date": "2025-01-21T18:14:05.735Z",
+                "peso por unidade": 70,
+                "visivel": true,
+                "demanda": 0,
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1741794068888x369912842819931650/NOZES%20SEM%20CASCA%20%2070G.JPG"
+                ],
+                "tipo_unidade": "UN",
+                "estoque": 9997,
+                "em oferta": false,
+                "categorias_produto": [
+                    "Empório"
+                ],
+                "_id": "1737483172691x751683216489840600",
+                "nome": "Nozes sem casca Saúde Plena 70 g",
+                "Modified Date": "2026-01-23T19:15:42.126Z",
+                "preço antigo": 9.99,
+                "desconto": -50.0500500500501,
+                "Created By": "1691143865250x481074744108582500",
+                "cod": "019250",
+                "peso/und": "unidade"
+            },
+            {
+                "_id": "1737483317371x209601366994190340",
+                "nome": "Laranja desidratada Saúde Plena 20 g",
+                "Modified Date": "2025-05-21T17:12:55.560Z",
+                "peso/und": "unidade",
+                "categorias_produto": [
+                    "Empório"
+                ],
+                "preço novo": 9.99,
+                "peso por unidade": 100,
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1737483640066x590212027004233500/laranja1-9f04571cd5d83c001916958414691363-1024-1024.jpg"
+                ],
+                "em oferta": false,
+                "Created By": "1691143865250x481074744108582500",
+                "desconto": -100.2004008016032,
+                "visivel": true,
+                "cod": "019250",
+                "demanda": 6,
+                "tipo_unidade": "UN",
+                "preço antigo": 4.99,
+                "Created Date": "2025-01-21T18:16:29.758Z",
+                "estoque": 9993
+            },
+            {
+                "preço novo": 4.99,
+                "peso/und": "unidade",
+                "desconto": 0,
+                "Created Date": "2025-01-21T18:16:29.865Z",
+                "Created By": "1691143865250x481074744108582500",
+                "estoque": 10000,
+                "tipo_unidade": "UN",
+                "em oferta": false,
+                "demanda": 6,
+                "nome": "Laranja desidratada Saúde Plena 20 g",
+                "_id": "1737483317452x140934578592808960",
+                "Modified Date": "2025-05-21T17:12:55.789Z",
+                "preço antigo": 4.99,
+                "cod": "0192505300980",
+                "visivel": true
+            },
+            {
+                "nome": "Uva passa brancas Saúde Plena 100 g ",
+                "estoque": -9987,
+                "_id": "1737483622118x353143014468616200",
+                "preço novo": 5.99,
+                "desconto": 0,
+                "Created Date": "2025-01-21T18:21:34.516Z",
+                "visivel": false,
+                "demanda": 3,
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1741794790346x149530572787970340/UVA%20PASSAS%20100G.JPG"
+                ],
+                "tipo_unidade": "UN",
+                "Modified Date": "2026-01-06T12:26:26.965Z",
+                "preço antigo": 5.99,
+                "Created By": "1691143865250x481074744108582500",
+                "cod": "019250",
+                "categorias_produto": [
+                    "Empório"
+                ],
+                "em oferta": false,
+                "peso por unidade": 100,
+                "peso/und": "unidade"
+            },
+            {
+                "Created Date": "2025-01-21T18:23:31.969Z",
+                "nome": "Ameixa roxa sem caroço 100 g Saúde Plena ",
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1741802733829x349386398954925080/ameixa%20preta%20sem%20caro%C3%A7o.JPG"
+                ],
+                "categorias_produto": [
+                    "Empório"
+                ],
+                "peso/und": "unidade",
+                "_id": "1737483739493x269204611845324800",
+                "demanda": 4,
+                "preço novo": 8.99,
+                "cod": "019250",
+                "visivel": false,
+                "tipo_unidade": "UN",
+                "estoque": 0,
+                "desconto": 0,
+                "preço antigo": 8.99,
+                "peso por unidade": 100,
+                "Created By": "1691143865250x481074744108582500",
+                "Modified Date": "2025-11-26T19:49:23.296Z",
+                "em oferta": false
+            },
+            {
+                "Created By": "1691143865250x481074744108582500",
+                "tipo_unidade": "UN",
+                "Modified Date": "2025-05-21T17:13:05.526Z",
+                "nome": "Erva doce Jhocan 10g",
+                "peso/und": "unidade",
+                "_id": "1737483969735x866863174805094400",
+                "demanda": 0,
+                "estoque": 10000,
+                "desconto": 0,
+                "em oferta": false,
+                "preço antigo": 3.99,
+                "categorias_produto": [
+                    "Empório"
+                ],
+                "cod": "7898567050384",
+                "visivel": true,
+                "Created Date": "2025-01-21T18:27:22.788Z",
+                "preço novo": 3.99
+            },
+            {
+                "nome": "Páprica picante Jhocan 20g",
+                "categorias_produto": [
+                    "Empório"
+                ],
+                "visivel": true,
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1737485579039x697569116606275500/3199148917_1.webp"
+                ],
+                "estoque": 9979,
+                "Created Date": "2025-01-21T18:37:58.474Z",
+                "em oferta": false,
+                "_id": "1737484606065x358171622338723840",
+                "cod": "7898567051060",
+                "demanda": 1,
+                "desconto": 0,
+                "Modified Date": "2026-02-27T15:33:32.046Z",
+                "Created By": "1691143865250x481074744108582500",
+                "tipo_unidade": "UN",
+                "peso/und": "unidade",
+                "preço novo": 3.99,
+                "preço antigo": 3.99
+            },
+            {
+                "estoque": 9989,
+                "peso/und": "unidade",
+                "nome": "Coentro em pó 10 g Jhocan",
+                "em oferta": false,
+                "tipo_unidade": "UN",
+                "visivel": true,
+                "Modified Date": "2026-03-04T15:33:52.586Z",
+                "Created Date": "2025-01-21T18:53:53.704Z",
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1737486069808x268719363927455650/coentro-em-po-10g.png"
+                ],
+                "preço novo": 3.99,
+                "cod": "7898567051107",
+                "desconto": 0,
+                "demanda": 2,
+                "_id": "1737485561200x311846043644067840",
+                "preço antigo": 3.99,
+                "categorias_produto": [
+                    "Empório"
+                ],
+                "Created By": "1691143865250x481074744108582500"
+            },
+            {
+                "desconto": 0,
+                "Created Date": "2025-01-21T19:01:23.715Z",
+                "nome": "Cravo da índia 10 g Jhocan ",
+                "_id": "1737486011297x899397515548295200",
+                "estoque": 10000,
+                "em oferta": false,
+                "preço antigo": 3.99,
+                "peso/und": "unidade",
+                "categorias_produto": [
+                    "Empório"
+                ],
+                "tipo_unidade": "UN",
+                "visivel": false,
+                "Modified Date": "2025-05-21T17:13:05.543Z",
+                "demanda": 0,
+                "preço novo": 3.99,
+                "Created By": "1691143865250x481074744108582500",
+                "cod": "789567050834"
+            },
+            {
+                "peso por unidade": 15,
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1741738820338x673777886752527000/ALECRIM%2050G.JPG"
+                ],
+                "cod": "789856",
+                "Created Date": "2025-01-21T19:06:38.583Z",
+                "Modified Date": "2025-05-23T12:51:35.782Z",
+                "estoque": 10000,
+                "peso/und": "unidade",
+                "nome": "Alecrim em flocos 5 g saude plena",
+                "em oferta": false,
+                "preço novo": 3.99,
+                "Created By": "1691143865250x481074744108582500",
+                "_id": "1737486326153x654060473096077300",
+                "preço antigo": 3.99,
+                "desconto": 0,
+                "visivel": true,
+                "tipo_unidade": "UN",
+                "demanda": 0,
+                "categorias_produto": [
+                    "Empório"
+                ]
+            },
+            {
+                "categorias_produto": [
+                    "Empório"
+                ],
+                "preço novo": 3.99,
+                "Created Date": "2025-01-21T19:26:40.061Z",
+                "demanda": 1,
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1737487718348x328403511675704700/alecrim-10g.png"
+                ],
+                "_id": "1737487527561x841268900572692500",
+                "Modified Date": "2026-02-17T14:52:55.181Z",
+                "preço antigo": 3.99,
+                "estoque": 9995,
+                "cod": "7898567050315",
+                "visivel": true,
+                "em oferta": false,
+                "Created By": "1691143865250x481074744108582500",
+                "peso/und": "unidade",
+                "tipo_unidade": "UN",
+                "desconto": 0,
+                "nome": "Alecrim em pó 10 g Jhocan "
+            },
+            {
+                "desconto": -30.03003003003,
+                "cod": "019250",
+                "nome": "requeijão entre rios",
+                "peso/und": "unidade",
+                "tipo_unidade": "UN",
+                "demanda": 1000,
+                "ordem_prateleira": 1,
+                "Created By": "1691143865250x481074744108582500",
+                "relacionados": [
+                    "1721092989439x608445109104000600"
+                ],
+                "como armazenar": "manter em lugar refrigerado ",
+                "categorias_produto": [
+                    "Laticíneos"
+                ],
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1757079448100x667343905861502500/images.jpeg"
+                ],
+                "visivel": true,
+                "em oferta": false,
+                "peso por unidade": 100,
+                "info nutricional": " ",
+                "Created Date": "2025-01-21T19:28:52.799Z",
+                "descriçao": "requeijão em creme",
+                "estoque": 9978,
+                "preço antigo": 9.99,
+                "_id": "1737487660281x401145729522860000",
+                "Modified Date": "2026-02-12T03:10:37.564Z",
+                "preço novo": 12.99
+            },
+            {
+                "_id": "1737541569553x332324072122220540",
+                "cod": "019250",
+                "nome": "Pega Marido 80 g Saúde Plena ",
+                "preço antigo": 11.99,
+                "Modified Date": "2026-02-27T21:08:12.430Z",
+                "Created Date": "2025-01-22T10:26:16.482Z",
+                "tipo_unidade": "UN",
+                "Created By": "1691143865250x481074744108582500",
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1741794142705x724055860244323700/PEGA%20MARIDO%2080%20G.JPG"
+                ],
+                "estoque": 9990,
+                "peso/und": "unidade",
+                "demanda": 1,
+                "categorias_produto": [
+                    "Empório"
+                ],
+                "visivel": true,
+                "preço novo": 11.99,
+                "desconto": 0,
+                "em oferta": false,
+                "peso por unidade": 80
+            },
+            {
+                "em oferta": false,
+                "cod": "0192505259516",
+                "categorias_produto": [
+                    "Empório"
+                ],
+                "demanda": 0,
+                "estoque": 10000,
+                "preço antigo": 11.99,
+                "Created Date": "2025-01-22T10:26:19.735Z",
+                "Modified Date": "2025-05-21T17:13:05.579Z",
+                "peso/und": "unidade",
+                "visivel": true,
+                "nome": "Alho Frito 100 g Saúde Plena ",
+                "Created By": "1691143865250x481074744108582500",
+                "preço novo": 11.99,
+                "_id": "1737541579262x557831561945284600",
+                "tipo_unidade": "UN",
+                "desconto": 0
+            },
+            {
+                "Created Date": "2025-01-22T10:28:09.222Z",
+                "categorias_produto": [
+                    "Empório"
+                ],
+                "cod": "019250",
+                "em oferta": false,
+                "desconto": 0,
+                "visivel": true,
+                "preço novo": 4.99,
+                "Created By": "1691143865250x481074744108582500",
+                "tipo_unidade": "UN",
+                "demanda": 0,
+                "peso por unidade": 70,
+                "nome": "Zattar 70 g Saúde Plena ",
+                "Modified Date": "2025-07-31T10:04:46.042Z",
+                "preço antigo": 4.99,
+                "_id": "1737541689564x582632140029820900",
+                "peso/und": "unidade",
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1741794851301x719745916279518700/ZATTAR%2070G.JPG"
+                ],
+                "estoque": 9998
+            },
+            {
+                "peso/und": "unidade",
+                "tipo_unidade": "UN",
+                "_id": "1737541868709x631645689868976100",
+                "cod": "192505",
+                "desconto": 0,
+                "Modified Date": "2025-07-19T13:42:51.906Z",
+                "peso por unidade": 100,
+                "preço antigo": 9.99,
+                "Created Date": "2025-01-22T10:31:08.785Z",
+                "visivel": false,
+                "estoque": 9999,
+                "em oferta": false,
+                "demanda": 0,
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1741739822221x538109696226557250/TEMPERO%20ANA%20MARIA%20CARNES%20100G.JPG"
+                ],
+                "categorias_produto": [
+                    "Empório"
+                ],
+                "preço novo": 9.99,
+                "nome": "Ana Maria Carnes 100 g Saúde Plena ",
+                "Created By": "1691143865250x481074744108582500"
+            },
+            {
+                "em oferta": false,
+                "tipo_unidade": "UN",
+                "Modified Date": "2026-01-23T19:13:31.441Z",
+                "cod": "019250",
+                "preço novo": 9.99,
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1741800484045x314802021872493400/AVEIA%20FLOCOS%20GROSSOS%20300G.JPG"
+                ],
+                "peso/und": "unidade",
+                "preço antigo": 9.99,
+                "demanda": 2,
+                "_id": "1737541964913x816849251325182000",
+                "peso por unidade": 300,
+                "Created By": "1691143865250x481074744108582500",
+                "nome": "Aveia em flocos grossos 300 g Saúde Plena ",
+                "Created Date": "2025-01-22T10:32:44.612Z",
+                "visivel": true,
+                "estoque": 9995,
+                "categorias_produto": [
+                    "Empório"
+                ],
+                "desconto": 0
+            },
+            {
+                "preço novo": 5.99,
+                "peso/und": "unidade",
+                "Created Date": "2025-01-22T10:34:43.162Z",
+                "nome": "Gengibre 10 g Saúde Plena ",
+                "preço antigo": 5.99,
+                "estoque": 10000,
+                "categorias_produto": [
+                    "Empório"
+                ],
+                "_id": "1737542083477x206664152114528260",
+                "demanda": 0,
+                "tipo_unidade": "UN",
+                "Created By": "1691143865250x481074744108582500",
+                "Modified Date": "2025-05-21T17:13:05.612Z",
+                "em oferta": false,
+                "desconto": 0,
+                "visivel": false
+            },
+            {
+                "_id": "1737542663061x863849838006501400",
+                "em oferta": false,
+                "Created By": "1691143865250x481074744108582500",
+                "peso/und": "unidade",
+                "preço novo": 8.99,
+                "peso por unidade": 500,
+                "estoque": 9996,
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1741738273084x107473273485068740/A%C3%87UCAR%20DEMERARA%20500G%20.JPG"
+                ],
+                "desconto": 0,
+                "preço antigo": 8.99,
+                "tipo_unidade": "UN",
+                "cod": "019250",
+                "Modified Date": "2026-02-12T03:10:37.932Z",
+                "nome": "Açúcar Demerara 500 g Saúde Plena",
+                "Created Date": "2025-01-22T10:44:22.741Z",
+                "categorias_produto": [
+                    "Empório"
+                ],
+                "demanda": 1,
+                "visivel": true
+            },
+            {
+                "preço antigo": 9.99,
+                "Modified Date": "2025-05-21T17:13:05.624Z",
+                "peso/und": "unidade",
+                "categorias_produto": [
+                    "Empório"
+                ],
+                "desconto": 0,
+                "visivel": true,
+                "Created By": "1691143865250x481074744108582500",
+                "nome": "Dry Rub Frango 100 g Saúde Plena ",
+                "cod": "0192505115508",
+                "preço novo": 9.99,
+                "em oferta": false,
+                "estoque": 10000,
+                "Created Date": "2025-01-22T10:45:39.908Z",
+                "tipo_unidade": "UN",
+                "demanda": 0,
+                "_id": "1737542740229x128453835948032000"
+            },
+            {
+                "desconto": 0,
+                "tipo_unidade": "UN",
+                "preço antigo": 9.99,
+                "Modified Date": "2025-11-19T17:54:14.392Z",
+                "peso por unidade": 100,
+                "peso/und": "unidade",
+                "visivel": true,
+                "preço novo": 9.99,
+                "em oferta": false,
+                "Created By": "1691143865250x481074744108582500",
+                "demanda": 0,
+                "Created Date": "2025-01-22T10:48:58.121Z",
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1741792441250x777905710363219000/DRY%20RUB%20PEIXE%20100G.JPG"
+                ],
+                "nome": "Dry Rub Peixe 100 g Saúde Plena ",
+                "estoque": 9999,
+                "cod": "019250",
+                "categorias_produto": [
+                    "Empório"
+                ],
+                "_id": "1737542938423x193506410000810000"
+            },
+            {
+                "categorias_produto": [
+                    "Empório"
+                ],
+                "desconto": 0,
+                "preço antigo": 13.99,
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1741792254315x936127322412385600/CRAVO%20DA%20%C3%8DNDIA%2050G.JPG"
+                ],
+                "peso/und": "unidade",
+                "demanda": 0,
+                "cod": "019250",
+                "Created Date": "2025-01-22T10:51:10.190Z",
+                "tipo_unidade": "UN",
+                "em oferta": false,
+                "visivel": false,
+                "preço novo": 13.99,
+                "Created By": "1691143865250x481074744108582500",
+                "_id": "1737543070484x294766334222794750",
+                "Modified Date": "2025-07-26T10:41:56.494Z",
+                "nome": "Cravo da índia 50 g Saúde Plena ",
+                "peso por unidade": 50,
+                "estoque": 10000
+            },
+            {
+                "em oferta": false,
+                "categorias_produto": [
+                    "Empório"
+                ],
+                "tipo_unidade": "UN",
+                "peso por unidade": 50,
+                "_id": "1737543146474x355316471113187300",
+                "Modified Date": "2025-05-21T17:12:59.242Z",
+                "Created Date": "2025-01-22T10:52:26.564Z",
+                "preço novo": 9.99,
+                "nome": "Pimenta Jamaica 50 g Saúde Plena ",
+                "preço antigo": 9.99,
+                "desconto": 0,
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1741794292294x720770751530904600/PIMENTA%20JAMAICA%20EM%20P%C3%93%2050G.JPG"
+                ],
+                "visivel": true,
+                "Created By": "1691143865250x481074744108582500",
+                "demanda": 1,
+                "peso/und": "unidade",
+                "estoque": 9999,
+                "cod": "019250"
+            },
+            {
+                "Created By": "1691143865250x481074744108582500",
+                "nome": "Pistache 100 g Saúde Plena ",
+                "estoque": 10000,
+                "peso/und": "unidade",
+                "tipo_unidade": "UN",
+                "preço novo": 25.99,
+                "Created Date": "2025-01-22T10:53:49.168Z",
+                "em oferta": false,
+                "categorias_produto": [
+                    "Empório"
+                ],
+                "Modified Date": "2025-05-21T17:13:05.659Z",
+                "demanda": 0,
+                "preço antigo": 25.99,
+                "desconto": 0,
+                "_id": "1737543229480x331249828999987200",
+                "cod": "0192505115393",
+                "visivel": true
+            },
+            {
+                "desconto": 0,
+                "Modified Date": "2026-01-23T19:15:52.905Z",
+                "Created By": "1691143865250x481074744108582500",
+                "nome": "Nozes sem casca 70g Saúde Plena ",
+                "preço novo": 9.99,
+                "visivel": false,
+                "_id": "1737543292061x324837528678694900",
+                "categorias_produto": [
+                    "Empório"
+                ],
+                "demanda": 1,
+                "tipo_unidade": "UN",
+                "estoque": 9990,
+                "em oferta": false,
+                "Created Date": "2025-01-22T10:54:51.737Z",
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1741800778656x161198485892390270/NOZES%20SEM%20CASCA%20%2070G.JPG"
+                ],
+                "peso por unidade": 70,
+                "peso/und": "unidade",
+                "preço antigo": 9.99,
+                "cod": "019250"
+            },
+            {
+                "cod": "019250",
+                "peso/und": "unidade",
+                "categorias_produto": [
+                    "Empório"
+                ],
+                "preço antigo": 13.99,
+                "Created Date": "2025-01-22T10:56:38.255Z",
+                "nome": "Pimenta Caiena 50 g Saúde Plena ",
+                "visivel": true,
+                "_id": "1737543398553x573288469935947800",
+                "preço novo": 13.99,
+                "tipo_unidade": "UN",
+                "demanda": 0,
+                "em oferta": false,
+                "Modified Date": "2025-06-13T12:08:46.089Z",
+                "desconto": 0,
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1739885344021x648997034238007400/download.png"
+                ],
+                "Created By": "1691143865250x481074744108582500",
+                "estoque": 10000,
+                "peso por unidade": 50
+            },
+            {
+                "Created Date": "2025-01-22T10:57:42.198Z",
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1741792209851x148487921487344260/COMINHO%20MO%C3%8DDO%20PURO%2070G.JPG"
+                ],
+                "nome": "Cominho Moído Puro 70 g Saúde Plena ",
+                "em oferta": false,
+                "Modified Date": "2026-02-27T12:18:27.919Z",
+                "preço novo": 10.99,
+                "tipo_unidade": "UN",
+                "peso por unidade": 70,
+                "categorias_produto": [
+                    "Empório"
+                ],
+                "peso/und": "unidade",
+                "demanda": 1,
+                "Created By": "1691143865250x481074744108582500",
+                "estoque": 9996,
+                "cod": "019250",
+                "visivel": true,
+                "desconto": 0,
+                "_id": "1737543462517x248225817570312200"
+            },
+            {
+                "_id": "1737543531800x476214566013108200",
+                "peso/und": "unidade",
+                "estoque": 10000,
+                "tipo_unidade": "UN",
+                "Created Date": "2025-01-22T10:58:51.476Z",
+                "demanda": 0,
+                "cod": "0192505299543",
+                "preço novo": 4.99,
+                "Created By": "1691143865250x481074744108582500",
+                "Modified Date": "2025-05-21T17:13:05.681Z",
+                "nome": "Frutas Cristalizadas 100 g Saúde Plena ",
+                "categorias_produto": [
+                    "Empório"
+                ],
+                "preço antigo": 4.99,
+                "em oferta": false,
+                "desconto": 0,
+                "visivel": true
+            },
+            {
+                "Created Date": "2025-01-22T10:59:56.123Z",
+                "visivel": true,
+                "peso/und": "unidade",
+                "nome": "Frutas Cristalizadas 100 g Saúde Plena ",
+                "em oferta": false,
+                "preço novo": 4.99,
+                "Modified Date": "2025-05-21T17:13:05.696Z",
+                "_id": "1737543596441x573589988432412700",
+                "tipo_unidade": "UN",
+                "Created By": "1691143865250x481074744108582500",
+                "preço antigo": 4.99,
+                "demanda": 0,
+                "desconto": 0,
+                "cod": "0192505299543",
+                "estoque": 10000
+            },
+            {
+                "demanda": 0,
+                "desconto": 0,
+                "cod": "0192505300805",
+                "peso/und": "unidade",
+                "preço novo": 6.99,
+                "Created Date": "2025-01-22T11:00:14.177Z",
+                "_id": "1737543614479x889988303083274200",
+                "categorias_produto": [
+                    "Empório"
+                ],
+                "preço antigo": 6.99,
+                "Created By": "1691143865250x481074744108582500",
+                "tipo_unidade": "UN",
+                "visivel": true,
+                "em oferta": false,
+                "nome": "Limão desidratado 20 g Saúde Plena ",
+                "estoque": 10000,
+                "Modified Date": "2025-05-21T17:13:05.709Z"
+            },
+            {
+                "Modified Date": "2025-05-21T17:13:05.724Z",
+                "peso/und": "unidade",
+                "tipo_unidade": "UN",
+                "nome": "Laranja desidratada 20 g Saúde Plena ",
+                "preço antigo": 4.99,
+                "Created By": "1691143865250x481074744108582500",
+                "desconto": 0,
+                "categorias_produto": [
+                    "Empório"
+                ],
+                "em oferta": false,
+                "estoque": 10000,
+                "preço novo": 4.99,
+                "visivel": true,
+                "demanda": 0,
+                "_id": "1737543713034x313695898981367800",
+                "Created Date": "2025-01-22T11:01:52.762Z",
+                "cod": "0192505300980"
+            },
+            {
+                "desconto": -12.5156445556946,
+                "peso por unidade": 100,
+                "estoque": 9948,
+                "Modified Date": "2026-03-02T17:36:34.561Z",
+                "Created By": "1691143865250x481074744108582500",
+                "visivel": true,
+                "preço novo": 8.99,
+                "nome": "Uvas Passas 100 g Saúde Plena ",
+                "preço antigo": 7.99,
+                "tipo_unidade": "UN",
+                "em oferta": false,
+                "demanda": 3,
+                "Created Date": "2025-01-22T11:03:26.347Z",
+                "peso/und": "unidade",
+                "_id": "1737543806596x974259878406127600",
+                "cod": "019250",
+                "categorias_produto": [
+                    "Empório"
+                ],
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1741966027368x471310590568976500/UVA%20PASSAS%20100G%20.preta.JPG"
+                ]
+            },
+            {
+                "cod": "019250",
+                "desconto": 0,
+                "Created Date": "2025-01-22T11:04:37.373Z",
+                "demanda": 0,
+                "preço novo": 11.99,
+                "em oferta": false,
+                "_id": "1737543877682x290223146270720000",
+                "nome": "Canela em pó 50 g Saúde Plena ",
+                "categorias_produto": [
+                    "Empório"
+                ],
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1741791847898x221115546699459650/CANELA%20EM%20P%C3%93%2050G.JPG"
+                ],
+                "tipo_unidade": "UN",
+                "peso por unidade": 50,
+                "preço antigo": 11.99,
+                "Created By": "1691143865250x481074744108582500",
+                "estoque": 9999,
+                "peso/und": "unidade",
+                "Modified Date": "2026-01-23T19:21:22.859Z",
+                "visivel": true
+            },
+            {
+                "desconto": 0,
+                "_id": "1737543939236x925038924977930200",
+                "Modified Date": "2026-02-14T15:56:34.168Z",
+                "Created By": "1691143865250x481074744108582500",
+                "estoque": 9993,
+                "Created Date": "2025-01-22T11:05:38.939Z",
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1741792188119x875148136223446100/COCO%20RALADO%2090G.JPG"
+                ],
+                "em oferta": false,
+                "preço novo": 7.99,
+                "preço antigo": 7.99,
+                "visivel": true,
+                "demanda": 1,
+                "cod": "019250",
+                "categorias_produto": [
+                    "Empório"
+                ],
+                "tipo_unidade": "UN",
+                "peso por unidade": 90,
+                "peso/und": "unidade",
+                "nome": "Coco ralada 90 g Saúde Plena "
+            },
+            {
+                "Created By": "1691143865250x481074744108582500",
+                "visivel": false,
+                "categorias_produto": [
+                    "Empório"
+                ],
+                "Modified Date": "2025-05-21T17:13:05.742Z",
+                "demanda": 0,
+                "peso por unidade": 100,
+                "preço novo": 8.99,
+                "_id": "1737544005555x986953910426796000",
+                "peso/und": "unidade",
+                "nome": "Ameixa preta 100 g Saúde Plena ",
+                "estoque": 10000,
+                "desconto": 0,
+                "em oferta": false,
+                "cod": "019250",
+                "preço antigo": 8.99,
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1739882493265x658683232836218000/download.png"
+                ],
+                "tipo_unidade": "UN",
+                "Created Date": "2025-01-22T11:06:45.243Z"
+            },
+            {
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1741791816945x997308364372348200/CANELA%20EM%20P%C3%93%2050G.JPG"
+                ],
+                "desconto": 0,
+                "tipo_unidade": "UN",
+                "estoque": 9990,
+                "peso por unidade": 50,
+                "demanda": 1,
+                "Created Date": "2025-01-22T11:07:34.843Z",
+                "cod": "019250",
+                "visivel": true,
+                "preço antigo": 11.99,
+                "Modified Date": "2026-02-06T15:10:40.634Z",
+                "nome": "Canela em pó 100% Pura  50 g Saúde Plena ",
+                "categorias_produto": [
+                    "Empório"
+                ],
+                "Created By": "1691143865250x481074744108582500",
+                "peso/und": "unidade",
+                "preço novo": 11.99,
+                "em oferta": false,
+                "_id": "1737544055161x212480178251104260"
+            },
+            {
+                "preço antigo": 3.99,
+                "categorias_produto": [
+                    "Empório"
+                ],
+                "preço novo": 3.99,
+                "Modified Date": "2025-05-21T17:13:05.752Z",
+                "visivel": true,
+                "em oferta": false,
+                "_id": "1737544199721x837385247690588200",
+                "nome": "Vinagrete 10 g Jhocan",
+                "Created Date": "2025-01-22T11:09:59.424Z",
+                "Created By": "1691143865250x481074744108582500",
+                "demanda": 0,
+                "tipo_unidade": "UN",
+                "peso/und": "unidade",
+                "desconto": 0,
+                "cod": "7898567051268",
+                "estoque": 10000
+            },
+            {
+                "demanda": 0,
+                "preço novo": 3.99,
+                "visivel": true,
+                "cod": "7898567050834",
+                "Created Date": "2025-01-22T11:11:52.192Z",
+                "peso/und": "unidade",
+                "categorias_produto": [
+                    "Empório"
+                ],
+                "nome": "Cravo da índia 10 g Jhocan",
+                "preço antigo": 3.99,
+                "Created By": "1691143865250x481074744108582500",
+                "tipo_unidade": "UN",
+                "Modified Date": "2025-05-21T17:13:05.762Z",
+                "desconto": 0,
+                "estoque": 10000,
+                "em oferta": false,
+                "_id": "1737544312495x526374198806315000"
+            },
+            {
+                "demanda": 0,
+                "tipo_unidade": "UN",
+                "nome": "Páprica Picante 20 g Jhocan ",
+                "Created By": "1691143865250x481074744108582500",
+                "peso/und": "unidade",
+                "_id": "1737544372869x360623900095676400",
+                "visivel": true,
+                "Created Date": "2025-01-22T11:12:52.636Z",
+                "Modified Date": "2025-05-21T17:13:05.773Z",
+                "preço novo": 3.99,
+                "preço antigo": 3.99,
+                "categorias_produto": [
+                    "Empório"
+                ],
+                "desconto": 0,
+                "cod": "7898567051060",
+                "estoque": 10000,
+                "em oferta": false
+            },
+            {
+                "estoque": 10000,
+                "visivel": true,
+                "nome": "Erva Doce 10 g Jhocan",
+                "preço novo": 3.99,
+                "demanda": 0,
+                "categorias_produto": [
+                    "Empório"
+                ],
+                "Created By": "1691143865250x481074744108582500",
+                "preço antigo": 3.99,
+                "peso/und": "unidade",
+                "Created Date": "2025-01-22T11:18:53.298Z",
+                "Modified Date": "2025-05-21T17:13:05.784Z",
+                "em oferta": false,
+                "cod": "7898567050384",
+                "tipo_unidade": "UN",
+                "desconto": 0,
+                "_id": "1737544733986x221184550449446900"
+            },
+            {
+                "demanda": 0,
+                "Created By": "1691143865250x481074744108582500",
+                "desconto": 0,
+                "peso/und": "unidade",
+                "em oferta": false,
+                "preço antigo": 3.99,
+                "visivel": true,
+                "preço novo": 3.99,
+                "categorias_produto": [
+                    "Empório"
+                ],
+                "Modified Date": "2025-05-21T17:13:05.799Z",
+                "tipo_unidade": "UN",
+                "Created Date": "2025-01-22T11:21:06.369Z",
+                "_id": "1737544866862x342722072506794000",
+                "nome": "Alecrim em flocos 10 g Jhocan",
+                "cod": "7898567051091",
+                "estoque": 10000
+            },
+            {
+                "tipo_unidade": "UN",
+                "_id": "1737545003044x226012582991101950",
+                "demanda": 0,
+                "preço novo": 3.99,
+                "Modified Date": "2025-05-21T17:13:05.813Z",
+                "nome": "Noz moscada em pó 7 g Jhocan",
+                "cod": "7898567051138",
+                "Created By": "1691143865250x481074744108582500",
+                "preço antigo": 3.99,
+                "visivel": false,
+                "em oferta": false,
+                "peso/und": "unidade",
+                "desconto": 0,
+                "estoque": 10000,
+                "categorias_produto": [
+                    "Empório"
+                ],
+                "Created Date": "2025-01-22T11:23:22.370Z"
+            },
+            {
+                "estoque": 10000,
+                "em oferta": false,
+                "demanda": 0,
+                "desconto": 0,
+                "Modified Date": "2025-05-21T17:13:05.828Z",
+                "_id": "1737547765209x649880114588811300",
+                "preço antigo": 3.99,
+                "peso/und": "unidade",
+                "visivel": false,
+                "tipo_unidade": "UN",
+                "nome": "Noz moscada em pó 7 g Jhocan",
+                "preço novo": 3.99,
+                "Created By": "1691143865250x481074744108582500",
+                "cod": "7898567051138",
+                "Created Date": "2025-01-22T12:10:38.094Z",
+                "categorias_produto": [
+                    "Empório"
+                ]
+            },
+            {
+                "preço antigo": 3.99,
+                "visivel": true,
+                "_id": "1737548647814x141725653989851140",
+                "cod": "78985670509664",
+                "peso/und": "unidade",
+                "Created Date": "2025-01-22T12:25:20.954Z",
+                "Created By": "1691143865250x481074744108582500",
+                "tipo_unidade": "UN",
+                "em oferta": false,
+                "demanda": 0,
+                "categorias_produto": [
+                    "Empório"
+                ],
+                "desconto": 0,
+                "preço novo": 3.99,
+                "Modified Date": "2025-05-21T17:13:05.840Z",
+                "nome": "Curry Jhocan 20 g",
+                "estoque": 10000
+            },
+            {
+                "nome": "Alecrim em flocos 5 g Jhocan",
+                "categorias_produto": [
+                    "Empório"
+                ],
+                "Modified Date": "2025-05-21T17:13:05.852Z",
+                "tipo_unidade": "UN",
+                "_id": "1737548910128x463068984119918600",
+                "em oferta": false,
+                "Created By": "1691143865250x481074744108582500",
+                "visivel": true,
+                "desconto": 0,
+                "cod": "7898567051091",
+                "preço antigo": 3.99,
+                "Created Date": "2025-01-22T12:29:43.013Z",
+                "preço novo": 3.99,
+                "demanda": 0,
+                "estoque": 10000,
+                "peso/und": "unidade"
+            },
+            {
+                "nome": "Salsa 5 g Jhocan",
+                "preço antigo": 3.99,
+                "Modified Date": "2025-05-21T17:13:05.864Z",
+                "desconto": 0,
+                "Created Date": "2025-01-22T12:31:18.061Z",
+                "categorias_produto": [
+                    "Empório"
+                ],
+                "cod": "7898567050278",
+                "visivel": true,
+                "demanda": 0,
+                "preço novo": 3.99,
+                "Created By": "1691143865250x481074744108582500",
+                "estoque": 10000,
+                "peso/und": "unidade",
+                "em oferta": false,
+                "_id": "1737549005150x428491024719151100",
+                "tipo_unidade": "UN"
+            },
+            {
+                "preço novo": 3.99,
+                "peso/und": "unidade",
+                "_id": "1737549424161x431813024012566500",
+                "Modified Date": "2025-05-21T17:13:05.874Z",
+                "em oferta": false,
+                "cod": "7898567050223",
+                "demanda": 0,
+                "estoque": 10000,
+                "nome": "Canela em pó  7 g Jhocan",
+                "preço antigo": 3.99,
+                "Created By": "1691143865250x481074744108582500",
+                "Created Date": "2025-01-22T12:38:17.430Z",
+                "desconto": 0,
+                "tipo_unidade": "UN",
+                "categorias_produto": [
+                    "Empório"
+                ],
+                "visivel": true
+            },
+            {
+                "Modified Date": "2025-05-21T17:13:05.881Z",
+                "tipo_unidade": "UN",
+                "categorias_produto": [
+                    "Empório"
+                ],
+                "cod": "7898567051145",
+                "nome": "Tomilho em flocos 10 g Jhocan",
+                "visivel": true,
+                "peso/und": "unidade",
+                "preço novo": 3.99,
+                "desconto": 0,
+                "Created Date": "2025-01-22T12:40:37.073Z",
+                "Created By": "1691143865250x481074744108582500",
+                "preço antigo": 3.99,
+                "em oferta": false,
+                "estoque": 10000,
+                "_id": "1737549564204x464953839457665000",
+                "demanda": 0
+            },
+            {
+                "nome": "Ervas finas 5  g Jhocan",
+                "cod": "7898567051114",
+                "Created Date": "2025-01-22T12:43:15.242Z",
+                "preço antigo": 3.99,
+                "visivel": true,
+                "tipo_unidade": "UN",
+                "em oferta": false,
+                "estoque": 10000,
+                "categorias_produto": [
+                    "Empório"
+                ],
+                "_id": "1737549722379x849431725409042400",
+                "Modified Date": "2025-05-21T17:13:05.893Z",
+                "Created By": "1691143865250x481074744108582500",
+                "preço novo": 3.99,
+                "peso/und": "unidade",
+                "demanda": 0,
+                "desconto": 0
+            },
+            {
+                "Modified Date": "2025-05-21T17:13:05.903Z",
+                "demanda": 0,
+                "categorias_produto": [
+                    "Empório"
+                ],
+                "Created By": "1691143865250x481074744108582500",
+                "_id": "1737550606919x373358224158490600",
+                "tipo_unidade": "UN",
+                "preço novo": 3.99,
+                "peso/und": "unidade",
+                "desconto": 0,
+                "cod": "789856705971",
+                "estoque": 10000,
+                "em oferta": false,
+                "preço antigo": 3.99,
+                "nome": "Camomila  5 g Jhocan",
+                "visivel": true,
+                "Created Date": "2025-01-22T12:57:59.813Z"
+            },
+            {
+                "preço antigo": 3.99,
+                "categorias_produto": [
+                    "Empório"
+                ],
+                "Modified Date": "2025-05-21T17:13:05.939Z",
+                "cod": "7898567050292",
+                "nome": "Manjericão 5 g Jhocan",
+                "em oferta": false,
+                "preço novo": 3.99,
+                "_id": "1737550701626x957646040842895400",
+                "Created By": "1691143865250x481074744108582500",
+                "demanda": 0,
+                "Created Date": "2025-01-22T12:59:34.531Z",
+                "tipo_unidade": "UN",
+                "peso/und": "unidade",
+                "estoque": 10000,
+                "visivel": true,
+                "desconto": 0
+            },
+            {
+                "cod": "7898567050353",
+                "preço antigo": 3.99,
+                "Created By": "1691143865250x481074744108582500",
+                "tipo_unidade": "UN",
+                "nome": "Tempero Baiano 20  g Jhocan",
+                "desconto": 0,
+                "em oferta": false,
+                "preço novo": 3.99,
+                "_id": "1737551127942x157194771302973440",
+                "Created Date": "2025-01-22T13:06:40.949Z",
+                "Modified Date": "2025-05-21T17:13:06.245Z",
+                "categorias_produto": [
+                    "Empório"
+                ],
+                "demanda": 0,
+                "estoque": 10000,
+                "visivel": true,
+                "peso/und": "unidade"
+            },
+            {
+                "Created By": "1691143865250x481074744108582500",
+                "tipo_unidade": "UN",
+                "Created Date": "2025-01-22T13:10:16.132Z",
+                "peso/und": "unidade",
+                "preço novo": 3.99,
+                "estoque": 10000,
+                "Modified Date": "2025-05-21T17:12:57.513Z",
+                "visivel": true,
+                "nome": "Coentro em pó 10 g Jhocan",
+                "preço antigo": 3.99,
+                "_id": "1737551343277x675662939712913400",
+                "em oferta": false,
+                "categorias_produto": [
+                    "Empório"
+                ],
+                "cod": "7898567051107",
+                "desconto": 0,
+                "demanda": 2
+            },
+            {
+                "Created By": "1691143865250x481074744108582500",
+                "estoque": 10000,
+                "tipo_unidade": "UN",
+                "preço antigo": 3.99,
+                "cod": "7898567050247",
+                "demanda": 0,
+                "preço novo": 3.99,
+                "Modified Date": "2025-05-21T17:13:06.271Z",
+                "em oferta": false,
+                "peso/und": "unidade",
+                "Created Date": "2025-01-22T13:12:04.961Z",
+                "visivel": true,
+                "nome": "Colorífico 30 g Jhocan",
+                "categorias_produto": [
+                    "Empório"
+                ],
+                "_id": "1737551452054x518774637321519100",
+                "desconto": 0
+            },
+            {
+                "Modified Date": "2025-05-21T17:13:06.298Z",
+                "tipo_unidade": "UN",
+                "visivel": true,
+                "em oferta": false,
+                "demanda": 0,
+                "estoque": 10000,
+                "cod": "7898567051060",
+                "desconto": 0,
+                "peso/und": "unidade",
+                "Created By": "1691143865250x481074744108582500",
+                "preço novo": 3.99,
+                "preço antigo": 3.99,
+                "Created Date": "2025-01-22T13:14:00.757Z",
+                "categorias_produto": [
+                    "Empório"
+                ],
+                "nome": "Páprica picante 20 g Jhocan",
+                "_id": "1737551567884x659991589280546800"
+            },
+            {
+                "categorias_produto": [
+                    "Empório"
+                ],
+                "visivel": true,
+                "tipo_unidade": "UN",
+                "demanda": 0,
+                "preço novo": 3.99,
+                "Created By": "1691143865250x481074744108582500",
+                "nome": "Louro em pó 10 g Jhocan",
+                "Created Date": "2025-01-22T13:15:11.058Z",
+                "peso/und": "unidade",
+                "cod": "7898567050322",
+                "Modified Date": "2025-05-21T17:13:06.326Z",
+                "desconto": 0,
+                "_id": "1737551637981x849941629886267400",
+                "preço antigo": 3.99,
+                "em oferta": false,
+                "estoque": 10000
+            },
+            {
+                "Created By": "1691143865250x481074744108582500",
+                "tipo_unidade": "UN",
+                "preço novo": 3.99,
+                "em oferta": false,
+                "estoque": 10000,
+                "nome": "Pimenta Calabresa 10 g Jhocan",
+                "Created Date": "2025-01-22T13:16:06.853Z",
+                "preço antigo": 3.99,
+                "peso/und": "unidade",
+                "cod": "7898567050346",
+                "Modified Date": "2025-05-21T17:13:06.353Z",
+                "desconto": 0,
+                "visivel": true,
+                "_id": "1737551693972x923916852694089700",
+                "demanda": 0,
+                "categorias_produto": [
+                    "Empório"
+                ]
+            },
+            {
+                "Created By": "1691143865250x481074744108582500",
+                "_id": "1737551811151x211067748068884500",
+                "nome": "Bicarbonato 30 g Jhocan",
+                "como armazenar": " ",
+                "categorias_produto": [
+                    "Empório"
+                ],
+                "cod": "789856",
+                "desconto": 0,
+                "visivel": false,
+                "tipo_unidade": "UN",
+                "preço antigo": 3.99,
+                "ordem_prateleira": 1,
+                "peso/und": "unidade",
+                "demanda": 0,
+                "preço novo": 3.99,
+                "Modified Date": "2025-10-23T14:09:13.114Z",
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1761228547203x584115454946620900/download.jpg"
+                ],
+                "estoque": -10000,
+                "Created Date": "2025-01-22T13:18:04.088Z",
+                "info nutricional": " ",
+                "peso por unidade": 300,
+                "em oferta": false
+            },
+            {
+                "Modified Date": "2025-05-21T17:13:06.409Z",
+                "peso/und": "unidade",
+                "nome": "Pimenta do reino em grão 10 g Jhocan ",
+                "_id": "1737551873977x107787259802812420",
+                "desconto": 0,
+                "preço novo": 3.99,
+                "tipo_unidade": "UN",
+                "em oferta": false,
+                "demanda": 0,
+                "categorias_produto": [
+                    "Empório"
+                ],
+                "Created By": "1691143865250x481074744108582500",
+                "preço antigo": 3.99,
+                "Created Date": "2025-01-22T13:19:06.886Z",
+                "cod": "7898567050957",
+                "visivel": true,
+                "estoque": 10000
+            },
+            {
+                "categorias_produto": [
+                    "Empório"
+                ],
+                "nome": "Alecrim em pó 10 g Jhocan",
+                "tipo_unidade": "UN",
+                "cod": "7898567050315",
+                "em oferta": false,
+                "estoque": 10000,
+                "_id": "1737551963829x907445509545525200",
+                "Modified Date": "2025-05-21T17:13:06.441Z",
+                "peso/und": "unidade",
+                "desconto": 0,
+                "preço novo": 3.99,
+                "demanda": 0,
+                "Created By": "1691143865250x481074744108582500",
+                "Created Date": "2025-01-22T13:20:36.713Z",
+                "visivel": true,
+                "preço antigo": 3.99
+            },
+            {
+                "desconto": 0,
+                "em oferta": false,
+                "tipo_unidade": "UN",
+                "preço novo": 3.99,
+                "Created By": "1691143865250x481074744108582500",
+                "Modified Date": "2025-05-21T17:13:06.472Z",
+                "cod": "789856705285",
+                "_id": "1737552033871x456115447259725800",
+                "estoque": 10000,
+                "demanda": 0,
+                "visivel": true,
+                "categorias_produto": [
+                    "Empório"
+                ],
+                "Created Date": "2025-01-22T13:21:46.756Z",
+                "nome": "Açafrão 20 g Jhocan",
+                "preço antigo": 3.99,
+                "peso/und": "unidade"
+            },
+            {
+                "tipo_unidade": "UN",
+                "nome": "Coentro em grão 10 g Jhocan",
+                "preço novo": 3.99,
+                "visivel": true,
+                "Modified Date": "2025-05-21T17:13:06.505Z",
+                "demanda": 0,
+                "Created Date": "2025-01-22T13:22:59.526Z",
+                "preço antigo": 3.99,
+                "categorias_produto": [
+                    "Empório"
+                ],
+                "em oferta": false,
+                "desconto": 0,
+                "_id": "1737552106589x897693294676934700",
+                "peso/und": "unidade",
+                "estoque": 10000,
+                "cod": "7898567050995",
+                "Created By": "1691143865250x481074744108582500"
+            },
+            {
+                "peso/und": "unidade",
+                "visivel": true,
+                "cod": "7898567050339",
+                "_id": "1737552169622x333228976100605950",
+                "nome": "Cominho em pó 30 g Jhocan",
+                "demanda": 0,
+                "desconto": 0,
+                "tipo_unidade": "UN",
+                "Created By": "1691143865250x481074744108582500",
+                "estoque": 10000,
+                "categorias_produto": [
+                    "Empório"
+                ],
+                "preço novo": 3.99,
+                "Modified Date": "2025-05-21T17:13:06.539Z",
+                "Created Date": "2025-01-22T13:24:02.510Z",
+                "preço antigo": 3.99,
+                "em oferta": false
+            },
+            {
+                "estoque": 10000,
+                "Created Date": "2025-01-22T13:24:28.105Z",
+                "preço novo": 3.99,
+                "desconto": 0,
+                "Modified Date": "2025-05-21T17:13:06.552Z",
+                "demanda": 0,
+                "cod": "7898567051121",
+                "Created By": "1691143865250x481074744108582500",
+                "visivel": true,
+                "peso/und": "unidade",
+                "preço antigo": 3.99,
+                "em oferta": false,
+                "_id": "1737552195176x939596020926120000",
+                "tipo_unidade": "UN",
+                "categorias_produto": [
+                    "Empório"
+                ],
+                "nome": "Noz moscada em bola Jhocan 2 un "
+            },
+            {
+                "Created Date": "2025-01-22T13:25:58.873Z",
+                "Modified Date": "2025-05-21T17:13:06.579Z",
+                "preço antigo": 3.99,
+                "desconto": 0,
+                "estoque": 10000,
+                "tipo_unidade": "UN",
+                "categorias_produto": [
+                    "Empório"
+                ],
+                "visivel": true,
+                "_id": "1737552285974x662598344698232800",
+                "nome": "Pimenta do reino em pó 10 g Jhocan",
+                "peso/und": "unidade",
+                "em oferta": false,
+                "demanda": 0,
+                "cod": "7898567050377",
+                "Created By": "1691143865250x481074744108582500",
+                "preço novo": 3.99
+            },
+            {
+                "Created Date": "2025-01-22T13:27:07.346Z",
+                "cod": "7898567050308",
+                "nome": "Alho desidratado 20 g Jhocan ",
+                "demanda": 0,
+                "peso/und": "unidade",
+                "em oferta": false,
+                "preço antigo": 3.99,
+                "_id": "1737552354407x361509028120494100",
+                "tipo_unidade": "UN",
+                "Created By": "1691143865250x481074744108582500",
+                "Modified Date": "2025-05-21T17:13:06.608Z",
+                "estoque": 10000,
+                "visivel": true,
+                "categorias_produto": [
+                    "Empório"
+                ],
+                "desconto": 0,
+                "preço novo": 3.99
+            },
+            {
+                "preço antigo": 3.99,
+                "Modified Date": "2025-05-21T17:13:06.617Z",
+                "peso/und": "unidade",
+                "cod": "7898567050308",
+                "visivel": true,
+                "em oferta": false,
+                "Created Date": "2025-01-22T13:28:28.673Z",
+                "preço novo": 3.99,
+                "desconto": 0,
+                "estoque": 10000,
+                "demanda": 0,
+                "_id": "1737552435684x621073917172514800",
+                "tipo_unidade": "UN",
+                "nome": "Alho desidratado 20 g Jhocan ",
+                "Created By": "1691143865250x481074744108582500"
+            },
+            {
+                "peso/und": "unidade",
+                "nome": "Granola Sou Fit Nutri 250 g Tradicional ",
+                "cod": "779222",
+                "estoque": -9995,
+                "categorias_produto": [
+                    "Empório"
+                ],
+                "preço novo": 19.99,
+                "em oferta": false,
+                "preço antigo": 19.99,
+                "Created Date": "2025-01-22T13:41:03.081Z",
+                "_id": "1737553262806x693487013679857700",
+                "demanda": 4,
+                "peso por unidade": 200,
+                "visivel": false,
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1737553758458x443456236242167900/Embalagem-7.png"
+                ],
+                "Modified Date": "2025-10-23T14:10:32.556Z",
+                "Created By": "1691143865250x481074744108582500",
+                "tipo_unidade": "UN",
+                "desconto": 0
+            },
+            {
+                "Created Date": "2025-01-22T13:49:38.809Z",
+                "nome": "Granola Low Carb CocoFit Sou Fit Nutri 250 g Tradicional ",
+                "estoque": -9990,
+                "peso/und": "unidade",
+                "demanda": 5,
+                "cod": "779222",
+                "_id": "1737553778604x619461201280892900",
+                "Created By": "1691143865250x481074744108582500",
+                "desconto": 0,
+                "tipo_unidade": "UN",
+                "Modified Date": "2025-10-23T14:10:56.702Z",
+                "em oferta": false,
+                "preço novo": 19.99,
+                "categorias_produto": [
+                    "Empório"
+                ],
+                "preço antigo": 19.99,
+                "visivel": false,
+                "peso por unidade": 200,
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1737553907605x202444748233483680/Embalagem-4.png"
+                ]
+            },
+            {
+                "preço antigo": 19.99,
+                "Modified Date": "2025-10-23T14:11:10.522Z",
+                "categorias_produto": [
+                    "Empório"
+                ],
+                "tipo_unidade": "UN",
+                "estoque": -9998,
+                "desconto": 0,
+                "Created By": "1691143865250x481074744108582500",
+                "cod": "779222",
+                "demanda": 2,
+                "peso/und": "unidade",
+                "_id": "1737553916662x124341701483429890",
+                "visivel": false,
+                "em oferta": false,
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1737554032203x800592156101030500/images%20%282%29.jpg"
+                ],
+                "preço novo": 19.99,
+                "peso por unidade": 200,
+                "nome": "Granola Sou Fit Nutri 250 g Peanut",
+                "Created Date": "2025-01-22T13:51:57.004Z"
+            },
+            {
+                "Created By": "1691143865250x481074744108582500",
+                "visivel": false,
+                "demanda": 1,
+                "peso/und": "unidade",
+                "categorias_produto": [
+                    "Empório"
+                ],
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1737554120652x338415506977085600/Embalagem-6-300x300.png"
+                ],
+                "cod": "792224",
+                "tipo_unidade": "UN",
+                "nome": "Granola Sou Fit Nutri 250 g Choconut",
+                "estoque": -9998,
+                "peso por unidade": 200,
+                "Created Date": "2025-01-22T13:54:01.470Z",
+                "preço novo": 19.99,
+                "desconto": 0,
+                "_id": "1737554041276x511844728134696960",
+                "preço antigo": 19.99,
+                "em oferta": false,
+                "Modified Date": "2025-10-23T14:11:22.724Z"
+            },
+            {
+                "_id": "1737554130563x487875899427389400",
+                "cod": "789010",
+                "peso/und": "unidade",
+                "preço novo": 29.99,
+                "preço antigo": 29.99,
+                "demanda": 1,
+                "tipo_unidade": "UN",
+                "peso por unidade": 500,
+                "visivel": false,
+                "em oferta": false,
+                "estoque": -9999,
+                "Modified Date": "2025-10-23T14:11:38.001Z",
+                "Created By": "1691143865250x481074744108582500",
+                "desconto": 0,
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1737554261129x966185762857758000/Coconut.jpg"
+                ],
+                "Created Date": "2025-01-22T13:55:30.800Z",
+                "nome": "Granola Sou Fit Nutri 500 g Coconut",
+                "categorias_produto": [
+                    "Empório"
+                ]
+            },
+            {
+                "preço novo": 29.99,
+                "desconto": 0,
+                "_id": "1737554270272x287139109596037100",
+                "peso/und": "unidade",
+                "Created By": "1691143865250x481074744108582500",
+                "estoque": -9998,
+                "demanda": 0,
+                "Created Date": "2025-01-22T13:57:50.698Z",
+                "Modified Date": "2025-10-23T14:12:05.779Z",
+                "preço antigo": 29.99,
+                "visivel": false,
+                "tipo_unidade": "UN",
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1737554349807x548386838091431900/Dark-300x300.jpg"
+                ],
+                "nome": "Granola Sou Fit Nutri 500 g Dark Chocolate",
+                "em oferta": false,
+                "cod": "779222",
+                "peso por unidade": 500,
+                "categorias_produto": [
+                    "Empório"
+                ]
+            },
+            {
+                "Modified Date": "2025-10-23T14:12:24.155Z",
+                "peso por unidade": 500,
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1737554474511x793749557513552500/Nuts.jpg"
+                ],
+                "Created By": "1691143865250x481074744108582500",
+                "desconto": 0,
+                "Created Date": "2025-01-22T13:58:02.523Z",
+                "cod": "779222",
+                "_id": "1737554282244x997529044775075800",
+                "tipo_unidade": "UN",
+                "nome": "Granola Sou Fit Nutri 500 g Nuts e Cranberry",
+                "estoque": -9999,
+                "visivel": false,
+                "preço novo": 29.99,
+                "categorias_produto": [
+                    "Empório"
+                ],
+                "demanda": 0,
+                "em oferta": false,
+                "preço antigo": 29.99,
+                "peso/und": "unidade"
+            },
+            {
+                "cod": "0192505115737",
+                "preço novo": 5.99,
+                "Created By": "1691143865250x481074744108582500",
+                "tipo_unidade": "UN",
+                "categorias_produto": [
+                    "Empório"
+                ],
+                "visivel": true,
+                "estoque": 10000,
+                "nome": "Mulungú 50 g Saúde Plena ",
+                "Created Date": "2025-01-22T13:59:17.946Z",
+                "_id": "1737554357738x914900357181603800",
+                "demanda": 0,
+                "Modified Date": "2025-05-21T17:13:06.720Z",
+                "desconto": 0,
+                "preço antigo": 5.99,
+                "em oferta": false,
+                "peso/und": "unidade"
+            },
+            {
+                "cod": "019250",
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1741794669987x913252088242980500/ST%C3%89VIA%2030G.JPG"
+                ],
+                "preço antigo": 6.99,
+                "Created Date": "2025-01-22T14:01:24.859Z",
+                "demanda": 0,
+                "peso por unidade": 30,
+                "categorias_produto": [
+                    "Empório"
+                ],
+                "_id": "1737554484485x259327402507501570",
+                "tipo_unidade": "UN",
+                "Modified Date": "2025-05-21T17:13:06.730Z",
+                "Created By": "1691143865250x481074744108582500",
+                "desconto": 0,
+                "nome": "Stévia Folhas 30 g Saúde Plena ",
+                "estoque": 10000,
+                "visivel": true,
+                "em oferta": false,
+                "preço novo": 6.99,
+                "peso/und": "unidade"
+            },
+            {
+                "demanda": 0,
+                "Modified Date": "2025-09-01T17:21:11.779Z",
+                "Created By": "1691143865250x481074744108582500",
+                "estoque": 9999,
+                "visivel": true,
+                "peso por unidade": 20,
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1741793920394x608078042391946800/INSULINA%20FOLFAS%2020G.JPG"
+                ],
+                "tipo_unidade": "UN",
+                "_id": "1737554553995x547486390104358900",
+                "categorias_produto": [
+                    "Empório"
+                ],
+                "desconto": 0,
+                "preço novo": 6.99,
+                "Created Date": "2025-01-22T14:02:34.311Z",
+                "nome": "Insulina 20 g Saúde Plena ",
+                "peso/und": "unidade",
+                "em oferta": false,
+                "cod": "019250",
+                "preço antigo": 6.99
+            },
+            {
+                "cod": "0192505114518",
+                "Created By": "1691143865250x481074744108582500",
+                "visivel": true,
+                "demanda": 0,
+                "Created Date": "2025-01-22T14:03:36.947Z",
+                "estoque": 10000,
+                "preço novo": 3.99,
+                "Modified Date": "2025-05-21T17:13:06.769Z",
+                "nome": "Banchá 45 g Saúde Plena ",
+                "tipo_unidade": "UN",
+                "peso/und": "unidade",
+                "categorias_produto": [
+                    "Empório"
+                ],
+                "em oferta": false,
+                "preço antigo": 3.99,
+                "desconto": 0,
+                "_id": "1737554616736x791074820756602900"
+            },
+            {
+                "Created By": "1691143865250x481074744108582500",
+                "cod": "019250",
+                "categorias_produto": [
+                    "Empório"
+                ],
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1741794114183x473092471057341400/PATA%20DE%20VACA%2020G.JPG"
+                ],
+                "tipo_unidade": "UN",
+                "desconto": 0,
+                "visivel": true,
+                "peso/und": "unidade",
+                "_id": "1737554690610x499224860267642900",
+                "estoque": 10000,
+                "Created Date": "2025-01-22T14:04:50.955Z",
+                "peso por unidade": 20,
+                "demanda": 0,
+                "Modified Date": "2025-05-21T17:13:06.780Z",
+                "nome": "Pata de vaca 20 g Saúde Plena ",
+                "preço novo": 4.99,
+                "em oferta": false
+            },
+            {
+                "estoque": 10000,
+                "categorias_produto": [
+                    "Empório"
+                ],
+                "desconto": 0,
+                "peso por unidade": 20,
+                "preço novo": 6.99,
+                "tipo_unidade": "UN",
+                "Created Date": "2025-01-22T14:06:00.475Z",
+                "em oferta": false,
+                "demanda": 0,
+                "preço antigo": 6.99,
+                "nome": "Poejo 20 g Saúde Plena ",
+                "cod": "019250",
+                "visivel": true,
+                "Modified Date": "2025-05-21T17:13:06.789Z",
+                "_id": "1737554760249x817677239775920100",
+                "peso/und": "unidade",
+                "Created By": "1691143865250x481074744108582500",
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1739903019776x637411898667828400/download.png"
+                ]
+            },
+            {
+                "_id": "1737554836640x655525604635443200",
+                "Modified Date": "2025-05-21T17:13:06.799Z",
+                "cod": "019250",
+                "estoque": 10000,
+                "desconto": 0,
+                "Created By": "1691143865250x481074744108582500",
+                "peso/und": "unidade",
+                "nome": "Erva de bicho 25 g Saúde Plena ",
+                "visivel": true,
+                "preço novo": 4.99,
+                "em oferta": false,
+                "Created Date": "2025-01-22T14:07:17.064Z",
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1741792494989x533179925441756600/ERVA%20DE%20BICHO%2025G.JPG"
+                ],
+                "preço antigo": 4.99,
+                "peso por unidade": 25,
+                "categorias_produto": [
+                    "Empório"
+                ],
+                "demanda": 0,
+                "tipo_unidade": "UN"
+            },
+            {
+                "estoque": 9990,
+                "desconto": -25.0312891113892,
+                "Created Date": "2025-01-22T14:08:26.266Z",
+                "categorias_produto": [
+                    "Empório"
+                ],
+                "demanda": 2,
+                "peso por unidade": 250,
+                "nome": "Açúcar mascavo 500 g Saúde Plena ",
+                "_id": "1737554905481x693083875996074000",
+                "Created By": "1691143865250x481074744108582500",
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1741802404226x409998196568572600/a%C3%A7ucar%20mascavo.JPG"
+                ],
+                "cod": "019250",
+                "preço antigo": 7.99,
+                "peso/und": "unidade",
+                "visivel": true,
+                "Modified Date": "2026-02-19T14:16:01.913Z",
+                "preço novo": 9.99,
+                "tipo_unidade": "UN",
+                "em oferta": false
+            }
+        ],
+        "count": 100,
+        "remaining": 309
+    }
+}

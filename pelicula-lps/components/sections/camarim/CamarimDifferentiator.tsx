@@ -25,13 +25,13 @@ export default function CamarimDifferentiator() {
             Consumir sozinho
           </span>
           <h3 className="font-display text-xl md:text-2xl font-semibold mb-3 text-text-soft">
-            Acumular informação
+            Você sabe coisas. Mas não avança.
           </h3>
           <p className="text-text-soft text-sm leading-relaxed">
             Ler artigos genéricos, ver vídeos de horóscopo, anotar fragmentos sem
             saber como conectar. Sem prática guiada, sem troca, sem alguém que
             responda &ldquo;sim, é isso&rdquo; ou &ldquo;olha por esse outro
-            ângulo&rdquo;. Você sabe coisas, mas não avança.
+            ângulo&rdquo;. A informação acumula, mas a leitura não evolui.
           </p>
         </div>
 
@@ -42,13 +42,13 @@ export default function CamarimDifferentiator() {
             Aprofundar no Camarim
           </span>
           <h3 className="font-display text-xl md:text-2xl font-semibold mb-3">
-            Praticar com método
+            Você lê o céu. E entende o que vê.
           </h3>
           <p className="text-text-soft text-sm leading-relaxed">
             Toda semana, Victor abre o mapa do céu ao vivo e mostra como os
             trânsitos afetam o seu mapa. Você pergunta, troca com outros
             membros, recebe conteúdo exclusivo e vê sua leitura evoluir
-            semanalmente. Não é consumir — é praticar.
+            semana a semana. Não é consumir — é praticar.
           </p>
         </div>
       </div>

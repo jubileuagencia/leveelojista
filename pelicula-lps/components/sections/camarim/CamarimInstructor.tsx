@@ -23,7 +23,7 @@ export default function CamarimInstructor() {
             />
           </div>
           <p className="font-mono text-xs text-text-muted mt-3">
-            Astrólogo, cineasta e criador do Camarim Sideral
+            Astrólogo. Documentarista. Criador do Película Sideral.
           </p>
         </div>
 

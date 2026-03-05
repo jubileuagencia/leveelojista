@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Script from "next/script";
 import { Playfair_Display, Inter, Space_Mono } from "next/font/google";
 import "./globals.css";
 
@@ -37,6 +38,14 @@ export default function RootLayout({
       className={`${playfair.variable} ${inter.variable} ${spaceMono.variable}`}
     >
       <body>{children}</body>
+      {/* Pixel X App — rastreamento integrado com Meta Ads */}
+      <Script
+        id="pixel-x"
+        strategy="afterInteractive"
+        dangerouslySetInnerHTML={{
+          __html: `!function(){var e=window.location.href,t=document.title,n=Date.now(),o=document.createElement('script');o.src='https://pxa.peliculasideral.com.br/remote?url='+encodeURIComponent(e)+'&title='+encodeURIComponent(t)+'&time='+n,o.async=!0,document.head.appendChild(o)}()`,
+        }}
+      />
     </html>
   );
 }

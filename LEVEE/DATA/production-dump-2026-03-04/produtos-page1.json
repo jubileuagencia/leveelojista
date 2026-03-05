@@ -1,0 +1,3297 @@
+{
+    "response": {
+        "cursor": 0,
+        "results": [
+            {
+                "categorias_produto": [
+                    "Frutas"
+                ],
+                "visivel": true,
+                "cod": "019250",
+                "Modified Date": "2026-03-04T17:34:22.981Z",
+                "ordem_prateleira": 79,
+                "tipo_unidade": "KG",
+                "info nutricional": "Porção: 100g\nValor Energético: 160kcal\nCarboidratos: 8,5g - dos quais:\n Açúcares: 0,7g\nGorduras Totais: 14,7g - das quais:\n Gorduras Saturadas: 2,1g\n Gorduras Trans: 0g\nProteínas: 2g\nFibra Alimentar: 6,7g\nSódio: 7mg\nVitaminas: C, K, E, B6, B9 (Folato), A\nMinerais: Potássio, Magnésio, Manganês, Cobre.",
+                "como armazenar": "Maturação: Em temperatura ambiente até ficar macio. Geladeira: Depois de maduro, em saco plástico. Durabilidade: 5-7 dias (maduro)",
+                "estoque": 99999575505,
+                "Created By": "admin_user_levee-delivery_test",
+                "_id": "1721092727066x746441794684766100",
+                "peso por unidade": 514,
+                "demanda": 171,
+                "descriçao": "Descrição: Fruto de casca verde-escura e polpa verde-clara cremosa, com um caroço grande no centro. Rico em gorduras saudáveis, vitaminas e minerais.\nRegião: Cultivado em diversas regiões tropicais e subtropicais do Brasil, como São Paulo, Minas Gerais e Espírito Santo.\nÉpoca do ano: Disponível o ano todo, com safras principais variando conforme a região.\nReceitas: Guacamole, saladas, vitaminas, molhos, recheios para sanduíches e wraps, mousse de abacate, sorvetes.\nModo de uso: Consumir maduro, quando a casca cede levemente à pressão.",
+                "nome": "Abacate",
+                "ean": "0000000000200",
+                "preço por kg": 4.666541606,
+                "relacionados": [
+                    "1721092727069x127173121479758450"
+                ],
+                "peso/und": "peso",
+                "Created Date": "2024-07-16T01:18:47.066Z",
+                "em oferta": false,
+                "preço novo": 6.99,
+                "desconto": 58.8581518540318,
+                "preço antigo": 16.99,
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1719347579195x824633509565776400/Abacate%20Geada.jpg"
+                ]
+            },
+            {
+                "preço antigo": 12.99,
+                "tipo_unidade": "UN",
+                "descriçao": "Abacaxi de tamanho grande, ideal para consumo em família ou para o preparo de sucos e receitas. Assim como o abacaxi fatiado, é rico em vitamina C e bromelina. Receitas: Suco, mousse, bolo, carnes. Usos: Consumir in natura, em receitas doces e salgadas.",
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1719347579699x328235041633633000/Abacaxi.jpg"
+                ],
+                "demanda": 126,
+                "nome": "Abacaxi Graudo 800g",
+                "categorias_produto": [
+                    "Frutas"
+                ],
+                "preço novo": 10.99,
+                "como armazenar": "Maturação: Em temperatura ambiente até ficar perfumado. Geladeira: Depois de cortado. Durabilidade: 5-7 dias (inteiro), 3-5 dias (cortado)",
+                "cod": "000208",
+                "Created Date": "2024-07-16T01:18:47.068Z",
+                "_id": "1721092727068x713541497155184800",
+                "relacionados": [
+                    "1721092727077x212450624300122750"
+                ],
+                "Created By": "admin_user_levee-delivery_test",
+                "desconto": 15.3964588144727,
+                "visivel": true,
+                "ean": "0000000000205",
+                "Modified Date": "2026-03-04T14:44:48.731Z",
+                "peso/und": "unidade",
+                "peso por unidade": 800,
+                "estoque": 99493
+            },
+            {
+                "Created Date": "2024-07-16T01:18:47.069Z",
+                "categorias_produto": [
+                    "Frutas"
+                ],
+                "desconto": 0,
+                "_id": "1721092727069x127173121479758450",
+                "como armazenar": "Maturação: Igual ao abacate (código 202).",
+                "peso por unidade": 180,
+                "peso/und": "peso",
+                "Modified Date": "2026-03-02T11:02:54.631Z",
+                "relacionados": [
+                    "1721092727066x746441794684766100"
+                ],
+                "preço antigo": 39.99,
+                "preço por kg": 19.99411765,
+                "tipo_unidade": "KG",
+                "descriçao": "Originário do México e da América Central, o abacate é uma fruta rica em gordura monoinsaturada (a gordura \"boa\"), fibras, vitaminas e minerais. Receitas: Guacamole, saladas, vitaminas, sushi. Usos: Pode ser consumido cru, em purês, molhos e sobremesas.",
+                "estoque": 7944,
+                "cod": "001748",
+                "preço novo": 39.99,
+                "info nutricional": "Por 100g:\n- Calorias: 160kcal\n- Gordura Total: 15g (23% VD*)\n- Gordura Saturada: 2,1g (10% VD)\n- Gordura Monoinsaturada: 9,8g\n- Gordura Poli-insaturada: 1,7g\n- Colesterol: 0mg (0% VD)\n- Sódio: 7mg (0% VD)\n- Carboidratos: 9g (3% VD)\n- Fibra Alimentar: 7g (28% VD)\n- Açúcar: 0,7g\n- Proteína: 2g (4% VD)\nVitaminas:\n- Vitamina C: 10mg (11% VD)\n- Vitamina K: 21mcg (17% VD)\n- Folato: 81mcg (20% VD)\n- Vitamina A: 146 UI (3% VD)\n- Vitamina E: 2,1mg (10% VD)\nMinerais:\n- Potássio: 485mg (14% VD)\n- Magnésio: 29mg (7% VD)\n*% Valores Diários (VD) com base em uma dieta de 2.000kcal.",
+                "demanda": 64,
+                "nome": "Abacate Avocado",
+                "ean": "0000000006040",
+                "Created By": "admin_user_levee-delivery_test",
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1719347578740x124586306701705460/Abacate%20Avocado.jpg"
+                ],
+                "ordem_prateleira": 68,
+                "visivel": true
+            },
+            {
+                "tipo_unidade": "UN",
+                "info nutricional": "Por 100g:\n- Calorias: 50kcal\n- Carboidratos: 13g\n- Açúcar: 10g\n- Fibra: 2g\n- Proteína: 0.5g\n- Gordura: 0.1g\nVitaminas:\n- Vitamina C: 48mg (53% VD)\n- Manganês: 0.9mg (45% VD)\n- Vitamina B6: 0.1mg (6% VD)\n- Tiamina: 0.1mg (6% VD)\n- Cobre: 0.1mg (5% VD)\nMinerais:\n- Potássio: 109mg (3% VD)\n- Magnésio: 12mg (3% VD)",
+                "categorias_produto": [
+                    "Frutas",
+                    "Higienizados"
+                ],
+                "demanda": 636,
+                "em oferta": true,
+                "Created By": "admin_user_levee-delivery_test",
+                "visivel": true,
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1736175100831x244123093354164260/20241205_102318.JPG"
+                ],
+                "desconto": 17.657445556209524,
+                "preço novo": 13.99,
+                "cod": "000207",
+                "Created Date": "2024-07-16T01:18:47.077Z",
+                "nome": "Abacaxi Fatiado 500g",
+                "_id": "1721092727077x212450624300122750",
+                "peso por unidade": 500,
+                "ean": "0000000000204",
+                "como armazenar": "Geladeira: Em recipiente fechado. Durabilidade: 3-5 dias",
+                "estoque": 97276,
+                "Modified Date": "2026-03-04T16:50:33.039Z",
+                "preço antigo": 16.99,
+                "descriçao": "Abacaxi já descascado e fatiado, pronto para consumo. Originário da América do Sul, é rico em vitamina C e bromelina, enzima que auxilia na digestão. Receitas: Salada de frutas, bolos, sucos, acompanhamento para carnes. Usos: Consumir in natura, em receitas doces e salgadas.",
+                "relacionados": [
+                    "1721092727068x713541497155184800"
+                ],
+                "peso/und": "unidade"
+            },
+            {
+                "descriçao": "Abóbora de formato arredondado e achatado, com casca alaranjada e polpa firme. Originária da América Central, é rica em vitamina A e fibras. Receitas: Sopa, purê, bolo, recheada. Usos: Cozinhar, assar, refogar.",
+                "relacionados": [
+                    "1721092727080x193708771527431260",
+                    "1721092727079x556390280198436000",
+                    "1721092727090x725651468951294300",
+                    "1721092727082x166314517748969300",
+                    "1721092727084x845331185035103700",
+                    "1721092727085x190964536574032900",
+                    "1721092727086x647798335796284400",
+                    "1721092727088x369002913713550850",
+                    "1721092988177x626843512773856300"
+                ],
+                "demanda": 42,
+                "tipo_unidade": "KG",
+                "Modified Date": "2026-02-25T14:21:53.625Z",
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1719835223342x888429511604263800/abobora%20moranga.png"
+                ],
+                "info nutricional": "Por 100g:\n- Calorias: 44kcal\n- Carboidratos: 11g\n- Açúcar: 5g\n- Fibra: 1g\n- Proteína: 1g\n- Gordura: 0.2g\nVitaminas:\n- Vitamina A: 20000 UI (400% VD)\n- Vitamina C: 9mg (10% VD)\n- Potássio: 340mg (10% VD)\nMinerais:\n- Manganês: 0.1mg (5% VD)",
+                "peso por unidade": 1982,
+                "preço antigo": 3.99,
+                "como armazenar": "Temperatura ambiente: Local fresco e seco. Durabilidade: Meses",
+                "Created Date": "2024-07-16T01:18:47.078Z",
+                "_id": "1721092727078x299520345889343400",
+                "em oferta": false,
+                "categorias_produto": [
+                    "Legumes"
+                ],
+                "Created By": "admin_user_levee-delivery_test",
+                "preço novo": 4.99,
+                "desconto": -25.062656641604,
+                "preço por kg": 4.990046173,
+                "visivel": true,
+                "cod": "000077",
+                "nome": "Abóbora Moranga",
+                "peso/und": "peso",
+                "ean": "0000000000074",
+                "estoque": 7544974
+            },
+            {
+                "_id": "1721092727079x556390280198436000",
+                "descriçao": "Abóbora de tamanho pequeno, com casca e polpa alaranjadas. É rica em vitamina A e carotenoides. Receitas: Assada, recheada, purê, sopa. Usos: Cozinhar, assar, refogar.",
+                "Created Date": "2024-07-16T01:18:47.079Z",
+                "relacionados": [
+                    "1721092727078x299520345889343400",
+                    "1721092727080x193708771527431260",
+                    "1721092727090x725651468951294300",
+                    "1721092727082x166314517748969300",
+                    "1721092727084x845331185035103700",
+                    "1721092727085x190964536574032900",
+                    "1721092727086x647798335796284400",
+                    "1721092727088x369002913713550850",
+                    "1721092988177x626843512773856300"
+                ],
+                "cod": "000076",
+                "desconto": 0,
+                "peso/und": "peso",
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1719347647953x548653050075196240/Ab%C3%B3bora%20Menina%20%20%20Kg.jpg"
+                ],
+                "preço antigo": 7.99,
+                "tipo_unidade": "KG",
+                "visivel": false,
+                "como armazenar": "Temperatura ambiente: Local fresco e seco. Durabilidade: Várias semanas",
+                "peso por unidade": 508,
+                "Created By": "admin_user_levee-delivery_test",
+                "demanda": 15,
+                "categorias_produto": [
+                    "Legumes"
+                ],
+                "Modified Date": "2026-01-21T16:35:18.186Z",
+                "preço novo": 7.99,
+                "nome": "Abóbora Menina",
+                "ean": "0000000000073",
+                "estoque": -75711,
+                "preço por kg": 7.21
+            },
+            {
+                "relacionados": [
+                    "1721092727078x299520345889343400",
+                    "1721092727079x556390280198436000",
+                    "1721092727090x725651468951294300",
+                    "1721092727082x166314517748969300",
+                    "1721092727084x845331185035103700",
+                    "1721092727085x190964536574032900",
+                    "1721092727086x647798335796284400",
+                    "1721092727088x369002913713550850",
+                    "1721092988177x626843512773856300"
+                ],
+                "categorias_produto": [
+                    "Legumes"
+                ],
+                "preço por kg": 4.99,
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1719835205412x764772868531218000/abobora%20jacare.jfif"
+                ],
+                "descriçao": "Originária da América Central, possui casca verde com textura rugosa semelhante à pele de um jacaré. De sabor suave, é rica em vitamina A e fibras. Receitas: Sopa, purê, pão, bolo. Usos: Cozinhar, assar, refogar.",
+                "ean": "0000000000072",
+                "peso por unidade": 1000,
+                "tipo_unidade": "KG",
+                "demanda": 7,
+                "visivel": false,
+                "desconto": 0,
+                "Created Date": "2024-07-16T01:18:47.080Z",
+                "_id": "1721092727080x193708771527431260",
+                "nome": "Abóbora Jacaré",
+                "preço novo": 4.99,
+                "Modified Date": "2025-12-15T00:44:30.374Z",
+                "Created By": "admin_user_levee-delivery_test",
+                "estoque": -91000,
+                "como armazenar": "Temperatura ambiente: Local fresco e seco. Durabilidade: Várias semanas",
+                "preço antigo": 4.99,
+                "cod": "000075",
+                "peso/und": "peso"
+            },
+            {
+                "Created By": "admin_user_levee-delivery_test",
+                "tipo_unidade": "KG",
+                "preço novo": 12.99,
+                "preço por kg": 12.99,
+                "Created Date": "2024-07-16T01:18:47.082Z",
+                "relacionados": [
+                    "1721092727078x299520345889343400",
+                    "1721092727079x556390280198436000",
+                    "1721092727080x193708771527431260",
+                    "1721092727090x725651468951294300",
+                    "1721092727084x845331185035103700",
+                    "1721092727085x190964536574032900",
+                    "1721092727086x647798335796284400",
+                    "1721092727088x369002913713550850",
+                    "1721092988177x626843512773856300"
+                ],
+                "descriçao": "Abóbora de casca verde escura e polpa alaranjada, originária da América do Sul. Possui sabor adocicado e é rica em vitamina A e fibras. Receitas: Sopa, purê, torta, recheio para panquecas. Usos: Cozinhar, assar, refogar.",
+                "visivel": true,
+                "estoque": 91963,
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1719347647675x119033361944174580/Ab%C3%B3bora%20Cabur%C3%A9.jpg"
+                ],
+                "demanda": 0,
+                "_id": "1721092727082x166314517748969300",
+                "nome": "Abóbora Cabure",
+                "Modified Date": "2026-03-04T12:28:50.324Z",
+                "categorias_produto": [
+                    "Legumes"
+                ],
+                "ean": "0000000002684",
+                "peso por unidade": 100,
+                "peso/und": "peso",
+                "como armazenar": "Temperatura ambiente: Local fresco e seco. Durabilidade: Várias semanas",
+                "cod": "001386",
+                "preço antigo": 12.99,
+                "desconto": 0
+            },
+            {
+                "desconto": 0,
+                "_id": "1721092727084x845331185035103700",
+                "estoque": 99733,
+                "demanda": 30,
+                "relacionados": [
+                    "1721092727078x299520345889343400",
+                    "1721092727079x556390280198436000",
+                    "1721092727080x193708771527431260",
+                    "1721092727082x166314517748969300",
+                    "1721092727085x190964536574032900",
+                    "1721092727086x647798335796284400",
+                    "1721092727088x369002913713550850",
+                    "1721092988177x626843512773856300"
+                ],
+                "Created Date": "2024-07-16T01:18:47.084Z",
+                "descriçao": "Abóbora moranga já descascada e fatiada, facilitando o preparo de receitas. Mantém as mesmas propriedades da abóbora moranga inteira. Receitas: Sopa, purê, bolo, recheada. Usos: Cozinhar, assar, refogar.",
+                "preço por kg": 12.99,
+                "Modified Date": "2026-03-04T17:08:30.914Z",
+                "Created By": "admin_user_levee-delivery_test",
+                "visivel": true,
+                "preço novo": 5.99,
+                "cod": "001150",
+                "peso por unidade": 400,
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1736176513207x786023251346002200/20241205_105250.JPG"
+                ],
+                "peso/und": "unidade",
+                "como armazenar": "Geladeira: Em recipiente fechado. Durabilidade: 3-5 dias",
+                "nome": "Abóbora Moranga Fatiada meia lua 400g",
+                "tipo_unidade": "KG",
+                "preço antigo": 5.99,
+                "ean": "0000000001038",
+                "categorias_produto": [
+                    "Legumes",
+                    "Kit Processados"
+                ]
+            },
+            {
+                "Created By": "admin_user_levee-delivery_test",
+                "Modified Date": "2025-12-15T00:44:30.298Z",
+                "peso/und": "peso",
+                "demanda": 3,
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1719835275119x438480925345647400/abobora%20mogango.jfif"
+                ],
+                "tipo_unidade": "KG",
+                "descriçao": "Abóbora de formato alongado, com casca verde escura e polpa alaranjada. De sabor suave, é rica em vitamina A e fibras. Receitas: Sopa, purê, bolo, recheada. Usos: Cozinhar, assar, refogar.",
+                "peso por unidade": 600,
+                "ean": "0000000012089",
+                "estoque": -97345,
+                "preço novo": 4.99,
+                "desconto": -25.062656641604008,
+                "cod": "002408",
+                "nome": "Abóbora Mugango",
+                "como armazenar": "Temperatura ambiente: Local fresco e seco. Durabilidade: Várias semanas",
+                "_id": "1721092727085x190964536574032900",
+                "Created Date": "2024-07-16T01:18:47.085Z",
+                "preço antigo": 3.99,
+                "preço por kg": 3.99,
+                "relacionados": [
+                    "1721092727078x299520345889343400",
+                    "1721092727079x556390280198436000",
+                    "1721092727080x193708771527431260",
+                    "1721092727082x166314517748969300",
+                    "1721092727084x845331185035103700",
+                    "1721092727086x647798335796284400",
+                    "1721092727088x369002913713550850",
+                    "1721092988177x626843512773856300"
+                ],
+                "categorias_produto": [
+                    "Legumes"
+                ],
+                "visivel": false
+            },
+            {
+                "demanda": 72,
+                "cod": "001738",
+                "_id": "1721092727086x647798335796284400",
+                "peso/und": "unidade",
+                "descriçao": "Mistura de abóbora e quiabo embalada a vácuo, ideal para o preparo de acompanhamentos. Combina as propriedades nutritivas de ambos os legumes. Receitas: Refogado, acompanhamento para carnes, angu. Usos: Cozinhar, refogar.",
+                "como armazenar": "Geladeira ou freezer: Depende da data de validade na embalagem. Durabilidade: Verificar embalagem",
+                "peso por unidade": 400,
+                "preço antigo": 6.99,
+                "nome": "Abóbora/Quiabo A Vácuo 400g",
+                "preço por kg": 12.99,
+                "visivel": true,
+                "Modified Date": "2026-03-04T17:08:29.357Z",
+                "categorias_produto": [
+                    "Legumes",
+                    "Higienizados",
+                    "Kit Processados"
+                ],
+                "Created By": "admin_user_levee-delivery_test",
+                "desconto": 0,
+                "Created Date": "2024-07-16T01:18:47.086Z",
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1736176726512x441441168355833500/20241205_104851.JPG"
+                ],
+                "ean": "0000000005944",
+                "preço novo": 6.99,
+                "estoque": 99263,
+                "tipo_unidade": "KG",
+                "relacionados": [
+                    "1721092727078x299520345889343400",
+                    "1721092727079x556390280198436000",
+                    "1721092727080x193708771527431260",
+                    "1721092727082x166314517748969300",
+                    "1721092727084x845331185035103700",
+                    "1721092727085x190964536574032900",
+                    "1721092727088x369002913713550850",
+                    "1721092988177x626843512773856300",
+                    "1721092989277x520458418324323700"
+                ]
+            },
+            {
+                "estoque": 6834,
+                "descriçao": "Abobrinha de formato alongado e fino, com casca verde escura. Originária da Itália, é pouco calórica e rica em vitamina C. Receitas: Saladas, refogados, espaguete de abobrinha, recheada. Usos: Consumir crua, cozinhar, refogar.",
+                "preço por kg": 3.99,
+                "_id": "1721092727088x241572234065111870",
+                "desconto": 0,
+                "relacionados": [
+                    "1721092987371x134349213958622430",
+                    "1721092987376x598806793797273000"
+                ],
+                "visivel": true,
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1719347580608x420557211978926960/Ab%C3%B3bora%20Italiana%20Nacional%20Kg.jpg"
+                ],
+                "Modified Date": "2026-03-04T03:40:41.758Z",
+                "info nutricional": "Por 100g:\n- Calorias: 17kcal\n- Carboidratos: 3g\n- Açúcar: 2g\n- Fibra: 1g\n- Proteína: 1g\n- Gordura: 0.3g\nVitaminas:\n- Vitamina C: 18mg (20% VD)\n- Vitamina K: 4mcg (3% VD)\n- Vitamina B6: 0.2mg (10% VD)\nMinerais:\n- Potássio: 262mg (7% VD)\n- Manganês: 0.2mg (10% VD)",
+                "preço antigo": 8.99,
+                "peso/und": "peso",
+                "Created Date": "2024-07-16T01:18:47.088Z",
+                "demanda": 285,
+                "nome": "Abobrinha Italiana",
+                "ordem_prateleira": 30,
+                "categorias_produto": [
+                    "Legumes"
+                ],
+                "tipo_unidade": "KG",
+                "cod": "396058",
+                "como armazenar": "Geladeira: Em saco plástico. Durabilidade: 5-7 dias",
+                "preço novo": 8.99,
+                "ean": "0000000000077",
+                "peso por unidade": 344,
+                "Created By": "admin_user_levee-delivery_test"
+            },
+            {
+                "descriçao": "Abóbora de formato redondo e achatado, com casca laranja vibrante. Originária da América do Norte, é muito utilizada em decorações de Halloween. Possui sabor suave e é rica em vitamina A. Receitas: Torta, purê, sopa, recheada. Usos: Cozinhar, assar, decorar.",
+                "relacionados": [
+                    "1721092727078x299520345889343400",
+                    "1721092727079x556390280198436000",
+                    "1721092727080x193708771527431260",
+                    "1721092727082x166314517748969300",
+                    "1721092727084x845331185035103700",
+                    "1721092727085x190964536574032900",
+                    "1721092727086x647798335796284400",
+                    "1721092988177x626843512773856300"
+                ],
+                "peso por unidade": 200,
+                "preço por kg": 29.99,
+                "como armazenar": "Temperatura ambiente: Local fresco e seco. Durabilidade: Meses",
+                "categorias_produto": [
+                    "Legumes"
+                ],
+                "preço novo": 29.99,
+                "_id": "1721092727088x369002913713550850",
+                "tipo_unidade": "KG",
+                "ean": "0000000010436",
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1724116707304x838063554952189700/Ab%C3%B3bora%20Pumpkino.webp"
+                ],
+                "nome": "Abóbora Pumpkino",
+                "preço antigo": 29.99,
+                "demanda": 0,
+                "cod": "002232",
+                "estoque": -100400,
+                "Created Date": "2024-07-16T01:18:47.088Z",
+                "Modified Date": "2026-02-15T18:25:04.418Z",
+                "visivel": false,
+                "desconto": 0,
+                "Created By": "admin_user_levee-delivery_test",
+                "peso/und": "peso"
+            },
+            {
+                "Modified Date": "2026-02-27T15:55:39.774Z",
+                "cod": "000078",
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1719347646902x705043213772067440/Ab%C3%B3bora%20%20%20%20Moranga.jpg"
+                ],
+                "preço antigo": 4.99,
+                "tipo_unidade": "KG",
+                "descriçao": "Abóbora de formato arredondado, com casca e polpa vermelho-alaranjadas. É rica em vitamina A e licopeno, um antioxidante. Receitas: Sopa, purê, bolo, recheada. Usos: Cozinhar, assar, refogar.",
+                "categorias_produto": [
+                    "Legumes"
+                ],
+                "visivel": true,
+                "ordem_prateleira": 7,
+                "ean": "0000000000075",
+                "preço novo": 6.99,
+                "preço por kg": 4.99,
+                "estoque": 84928,
+                "peso por unidade": 1000,
+                "desconto": -40.0801603206413,
+                "nome": "Abóbora Vermelha",
+                "_id": "1721092727090x725651468951294300",
+                "relacionados": [
+                    "1721092727078x299520345889343400",
+                    "1721092727079x556390280198436000",
+                    "1721092727080x193708771527431260",
+                    "1721092727082x166314517748969300",
+                    "1721092727084x845331185035103700",
+                    "1721092727085x190964536574032900",
+                    "1721092727086x647798335796284400",
+                    "1721092727088x369002913713550850",
+                    "1721092988177x626843512773856300"
+                ],
+                "Created Date": "2024-07-16T01:18:47.090Z",
+                "como armazenar": "Temperatura ambiente: Local fresco e seco. Durabilidade: Meses",
+                "Created By": "admin_user_levee-delivery_test",
+                "peso/und": "peso",
+                "demanda": 2
+            },
+            {
+                "descriçao": "Variedade de abóbora com formato semelhante a um pescoço, de casca verde clara e polpa alaranjada. Possui sabor suave e é rica em vitamina A. Receitas: Sopa, purê, bolo, recheada. Usos: Cozinhar, assar, refogar.",
+                "demanda": 1,
+                "ean": "0000000006200",
+                "Modified Date": "2026-02-27T15:55:39.776Z",
+                "visivel": false,
+                "como armazenar": "Temperatura ambiente: Local fresco e seco. Durabilidade: Várias semanas",
+                "tipo_unidade": "KG",
+                "Created Date": "2024-07-16T01:18:47.091Z",
+                "peso por unidade": 1000,
+                "estoque": 84729,
+                "nome": "Abóbora Pescoso",
+                "preço antigo": 5.99,
+                "peso/und": "peso",
+                "preço novo": 4.99,
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1719835367606x492710043234333000/abobora%20pesco%C3%A7o.jfif"
+                ],
+                "preço por kg": 4.99,
+                "cod": "001764",
+                "desconto": 16.69449081803005,
+                "categorias_produto": [
+                    "Legumes"
+                ],
+                "relacionados": [
+                    "1721092727080x193708771527431260",
+                    "1721092727079x556390280198436000",
+                    "1721092727078x299520345889343400",
+                    "1721092727090x725651468951294300",
+                    "1721092727082x166314517748969300",
+                    "1721092727084x845331185035103700",
+                    "1721092727085x190964536574032900",
+                    "1721092727086x647798335796284400",
+                    "1721092727088x369002913713550850",
+                    "1721092988177x626843512773856300"
+                ],
+                "_id": "1721092727091x517951972300983100",
+                "Created By": "admin_user_levee-delivery_test",
+                "ordem_prateleira": 8
+            },
+            {
+                "preço por kg": 4.99,
+                "descriçao": "Raiz da cúrcuma fresca, ideal para ralar e utilizar em receitas. Possui sabor mais intenso que o açafrão em pó. Receitas: Arroz, carnes, molhos, sopas. Usos: Temperar, colorir.",
+                "peso por unidade": 50,
+                "nome": "Açafrão Raiz 50g Saúde Plena",
+                "Created By": "admin_user_levee-delivery_test",
+                "tipo_unidade": "UN",
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1741802282006x923624747097105500/a%C3%A7afrao%20raiz.JPG"
+                ],
+                "Modified Date": "2026-01-29T00:22:31.229Z",
+                "peso/und": "unidade",
+                "como armazenar": "Despensa: Pote hermético, local escuro, seco e fresco. Durabilidade: 2 anos",
+                "categorias_produto": [
+                    "Temperos e Condimentos"
+                ],
+                "_id": "1721092727092x644772838952127200",
+                "Created Date": "2024-07-16T01:18:47.092Z",
+                "relacionados": [
+                    "1721092987382x978953698977900800"
+                ],
+                "desconto": 0,
+                "visivel": true,
+                "cod": "019250",
+                "qtd por unidade": "15g",
+                "demanda": 0,
+                "preço novo": 6.99,
+                "estoque": 99992,
+                "ean": "0192505300638"
+            },
+            {
+                "nome": "Açafrão Curcuma 100g Saúde Plena",
+                "tipo_unidade": "UN",
+                "Modified Date": "2025-07-19T13:32:07.250Z",
+                "Created Date": "2024-07-16T01:18:47.093Z",
+                "preço antigo": 7.99,
+                "relacionados": [
+                    "1721092987382x978953698977900800"
+                ],
+                "ean": "0192505259387",
+                "info nutricional": "Por 5g (1 colher de chá):\n- Calorias: 12kcal\n- Gordura Total: 0.5g\n- Carboidratos: 3g\n- Proteína: 0.3g\n- Ferro: 0.9mg (5% VD)\n- Manganês: 0.5mg (22% VD)\n- Potássio: 93mg (3% VD)\n- Fibra: 1g (4% VD)",
+                "desconto": 0,
+                "estoque": 99986,
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1741736791116x266363568626624800/A%C3%A7afr%C3%A3o%20100%20g.JPG"
+                ],
+                "cod": "000784",
+                "preço por kg": 7.99,
+                "Created By": "admin_user_levee-delivery_test",
+                "demanda": 10,
+                "preço novo": 7.99,
+                "como armazenar": "Despensa: Pote hermético, local escuro, seco e fresco. Durabilidade: 1 ano (fechado), 6 meses (aberto)",
+                "descriçao": "Condimento em pó obtido a partir da raiz da cúrcuma, originária da Índia. Possui cor amarelo-intenso e sabor levemente amargo. Receitas: Arroz, carnes, molhos, sopas. Usos: Temperar, colorir.",
+                "categorias_produto": [
+                    "Temperos e Condimentos"
+                ],
+                "visivel": false,
+                "peso/und": "unidade",
+                "_id": "1721092727093x387892992635338500",
+                "peso por unidade": 100,
+                "qtd por unidade": "100g"
+            },
+            {
+                "descriçao": "Bebida tradicional da região amazônica, o açaí é rico em antioxidantes. A combinação com morango adiciona sabor e vitamina C. Receitas: Vitaminas, smoothies. Usos: Consumir gelado.",
+                "_id": "1721092727095x943009161125656300",
+                "preço antigo": 6.99,
+                "peso/und": "unidade",
+                "cod": "001781",
+                "categorias_produto": [
+                    "Bebidas",
+                    "Sucos"
+                ],
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1724108281376x411970495308497700/1781.jpg"
+                ],
+                "Created Date": "2024-07-16T01:18:47.095Z",
+                "nome": "Suco De Açaí Com Morango 300g",
+                "peso por unidade": 300,
+                "Created By": "admin_user_levee-delivery_test",
+                "como armazenar": "Congelador: Na embalagem original ou em recipiente próprio para congelamento. Durabilidade: Verificar embalagem",
+                "demanda": 11,
+                "preço por kg": 6.99,
+                "ean": "0000000006354",
+                "preço novo": 7.99,
+                "desconto": -14.306151645207438,
+                "Modified Date": "2026-02-09T16:41:22.983Z",
+                "tipo_unidade": "UN",
+                "visivel": false,
+                "estoque": 99871
+            },
+            {
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1719347649480x945808744044463000/Agri%C3%A3o%20Hidrop%C3%B4nico.jpg"
+                ],
+                "visivel": false,
+                "peso/und": "unidade",
+                "preço por kg": 4.99,
+                "Created By": "admin_user_levee-delivery_test",
+                "peso por unidade": 100,
+                "categorias_produto": [
+                    "Verduras"
+                ],
+                "estoque": 99976,
+                "cod": "000002",
+                "_id": "1721092727097x743915224499940400",
+                "tipo_unidade": "UN",
+                "ean": "0000000000002",
+                "preço antigo": 4.99,
+                "desconto": 0,
+                "nome": "Agrião 100g",
+                "ordem_prateleira": 104,
+                "descriçao": "Planta aquática de sabor picante, rico em vitamina C e ferro. Receitas: Saladas, molhos, sucos verdes. Usos: Consumir cru.",
+                "demanda": 6,
+                "relacionados": [
+                    "1721092727105x481161371628954700",
+                    "1721092727110x487024137487277700"
+                ],
+                "como armazenar": "Geladeira: Em saco plástico. Durabilidade: 3-5 dias",
+                "info nutricional": "Por 100g:\n- Calorias: 11kcal\n- Carboidratos: 1g\n- Açúcar: 1g\n- Fibra: 1g\n- Proteína: 2g\n- Gordura: 0.1g\nVitaminas:\n- Vitamina K: 250mcg (208% VD)\n- Vitamina C: 77mg (86% VD)\n- Vitamina A: 470 UI (10% VD)\n- Folato: 63mcg (16% VD)\nMinerais:\n- Potássio: 257mg (7% VD)\n- Cálcio: 74mg (7% VD)\n- Magnésio: 17mg (4% VD)",
+                "Modified Date": "2026-02-27T15:55:40.976Z",
+                "Created Date": "2024-07-16T01:18:47.097Z",
+                "preço novo": 4.99
+            },
+            {
+                "Created By": "admin_user_levee-delivery_test",
+                "peso/und": "unidade",
+                "tipo_unidade": "UN",
+                "categorias_produto": [
+                    "Verduras"
+                ],
+                "preço por kg": 5.99,
+                "_id": "1721092727099x717613212579196800",
+                "cod": "001640",
+                "relacionados": [
+                    "1721092727101x530091352033767100"
+                ],
+                "desconto": 0,
+                "estoque": 99998,
+                "visivel": false,
+                "Modified Date": "2026-02-04T12:50:15.921Z",
+                "nome": "Acelga Roxa Hidropônica",
+                "ean": "0000000005074",
+                "preço antigo": 5.99,
+                "como armazenar": "Geladeira: Em saco plástico ou recipiente. Durabilidade: 7-10 dias",
+                "preço novo": 5.99,
+                "descriçao": "Variedade de acelga com folhas roxas, cultivada em sistema hidropônico, sem o uso de agrotóxicos no solo. Mantém as propriedades da acelga tradicional. Receitas: Salada, refogado, tortas salgadas. Usos: Consumir crua, cozida, refogada.",
+                "Created Date": "2024-07-16T01:18:47.099Z",
+                "demanda": 0
+            },
+            {
+                "_id": "1721092727101x530091352033767100",
+                "peso por unidade": 300,
+                "descriçao": "Vegetal de folhas verde-escuras e talos brancos, originário da região do Mediterrâneo. É rico em vitamina A, C e K. Receitas: Charuto, refogado, tortas salgadas. Usos: Consumir cozido, refogado.",
+                "Modified Date": "2026-03-03T11:43:40.659Z",
+                "cod": "000001",
+                "desconto": -11.1234705228031,
+                "ordem_prateleira": 103,
+                "Created By": "admin_user_levee-delivery_test",
+                "categorias_produto": [
+                    "Verduras"
+                ],
+                "info nutricional": "Por 100g:\n- Calorias: 19kcal\n- Carboidratos: 4g\n- Açúcar: 1g\n- Fibra: 2g\n- Proteína: 2g\n- Gordura: 0.2g\nVitaminas:\n- Vitamina K: 300mcg (250% VD)\n- Vitamina A: 6000 UI (120% VD)\n- Vitamina C: 30mg (33% VD)\n- Folato: 190mcg (48% VD)",
+                "preço por kg": 8.99,
+                "preço antigo": 8.99,
+                "ean": "0000000000001",
+                "demanda": 7,
+                "relacionados": [
+                    "1721092727099x717613212579196800"
+                ],
+                "visivel": true,
+                "tipo_unidade": "UN",
+                "Created Date": "2024-07-16T01:18:47.101Z",
+                "como armazenar": "Geladeira: Em saco plástico ou recipiente. Durabilidade: 5-7 dias",
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1719436879519x192820389961666720/ACELGA%20TAKAGAKI%20UN.jpg"
+                ],
+                "nome": "Acelga 300g",
+                "peso/und": "unidade",
+                "preço novo": 9.99,
+                "estoque": 99948
+            },
+            {
+                "Created By": "admin_user_levee-delivery_test",
+                "qtd por unidade": "200g",
+                "nome": "Açúcar De Coco 200g",
+                "Modified Date": "2025-06-18T14:21:17.533Z",
+                "peso/und": "unidade",
+                "preço novo": 17.99,
+                "preço antigo": 17.99,
+                "como armazenar": "Despensa: Pote hermético, local fresco e seco. Durabilidade: 1 ano",
+                "descriçao": "Adoçante natural extraído da seiva da flor do coqueiro. Possui baixo índice glicêmico em comparação ao açúcar branco e é rico em nutrientes. Receitas: Bolos, doces, sobremesas. Usos: Adoçar bebidas e alimentos.",
+                "estoque": 99999,
+                "_id": "1721092727103x778194959230588800",
+                "Created Date": "2024-07-16T01:18:47.103Z",
+                "cod": "002395",
+                "tipo_unidade": "UN",
+                "desconto": 0,
+                "info nutricional": "Por 100g:\n- Calorias: 380kcal\n- Carboidratos: 95g\n- Açúcar: 95g\n- Proteína: 2g\n- Gordura: 0g",
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1719835615786x702361123237073900/acucar%20de%20coco.jfif"
+                ],
+                "preço por kg": 17.99,
+                "demanda": 1,
+                "visivel": false,
+                "categorias_produto": [
+                    "Empório"
+                ],
+                "peso por unidade": 200,
+                "ean": "0192505115898"
+            },
+            {
+                "descriçao": "Agrião cultivado em sistema hidropônico, sem o uso de agrotóxicos no solo. Mantém as propriedades do agrião tradicional. Receitas: Saladas, molhos, sucos verdes. Usos: Consumir cru.",
+                "preço por kg": 5.99,
+                "relacionados": [
+                    "1721092727097x743915224499940400",
+                    "1721092727110x487024137487277700"
+                ],
+                "ordem_prateleira": 105,
+                "ean": "7898918560043",
+                "Modified Date": "2026-03-02T18:54:12.432Z",
+                "Created Date": "2024-07-16T01:18:47.105Z",
+                "desconto": -16.69449081803005,
+                "preço novo": 6.99,
+                "peso/und": "unidade",
+                "demanda": 26,
+                "nome": "Agrião Hidropônica 100g",
+                "preço antigo": 5.99,
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1719835876483x907329303845180700/agriao%20hidroponico.jfif"
+                ],
+                "visivel": true,
+                "Created By": "admin_user_levee-delivery_test",
+                "peso por unidade": 100,
+                "_id": "1721092727105x481161371628954700",
+                "como armazenar": "Geladeira: Em saco plástico. Durabilidade: 7-10 dias",
+                "tipo_unidade": "UN",
+                "cod": "000003",
+                "estoque": 99920,
+                "categorias_produto": [
+                    "Verduras"
+                ]
+            },
+            {
+                "Created Date": "2024-07-16T01:18:47.106Z",
+                "nome": "Ajinomoto 100g",
+                "visivel": false,
+                "demanda": 0,
+                "categorias_produto": [
+                    "Temperos e Condimentos"
+                ],
+                "desconto": 0,
+                "info nutricional": "Por 1g:\n- Calorias: 0kcal\n- Sódio: 276mg (12% VD)",
+                "_id": "1721092727106x878890915257301200",
+                "ean": "0192505115423",
+                "cod": "001459",
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1720745903876x478465771251020300/AJINOMOTO%20100G.jpg"
+                ],
+                "Created By": "admin_user_levee-delivery_test",
+                "preço antigo": 8.99,
+                "como armazenar": "Despensa: Embalagem original bem fechada, local fresco e seco. Durabilidade: 2 anos",
+                "descriçao": "Tempero à base de glutamato monossódico, realça o sabor dos alimentos. Usos: Utilizar com moderação no preparo de carnes, sopas, molhos e arroz.",
+                "peso por unidade": 100,
+                "Modified Date": "2025-10-23T14:50:19.724Z",
+                "tipo_unidade": "UN",
+                "estoque": -100000,
+                "peso/und": "unidade",
+                "preço por kg": 8.99,
+                "qtd por unidade": "100g",
+                "preço novo": 8.99
+            },
+            {
+                "Modified Date": "2026-02-26T00:49:54.039Z",
+                "qtd por unidade": "300ml",
+                "demanda": 3,
+                "categorias_produto": [
+                    "Bebidas"
+                ],
+                "relacionados": [
+                    "1721092727109x728463656844081200"
+                ],
+                "como armazenar": "Geladeira: Na embalagem original. Durabilidade: Verificar embalagem",
+                "desconto": -28.6123032904149,
+                "preço antigo": 6.99,
+                "peso/und": "unidade",
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1719835814457x478509468376086850/agua%20de%20coco%20300%20ml.jfif"
+                ],
+                "descriçao": "Porção individual de água de coco, ideal para levar para qualquer lugar. Usos: Hidratação, consumo puro.",
+                "cod": "001984",
+                "tipo_unidade": "UN",
+                "Created Date": "2024-07-16T01:18:47.107Z",
+                "_id": "1721092727107x334931946559313200",
+                "peso por unidade": 300,
+                "preço novo": 8.99,
+                "preço por kg": 6.99,
+                "visivel": true,
+                "ean": "0000000008082",
+                "Created By": "admin_user_levee-delivery_test",
+                "estoque": 99958,
+                "nome": "Água De Coco 300ml"
+            },
+            {
+                "estoque": 49970,
+                "preço novo": 24.99,
+                "peso/und": "unidade",
+                "categorias_produto": [
+                    "Bebidas"
+                ],
+                "nome": "Água De Coco 1L",
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1719835701312x408008013206681500/agua%20de%20coco%201%20litro.jfif"
+                ],
+                "cod": "002157",
+                "Modified Date": "2026-02-06T13:06:28.916Z",
+                "descriçao": "Bebida natural extraída do coco verde, rica em sais minerais e eletrólitos. Usos: Hidratação, consumo puro.",
+                "relacionados": [
+                    "1721092727107x334931946559313200"
+                ],
+                "preço por kg": 13.99,
+                "_id": "1721092727109x728463656844081200",
+                "preço antigo": 13.99,
+                "tipo_unidade": "UN",
+                "peso por unidade": 0,
+                "demanda": 51,
+                "visivel": true,
+                "info nutricional": "Por 100ml:\n- Calorias: 19kcal\n- Carboidratos: 4.8g\n- Açúcar: 4.8g\n- Proteína: 0.2g\n- Gordura: 0g\nMinerais:\n- Potássio: 105mg (3% VD)\n- Sódio: 10mg (0% VD)",
+                "Created By": "admin_user_levee-delivery_test",
+                "Created Date": "2024-07-16T01:18:47.109Z",
+                "ean": "0000000009690",
+                "desconto": -78.6275911365261,
+                "qtd por unidade": "1L",
+                "como armazenar": "Geladeira: Na embalagem original. Durabilidade: Verificar embalagem"
+            },
+            {
+                "Created By": "admin_user_levee-delivery_test",
+                "visivel": true,
+                "preço antigo": 9.99,
+                "ordem_prateleira": 106,
+                "como armazenar": "Geladeira: Na embalagem original. Durabilidade: Verificar embalagem",
+                "_id": "1721092727110x487024137487277700",
+                "peso por unidade": 100,
+                "demanda": 18,
+                "categorias_produto": [
+                    "Verduras",
+                    "Higienizados"
+                ],
+                "descriçao": "Agrião já lavado e higienizado, pronto para consumo. Mantém as propriedades do agrião tradicional. Receitas: Saladas, molhos, sucos verdes. Usos: Consumir cru.",
+                "relacionados": [
+                    "1721092727097x743915224499940400",
+                    "1721092727105x481161371628954700"
+                ],
+                "Modified Date": "2026-03-01T02:42:40.259Z",
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1719347649480x945808744044463000/Agri%C3%A3o%20Hidrop%C3%B4nico.jpg"
+                ],
+                "estoque": 99915,
+                "ean": "7898932205111",
+                "Created Date": "2024-07-16T01:18:47.110Z",
+                "cod": "002533",
+                "preço novo": 9.99,
+                "desconto": 0,
+                "preço por kg": 9.99,
+                "peso/und": "unidade",
+                "tipo_unidade": "UN",
+                "nome": "Agrião Higienizado 100g"
+            },
+            {
+                "Created By": "admin_user_levee-delivery_test",
+                "peso por unidade": 100,
+                "info nutricional": "Por 100g:\n- Calorias: 131kcal\n- Carboidratos: 21g\n- Açúcar: 3g\n- Fibra: 14g\n- Proteína: 4g\n- Gordura: 5g\nVitaminas:\n- Vitamina C: 40mg (44% VD)\n- Vitamina A: 3000 UI (60% VD)\n- Folato: 90mcg (23% VD)\nMinerais:\n- Cálcio: 310mg (31% VD)\n- Ferro: 8mg (44% VD)\n- Potássio: 660mg (19% VD)",
+                "como armazenar": "Geladeira: Envolto em papel toalha úmido, dentro de saco plástico. Durabilidade: 1 semana",
+                "categorias_produto": [
+                    "Verduras"
+                ],
+                "ordem_prateleira": 107,
+                "demanda": 16,
+                "Modified Date": "2026-02-27T15:55:41.041Z",
+                "Created Date": "2024-07-16T01:18:47.111Z",
+                "desconto": -16.6944908180301,
+                "preço por kg": 5.99,
+                "_id": "1721092727111x648827121027228300",
+                "cod": "000004",
+                "ean": "0000000000004",
+                "tipo_unidade": "UN",
+                "peso/und": "unidade",
+                "estoque": 99938,
+                "descriçao": "Erva aromática de sabor forte e amadeirado, originária da região do Mediterrâneo. Receitas: Carnes, molhos, pães. Usos: Temperar, aromatizar.",
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1720745939553x649760265865451300/ALECRIM%20FRESCO.jpg"
+                ],
+                "preço novo": 6.99,
+                "nome": "Alecrim Fresco 100g",
+                "preço antigo": 5.99,
+                "visivel": true
+            },
+            {
+                "como armazenar": "Geladeira: Em saco plástico. Durabilidade: 7-10 dias",
+                "preço antigo": 5.99,
+                "ean": "0000000008563",
+                "Created Date": "2024-07-16T01:18:47.114Z",
+                "peso por unidade": 100,
+                "visivel": true,
+                "preço novo": 7.99,
+                "nome": "Alface Americana 100g",
+                "descriçao": "Descrição: Variedade de alface com folhas macias, verde-claras, agrupadas em formato de cabeça arredondada. Sabor suave e textura crocante.\nRegião: Cultivada em todo o Brasil, principalmente em São Paulo, Minas Gerais e Rio Grande do Sul.\nÉpoca do ano: Disponível o ano todo.\nReceitas: Saladas, sanduíches, wraps, acompanhamento para pratos quentes, base para saladas elaboradas como a Salada Caesar.\nModo de uso: Consumir crua, após higienização completa das folhas.",
+                "Modified Date": "2026-03-04T14:04:15.152Z",
+                "_id": "1721092727114x155598050836907040",
+                "preço por kg": 5.99,
+                "ordem_prateleira": 108,
+                "Created By": "admin_user_levee-delivery_test",
+                "tipo_unidade": "BJ",
+                "info nutricional": "Porção: 100g\nValor Energético: 14kcal\nCarboidratos: 2,9g - dos quais:\n Açúcares: 1,8g\nGorduras Totais: 0,2g - das quais:\n Gorduras Saturadas: 0,1g\n Gorduras Trans: 0g\nProteínas: 1,4g\nFibra Alimentar: 1,2g\nSódio: 2,5mg\nVitaminas: A, K, C, B9 (Folato)\nMinerais: Potássio, Cálcio, Ferro, Magnésio.",
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1719840906352x532339725889591400/ALFACE%20AMERICANA.jfif"
+                ],
+                "desconto": -33.3889816360601,
+                "estoque": 98959,
+                "categorias_produto": [
+                    "Verduras"
+                ],
+                "cod": "002032",
+                "peso/und": "unidade",
+                "demanda": 290
+            },
+            {
+                "como armazenar": "Geladeira: Em saco plástico. Durabilidade: 7-10 dias",
+                "categorias_produto": [
+                    "Verduras"
+                ],
+                "preço por kg": 4.99,
+                "peso/und": "unidade",
+                "preço antigo": 4.99,
+                "info nutricional": "Porção: 100g\nValor Energético: 13kcal\nCarboidratos: 2,6g - dos quais:\n Açúcares: 1g\nGorduras Totais: 0,3g - das quais:\n Gorduras Saturadas: 0,1g\n Gorduras Trans: 0g\nProteínas: 1,3g\nFibra Alimentar: 1,7g\nSódio: 5mg\nVitaminas: A, K, C, B9 (Folato)\nMinerais: Potássio, Cálcio, Ferro, Magnésio.",
+                "peso por unidade": 100,
+                "Modified Date": "2026-03-03T18:13:07.934Z",
+                "ordem_prateleira": 101,
+                "cod": "000007",
+                "Created Date": "2024-07-16T01:18:47.115Z",
+                "demanda": 75,
+                "ean": "7898918560111",
+                "tipo_unidade": "UN",
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1719835979013x849694227846732500/alface%20crespa.jfif"
+                ],
+                "visivel": true,
+                "estoque": 99820,
+                "relacionados": [
+                    "1721092727117x431598215530807800",
+                    "1721092727116x423517862271260740",
+                    "1721092727129x931156791361707100",
+                    "1721092727132x963798905610161900",
+                    "1721092727133x972955362263352700",
+                    "1721092727140x422391623481237950",
+                    "1721092727141x191732502714432320",
+                    "1721092727359x843913936762138600",
+                    "1721092988173x978519161834143600",
+                    "1721092988176x870045974995930600"
+                ],
+                "descriçao": "Descrição: Variedade de alface crespa cultivada em sistema hidropônico, sem o uso de solo. Apresenta folhas verde-escuras, crespas e crocantes, com sabor suave e textura macia.\nRegião: Produzida em estufas e ambientes controlados em diversas regiões do Brasil.\nÉpoca do ano: Disponível o ano todo.\nReceitas: Saladas, sanduíches, wraps, acompanhamento para pratos quentes.\nModo de uso: Consumir crua, após higienização completa das folhas (geralmente dispensando o uso de água).",
+                "nome": "Alface Crespa Hidropônica 100g",
+                "preço novo": 6.99,
+                "desconto": -40.0801603206413,
+                "_id": "1721092727115x235550268966138400",
+                "Created By": "admin_user_levee-delivery_test"
+            },
+            {
+                "descriçao": "Variedade de alface com folhas crocantes, cultivada em sistema hidropônico. Receitas: Saladas, sanduíches, acompanhamento. Usos: Consumir crua.",
+                "preço por kg": 5.99,
+                "Modified Date": "2026-03-04T03:40:41.753Z",
+                "peso por unidade": 100,
+                "preço antigo": 5.99,
+                "Created By": "admin_user_levee-delivery_test",
+                "nome": "Alface Crocante Hidropônica 100g",
+                "ean": "0000000004947",
+                "peso/und": "unidade",
+                "tipo_unidade": "UN",
+                "categorias_produto": [
+                    "Verduras"
+                ],
+                "cod": "001627",
+                "desconto": -16.6944908180301,
+                "visivel": true,
+                "como armazenar": "Geladeira: Em saco plástico. Durabilidade: 7-10 dias",
+                "ordem_prateleira": 110,
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1719835994032x694462983994820600/alface%20crocante.jfif"
+                ],
+                "estoque": 99865,
+                "Created Date": "2024-07-16T01:18:47.116Z",
+                "preço novo": 6.99,
+                "relacionados": [
+                    "1721092727115x235550268966138400",
+                    "1721092727117x431598215530807800",
+                    "1721092727129x931156791361707100",
+                    "1721092727132x963798905610161900",
+                    "1721092727133x972955362263352700",
+                    "1721092727140x422391623481237950",
+                    "1721092727141x191732502714432320",
+                    "1721092727359x843913936762138600",
+                    "1721092988173x978519161834143600",
+                    "1721092988176x870045974995930600"
+                ],
+                "demanda": 49,
+                "_id": "1721092727116x423517862271260740"
+            },
+            {
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1719347584109x160781924565030600/Alface%20Crespa%20Hidrop%C3%B4nica%20Un.jpg"
+                ],
+                "tipo_unidade": "UN",
+                "_id": "1721092727117x431598215530807800",
+                "demanda": 122,
+                "ean": "0000000000006",
+                "visivel": true,
+                "descriçao": "Descrição: Variedade de alface com folhas verde-escuras, crespas e crocantes. Sabor levemente amargo e textura crocante.\nRegião: Cultivada em todo o Brasil, principalmente em São Paulo, Minas Gerais e Rio Grande do Sul.\nÉpoca do ano: Disponível o ano todo.\nReceitas: Saladas, sanduíches, wraps, acompanhamento para pratos quentes.\nModo de uso: Consumir crua, após higienização completa das folhas.",
+                "Created By": "admin_user_levee-delivery_test",
+                "preço por kg": 3.99,
+                "peso/und": "unidade",
+                "info nutricional": "Porção: 100g\nValor Energético: 15kcal\nCarboidratos: 2,8g - dos quais:\n Açúcares: 1,2g\nGorduras Totais: 0,2g - das quais:\n Gorduras Saturadas: 0,1g\n Gorduras Trans: 0g\nProteínas: 1,5g\nFibra Alimentar: 1,8g\nSódio: 7mg\nVitaminas: A, K, C, B9 (Folato)\nMinerais: Potássio, Cálcio, Ferro, Magnésio.",
+                "categorias_produto": [
+                    "Verduras"
+                ],
+                "cod": "000006",
+                "ordem_prateleira": 109,
+                "relacionados": [
+                    "1721092727115x235550268966138400",
+                    "1721092727116x423517862271260740",
+                    "1721092727129x931156791361707100",
+                    "1721092727132x963798905610161900",
+                    "1721092727133x972955362263352700",
+                    "1721092727140x422391623481237950",
+                    "1721092727141x191732502714432320",
+                    "1721092727359x843913936762138600",
+                    "1721092988173x978519161834143600",
+                    "1721092988176x870045974995930600"
+                ],
+                "peso por unidade": 100,
+                "preço antigo": 3.99,
+                "desconto": -75.187969924812,
+                "nome": "Alface Crespa 100g",
+                "Created Date": "2024-07-16T01:18:47.117Z",
+                "preço novo": 6.99,
+                "Modified Date": "2026-03-04T13:19:01.206Z",
+                "estoque": 99590,
+                "como armazenar": "Geladeira: Em saco plástico. Durabilidade: 5-7 dias"
+            },
+            {
+                "ean": "7898918560241",
+                "_id": "1721092727129x931156791361707100",
+                "desconto": -16.6944908180301,
+                "demanda": 60,
+                "Modified Date": "2026-02-27T15:55:41.077Z",
+                "categorias_produto": [
+                    "Verduras"
+                ],
+                "peso por unidade": 100,
+                "preço por kg": 5.99,
+                "preço antigo": 5.99,
+                "tipo_unidade": "UN",
+                "peso/und": "unidade",
+                "estoque": 99856,
+                "como armazenar": "Geladeira: Em saco plástico. Durabilidade: 7-10 dias",
+                "ordem_prateleira": 111,
+                "relacionados": [
+                    "1721092727115x235550268966138400",
+                    "1721092727116x423517862271260740",
+                    "1721092727117x431598215530807800",
+                    "1721092727132x963798905610161900",
+                    "1721092727133x972955362263352700",
+                    "1721092727140x422391623481237950",
+                    "1721092727141x191732502714432320",
+                    "1721092727359x843913936762138600",
+                    "1721092988173x978519161834143600",
+                    "1721092988176x870045974995930600"
+                ],
+                "visivel": true,
+                "Created By": "admin_user_levee-delivery_test",
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1719836054652x158185832659434320/exotica.jfif"
+                ],
+                "descriçao": "Mistura de alfaces de diferentes cores e texturas, cultivada em sistema hidropônico. Receitas: Saladas, acompanhamento. Usos: Consumir crua.",
+                "nome": "Alface Exótica Hidropônica 100g",
+                "cod": "001628",
+                "preço novo": 6.99,
+                "Created Date": "2024-07-16T01:18:47.129Z"
+            },
+            {
+                "ordem_prateleira": 112,
+                "demanda": 25,
+                "Created By": "admin_user_levee-delivery_test",
+                "estoque": 99883,
+                "peso por unidade": 100,
+                "peso/und": "unidade",
+                "ean": "0000000000008",
+                "preço antigo": 4.99,
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1719347654039x233703203859794800/Alface%20Lisa%20Hidrop%C3%B4nica.jpg"
+                ],
+                "visivel": true,
+                "info nutricional": "Por 100g:\n- Calorias: 15kcal\n- Carboidratos: 3g\n- Açúcar: 1g\n- Fibra: 1g\n- Proteína: 1g\n- Gordura: 0.2g\nVitaminas:\n- Vitamina K: 130mcg (108% VD)\n- Vitamina A: 2600 UI (52% VD)\n- Folato: 135mcg (34% VD)\nMinerais:\n- Potássio: 190mg (5% VD)",
+                "relacionados": [
+                    "1721092727133x972955362263352700",
+                    "1721092988176x870045974995930600"
+                ],
+                "Modified Date": "2026-02-27T15:55:41.092Z",
+                "Created Date": "2024-07-16T01:18:47.130Z",
+                "preço por kg": 1.49,
+                "descriçao": "Variedade de alface com folhas macias e delicadas. Receitas: Saladas, sanduíches, charuto. Usos: Consumir crua.",
+                "cod": "000008",
+                "preço novo": 6.99,
+                "_id": "1721092727130x176173764240271200",
+                "como armazenar": "Geladeira: Em saco plástico. Durabilidade: 5-7 dias",
+                "desconto": -40.0801603206413,
+                "nome": "Alface Lisa 100g",
+                "tipo_unidade": "UN",
+                "categorias_produto": [
+                    "Verduras"
+                ]
+            },
+            {
+                "relacionados": [
+                    "1721092727115x235550268966138400",
+                    "1721092727116x423517862271260740",
+                    "1721092727117x431598215530807800",
+                    "1721092727129x931156791361707100",
+                    "1721092727133x972955362263352700",
+                    "1721092727140x422391623481237950",
+                    "1721092727141x191732502714432320",
+                    "1721092727359x843913936762138600",
+                    "1721092988173x978519161834143600",
+                    "1721092988176x870045974995930600"
+                ],
+                "preço antigo": 5.99,
+                "demanda": 17,
+                "ean": "0000000004961",
+                "tipo_unidade": "UN",
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1719836223240x938357335825574400/mimosa.jfif"
+                ],
+                "estoque": 99961,
+                "como armazenar": "Geladeira: Em saco plástico. Durabilidade: 7-10 dias",
+                "desconto": -16.6944908180301,
+                "descriçao": "Alface mimosa cultivada em sistema hidropônico, sem o uso de agrotóxicos no solo. Receitas: Saladas, acompanhamento. Usos: Consumir crua.",
+                "ordem_prateleira": 114,
+                "visivel": true,
+                "Created By": "admin_user_levee-delivery_test",
+                "_id": "1721092727132x963798905610161900",
+                "preço novo": 6.99,
+                "Created Date": "2024-07-16T01:18:47.132Z",
+                "cod": "001629",
+                "peso por unidade": 100,
+                "Modified Date": "2026-02-27T15:55:41.132Z",
+                "preço por kg": 5.99,
+                "peso/und": "unidade",
+                "nome": "Alface Mimosa Hidropônica 100g",
+                "categorias_produto": [
+                    "Verduras"
+                ]
+            },
+            {
+                "Created Date": "2024-07-16T01:18:47.133Z",
+                "tipo_unidade": "UN",
+                "descriçao": "Alface lisa cultivada em sistema hidropônico, sem o uso de agrotóxicos no solo. Receitas: Saladas, sanduíches, charuto. Usos: Consumir crua.",
+                "estoque": 99957,
+                "demanda": 18,
+                "Created By": "admin_user_levee-delivery_test",
+                "ordem_prateleira": 113,
+                "preço novo": 6.99,
+                "desconto": -16.6944908180301,
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1719836126276x102116530641985780/lisa%20hidroponica.jfif"
+                ],
+                "peso por unidade": 100,
+                "peso/und": "unidade",
+                "como armazenar": "Geladeira: Em saco plástico. Durabilidade: 7-10 dias",
+                "preço antigo": 5.99,
+                "preço por kg": 5.99,
+                "Modified Date": "2026-03-02T16:30:05.501Z",
+                "cod": "000009",
+                "_id": "1721092727133x972955362263352700",
+                "visivel": true,
+                "nome": "Alface Lisa Hidropônica 100g",
+                "relacionados": [
+                    "1721092727115x235550268966138400",
+                    "1721092727116x423517862271260740",
+                    "1721092727117x431598215530807800",
+                    "1721092727129x931156791361707100",
+                    "1721092727132x963798905610161900",
+                    "1721092727140x422391623481237950",
+                    "1721092727141x191732502714432320",
+                    "1721092727359x843913936762138600",
+                    "1721092988173x978519161834143600",
+                    "1721092727130x176173764240271200",
+                    "1721092988176x870045974995930600"
+                ],
+                "ean": "0000000000009",
+                "categorias_produto": [
+                    "Verduras"
+                ]
+            },
+            {
+                "visivel": true,
+                "preço antigo": 5.99,
+                "Created By": "admin_user_levee-delivery_test",
+                "ordem_prateleira": 1,
+                "relacionados": [
+                    "1721092727115x235550268966138400",
+                    "1721092727116x423517862271260740",
+                    "1721092727117x431598215530807800",
+                    "1721092727129x931156791361707100",
+                    "1721092727132x963798905610161900",
+                    "1721092727133x972955362263352700",
+                    "1721092727141x191732502714432320",
+                    "1721092727359x843913936762138600",
+                    "1721092988173x978519161834143600",
+                    "1721092988176x870045974995930600"
+                ],
+                "demanda": 0,
+                "desconto": 0,
+                "nome": "Alface Mimosa",
+                "_id": "1721092727140x422391623481237950",
+                "preço novo": 5.99,
+                "como armazenar": "Geladeira: Em saco plástico. Durabilidade: 5-7 dias",
+                "peso por unidade": 100,
+                "estoque": 99996,
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1724108261283x359652170232516160/13.jpg"
+                ],
+                "peso/und": "unidade",
+                "cod": "000013",
+                "descriçao": "Variedade de alface com folhas crespas e macias. Receitas: Saladas, acompanhamento. Usos: Consumir crua.",
+                "info nutricional": " ",
+                "Created Date": "2024-07-16T01:18:47.140Z",
+                "Modified Date": "2026-02-19T11:13:21.479Z",
+                "preço por kg": 5.99,
+                "tipo_unidade": "UN",
+                "ean": "0000000000013",
+                "categorias_produto": [
+                    "Verduras"
+                ]
+            },
+            {
+                "preço por kg": 2.99,
+                "preço novo": 5.99,
+                "peso por unidade": 100,
+                "nome": "Alface Romana Hidropônica 100g",
+                "Modified Date": "2025-09-20T15:01:46.061Z",
+                "relacionados": [
+                    "1721092727115x235550268966138400",
+                    "1721092727116x423517862271260740",
+                    "1721092727117x431598215530807800",
+                    "1721092727129x931156791361707100",
+                    "1721092727132x963798905610161900",
+                    "1721092727133x972955362263352700",
+                    "1721092727140x422391623481237950",
+                    "1721092727359x843913936762138600",
+                    "1721092988173x978519161834143600"
+                ],
+                "visivel": false,
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1719836274048x856974316422200600/romana.jfif"
+                ],
+                "peso/und": "unidade",
+                "cod": "002588",
+                "descriçao": "Variedade de alface com folhas longas e crocantes, cultivada em sistema hidropônico. Receitas: Salada Caesar, sanduíches, wraps. Usos: Consumir crua.",
+                "_id": "1721092727141x191732502714432320",
+                "Created Date": "2024-07-16T01:18:47.141Z",
+                "categorias_produto": [
+                    "Verduras"
+                ],
+                "preço antigo": 2.99,
+                "estoque": 99993,
+                "como armazenar": "Geladeira: Em saco plástico. Durabilidade: 7-10 dias",
+                "desconto": -100.334448160535,
+                "tipo_unidade": "UN",
+                "ean": "0000000013376",
+                "demanda": 1,
+                "Created By": "admin_user_levee-delivery_test"
+            },
+            {
+                "Created By": "admin_user_levee-delivery_test",
+                "preço por kg": 5.99,
+                "tipo_unidade": "UN",
+                "desconto": -16.6944908180301,
+                "preço novo": 6.99,
+                "demanda": 19,
+                "relacionados": [
+                    "1721092727359x843913936762138600"
+                ],
+                "ordem_prateleira": 102,
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1719347650955x990384837009832300/Alface%20%20Roxa.jpg"
+                ],
+                "nome": "Alface Roxa 100g",
+                "como armazenar": "Geladeira: Em saco plástico. Durabilidade: 5-7 dias",
+                "preço antigo": 5.99,
+                "peso/und": "unidade",
+                "estoque": 99932,
+                "peso por unidade": 100,
+                "visivel": true,
+                "categorias_produto": [
+                    "Verduras"
+                ],
+                "_id": "1721092727358x387170771806761150",
+                "descriçao": "Variedade de alface com folhas roxas, rica em antioxidantes. Receitas: Saladas, acompanhamento. Usos: Consumir crua.",
+                "ean": "0000000000010",
+                "Modified Date": "2026-03-04T14:04:17.684Z",
+                "Created Date": "2024-07-16T01:18:47.358Z",
+                "cod": "000010"
+            },
+            {
+                "relacionados": [
+                    "1721092727115x235550268966138400",
+                    "1721092727116x423517862271260740",
+                    "1721092727117x431598215530807800",
+                    "1721092727129x931156791361707100",
+                    "1721092727132x963798905610161900",
+                    "1721092727133x972955362263352700",
+                    "1721092727140x422391623481237950",
+                    "1721092727141x191732502714432320",
+                    "1721092727358x387170771806761150",
+                    "1721092988173x978519161834143600",
+                    "1721092988176x870045974995930600"
+                ],
+                "Created By": "admin_user_levee-delivery_test",
+                "Modified Date": "2026-02-27T15:55:41.147Z",
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1719836700979x289590171549339650/ROXA%20HIDRO.jfif"
+                ],
+                "categorias_produto": [
+                    "Verduras"
+                ],
+                "peso por unidade": 100,
+                "_id": "1721092727359x843913936762138600",
+                "preço novo": 6.99,
+                "peso/und": "unidade",
+                "ordem_prateleira": 115,
+                "visivel": true,
+                "tipo_unidade": "UN",
+                "descriçao": "Alface roxa cultivada em sistema hidropônico, sem o uso de agrotóxicos no solo. Receitas: Saladas, acompanhamento. Usos: Consumir crua.",
+                "demanda": 26,
+                "nome": "Alface Roxa Hidropônica 100g",
+                "preço por kg": 1.99,
+                "preço antigo": 1.99,
+                "Created Date": "2024-07-16T01:18:47.359Z",
+                "cod": "000011",
+                "como armazenar": "Geladeira: Em saco plástico. Durabilidade: 7-10 dias",
+                "ean": "0000000000011",
+                "desconto": -251.256281407035,
+                "estoque": 99926
+            },
+            {
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1719836810226x830771800648795000/ALHO%20FLOCOS.jfif"
+                ],
+                "preço antigo": 4.99,
+                "nome": "Alho Flocos Desidratado 50g",
+                "preço novo": 4.99,
+                "peso/und": "unidade",
+                "ean": "0192505115256",
+                "estoque": -99970,
+                "desconto": 0,
+                "descriçao": "Alho desidratado em flocos, ideal para temperar carnes e legumes. Receitas: Carnes, legumes, sopas. Usos: Temperar.",
+                "cod": "002315",
+                "visivel": false,
+                "preço por kg": 4.99,
+                "tipo_unidade": "UN",
+                "peso por unidade": 50,
+                "Created By": "admin_user_levee-delivery_test",
+                "qtd por unidade": "50g",
+                "como armazenar": "Despensa: Pote hermético, local fresco e seco. Durabilidade: 1 ano",
+                "_id": "1721092727360x602114335261534000",
+                "demanda": 1,
+                "Modified Date": "2025-12-06T12:26:01.893Z",
+                "Created Date": "2024-07-16T01:18:47.360Z",
+                "relacionados": [
+                    "1721092727361x626937613968598900",
+                    "1721092727362x754416225237317200",
+                    "1721092727365x149762472078380780",
+                    "1721092727366x792468820626505900",
+                    "1721092727367x313125324033255900",
+                    "1721092727368x437154645621995460",
+                    "1721092727369x363780422592381300"
+                ],
+                "categorias_produto": [
+                    "Temperos e Condimentos"
+                ]
+            },
+            {
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1719836749720x980044176371007200/ALHO%201KG.jfif"
+                ],
+                "Created By": "admin_user_levee-delivery_test",
+                "visivel": true,
+                "nome": "Alho Descascado 1Kg",
+                "ordem_prateleira": 34,
+                "Modified Date": "2026-02-27T15:55:40.051Z",
+                "preço novo": 40.99,
+                "como armazenar": "Geladeira: Pote hermético. Durabilidade: 2 meses",
+                "ean": "0000000001058",
+                "Created Date": "2024-07-16T01:18:47.361Z",
+                "relacionados": [
+                    "1721092727360x602114335261534000",
+                    "1721092727362x754416225237317200",
+                    "1721092727365x149762472078380780",
+                    "1721092727366x792468820626505900",
+                    "1721092727367x313125324033255900",
+                    "1721092727368x437154645621995460",
+                    "1721092727369x363780422592381300"
+                ],
+                "demanda": 17,
+                "_id": "1721092727361x626937613968598900",
+                "peso por unidade": 1000,
+                "tipo_unidade": "UN",
+                "preço antigo": 29.99,
+                "desconto": -36.6788929643214,
+                "cod": "000791",
+                "preço por kg": 29.99,
+                "descriçao": "Alho já descascado, pronto para uso. Receitas: Temperar carnes, molhos, arroz, sopas. Usos: Consumir cozido.",
+                "estoque": 99935,
+                "categorias_produto": [
+                    "Temperos e Condimentos"
+                ],
+                "peso/und": "unidade"
+            },
+            {
+                "visivel": false,
+                "descriçao": "Alho desidratado e frito, ideal para temperar e finalizar pratos. Receitas: Carnes, saladas, massas. Usos: Temperar, finalizar pratos.",
+                "estoque": 99978,
+                "peso/und": "unidade",
+                "Created By": "admin_user_levee-delivery_test",
+                "relacionados": [
+                    "1721092727360x602114335261534000",
+                    "1721092727361x626937613968598900",
+                    "1721092727365x149762472078380780",
+                    "1721092727366x792468820626505900",
+                    "1721092727367x313125324033255900",
+                    "1721092727368x437154645621995460",
+                    "1721092727369x363780422592381300"
+                ],
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1719836786526x833243249865964200/ALHO%20DESIDRATADO.jfif"
+                ],
+                "peso por unidade": 100,
+                "tipo_unidade": "UN",
+                "preço novo": 11.99,
+                "info nutricional": "Por 100g:\n- Calorias: 330kcal\n- Gordura Total: 1.5g\n- Carboidratos: 75g\n- Proteína: 17g\n- Fibra: 9g\nVitaminas e Minerais:\n- Manganês: 1.7mg (85% VD)\n- Vitamina B6: 1.2mg (60% VD)\n- Vitamina C: 30mg (33% VD)\n- Selênio: 14mcg (20% VD)",
+                "desconto": 0,
+                "preço antigo": 11.99,
+                "nome": "Alho Desidratado Frito 100g",
+                "demanda": 8,
+                "Modified Date": "2026-02-23T02:00:21.097Z",
+                "ean": "0192505259516",
+                "_id": "1721092727362x754416225237317200",
+                "como armazenar": "Despensa: Embalagem original bem fechada, local fresco e seco. Durabilidade: 6 meses",
+                "Created Date": "2024-07-16T01:18:47.362Z",
+                "preço por kg": 11.99,
+                "qtd por unidade": "100g",
+                "categorias_produto": [
+                    "Temperos e Condimentos"
+                ],
+                "cod": "001484"
+            },
+            {
+                "peso por unidade": 100,
+                "descriçao": "Vegetal da mesma família da cebola, com sabor mais suave e delicado. Originário da região do Mediterrâneo. Receitas: Tortas, risotos, sopas, molhos. Usos: Utilizar a parte branca e verde clara, refogadas ou cozidas.",
+                "desconto": 0,
+                "Created Date": "2024-07-16T01:18:47.365Z",
+                "ordem_prateleira": 116,
+                "estoque": 99782,
+                "nome": "Alho Poró 100g",
+                "demanda": 67,
+                "categorias_produto": [
+                    "Verduras"
+                ],
+                "preço antigo": 6.99,
+                "relacionados": [
+                    "1721092727360x602114335261534000",
+                    "1721092727361x626937613968598900",
+                    "1721092727362x754416225237317200",
+                    "1721092727366x792468820626505900",
+                    "1721092727367x313125324033255900",
+                    "1721092727368x437154645621995460",
+                    "1721092727369x363780422592381300"
+                ],
+                "cod": "000020",
+                "Modified Date": "2026-03-03T11:03:34.504Z",
+                "preço novo": 6.99,
+                "como armazenar": "Geladeira: Em saco plástico. Durabilidade: 1 semana",
+                "_id": "1721092727365x149762472078380780",
+                "peso/und": "unidade",
+                "visivel": true,
+                "preço por kg": 6.99,
+                "Created By": "admin_user_levee-delivery_test",
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1719347585707x990888543292094400/Alho%20Poro%20Unid.jpg"
+                ],
+                "info nutricional": "Por 100g:\n- Calorias: 61kcal\n- Carboidratos: 14g\n- Açúcar: 5g\n- Fibra: 3g\n- Proteína: 2g\n- Gordura: 0.3g\nVitaminas:\n- Vitamina K: 100mcg (83% VD)\n- Vitamina C: 32mg (36% VD)\n- Folato: 95mcg (24% VD)\nMinerais:\n- Manganês: 0.2mg (10% VD)\n- Ferro: 0.8mg (4% VD)",
+                "tipo_unidade": "UN",
+                "ean": "0000000000019"
+            },
+            {
+                "peso por unidade": 100,
+                "ean": "0000000009737",
+                "visivel": true,
+                "preço por kg": 9.99,
+                "demanda": 28,
+                "tipo_unidade": "UN",
+                "cod": "002161",
+                "Modified Date": "2026-03-04T12:32:26.650Z",
+                "peso/und": "unidade",
+                "relacionados": [
+                    "1721092727360x602114335261534000",
+                    "1721092727361x626937613968598900",
+                    "1721092727362x754416225237317200",
+                    "1721092727365x149762472078380780",
+                    "1721092727367x313125324033255900",
+                    "1721092727368x437154645621995460",
+                    "1721092727369x363780422592381300"
+                ],
+                "descriçao": "Alho poró comercializado em bandeja, garantindo maior frescor e praticidade. Receitas: Tortas, risotos, sopas, molhos. Usos: Utilizar a parte branca e verde clara, refogadas ou cozidas.",
+                "Created Date": "2024-07-16T01:18:47.366Z",
+                "preço antigo": 9.99,
+                "desconto": 0,
+                "_id": "1721092727366x792468820626505900",
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1724116653059x765031318297590000/Alho%20Por%C3%B3%20Bandeja%20100g.webp"
+                ],
+                "categorias_produto": [
+                    "Legumes",
+                    "Higienizados"
+                ],
+                "preço novo": 9.99,
+                "Created By": "admin_user_levee-delivery_test",
+                "como armazenar": "Geladeira: Na embalagem original. Durabilidade: 5-7 dias",
+                "estoque": 99920,
+                "nome": "Alho Poró Bandeja 100g"
+            },
+            {
+                "descriçao": "Alho poró já fatiado e comercializado em bandeja, proporcionando praticidade no preparo das receitas. Receitas: Tortas, risotos, sopas, molhos. Usos: Utilizar a parte branca e verde clara, refogadas ou cozidas.",
+                "desconto": -11.1234705228031,
+                "cod": "002037",
+                "categorias_produto": [
+                    "Verduras",
+                    "Higienizados",
+                    "Kit Processados"
+                ],
+                "tipo_unidade": "BJ",
+                "demanda": 39,
+                "estoque": 99420,
+                "Created By": "admin_user_levee-delivery_test",
+                "peso/und": "unidade",
+                "Modified Date": "2026-03-04T17:08:30.905Z",
+                "preço por kg": 8.99,
+                "preço antigo": 8.99,
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1736175857307x802441097171893100/20241205_103215.JPG"
+                ],
+                "relacionados": [
+                    "1721092727360x602114335261534000",
+                    "1721092727361x626937613968598900",
+                    "1721092727362x754416225237317200",
+                    "1721092727365x149762472078380780",
+                    "1721092727366x792468820626505900",
+                    "1721092727368x437154645621995460",
+                    "1721092727369x363780422592381300"
+                ],
+                "Created Date": "2024-07-16T01:18:47.367Z",
+                "visivel": true,
+                "nome": "Alho Poró Fatiado (Bandeja) 100g",
+                "preço novo": 9.99,
+                "como armazenar": "Geladeira: Na embalagem original. Durabilidade: 3-5 dias",
+                "ordem_prateleira": 119,
+                "_id": "1721092727367x313125324033255900",
+                "peso por unidade": 100,
+                "ean": "0000000008617"
+            },
+            {
+                "descriçao": "Variedade de alho com bulbo e casca de cor arroxilada. Possui sabor mais suave que o alho branco e é vendido a granel por quilo. Receitas: Temperar carnes, molhos, arroz, conservas. Usos: Consumir cozido ou assado, utilizar em conserva.",
+                "como armazenar": "Temperatura ambiente: Local fresco, seco e arejado. Durabilidade: Várias semanas",
+                "ean": "0000000000081",
+                "demanda": 645,
+                "Created Date": "2024-07-16T01:18:47.368Z",
+                "cod": "000087",
+                "ordem_prateleira": 33,
+                "peso/und": "peso",
+                "visivel": true,
+                "preço antigo": 34.99,
+                "Created By": "admin_user_levee-delivery_test",
+                "Modified Date": "2026-03-04T17:33:28.868Z",
+                "relacionados": [
+                    "1721092727360x602114335261534000",
+                    "1721092727361x626937613968598900",
+                    "1721092727362x754416225237317200",
+                    "1721092727365x149762472078380780",
+                    "1721092727366x792468820626505900",
+                    "1721092727367x313125324033255900",
+                    "1721092727369x363780422592381300"
+                ],
+                "peso por unidade": 44,
+                "estoque": 13553,
+                "tipo_unidade": "KG",
+                "categorias_produto": [
+                    "Temperos e Condimentos"
+                ],
+                "preço novo": 44.99,
+                "nome": "Alho Roxo Agranel",
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1719836933363x411136944864292100/ALHO%20ROCO.jfif"
+                ],
+                "desconto": -28.5795941697628,
+                "_id": "1721092727368x437154645621995460",
+                "preço por kg": 39.99
+            },
+            {
+                "desconto": -10.01001001001,
+                "preço novo": 10.99,
+                "relacionados": [
+                    "1721092727360x602114335261534000",
+                    "1721092727361x626937613968598900",
+                    "1721092727362x754416225237317200",
+                    "1721092727365x149762472078380780",
+                    "1721092727366x792468820626505900",
+                    "1721092727367x313125324033255900",
+                    "1721092727368x437154645621995460"
+                ],
+                "cod": "000085",
+                "peso/und": "unidade",
+                "ordem_prateleira": 35,
+                "preço antigo": 9.99,
+                "visivel": true,
+                "tipo_unidade": "BJ",
+                "peso por unidade": 200,
+                "descriçao": "Alho já descascado e embalado, pronto para uso, em porção ideal para o consumo caseiro. Receitas: Temperar carnes, molhos, arroz, sopas. Usos: Consumir cozido.",
+                "categorias_produto": [
+                    "Temperos e Condimentos",
+                    "Higienizados"
+                ],
+                "demanda": 115,
+                "Created By": "admin_user_levee-delivery_test",
+                "_id": "1721092727369x363780422592381300",
+                "ean": "0000000000080",
+                "qtd por unidade": "200g",
+                "Created Date": "2024-07-16T01:18:47.369Z",
+                "nome": "Alho Descascado 200g",
+                "como armazenar": "Geladeira: Pote hermético. Durabilidade: 1 mês",
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1719837014310x649603773421343400/ALHO%20BD.jfif"
+                ],
+                "estoque": 99440,
+                "Modified Date": "2026-03-04T12:03:19.771Z"
+            },
+            {
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1719347586450x986632486227156200/Almeir%C3%A3o%20%20Unidade.jpg"
+                ],
+                "ean": "0000000000014",
+                "tipo_unidade": "UN",
+                "peso/und": "unidade",
+                "nome": "Almeirão 100g",
+                "demanda": 39,
+                "visivel": true,
+                "info nutricional": "Por 100g:\n- Calorias: 23kcal\n- Carboidratos: 5g\n- Açúcar: 2g\n- Fibra: 2g\n- Proteína: 1g\n- Gordura: 0.3g\nVitaminas:\n- Vitamina A: 4000 UI (80% VD)\n- Vitamina K: 400mcg (333% VD)\n- Folato: 110mcg (28% VD)\nMinerais:\n- Potássio: 300mg (9% VD)\n- Cálcio: 100mg (10% VD)",
+                "relacionados": [
+                    "1721092727384x650625345571055400"
+                ],
+                "estoque": 99837,
+                "categorias_produto": [
+                    "Verduras"
+                ],
+                "desconto": -25.062656641604,
+                "Created Date": "2024-07-16T01:18:47.382Z",
+                "cod": "000014",
+                "_id": "1721092727382x685364284330814600",
+                "Created By": "admin_user_levee-delivery_test",
+                "ordem_prateleira": 117,
+                "Modified Date": "2026-03-01T10:38:21.979Z",
+                "como armazenar": "Geladeira: Em saco plástico. Durabilidade: 3-5 dias",
+                "peso por unidade": 100,
+                "descriçao": "Vegetal folhoso rico em vitaminas A e C. Receitas: Refogado, acompanhamento para carnes, tortas salgadas. Usos: Consumir cozido ou refogado.",
+                "preço antigo": 3.99,
+                "preço novo": 4.99
+            },
+            {
+                "nome": "Alimento De Castanha Original 1L",
+                "Modified Date": "2025-05-21T17:13:00.288Z",
+                "peso/und": "unidade",
+                "tipo_unidade": "UN",
+                "categorias_produto": [
+                    "Outros"
+                ],
+                "Created Date": "2024-07-16T01:18:47.383Z",
+                "preço antigo": 21.99,
+                "desconto": 0,
+                "cod": "002110",
+                "descriçao": "Bebida tradicional da culinária paraense, extraída da castanha-do-pará. Possui sabor marcante e é rica em vitaminas, minerais e gorduras saudáveis. Receitas: Vitaminas, smoothies, sorvetes. Usos: Consumir gelado, puro ou diluído em água ou leite.",
+                "estoque": 100000,
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1724108287107x932072631200561400/2110.jpg"
+                ],
+                "ean": "7898955705049",
+                "peso por unidade": 1000,
+                "_id": "1721092727383x950894641018649600",
+                "demanda": 0,
+                "como armazenar": "Geladeira: Após aberto. Durabilidade: Verificar embalagem",
+                "preço novo": 21.99,
+                "Created By": "admin_user_levee-delivery_test",
+                "relacionados": [
+                    "1721092986970x820534317414135000"
+                ],
+                "qtd por unidade": "1L",
+                "visivel": true
+            },
+            {
+                "tipo_unidade": "UN",
+                "Created By": "admin_user_levee-delivery_test",
+                "preço novo": 3.99,
+                "Created Date": "2024-07-16T01:18:47.384Z",
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1719347586450x986632486227156200/Almeir%C3%A3o%20%20Unidade.jpg"
+                ],
+                "desconto": -100.50251256281406,
+                "preço antigo": 1.99,
+                "estoque": -99971,
+                "visivel": false,
+                "peso/und": "unidade",
+                "ean": "7898918560159",
+                "categorias_produto": [
+                    "Verduras"
+                ],
+                "Modified Date": "2026-02-04T12:50:16.053Z",
+                "nome": "Almeirão Hidropônica 100g",
+                "como armazenar": "Geladeira: Em saco plástico. Durabilidade: 7-10 dias",
+                "peso por unidade": 100,
+                "relacionados": [
+                    "1721092727382x685364284330814600"
+                ],
+                "descriçao": "Almeirão cultivado em sistema hidropônico, sem o uso de agrotóxicos no solo. Mantém as propriedades do almeirão tradicional. Receitas: Refogado, acompanhamento para carnes, tortas salgadas. Usos: Consumir cozido ou refogado.",
+                "cod": "000017",
+                "_id": "1721092727384x650625345571055400",
+                "demanda": 6
+            },
+            {
+                "categorias_produto": [
+                    "Empório"
+                ],
+                "relacionados": [
+                    "1721092727391x415581120526211200"
+                ],
+                "descriçao": "Ameixa seca da marca Saúde Plena, rica em fibras e com efeito laxativo. Usos: Consumir como snack, em receitas de sobremesas.",
+                "nome": "Ameixa S-Caroco 100g",
+                "tipo_unidade": "UN",
+                "desconto": 0,
+                "preço novo": 8.99,
+                "peso por unidade": 100,
+                "qtd por unidade": "100g",
+                "Modified Date": "2025-12-11T21:56:36.023Z",
+                "cod": "002342",
+                "Created By": "admin_user_levee-delivery_test",
+                "Created Date": "2024-07-16T01:18:47.385Z",
+                "peso/und": "unidade",
+                "estoque": 99972,
+                "ean": "0192505259899",
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1719347588058x181211265532299040/Ameixa%20Seca%20sem%20Caro%C3%A7o%20300g.jpg"
+                ],
+                "visivel": false,
+                "preço antigo": 8.99,
+                "demanda": 18,
+                "como armazenar": "Despensa: Embalagem original bem fechada, local fresco e seco. Durabilidade: Verificar embalagem",
+                "_id": "1721092727385x959578231101578400"
+            },
+            {
+                "peso/und": "unidade",
+                "tipo_unidade": "BJ",
+                "preço antigo": 14.99,
+                "visivel": false,
+                "info nutricional": "Por 100g:\n- Calorias: 43kcal\n- Carboidratos: 10g\n- Açúcar: 8g\n- Fibra: 5g\n- Proteína: 1g\n- Gordura: 0.5g\nVitaminas:\n- Vitamina C: 21mg (23% VD)\n- Vitamina K: 7mcg (6% VD)",
+                "estoque": 99239,
+                "descriçao": "Fruta pequena e delicada, rica em antioxidantes. Receitas: Geleias, doces, tortas, molhos para carnes. Usos: Consumir fresca, em calda ou congelada.",
+                "nome": "Amora Bandeja 150g",
+                "como armazenar": "Geladeira: Na embalagem original. Durabilidade: 3-5 dias",
+                "desconto": 53.3689126084056,
+                "em oferta": true,
+                "relacionados": [
+                    "1721092727392x303180990020668300"
+                ],
+                "Modified Date": "2026-03-04T03:40:40.484Z",
+                "Created Date": "2024-07-16T01:18:47.388Z",
+                "ean": "0000000000216",
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1719837173790x792444919650473500/AMORA.jfif"
+                ],
+                "categorias_produto": [
+                    "Frutas",
+                    "Higienizados"
+                ],
+                "_id": "1721092727388x802689137440177300",
+                "demanda": 32,
+                "preço novo": 6.99,
+                "Created By": "admin_user_levee-delivery_test",
+                "cod": "000224",
+                "peso por unidade": 150
+            },
+            {
+                "categorias_produto": [
+                    "Empório"
+                ],
+                "peso/und": "unidade",
+                "preço antigo": 6.99,
+                "peso por unidade": 300,
+                "nome": "Amendoim c/ casca",
+                "relacionados": [
+                    "1721092727390x783101169221158000",
+                    "1721092987211x348097966177807400",
+                    "1721092989303x599017524657527200",
+                    "1721092989436x126651777400327740"
+                ],
+                "visivel": false,
+                "demanda": 6,
+                "_id": "1721092727389x744715915317755400",
+                "como armazenar": "Despensa: Embalagem original bem fechada, local fresco e seco. Durabilidade: 6 meses",
+                "estoque": 99987,
+                "tipo_unidade": "PC",
+                "qtd por unidade": "300g",
+                "preço novo": 6.99,
+                "descriçao": "Amendoim cru com casca, ideal para consumo como aperitivo. Usos: Consumir torrado, cozido ou como ingrediente em receitas.",
+                "desconto": 0,
+                "Modified Date": "2025-12-19T18:33:13.604Z",
+                "ean": "7898953857566",
+                "Created By": "admin_user_levee-delivery_test",
+                "Created Date": "2024-07-16T01:18:47.389Z",
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1719837072361x141711270546729380/AMENDOIM%20CASCA.jfif"
+                ],
+                "cod": "001294",
+                "info nutricional": "Por 30g (1/4 xícara):\n- Calorias: 170kcal\n- Gordura Total: 14g (22% VD)\n- Gordura Saturada: 2g (9% VD)\n- Gordura Monoinsaturada: 7g\n- Gordura Poli-insaturada: 4g\n- Colesterol: 0mg (0% VD)\n- Sódio: 115mg (5% VD)\n- Carboidratos: 6g (2% VD)\n- Fibra Alimentar: 3g (12% VD)\n- Açúcar: 1g\n- Proteína: 8g (16% VD)"
+            },
+            {
+                "demanda": 0,
+                "_id": "1721092727390x783101169221158000",
+                "estoque": 100000,
+                "peso por unidade": 100,
+                "visivel": false,
+                "Created Date": "2024-07-16T01:18:47.390Z",
+                "categorias_produto": [
+                    "Empório"
+                ],
+                "Modified Date": "2025-12-19T18:35:51.728Z",
+                "descriçao": "Amendoim torrado e temperado com pimenta, da marca Saúde Plena. Usos: Consumir como aperitivo.",
+                "cod": "002416",
+                "Created By": "admin_user_levee-delivery_test",
+                "tipo_unidade": "PC",
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1719837149302x916202761735198200/AMEONDOIM%20COM%20PIMENTA.jfif"
+                ],
+                "relacionados": [
+                    "1721092727389x744715915317755400",
+                    "1721092987211x348097966177807400",
+                    "1721092989303x599017524657527200",
+                    "1721092989436x126651777400327740"
+                ],
+                "nome": "Amendoim Pimenta 100g",
+                "ean": "0192505300591",
+                "qtd por unidade": "100g",
+                "peso/und": "unidade",
+                "como armazenar": "Despensa: Embalagem original bem fechada, local fresco e seco. Durabilidade: Verificar embalagem",
+                "desconto": 0,
+                "preço antigo": 4.99,
+                "preço novo": 4.99
+            },
+            {
+                "estoque": -79328,
+                "tipo_unidade": "KG",
+                "categorias_produto": [
+                    "Frutas"
+                ],
+                "preço por kg": 23.67662835,
+                "desconto": 8.0032012805122,
+                "visivel": false,
+                "nome": "Ameixa Importada",
+                "ean": "0000000000210",
+                "peso por unidade": 97,
+                "cod": "000215",
+                "Created Date": "2024-07-16T01:18:47.391Z",
+                "ordem_prateleira": 61,
+                "preço antigo": 24.99,
+                "como armazenar": "Geladeira: Na embalagem original. Durabilidade: Verificar embalagem",
+                "Created By": "admin_user_levee-delivery_test",
+                "preço novo": 22.99,
+                "Modified Date": "2026-03-02T10:23:17.405Z",
+                "peso/und": "peso",
+                "_id": "1721092727391x415581120526211200",
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1719347586621x218616692595478880/Ameixa%20Importada.jpg"
+                ],
+                "descriçao": "Fruta originária da China, rica em fibras e com sabor doce e levemente ácido. Receitas: Compota, geleia, sobremesas, acompanhamento para carnes. Usos: Consumir fresca, em calda ou seca.",
+                "relacionados": [
+                    "1721092727385x959578231101578400"
+                ],
+                "demanda": 983
+            },
+            {
+                "relacionados": [
+                    "1740415516330x797824344374378500",
+                    "1740415187817x153827258843791360"
+                ],
+                "Created Date": "2024-07-16T01:18:47.392Z",
+                "peso por unidade": 345,
+                "Created By": "admin_user_levee-delivery_test",
+                "descriçao": "Variedade de amora sem espinhos, mais fácil de manusear e consumir. Receitas: Geleias, doces, tortas, molhos para carnes. Usos: Consumir fresca, em calda ou congelada.",
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1753988685767x827464742635430900/Amora-1.webp"
+                ],
+                "qtd por unidade": "40g",
+                "visivel": true,
+                "cod": "2911",
+                "como armazenar": "Geladeira: Na embalagem original. ",
+                "Modified Date": "2026-02-25T17:44:31.453Z",
+                "preço novo": 24.99,
+                "preço antigo": 5.99,
+                "ean": "0192505259943",
+                "demanda": 1,
+                "_id": "1721092727392x303180990020668300",
+                "desconto": -317.195325542571,
+                "nome": "geleia de amora heio ",
+                "tipo_unidade": "UN",
+                "peso/und": "unidade",
+                "estoque": 99987
+            },
+            {
+                "tipo_unidade": "UN",
+                "qtd por unidade": "50g",
+                "desconto": 20.0100050025012,
+                "categorias_produto": [
+                    "Temperos e Condimentos"
+                ],
+                "preço antigo": 19.99,
+                "visivel": true,
+                "descriçao": "Condimento em forma de estrela, originário da China, com sabor adocicado e aroma intenso. Receitas: Carnes, caldos, chás, sobremesas. Usos: Utilizar inteiro ou moído, para aromatizar e realçar o sabor dos pratos.",
+                "nome": "Anis Estrelado 50g",
+                "Created Date": "2024-07-16T01:18:47.394Z",
+                "cod": "001438",
+                "Modified Date": "2026-02-20T16:16:31.191Z",
+                "peso por unidade": 50,
+                "peso/und": "unidade",
+                "estoque": 99992,
+                "demanda": 1,
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1719837226067x564033459415268030/ANIS%20ESTRELADO.jfif"
+                ],
+                "ean": "0000000003148",
+                "Created By": "admin_user_levee-delivery_test",
+                "como armazenar": "Despensa: Pote hermético, local fresco e seco. Durabilidade: 1 ano",
+                "preço novo": 15.99,
+                "_id": "1721092727394x146721461585873400"
+            },
+            {
+                "demanda": 0,
+                "Modified Date": "2026-02-12T16:04:38.933Z",
+                "nome": "Argola Papao Fornada De Minas 100g",
+                "relacionados": [
+                    "1721092727398x673145232708538800",
+                    "1721092727399x947588287845017900"
+                ],
+                "desconto": 0,
+                "preço novo": 9.99,
+                "tipo_unidade": "PC",
+                "_id": "1721092727397x937145415032085800",
+                "peso/und": "unidade",
+                "estoque": 99987,
+                "categorias_produto": [
+                    "Outros",
+                    "Biscoitos"
+                ],
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1719837305116x231784182769649400/ARGOLA.jfif"
+                ],
+                "peso por unidade": 100,
+                "cod": "001529",
+                "como armazenar": "Despensa: Embalagem original bem fechada, local fresco e seco. Durabilidade: Verificar embalagem",
+                "visivel": true,
+                "Created By": "admin_user_levee-delivery_test",
+                "preço antigo": 9.99,
+                "descriçao": "Biscoito de polvilho tradicional da culinária mineira, com formato de argola. Usos: Consumir como acompanhamento para café ou chá.",
+                "Created Date": "2024-07-16T01:18:47.397Z",
+                "ean": "0000000004008"
+            },
+            {
+                "tipo_unidade": "PC",
+                "visivel": false,
+                "nome": "Argolinha De Queijo 100g",
+                "preço novo": 5.99,
+                "descriçao": "Biscoito de polvilho com queijo, tradicional da culinária mineira. Usos: Consumir como acompanhamento para café ou chá.",
+                "Created Date": "2024-07-16T01:18:47.398Z",
+                "peso/und": "unidade",
+                "cod": "002557",
+                "Created By": "admin_user_levee-delivery_test",
+                "como armazenar": "Despensa: Embalagem original bem fechada, local fresco e seco. Durabilidade: Verificar embalagem",
+                "peso por unidade": 100,
+                "_id": "1721092727398x673145232708538800",
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1719837437667x242011755381336350/ARGOLINHA%20DE%20QUEIJO.jfif"
+                ],
+                "preço antigo": 5.99,
+                "ean": "7898929337504",
+                "Modified Date": "2026-02-12T19:44:44.935Z",
+                "desconto": 0,
+                "relacionados": [
+                    "1721092727397x937145415032085800",
+                    "1721092727399x947588287845017900",
+                    "1721092990106x805946285449906200"
+                ],
+                "qtd por unidade": "100g",
+                "estoque": 99904,
+                "categorias_produto": [
+                    "Outros",
+                    "Biscoitos"
+                ],
+                "demanda": 9
+            },
+            {
+                "tipo_unidade": "PC",
+                "categorias_produto": [
+                    "Outros",
+                    "Biscoitos"
+                ],
+                "_id": "1721092727399x947588287845017900",
+                "relacionados": [
+                    "1721092727397x937145415032085800",
+                    "1721092727398x673145232708538800"
+                ],
+                "descriçao": "Biscoito de polvilho tradicional, da marca Villefort. Usos: Consumir como acompanhamento para café ou chá.",
+                "peso/und": "unidade",
+                "Modified Date": "2025-10-23T14:54:31.929Z",
+                "demanda": 0,
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1719837476791x758372366533840300/ARGOLINHA%20VILLEFORT.jfif"
+                ],
+                "ean": "7898192820222",
+                "cod": "002071",
+                "visivel": false,
+                "qtd por unidade": "200g",
+                "preço novo": 21.99,
+                "Created Date": "2024-07-16T01:18:47.399Z",
+                "peso por unidade": 200,
+                "desconto": 0,
+                "Created By": "admin_user_levee-delivery_test",
+                "nome": "Argolinha Villefort 200g",
+                "preço antigo": 21.99,
+                "como armazenar": "Despensa: Embalagem original bem fechada, local fresco e seco. Durabilidade: Verificar embalagem",
+                "estoque": -99990
+            },
+            {
+                "relacionados": [
+                    "1721092727409x618481329155401600"
+                ],
+                "tipo_unidade": "UN",
+                "cod": "002581",
+                "preço antigo": 1.3,
+                "peso/und": "unidade",
+                "ean": "7898939593181",
+                "Created Date": "2024-07-16T01:18:47.400Z",
+                "peso por unidade": 7,
+                "estoque": -99999,
+                "desconto": 0,
+                "Modified Date": "2025-12-19T18:38:21.275Z",
+                "_id": "1721092727400x867734492243341800",
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1719347607614x278531988180423800/Gengibre.jpg"
+                ],
+                "demanda": 1,
+                "preço novo": 1.3,
+                "categorias_produto": [
+                    "Outros"
+                ],
+                "nome": "Bala De Gengibre",
+                "como armazenar": "Despensa: Embalagem original bem fechada, local fresco e seco. Durabilidade: Verificar embalagem",
+                "visivel": false,
+                "Created By": "admin_user_levee-delivery_test",
+                "descriçao": "Bala tradicional feita com extrato de gengibre. Usos: Consumir como digestivo, alivia náuseas."
+            },
+            {
+                "preço novo": 9.99,
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1719837610291x121033576818675440/B.%20AMANTEIGADO%20DE%20L.%20CONDENSADO%20-%20SO%20MINEIRO%20300G.jpg.crdownload"
+                ],
+                "cod": "001830",
+                "visivel": true,
+                "como armazenar": "Despensa: Embalagem original bem fechada, local fresco e seco. Durabilidade: Verificar embalagem",
+                "peso por unidade": 300,
+                "_id": "1721092727401x184291787466885900",
+                "Modified Date": "2026-03-04T17:08:30.129Z",
+                "Created Date": "2024-07-16T01:18:47.401Z",
+                "peso/und": "unidade",
+                "descriçao": "Biscoito amanteigado com recheio de leite condensado, da marca Só Mineiro. Usos: Consumir como sobremesa ou acompanhamento para café ou chá.",
+                "demanda": 2,
+                "ean": "7898676160417",
+                "categorias_produto": [
+                    "Outros",
+                    "Biscoitos"
+                ],
+                "nome": "B. Amanteigado De L. Condensado (Sô Mineiro) 300g",
+                "Created By": "admin_user_levee-delivery_test",
+                "relacionados": [
+                    "1721092986697x941517756079329500",
+                    "1721092986707x368366521634559740",
+                    "1721092986709x457506035361721100",
+                    "1721092986713x645903983218701200",
+                    "1721092986718x705957655008919900",
+                    "1721092986741x207182524082528260",
+                    "1721092986745x278547623846139520"
+                ],
+                "estoque": 99956,
+                "tipo_unidade": "PC",
+                "qtd por unidade": "300g",
+                "preço antigo": 9.99,
+                "desconto": 0
+            },
+            {
+                "categorias_produto": [
+                    "Temperos e Condimentos"
+                ],
+                "_id": "1721092727403x955170816508481500",
+                "Modified Date": "2025-10-23T14:54:55.903Z",
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1719837666798x140251800316695490/BACOM%20EM%20PO.jfif"
+                ],
+                "peso por unidade": 50,
+                "como armazenar": "Geladeira ou freezer: Depende da frequência de uso. Durabilidade: 2 meses (Geladeira), 6 meses (Freezer)",
+                "info nutricional": "Por 2 colheres de sopa (14g):\n- Calorias: 60kcal\n- Gordura Total: 4.5g\n- Gordura Saturada: 1.5g\n- Colesterol: 10mg\n- Sódio: 270mg\n- Proteína: 4g",
+                "cod": "002303",
+                "tipo_unidade": "UN",
+                "desconto": 0,
+                "preço novo": 8.99,
+                "nome": "Bacon Em Pó 50g",
+                "Created By": "admin_user_levee-delivery_test",
+                "Created Date": "2024-07-16T01:18:47.403Z",
+                "estoque": -99967,
+                "visivel": false,
+                "preço antigo": 8.99,
+                "descriçao": "Bacon desidratado e moído, ideal para temperar e finalizar pratos. Receitas: Saladas, massas, legumes. Usos: Temperar, finalizar pratos.",
+                "ean": "0192505114150",
+                "peso/und": "unidade",
+                "demanda": 5,
+                "qtd por unidade": "50g"
+            },
+            {
+                "nome": "Bala De Mel Celebre Chocolate 80g",
+                "preço antigo": 10.99,
+                "visivel": true,
+                "Modified Date": "2025-05-21T17:13:00.326Z",
+                "qtd por unidade": "80g",
+                "demanda": 0,
+                "Created By": "admin_user_levee-delivery_test",
+                "categorias_produto": [
+                    "Outros"
+                ],
+                "como armazenar": "Despensa: Embalagem original bem fechada, local fresco e seco. Durabilidade: Verificar embalagem",
+                "estoque": 100000,
+                "preço novo": 10.99,
+                "peso/und": "unidade",
+                "_id": "1721092727404x237612751192961540",
+                "cod": "001898",
+                "peso por unidade": 10,
+                "ean": "7898939593082",
+                "Created Date": "2024-07-16T01:18:47.404Z",
+                "descriçao": "Bala de mel com sabor chocolate, da marca Celebre. Usos: Consumir como doce.",
+                "relacionados": [
+                    "1721092727406x308703818163310850"
+                ],
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1719837910271x380495839996024500/bala%20celebre.jfif"
+                ],
+                "tipo_unidade": "UN",
+                "desconto": 0
+            },
+            {
+                "peso/und": "unidade",
+                "Created By": "admin_user_levee-delivery_test",
+                "tipo_unidade": "PC",
+                "Modified Date": "2025-12-27T10:39:23.440Z",
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1719837810861x102633900104789340/BACONZINHO%20FORNALHA%20DE%20MINAS%20100GRA.jfif"
+                ],
+                "categorias_produto": [
+                    "Outros"
+                ],
+                "visivel": true,
+                "relacionados": [
+                    "1721092987405x843456070046389100"
+                ],
+                "descriçao": "Bacon artesanal, da marca Fornalha de Minas. Usos: Consumir como acompanhamento, em receitas ou petiscos.",
+                "como armazenar": "Despensa: Embalagem original bem fechada, local fresco e seco. Durabilidade: Verificar embalagem",
+                "_id": "1721092727405x133907188701375860",
+                "ean": "7898929337061",
+                "demanda": 5,
+                "desconto": -75.187969924812,
+                "qtd por unidade": "100g",
+                "preço novo": 6.99,
+                "preço antigo": 3.99,
+                "peso por unidade": 100,
+                "Created Date": "2024-07-16T01:18:47.405Z",
+                "nome": "Baconzinho Fornalha De Minas 100g",
+                "cod": "001299",
+                "estoque": 99981
+            },
+            {
+                "nome": "Bala De Mel Celebre 10g",
+                "peso por unidade": 10,
+                "_id": "1721092727406x308703818163310850",
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1719837928726x158542494477903900/bala%20celebre.jfif"
+                ],
+                "Created By": "admin_user_levee-delivery_test",
+                "ean": "7898939593150",
+                "como armazenar": "Despensa: Embalagem original bem fechada, local fresco e seco. Durabilidade: Verificar embalagem",
+                "cod": "002582",
+                "peso/und": "unidade",
+                "relacionados": [
+                    "1721092727404x237612751192961540"
+                ],
+                "descriçao": "Bala de mel tradicional, da marca Celebre. Usos: Consumir como doce.",
+                "preço antigo": 1.3,
+                "Modified Date": "2025-05-21T17:12:58.488Z",
+                "visivel": true,
+                "categorias_produto": [
+                    "Outros"
+                ],
+                "preço novo": 1.3,
+                "Created Date": "2024-07-16T01:18:47.406Z",
+                "demanda": 1,
+                "estoque": 99994,
+                "desconto": 0,
+                "tipo_unidade": "UN"
+            },
+            {
+                "visivel": false,
+                "relacionados": [
+                    "1721092727400x867734492243341800"
+                ],
+                "cod": "000553",
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1719837960535x607862309219643100/bala%20celebre.jfif"
+                ],
+                "ean": "7898955008140",
+                "peso/und": "unidade",
+                "demanda": 3,
+                "categorias_produto": [
+                    "Outros"
+                ],
+                "Created Date": "2024-07-16T01:18:47.409Z",
+                "descriçao": "Balas feitas com própolis e gengibre, combinando as propriedades medicinais de ambos os ingredientes. Usos: Consumir para aliviar dor de garganta e fortalecer a imunidade.",
+                "nome": "Balas De Propolis E Gengibre 10g",
+                "como armazenar": "Despensa: Embalagem original bem fechada, local fresco e seco. Durabilidade: Verificar embalagem",
+                "peso por unidade": 10,
+                "_id": "1721092727409x618481329155401600",
+                "preço novo": 4.99,
+                "tipo_unidade": "UN",
+                "desconto": 0,
+                "preço antigo": 4.99,
+                "Created By": "admin_user_levee-delivery_test",
+                "Modified Date": "2025-05-21T17:12:56.583Z",
+                "estoque": 100000
+            },
+            {
+                "categorias_produto": [
+                    "Empório"
+                ],
+                "Created By": "admin_user_levee-delivery_test",
+                "visivel": true,
+                "peso por unidade": 90,
+                "demanda": 23,
+                "tipo_unidade": "PC",
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1719838005125x575642273515918140/BANANA%20CHIPS.jfif"
+                ],
+                "desconto": 0,
+                "nome": "Banana Chips 90g",
+                "ean": "0606529823689",
+                "relacionados": [
+                    "1721092727414x194325679821941700",
+                    "1721092727419x936138648624360300"
+                ],
+                "estoque": 99778,
+                "preço antigo": 4.99,
+                "cod": "001912",
+                "peso/und": "unidade",
+                "qtd por unidade": "90g",
+                "Created Date": "2024-07-16T01:18:47.412Z",
+                "Modified Date": "2026-03-03T15:38:13.654Z",
+                "descriçao": "Banana fatiada e desidratada, crocante e saborosa. Usos: Consumir como snack, em receitas de sobremesas ou saladas.",
+                "como armazenar": "Despensa: Embalagem original bem fechada, local fresco e seco. Durabilidade: Verificar embalagem",
+                "preço novo": 4.99,
+                "_id": "1721092727412x380601716663861300"
+            },
+            {
+                "qtd por unidade": "130g",
+                "relacionados": [
+                    "1721092727412x380601716663861300",
+                    "1721092727419x936138648624360300"
+                ],
+                "nome": "Banana Chips Artesanal 130g",
+                "demanda": 0,
+                "ean": "0000000012614",
+                "info nutricional": " ",
+                "desconto": 0,
+                "Created By": "admin_user_levee-delivery_test",
+                "preço antigo": 5.99,
+                "descriçao": "Banana chips produzida artesanalmente, com ingredientes selecionados. Usos: Consumir como snack, em receitas de sobremesas ou saladas.",
+                "Modified Date": "2025-10-23T21:10:20.210Z",
+                "categorias_produto": [
+                    "Outros"
+                ],
+                "peso/und": "unidade",
+                "_id": "1721092727414x194325679821941700",
+                "visivel": false,
+                "estoque": -99994,
+                "preço novo": 5.99,
+                "Created Date": "2024-07-16T01:18:47.414Z",
+                "tipo_unidade": "PC",
+                "peso por unidade": 130,
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1727123725939x853794560904557600/20240831_161725.png"
+                ],
+                "cod": "002463",
+                "como armazenar": "Despensa: Embalagem original bem fechada, local fresco e seco. Durabilidade: Verificar embalagem"
+            },
+            {
+                "ean": "0000000000219",
+                "preço antigo": 4.99,
+                "Created By": "admin_user_levee-delivery_test",
+                "_id": "1721092727415x914450061523493600",
+                "tipo_unidade": "KG",
+                "categorias_produto": [
+                    "Frutas"
+                ],
+                "estoque": 99195142,
+                "em oferta": false,
+                "preço novo": 6.99,
+                "preço por kg": 4.37169145,
+                "visivel": true,
+                "como armazenar": "Maturação: Em temperatura ambiente. Geladeira: Quando estiver no ponto. Durabilidade: 3-5 dias (madura)",
+                "ordem_prateleira": 39,
+                "desconto": -40.0801603206413,
+                "peso/und": "peso",
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1719347588520x126365122197768850/Banana%20Caturra.jpg"
+                ],
+                "cod": "000228",
+                "Modified Date": "2026-03-04T16:22:13.406Z",
+                "nome": "Banana Caturra",
+                "peso por unidade": 174,
+                "descriçao": "[b]Descrição do Produto:[/b]\nA Banana Caturra, conhecida por seu formato menor e sabor adocicado, é uma fruta perfeita para lanches rápidos ou para receitas de sobremesas e bolos. Seu sabor é levemente mais doce do que outras variedades de banana.\n\nInformações Nutricionais (por 100g):\n\nCalorias: 89 kcal\nCarboidratos: 22,8 g\nProteínas: 1,2 g\nGorduras Totais: 0,3 g\nFibra Alimentar: 2,6 g\nPotássio: 358 mg\nVitamina C: 8,7 mg\nDicas de Uso:\nA Banana Caturra pode ser consumida fresca, em fatias ou adicionada a receitas como bolos e muffins. É também uma ótima opção para ser usada em sobremesas e smoothies.\n\nRecomendação de Armazenamento:\nGuarde a Banana Caturra em um local seco e fresco até que esteja madura. Após o amadurecimento, para evitar que passe do ponto, mantenha-a na geladeira e consuma em até uma semana.",
+                "demanda": 3593,
+                "Created Date": "2024-07-16T01:18:47.415Z"
+            },
+            {
+                "Modified Date": "2026-03-04T17:29:15.299Z",
+                "peso por unidade": 214,
+                "estoque": 256977,
+                "preço por kg": 11.96992049,
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1719842335337x868634562257424300/BANANA%20DA%20TERRA.jfif"
+                ],
+                "tipo_unidade": "KG",
+                "preço antigo": 11.99,
+                "Created By": "admin_user_levee-delivery_test",
+                "peso/und": "peso",
+                "info nutricional": "Por 100g:\n- Calorias: 122kcal\n- Carboidratos: 31g\n- Açúcar: 17g\n- Fibra: 3g\n- Proteína: 1g\n- Gordura: 0.4g\nVitaminas:\n- Vitamina C: 9mg (10% VD)\n- Vitamina B6: 0.4mg (20% VD)\nMinerais:\n- Potássio: 499mg (14% VD)\n- Manganês: 0.3mg (15% VD)",
+                "descriçao": "Variedade de banana rica em amido, ideal para cozinhar. Receitas: Banana frita, purê, biomassa de banana verde. Usos: Consumir cozida, assada ou frita.",
+                "visivel": true,
+                "demanda": 500000,
+                "nome": "Banana Da Terra",
+                "Created Date": "2024-07-16T01:18:47.418Z",
+                "ordem_prateleira": 42,
+                "categorias_produto": [
+                    "Frutas"
+                ],
+                "preço novo": 9.99,
+                "como armazenar": "Maturação: Em temperatura ambiente. Durabilidade: 5-7 dias",
+                "_id": "1721092727418x551912131327488640",
+                "ean": "0000000000221",
+                "cod": "000230",
+                "desconto": 16.680567139282733
+            },
+            {
+                "peso por unidade": 90,
+                "relacionados": [
+                    "1721092727412x380601716663861300",
+                    "1721092727414x194325679821941700"
+                ],
+                "desconto": -20.0400801603206,
+                "como armazenar": "Despensa: Embalagem original bem fechada, local fresco e seco. Durabilidade: Verificar embalagem",
+                "preço novo": 5.99,
+                "ean": "0000000012607",
+                "visivel": true,
+                "nome": "Banana Chips Artesanal 90g",
+                "preço antigo": 4.99,
+                "estoque": 99994,
+                "cod": "002462",
+                "peso/und": "unidade",
+                "descriçao": "Banana chips produzida artesanalmente, em porção individual. Usos: Consumir como snack, em receitas de sobremesas ou saladas.",
+                "qtd por unidade": "90g",
+                "categorias_produto": [
+                    "Outros"
+                ],
+                "Modified Date": "2025-10-23T14:56:57.917Z",
+                "Created By": "admin_user_levee-delivery_test",
+                "tipo_unidade": "PC",
+                "demanda": 3,
+                "Created Date": "2024-07-16T01:18:47.419Z",
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1724108289490x199343359348151940/2462.jpg"
+                ],
+                "_id": "1721092727419x936138648624360300"
+            },
+            {
+                "como armazenar": "Maturação: Em temperatura ambiente. Geladeira: Quando estiver no ponto. Durabilidade: 3-5 dias (madura)",
+                "cod": "000239",
+                "peso por unidade": 100,
+                "Created Date": "2024-07-16T01:18:47.420Z",
+                "info nutricional": "Porção: 100g\nValor Energético: 105kcal\nCarboidratos: 26g - dos quais:\n Açúcares: 19g\nGorduras Totais: 0,2g - das quais:\n Gorduras Saturadas: 0,1g\n Gorduras Trans: 0g\nProteínas: 1,2g\nFibra Alimentar: 2,7g\nSódio: 1mg\nVitaminas: C, B6, A, B9 (Folato)\nMinerais: Potássio, Magnésio, Fósforo, Manganês.",
+                "tipo_unidade": "KG",
+                "Created By": "admin_user_levee-delivery_test",
+                "nome": "Banana Ouro",
+                "categorias_produto": [
+                    "Frutas"
+                ],
+                "_id": "1721092727420x949983426309651600",
+                "desconto": -40.04004004004,
+                "ean": "0000000000228",
+                "preço por kg": 9.990891347,
+                "estoque": 70228,
+                "demanda": 0,
+                "descriçao": "Descrição: Variedade de banana pequena, com casca fina e amarela intensa quando madura. Possui polpa doce e levemente ácida, rica em potássio.\nRegião: Cultivada em diversas regiões do Brasil, principalmente em São Paulo e Minas Gerais.\nÉpoca do ano: Disponível o ano todo.\nReceitas: Consumo in natura, bolos, tortas, doces, vitaminas, smoothies, farofa doce, banana caramelada.\nModo de uso: Consumir madura, quando a casca estiver amarela intensa.",
+                "preço antigo": 9.99,
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1719347589651x202485575184172100/Banana%20Ouro%20Kg.jpg"
+                ],
+                "visivel": true,
+                "Modified Date": "2026-02-26T11:48:05.420Z",
+                "peso/und": "peso",
+                "preço novo": 13.99
+            },
+            {
+                "ordem_prateleira": 40,
+                "tipo_unidade": "KG",
+                "nome": "Banana Prata",
+                "_id": "1721092727421x708784169986746800",
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1719347590619x148350805178881540/Banana%20Prata%20-%20Kg.jpg"
+                ],
+                "peso por unidade": 175,
+                "Created Date": "2024-07-16T01:18:47.421Z",
+                "descriçao": "Descrição: Variedade de banana de tamanho médio, com casca verde-amarelada quando madura e polpa firme e pouco doce. Rica em amido resistente.\nRegião: Cultivada em diversas regiões do Brasil, principalmente em São Paulo, Minas Gerais e Bahia.\nÉpoca do ano: Disponível o ano todo.\nReceitas: Banana frita, banana cozida, purês, biomassa de banana verde, bolos, tortas, acompanhamento para pratos salgados.\nModo de uso: Pode ser consumida madura (casca amarela) ou verde (casca verde-amarelada), dependendo da receita.",
+                "preço antigo": 9.99,
+                "Modified Date": "2026-03-04T16:50:30.683Z",
+                "visivel": true,
+                "preço novo": 9.99,
+                "como armazenar": "Maturação: Em temperatura ambiente. Geladeira: Quando estiver no ponto. Durabilidade: 3-5 dias (madura)",
+                "info nutricional": "Porção: 100g\nValor Energético: 122kcal\nCarboidratos: 30g - dos quais:\n Açúcares: 15g\nGorduras Totais: 0,3g - das quais:\n Gorduras Saturadas: 0,1g\n Gorduras Trans: 0g\nProteínas: 1,3g\nFibra Alimentar: 3,5g\nSódio: 1mg\nVitaminas: C, B6, A, B9 (Folato)\nMinerais: Potássio, Magnésio, Fósforo, Manganês.",
+                "desconto": 0,
+                "preço por kg": 7.86552361,
+                "cod": "000235",
+                "categorias_produto": [
+                    "Frutas"
+                ],
+                "demanda": 16165,
+                "estoque": 2960282,
+                "peso/und": "peso",
+                "Created By": "admin_user_levee-delivery_test",
+                "ean": "0000000000225"
+            },
+            {
+                "nome": "Banana Maçã",
+                "preço por kg": 12.99006754,
+                "info nutricional": "Porção: 100g\nValor Energético: 87kcal\nCarboidratos: 22g - dos quais:\n Açúcares: 14g\nGorduras Totais: 0,2g - das quais:\n Gorduras Saturadas: 0,1g\n Gorduras Trans: 0g\nProteínas: 1g\nFibra Alimentar: 3,4g\nSódio: 1mg\nVitaminas: C, B6, A, B9 (Folato)\nMinerais: Potássio, Magnésio, Fósforo, Manganês.",
+                "descriçao": "Descrição: Variedade de banana pequena e arredondada, com casca fina e amarela quando madura. Possui polpa doce e aromática, rica em fibras.\nRegião: Cultivada em diversas regiões do Brasil, principalmente em Santa Catarina e São Paulo.\nÉpoca do ano: Disponível o ano todo.\nReceitas: Consumo in natura, purês, papinhas para bebês, bolos, tortas, doces, compotas.\nModo de uso: Consumir madura, quando a casca estiver amarela.",
+                "visivel": true,
+                "_id": "1721092727421x786149959003102100",
+                "como armazenar": "Maturação: Em temperatura ambiente. Durabilidade: 3-5 dias",
+                "categorias_produto": [
+                    "Frutas"
+                ],
+                "estoque": 23474,
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1719347589392x331472357982333760/Banana%20Ma%C3%A7%C3%A3.jpg"
+                ],
+                "preço antigo": 5.99,
+                "ean": "0000000000223",
+                "demanda": 2175,
+                "ordem_prateleira": 43,
+                "desconto": -166.944908180301,
+                "peso por unidade": 77,
+                "Modified Date": "2026-03-03T14:35:05.626Z",
+                "peso/und": "peso",
+                "preço novo": 15.99,
+                "Created Date": "2024-07-16T01:18:47.421Z",
+                "cod": "000232",
+                "Created By": "admin_user_levee-delivery_test",
+                "tipo_unidade": "KG"
+            },
+            {
+                "qtd por unidade": "400g",
+                "preço antigo": 18.99,
+                "preço novo": 18.99,
+                "visivel": false,
+                "Created Date": "2024-07-16T01:18:47.797Z",
+                "estoque": 100000,
+                "peso/und": "unidade",
+                "descriçao": "Doce tradicional brasileiro, feito com banana e sem adição de açúcar, da marca Vovó Olavo. Usos: Consumir como sobremesa ou lanche.",
+                "categorias_produto": [
+                    "Empório"
+                ],
+                "desconto": 0,
+                "Modified Date": "2025-05-21T17:13:00.353Z",
+                "peso por unidade": 400,
+                "demanda": 0,
+                "cod": "001705",
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1719838072591x485589561530516350/BANANADA%20Sem%20ACUCAR%20VOVO%20OLAVO%20400G.jfif"
+                ],
+                "ean": "0000000005661",
+                "como armazenar": "Geladeira: Após aberto. Durabilidade: Verificar embalagem",
+                "tipo_unidade": "UN",
+                "_id": "1721092727797x980665519998050300",
+                "Created By": "admin_user_levee-delivery_test",
+                "nome": "Bananada Sem Açúcar Vovo Olavo 400g"
+            },
+            {
+                "desconto": 0,
+                "ean": "0000000000728",
+                "nome": "Bananinha Fitness",
+                "como armazenar": "Maturação: Em temperatura ambiente. Durabilidade: 3-5 dias",
+                "_id": "1721092727815x701450061484258000",
+                "categorias_produto": [
+                    "Outros"
+                ],
+                "peso/und": "unidade",
+                "tipo_unidade": "UN",
+                "demanda": 0,
+                "peso por unidade": 30,
+                "Created By": "admin_user_levee-delivery_test",
+                "preço antigo": 2.5,
+                "Created Date": "2024-07-16T01:18:47.815Z",
+                "preço novo": 2.5,
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1724108269264x121513379345158820/578.jpg"
+                ],
+                "descriçao": "Banana passa prensada em formato de barra, rica em fibras e potássio. Usos: Consumir como lanche.",
+                "visivel": false,
+                "Modified Date": "2025-10-23T14:58:25.441Z",
+                "cod": "000578",
+                "estoque": -99979
+            },
+            {
+                "Created By": "admin_user_levee-delivery_test",
+                "nome": "Bananinha (Famoso) 50g",
+                "descriçao": "Banana passa da marca Famoso, rica em fibras e potássio. Usos: Consumir como snack, em receitas de bolos, doces e pães.",
+                "peso por unidade": 50,
+                "cod": "000579",
+                "preço novo": 3,
+                "peso/und": "unidade",
+                "demanda": 3,
+                "info nutricional": "Por 100g:\n- Calorias: 98kcal\n- Carboidratos: 23g\n- Açúcar: 13g\n- Fibra: 3g\n- Proteína: 1g\n- Gordura: 0.3g\nMinerais:\n- Potássio: 358mg (10% VD)",
+                "desconto": 0,
+                "categorias_produto": [
+                    "Empório"
+                ],
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1719838126244x633823216830742900/BANANADA.jfif"
+                ],
+                "preço antigo": 3,
+                "ean": "0000000000729",
+                "como armazenar": "Maturação: Em temperatura ambiente. Durabilidade: 3-5 dias",
+                "Created Date": "2024-07-16T01:18:47.816Z",
+                "Modified Date": "2025-10-23T14:58:35.946Z",
+                "_id": "1721092727816x749719476830190700",
+                "estoque": -99977,
+                "visivel": false,
+                "tipo_unidade": "UN"
+            },
+            {
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1719838166546x415249531743744800/BANANINHA%20EM%20BARRA%20FITNESS%2040G.jfif"
+                ],
+                "preço antigo": 2.5,
+                "desconto": 0,
+                "categorias_produto": [
+                    "Empório"
+                ],
+                "peso/und": "unidade",
+                "preço novo": 2.5,
+                "ean": "7898244860091",
+                "Modified Date": "2025-10-23T14:58:13.505Z",
+                "demanda": 12,
+                "tipo_unidade": "UN",
+                "descriçao": "Barra de banana passa prensada, opção prática e saudável para lanches. Usos: Consumir como lanche.",
+                "como armazenar": "Despensa: Embalagem original bem fechada, local fresco e seco. Durabilidade: Verificar embalagem",
+                "estoque": -99908,
+                "Created Date": "2024-07-16T01:18:47.817Z",
+                "peso por unidade": 40,
+                "cod": "002441",
+                "_id": "1721092727817x282949121699816350",
+                "qtd por unidade": "40g",
+                "nome": "Bananinha Em Barra Fitness 40g",
+                "Created By": "admin_user_levee-delivery_test",
+                "visivel": false
+            },
+            {
+                "Created Date": "2024-07-16T01:18:47.818Z",
+                "descriçao": "Barra de coco com chocolate zero açúcar, da marca Famoso. Usos: Consumir como lanche ou sobremesa.",
+                "preço novo": 4.99,
+                "estoque": 99989,
+                "categorias_produto": [
+                    "Empório"
+                ],
+                "Modified Date": "2026-02-24T10:51:09.613Z",
+                "desconto": 0,
+                "peso por unidade": 21,
+                "peso/und": "unidade",
+                "ean": "7898058982125",
+                "como armazenar": "Despensa: Embalagem original bem fechada, local fresco e seco. Durabilidade: Verificar embalagem",
+                "em oferta": false,
+                "nome": "Barrinha De Coco Com Chocolate Zero 21g",
+                "visivel": true,
+                "Created By": "admin_user_levee-delivery_test",
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1719838463753x407719103977387100/BARRINHA%20DE%20COCO%20C%20CHOCOLATE%20ZERO%2021G.jfif"
+                ],
+                "tipo_unidade": "UN",
+                "demanda": 1,
+                "cod": "002544",
+                "_id": "1721092727818x771773004002786200",
+                "qtd por unidade": "21g",
+                "preço antigo": 4.99
+            },
+            {
+                "demanda": 0,
+                "peso/und": "unidade",
+                "Created Date": "2024-07-16T01:23:06.679Z",
+                "Created By": "admin_user_levee-delivery_test",
+                "cod": "012505",
+                "ean": "0192505115980",
+                "qtd por unidade": "100g",
+                "descriçao": "Planta medicinal brasileira, com propriedades cicatrizantes e anti-inflamatórias. Usos: Preparar chás e infusões.",
+                "preço novo": 9.99,
+                "nome": "Barbatimão 100g Saúde Plena",
+                "Modified Date": "2025-12-23T09:47:43.941Z",
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1741796870744x636422878056224900/BARBATIM%C3%83O%20100G.JPG"
+                ],
+                "visivel": true,
+                "_id": "1721092986679x534326609487218750",
+                "categorias_produto": [
+                    "Chás"
+                ],
+                "desconto": 0,
+                "peso por unidade": 100,
+                "estoque": 99999,
+                "tipo_unidade": "UN",
+                "como armazenar": "Despensa: Embalagem original bem fechada, local fresco e seco. Durabilidade: 1 ano"
+            },
+            {
+                "estoque": 4942932,
+                "descriçao": "Variedade de batata com casca clara e formato ovalado, ideal para fritura. Usos: Preparo de batata frita.",
+                "como armazenar": "Não aplicável: Produto pronto para consumo.",
+                "categorias_produto": [
+                    "Legumes"
+                ],
+                "preço antigo": 9.99,
+                "ean": "0000000000084",
+                "_id": "1721092986682x435708744363789060",
+                "Created By": "admin_user_levee-delivery_test",
+                "peso por unidade": 180,
+                "desconto": 50.0500500500501,
+                "ordem_prateleira": 14,
+                "Modified Date": "2026-03-03T14:44:01.340Z",
+                "nome": "Batata Asterix Mcdonalds",
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1719838346710x365366120451608300/BATATA%20ASTERIX.jfif"
+                ],
+                "cod": "000092",
+                "tipo_unidade": "KG",
+                "visivel": true,
+                "demanda": 1391,
+                "preço por kg": 12.76464504,
+                "Created Date": "2024-07-16T01:23:06.682Z",
+                "peso/und": "peso",
+                "preço novo": 4.99
+            },
+            {
+                "visivel": false,
+                "Modified Date": "2026-02-27T15:55:39.823Z",
+                "preço por kg": 7.989792198,
+                "demanda": 73,
+                "Created Date": "2024-07-16T01:23:06.683Z",
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1719347655993x493562550417538940/Batata%20Doce%20Branca.jpg"
+                ],
+                "tipo_unidade": "KG",
+                "como armazenar": "Temperatura ambiente: Local fresco, seco e arejado. Durabilidade: 1-2 semanas",
+                "descriçao": "Variedade de batata doce com casca e polpa claras. Receitas: Purê, chips, tortas, bolos. Usos: Consumir cozida, assada, frita ou como ingrediente em receitas.",
+                "peso/und": "peso",
+                "nome": "Batata Doce Branca",
+                "desconto": -12.5156445556946,
+                "ean": "0000000000088",
+                "relacionados": [
+                    "1721092986688x507253470815424830",
+                    "1721092986687x461760332644984800",
+                    "1721092989896x944825347598863200",
+                    "1721092989901x316088437985322600"
+                ],
+                "preço antigo": 7.99,
+                "preço novo": 8.99,
+                "peso por unidade": 298,
+                "Created By": "admin_user_levee-delivery_test",
+                "ordem_prateleira": 16,
+                "estoque": -2928,
+                "cod": "000097",
+                "info nutricional": "Por 100g:\n- Calorias: 86kcal\n- Carboidratos: 20g\n- Açúcar: 7g\n- Fibra: 3g\n- Proteína: 2g\n- Gordura: 0.1g\nVitaminas:\n- Vitamina A: 14187 UI (284% VD)\n- Vitamina C: 22mg (24% VD)\nMinerais:\n- Manganês: 0.6mg (30% VD)",
+                "categorias_produto": [
+                    "Legumes"
+                ],
+                "_id": "1721092986683x445695296452074800"
+            },
+            {
+                "Created Date": "2024-07-16T01:23:06.687Z",
+                "visivel": false,
+                "demanda": 5,
+                "nome": "Batata Chips Quero Mais 80g",
+                "cod": "001266",
+                "tipo_unidade": "UN",
+                "preço antigo": 5.99,
+                "preço novo": 5.99,
+                "Modified Date": "2025-10-23T14:59:30.699Z",
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1719838399820x340804987713325700/BATATA%20CHIPS%20QUERO%20MAIS.jfif"
+                ],
+                "desconto": 0,
+                "peso/und": "unidade",
+                "Created By": "admin_user_levee-delivery_test",
+                "descriçao": "Batata chips tradicional, da marca Quero Mais. Usos: Consumir como aperitivo.",
+                "estoque": 99991,
+                "ean": "0606529823672",
+                "como armazenar": "Despensa: Embalagem original bem fechada, local fresco e seco. Durabilidade: Verificar embalagem",
+                "_id": "1721092986687x461760332644984800",
+                "relacionados": [
+                    "1721092986683x445695296452074800",
+                    "1721092986688x507253470815424830",
+                    "1721092989896x944825347598863200",
+                    "1721092989901x316088437985322600"
+                ],
+                "peso por unidade": 80,
+                "categorias_produto": [
+                    "Outros"
+                ]
+            },
+            {
+                "nome": "Batata Doce Roxa",
+                "Created Date": "2024-07-16T01:23:06.688Z",
+                "descriçao": "Variedade de batata doce com casca e polpa roxas, rica em antioxidantes. Receitas: Purê, chips, tortas, bolos. Usos: Consumir cozida, assada, frita ou como ingrediente em receitas.",
+                "ordem_prateleira": 17,
+                "tipo_unidade": "KG",
+                "preço antigo": 7.99,
+                "_id": "1721092986688x507253470815424830",
+                "peso/und": "peso",
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1719347655015x524856050256323100/Batata%20%20Doce%20Roxa.jpg"
+                ],
+                "estoque": 632152,
+                "ean": "0000000000090",
+                "Created By": "admin_user_levee-delivery_test",
+                "peso por unidade": 250,
+                "cod": "000100",
+                "demanda": 288,
+                "como armazenar": "Temperatura ambiente: Local fresco, seco e arejado. Durabilidade: 1-2 semanas",
+                "info nutricional": "Por 100g:\n- Calorias: 86kcal\n- Carboidratos: 20g\n- Açúcar: 4g\n- Fibra: 3g\n- Proteína: 1.5g\n- Gordura: 0.1g\nVitaminas:\n- Vitamina A: 10000 UI (200% VD)\n- Vitamina C: 2.4mg (3% VD)\nMinerais:\n- Potássio: 337mg (10% VD)",
+                "visivel": true,
+                "desconto": 0,
+                "Modified Date": "2026-03-04T16:50:31.881Z",
+                "relacionados": [
+                    "1721092986683x445695296452074800",
+                    "1721092986687x461760332644984800",
+                    "1721092989896x944825347598863200",
+                    "1721092989901x316088437985322600"
+                ],
+                "preço por kg": 7.570225436,
+                "categorias_produto": [
+                    "Legumes"
+                ],
+                "preço novo": 7.99
+            },
+            {
+                "visivel": true,
+                "desconto": 0,
+                "preço por kg": 6.159741055,
+                "preço antigo": 5.99,
+                "estoque": 650991,
+                "como armazenar": "Temperatura ambiente: Local fresco, seco e arejado. Durabilidade: 2-3 semanas",
+                "tipo_unidade": "KG",
+                "descriçao": "Variedade de batata menor, ideal para cozimento a vapor. Receitas: Saladas, acompanhamento para carnes. Usos: Consumir cozida, assada ou frita.",
+                "peso por unidade": 57,
+                "Modified Date": "2026-03-04T16:50:31.534Z",
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1719347591539x666675402046190100/Batata%20%20Mi%C3%BAda%20Kg.jpg"
+                ],
+                "ean": "0000000001878",
+                "Created By": "admin_user_levee-delivery_test",
+                "_id": "1721092986689x398008891405220000",
+                "nome": "Batata Inglesa Miuda",
+                "relacionados": [
+                    "1721092986690x389422837430069000"
+                ],
+                "peso/und": "peso",
+                "demanda": 3968,
+                "Created Date": "2024-07-16T01:23:06.689Z",
+                "cod": "001254",
+                "categorias_produto": [
+                    "Legumes"
+                ],
+                "preço novo": 5.99,
+                "ordem_prateleira": 15
+            },
+            {
+                "tipo_unidade": "KG",
+                "info nutricional": "Por 100g (crua):\n- Calorias: 77kcal\n- Carboidratos: 17g\n- Açúcar: 0.8g\n- Fibra: 2g\n- Proteína: 2g\n- Gordura: 0.1g\nVitaminas:\n- Vitamina C: 19mg (21% VD)\n- Vitamina B6: 0.3mg (15% VD)\nMinerais:\n- Potássio: 421mg (12% VD)",
+                "estoque": 3944018,
+                "descriçao": "Variedade de batata com casca e polpa amareladas, ideal para purês. Receitas: Purê, salada russa, sopa, recheio para tortas. Usos: Consumir cozida, assada ou frita.",
+                "preço antigo": 8.99,
+                "demanda": 13626,
+                "Created Date": "2024-07-16T01:23:06.690Z",
+                "desconto": 11.1234705228031,
+                "como armazenar": "Temperatura ambiente: Local fresco, seco e arejado. Durabilidade: 2-3 semanas",
+                "peso por unidade": 194,
+                "relacionados": [
+                    "1721092986689x398008891405220000"
+                ],
+                "Created By": "admin_user_levee-delivery_test",
+                "em oferta": false,
+                "ordem_prateleira": 3,
+                "Modified Date": "2026-03-04T14:44:49.552Z",
+                "preço por kg": 12.33732143,
+                "ean": "0000000000091",
+                "categorias_produto": [
+                    "Legumes"
+                ],
+                "visivel": true,
+                "preço novo": 7.99,
+                "cod": "000101",
+                "peso/und": "peso",
+                "_id": "1721092986690x389422837430069000",
+                "nome": "Batata Inglesa Grauda",
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1719347656165x788138676615404800/Batata%20Inglesa%20Grauda%20Kg.jpg"
+                ]
+            },
+            {
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1719347657948x504631946537970750/Beterraba%20Descascada%20Kg.jpg"
+                ],
+                "desconto": -167.224080267559,
+                "cod": "000110",
+                "nome": "Beterraba",
+                "_id": "1721092986691x686057050690026500",
+                "demanda": 2069,
+                "descriçao": "Raiz tuberosa de cor vermelha intensa, originária da região do Mediterrâneo. Receitas: Salada, suco, bolo, risoto. Usos: Consumir crua, cozida ou assada.",
+                "peso por unidade": 206,
+                "estoque": 9874886,
+                "Created By": "admin_user_levee-delivery_test",
+                "tipo_unidade": "KG",
+                "ordem_prateleira": 18,
+                "Created Date": "2024-07-16T01:23:06.691Z",
+                "Modified Date": "2026-03-04T16:50:32.374Z",
+                "preço por kg": 9.933524603,
+                "visivel": true,
+                "preço antigo": 2.99,
+                "categorias_produto": [
+                    "Legumes"
+                ],
+                "ean": "0000000000099",
+                "preço novo": 7.99,
+                "relacionados": [
+                    "1721092986698x541015844165092100",
+                    "1721092989497x256648918386721760",
+                    "1721092989824x677419238888360700"
+                ],
+                "como armazenar": "Geladeira: Sem as folhas, em saco plástico. Durabilidade: 1-2 semanas",
+                "info nutricional": "Por 100g:\n- Calorias: 43kcal\n- Carboidratos: 10g\n- Açúcar: 8g\n- Fibra: 3g\n- Proteína: 2g\n- Gordura: 0.2g\nVitaminas:\n- Folato: 109mcg (27% VD)\n- Vitamina C: 5mg (6% VD)\nMinerais:\n- Potássio: 325mg (9% VD)\n- Manganês: 0.4mg (18% VD)",
+                "peso/und": "peso"
+            },
+            {
+                "ordem_prateleira": 24,
+                "categorias_produto": [
+                    "Legumes"
+                ],
+                "nome": "Berinjela",
+                "info nutricional": "Por 100g:\n- Calorias: 25kcal\n- Carboidratos: 6g\n- Açúcar: 3g\n- Fibra: 3g\n- Proteína: 1g\n- Gordura: 0.2g\nVitaminas:\n- Manganês: 0.2mg (10% VD)\n- Vitamina K: 3mcg (3% VD)\n- Vitamina C: 3mg (3% VD)\nMinerais:\n- Potássio: 229mg (6% VD)",
+                "preço novo": 6.99,
+                "cod": "000108",
+                "Created Date": "2024-07-16T01:23:06.694Z",
+                "preço antigo": 5.99,
+                "descriçao": "Fruto com casca lisa e brilhante, de cor roxa escura, originário da Índia. Receitas: Antepasto, lasanha, pizza, refogada. Usos: Consumir cozida, assada, frita ou grelhada.",
+                "preço por kg": 6.009209045,
+                "peso por unidade": 250,
+                "demanda": 351,
+                "Modified Date": "2026-03-04T01:59:40.336Z",
+                "Created By": "admin_user_levee-delivery_test",
+                "peso/und": "peso",
+                "_id": "1721092986694x643011572124626300",
+                "estoque": 4976624,
+                "tipo_unidade": "KG",
+                "ean": "0000000000097",
+                "visivel": true,
+                "como armazenar": "Geladeira: Em saco plástico. Durabilidade: 5-7 dias",
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1719347657778x805923685733074300/Berinjela.jpg"
+                ],
+                "desconto": -16.69449081803005
+            },
+            {
+                "Created By": "admin_user_levee-delivery_test",
+                "peso/und": "unidade",
+                "_id": "1721092986697x941517756079329500",
+                "preço novo": 16.39,
+                "relacionados": [
+                    "1721092727401x184291787466885900",
+                    "1721092986707x368366521634559740",
+                    "1721092986709x457506035361721100",
+                    "1721092986713x645903983218701200",
+                    "1721092986718x705957655008919900",
+                    "1721092986741x207182524082528260",
+                    "1721092986745x278547623846139520"
+                ],
+                "como armazenar": "Despensa: Embalagem original bem fechada, local fresco e seco. Durabilidade: Verificar embalagem",
+                "preço antigo": 10.99,
+                "Modified Date": "2026-02-24T03:34:32.848Z",
+                "cod": "000407",
+                "ean": "0000000000504",
+                "categorias_produto": [
+                    "Outros",
+                    "Biscoitos"
+                ],
+                "peso por unidade": 300,
+                "Created Date": "2024-07-16T01:23:06.697Z",
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1724108264405x415489018289607200/407.jpg"
+                ],
+                "estoque": 99979,
+                "visivel": true,
+                "desconto": -49.1355777979982,
+                "tipo_unidade": "PC",
+                "nome": "Biscoito Amanteigado Leite Cond. Fornada De Minas 300g",
+                "descriçao": "Biscoito amanteigado com recheio de leite condensado, da marca Fornada de Minas. Usos: Consumir como sobremesa ou acompanhamento para café ou chá.",
+                "demanda": 3
+            },
+            {
+                "ean": "0000000005975",
+                "como armazenar": "Geladeira: Em recipiente fechado. Durabilidade: 3-5 dias",
+                "peso por unidade": 400,
+                "demanda": 50,
+                "estoque": 99231,
+                "tipo_unidade": "UN",
+                "Created By": "admin_user_levee-delivery_test",
+                "_id": "1721092986698x541015844165092100",
+                "Modified Date": "2026-03-04T17:08:30.525Z",
+                "relacionados": [
+                    "1721092986691x686057050690026500",
+                    "1721092989497x256648918386721760",
+                    "1721092989824x677419238888360700"
+                ],
+                "descriçao": "Beterraba já fatiada e embalada, proporcionando praticidade no preparo das receitas. Receitas: Salada, carpaccio. Usos: Consumir crua.",
+                "desconto": 0,
+                "nome": "Beterraba Fatiada 400g",
+                "Created Date": "2024-07-16T01:23:06.698Z",
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1736176539943x999643799175718100/20241205_105107.JPG"
+                ],
+                "peso/und": "unidade",
+                "preço antigo": 4.99,
+                "cod": "001741",
+                "visivel": true,
+                "preço novo": 4.99,
+                "categorias_produto": [
+                    "Legumes",
+                    "Higienizados",
+                    "Kit Processados"
+                ]
+            },
+            {
+                "demanda": 1,
+                "como armazenar": "Despensa: Embalagem original bem fechada, local fresco e seco. Durabilidade: Verificar embalagem",
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1727123381285x862544809221616600/20240831_161603.png"
+                ],
+                "preço antigo": 9.99,
+                "Created Date": "2024-07-16T01:23:06.700Z",
+                "visivel": true,
+                "estoque": 99982,
+                "peso/und": "unidade",
+                "categorias_produto": [
+                    "Outros",
+                    "Biscoitos"
+                ],
+                "_id": "1721092986700x396827106388633000",
+                "Modified Date": "2026-02-25T16:33:50.620Z",
+                "nome": "Biscoito Beliscao So Mineiro 300g",
+                "ean": "7898676160288",
+                "descriçao": "Biscoito de polvilho tradicional, da marca Só Mineiro. Usos: Consumir como acompanhamento para café ou chá.",
+                "qtd por unidade": "300g",
+                "desconto": 0,
+                "preço novo": 9.99,
+                "cod": "002150",
+                "peso por unidade": 300,
+                "Created By": "admin_user_levee-delivery_test",
+                "tipo_unidade": "UN"
+            },
+            {
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1719841111486x430682202940370050/ARGOLINHA%20DE%20QUEIJO.jfif"
+                ],
+                "Created By": "admin_user_levee-delivery_test",
+                "estoque": 99971,
+                "ean": "7898676160578",
+                "_id": "1721092986703x592207723052831100",
+                "demanda": 2,
+                "tipo_unidade": "PC",
+                "nome": "Biscoito Agorlinha So Mineiro Salsa E Cebola 100g",
+                "preço novo": 7.99,
+                "visivel": true,
+                "peso/und": "unidade",
+                "Created Date": "2024-07-16T01:23:06.703Z",
+                "descriçao": "Biscoito de polvilho com tempero de salsa e cebola, da marca Só Mineiro. Usos: Consumir como aperitivo.",
+                "cod": "002572",
+                "desconto": 0,
+                "como armazenar": "Despensa: Embalagem original bem fechada, local fresco e seco. Durabilidade: Verificar embalagem",
+                "peso por unidade": 100,
+                "preço antigo": 7.99,
+                "categorias_produto": [
+                    "Outros",
+                    "Biscoitos"
+                ],
+                "Modified Date": "2026-03-03T11:03:35.303Z"
+            },
+            {
+                "estoque": 99973,
+                "tipo_unidade": "PC",
+                "preço novo": 5.99,
+                "nome": "Biscoito Bolinha De Queijo Fornada De Minas",
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1741795201927x257278448364649760/bolinha%20de%20queijo%20100g%28fornada%29.JPG"
+                ],
+                "_id": "1721092986704x776476258503860900",
+                "peso/und": "unidade",
+                "Created Date": "2024-07-16T01:23:06.704Z",
+                "peso por unidade": 100,
+                "descriçao": "Biscoito de queijo tradicional da culinária mineira, da marca Fornada de Minas. Usos: Consumir como acompanhamento para café ou chá.",
+                "demanda": 0,
+                "como armazenar": "Despensa: Embalagem original bem fechada, local fresco e seco. Durabilidade: Verificar embalagem",
+                "cod": "002556",
+                "preço antigo": 5.99,
+                "Modified Date": "2026-03-04T17:08:30.007Z",
+                "visivel": true,
+                "Created By": "admin_user_levee-delivery_test",
+                "preço por kg": 5.49,
+                "ean": "7898929337153",
+                "categorias_produto": [
+                    "Outros",
+                    "Biscoitos"
+                ],
+                "desconto": 0
+            },
+            {
+                "estoque": 99968,
+                "ean": "0000000000535",
+                "categorias_produto": [
+                    "Outros",
+                    "Biscoitos"
+                ],
+                "_id": "1721092986705x754458312313492200",
+                "descriçao": "Biscoito de polvilho tradicional da culinária mineira, da marca Fornalha de Minas. Usos: Consumir como acompanhamento para café ou chá.",
+                "visivel": true,
+                "peso/und": "unidade",
+                "demanda": 3,
+                "Created Date": "2024-07-16T01:23:06.705Z",
+                "qtd por unidade": "300g",
+                "como armazenar": "Despensa: Embalagem original bem fechada, local fresco e seco. Durabilidade: Verificar embalagem",
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1724108266555x314259785911156000/444.jpg"
+                ],
+                "nome": "Biscoito Escaldado Fornalha De Minas 300g",
+                "cod": "000444",
+                "Created By": "admin_user_levee-delivery_test",
+                "preço antigo": 8.99,
+                "Modified Date": "2026-03-04T17:08:30.694Z",
+                "preço novo": 8.99,
+                "desconto": 0,
+                "tipo_unidade": "PC"
+            },
+            {
+                "visivel": true,
+                "peso/und": "unidade",
+                "demanda": 7,
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1724108265650x368400329503641340/420.jpg"
+                ],
+                "preço novo": 16.39,
+                "cod": "000420",
+                "categorias_produto": [
+                    "Outros",
+                    "Biscoitos"
+                ],
+                "Modified Date": "2026-02-25T21:43:10.402Z",
+                "ean": "0000000000513",
+                "nome": "Biscoito Goiabinha 300g",
+                "_id": "1721092986707x368366521634559740",
+                "relacionados": [
+                    "1721092727401x184291787466885900",
+                    "1721092986697x941517756079329500",
+                    "1721092986709x457506035361721100",
+                    "1721092986713x645903983218701200",
+                    "1721092986718x705957655008919900",
+                    "1721092986741x207182524082528260",
+                    "1721092986745x278547623846139520"
+                ],
+                "desconto": -49.1355777979982,
+                "como armazenar": "Despensa: Embalagem original bem fechada, local fresco e seco. Durabilidade: Verificar embalagem",
+                "Created By": "admin_user_levee-delivery_test",
+                "preço antigo": 10.99,
+                "peso por unidade": 300,
+                "qtd por unidade": "300g",
+                "descriçao": "Biscoito amanteigado com recheio de goiabada. Usos: Consumir como sobremesa ou acompanhamento para café ou chá.",
+                "tipo_unidade": "PC",
+                "estoque": 99916,
+                "Created Date": "2024-07-16T01:23:06.707Z"
+            },
+            {
+                "descriçao": "Biscoito amanteigado com recheio de creme chantilly. Usos: Consumir como sobremesa ou acompanhamento para café ou chá.",
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1724117532634x366016007234284400/Biscoito%20Chantilly%20300g.jpg"
+                ],
+                "ean": "0000000000508",
+                "categorias_produto": [
+                    "Outros",
+                    "Biscoitos"
+                ],
+                "relacionados": [
+                    "1721092727401x184291787466885900",
+                    "1721092986697x941517756079329500",
+                    "1721092986707x368366521634559740",
+                    "1721092986713x645903983218701200",
+                    "1721092986718x705957655008919900",
+                    "1721092986741x207182524082528260",
+                    "1721092986745x278547623846139520"
+                ],
+                "como armazenar": "Despensa: Embalagem original bem fechada, local fresco e seco. Durabilidade: Verificar embalagem",
+                "cod": "000412",
+                "preço novo": 9.99,
+                "visivel": true,
+                "Created Date": "2024-07-16T01:23:06.709Z",
+                "demanda": 0,
+                "estoque": 99991,
+                "peso/und": "unidade",
+                "peso por unidade": 300,
+                "preço antigo": 9.99,
+                "desconto": 0,
+                "Modified Date": "2026-02-26T00:49:54.051Z",
+                "Created By": "admin_user_levee-delivery_test",
+                "tipo_unidade": "PC",
+                "nome": "Biscoito Chantilly 300g",
+                "_id": "1721092986709x457506035361721100",
+                "qtd por unidade": "300g"
+            },
+            {
+                "descriçao": "Biscoito com dois tipos de queijo, da marca Só Mineiro. Usos: Consumir como aperitivo ou acompanhamento para café ou chá.",
+                "preço novo": 7.99,
+                "visivel": true,
+                "como armazenar": "Despensa: Embalagem original bem fechada, local fresco e seco. Durabilidade: Verificar embalagem",
+                "Created Date": "2024-07-16T01:23:06.710Z",
+                "relacionados": [
+                    "1721092986703x592207723052831100",
+                    "1740151531424x499853822413504500"
+                ],
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1753905139362x561516623367619840/ARGOLINHA%20DE%20QUEIJO.avif"
+                ],
+                "estoque": 99984,
+                "cod": "002573",
+                "Modified Date": "2026-03-04T14:44:50.336Z",
+                "tipo_unidade": "PC",
+                "peso por unidade": 100,
+                "peso/und": "unidade",
+                "qtd por unidade": "100g",
+                "nome": "Biscoito Dois Queijos So Mineiro 100g",
+                "preço antigo": 7.99,
+                "Created By": "admin_user_levee-delivery_test",
+                "categorias_produto": [
+                    "Outros",
+                    "Biscoitos"
+                ],
+                "desconto": 0,
+                "ean": "7898676160554",
+                "demanda": 0,
+                "_id": "1721092986710x532982589162368300"
+            },
+            {
+                "demanda": 3,
+                "visivel": true,
+                "relacionados": [
+                    "1721092727401x184291787466885900",
+                    "1721092986697x941517756079329500",
+                    "1721092986707x368366521634559740",
+                    "1721092986709x457506035361721100",
+                    "1721092986718x705957655008919900",
+                    "1721092986741x207182524082528260",
+                    "1721092986745x278547623846139520"
+                ],
+                "qtd por unidade": "300g",
+                "desconto": 0,
+                "Created By": "admin_user_levee-delivery_test",
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1724108285147x262352570643577400/1841.jpg"
+                ],
+                "Created Date": "2024-07-16T01:23:06.713Z",
+                "estoque": 99986,
+                "Modified Date": "2026-03-04T17:08:30.961Z",
+                "_id": "1721092986713x645903983218701200",
+                "preço novo": 8.99,
+                "peso por unidade": 100,
+                "nome": "Biscoito De Chantilly -So Mineiro 300g",
+                "tipo_unidade": "PC",
+                "categorias_produto": [
+                    "Outros",
+                    "Biscoitos"
+                ],
+                "peso/und": "unidade",
+                "ean": "7898676160059",
+                "cod": "001841",
+                "descriçao": "Biscoito amanteigado com recheio de creme chantilly, da marca Só Mineiro. Usos: Consumir como sobremesa ou acompanhamento para café ou chá.",
+                "como armazenar": "Despensa: Embalagem original bem fechada, local fresco e seco. Durabilidade: Verificar embalagem",
+                "preço antigo": 8.99
+            }
+        ],
+        "count": 100,
+        "remaining": 909
+    }
+}

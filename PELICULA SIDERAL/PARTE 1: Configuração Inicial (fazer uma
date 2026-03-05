@@ -1,0 +1,444 @@
+PARTE 1: Configuração Inicial (fazer uma vez)
+
+  Passo 1.1 — Criar Custom Fields (Campos Personalizados)
+
+  Custom Fields são como "fichas de cadastro" de cada pessoa que interage.
+
+  1. No menu lateral do ManyChat, clique em Settings (ícone de engrenagem)
+  2. Clique em Custom Fields no submenu
+  3. Clique no botão + New User Field
+  4. Crie os seguintes campos:
+
+  ┌────────────────────┬──────┬───────────────────────────────────┐
+  │   Nome do Campo    │ Tipo │          Para que serve           │
+  ├────────────────────┼──────┼───────────────────────────────────┤
+  │ ascendente         │ Text │ Guardar o signo da pessoa         │
+  ├────────────────────┼──────┼───────────────────────────────────┤
+  │ tema_semana        │ Text │ Tema astrológico da semana        │
+  ├────────────────────┼──────┼───────────────────────────────────┤
+  │ interp_aries       │ Text │ Mini-interpretação de Áries       │
+  ├────────────────────┼──────┼───────────────────────────────────┤
+  │ interp_touro       │ Text │ Mini-interpretação de Touro       │
+  ├────────────────────┼──────┼───────────────────────────────────┤
+  │ interp_gemeos      │ Text │ Mini-interpretação de Gêmeos      │
+  ├────────────────────┼──────┼───────────────────────────────────┤
+  │ interp_cancer      │ Text │ Mini-interpretação de Câncer      │
+  ├────────────────────┼──────┼───────────────────────────────────┤
+  │ interp_leao        │ Text │ Mini-interpretação de Leão        │
+  ├────────────────────┼──────┼───────────────────────────────────┤
+  │ interp_virgem      │ Text │ Mini-interpretação de Virgem      │
+  ├────────────────────┼──────┼───────────────────────────────────┤
+  │ interp_libra       │ Text │ Mini-interpretação de Libra       │
+  ├────────────────────┼──────┼───────────────────────────────────┤
+  │ interp_escorpiao   │ Text │ Mini-interpretação de Escorpião   │
+  ├────────────────────┼──────┼───────────────────────────────────┤
+  │ interp_sagitario   │ Text │ Mini-interpretação de Sagitário   │
+  ├────────────────────┼──────┼───────────────────────────────────┤
+  │ interp_capricornio │ Text │ Mini-interpretação de Capricórnio │
+  ├────────────────────┼──────┼───────────────────────────────────┤
+  │ interp_aquario     │ Text │ Mini-interpretação de Aquário     │
+  ├────────────────────┼──────┼───────────────────────────────────┤
+  │ interp_peixes      │ Text │ Mini-interpretação de Peixes      │
+  └────────────────────┴──────┴───────────────────────────────────┘
+
+  Para cada campo: Clique + New User Field → digite o nome → selecione "Text" → clique Create
+
+  Passo 1.2 — Criar Bot Fields (Campos Globais)
+
+  Bot Fields são variáveis que valem para TODOS os usuários (diferente dos Custom Fields que são por pessoa).
+
+  1. Ainda em Settings, clique em Bot Fields
+  2. Clique + New Bot Field
+  3. Crie:
+
+  ┌────────────────────┬──────┬────────────────────────────────────────┐
+  │        Nome        │ Tipo │             Valor Inicial              │
+  ├────────────────────┼──────┼────────────────────────────────────────┤
+  │ tema_semana_global │ Text │ "Lua Nova em Peixes" (ou o tema atual) │
+  └────────────────────┴──────┴────────────────────────────────────────┘
+
+  Passo 1.3 — Criar Tags
+
+  Tags servem para marcar e segmentar pessoas.
+
+  1. No menu lateral, vá em Audience → Tags
+  2. Clique + New Tag e crie:
+
+  ┌─────────────────────┬────────────────────────────────────────┐
+  │         Tag         │             Para que serve             │
+  ├─────────────────────┼────────────────────────────────────────┤
+  │ spoiler-interagiu   │ Marcou quem interagiu no spoiler       │
+  ├─────────────────────┼────────────────────────────────────────┤
+  │ sabe-ascendente     │ Sabe o ascendente                      │
+  ├─────────────────────┼────────────────────────────────────────┤
+  │ nao-sabe-ascendente │ Não sabe o ascendente                  │
+  ├─────────────────────┼────────────────────────────────────────┤
+  │ remarketing         │ Disse "agora não" — remarketing futuro │
+  ├─────────────────────┼────────────────────────────────────────┤
+  │ interesse-camarim   │ Clicou no link do Camarim              │
+  ├─────────────────────┼────────────────────────────────────────┤
+  │ interesse-curso     │ Clicou no link do Curso                │
+  └─────────────────────┴────────────────────────────────────────┘
+
+  ---
+  PARTE 2: Criar o Trigger (Gatilho de Automação)
+
+  O trigger é o que "liga" o ManyChat quando alguém comenta.
+
+  Passo 2.1 — Criar uma Nova Automação
+
+  1. No menu lateral, clique em Automation
+  2. Clique no botão azul + New Automation
+  3. Selecione Start from Scratch (Começar do Zero)
+  4. Dê o nome: Spoiler Astrológico Semanal
+
+  Passo 2.2 — Configurar o Trigger
+
+  1. Clique em Choose a Trigger
+  2. Selecione Instagram na lista
+  3. Escolha Instagram Comments (Comentários do Instagram)
+  4. Configure:
+    - Comment Automation for: Selecione All Posts (todos os posts) OU Specific Post (um post específico — recomendado para controle)
+    - Se escolher Specific Post, cole o link do Reels/Post desejado
+  5. Em Trigger Keywords, adicione TODAS as palavras-chave (uma por linha):
+  áries
+  aries
+  touro
+  gêmeos
+  gemeos
+  câncer
+  cancer
+  leão
+  leao
+  virgem
+  libra
+  escorpião
+  escorpiao
+  sagitário
+  sagitario
+  capricórnio
+  capricornio
+  aquário
+  aquario
+  peixes
+  não sei
+  nao sei
+  quero
+  spoiler
+  6. Em Keyword matching rule, selecione Message contains keyword (mensagem contém a palavra)
+  7. Marque a opção Also trigger for Story Replies se disponível
+  8. Clique Done ou Save
+
+  ---
+  PARTE 3: Criar o CAMINHO A — Sabe o Ascendente (12 signos)
+
+  Este é o caminho principal. Vou mostrar como fazer para Áries — depois você replica para os outros 11.
+
+  Passo 3.1 — Adicionar Condição (Condition)
+
+  Logo após o trigger:
+
+  1. Clique no + abaixo do trigger
+  2. Selecione Condition (Condição)
+  3. Configure a primeira condição:
+    - If → Comment Text → contains → áries or aries
+  4. Isso cria dois caminhos: Yes (se contém "áries") e No (segue para próxima condição)
+
+  Passo 3.2 — Mensagem 1: Mini-interpretação Personalizada
+
+  No caminho Yes (áries):
+
+  1. Clique no +
+  2. Selecione Send Message
+  3. Escolha canal: Instagram DM
+  4. Tipo: Text
+  5. Escreva a mensagem:
+
+  Oi, {{first name}}! Vi que seu ascendente é Áries ♈
+
+  {{interp_aries}}
+
+  Essa semana o tema é: {{tema_semana_global}}
+
+  {{first name}} = nome da pessoa (ManyChat preenche automaticamente)
+  {{interp_aries}} = custom field que você atualiza toda semana
+  {{tema_semana_global}} = bot field com o tema da semana
+
+  6. IMPORTANTE: Antes desta mensagem, adicione uma Action (Ação):
+    - Clique + → Action → Set Custom Field
+    - Campo: ascendente → Valor: áries
+    - Adicione outra Action: Add Tag → spoiler-interagiu
+    - Adicione outra Action: Add Tag → sabe-ascendente
+
+  Passo 3.3 — Delay de 30 segundos
+
+  1. Clique no + após a mensagem
+  2. Selecione Smart Delay (ou Delay)
+  3. Configure: 30 segundos
+  4. Motivo: parecer natural, não uma metralhadora de mensagens
+
+  Passo 3.4 — Mensagem 2: Transição para Oferta
+
+  1. Clique no +
+  2. Send Message → Instagram DM
+  3. Tipo: Text + Buttons
+  4. Texto:
+
+  Toda semana eu aprofundo isso ao vivo no Camarim Sideral. Quer conhecer? ✨
+
+  5. Adicione 2 botões:
+
+  Botão 1:
+  - Texto: Quero fazer parte ✨
+  - Tipo: Open Website
+  - URL: https://optimizeformobile.vercel.app/ (LP Camarim)
+  - Adicione Action neste botão: Add Tag → interesse-camarim
+
+  Botão 2:
+  - Texto: Agora não, obrigado
+  - Tipo: Send Message (vai para uma mensagem de encerramento)
+  - Adicione Action: Add Tag → remarketing
+
+  Passo 3.5 — Mensagem de Encerramento (para quem clicou "Agora não")
+
+  1. No caminho do botão "Agora não":
+  2. Send Message:
+
+  Sem problema! Se mudar de ideia, é só me chamar 😊
+  Toda semana tem conteúdo novo por aqui.
+
+  Passo 3.6 — REPLICAR PARA OS OUTROS 11 SIGNOS
+
+  Agora vem a parte trabalhosa. No caminho No da primeira condição (não é áries):
+
+  1. Adicione outra Condition:
+    - If → Comment Text → contains → touro
+    - No Yes: copie a mesma estrutura do Áries, trocando:
+        - O texto de ♈ para ♉
+      - O campo de {{interp_aries}} para {{interp_touro}}
+      - O valor do custom field ascendente para touro
+  2. Continue encadeando condições para cada signo:
+
+  ┌──────────┬─────────────────────────┬───────┬────────────────────┐
+  │ Condição │         Contém          │ Emoji │       Campo        │
+  ├──────────┼─────────────────────────┼───────┼────────────────────┤
+  │ 1        │ áries/aries             │ ♈    │ interp_aries       │
+  ├──────────┼─────────────────────────┼───────┼────────────────────┤
+  │ 2        │ touro                   │ ♉    │ interp_touro       │
+  ├──────────┼─────────────────────────┼───────┼────────────────────┤
+  │ 3        │ gêmeos/gemeos           │ ♊    │ interp_gemeos      │
+  ├──────────┼─────────────────────────┼───────┼────────────────────┤
+  │ 4        │ câncer/cancer           │ ♋    │ interp_cancer      │
+  ├──────────┼─────────────────────────┼───────┼────────────────────┤
+  │ 5        │ leão/leao               │ ♌    │ interp_leao        │
+  ├──────────┼─────────────────────────┼───────┼────────────────────┤
+  │ 6        │ virgem                  │ ♍    │ interp_virgem      │
+  ├──────────┼─────────────────────────┼───────┼────────────────────┤
+  │ 7        │ libra                   │ ♎    │ interp_libra       │
+  ├──────────┼─────────────────────────┼───────┼────────────────────┤
+  │ 8        │ escorpião/escorpiao     │ ♏    │ interp_escorpiao   │
+  ├──────────┼─────────────────────────┼───────┼────────────────────┤
+  │ 9        │ sagitário/sagitario     │ ♐    │ interp_sagitario   │
+  ├──────────┼─────────────────────────┼───────┼────────────────────┤
+  │ 10       │ capricórnio/capricornio │ ♑    │ interp_capricornio │
+  ├──────────┼─────────────────────────┼───────┼────────────────────┤
+  │ 11       │ aquário/aquario         │ ♒    │ interp_aquario     │
+  ├──────────┼─────────────────────────┼───────┼────────────────────┤
+  │ 12       │ peixes                  │ ♓    │ interp_peixes      │
+  └──────────┴─────────────────────────┴───────┴────────────────────┘
+
+  DICA: Após criar o primeiro signo completo, use o recurso Duplicate (clicar com botão direito no bloco → Duplicate) para copiar a estrutura e só trocar os textos.
+
+  ---
+  PARTE 4: Criar o CAMINHO B — Não Sabe o Ascendente
+
+  Passo 4.1 — Condição para "não sei"
+
+  Após todas as 12 condições de signo, no último caminho No:
+
+  1. Adicione Condition:
+    - If → Comment Text → contains → não sei or nao sei
+
+  Passo 4.2 — Mensagem 1: Acolhimento + Vídeo
+
+  No caminho Yes:
+
+  1. Action: Add Tag → nao-sabe-ascendente + spoiler-interagiu
+  2. Send Message → Instagram DM → Text:
+
+  Sem problema! Muita gente não sabe 😊
+  Fiz um vídeo rápido te mostrando como descobrir — é bem fácil!
+
+  3. Clique + → Send Message → Instagram DM
+  4. Tipo: Attachment ou Image/Video
+  5. Faça upload do vídeo tutorial OU envie como link:
+
+  👉 Assista aqui: [link do vídeo tutorial]
+
+  No ManyChat, você pode enviar vídeo diretamente se for MP4 de até 25MB, ou enviar como link.
+
+  Passo 4.3 — Delay de 2 minutos
+
+  1. Smart Delay: 2 minutos
+  2. Motivo: dar tempo da pessoa assistir o vídeo
+
+  Passo 4.4 — Mensagem 2: Follow-up com Botões
+
+  1. Send Message → Instagram DM → Text + Buttons:
+
+  Conseguiu descobrir? Saber seu ascendente muda tudo na astrologia! 🌟
+
+  2. Botão 1:
+    - Texto: Quero aprender mais
+    - Tipo: Open Website
+    - URL: [Link LP Curso Decifrando]
+    - Action: Add Tag → interesse-curso
+  3. Botão 2:
+    - Texto: Descobri! Meu ascendente é...
+    - Tipo: Send Message
+    - Próxima mensagem: perguntar o signo
+
+  Passo 4.5 — Reconectar com Caminho A
+
+  Para o botão "Descobri!":
+
+  1. Send Message:
+
+  Que legal! Me conta: qual é o seu ascendente?
+  (ex: Áries, Touro, Gêmeos...)
+
+  2. Após esta mensagem, adicione um User Input (Entrada do Usuário):
+    - Tipo: Multiple Choice ou Free Text
+    - Se Multiple Choice: liste os 12 signos como opções
+    - Salve a resposta no Custom Field: ascendente
+  3. Após capturar o signo, redirecione para o Caminho A correspondente:
+    - Use Condition para verificar o valor do campo ascendente
+    - Envie a mini-interpretação correspondente
+    - Siga com o CTA do Camarim
+
+  DICA DO MANYCHAT: Você pode usar "Go to Step" para redirecionar para um bloco que já existe, ao invés de duplicar tudo.
+
+  ---
+  PARTE 5: Criar o FALLBACK
+
+  Passo 5.1 — Mensagem de Fallback
+
+  No último caminho No (não é signo nem "não sei"):
+
+  1. Adicione Action: Add Tag → spoiler-interagiu
+  2. Send Message → Instagram DM:
+
+  Oi! Não consegui identificar seu signo 😅
+  Pode me dizer qual seu ascendente?
+
+  (ex: Áries, Touro, Gêmeos...)
+
+  Se não sabe, responde "não sei" que eu te ajudo 😊
+
+  3. Adicione User Input:
+    - Tipo: Free Text
+    - Salve em: Custom Field ascendente
+    - Timeout: 24 horas (se não responder, encerra)
+  4. Após a resposta, adicione Conditions para:
+    - Se contém um dos 12 signos → direcionar para Caminho A
+    - Se contém "não sei" → direcionar para Caminho B
+    - Se outra coisa → mensagem final educada encerrando
+
+  ---
+  PARTE 6: Publicar e Testar
+
+  Passo 6.1 — Revisar o Fluxo
+
+  1. No editor visual, revise TODOS os caminhos:
+    - Clique em cada bloco e verifique textos, links, tags
+    - Confirme que cada Custom Field está correto
+  2. Verifique que não há caminhos "soltos" (blocos sem conexão)
+
+  Passo 6.2 — Testar com Preview
+
+  1. Clique no botão Preview (canto superior direito)
+  2. Teste cada cenário:
+    - Digite "áries" → deve receber mini-interpretação de Áries
+    - Digite "leão" → deve receber mini-interpretação de Leão
+    - Digite "não sei" → deve receber vídeo tutorial
+    - Digite "bla bla bla" → deve receber fallback
+  3. Verifique que os botões funcionam (links abrem corretamente)
+
+  Passo 6.3 — Teste Real
+
+  1. Publique a automação: clique em Publish (canto superior direito — o botão muda de cinza para azul)
+  2. Peça para alguém da equipe (Gabriel, Karol) comentar no post de teste
+  3. Monitore as DMs nos primeiros 30 minutos
+  4. Verifique em Audience se as tags estão sendo aplicadas
+
+  ---
+  PARTE 7: Atualização Semanal (Toda Segunda-Feira)
+
+  Esta é a rotina que alguém da equipe vai fazer TODA semana.
+
+  Passo 7.1 — Atualizar o Tema da Semana
+
+  1. Vá em Settings → Bot Fields
+  2. Encontre tema_semana_global
+  3. Troque o valor para o novo tema (ex: "Marte em Gêmeos trazendo inquietação mental")
+  4. Clique Save
+
+  Passo 7.2 — Atualizar as 12 Mini-Interpretações
+
+  1. Vá em Audience → Custom Fields
+  2. NÃO é aqui! Custom Fields são por usuário. Para variáveis globais que mudam toda semana, use Bot Fields OU atualize diretamente nos blocos de mensagem.
+
+  Método recomendado (Bot Fields):
+
+  Se você criou as interpretações como Bot Fields (recomendado):
+  1. Settings → Bot Fields
+  2. Atualize cada campo:
+
+  ┌──────────────┬────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────┐
+  │    Campo     │                                                                  Novo valor (exemplo)                                                                  │
+  ├──────────────┼────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────┤
+  │ interp_aries │ "Com Marte ativando seu setor de comunicação, cuidado com palavras impulsivas. Use essa energia para iniciar conversas difíceis que você vem adiando." │
+  ├──────────────┼────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────┤
+  │ interp_touro │ "A semana pede revisão financeira. Marte mexe com seu setor de valores — bom momento para renegociar ou investir com estratégia."                      │
+  ├──────────────┼────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────┤
+  │ ...          │ (preencher os 12)                                                                                                                                      │
+  └──────────────┴────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────┘
+
+  3. Clique Save em cada um
+
+  TEMPO ESTIMADO: 15-20 minutos por semana para atualizar tudo.
+
+  ---
+  PARTE 8: Checklist de Verificação Final
+
+  ┌─────┬────────────────────────────────────────────────────────┬────────┐
+  │  #  │                          Item                          │ Status │
+  ├─────┼────────────────────────────────────────────────────────┼────────┤
+  │ 1   │ Custom Fields criados (ascendente + 12 interpretações) │ ⬜     │
+  ├─────┼────────────────────────────────────────────────────────┼────────┤
+  │ 2   │ Bot Fields criados (tema_semana_global)                │ ⬜     │
+  ├─────┼────────────────────────────────────────────────────────┼────────┤
+  │ 3   │ Tags criadas (6 tags)                                  │ ⬜     │
+  ├─────┼────────────────────────────────────────────────────────┼────────┤
+  │ 4   │ Trigger configurado (palavras-chave)                   │ ⬜     │
+  ├─────┼────────────────────────────────────────────────────────┼────────┤
+  │ 5   │ Caminho A: 12 signos com mensagem + delay + botões     │ ⬜     │
+  ├─────┼────────────────────────────────────────────────────────┼────────┤
+  │ 6   │ Caminho B: "não sei" + vídeo + delay + botões          │ ⬜     │
+  ├─────┼────────────────────────────────────────────────────────┼────────┤
+  │ 7   │ Fallback: mensagem de reperguntar                      │ ⬜     │
+  ├─────┼────────────────────────────────────────────────────────┼────────┤
+  │ 8   │ Botão "Quero fazer parte" → link LP Camarim            │ ⬜     │
+  ├─────┼────────────────────────────────────────────────────────┼────────┤
+  │ 9   │ Botão "Quero aprender mais" → link LP Curso            │ ⬜     │
+  ├─────┼────────────────────────────────────────────────────────┼────────┤
+  │ 10  │ Botão "Agora não" → tag remarketing                    │ ⬜     │
+  ├─────┼────────────────────────────────────────────────────────┼────────┤
+  │ 11  │ Botão "Descobri!" → reconecta no Caminho A             │ ⬜     │
+  ├─────┼────────────────────────────────────────────────────────┼────────┤
+  │ 12  │ Preview testado (3+ cenários)                          │ ⬜     │
+  ├─────┼────────────────────────────────────────────────────────┼────────┤
+  │ 13  │ Automação publicada                                    │ ⬜     │
+  ├─────┼────────────────────────────────────────────────────────┼────────┤
+  │ 14  │ Teste real com equipe                                  │ ⬜     │
+  └─────┴────────────────────────────────────────────────────────┴────────┘

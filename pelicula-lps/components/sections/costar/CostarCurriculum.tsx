@@ -1,6 +1,6 @@
 "use client";
 
-import { useState, useRef, useEffect, useCallback } from "react";
+import { useState } from "react";
 import Image from "next/image";
 import CostarSection from "@/components/ui/CostarSection";
 
@@ -89,27 +89,12 @@ const MODULES = [
 ];
 
 function AccordionContent({ isOpen, children }: { isOpen: boolean; children: React.ReactNode }) {
-  const contentRef = useRef<HTMLDivElement>(null);
-  const [height, setHeight] = useState(0);
-
-  const updateHeight = useCallback(() => {
-    if (contentRef.current) {
-      setHeight(contentRef.current.scrollHeight);
-    }
-  }, []);
-
-  useEffect(() => {
-    updateHeight();
-  }, [isOpen, updateHeight]);
-
   return (
     <div
-      className="overflow-hidden transition-[max-height] duration-500 ease-in-out"
-      style={{
-        maxHeight: isOpen ? `${height}px` : "0px",
-      }}
+      className="grid transition-[grid-template-rows] duration-500 ease-in-out"
+      style={{ gridTemplateRows: isOpen ? "1fr" : "0fr" }}
     >
-      <div ref={contentRef}>
+      <div className="overflow-hidden">
         {children}
       </div>
     </div>

@@ -6,7 +6,11 @@ import SectionWrapper from "@/components/ui/SectionWrapper";
 const FAQS = [
   {
     q: "Preciso ter feito o curso Decifrando o Mapa Astral?",
-    a: "Não. O Camarim é independente do curso. Ele foi pensado para quem já tem alguma familiaridade com astrologia — mesmo que básica. Se você sabe o que é um mapa astral e quer ir além do horóscopo, está pronto. Se já fez o curso, melhor ainda: o Camarim é a prática semanal que complementa o método.",
+    a: "Não. O Camarim é independente do curso. Se você sabe o que é um mapa astral e quer ir além do horóscopo, está pronto. Se já fez o curso, melhor ainda: o Camarim é a prática semanal que complementa o método.",
+  },
+  {
+    q: "Qual a diferença entre o Camarim e o curso Decifrando?",
+    a: "O curso é o fundamento — você aprende a ler um mapa astral do zero em 23 aulas. O Camarim é a prática contínua — toda semana, trânsitos novos, contexto novo, leitura nova. O curso te dá a ferramenta. O Camarim te dá o campo de prática. No pacote completo, você leva os dois.",
   },
   {
     q: "O que é o Spoiler da Semana?",
@@ -17,8 +21,8 @@ const FAQS = [
     a: "Todas as lives ficam gravadas e disponíveis no arquivo. Você assiste quando quiser, no seu ritmo. Muitos membros assistem depois e participam pela comunidade no Substack.",
   },
   {
-    q: "Qual a diferença do plano mensal para o anual?",
-    a: "O conteúdo é o mesmo. A diferença é o compromisso e a economia: o plano anual sai R$24,75/mês (vs. R$19 x 12 = R$228 vs. R$297). O anual inclui prioridade em interpretações personalizadas e garante 12 meses de acesso.",
+    q: "Qual a diferença entre o mensal e o pacote completo?",
+    a: "O plano mensal (R$19/mês) te dá acesso ao Camarim: lives semanais, conteúdo exclusivo no Substack e comunidade. O pacote completo (R$297) inclui tudo isso por 12 meses mais o curso Decifrando o Mapa Astral (23 aulas) e prioridade em interpretações personalizadas.",
   },
   {
     q: "Posso cancelar o mensal a qualquer momento?",
@@ -26,11 +30,11 @@ const FAQS = [
   },
   {
     q: "Victor responde perguntas individuais?",
-    a: "Sim. Nas lives semanais há espaço para perguntas ao vivo, e periodicamente Victor traz análises focadas em mapas específicos de membros. No Substack, ele também interage nos comentários.",
+    a: "Sim. Nas lives semanais há espaço para perguntas ao vivo, e periodicamente Victor traz análises focadas em mapas específicos de membros. No Substack, ele também interage nos comentários e nas discussões da comunidade.",
   },
   {
     q: "Que nível de conhecimento eu preciso ter?",
-    a: "Qualquer nível acima de zero. Se você sabe que tem um mapa astral e quer entendê-lo melhor, o Camarim funciona pra você. Iniciantes aprendem com as lives e a comunidade. Quem já estuda há mais tempo ganha profundidade e prática semanal que não encontra em nenhum outro lugar.",
+    a: "Qualquer nível acima de zero. Se você sabe que é de Áries mas não sabe o que é um ascendente — perfeito, a gente começa daí. Iniciantes aprendem com as lives e a comunidade. Quem já estuda há mais tempo ganha profundidade e prática semanal que não encontra em nenhum outro lugar.",
   },
 ];
 

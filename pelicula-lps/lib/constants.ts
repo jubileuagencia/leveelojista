@@ -1,6 +1,6 @@
 export const CHECKOUT_URLS = {
-  curso: "https://pay.kiwify.com.br/trGhkn8",
-  pacote: "https://pay.kiwify.com.br/trGhkn8", // TODO: substituir quando URL do pacote estiver disponível
+  curso: "/checkout",
+  pacote: "/checkout",
 } as const;
 
 export const PRICING = {
@@ -25,8 +25,8 @@ export const COURSE_META = {
 } as const;
 
 export const CAMARIM_CHECKOUT_URLS = {
-  mensal: "https://peliculasideral.substack.com/subscribe", // TODO: atualizar quando URL final disponível
-  anual: "https://pay.kiwify.com.br/SEU-LINK", // TODO: atualizar quando URL final disponível
+  mensal: "/checkout",
+  anual: "/checkout",
 } as const;
 
 export const CAMARIM_PRICING = {

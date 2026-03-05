@@ -1,0 +1,3517 @@
+{
+    "response": {
+        "cursor": 300,
+        "results": [
+            {
+                "tipo_unidade": "PC",
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1720749411860x725164579361137200/MANDIOCA%20DESCASCADA..jpg"
+                ],
+                "nome": "Mandioca Amarela Descascada ",
+                "ean": "0000000000129",
+                "relacionados": [
+                    "1721092987988x980168827281060500",
+                    "1721092987990x200099746324069250",
+                    "1721092987995x505886556325933800"
+                ],
+                "desconto": 0,
+                "peso/und": "unidade",
+                "_id": "1721092987989x496536617603217540",
+                "categorias_produto": [
+                    "Legumes",
+                    "Higienizados",
+                    "Kit Processados"
+                ],
+                "preço antigo": 8.99,
+                "Modified Date": "2026-03-04T17:08:29.719Z",
+                "em oferta": false,
+                "preço novo": 8.99,
+                "Created By": "admin_user_levee-delivery_test",
+                "como armazenar": "Refrigerado entre 0ºC e 10ºC, imersa em água em um recipiente fechado. Trocar a água diariamente. Validade média: 3 dias.",
+                "estoque": 99102,
+                "visivel": true,
+                "Created Date": "2024-07-16T01:23:07.989Z",
+                "demanda": 137,
+                "cod": "000144",
+                "peso por unidade": 400,
+                "descriçao": "Mandioca já descascada, facilitando o preparo das receitas. Receitas: Aipim frito, purê de mandioca, sopa. Usos: Consumir cozida, frita ou como ingrediente em receitas."
+            },
+            {
+                "tipo_unidade": "KG",
+                "preço antigo": 2.99,
+                "Created Date": "2024-07-16T01:23:07.990Z",
+                "descriçao": "Variedade de mandioca com casca marrom e polpa amarela, ideal para frituras. Receitas: Aipim frito, farofa. Usos: Consumir cozida, frita ou como ingrediente em receitas.",
+                "cod": "000142",
+                "categorias_produto": [
+                    "Legumes"
+                ],
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1720749371415x495401902674735800/MANDIOCA.jpg"
+                ],
+                "desconto": -100.334448160535,
+                "Created By": "admin_user_levee-delivery_test",
+                "ean": "0000000000127",
+                "preço por kg": 4.920534459,
+                "como armazenar": "Temperatura ambiente em local fresco e arejado por até 2 dias. Para maior durabilidade, armazenar refrigerado entre 0ºC e 10ºC em saco plástico por até 5 dias. Validade média: 2 dias (ambiente), 5 dias (refrigerado).",
+                "_id": "1721092987990x200099746324069250",
+                "info nutricional": "Por 100g (cozido):\n- Calorias: 120kcal\n- Carboidratos: 30g\n- Açúcar: 2g\n- Fibra: 2g\n- Proteína: 1g\n- Gordura: 0.3g\nVitaminas:\n- Vitamina C: 20mg (22% VD)",
+                "estoque": 50624,
+                "Modified Date": "2026-03-04T17:32:18.697Z",
+                "relacionados": [
+                    "1721092987988x980168827281060500",
+                    "1721092987989x496536617603217540",
+                    "1721092987995x505886556325933800"
+                ],
+                "peso por unidade": 272,
+                "nome": "Mandioca Amarela",
+                "visivel": true,
+                "demanda": 756,
+                "peso/und": "peso",
+                "preço novo": 5.99
+            },
+            {
+                "preço por kg": 9.990238554,
+                "nome": "Manga Palmer",
+                "Created By": "admin_user_levee-delivery_test",
+                "relacionados": [
+                    "1721092990106x805946285449906200",
+                    "1721092987997x130074901691759950"
+                ],
+                "preço antigo": 6.99,
+                "em oferta": false,
+                "ordem_prateleira": 74,
+                "visivel": true,
+                "peso/und": "peso",
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1719347616480x977189901604226400/Manga%20Palmer.jpg"
+                ],
+                "ean": "0000000000291",
+                "demanda": 2518,
+                "Modified Date": "2026-03-04T16:22:13.458Z",
+                "Created Date": "2024-07-16T01:23:07.994Z",
+                "estoque": 47867,
+                "categorias_produto": [
+                    "Frutas"
+                ],
+                "desconto": -57.2246065808298,
+                "_id": "1721092987994x728629767221276000",
+                "peso por unidade": 438,
+                "cod": "000316",
+                "tipo_unidade": "KG",
+                "descriçao": "Variedade de manga com casca vermelha e polpa amarela, doce e fibrosa. Usos: Consumir fresca, em sucos ou sobremesas.",
+                "info nutricional": "Por 100g (polpa):\n- Calorias: 60kcal\n- Carboidratos: 15g\n- Açúcar: 14g\n- Fibra: 1g\n- Proteína: 0.8g\n- Gordura: 0.4g\nVitaminas:\n- Vitamina C: 36mg (40% VD)\n- Vitamina A: 54 UI (1% VD)",
+                "como armazenar": "Temperatura ambiente em local fresco e arejado ou refrigerado entre 0ºC e 10ºC para maior durabilidade. Validade média: 5 dias (ambiente), 1 semana (refrigerado).",
+                "preço novo": 10.99
+            },
+            {
+                "desconto": -133.779264214047,
+                "nome": "Mandioca Cacau (Branca)",
+                "categorias_produto": [
+                    "Legumes"
+                ],
+                "preço novo": 6.99,
+                "estoque": -270,
+                "Created Date": "2024-07-16T01:23:07.995Z",
+                "peso por unidade": 232,
+                "cod": "000143",
+                "demanda": 1121,
+                "visivel": true,
+                "Created By": "admin_user_levee-delivery_test",
+                "descriçao": "Variedade de mandioca com casca marrom escura e polpa branca, ideal para cozimento. Receitas: Purê de mandioca, sopa, acompanhamento para carnes. Usos: Consumir cozida ou como ingrediente em receitas.",
+                "preço por kg": 5.921215924,
+                "tipo_unidade": "KG",
+                "relacionados": [
+                    "1721092987988x980168827281060500",
+                    "1721092987989x496536617603217540",
+                    "1721092987990x200099746324069250"
+                ],
+                "como armazenar": "Temperatura ambiente em local fresco e arejado por até 2 dias. Para maior durabilidade, armazenar refrigerado entre 0ºC e 10ºC em saco plástico por até 5 dias. Validade média: 2 dias (ambiente), 5 dias (refrigerado).",
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1719347615749x395852769408065800/Mandioca%20Amarela%20com%20Casca.jpg"
+                ],
+                "ean": "0000000000128",
+                "preço antigo": 2.99,
+                "_id": "1721092987995x505886556325933800",
+                "peso/und": "peso",
+                "Modified Date": "2026-01-14T18:30:50.570Z"
+            },
+            {
+                "Created Date": "2024-07-16T01:23:07.996Z",
+                "descriçao": "Manteiga tradicional com sal, da marca Saldanha. Usos: Utilizar em receitas, passar em pães ou torradas.",
+                "preço novo": 13.99,
+                "visivel": true,
+                "demanda": 5,
+                "estoque": 99982,
+                "nome": "Manteiga Comum Saldanha 200g",
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1720749480422x386594845255727760/MANTEIGA%20COMUM%20SALDANHA%20200%20GR.jpg"
+                ],
+                "info nutricional": "Por 1 colher de sopa (14g):\n- Calorias: 100kcal\n- Gordura Total: 11g (17% VD)\n- Gordura Saturada: 7g (32% VD)\n- Colesterol: 30mg (10% VD)\n- Sódio: 70mg (3% VD)",
+                "Modified Date": "2026-02-27T12:18:28.212Z",
+                "peso/und": "unidade",
+                "cod": "002256",
+                "peso por unidade": 250,
+                "categorias_produto": [
+                    "Laticíneos"
+                ],
+                "qtd por unidade": "200g",
+                "_id": "1721092987996x195821002605889760",
+                "Created By": "admin_user_levee-delivery_test",
+                "ean": "7898908441024",
+                "desconto": 0,
+                "preço antigo": 13.99,
+                "relacionados": [
+                    "1721092987996x308716772431220740"
+                ],
+                "como armazenar": "Refrigerado entre 0ºC e 10ºC. Após aberto, consumir em até 1 mês. Validade média: Verificar embalagem.",
+                "tipo_unidade": "UN"
+            },
+            {
+                "descriçao": "Manteiga tradicional com sal, da marca Saldanha, em embalagem maior. Usos: Utilizar em receitas, passar em pães ou torradas.",
+                "qtd por unidade": "500g",
+                "Created Date": "2024-07-16T01:23:07.996Z",
+                "Created By": "admin_user_levee-delivery_test",
+                "peso por unidade": 500,
+                "nome": "Manteiga Comum Saldanha 500g",
+                "relacionados": [
+                    "1721092987996x195821002605889760"
+                ],
+                "desconto": 0,
+                "demanda": 1,
+                "peso/und": "unidade",
+                "Modified Date": "2026-01-31T06:28:35.188Z",
+                "estoque": 99992,
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1720749675199x990501458848890100/MANTEIGA%20COMUM%20SALDANHA%20500GR.jpg"
+                ],
+                "visivel": true,
+                "tipo_unidade": "UN",
+                "preço novo": 28.99,
+                "como armazenar": "Refrigerado entre 0ºC e 10ºC. Após aberto, consumir em até 1 mês. Validade média: Verificar embalagem.",
+                "categorias_produto": [
+                    "Laticíneos"
+                ],
+                "ean": "7898908441017",
+                "preço antigo": 28.99,
+                "_id": "1721092987996x308716772431220740",
+                "cod": "002255"
+            },
+            {
+                "preço novo": 7.99,
+                "Created By": "admin_user_levee-delivery_test",
+                "tipo_unidade": "KG",
+                "cod": "000318",
+                "_id": "1721092987997x130074901691759950",
+                "como armazenar": "Temperatura ambiente em local fresco e arejado ou refrigerado entre 0ºC e 10ºC para maior durabilidade. Validade média: 5 dias (ambiente), 1 semana (refrigerado).",
+                "relacionados": [
+                    "1721092987994x728629767221276000"
+                ],
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1719347616647x449553411397301600/Manga%20Tommy.jpg"
+                ],
+                "demanda": 258,
+                "info nutricional": "Por 100g (polpa):\n- Calorias: 65kcal\n- Carboidratos: 17g\n- Açúcar: 14g\n- Fibra: 2g\n- Proteína: 0.5g\n- Gordura: 0.3g\nVitaminas:\n- Vitamina C: 28mg (31% VD)\n- Vitamina A: 60 UI (1% VD)",
+                "ean": "0000000000293",
+                "desconto": 0,
+                "preço por kg": 12.99043284,
+                "ordem_prateleira": 81,
+                "peso/und": "peso",
+                "descriçao": "Variedade de manga com casca verde-amarelada e polpa amarela, menos fibrosa que a manga Palmer. Usos: Consumir fresca, em sucos ou sobremesas.",
+                "estoque": 999504654,
+                "nome": "Manga Tommy",
+                "peso por unidade": 456,
+                "Modified Date": "2026-03-04T16:50:33.141Z",
+                "categorias_produto": [
+                    "Frutas"
+                ],
+                "visivel": true,
+                "preço antigo": 7.99,
+                "Created Date": "2024-07-16T01:23:07.997Z"
+            },
+            {
+                "nome": "Manjericão 50g",
+                "_id": "1721092987999x204521690011290050",
+                "preço antigo": 2.99,
+                "cod": "000050",
+                "tipo_unidade": "UN",
+                "demanda": 50,
+                "descriçao": "Erva aromática originária da Índia, com sabor adocicado e aroma marcante. Receitas: Molhos, saladas, pizzas, massas. Usos: Adicionar fresco no final do preparo para realçar o sabor.",
+                "info nutricional": "Por 100g:\n- Calorias: 23kcal\n- Carboidratos: 4g\n- Fibra: 2g\n- Proteína: 3g\n- Gordura: 0.6g\nVitaminas:\n- Vitamina K: 414mcg (345% VD)\n- Vitamina A: 265 UI (5% VD)\n- Vitamina C: 18mg (20% VD)",
+                "desconto": 0,
+                "peso/und": "unidade",
+                "peso por unidade": 50,
+                "Created Date": "2024-07-16T01:23:07.999Z",
+                "Modified Date": "2026-03-04T14:04:17.575Z",
+                "Created By": "admin_user_levee-delivery_test",
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1719347617324x888437664096750200/Manjeric%C3%A3o%20Unidade.jpg"
+                ],
+                "estoque": 99791,
+                "ean": "0000000000041",
+                "ordem_prateleira": 125,
+                "como armazenar": "Refrigerado entre 0ºC e 10ºC, embrulhado em papel toalha úmido e armazenado em saco plástico. Validade média: 1 semana.",
+                "preço novo": 2.99,
+                "visivel": true,
+                "categorias_produto": [
+                    "Verduras"
+                ]
+            },
+            {
+                "como armazenar": "Temperatura ambiente em local fresco, seco e hermeticamente fechado. Validade média: 6 meses.",
+                "peso/und": "unidade",
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1741794023194x183689310279753900/MAACUJ%C3%81%2080G.JPG"
+                ],
+                "peso por unidade": 90,
+                "tipo_unidade": "UN",
+                "info nutricional": "Por 1 colher de sopa (6g):\n- Calorias: 15kcal\n- Carboidratos: 4g\n- Fibra: 2g\n- Vitamina C: 10mg (11% VD)\n- Ferro: 0.5mg (3% VD)",
+                "descriçao": "Maracujá com polpa ácida, ideal para o preparo de sucos e doces. Receitas: Suco, mousse, brigadeiro, cobertura para bolos e tortas. Usos: Utilizar a polpa em receitas.",
+                "preço novo": 7.99,
+                "ean": "0192505114204",
+                "categorias_produto": [
+                    "Empório"
+                ],
+                "_id": "1721092988000x519723354332058940",
+                "visivel": true,
+                "desconto": 0,
+                "Created By": "admin_user_levee-delivery_test",
+                "cod": "892505",
+                "nome": "Maracujá Farinha 90g Saúde Plena",
+                "demanda": 0,
+                "qtd por unidade": "90g",
+                "Modified Date": "2026-02-14T15:56:34.180Z",
+                "preço antigo": 7.99,
+                "relacionados": [
+                    "1721092988141x723796952458377300",
+                    "1721092988142x965800889175492600",
+                    "1721092989236x391234769181438660",
+                    "1721092989239x870513206497701800"
+                ],
+                "Created Date": "2024-07-16T01:23:08.000Z",
+                "estoque": 99996
+            },
+            {
+                "descriçao": "Originária da Indonésia, o mangostim é uma fruta reconhecida pelas propriedades medicinais em diversos países asiáticos. Com propriedades adstringentes, anti-inflamatórias e antioxidante, a fruta é prescrita como tratamento para desinteira e cólera.\n Usos: Consumir fresca.",
+                "peso/und": "unidade",
+                "em oferta": false,
+                "tipo_unidade": "UN",
+                "preço por kg": 9.99,
+                "Created By": "admin_user_levee-delivery_test",
+                "como armazenar": "Refrigerado entre 0ºC e 10ºC. Validade média: 5 dias.",
+                "nome": "Mangostin",
+                "cod": "001373",
+                "ean": "0000000002554",
+                "categorias_produto": [
+                    "Frutas"
+                ],
+                "visivel": false,
+                "peso por unidade": 150,
+                "demanda": 5,
+                "desconto": 60.04002668445631,
+                "Modified Date": "2025-05-21T17:12:55.904Z",
+                "info nutricional": "Por 100g (polpa):\n- Calorias: 63kcal\n- Carboidratos: 16g\n- Fibra: 1g\n- Proteína: 0.5g\n- Gordura: 0.2g\nVitaminas:\n- Vitamina C: 7mg (8% VD)",
+                "preço antigo": 14.99,
+                "_id": "1721092988001x105146845681941330",
+                "Created Date": "2024-07-16T01:23:08.001Z",
+                "preço novo": 5.99,
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1743155451686x193047671537715170/images%20%2813%29.jpeg"
+                ],
+                "estoque": 10
+            },
+            {
+                "descriçao": "Queijo minas frescal em formato de medalhão, da marca Villefort. Usos: Consumir puro, com geleia ou como ingrediente em receitas.",
+                "visivel": true,
+                "tipo_unidade": "PC",
+                "demanda": 0,
+                "peso/und": "unidade",
+                "Created Date": "2024-07-16T01:23:08.002Z",
+                "Created By": "admin_user_levee-delivery_test",
+                "ean": "7898192820024",
+                "qtd por unidade": "200g",
+                "peso por unidade": 200,
+                "estoque": 99998,
+                "categorias_produto": [
+                    "Outros"
+                ],
+                "preço novo": 18.99,
+                "desconto": 0,
+                "Modified Date": "2025-12-30T17:04:20.577Z",
+                "_id": "1721092988002x415233249620596350",
+                "cod": "002070",
+                "preço antigo": 18.99,
+                "como armazenar": "Refrigerado entre 0ºC e 10ºC. Validade média: Verificar embalagem.",
+                "nome": "Medalhão De Queijo Villefort 200g",
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1720749838972x523144759863851200/MEDALHAO%20DE%20QUEIJO%20VILLEFORT%20200G.jpg"
+                ]
+            },
+            {
+                "preço antigo": 45.99,
+                "estoque": 10000,
+                "tipo_unidade": "UN",
+                "demanda": 4,
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1720749875503x310879561017062460/MEL.jpg"
+                ],
+                "ean": "7898955008058",
+                "nome": "Mel Apiserra 1Kg",
+                "descriçao": "Mel puro da marca Apicerra, em embalagem de 1kg. Usos: Consumir puro, com frutas, iogurte ou utilizar em receitas.",
+                "peso/und": "unidade",
+                "preço novo": 45.99,
+                "peso por unidade": 1000,
+                "relacionados": [
+                    "1721092988143x490184092444739400",
+                    "1721092988144x740951921756825000",
+                    "1721092988151x857020536605203500"
+                ],
+                "visivel": true,
+                "_id": "1721092988003x155924480082463970",
+                "Modified Date": "2025-12-22T23:57:19.077Z",
+                "desconto": 0,
+                "Created By": "admin_user_levee-delivery_test",
+                "categorias_produto": [
+                    "Outros"
+                ],
+                "cod": "000542",
+                "como armazenar": "Temperatura ambiente em local fresco, seco e protegido da luz. Validade média: 2 anos.",
+                "Created Date": "2024-07-16T01:23:08.003Z"
+            },
+            {
+                "peso por unidade": 234,
+                "preço por kg": 39.99095364,
+                "Created By": "admin_user_levee-delivery_test",
+                "preço antigo": 39.99,
+                "como armazenar": "Temperatura ambiente em local fresco e arejado ou refrigerado entre 0ºC e 10ºC para maior durabilidade. Validade média: 5 dias (ambiente), 1 semana (refrigerado).",
+                "preço novo": 13.99,
+                "desconto": 65.0162540635159,
+                "estoque": 91934,
+                "categorias_produto": [
+                    "Frutas"
+                ],
+                "demanda": 44,
+                "info nutricional": "Por 100g (polpa):\n- Calorias: 97kcal\n- Carboidratos: 25g\n- Fibra: 5g\n- Proteína: 2g\n- Gordura: 0.7g\nVitaminas:\n- Vitamina C: 30mg (33% VD)\n- Vitamina A: 204 UI (4% VD)",
+                "Modified Date": "2026-02-19T15:29:49.062Z",
+                "descriçao": "Polpa de maracujá desidratada, prática para utilizar em receitas. Receitas: Mousses, recheios para bolos e tortas, bebidas. Usos: Diluir em água ou leite e utilizar em receitas.",
+                "cod": "000322",
+                "visivel": false,
+                "ean": "0000000000297",
+                "_id": "1721092988141x723796952458377300",
+                "nome": "Maracujá Doce",
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1720749804200x465386045706798200/MARACUJA%20DOCE.jpg"
+                ],
+                "relacionados": [
+                    "1721092988000x519723354332058940",
+                    "1721092988142x965800889175492600",
+                    "1721092989236x391234769181438660",
+                    "1721092989239x870513206497701800"
+                ],
+                "peso/und": "unidade",
+                "Created Date": "2024-07-16T01:23:08.141Z",
+                "tipo_unidade": "UN"
+            },
+            {
+                "descriçao": "Variedade de maracujá com polpa doce, ideal para consumo in natura. Usos: Consumir fresco ou utilizar a polpa em receitas.",
+                "Created Date": "2024-07-16T01:23:08.142Z",
+                "relacionados": [
+                    "1721092988000x519723354332058940",
+                    "1721092988141x723796952458377300",
+                    "1721092989236x391234769181438660",
+                    "1721092989239x870513206497701800"
+                ],
+                "como armazenar": "Temperatura ambiente em local fresco e arejado ou refrigerado entre 0ºC e 10ºC para maior durabilidade. Validade média: 5 dias (ambiente), 1 semana (refrigerado).",
+                "nome": "Maracujá Azedo",
+                "peso/und": "peso",
+                "preço novo": 13.99,
+                "preço antigo": 14.99,
+                "tipo_unidade": "KG",
+                "demanda": 1410,
+                "preço por kg": 16.03073855,
+                "cod": "001380",
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1719347668403x759771301823385900/Maracuj%C3%A1%20Azedo%20%20%20%20Kg.jpg"
+                ],
+                "visivel": true,
+                "_id": "1721092988142x965800889175492600",
+                "ean": "0000000002622",
+                "Modified Date": "2026-03-04T16:25:29.002Z",
+                "Created By": "admin_user_levee-delivery_test",
+                "desconto": 6.6711140760507,
+                "peso por unidade": 269,
+                "estoque": 4695082,
+                "ordem_prateleira": 57,
+                "categorias_produto": [
+                    "Frutas"
+                ]
+            },
+            {
+                "nome": "Mel Apiserra 280g",
+                "peso por unidade": 280,
+                "Created By": "admin_user_levee-delivery_test",
+                "visivel": true,
+                "peso/und": "unidade",
+                "demanda": 5,
+                "descriçao": "Mel puro da marca Apicerra, em embalagem de 280gr. Usos: Consumir puro, com frutas, iogurte ou utilizar em receitas.",
+                "relacionados": [
+                    "1721092988003x155924480082463970",
+                    "1721092988144x740951921756825000",
+                    "1721092988151x857020536605203500"
+                ],
+                "info nutricional": "Por 1 colher de sopa (21g):\n- Calorias: 64kcal\n- Carboidratos: 17g\n- Açúcar: 17g",
+                "_id": "1721092988143x490184092444739400",
+                "como armazenar": "Temperatura ambiente em local fresco, seco e protegido da luz. Validade média: 2 anos.",
+                "Modified Date": "2026-02-19T14:55:06.686Z",
+                "preço antigo": 16.99,
+                "desconto": 0,
+                "cod": "000540",
+                "tipo_unidade": "UN",
+                "ean": "0000000000673",
+                "qtd por unidade": "280g",
+                "preço novo": 16.99,
+                "estoque": 999985,
+                "categorias_produto": [
+                    "Outros"
+                ],
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1720749916040x340701643599408100/MEL.jpg"
+                ],
+                "Created Date": "2024-07-16T01:23:08.143Z"
+            },
+            {
+                "descriçao": "Mel puro da marca Apicerra, em embalagem de 500gr. Usos: Consumir puro, com frutas, iogurte ou utilizar em receitas.",
+                "Modified Date": "2026-02-24T04:46:33.261Z",
+                "estoque": 9997,
+                "tipo_unidade": "UN",
+                "peso por unidade": 500,
+                "peso/und": "unidade",
+                "nome": "Mel Apiserra 500g",
+                "Created Date": "2024-07-16T01:23:08.144Z",
+                "preço novo": 26.99,
+                "desconto": 0,
+                "ean": "0000000000689",
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1720749929186x703727311057060600/MEL.jpg"
+                ],
+                "relacionados": [
+                    "1721092988003x155924480082463970",
+                    "1721092988143x490184092444739400",
+                    "1721092988151x857020536605203500"
+                ],
+                "qtd por unidade": "500g",
+                "como armazenar": "Temperatura ambiente em local fresco, seco e protegido da luz. Validade média: 2 anos.",
+                "_id": "1721092988144x740951921756825000",
+                "visivel": true,
+                "demanda": 6,
+                "Created By": "admin_user_levee-delivery_test",
+                "cod": "000556",
+                "categorias_produto": [
+                    "Outros"
+                ],
+                "preço antigo": 26.99
+            },
+            {
+                "desconto": -33.4448160535117,
+                "nome": "Melancia Comum",
+                "como armazenar": "Temperatura ambiente em local fresco e arejado ou refrigerado entre 0ºC e 10ºC após cortada. Validade média: 1 semana (inteira), 3 dias (cortada).",
+                "Created Date": "2024-07-16T01:23:08.147Z",
+                "info nutricional": "Por 100g (polpa):\n- Calorias: 30kcal\n- Carboidratos: 8g\n- Açúcar: 6g\n- Fibra: 0.4g\n- Proteína: 0.6g\n- Gordura: 0.2g\nVitaminas:\n- Vitamina C: 8mg (9% VD)",
+                "Modified Date": "2026-02-24T15:55:14.329Z",
+                "preço antigo": 2.99,
+                "Created By": "admin_user_levee-delivery_test",
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1719347618249x731301816266453500/Melancia%20Extra.jpg"
+                ],
+                "peso por unidade": 9000,
+                "cod": "000326",
+                "tipo_unidade": "KG",
+                "relacionados": [
+                    "1721092988149x334457194575314300",
+                    "1721092988150x854112049226549800",
+                    "1721092988154x660284600867688600"
+                ],
+                "visivel": true,
+                "estoque": 9999882125,
+                "preço por kg": 4.774918318,
+                "categorias_produto": [
+                    "Frutas"
+                ],
+                "demanda": 11,
+                "preço novo": 3.99,
+                "peso/und": "peso",
+                "_id": "1721092988147x642570780903657300",
+                "ean": "0000000000301",
+                "descriçao": "Fruto grande e refrescante, com polpa vermelha e suculenta. Usos: Consumir fresca, em saladas de frutas ou sucos."
+            },
+            {
+                "peso por unidade": 663,
+                "em oferta": true,
+                "preço antigo": 12.99,
+                "categorias_produto": [
+                    "Frutas",
+                    "Higienizados"
+                ],
+                "preço por kg": 12.98986597,
+                "demanda": 284,
+                "estoque": 8872058,
+                "Modified Date": "2026-03-04T16:22:13.243Z",
+                "visivel": true,
+                "preço novo": 12.99,
+                "peso/und": "peso",
+                "_id": "1721092988149x334457194575314300",
+                "desconto": 0,
+                "cod": "001728",
+                "Created By": "admin_user_levee-delivery_test",
+                "como armazenar": "Geladeira (4ºC - 8ºC): Em recipiente fechado por até 3 dias. Congelador ( -18ºC): Por até 3 meses (textura será alterada, ideal para sucos).",
+                "Created Date": "2024-07-16T01:23:08.149Z",
+                "descriçao": "Melancia já fatiada, facilitando o consumo. Usos: Consumir fresca.",
+                "tipo_unidade": "KG",
+                "relacionados": [
+                    "1721092988147x642570780903657300",
+                    "1721092988150x854112049226549800",
+                    "1721092988154x660284600867688600"
+                ],
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1736175132753x485091503682609800/20241205_102359.JPG"
+                ],
+                "nome": "Melancia Fatiada (Filé De Melancia)",
+                "ean": "0000000005845"
+            },
+            {
+                "relacionados": [
+                    "1721092988147x642570780903657300",
+                    "1721092988149x334457194575314300",
+                    "1721092988154x660284600867688600"
+                ],
+                "preço por kg": 5.989959359,
+                "visivel": false,
+                "nome": "Melancia Amarela",
+                "Created Date": "2024-07-16T01:23:08.150Z",
+                "descriçao": "Variedade de melancia com polpa amarela, doce e com menos sementes. Usos: Consumir fresca, em saladas de frutas ou sucos.",
+                "Modified Date": "2025-11-21T18:50:39.099Z",
+                "peso/und": "peso",
+                "demanda": 4,
+                "desconto": 22.246941045606228,
+                "_id": "1721092988150x854112049226549800",
+                "cod": "001375",
+                "como armazenar": "Temperatura ambiente em local fresco e arejado ou refrigerado entre 0ºC e 10ºC após cortada. Validade média: 1 semana (inteira), 3 dias (cortada).",
+                "estoque": 0,
+                "tipo_unidade": "KG",
+                "peso por unidade": 3500,
+                "preço novo": 6.99,
+                "Created By": "admin_user_levee-delivery_test",
+                "info nutricional": "Por 100g (polpa):\n- Calorias: 34kcal\n- Carboidratos: 8g\n- Açúcar: 8g\n- Fibra: 0.4g\n- Proteína: 0.6g\n- Gordura: 0.2g\nVitaminas:\n- Vitamina C: 7mg (8% VD)",
+                "preço antigo": 8.99,
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1720750005642x952367847609151500/MELANCIA%20AMARELA.jpg"
+                ],
+                "em oferta": true,
+                "ean": "0000000002578",
+                "categorias_produto": [
+                    "Frutas"
+                ]
+            },
+            {
+                "ean": "0000000002509",
+                "_id": "1721092988151x857020536605203500",
+                "cod": "001368",
+                "tipo_unidade": "UN",
+                "como armazenar": "Temperatura ambiente em local fresco, seco e protegido da luz. Validade média: 2 anos.",
+                "descriçao": "Mel puro da marca Apicerra, em embalagem de 500gr, com design diferenciado. Usos: Consumir puro, com frutas, iogurte ou utilizar em receitas.",
+                "nome": "Mel Apiserra 500ml",
+                "qtd por unidade": "500ml",
+                "relacionados": [
+                    "1721092988003x155924480082463970",
+                    "1721092988143x490184092444739400",
+                    "1721092988144x740951921756825000"
+                ],
+                "preço antigo": 26.99,
+                "demanda": 0,
+                "visivel": true,
+                "peso/und": "unidade",
+                "desconto": 0,
+                "Modified Date": "2025-07-16T18:46:11.739Z",
+                "categorias_produto": [
+                    "Outros"
+                ],
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1724108275443x294982753922227840/1368.jpg"
+                ],
+                "Created By": "admin_user_levee-delivery_test",
+                "Created Date": "2024-07-16T01:23:08.151Z",
+                "preço por kg": 6.99,
+                "peso por unidade": 150,
+                "preço novo": 26.99,
+                "estoque": 99551
+            },
+            {
+                "Created Date": "2024-07-16T01:23:08.154Z",
+                "descriçao": "Variedade de melancia pequena, com poucas sementes e sabor doce. Usos: Consumir fresca ou em saladas de frutas.",
+                "Modified Date": "2026-03-03T17:22:01.513Z",
+                "cod": "000329",
+                "estoque": 665032,
+                "desconto": -14.3061516452074,
+                "Created By": "admin_user_levee-delivery_test",
+                "visivel": true,
+                "preço novo": 7.99,
+                "peso por unidade": 3500,
+                "nome": "Melancia Pingo Doce",
+                "relacionados": [
+                    "1721092988147x642570780903657300",
+                    "1721092988149x334457194575314300",
+                    "1721092988150x854112049226549800"
+                ],
+                "ordem_prateleira": 95,
+                "tipo_unidade": "KG",
+                "preço por kg": 6.989879518,
+                "ean": "0000000000304",
+                "peso/und": "peso",
+                "categorias_produto": [
+                    "Frutas"
+                ],
+                "preço antigo": 6.99,
+                "_id": "1721092988154x660284600867688600",
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1719347668594x644408403324631600/Melancia%20Pingo%20Doce.jpg"
+                ],
+                "como armazenar": "Ambiente fresco e arejado (13ºC - 18ºC) por até 7 dias. Geladeira (7ºC - 10ºC): Por até 15 dias.",
+                "demanda": 22
+            },
+            {
+                "peso/und": "peso",
+                "demanda": 30,
+                "Modified Date": "2026-02-27T15:55:40.369Z",
+                "peso por unidade": 1534,
+                "desconto": 0,
+                "categorias_produto": [
+                    "Frutas"
+                ],
+                "como armazenar": "Ambiente fresco e arejado (13ºC - 18ºC): Até estar maduro. Geladeira (7ºC - 10ºC): Por até 10 dias após o amadurecimento.",
+                "cod": "000332",
+                "Created By": "admin_user_levee-delivery_test",
+                "tipo_unidade": "KG",
+                "relacionados": [
+                    "1721092988157x275091383952806850",
+                    "1721092988158x523794484912586200",
+                    "1721092988159x228538749264581630"
+                ],
+                "visivel": false,
+                "ean": "0000000000306",
+                "preço antigo": 9.99,
+                "Created Date": "2024-07-16T01:23:08.155Z",
+                "preço por kg": 9.99,
+                "_id": "1721092988155x945189768132372600",
+                "descriçao": "Variedade de melão com casca e polpa amarelas, doce e aromático. Usos: Consumir fresco.",
+                "estoque": 26212,
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1719347618990x921021096631877900/Mel%C3%A3o%20%20Amarelo%20%20Kg.jpg"
+                ],
+                "info nutricional": "Por 100g (polpa):\n- Calorias: 34kcal\n- Carboidratos: 8g\n- Açúcar: 8g\n- Fibra: 1g\n- Proteína: 0.8g\n- Gordura: 0.2g\nVitaminas:\n- Vitamina C: 37mg (41% VD)\n- Vitamina A: 168 UI (3% VD)",
+                "preço novo": 9.99,
+                "ordem_prateleira": 53,
+                "nome": "Melão Amarelo"
+            },
+            {
+                "descriçao": "Variedade de melão com casca verde escura e polpa alaranjada, doce e suculenta. Usos: Consumir fresco.",
+                "preço antigo": 14.99,
+                "demanda": 0,
+                "como armazenar": "Ambiente fresco e arejado (13ºC - 18ºC): Até estar maduro. Geladeira (7ºC - 10ºC): Por até 10 dias após o amadurecimento.",
+                "tipo_unidade": "KG",
+                "nome": "Melão Dino",
+                "Created Date": "2024-07-16T01:23:08.157Z",
+                "_id": "1721092988157x275091383952806850",
+                "ean": "0000000000311",
+                "Modified Date": "2026-03-03T12:01:49.430Z",
+                "preço novo": 14.99,
+                "relacionados": [
+                    "1721092988155x945189768132372600",
+                    "1721092988158x523794484912586200",
+                    "1721092988159x228538749264581630"
+                ],
+                "cod": "000337",
+                "preço por kg": 14.99310345,
+                "visivel": true,
+                "Created By": "admin_user_levee-delivery_test",
+                "categorias_produto": [
+                    "Frutas"
+                ],
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1720750319151x847135404961124600/MELAO%20DINO.jpg"
+                ],
+                "ordem_prateleira": 51,
+                "peso por unidade": 2000,
+                "desconto": 0,
+                "estoque": 96000,
+                "peso/und": "peso"
+            },
+            {
+                "ordem_prateleira": 49,
+                "preço antigo": 16.99,
+                "Created Date": "2024-07-16T01:23:08.158Z",
+                "nome": "Melão Amarelo (Cepi)",
+                "tipo_unidade": "KG",
+                "Modified Date": "2026-03-03T12:41:17.518Z",
+                "ean": "0000000000312",
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1719347618990x921021096631877900/Mel%C3%A3o%20%20Amarelo%20%20Kg.jpg"
+                ],
+                "preço por kg": 12.57260525,
+                "cod": "000338",
+                "preço novo": 12.99,
+                "visivel": true,
+                "Created By": "admin_user_levee-delivery_test",
+                "estoque": 9999629804,
+                "peso/und": "peso",
+                "demanda": 62,
+                "desconto": 23.5432607416127,
+                "categorias_produto": [
+                    "Frutas"
+                ],
+                "relacionados": [
+                    "1721092988155x945189768132372600",
+                    "1721092988157x275091383952806850",
+                    "1721092988159x228538749264581630"
+                ],
+                "como armazenar": "Ambiente fresco e arejado (13ºC - 18ºC): Até estar maduro. Geladeira (7ºC - 10ºC): Por até 7 dias após o amadurecimento.",
+                "_id": "1721092988158x523794484912586200",
+                "descriçao": "Variedade de melão amarelo com formato ovalado. Usos: Consumir fresco.",
+                "peso por unidade": 1847
+            },
+            {
+                "como armazenar": "Ambiente fresco e arejado (13ºC - 18ºC): Até estar maduro. Geladeira (7ºC - 10ºC): Por até 7 dias após o amadurecimento.",
+                "preço por kg": 17.99272727,
+                "demanda": 2,
+                "desconto": 0,
+                "peso/und": "peso",
+                "Modified Date": "2026-02-27T15:55:40.336Z",
+                "preço antigo": 17.99,
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1720750366445x287291213118757500/MELAO%20ORANGE.jpg"
+                ],
+                "_id": "1721092988159x228538749264581630",
+                "cod": "001702",
+                "visivel": false,
+                "preço novo": 17.99,
+                "peso por unidade": 1465,
+                "descriçao": "Variedade de melão com casca alaranjada e polpa salmão, doce e suculenta. Usos: Consumir fresco.",
+                "Created By": "admin_user_levee-delivery_test",
+                "Created Date": "2024-07-16T01:23:08.159Z",
+                "estoque": 91435,
+                "tipo_unidade": "KG",
+                "relacionados": [
+                    "1721092988155x945189768132372600",
+                    "1721092988157x275091383952806850",
+                    "1721092988158x523794484912586200"
+                ],
+                "categorias_produto": [
+                    "Frutas"
+                ],
+                "ean": "0000000005630",
+                "nome": "Melão Orange",
+                "ordem_prateleira": 50
+            },
+            {
+                "ean": "0000000000318",
+                "estoque": 82884,
+                "categorias_produto": [
+                    "Frutas"
+                ],
+                "como armazenar": "Ambiente fresco e arejado (13ºC - 18ºC): Por até 7 dias. Geladeira (7ºC - 10ºC): Por até 14 dias.",
+                "info nutricional": "Por 100g (polpa):\n- Calorias: 40kcal\n- Carboidratos: 10g\n- Açúcar: 9g\n- Fibra: 1g\n- Proteína: 0.8g\n- Gordura: 0.3g\nVitaminas:\n- Vitamina C: 25mg (28% VD)",
+                "_id": "1721092988159x640707385063924200",
+                "cod": "000344",
+                "Created By": "admin_user_levee-delivery_test",
+                "peso por unidade": 212,
+                "Modified Date": "2026-03-04T15:35:23.920Z",
+                "Created Date": "2024-07-16T01:23:08.159Z",
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1719347669327x484845195956560700/Mexerica%20Murcote.jpg"
+                ],
+                "ordem_prateleira": 71,
+                "nome": "Mexerica Murcote",
+                "peso/und": "peso",
+                "desconto": -6.25390869293307,
+                "preço antigo": 15.99,
+                "demanda": 416,
+                "visivel": true,
+                "descriçao": "Variedade de mexerica sem sementes, com casca fina e fácil de descascar. Usos: Consumir fresca.",
+                "preço novo": 16.99,
+                "preço por kg": 14.98964497,
+                "tipo_unidade": "KG",
+                "relacionados": [
+                    "1721092988162x656335433163179000",
+                    "1721092988163x471994812840298900",
+                    "1721092988166x258640827761578160"
+                ]
+            },
+            {
+                "descriçao": "Variedade de melão com casca verde-escura e manchas amarelas, polpa branca e sabor suave. Usos: Consumir fresco.",
+                "preço por kg": 9.988505747,
+                "peso por unidade": 2500,
+                "nome": "Melão Pele De Sapo",
+                "estoque": 79696,
+                "desconto": 0,
+                "preço novo": 10.99,
+                "visivel": true,
+                "Created By": "admin_user_levee-delivery_test",
+                "tipo_unidade": "KG",
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1719347620742x311198214760504400/Mel%C3%A3o%20Verde%20%20Pele%20de%20Sapo%20Kg.jpg"
+                ],
+                "peso/und": "peso",
+                "Modified Date": "2026-02-27T15:55:40.366Z",
+                "Created Date": "2024-07-16T01:23:08.160Z",
+                "cod": "000341",
+                "ean": "0000000000314",
+                "demanda": 2,
+                "como armazenar": "Ambiente fresco e arejado (13ºC - 18ºC): Até estar maduro. Geladeira (7ºC - 10ºC): Por até 10 dias após o amadurecimento.",
+                "ordem_prateleira": 52,
+                "categorias_produto": [
+                    "Frutas"
+                ],
+                "_id": "1721092988160x649701502564289800",
+                "preço antigo": 10.99,
+                "info nutricional": "Por 100g (polpa):\n- Calorias: 36kcal\n- Carboidratos: 9g\n- Açúcar: 8g\n- Fibra: 1g\n- Proteína: 1g\n- Gordura: 0.2g\nVitaminas:\n- Vitamina C: 37mg (41% VD)"
+            },
+            {
+                "descriçao": "Variedade de mexerica híbrida, originária do Japão, com tamanho grande, casca rugosa e sabor doce. Usos: Consumir fresca.",
+                "cod": "000996",
+                "como armazenar": "Ambiente fresco e arejado (13ºC - 18ºC): Por até 5 dias. Geladeira (7ºC - 10ºC): Por até 10 dias.",
+                "Modified Date": "2026-02-15T18:25:04.126Z",
+                "Created Date": "2024-07-16T01:23:08.162Z",
+                "estoque": 92650,
+                "demanda": 0,
+                "tipo_unidade": "KG",
+                "desconto": 0,
+                "nome": "Mexerica Dekopon",
+                "peso/und": "peso",
+                "preço por kg": 7.98,
+                "preço novo": 7.99,
+                "preço antigo": 7.99,
+                "relacionados": [
+                    "1721092988159x640707385063924200",
+                    "1721092988163x471994812840298900",
+                    "1721092988166x258640827761578160"
+                ],
+                "ean": "0000000000178",
+                "Created By": "admin_user_levee-delivery_test",
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1724112498357x916001219121846500/Mexerica%20Dekopon.jpg"
+                ],
+                "peso por unidade": 150,
+                "categorias_produto": [
+                    "Frutas"
+                ],
+                "_id": "1721092988162x656335433163179000",
+                "visivel": false
+            },
+            {
+                "descriçao": "Variedade de mexerica híbrida, originária do Japão, com tamanho grande, sem sementes e sabor doce. Usos: Consumir fresca.",
+                "demanda": 670,
+                "nome": "Mexerica Pokan",
+                "ean": "0000000000319",
+                "relacionados": [
+                    "1721092988159x640707385063924200",
+                    "1721092988162x656335433163179000",
+                    "1721092988166x258640827761578160"
+                ],
+                "Created Date": "2024-07-16T01:23:08.163Z",
+                "categorias_produto": [
+                    "Frutas"
+                ],
+                "tipo_unidade": "KG",
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1719347621451x905346497452264000/Mexerica%20Ponkan.jpg"
+                ],
+                "desconto": -10.01001001001,
+                "Created By": "admin_user_levee-delivery_test",
+                "_id": "1721092988163x471994812840298900",
+                "peso/und": "peso",
+                "preço por kg": 3.985249283,
+                "como armazenar": "Ambiente fresco e arejado (13ºC - 18ºC): Por até 7 dias. Geladeira (7ºC - 10ºC): Por até 14 dias.",
+                "preço novo": 10.99,
+                "peso por unidade": 150,
+                "Modified Date": "2026-03-04T16:25:57.235Z",
+                "preço antigo": 9.99,
+                "visivel": true,
+                "cod": "000345",
+                "estoque": 15084
+            },
+            {
+                "peso/und": "peso",
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1719347619229x758689744222514400/Mel%C3%A3o%20Rei.jpg"
+                ],
+                "peso por unidade": 1885,
+                "desconto": 10.5318588730911,
+                "demanda": 45,
+                "Created Date": "2024-07-16T01:23:08.164Z",
+                "preço antigo": 18.99,
+                "ean": "0000000000308",
+                "descriçao": "Variedade de melão com casca verde clara e polpa verde clara, doce e suculenta. Usos: Consumir fresco.",
+                "Created By": "admin_user_levee-delivery_test",
+                "preço por kg": 19.09266816,
+                "nome": "Melão Rei",
+                "_id": "1721092988164x819632888309810300",
+                "categorias_produto": [
+                    "Frutas"
+                ],
+                "como armazenar": "Ambiente fresco e arejado (13ºC - 18ºC): Até estar maduro. Geladeira (7ºC - 10ºC): Por até 7 dias após o amadurecimento.",
+                "visivel": true,
+                "preço novo": 16.99,
+                "Modified Date": "2026-03-04T15:33:52.284Z",
+                "tipo_unidade": "KG",
+                "estoque": 49780594,
+                "cod": "000334"
+            },
+            {
+                "ean": "0000000002585",
+                "nome": "Mexerica Verona",
+                "como armazenar": "Ambiente fresco e arejado (13ºC - 18ºC): Por até 7 dias. Geladeira (7ºC - 10ºC): Por até 14 dias.",
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1719347669327x484845195956560700/Mexerica%20Murcote.jpg"
+                ],
+                "cod": "001376",
+                "demanda": 212,
+                "Created By": "admin_user_levee-delivery_test",
+                "desconto": 15.0075037518759,
+                "tipo_unidade": "KG",
+                "peso/und": "peso",
+                "preço novo": 16.99,
+                "_id": "1721092988165x443743925830346400",
+                "visivel": false,
+                "estoque": -1323,
+                "ordem_prateleira": 72,
+                "Modified Date": "2026-02-27T15:55:40.524Z",
+                "preço por kg": 29.98909046,
+                "preço antigo": 19.99,
+                "categorias_produto": [
+                    "Frutas"
+                ],
+                "Created Date": "2024-07-16T01:23:08.165Z",
+                "peso por unidade": 156,
+                "relacionados": [
+                    "1721092988159x640707385063924200",
+                    "1721092988162x656335433163179000",
+                    "1721092988163x471994812840298900",
+                    "1721092988166x258640827761578160"
+                ],
+                "descriçao": "Variedade de mexerica com casca fina, fácil de descascar e sabor doce. Usos: Consumir fresca."
+            },
+            {
+                "peso por unidade": 109,
+                "visivel": true,
+                "ordem_prateleira": 70,
+                "desconto": -15.3964588144727,
+                "preço antigo": 12.99,
+                "preço por kg": 6.989954076,
+                "relacionados": [
+                    "1721092988159x640707385063924200",
+                    "1721092988162x656335433163179000",
+                    "1721092988163x471994812840298900"
+                ],
+                "ean": "0000000000316",
+                "Modified Date": "2026-03-04T16:22:14.046Z",
+                "estoque": 6124,
+                "como armazenar": "Ambiente fresco e arejado (13ºC - 18ºC): Por até 7 dias. Geladeira (7ºC - 10ºC): Por até 14 dias.",
+                "_id": "1721092988166x258640827761578160",
+                "Created By": "admin_user_levee-delivery_test",
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1719347620552x238029052818375040/Mexerica%20Carioca%20Und.jpg"
+                ],
+                "peso/und": "peso",
+                "tipo_unidade": "KG",
+                "info nutricional": "Por 100g (polpa):\n- Calorias: 53kcal\n- Carboidratos: 13g\n- Açúcar: 11g\n- Fibra: 2g\n- Proteína: 0.8g\n- Gordura: 0.2g\nVitaminas:\n- Vitamina C: 40mg (44% VD)",
+                "categorias_produto": [
+                    "Frutas"
+                ],
+                "preço novo": 14.99,
+                "Created Date": "2024-07-16T01:23:08.166Z",
+                "demanda": 77,
+                "cod": "000343",
+                "descriçao": "Variedade de mexerica pequena, com casca fina e fácil de descascar. Usos: Consumir fresca.",
+                "nome": "Mexerica Carioca"
+            },
+            {
+                "peso por unidade": 300,
+                "_id": "1721092988169x809591731710006800",
+                "preço antigo": 5.99,
+                "nome": "Milho Verde Bandeja 300g",
+                "demanda": 160,
+                "visivel": true,
+                "tipo_unidade": "BJ",
+                "Created Date": "2024-07-16T01:23:08.169Z",
+                "relacionados": [
+                    "1721092988170x878952809414324000"
+                ],
+                "descriçao": "Espádices de milho verde comercializados em bandeja, garantindo frescor. Receitas: Culinária em geral, como acompanhamento, ingrediente principal ou guarnição. Usos: Cozido, assado, grelhado.",
+                "desconto": -66.7779632721202,
+                "Created By": "admin_user_levee-delivery_test",
+                "estoque": 99174,
+                "peso/und": "unidade",
+                "preço novo": 9.99,
+                "cod": "000151",
+                "Modified Date": "2026-03-04T16:50:32.221Z",
+                "ean": "0000000000134",
+                "como armazenar": "Geladeira (4ºC - 8ºC): Por até 3 dias (manter em sua embalagem original).",
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1741803176184x479192126447389300/images%20%2810%29.jpeg"
+                ],
+                "categorias_produto": [
+                    "Legumes",
+                    "Kit Processados"
+                ]
+            },
+            {
+                "estoque": 98901,
+                "visivel": true,
+                "peso/und": "unidade",
+                "peso por unidade": 100,
+                "preço antigo": 2.99,
+                "nome": "Milho Verde (unidade) 100g",
+                "info nutricional": "Por 100g (cozido):\n- Calorias: 96kcal\n- Carboidratos: 21g\n- Açúcar: 4g\n- Fibra: 2g\n- Proteína: 4g\n- Gordura: 1g\nVitaminas:\n- Folato: 46mcg (12% VD)",
+                "em oferta": true,
+                "preço novo": 2.99,
+                "ean": "0000000001946",
+                "desconto": 0,
+                "tipo_unidade": "UN",
+                "demanda": 236,
+                "como armazenar": "Geladeira (4ºC - 8ºC): Por até 5 dias (armazenar em saco plástico perfurado).",
+                "relacionados": [
+                    "1721092988169x809591731710006800"
+                ],
+                "categorias_produto": [
+                    "Legumes"
+                ],
+                "cod": "001265",
+                "Created Date": "2024-07-16T01:23:08.170Z",
+                "descriçao": "Espiga de milho verde fresca, ideal para consumo imediato. Receitas: Culinária em geral, como acompanhamento, ingrediente principal ou guarnição. Usos: Cozido, assado, grelhado.",
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1741803188106x175236763054310340/images%20%289%29.jpeg"
+                ],
+                "_id": "1721092988170x878952809414324000",
+                "Modified Date": "2026-03-03T15:50:57.693Z",
+                "Created By": "admin_user_levee-delivery_test"
+            },
+            {
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1721665935697x811094778600377100/Mini%20Piment%C3%A3o%20Palermo.jpg"
+                ],
+                "Created By": "admin_user_levee-delivery_test",
+                "descriçao": "Pimentão amarelo em tamanho pequeno, ideal para aperitivos e conserva. Receitas: Saladas, conservas, carnes, molhos. Usos: Consumir cru, assado, grelhado ou refogado.",
+                "tipo_unidade": "UN",
+                "desconto": 33.3555703802535,
+                "relacionados": [
+                    "1721092988172x102209010880092590"
+                ],
+                "visivel": false,
+                "categorias_produto": [
+                    "Legumes"
+                ],
+                "demanda": 49,
+                "nome": "Mini Pimentão Palermo",
+                "_id": "1721092988171x296408596856800640",
+                "como armazenar": "Geladeira (7ºC - 10ºC): Em saco plástico perfurado por até 7 dias.",
+                "cod": "002233",
+                "Modified Date": "2026-02-20T18:05:25.664Z",
+                "preço antigo": 14.99,
+                "peso/und": "unidade",
+                "peso por unidade": 150,
+                "estoque": -98826,
+                "em oferta": false,
+                "Created Date": "2024-07-16T01:23:08.171Z",
+                "ean": "7898930266213",
+                "preço por kg": 10,
+                "preço novo": 9.99
+            },
+            {
+                "desconto": 0,
+                "peso/und": "unidade",
+                "relacionados": [
+                    "1721092988171x296408596856800640"
+                ],
+                "como armazenar": "Geladeira (4ºC - 8ºC): Manter na embalagem original por até 7 dias.",
+                "demanda": 0,
+                "tipo_unidade": "UN",
+                "categorias_produto": [
+                    "Verduras"
+                ],
+                "nome": "Kiwi Bandeja 500g",
+                "Modified Date": "2025-10-11T15:03:11.746Z",
+                "preço novo": 9.99,
+                "Created By": "admin_user_levee-delivery_test",
+                "estoque": 99998,
+                "descriçao": "Muda de alface hidropônica em tamanho reduzido, comercializada em bandeja. Usos: Saladas e receitas que pedem alface fresca.",
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1724115067977x256458015439858600/Kiwi%20Bandeja%20500g.jpeg"
+                ],
+                "preço antigo": 9.99,
+                "Created Date": "2024-07-16T01:23:08.172Z",
+                "_id": "1721092988172x102209010880092590",
+                "peso por unidade": 100,
+                "ean": "0000000005081",
+                "visivel": false,
+                "cod": "001641"
+            },
+            {
+                "como armazenar": "Geladeira (4ºC - 8ºC): Manter na embalagem original por até 7 dias.",
+                "preço por kg": 9.99,
+                "peso/und": "unidade",
+                "visivel": true,
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1724114928114x780360311802992000/Mini%20Alface%20Romana%20Hidrop%C3%B4nica.png"
+                ],
+                "tipo_unidade": "UN",
+                "demanda": 37,
+                "categorias_produto": [
+                    "Verduras",
+                    "Kit Processados",
+                    "Higienizados"
+                ],
+                "ean": "0000000005098",
+                "descriçao": "Muda de alface romana hidropônica em tamanho reduzido. Usos: Saladas e receitas que pedem alface fresca.",
+                "preço novo": 7.99,
+                "_id": "1721092988173x978519161834143600",
+                "peso por unidade": 150,
+                "preço antigo": 5.99,
+                "Modified Date": "2026-03-04T16:50:31.443Z",
+                "Created By": "admin_user_levee-delivery_test",
+                "Created Date": "2024-07-16T01:23:08.173Z",
+                "cod": "001642",
+                "estoque": 98940,
+                "desconto": -33.3889816360601,
+                "nome": "ALFACE HIGIENIZADO",
+                "relacionados": [
+                    "1721092727115x235550268966138400",
+                    "1721092727116x423517862271260740",
+                    "1721092727117x431598215530807800",
+                    "1721092727129x931156791361707100",
+                    "1721092727132x963798905610161900",
+                    "1721092727133x972955362263352700",
+                    "1721092727140x422391623481237950",
+                    "1721092727141x191732502714432320",
+                    "1721092727359x843913936762138600",
+                    "1721092988176x870045974995930600"
+                ]
+            },
+            {
+                "preço por kg": 10,
+                "categorias_produto": [
+                    "Verduras"
+                ],
+                "preço antigo": 5.99,
+                "descriçao": "Muda de alface lisa verde hidropônica em tamanho reduzido. Usos: Saladas e receitas que pedem alface fresca.",
+                "tipo_unidade": "UN",
+                "Created Date": "2024-07-16T01:23:08.176Z",
+                "cod": "001636",
+                "_id": "1721092988176x870045974995930600",
+                "como armazenar": "Geladeira (4ºC - 8ºC): Manter na embalagem original por até 7 dias.",
+                "peso/und": "peso",
+                "Created By": "admin_user_levee-delivery_test",
+                "nome": "Mini Alface Romana Hidropônica",
+                "ean": "0000000005036",
+                "demanda": 0,
+                "peso por unidade": 150,
+                "preço novo": 5.99,
+                "desconto": 0,
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1724115099248x111044255215081000/Mini%20Alface%20Romana%20Hidrop%C3%B4nica.png"
+                ],
+                "Modified Date": "2026-02-21T14:33:08.974Z",
+                "relacionados": [
+                    "1721092727115x235550268966138400",
+                    "1721092727116x423517862271260740",
+                    "1721092727117x431598215530807800",
+                    "1721092727129x931156791361707100",
+                    "1721092727132x963798905610161900",
+                    "1721092727133x972955362263352700",
+                    "1721092727140x422391623481237950",
+                    "1721092727141x191732502714432320",
+                    "1721092727359x843913936762138600",
+                    "1721092988173x978519161834143600",
+                    "1721092727130x176173764240271200"
+                ],
+                "estoque": 99550,
+                "visivel": false
+            },
+            {
+                "cod": "001752",
+                "categorias_produto": [
+                    "Legumes",
+                    "Higienizados",
+                    "Kit Processados"
+                ],
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1736175902350x769855480922720000/20241205_103903.JPG"
+                ],
+                "Created Date": "2024-07-16T01:23:08.177Z",
+                "_id": "1721092988177x626843512773856300",
+                "Modified Date": "2026-03-04T16:50:30.946Z",
+                "peso por unidade": 400,
+                "visivel": true,
+                "peso/und": "unidade",
+                "demanda": 301,
+                "preço antigo": 6.99,
+                "tipo_unidade": "UN",
+                "estoque": 98139,
+                "preço novo": 6.99,
+                "ean": "0000000006088",
+                "nome": "Abóbora Moranga Descsacada 400g",
+                "descriçao": "Abóbora moranga já descascada e limpa, pronta para o preparo de receitas. Receitas: Sopas, purês, bolos, tortas salgadas, acompanhamentos. Usos: Consumir cozida, assada ou como ingrediente em receitas doces ou salgadas.",
+                "como armazenar": "Geladeira (4ºC - 8ºC): Em recipiente fechado por até 5 dias.",
+                "desconto": 0,
+                "relacionados": [
+                    "1721092727078x299520345889343400",
+                    "1721092727079x556390280198436000",
+                    "1721092727080x193708771527431260",
+                    "1721092727082x166314517748969300",
+                    "1721092727084x845331185035103700",
+                    "1721092727085x190964536574032900",
+                    "1721092727086x647798335796284400",
+                    "1721092727088x369002913713550850"
+                ],
+                "Created By": "admin_user_levee-delivery_test"
+            },
+            {
+                "Modified Date": "2026-02-23T21:05:45.809Z",
+                "Created By": "admin_user_levee-delivery_test",
+                "demanda": 8,
+                "nome": "Mix Pimenta Bandeja 100g",
+                "preço antigo": 9.99,
+                "estoque": -1,
+                "_id": "1721092988178x530789968154543360",
+                "peso/und": "unidade",
+                "tipo_unidade": "BJ",
+                "categorias_produto": [
+                    "Legumes"
+                ],
+                "preço novo": 9.99,
+                "como armazenar": "Geladeira (4ºC - 8ºC): Em recipiente fechado por até 5 dias.",
+                "Created Date": "2024-07-16T01:23:08.178Z",
+                "cod": "001853",
+                "desconto": 0,
+                "descriçao": "Variedade de pimentas frescas, comercializadas em bandeja.",
+                "ean": "0000000006910",
+                "peso por unidade": 100,
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1720750712935x782112931825015600/MIX%20PIMENTA%20BDJ.jpg"
+                ],
+                "visivel": false
+            },
+            {
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1719347622569x499447591422225600/Mirtilo%20Blueberry%20Canto%20do%20Sabi%C3%A1%20100g.jpg"
+                ],
+                "demanda": 56,
+                "Modified Date": "2026-02-27T15:39:55.809Z",
+                "Created Date": "2024-07-16T01:23:08.179Z",
+                "categorias_produto": [
+                    "Frutas"
+                ],
+                "descriçao": "Frutas pequenas e arredondadas, de cor azul escura, ricas em antioxidantes. Receitas: Tortas, bolos, geleias, sorvetes, saladas de frutas. Usos: Consumir fresca, congelada ou como ingrediente em receitas doces ou salgadas.",
+                "info nutricional": "Por 100g:\n- Calorias: 57kcal\n- Carboidratos: 14g\n- Fibra: 3g\n- Proteína: 1g\n- Gordura: 0.3g\nVitaminas:\n- Vitamina K: 19mcg (16% VD)\n- Vitamina C: 10mg (11% VD)\n- Manganês: 0.3mg (14% VD)",
+                "peso/und": "unidade",
+                "ean": "7751043000313",
+                "estoque": 99917,
+                "visivel": true,
+                "preço antigo": 12.99,
+                "Created By": "admin_user_levee-delivery_test",
+                "_id": "1721092988179x181873964623091140",
+                "cod": "001772",
+                "nome": "Mirtilo(Blueberries) Bandeja 80g",
+                "como armazenar": "Geladeira (4ºC - 8ºC): Na embalagem original por até 5 dias. Congelador (-18ºC): Por até 6 meses (ideal para consumo em vitaminas e smoothies).",
+                "peso por unidade": 80,
+                "preço novo": 15.99,
+                "tipo_unidade": "UN",
+                "desconto": -23.094688221709
+            },
+            {
+                "tipo_unidade": "PC",
+                "_id": "1721092988179x502797566700314800",
+                "qtd por unidade": "230g",
+                "como armazenar": "Ambiente fresco e seco (18ºC - 22ºC): Em embalagem original fechada por até 6 meses.",
+                "estoque": 99976,
+                "nome": "Moinho Wafers 230g",
+                "descriçao": "Biscoito wafer recheado com creme de avelã, da marca Moinho. Usos: Consumir como lanche ou sobremesa.",
+                "Created By": "admin_user_levee-delivery_test",
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1720750756860x766328589278939500/MOINHO%20WAFERS%20230G.jpg"
+                ],
+                "preço antigo": 15.99,
+                "cod": "002185",
+                "ean": "7898945660082",
+                "desconto": 0,
+                "Created Date": "2024-07-16T01:23:08.179Z",
+                "Modified Date": "2026-03-03T21:26:50.137Z",
+                "preço novo": 15.99,
+                "visivel": true,
+                "peso por unidade": 230,
+                "peso/und": "unidade",
+                "categorias_produto": [
+                    "Outros",
+                    "Biscoitos"
+                ],
+                "demanda": 4
+            },
+            {
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1721665999283x501991509605702140/Uva%20Vit%C3%B3ria%20Bandeja.jpg"
+                ],
+                "como armazenar": "Geladeira (4ºC - 8ºC): Manter na embalagem original por até 2 dias.",
+                "desconto": -18.1983621474067,
+                "nome": "Uva Vitória Bandeja 500g",
+                "preço novo": 12.99,
+                "cod": "001996",
+                "qtd por unidade": "500g",
+                "preço antigo": 10.99,
+                "categorias_produto": [
+                    "Frutas"
+                ],
+                "peso/und": "unidade",
+                "relacionados": [
+                    "1721092988198x144923123261309730",
+                    "1721092988201x131920000262116140",
+                    "1721092988355x436086531601295400",
+                    "1721092988357x822652130253197000",
+                    "1721092988358x114885269626814340",
+                    "1721092988359x397540177067443400",
+                    "1721092988919x925988835066751000",
+                    "1721092988922x203270330440782800",
+                    "1721092988942x870929751872144800",
+                    "1721092988944x550432121656392300",
+                    "1721092988945x554429839226766600",
+                    "1721092988946x738113194261922800",
+                    "1721092988951x968947476877060200",
+                    "1721092988956x398116200254912800",
+                    "1721092988957x485673524811409500",
+                    "1721092989913x590109710519628400",
+                    "1721092989917x787861719878472300",
+                    "1721092989920x246704834405478530",
+                    "1721092989922x184223253336320400",
+                    "1721092989924x291953196139986840",
+                    "1721092990063x431208831424671170",
+                    "1721092990064x370241427287587600",
+                    "1721092990065x824367134643762800",
+                    "1721092990066x677365600416354700",
+                    "1721092990070x275247503710193800",
+                    "1721092990071x723999986011996200"
+                ],
+                "peso por unidade": 272,
+                "Created By": "admin_user_levee-delivery_test",
+                "ean": "0000000008204",
+                "_id": "1721092988190x189835588133166370",
+                "demanda": 131,
+                "estoque": 99413,
+                "descriçao": "Mistura de folhas verdes e legumes frescos, prontos para consumo. Usos: Consumir como salada.",
+                "Modified Date": "2026-03-02T22:30:45.155Z",
+                "Created Date": "2024-07-16T01:23:08.190Z",
+                "tipo_unidade": "UN",
+                "visivel": true
+            },
+            {
+                "peso por unidade": 100,
+                "estoque": 99996,
+                "desconto": -7.69822940723634,
+                "ean": "0192505298904",
+                "Created By": "admin_user_levee-delivery_test",
+                "tipo_unidade": "PC",
+                "Created Date": "2024-07-16T01:23:08.191Z",
+                "nome": "Mix De nuts 100g",
+                "_id": "1721092988191x755441066889132900",
+                "peso/und": "unidade",
+                "como armazenar": "Ambiente fresco e seco (18ºC - 22ºC): Em recipiente hermético por até 3 meses.",
+                "qtd por unidade": "100g",
+                "preço antigo": 12.99,
+                "visivel": true,
+                "preço novo": 13.99,
+                "demanda": 0,
+                "Modified Date": "2026-02-26T00:49:53.070Z",
+                "categorias_produto": [
+                    "Empório"
+                ],
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1720750647744x577132209973276800/MIX%20DE%20OLEAGINOSAS%20100G%20SAUDE%20PLENA.jpg"
+                ],
+                "descriçao": "Mistura de diferentes tipos de oleaginosas, como castanhas, nozes e amêndoas. Usos: Consumir como snack, adicionar em saladas ou utilizar em receitas.",
+                "cod": "002182"
+            },
+            {
+                "peso por unidade": 100,
+                "demanda": 6,
+                "visivel": true,
+                "tipo_unidade": "BJ",
+                "info nutricional": "Por 1 colher de chá (5g):\n- Calorias: 5kcal\n- Gordura Total: 0g\n- Sódio: 55mg (2% VD)\n- Carboidratos: 1g\n- Açúcar: 1g",
+                "_id": "1721092988192x718006643558887700",
+                "desconto": 0,
+                "nome": "Mostarda 100g",
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1719347624320x576777820576516200/Mostarda.jpg"
+                ],
+                "preço antigo": 4.99,
+                "como armazenar": "Ambiente fresco e seco (18ºC - 22ºC): Após aberto, conservar em geladeira (4ºC - 8ºC) por até 6 meses.",
+                "categorias_produto": [
+                    "Verduras"
+                ],
+                "peso/und": "unidade",
+                "relacionados": [
+                    "1721092988195x843434323099646300",
+                    "1721092988197x824104990623407900"
+                ],
+                "Created Date": "2024-07-16T01:23:08.192Z",
+                "ordem_prateleira": 134,
+                "preço novo": 4.99,
+                "descriçao": "Pasta cremosa feita a partir das sementes de mostarda, com sabor picante. Receitas: Molhos, sanduíches, saladas, carnes. Usos: Utilizar como condimento em sanduíches, saladas, carnes, molhos e maioneses.",
+                "ean": "0000000000043",
+                "cod": "000054",
+                "estoque": 99870,
+                "Created By": "admin_user_levee-delivery_test",
+                "Modified Date": "2026-03-04T03:40:41.614Z"
+            },
+            {
+                "em oferta": false,
+                "Modified Date": "2026-02-19T14:30:25.673Z",
+                "preço antigo": 5.99,
+                "cod": "000349",
+                "visivel": false,
+                "peso/und": "unidade",
+                "descriçao": "Morangos frescos selecionados e embalados individualmente, garantindo maior durabilidade. Usos: Consumir fresco ou como ingrediente em receitas.",
+                "peso por unidade": 250,
+                "como armazenar": "Geladeira (4ºC - 8ºC): Na embalagem original por até 3 dias.",
+                "ean": "0000000000322",
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1720750913704x375458276906335940/MORANGO%20ENCARTELADO.jpg"
+                ],
+                "demanda": 10,
+                "nome": "Morango Encartelado 250g",
+                "relacionados": [
+                    "1721092988194x747800771672213500"
+                ],
+                "Created Date": "2024-07-16T01:23:08.193Z",
+                "_id": "1721092988193x505862708748863900",
+                "categorias_produto": [
+                    "Frutas"
+                ],
+                "Created By": "admin_user_levee-delivery_test",
+                "estoque": -99912,
+                "tipo_unidade": "UN",
+                "preço novo": 8.99,
+                "desconto": -50.0834724540901
+            },
+            {
+                "como armazenar": "Geladeira (4ºC - 8ºC): Na embalagem original por até 3 dias.",
+                "categorias_produto": [
+                    "Frutas"
+                ],
+                "relacionados": [
+                    "1721092988193x505862708748863900"
+                ],
+                "Created By": "admin_user_levee-delivery_test",
+                "cod": "000348",
+                "info nutricional": "Por 100g:\n- Calorias: 32kcal\n- Carboidratos: 8g\n- Açúcar: 5g\n- Fibra: 2g\n- Proteína: 1g\n- Gordura: 0.3g\nVitaminas:\n- Vitamina C: 59mg (66% VD)\n- Manganês: 0.4mg (17% VD)",
+                "Created Date": "2024-07-16T01:23:08.194Z",
+                "peso/und": "unidade",
+                "ean": "0000000000321",
+                "ordem_prateleira": 86,
+                "preço novo": 8.99,
+                "desconto": 30.7929176289453,
+                "nome": "Morango Bandeja 250g",
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1758357508022x421421117481173950/images%20%2818%29.jpeg"
+                ],
+                "demanda": 825,
+                "peso por unidade": 250,
+                "em oferta": true,
+                "Modified Date": "2026-03-04T17:08:29.731Z",
+                "preço antigo": 12.99,
+                "descriçao": "Morangos frescos comercializados em bandeja, ideal para consumo imediato. Receitas: Sobremesas, tortas, bolos, geleias, vitaminas. Usos: Consumir fresco ou como ingrediente em receitas.",
+                "estoque": 96539,
+                "tipo_unidade": "BJ",
+                "visivel": true,
+                "_id": "1721092988194x747800771672213500"
+            },
+            {
+                "demanda": 0,
+                "ean": "0000000005043",
+                "Modified Date": "2026-02-24T13:17:55.456Z",
+                "Created By": "admin_user_levee-delivery_test",
+                "relacionados": [
+                    "1721092988192x718006643558887700",
+                    "1721092988197x824104990623407900"
+                ],
+                "cod": "001637",
+                "peso por unidade": 100,
+                "tipo_unidade": "UN",
+                "como armazenar": "Geladeira (4ºC - 8ºC): Manter na embalagem original por até 10 dias.",
+                "descriçao": "Folhas de mostarda cultivadas em sistema hidropônico, com sabor picante e textura crocante. Receitas: Saladas, sanduíches, acompanhamentos. Usos: Consumir crua ou como ingrediente em receitas.",
+                "estoque": 99995,
+                "desconto": 0,
+                "Created Date": "2024-07-16T01:23:08.195Z",
+                "preço antigo": 2.99,
+                "_id": "1721092988195x843434323099646300",
+                "categorias_produto": [
+                    "Verduras"
+                ],
+                "visivel": false,
+                "preço novo": 2.99,
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1720750960670x240097648565182700/download.jpg"
+                ],
+                "peso/und": "unidade",
+                "nome": "Mostarda Hidropônica 100g"
+            },
+            {
+                "demanda": 131,
+                "peso/und": "unidade",
+                "_id": "1721092988196x697427970382754800",
+                "ordem_prateleira": 46,
+                "qtd por unidade": "500g",
+                "ean": "0000000006231",
+                "como armazenar": "Geladeira (4ºC - 8ºC): Na embalagem original por até 3 dias.",
+                "categorias_produto": [
+                    "Frutas"
+                ],
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1724114967997x102615845072371090/Uva%20Vit%C3%B3ria%20Bandeja%20500g.webp"
+                ],
+                "Created Date": "2024-07-16T01:23:08.196Z",
+                "descriçao": "Morangos frescos comercializados em bandejas maiores, ideal para famílias ou receitas que requerem maior quantidade. Receitas: Sobremesas, tortas, bolos, geleias, vitaminas. Usos: Consumir fresco ou como ingrediente em receitas.",
+                "desconto": 35.0175087543772,
+                "preço antigo": 19.99,
+                "nome": "Uva Vitória Bandeja 500g",
+                "visivel": false,
+                "Created By": "admin_user_levee-delivery_test",
+                "tipo_unidade": "BJ",
+                "relacionados": [
+                    "1721092988198x144923123261309730",
+                    "1721092988201x131920000262116140",
+                    "1721092988355x436086531601295400",
+                    "1721092988357x822652130253197000",
+                    "1721092988358x114885269626814340",
+                    "1721092988359x397540177067443400",
+                    "1721092988919x925988835066751000",
+                    "1721092988922x203270330440782800",
+                    "1721092988942x870929751872144800",
+                    "1721092988944x550432121656392300",
+                    "1721092988945x554429839226766600",
+                    "1721092988946x738113194261922800",
+                    "1721092988951x968947476877060200",
+                    "1721092988956x398116200254912800",
+                    "1721092988957x485673524811409500",
+                    "1721092989913x590109710519628400",
+                    "1721092989917x787861719878472300",
+                    "1721092989920x246704834405478530",
+                    "1721092989922x184223253336320400",
+                    "1721092989924x291953196139986840",
+                    "1721092990063x431208831424671170",
+                    "1721092990064x370241427287587600",
+                    "1721092990065x824367134643762800",
+                    "1721092990066x677365600416354700",
+                    "1721092990070x275247503710193800",
+                    "1721092990071x723999986011996200"
+                ],
+                "estoque": 100000,
+                "preço novo": 12.99,
+                "peso por unidade": 272,
+                "cod": "001767",
+                "Modified Date": "2026-02-27T15:55:40.154Z"
+            },
+            {
+                "Created By": "admin_user_levee-delivery_test",
+                "preço antigo": 4.99,
+                "categorias_produto": [
+                    "Temperos e Condimentos"
+                ],
+                "info nutricional": "Por 1 colher de chá (0.9g):\n- Calorias: 3kcal\n- Gordura Total: 0g\n- Carboidratos: 1g\n- Fibra: 0g\n- Vitamina K: 13mcg (11% VD)",
+                "_id": "1721092988197x824104990623407900",
+                "descriçao": "Erva aromática de sabor slightly amargo, originária da região do Mediterrâneo. Receitas: Pizzas, massas, molhos, carnes. Usos: Utilizar seco ou fresco para temperar pizzas, massas, molhos, carnes e saladas.",
+                "tipo_unidade": "BJ",
+                "Modified Date": "2025-05-21T17:13:01.751Z",
+                "peso por unidade": 120,
+                "relacionados": [
+                    "1721092988192x718006643558887700",
+                    "1721092988195x843434323099646300"
+                ],
+                "visivel": false,
+                "peso/und": "unidade",
+                "demanda": 0,
+                "Created Date": "2024-07-16T01:23:08.197Z",
+                "cod": "000056",
+                "desconto": 0,
+                "estoque": 100000,
+                "como armazenar": "Geladeira (4ºC - 8ºC): Manter na embalagem original por até 10 dias.",
+                "preço novo": 4.99,
+                "nome": "Mostarda Hidropônica 120g",
+                "ean": "0000000000044"
+            },
+            {
+                "Modified Date": "2026-03-04T16:22:14.158Z",
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1724115202843x321596505745486800/Uva%20Vit%C3%B3ria%20Bandeja%20500g.webp"
+                ],
+                "categorias_produto": [
+                    "Outros"
+                ],
+                "desconto": 35.0175087543772,
+                "preço antigo": 19.99,
+                "Created By": "admin_user_levee-delivery_test",
+                "visivel": true,
+                "relacionados": [
+                    "1721092988190x189835588133166370",
+                    "1721092988201x131920000262116140",
+                    "1721092988355x436086531601295400",
+                    "1721092988357x822652130253197000",
+                    "1721092988358x114885269626814340",
+                    "1721092988359x397540177067443400",
+                    "1721092988919x925988835066751000",
+                    "1721092988922x203270330440782800",
+                    "1721092988942x870929751872144800",
+                    "1721092988944x550432121656392300",
+                    "1721092988945x554429839226766600",
+                    "1721092988946x738113194261922800",
+                    "1721092988951x968947476877060200",
+                    "1721092988956x398116200254912800",
+                    "1721092988957x485673524811409500",
+                    "1721092989913x590109710519628400",
+                    "1721092989917x787861719878472300",
+                    "1721092989920x246704834405478530",
+                    "1721092989922x184223253336320400",
+                    "1721092989924x291953196139986840",
+                    "1721092990063x431208831424671170",
+                    "1721092990064x370241427287587600",
+                    "1721092990065x824367134643762800",
+                    "1721092990066x677365600416354700",
+                    "1721092990070x275247503710193800",
+                    "1721092990071x723999986011996200"
+                ],
+                "como armazenar": "Geladeira (4ºC - 8ºC): Na embalagem original por até 3 semanas.",
+                "_id": "1721092988198x144923123261309730",
+                "cod": "000476",
+                "peso por unidade": 272,
+                "Created Date": "2024-07-16T01:23:08.199Z",
+                "nome": "Uva Vitória Bandeja 500g",
+                "tipo_unidade": "BJ",
+                "ean": "0000000000584",
+                "descriçao": "Ovos de galinha de casca branca, comercializados na quantidade de 6 unidades. Receitas: Culinária em geral: bolos, tortas, ovos fritos, omeletes, etc.",
+                "preço novo": 12.99,
+                "demanda": 131,
+                "estoque": 99876,
+                "peso/und": "unidade"
+            },
+            {
+                "preço novo": 7.99,
+                "tipo_unidade": "BJ",
+                "como armazenar": "Geladeira (4ºC - 8ºC): Na embalagem original por até 3 semanas.",
+                "desconto": 0,
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1724114992466x785542929918924500/Ovos%20Brancos%20%28Meia%20Duzia%29%20200g.jpeg"
+                ],
+                "estoque": 99987,
+                "peso por unidade": 200,
+                "ean": "0000000000585",
+                "relacionados": [
+                    "1721092988190x189835588133166370",
+                    "1721092988198x144923123261309730",
+                    "1721092988355x436086531601295400",
+                    "1721092988357x822652130253197000",
+                    "1721092988358x114885269626814340",
+                    "1721092988359x397540177067443400",
+                    "1721092988919x925988835066751000",
+                    "1721092988922x203270330440782800",
+                    "1721092988942x870929751872144800",
+                    "1721092988944x550432121656392300",
+                    "1721092988945x554429839226766600",
+                    "1721092988946x738113194261922800",
+                    "1721092988951x968947476877060200",
+                    "1721092988956x398116200254912800",
+                    "1721092988957x485673524811409500",
+                    "1721092989913x590109710519628400",
+                    "1721092989917x787861719878472300",
+                    "1721092989920x246704834405478530",
+                    "1721092989922x184223253336320400",
+                    "1721092989924x291953196139986840",
+                    "1721092990063x431208831424671170",
+                    "1721092990064x370241427287587600",
+                    "1721092990065x824367134643762800",
+                    "1721092990066x677365600416354700",
+                    "1721092990070x275247503710193800",
+                    "1721092990071x723999986011996200"
+                ],
+                "demanda": 12,
+                "_id": "1721092988201x131920000262116140",
+                "preço antigo": 7.99,
+                "Created Date": "2024-07-16T01:23:08.201Z",
+                "nome": "Ovos Brancos (Meia Duzia) 200g",
+                "categorias_produto": [
+                    "Outros"
+                ],
+                "cod": "000478",
+                "peso/und": "unidade",
+                "Modified Date": "2026-02-17T15:03:45.294Z",
+                "descriçao": "Ovos de galinha de casca branca, comercializados em caixa com 20 unidades. Receitas: Culinária em geral: bolos, tortas, ovos fritos, omeletes, etc.",
+                "Created By": "admin_user_levee-delivery_test",
+                "visivel": false
+            },
+            {
+                "como armazenar": "Ambiente fresco e seco (18ºC - 22ºC): Em recipiente hermético por até 6 meses.",
+                "peso por unidade": 20,
+                "relacionados": [
+                    "1721092988354x502143205530342700"
+                ],
+                "tipo_unidade": "UN",
+                "_id": "1721092988353x960305006563046900",
+                "preço antigo": 3.99,
+                "ean": "0192505259592",
+                "peso/und": "unidade",
+                "demanda": 1,
+                "visivel": true,
+                "desconto": 0,
+                "descriçao": "Ovos de galinha de casca branca, comercializados na quantidade de 12 unidades. Receitas: Culinária em geral: bolos, tortas, ovos fritos, omeletes, etc.",
+                "cod": "001476",
+                "Modified Date": "2026-02-25T23:27:12.775Z",
+                "categorias_produto": [
+                    "Temperos e Condimentos"
+                ],
+                "nome": "Orégano 20g",
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1721666090691x681570547555620000/Or%C3%A9gano.jpg"
+                ],
+                "estoque": 99951,
+                "Created Date": "2024-07-16T01:23:08.353Z",
+                "qtd por unidade": "20g",
+                "preço novo": 3.99,
+                "Created By": "admin_user_levee-delivery_test"
+            },
+            {
+                "relacionados": [
+                    "1721092988353x960305006563046900"
+                ],
+                "tipo_unidade": "UN",
+                "preço por kg": 6,
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1724115183630x311108411333531650/Ovos%20Brancos%20%28Meia%20Duzia%29%20200g.jpeg"
+                ],
+                "desconto": -20.0400801603206,
+                "visivel": true,
+                "preço antigo": 4.99,
+                "_id": "1721092988354x502143205530342700",
+                "ean": "0000000005159",
+                "como armazenar": "Geladeira (4ºC - 8ºC): Manter na embalagem original por até 10 dias.",
+                "peso por unidade": 200,
+                "nome": "Ovos Brancos (Meia Duzia) 200g",
+                "Created By": "admin_user_levee-delivery_test",
+                "cod": "001648",
+                "Created Date": "2024-07-16T01:23:08.354Z",
+                "preço novo": 5.99,
+                "categorias_produto": [
+                    "Temperos e Condimentos"
+                ],
+                "descriçao": "Pasta cremosa feita a partir de sementes de mostarda orgânicas, com sabor picante. Receitas: Molhos, sanduíches, saladas, carnes. Usos: Utilizar como condimento em sanduíches, saladas, carnes, molhos e maioneses.",
+                "demanda": 12,
+                "Modified Date": "2026-02-27T19:16:03.276Z",
+                "estoque": 99920,
+                "peso/und": "unidade"
+            },
+            {
+                "Created Date": "2024-07-16T01:23:08.355Z",
+                "categorias_produto": [
+                    "Outros"
+                ],
+                "_id": "1721092988355x436086531601295400",
+                "peso/und": "unidade",
+                "Created By": "admin_user_levee-delivery_test",
+                "preço antigo": 0,
+                "ean": "0000000000586",
+                "descriçao": "Ovos de galinha de casca branca, comercializados em caixa com 30 unidades. Receitas: Culinária em geral: bolos, tortas, ovos fritos, omeletes, etc.",
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1724112684958x662942224196223200/Ovos%20Brancos%20%28Pente%20Com%2020%29.jpeg"
+                ],
+                "demanda": 11,
+                "em oferta": false,
+                "como armazenar": "Geladeira (4ºC - 8ºC): Na embalagem original por até 3 semanas.",
+                "estoque": 99985,
+                "desconto": 0,
+                "relacionados": [
+                    "1721092988190x189835588133166370",
+                    "1721092988198x144923123261309730",
+                    "1721092988201x131920000262116140",
+                    "1721092988357x822652130253197000",
+                    "1721092988358x114885269626814340",
+                    "1721092988359x397540177067443400",
+                    "1721092988919x925988835066751000",
+                    "1721092988922x203270330440782800",
+                    "1721092988942x870929751872144800",
+                    "1721092988944x550432121656392300",
+                    "1721092988945x554429839226766600",
+                    "1721092988946x738113194261922800",
+                    "1721092988951x968947476877060200",
+                    "1721092988956x398116200254912800",
+                    "1721092988957x485673524811409500",
+                    "1721092989913x590109710519628400",
+                    "1721092989917x787861719878472300",
+                    "1721092989920x246704834405478530",
+                    "1721092989922x184223253336320400",
+                    "1721092989924x291953196139986840",
+                    "1721092990063x431208831424671170",
+                    "1721092990064x370241427287587600",
+                    "1721092990065x824367134643762800",
+                    "1721092990066x677365600416354700",
+                    "1721092990070x275247503710193800",
+                    "1721092990071x723999986011996200"
+                ],
+                "cod": "000480",
+                "nome": "Ovos Brancos (Pente Com 20)",
+                "tipo_unidade": "BJ",
+                "Modified Date": "2026-01-20T13:55:29.461Z",
+                "preço novo": 19.99,
+                "visivel": false,
+                "peso por unidade": 30
+            },
+            {
+                "nome": "Ovos Caipira (Duzia)",
+                "descriçao": "Ovos de galinhas criadas soltas, de tamanho maior, comercializados em caixa com 30 unidades. Receitas: Culinária em geral: bolos, tortas, ovos fritos, omeletes, etc.",
+                "peso por unidade": 0,
+                "como armazenar": "Geladeira (4ºC - 8ºC): Na embalagem original por até 3 semanas.",
+                "visivel": true,
+                "categorias_produto": [
+                    "Outros"
+                ],
+                "relacionados": [
+                    "1721092988190x189835588133166370",
+                    "1721092988198x144923123261309730",
+                    "1721092988201x131920000262116140",
+                    "1721092988355x436086531601295400",
+                    "1721092988358x114885269626814340",
+                    "1721092988359x397540177067443400",
+                    "1721092988919x925988835066751000",
+                    "1721092988922x203270330440782800",
+                    "1721092988942x870929751872144800",
+                    "1721092988944x550432121656392300",
+                    "1721092988945x554429839226766600",
+                    "1721092988946x738113194261922800",
+                    "1721092988951x968947476877060200",
+                    "1721092988956x398116200254912800",
+                    "1721092988957x485673524811409500",
+                    "1721092989913x590109710519628400",
+                    "1721092989917x787861719878472300",
+                    "1721092989920x246704834405478530",
+                    "1721092989922x184223253336320400",
+                    "1721092989924x291953196139986840",
+                    "1721092990063x431208831424671170",
+                    "1721092990064x370241427287587600",
+                    "1721092990065x824367134643762800",
+                    "1721092990066x677365600416354700",
+                    "1721092990070x275247503710193800",
+                    "1721092990071x723999986011996200"
+                ],
+                "Created By": "admin_user_levee-delivery_test",
+                "demanda": 39,
+                "Created Date": "2024-07-16T01:23:08.357Z",
+                "cod": "396058",
+                "Modified Date": "2026-02-24T04:46:33.184Z",
+                "peso/und": "unidade",
+                "ean": "0609963491902",
+                "preço antigo": 14.99,
+                "preço novo": 19.99,
+                "desconto": -33.3555703802535,
+                "tipo_unidade": "BJ",
+                "_id": "1721092988357x822652130253197000",
+                "estoque": 99905,
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1724108288904x755131764256437000/2453.jpg"
+                ]
+            },
+            {
+                "cod": "002215",
+                "demanda": 4,
+                "relacionados": [
+                    "1721092988190x189835588133166370",
+                    "1721092988198x144923123261309730",
+                    "1721092988201x131920000262116140",
+                    "1721092988355x436086531601295400",
+                    "1721092988357x822652130253197000",
+                    "1721092988359x397540177067443400",
+                    "1721092988919x925988835066751000",
+                    "1721092988922x203270330440782800",
+                    "1721092988942x870929751872144800",
+                    "1721092988944x550432121656392300",
+                    "1721092988945x554429839226766600",
+                    "1721092988946x738113194261922800",
+                    "1721092988951x968947476877060200",
+                    "1721092988956x398116200254912800",
+                    "1721092988957x485673524811409500",
+                    "1721092989913x590109710519628400",
+                    "1721092989917x787861719878472300",
+                    "1721092989920x246704834405478530",
+                    "1721092989922x184223253336320400",
+                    "1721092989924x291953196139986840",
+                    "1721092990063x431208831424671170",
+                    "1721092990064x370241427287587600",
+                    "1721092990065x824367134643762800",
+                    "1721092990066x677365600416354700",
+                    "1721092990070x275247503710193800",
+                    "1721092990071x723999986011996200"
+                ],
+                "Created Date": "2024-07-16T01:23:08.358Z",
+                "como armazenar": "Geladeira (4ºC - 8ºC): Em recipiente fechado por até 3 semanas.",
+                "peso por unidade": 30,
+                "visivel": true,
+                "tipo_unidade": "UN",
+                "peso/und": "unidade",
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1771340870148x484359920697037700/images%20%2821%29.jpeg"
+                ],
+                "ean": "0000000010269",
+                "Modified Date": "2026-02-18T21:59:55.335Z",
+                "nome": "Ovos Brancos a granel",
+                "Created By": "admin_user_levee-delivery_test",
+                "estoque": 99983,
+                "_id": "1721092988358x114885269626814340",
+                "preço novo": 1.2,
+                "descriçao": "Ovos de galinhas criadas soltas, comercializados em caixa. Receitas: Culinária em geral: bolos, tortas, ovos fritos, omeletes, etc.",
+                "preço antigo": 1.99,
+                "desconto": 39.6984924623116,
+                "categorias_produto": [
+                    "Outros"
+                ]
+            },
+            {
+                "categorias_produto": [
+                    "Outros"
+                ],
+                "descriçao": "Ovos de galinha de casca branca, comercializados individualmente. Receitas: Culinária em geral: bolos, tortas, ovos fritos, omeletes, etc.",
+                "nome": "Ovos Brancos (Pente Com 30)",
+                "ean": "0609963540754",
+                "relacionados": [
+                    "1721092988190x189835588133166370",
+                    "1721092988198x144923123261309730",
+                    "1721092988201x131920000262116140",
+                    "1721092988355x436086531601295400",
+                    "1721092988357x822652130253197000",
+                    "1721092988358x114885269626814340",
+                    "1721092988919x925988835066751000",
+                    "1721092988922x203270330440782800",
+                    "1721092988942x870929751872144800",
+                    "1721092988944x550432121656392300",
+                    "1721092988945x554429839226766600",
+                    "1721092988946x738113194261922800",
+                    "1721092988951x968947476877060200",
+                    "1721092988956x398116200254912800",
+                    "1721092988957x485673524811409500",
+                    "1721092989913x590109710519628400",
+                    "1721092989917x787861719878472300",
+                    "1721092989920x246704834405478530",
+                    "1721092989922x184223253336320400",
+                    "1721092989924x291953196139986840",
+                    "1721092990063x431208831424671170",
+                    "1721092990064x370241427287587600",
+                    "1721092990065x824367134643762800",
+                    "1721092990066x677365600416354700",
+                    "1721092990070x275247503710193800",
+                    "1721092990071x723999986011996200"
+                ],
+                "info nutricional": "Por 1 ovo grande (50g):\n- Calorias: 78kcal\n- Gordura Total: 5g\n- Gordura Saturada: 2g\n- Colesterol: 186mg\n- Sódio: 70mg\n- Carboidratos: 1g\n- Proteína: 6g",
+                "preço novo": 23.99,
+                "estoque": 99659,
+                "peso por unidade": 100,
+                "como armazenar": "Geladeira (4ºC - 8ºC): Na embalagem original por até 3 semanas.",
+                "Created Date": "2024-07-16T01:23:08.359Z",
+                "_id": "1721092988359x397540177067443400",
+                "demanda": 111,
+                "cod": "000482",
+                "tipo_unidade": "BJ",
+                "peso/und": "unidade",
+                "Created By": "admin_user_levee-delivery_test",
+                "visivel": true,
+                "Modified Date": "2026-03-03T10:11:34.219Z",
+                "preço antigo": 19.99,
+                "ordem_prateleira": 91,
+                "desconto": -20.0100050025013,
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1721210931838x986927490495448300/ovo.jfif"
+                ]
+            },
+            {
+                "visivel": true,
+                "cod": "001820",
+                "descriçao": "Ovos de galinhas criadas soltas da marca Caipiríssimo, comercializados na quantidade de 12 unidades. Receitas: Culinária em geral: bolos, tortas, ovos fritos, omeletes, etc.",
+                "nome": "Ovos Caipira Agranel (Un)",
+                "Created By": "admin_user_levee-delivery_test",
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1724108283026x850161037123527300/1820.jpg"
+                ],
+                "peso/und": "unidade",
+                "categorias_produto": [
+                    "Outros"
+                ],
+                "_id": "1721092988918x559660464106713340",
+                "Created Date": "2024-07-16T01:23:08.918Z",
+                "peso por unidade": 40,
+                "ean": "0000000006743",
+                "demanda": 93,
+                "ordem_prateleira": 90,
+                "Modified Date": "2026-02-27T15:55:40.633Z",
+                "preço novo": 1.4,
+                "como armazenar": "Geladeira (4ºC - 8ºC): Em recipiente fechado por até 3 semanas.",
+                "desconto": -7.69230769230768,
+                "preço antigo": 1.3,
+                "estoque": 99519,
+                "em oferta": false,
+                "tipo_unidade": "UN"
+            },
+            {
+                "Modified Date": "2026-03-04T14:22:29.839Z",
+                "_id": "1721092988919x925988835066751000",
+                "categorias_produto": [
+                    "Outros"
+                ],
+                "visivel": true,
+                "descriçao": "Ovos de galinhas criadas soltas, comercializados individualmente. Receitas: Culinária em geral: bolos, tortas, ovos fritos, omeletes, etc.",
+                "desconto": -100.050025012506,
+                "cod": "001784",
+                "peso/und": "unidade",
+                "Created By": "admin_user_levee-delivery_test",
+                "tipo_unidade": "BJ",
+                "ordem_prateleira": 92,
+                "estoque": 99817,
+                "relacionados": [
+                    "1721092988190x189835588133166370",
+                    "1721092988198x144923123261309730",
+                    "1721092988201x131920000262116140",
+                    "1721092988355x436086531601295400",
+                    "1721092988357x822652130253197000",
+                    "1721092988358x114885269626814340",
+                    "1721092988359x397540177067443400",
+                    "1721092988922x203270330440782800",
+                    "1721092988942x870929751872144800",
+                    "1721092988944x550432121656392300",
+                    "1721092988945x554429839226766600",
+                    "1721092988946x738113194261922800",
+                    "1721092988951x968947476877060200",
+                    "1721092988956x398116200254912800",
+                    "1721092988957x485673524811409500",
+                    "1721092989913x590109710519628400",
+                    "1721092989917x787861719878472300",
+                    "1721092989920x246704834405478530",
+                    "1721092989922x184223253336320400",
+                    "1721092989924x291953196139986840",
+                    "1721092990063x431208831424671170",
+                    "1721092990064x370241427287587600",
+                    "1721092990065x824367134643762800",
+                    "1721092990066x677365600416354700",
+                    "1721092990070x275247503710193800",
+                    "1721092990071x723999986011996200"
+                ],
+                "Created Date": "2024-07-16T01:23:08.919Z",
+                "ean": "0000000006385",
+                "preço novo": 39.99,
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1724108282844x471056748995605000/1784.jpg"
+                ],
+                "peso por unidade": 1,
+                "nome": "Ovos Caipira (Pente )",
+                "como armazenar": "Geladeira (4ºC - 8ºC): Na embalagem original por até 3 semanas.",
+                "preço antigo": 19.99,
+                "demanda": 55
+            },
+            {
+                "categorias_produto": [
+                    "Outros"
+                ],
+                "relacionados": [
+                    "1721092988190x189835588133166370",
+                    "1721092988198x144923123261309730",
+                    "1721092988201x131920000262116140",
+                    "1721092988355x436086531601295400",
+                    "1721092988357x822652130253197000",
+                    "1721092988358x114885269626814340",
+                    "1721092988359x397540177067443400",
+                    "1721092988919x925988835066751000",
+                    "1721092988942x870929751872144800",
+                    "1721092988944x550432121656392300",
+                    "1721092988945x554429839226766600",
+                    "1721092988946x738113194261922800",
+                    "1721092988951x968947476877060200",
+                    "1721092988956x398116200254912800",
+                    "1721092988957x485673524811409500",
+                    "1721092989913x590109710519628400",
+                    "1721092989917x787861719878472300",
+                    "1721092989920x246704834405478530",
+                    "1721092989922x184223253336320400",
+                    "1721092989924x291953196139986840",
+                    "1721092990063x431208831424671170",
+                    "1721092990064x370241427287587600",
+                    "1721092990065x824367134643762800",
+                    "1721092990066x677365600416354700",
+                    "1721092990070x275247503710193800",
+                    "1721092990071x723999986011996200"
+                ],
+                "estoque": 99978,
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1721211088215x588686859708720500/ovo%20caipira%20dz.jfif"
+                ],
+                "preço antigo": 14.99,
+                "nome": "Ovos Caipira tipo extra (Duzia)",
+                "cod": "000484",
+                "visivel": true,
+                "descriçao": "Ovos de galinhas criadas soltas, de tamanho maior, comercializados na quantidade de 12 unidades. Receitas: Culinária em geral: bolos, tortas, ovos fritos, omeletes, etc.",
+                "como armazenar": "Geladeira (4ºC - 8ºC): Na embalagem original por até 3 semanas.",
+                "preço novo": 19.99,
+                "Created By": "admin_user_levee-delivery_test",
+                "tipo_unidade": "BJ",
+                "Modified Date": "2026-02-27T15:55:40.482Z",
+                "ean": "0000000000588",
+                "desconto": -33.3555703802535,
+                "peso por unidade": 1000,
+                "demanda": 9,
+                "_id": "1721092988922x203270330440782800",
+                "peso/und": "unidade",
+                "ordem_prateleira": 62,
+                "Created Date": "2024-07-16T01:23:08.922Z"
+            },
+            {
+                "preço antigo": 39.99,
+                "descriçao": "Ovos de galinhas caipiras, conhecidos por sua cor intensa da gema, comercializados na quantidade de 12 unidades. Receitas: Culinária em geral: bolos, tortas, ovos fritos, omeletes, etc.",
+                "ordem_prateleira": 94,
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1721211074990x435002724114141630/ovo%20caipira.jfif"
+                ],
+                "cod": "000488",
+                "peso/und": "unidade",
+                "como armazenar": "Geladeira (4ºC - 8ºC): Na embalagem original por até 3 semanas.",
+                "Created Date": "2024-07-16T01:23:08.942Z",
+                "estoque": 99981,
+                "nome": "Ovos Caipira (Pente Com 30)",
+                "Created By": "admin_user_levee-delivery_test",
+                "visivel": true,
+                "peso por unidade": 30,
+                "categorias_produto": [
+                    "Outros"
+                ],
+                "Modified Date": "2026-03-04T12:32:26.508Z",
+                "ean": "0000000000590",
+                "demanda": 5,
+                "relacionados": [
+                    "1721092988190x189835588133166370",
+                    "1721092988198x144923123261309730",
+                    "1721092988201x131920000262116140",
+                    "1721092988355x436086531601295400",
+                    "1721092988357x822652130253197000",
+                    "1721092988358x114885269626814340",
+                    "1721092988359x397540177067443400",
+                    "1721092988919x925988835066751000",
+                    "1721092988922x203270330440782800",
+                    "1721092988944x550432121656392300",
+                    "1721092988945x554429839226766600",
+                    "1721092988946x738113194261922800",
+                    "1721092988951x968947476877060200",
+                    "1721092988956x398116200254912800",
+                    "1721092988957x485673524811409500",
+                    "1721092989913x590109710519628400",
+                    "1721092989917x787861719878472300",
+                    "1721092989920x246704834405478530",
+                    "1721092989922x184223253336320400",
+                    "1721092989924x291953196139986840",
+                    "1721092990063x431208831424671170",
+                    "1721092990064x370241427287587600",
+                    "1721092990065x824367134643762800",
+                    "1721092990066x677365600416354700",
+                    "1721092990070x275247503710193800",
+                    "1721092990071x723999986011996200"
+                ],
+                "_id": "1721092988942x870929751872144800",
+                "desconto": 0,
+                "preço novo": 39.99,
+                "tipo_unidade": "BJ"
+            },
+            {
+                "peso/und": "unidade",
+                "preço antigo": 34.99,
+                "desconto": -14.289797084881394,
+                "nome": "Ovos Caipira (Pente C/30)Tipo Extra",
+                "categorias_produto": [
+                    "Outros"
+                ],
+                "preço novo": 39.99,
+                "Created Date": "2024-07-16T01:23:08.944Z",
+                "peso por unidade": 30,
+                "_id": "1721092988944x550432121656392300",
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1721211240368x997709295379097600/ovo%20caipira.jfif"
+                ],
+                "tipo_unidade": "BJ",
+                "ean": "0609963491896",
+                "relacionados": [
+                    "1721092988190x189835588133166370",
+                    "1721092988198x144923123261309730",
+                    "1721092988201x131920000262116140",
+                    "1721092988355x436086531601295400",
+                    "1721092988357x822652130253197000",
+                    "1721092988358x114885269626814340",
+                    "1721092988359x397540177067443400",
+                    "1721092988919x925988835066751000",
+                    "1721092988922x203270330440782800",
+                    "1721092988942x870929751872144800",
+                    "1721092988945x554429839226766600",
+                    "1721092988946x738113194261922800",
+                    "1721092988951x968947476877060200",
+                    "1721092988956x398116200254912800",
+                    "1721092988957x485673524811409500",
+                    "1721092989913x590109710519628400",
+                    "1721092989917x787861719878472300",
+                    "1721092989920x246704834405478530",
+                    "1721092989922x184223253336320400",
+                    "1721092989924x291953196139986840",
+                    "1721092990063x431208831424671170",
+                    "1721092990064x370241427287587600",
+                    "1721092990065x824367134643762800",
+                    "1721092990066x677365600416354700",
+                    "1721092990070x275247503710193800",
+                    "1721092990071x723999986011996200"
+                ],
+                "Created By": "admin_user_levee-delivery_test",
+                "demanda": 16,
+                "visivel": false,
+                "descriçao": "Ovos de galinhas criadas soltas, comercializados em caixa com 30 unidades. Receitas: Culinária em geral: bolos, tortas, ovos fritos, omeletes, etc.",
+                "cod": "002454",
+                "ordem_prateleira": 93,
+                "Modified Date": "2026-02-27T15:55:40.709Z",
+                "como armazenar": "Geladeira (4ºC - 8ºC): Na embalagem original por até 3 semanas.",
+                "estoque": 99951
+            },
+            {
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1724115887048x517673331092310100/Ovos%20Brancos%20%28Pente%20Com%2020%29.jpeg"
+                ],
+                "categorias_produto": [
+                    "Outros"
+                ],
+                "preço novo": 1.99,
+                "Modified Date": "2025-10-25T17:37:25.688Z",
+                "demanda": 4,
+                "ean": "0000000013413",
+                "preço antigo": 1.99,
+                "tipo_unidade": "UN",
+                "peso/und": "unidade",
+                "peso por unidade": 0,
+                "descriçao": "Ovos de galinha com alta probabilidade de conter duas gemas, comercializados em embalagem com 10 unidades. Receitas: Culinária em geral: bolos, tortas, ovos fritos, omeletes, etc.",
+                "nome": "Ovos Brancos a granel",
+                "relacionados": [
+                    "1721092988190x189835588133166370",
+                    "1721092988198x144923123261309730",
+                    "1721092988201x131920000262116140",
+                    "1721092988355x436086531601295400",
+                    "1721092988357x822652130253197000",
+                    "1721092988358x114885269626814340",
+                    "1721092988359x397540177067443400",
+                    "1721092988919x925988835066751000",
+                    "1721092988922x203270330440782800",
+                    "1721092988942x870929751872144800",
+                    "1721092988944x550432121656392300",
+                    "1721092988946x738113194261922800",
+                    "1721092988951x968947476877060200",
+                    "1721092988956x398116200254912800",
+                    "1721092988957x485673524811409500",
+                    "1721092989913x590109710519628400",
+                    "1721092989917x787861719878472300",
+                    "1721092989920x246704834405478530",
+                    "1721092989922x184223253336320400",
+                    "1721092989924x291953196139986840",
+                    "1721092990063x431208831424671170",
+                    "1721092990064x370241427287587600",
+                    "1721092990065x824367134643762800",
+                    "1721092990066x677365600416354700",
+                    "1721092990070x275247503710193800",
+                    "1721092990071x723999986011996200"
+                ],
+                "cod": "002597",
+                "_id": "1721092988945x554429839226766600",
+                "como armazenar": "Geladeira (4ºC - 8ºC): Em recipiente fechado por até 3 semanas.",
+                "Created By": "admin_user_levee-delivery_test",
+                "desconto": 0,
+                "estoque": 99983,
+                "visivel": false,
+                "Created Date": "2024-07-16T01:23:08.945Z"
+            },
+            {
+                "relacionados": [
+                    "1721092988951x968947476877060200"
+                ],
+                "peso/und": "unidade",
+                "descriçao": "Ovos de codorna, ricos em nutrientes, comercializados em cartela com 30 unidades. Receitas: Saladas, canapés, petiscos. Usos: Consumir cozidos.",
+                "preço novo": 49.99,
+                "como armazenar": "Geladeira (4ºC - 8ºC): Na embalagem original por até 3 semanas.",
+                "cod": "002409",
+                "demanda": 2,
+                "Created Date": "2024-07-16T01:23:08.946Z",
+                "peso por unidade": 2,
+                "Created By": "admin_user_levee-delivery_test",
+                "nome": "Ovos Caipirão 2 Gemas Cartela C/20",
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1721666232318x661960529462403800/Ovos%20caipira%202%20gemas.jpg",
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1721666267819x584241266855825000/Ovos%20caipira%202%20gemas%202.jpg"
+                ],
+                "_id": "1721092988946x738113194261922800",
+                "tipo_unidade": "BJ",
+                "preço antigo": 49.9,
+                "desconto": -0.180360721442893,
+                "visivel": true,
+                "Modified Date": "2026-02-27T15:33:30.251Z",
+                "em oferta": true,
+                "categorias_produto": [
+                    "Outros"
+                ],
+                "ean": "0000000012096",
+                "estoque": 99962
+            },
+            {
+                "como armazenar": "Geladeira (4ºC - 8ºC): Na embalagem original por até 4 semanas.",
+                "desconto": -233.722871452421,
+                "peso/und": "unidade",
+                "cod": "000490",
+                "Created Date": "2024-07-16T01:23:08.949Z",
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1721211278536x483701860272775200/ovo%20codorna.jfif"
+                ],
+                "demanda": 10,
+                "preço antigo": 5.99,
+                "estoque": 99952,
+                "descriçao": "Ovos de galinha com alta probabilidade de conter duas gemas, comercializados individualmente. Receitas: Culinária em geral: bolos, tortas, ovos fritos, omeletes, etc.",
+                "_id": "1721092988949x541659983236170600",
+                "visivel": true,
+                "nome": "Ovos De Codorna (Cartela 30 Un)",
+                "categorias_produto": [
+                    "Outros"
+                ],
+                "Modified Date": "2026-02-27T15:39:57.737Z",
+                "Created By": "admin_user_levee-delivery_test",
+                "ean": "7898959919107",
+                "preço novo": 19.99,
+                "peso por unidade": 100,
+                "tipo_unidade": "BJ"
+            },
+            {
+                "preço antigo": 29.99,
+                "estoque": 99972,
+                "como armazenar": "Geladeira (4ºC - 8ºC): Na embalagem original por até 3 semanas.",
+                "demanda": 2,
+                "relacionados": [
+                    "1721092988946x738113194261922800"
+                ],
+                "peso por unidade": 2,
+                "peso/und": "unidade",
+                "visivel": true,
+                "Created Date": "2024-07-16T01:23:08.951Z",
+                "cod": "002511",
+                "preço novo": 24.99,
+                "nome": "Ovos Caipirão 2 Gemas Cartela C/10",
+                "Created By": "admin_user_levee-delivery_test",
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1721667842610x177351501512747140/Ovos%20caipira%202%20gemas.jpg",
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1721667848112x476362289714746800/Ovos%20caipira%202%20gemas%202.jpg"
+                ],
+                "tipo_unidade": "BJ",
+                "categorias_produto": [
+                    "Outros"
+                ],
+                "descriçao": "Ovos de galinha de casca vermelha, comercializados na quantidade de 6 unidades. Receitas: Culinária em geral: bolos, tortas, ovos fritos, omeletes, etc.",
+                "ean": "0000000012959",
+                "desconto": 16.672224074691563,
+                "Modified Date": "2026-03-03T17:31:02.139Z",
+                "_id": "1721092988951x968947476877060200"
+            },
+            {
+                "demanda": 0,
+                "Modified Date": "2026-01-07T19:28:39.923Z",
+                "peso/und": "unidade",
+                "preço por kg": 6.99,
+                "preço novo": 2.5,
+                "relacionados": [
+                    "1721092988965x821509337026409500",
+                    "1721092988966x583754090322667300",
+                    "1721092988968x949343526835102100"
+                ],
+                "estoque": 95999,
+                "ean": "7896336002725",
+                "peso por unidade": 18,
+                "cod": "000651",
+                "desconto": 0,
+                "tipo_unidade": "UN",
+                "Created By": "admin_user_levee-delivery_test",
+                "nome": "Pacoquinha Diet",
+                "categorias_produto": [
+                    "Outros"
+                ],
+                "como armazenar": "Ambiente fresco e seco (18ºC - 22ºC): Em embalagem original fechada por até 4 meses.",
+                "_id": "1721092988954x786914011378359300",
+                "descriçao": "Paçoca em porção individual, prática para o consumo. Usos: Consumir como doce ou sobremesa.",
+                "visivel": true,
+                "preço antigo": 2.5,
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1724108270752x172219025451310080/651.jpg"
+                ],
+                "Created Date": "2024-07-16T01:23:08.954Z"
+            },
+            {
+                "preço novo": 29.99,
+                "visivel": true,
+                "_id": "1721092988956x398116200254912800",
+                "relacionados": [
+                    "1721092988190x189835588133166370",
+                    "1721092988198x144923123261309730",
+                    "1721092988201x131920000262116140",
+                    "1721092988355x436086531601295400",
+                    "1721092988357x822652130253197000",
+                    "1721092988358x114885269626814340",
+                    "1721092988359x397540177067443400",
+                    "1721092988919x925988835066751000",
+                    "1721092988922x203270330440782800",
+                    "1721092988942x870929751872144800",
+                    "1721092988944x550432121656392300",
+                    "1721092988945x554429839226766600",
+                    "1721092988946x738113194261922800",
+                    "1721092988951x968947476877060200",
+                    "1721092988957x485673524811409500",
+                    "1721092989913x590109710519628400",
+                    "1721092989917x787861719878472300",
+                    "1721092989920x246704834405478530",
+                    "1721092989922x184223253336320400",
+                    "1721092989924x291953196139986840",
+                    "1721092990063x431208831424671170",
+                    "1721092990064x370241427287587600",
+                    "1721092990065x824367134643762800",
+                    "1721092990066x677365600416354700",
+                    "1721092990070x275247503710193800",
+                    "1721092990071x723999986011996200"
+                ],
+                "demanda": 21,
+                "estoque": 99859,
+                "categorias_produto": [
+                    "Outros"
+                ],
+                "peso/und": "unidade",
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1721211294852x486140273517571700/ovo%20vermelho.jfif"
+                ],
+                "nome": "Ovos Vermelhos (Pente)",
+                "tipo_unidade": "BJ",
+                "descriçao": "Doce tradicional brasileiro à base de amendoim torrado e açúcar. Usos: Consumir como doce ou sobremesa.",
+                "preço antigo": 29.99,
+                "ean": "0000000000583",
+                "peso por unidade": 100,
+                "Created Date": "2024-07-16T01:23:08.956Z",
+                "desconto": 0,
+                "cod": "000474",
+                "Created By": "admin_user_levee-delivery_test",
+                "como armazenar": "Geladeira (4ºC - 8ºC): Na embalagem original por até 3 semanas.",
+                "Modified Date": "2026-03-03T15:50:58.787Z"
+            },
+            {
+                "Created Date": "2024-07-16T01:23:08.957Z",
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1771341052944x915593598234834000/images%20%2821%29.jpeg"
+                ],
+                "estoque": 99998,
+                "nome": "Ovos Vermelhos (Meia Duzia)",
+                "ean": "0000000000582",
+                "relacionados": [
+                    "1721092988190x189835588133166370",
+                    "1721092988198x144923123261309730",
+                    "1721092988201x131920000262116140",
+                    "1721092988355x436086531601295400",
+                    "1721092988357x822652130253197000",
+                    "1721092988358x114885269626814340",
+                    "1721092988359x397540177067443400",
+                    "1721092988919x925988835066751000",
+                    "1721092988922x203270330440782800",
+                    "1721092988942x870929751872144800",
+                    "1721092988944x550432121656392300",
+                    "1721092988945x554429839226766600",
+                    "1721092988946x738113194261922800",
+                    "1721092988951x968947476877060200",
+                    "1721092988956x398116200254912800",
+                    "1721092989913x590109710519628400",
+                    "1721092989917x787861719878472300",
+                    "1721092989920x246704834405478530",
+                    "1721092989922x184223253336320400",
+                    "1721092989924x291953196139986840",
+                    "1721092990063x431208831424671170",
+                    "1721092990064x370241427287587600",
+                    "1721092990065x824367134643762800",
+                    "1721092990066x677365600416354700",
+                    "1721092990070x275247503710193800",
+                    "1721092990071x723999986011996200"
+                ],
+                "categorias_produto": [
+                    "Outros"
+                ],
+                "como armazenar": "Geladeira (4ºC - 8ºC): Na embalagem original por até 3 semanas.",
+                "_id": "1721092988957x485673524811409500",
+                "Modified Date": "2026-02-17T15:10:56.806Z",
+                "preço antigo": 7.99,
+                "cod": "000472",
+                "descriçao": "Ovos de galinha de casca vermelha, comercializados em caixa. Receitas: Culinária em geral: bolos, tortas, ovos fritos, omeletes, etc.",
+                "desconto": 0,
+                "demanda": 0,
+                "tipo_unidade": "BJ",
+                "preço novo": 7.99,
+                "peso por unidade": 500,
+                "Created By": "admin_user_levee-delivery_test",
+                "peso/und": "unidade",
+                "visivel": false
+            },
+            {
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1724108270122x696362946169111200/649.jpg"
+                ],
+                "Created Date": "2024-07-16T01:23:08.965Z",
+                "categorias_produto": [
+                    "Outros"
+                ],
+                "ean": "0000000000797",
+                "preço novo": 2.99,
+                "descriçao": "Paçoca com redução de açúcar, ideal para dietas com restrição de açúcar. Usos: Consumir como doce ou sobremesa.",
+                "demanda": 0,
+                "preço antigo": 2.99,
+                "Modified Date": "2025-10-02T18:14:04.029Z",
+                "como armazenar": "Ambiente fresco e seco (18ºC - 22ºC): Em recipiente hermético por até 2 semanas.",
+                "estoque": 99997,
+                "cod": "000649",
+                "desconto": 0,
+                "tipo_unidade": "UN",
+                "qtd por unidade": "90g",
+                "visivel": true,
+                "Created By": "admin_user_levee-delivery_test",
+                "peso/und": "unidade",
+                "_id": "1721092988965x821509337026409500",
+                "relacionados": [
+                    "1721092988954x786914011378359300",
+                    "1721092988966x583754090322667300",
+                    "1721092988968x949343526835102100"
+                ],
+                "nome": "Pacoca Caseira 90g"
+            },
+            {
+                "preço novo": 1.5,
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1721211555307x203806033980954200/PACOQUITA%2020%20GR.jfif"
+                ],
+                "desconto": 0,
+                "_id": "1721092988966x583754090322667300",
+                "nome": "Pacoquita 20g",
+                "Created By": "admin_user_levee-delivery_test",
+                "descriçao": "Pão de alho congelado, recheado com catupiry e camarão, da marca Pão do Chef. Usos: Assar ou aquecer no forno antes de consumir.",
+                "relacionados": [
+                    "1721092988954x786914011378359300",
+                    "1721092988965x821509337026409500",
+                    "1721092988968x949343526835102100"
+                ],
+                "preço antigo": 1.5,
+                "estoque": 99687,
+                "cod": "000652",
+                "demanda": 47,
+                "como armazenar": "Ambiente fresco e seco (18ºC - 22ºC): Em embalagem original fechada por até 4 meses.",
+                "qtd por unidade": "20g",
+                "tipo_unidade": "UN",
+                "categorias_produto": [
+                    "Empório"
+                ],
+                "Created Date": "2024-07-16T01:23:08.966Z",
+                "ean": "7896336006624",
+                "Modified Date": "2026-02-26T20:13:18.533Z",
+                "visivel": true,
+                "peso/und": "unidade"
+            },
+            {
+                "preço antigo": 10.99,
+                "Created Date": "2024-07-16T01:23:08.968Z",
+                "nome": "Pacoquita 20g",
+                "cod": "001755",
+                "visivel": true,
+                "tipo_unidade": "UN",
+                "preço novo": 1.5,
+                "desconto": 86.35122838944494,
+                "_id": "1721092988968x949343526835102100",
+                "descriçao": "Pão integral com frutas cristalizadas e uvas passas. Usos: Consumir puro, com manteiga ou geleia.",
+                "peso/und": "unidade",
+                "relacionados": [
+                    "1721092988954x786914011378359300",
+                    "1721092988965x821509337026409500",
+                    "1721092988966x583754090322667300"
+                ],
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1724108279811x386304647831436500/1755.jpg"
+                ],
+                "peso por unidade": 20,
+                "estoque": 99952,
+                "como armazenar": "Ambiente fresco e seco (18ºC - 22ºC): Em embalagem original fechada por até 5 dias. Congelador (-18ºC): Por até 2 meses (descongelar em temperatura ambiente).",
+                "Created By": "admin_user_levee-delivery_test",
+                "qtd por unidade": "20g",
+                "categorias_produto": [
+                    "Outros"
+                ],
+                "Modified Date": "2026-02-03T02:47:19.156Z",
+                "ean": "7000319850191",
+                "demanda": 47
+            },
+            {
+                "descriçao": "Pão integral com redução de calorias, ideal para dietas com restrição calórica. Usos: Consumir puro, com manteiga, geleia ou como ingrediente em receitas.",
+                "visivel": true,
+                "demanda": 4,
+                "nome": "Pão Integral garnfinno Chia 350g",
+                "categorias_produto": [
+                    "Outros"
+                ],
+                "relacionados": [
+                    "1721092988986x264124643006770300",
+                    "1721092988995x722403384194389800",
+                    "1721092988996x148167132389160220",
+                    "1721092988997x234766081486253980"
+                ],
+                "peso/und": "unidade",
+                "desconto": 0,
+                "estoque": 99991,
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1721666363837x863337104996883000/P%C3%A3o%20Integral%20Chia.jpg"
+                ],
+                "qtd por unidade": "350g",
+                "peso por unidade": 370,
+                "cod": "001754",
+                "Created Date": "2024-07-16T01:23:08.984Z",
+                "Modified Date": "2026-01-03T13:17:51.790Z",
+                "como armazenar": "Ambiente fresco e seco (18ºC - 22ºC): Em embalagem original fechada por até 5 dias. Congelador (-18ºC): Por até 2 meses (descongelar em temperatura ambiente).",
+                "tipo_unidade": "UN",
+                "Created By": "admin_user_levee-delivery_test",
+                "preço antigo": 10.99,
+                "ean": "0000000006101",
+                "preço novo": 12.99,
+                "_id": "1721092988984x676026351069958700"
+            },
+            {
+                "relacionados": [
+                    "1721092988984x676026351069958700",
+                    "1721092988995x722403384194389800",
+                    "1721092988996x148167132389160220",
+                    "1721092988997x234766081486253980"
+                ],
+                "demanda": 4,
+                "_id": "1721092988986x264124643006770300",
+                "tipo_unidade": "UN",
+                "preço antigo": 8.99,
+                "como armazenar": "Ambiente fresco e seco (18ºC - 22ºC): Em embalagem original fechada por até 5 dias. Congelador (-18ºC): Por até 2 meses (descongelar em temperatura ambiente).",
+                "categorias_produto": [
+                    "Outros"
+                ],
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1721667714443x209724091280982800/P%C3%A3o%20Integral%20Chia.jpg"
+                ],
+                "nome": "Pão Integral Chia 450g",
+                "Modified Date": "2025-12-29T16:47:55.846Z",
+                "peso por unidade": 200,
+                "estoque": -99996,
+                "peso/und": "unidade",
+                "desconto": 0,
+                "visivel": false,
+                "ean": "7891193010074",
+                "qtd por unidade": "450g",
+                "Created Date": "2024-07-16T01:23:08.986Z",
+                "Created By": "admin_user_levee-delivery_test",
+                "preço novo": 12.99,
+                "cod": "002545",
+                "descriçao": "Pão integral com adição de chia, fonte de fibras e ômega 3. Usos: Consumir puro, com manteiga, geleia ou como ingrediente em receitas."
+            },
+            {
+                "estoque": 99999,
+                "descriçao": "Pão integral com adição de linhaça, fonte de fibras e ômega 3. Usos: Consumir puro, com manteiga, geleia ou como ingrediente em receitas.",
+                "Modified Date": "2025-12-29T16:49:36.044Z",
+                "peso por unidade": 370,
+                "desconto": 0,
+                "preço antigo": 10.99,
+                "cod": "001753",
+                "nome": "Pão Integral granfinno Frutas cristalizada  350g",
+                "demanda": 1,
+                "Created Date": "2024-07-16T01:23:08.995Z",
+                "Created By": "admin_user_levee-delivery_test",
+                "como armazenar": "Ambiente fresco e seco (18ºC - 22ºC): Em embalagem original fechada por até 5 dias. Congelador (-18ºC): Por até 2 meses (descongelar em temperatura ambiente).",
+                "preço novo": 12.99,
+                "peso/und": "unidade",
+                "qtd por unidade": "350g",
+                "categorias_produto": [
+                    "Outros"
+                ],
+                "tipo_unidade": "UN",
+                "relacionados": [
+                    "1721092988984x676026351069958700",
+                    "1721092988986x264124643006770300",
+                    "1721092988996x148167132389160220",
+                    "1721092988997x234766081486253980"
+                ],
+                "ean": "7000319850238",
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1721666559489x317287653305481340/P%C3%A3o%20Integral%20Frutas.webp"
+                ],
+                "visivel": true,
+                "_id": "1721092988995x722403384194389800"
+            },
+            {
+                "categorias_produto": [
+                    "Outros"
+                ],
+                "Modified Date": "2025-12-29T16:50:02.247Z",
+                "preço novo": 12.99,
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1721667742764x989624832163830500/P%C3%A3o%20Integral%20Frutas.webp"
+                ],
+                "relacionados": [
+                    "1721092988984x676026351069958700",
+                    "1721092988986x264124643006770300",
+                    "1721092988995x722403384194389800",
+                    "1721092988997x234766081486253980"
+                ],
+                "como armazenar": "Ambiente fresco e seco (18ºC - 22ºC): Em embalagem original fechada por até 5 dias. Congelador (-18ºC): Por até 2 meses (descongelar em temperatura ambiente).",
+                "preço antigo": 10.99,
+                "demanda": 1,
+                "desconto": 0,
+                "peso por unidade": 370,
+                "Created By": "admin_user_levee-delivery_test",
+                "info nutricional": "Por 1 colher de chá (2g):\n- Calorias: 6kcal\n- Gordura Total: 0g\n- Carboidratos: 1g\n- Fibra: 0g\n- Vitamina A: 203 UI (4% VD)",
+                "tipo_unidade": "UN",
+                "nome": "Pão Integral granfinno passas 350g",
+                "peso/und": "unidade",
+                "estoque": -99997,
+                "qtd por unidade": "350g",
+                "ean": "7000319850214",
+                "Created Date": "2024-07-16T01:23:08.996Z",
+                "descriçao": "Pimentão doce desidratado e moído, com sabor levemente adocicado. Receitas: Carnes, aves, molhos, sopas. Usos: Utilizar como tempero para realçar o sabor e a cor dos pratos.",
+                "visivel": false,
+                "cod": "001757",
+                "_id": "1721092988996x148167132389160220"
+            },
+            {
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1721666583930x768143704642531200/P%C3%A3o%20Integral%20Linha%C3%A7a.webp"
+                ],
+                "ean": "7000319850016",
+                "estoque": 99996,
+                "peso por unidade": 370,
+                "tipo_unidade": "UN",
+                "preço novo": 12.99,
+                "Modified Date": "2026-02-27T13:25:50.872Z",
+                "relacionados": [
+                    "1721092988984x676026351069958700",
+                    "1721092988986x264124643006770300",
+                    "1721092988995x722403384194389800",
+                    "1721092988996x148167132389160220"
+                ],
+                "qtd por unidade": "350g",
+                "descriçao": "Pão integral tradicional, sem adição de conservantes. Usos: Consumir puro, com manteiga, geleia ou como ingrediente em receitas.",
+                "cod": "001756",
+                "desconto": 0,
+                "peso/und": "unidade",
+                "demanda": 3,
+                "como armazenar": "Ambiente fresco e seco (18ºC - 22ºC): Em embalagem original fechada por até 5 dias. Congelador (-18ºC): Por até 2 meses (descongelar em temperatura ambiente).",
+                "Created By": "admin_user_levee-delivery_test",
+                "_id": "1721092988997x234766081486253980",
+                "categorias_produto": [
+                    "Outros"
+                ],
+                "preço antigo": 10.99,
+                "visivel": true,
+                "Created Date": "2024-07-16T01:23:08.997Z",
+                "nome": "Pão Integral granfinno Linhaca 370g"
+            },
+            {
+                "tipo_unidade": "UN",
+                "categorias_produto": [
+                    "Temperos e Condimentos"
+                ],
+                "desconto": 0,
+                "preço antigo": 5.99,
+                "relacionados": [
+                    "1721092989040x904697858992610000"
+                ],
+                "qtd por unidade": "100g",
+                "Created Date": "2024-07-16T01:23:08.998Z",
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1721211696881x393213512561729800/PAPRICA%20100G.jfif"
+                ],
+                "ean": "0000000003445",
+                "cod": "001471",
+                "peso/und": "unidade",
+                "peso por unidade": 100,
+                "demanda": 12,
+                "visivel": false,
+                "Created By": "admin_user_levee-delivery_test",
+                "estoque": 99973,
+                "como armazenar": "Ambiente fresco e seco (18ºC - 22ºC): Em recipiente hermético por até 6 meses.",
+                "preço novo": 5.99,
+                "_id": "1721092988998x746708232384996500",
+                "nome": "Paprica 100g",
+                "descriçao": "Páprica doce da marca Saúde Plena, com sabor suave e aroma característico. Receitas: Carnes, aves, molhos, sopas. Usos: Utilizar como tempero para realçar o sabor e a cor dos pratos.",
+                "Modified Date": "2025-07-19T13:41:43.405Z"
+            },
+            {
+                "preço por kg": 5.99,
+                "peso/und": "peso",
+                "tipo_unidade": "KG",
+                "relacionados": [
+                    "1721092989031x575227096850454300",
+                    "1721092989034x660423820899731100",
+                    "1721092989033x712681758331580000",
+                    "1721092989036x898973012954440200"
+                ],
+                "ordem_prateleira": 27,
+                "nome": "Pepino Caipira",
+                "demanda": 11,
+                "preço novo": 6.99,
+                "desconto": -16.6944908180301,
+                "peso por unidade": 318,
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1719347670838x627318768569205000/Pepino%20Caipira.jpg"
+                ],
+                "descriçao": "Variedade de pepino com casca verde escura, ideal para saladas e salgados. Usos: Consumir fresco em saladas ou como ingrediente em receitas.",
+                "ean": "0000000000138",
+                "como armazenar": "Geladeira (7ºC - 10ºC): Em saco plástico perfurado por até 7 dias.",
+                "_id": "1721092989027x194598277513434270",
+                "Created Date": "2024-07-16T01:23:09.027Z",
+                "preço antigo": 5.99,
+                "visivel": false,
+                "estoque": -80398,
+                "Created By": "admin_user_levee-delivery_test",
+                "categorias_produto": [
+                    "Legumes"
+                ],
+                "Modified Date": "2026-02-27T15:55:39.989Z",
+                "cod": "000156"
+            },
+            {
+                "Created By": "admin_user_levee-delivery_test",
+                "_id": "1721092989030x761944292727847000",
+                "estoque": 99982,
+                "tipo_unidade": "BJ",
+                "relacionados": [
+                    "1721092989037x488653194077293800",
+                    "1721092989047x517655645984741900"
+                ],
+                "Created Date": "2024-07-16T01:23:09.030Z",
+                "ean": "0000000000333",
+                "Modified Date": "2026-02-21T13:46:17.093Z",
+                "cod": "000361",
+                "desconto": 0,
+                "descriçao": "Variedade de pera pequena, com casca verde clara e manchas marrons, polpa branca, macia e suculenta. Usos: Consumir fresca, em saladas de frutas ou sobremesas.",
+                "preço novo": 24.99,
+                "demanda": 0,
+                "categorias_produto": [
+                    "Frutas"
+                ],
+                "nome": "Pera Ercoline Bandeja 1kg",
+                "visivel": true,
+                "como armazenar": "Ambiente fresco e arejado (13ºC - 18ºC): Até estar madura. Geladeira (7ºC - 10ºC): Por até 5 dias após o amadurecimento.",
+                "preço antigo": 24.99,
+                "peso por unidade": 1000,
+                "peso/und": "unidade",
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1719347673087x995820192730332300/Pera%20Ercoline%20Bandeja.jpg"
+                ]
+            },
+            {
+                "ordem_prateleira": 26,
+                "peso/und": "peso",
+                "cod": "000157",
+                "relacionados": [
+                    "1721092989027x194598277513434270",
+                    "1721092989034x660423820899731100",
+                    "1721092989033x712681758331580000",
+                    "1721092989036x898973012954440200"
+                ],
+                "estoque": 2200,
+                "_id": "1721092989031x575227096850454300",
+                "Created By": "admin_user_levee-delivery_test",
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1719347672239x976914235593134600/Pepino%20Japon%C3%AAs%20Kg.jpg"
+                ],
+                "Created Date": "2024-07-16T01:23:09.031Z",
+                "visivel": true,
+                "nome": "Pepino Japonês",
+                "preço antigo": 9.99,
+                "preço novo": 10.99,
+                "preço por kg": 6.99,
+                "desconto": -10.01001001001,
+                "Modified Date": "2026-03-04T16:50:31.668Z",
+                "tipo_unidade": "KG",
+                "ean": "0000000000139",
+                "como armazenar": "Geladeira (7ºC - 10ºC): Em saco plástico perfurado por até 7 dias.",
+                "descriçao": "Pepino japonês comercializado em bandeja, garantindo frescor. Usos: Consumir fresco em saladas.",
+                "demanda": 944,
+                "peso por unidade": 244,
+                "categorias_produto": [
+                    "Legumes"
+                ]
+            },
+            {
+                "peso/und": "unidade",
+                "como armazenar": "Geladeira (7ºC - 10ºC): Na embalagem original por até 7 dias.",
+                "descriçao": "Variedade de pera com casca verde clara e polpa branca, macia e suculenta, comercializada em bandeja. Usos: Consumir fresca, em saladas de frutas ou sobremesas.",
+                "_id": "1721092989033x712681758331580000",
+                "tipo_unidade": "BJ",
+                "Created Date": "2024-07-16T01:23:09.033Z",
+                "relacionados": [
+                    "1721092989027x194598277513434270",
+                    "1721092989031x575227096850454300",
+                    "1721092989034x660423820899731100",
+                    "1721092989036x898973012954440200"
+                ],
+                "categorias_produto": [
+                    "Legumes"
+                ],
+                "preço antigo": 7.99,
+                "Modified Date": "2026-02-03T13:04:53.401Z",
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1721211732869x811090114361725300/PEPINO%20JAPONES%20BDJ.jfif"
+                ],
+                "preço novo": 7.99,
+                "ean": "0000000006255",
+                "cod": "001769",
+                "visivel": false,
+                "demanda": 20,
+                "nome": "Pepino Japonês Bandeja ",
+                "peso por unidade": 1000,
+                "estoque": -55558,
+                "Created By": "admin_user_levee-delivery_test",
+                "desconto": 0
+            },
+            {
+                "preço antigo": 5.99,
+                "_id": "1721092989034x660423820899731100",
+                "relacionados": [
+                    "1721092989027x194598277513434270",
+                    "1721092989031x575227096850454300",
+                    "1721092989033x712681758331580000",
+                    "1721092989036x898973012954440200"
+                ],
+                "peso por unidade": 317,
+                "Created By": "admin_user_levee-delivery_test",
+                "tipo_unidade": "KG",
+                "preço novo": 8.99,
+                "demanda": 90,
+                "preço por kg": 5.99,
+                "como armazenar": "Geladeira (7ºC - 10ºC): Em saco plástico perfurado por até 7 dias.",
+                "visivel": true,
+                "Created Date": "2024-07-16T01:23:09.034Z",
+                "Modified Date": "2026-03-02T16:29:25.275Z",
+                "descriçao": "Variedade de pepino com casca fina e sabor suave, ideal para saladas. Usos: Consumir fresco em saladas.",
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1719347671928x688745692977320600/Pepino%20Comum.jpg"
+                ],
+                "ordem_prateleira": 25,
+                "categorias_produto": [
+                    "Legumes"
+                ],
+                "ean": "0000000000136",
+                "cod": "000154",
+                "desconto": -50.0834724540901,
+                "nome": "Pepino Comum",
+                "peso/und": "peso",
+                "estoque": 28586,
+                "info nutricional": "Por 100g:\n- Calorias: 12kcal\n- Carboidratos: 3g\n- Fibra: 1g\n- Proteína: 0.5g\n- Gordura: 0g\nVitaminas:\n- Vitamina K: 10mcg (8% VD)\n- Vitamina C: 3mg (3% VD)"
+            },
+            {
+                "info nutricional": "Por 100g:\n- Calorias: 57kcal\n- Carboidratos: 15g\n- Açúcar: 10g\n- Fibra: 4g\n- Proteína: 0.4g\n- Gordura: 0.3g\nVitaminas:\n- Vitamina C: 4mg (4% VD)\n- Potássio: 119mg (3% VD)",
+                "visivel": false,
+                "estoque": 100000,
+                "preço por kg": 7,
+                "desconto": 0,
+                "Created Date": "2024-07-16T01:23:09.036Z",
+                "_id": "1721092989036x898973012954440200",
+                "nome": "Pepino Japonês",
+                "demanda": 944,
+                "cod": "000357",
+                "relacionados": [
+                    "1721092989027x194598277513434270",
+                    "1721092989031x575227096850454300",
+                    "1721092989033x712681758331580000",
+                    "1721092989034x660423820899731100"
+                ],
+                "tipo_unidade": "KG",
+                "preço antigo": 19.99,
+                "Created By": "admin_user_levee-delivery_test",
+                "peso/und": "peso",
+                "Modified Date": "2025-05-21T17:12:50.984Z",
+                "como armazenar": "Ambiente fresco e arejado (13ºC - 18ºC): Até estar madura. Geladeira (7ºC - 10ºC): Por até 5 dias após o amadurecimento.",
+                "preço novo": 19.99,
+                "ean": "0000000000329",
+                "peso por unidade": 244,
+                "categorias_produto": [
+                    "Frutas"
+                ],
+                "descriçao": "Variedade de pera pequena, com casca verde-amarelada e manchas marrons, polpa branca, macia e suculenta. Usos: Consumir fresca, em saladas de frutas ou sobremesas."
+            },
+            {
+                "estoque": 9999710712,
+                "nome": "Pera Willians",
+                "peso/und": "peso",
+                "info nutricional": "Por 100g:\n- Calorias: 39kcal\n- Carboidratos: 10g\n- Açúcar: 8g\n- Fibra: 2g\n- Proteína: 1g\n- Gordura: 0.3g\nVitaminas:\n- Vitamina C: 6mg (7% VD)",
+                "Created Date": "2024-07-16T01:23:09.037Z",
+                "Modified Date": "2026-03-04T16:20:45.151Z",
+                "em oferta": false,
+                "peso por unidade": 196,
+                "Created By": "admin_user_levee-delivery_test",
+                "demanda": 512,
+                "como armazenar": "Ambiente fresco e arejado (13ºC - 18ºC): Até estar madura. Geladeira (7ºC - 10ºC): Por até 5 dias após o amadurecimento.",
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1719347673087x995820192730332300/Pera%20Ercoline%20Bandeja.jpg"
+                ],
+                "ean": "0000000000332",
+                "categorias_produto": [
+                    "Frutas"
+                ],
+                "relacionados": [
+                    "1721092989030x761944292727847000",
+                    "1721092989047x517655645984741900"
+                ],
+                "desconto": -25.0125062531266,
+                "preço novo": 24.99,
+                "_id": "1721092989037x488653194077293800",
+                "preço antigo": 19.99,
+                "cod": "000360",
+                "visivel": true,
+                "tipo_unidade": "KG",
+                "descriçao": "Variedade de pera com casca verde clara, polpa branca, macia, suculenta e sabor adocicado. Usos: Consumir fresca, em saladas de frutas, sucos ou sobremesas."
+            },
+            {
+                "tipo_unidade": "UN",
+                "categorias_produto": [
+                    "Temperos e Condimentos"
+                ],
+                "estoque": 100000,
+                "desconto": 0,
+                "descriçao": "Pimenta tradicional da culinária mineira, da marca Quintal de Minas, batida com especiarias, em conserva. Usos: Adicionar em porções moderadas em caldos, feijões e pratos salgados para temperar.",
+                "demanda": 0,
+                "Modified Date": "2025-05-21T17:13:01.806Z",
+                "preço antigo": 11.99,
+                "peso/und": "unidade",
+                "como armazenar": "Geladeira (4ºC - 8ºC): Após aberto, consumir em até 3 meses.",
+                "cod": "002563",
+                "visivel": false,
+                "nome": "Pimenta Batida Lt 200ml",
+                "Created By": "admin_user_levee-delivery_test",
+                "preço novo": 11.99,
+                "_id": "1721092989039x156543457487818400",
+                "qtd por unidade": "200ml",
+                "ean": "7898920491380",
+                "info nutricional": "Por 1 colher de sopa (5g):\n- Calorias: 16kcal\n- Carboidratos: 3g\n- Fibra: 1g\n- Vitamina A: 102 UI (2% VD)\n- Vitamina C: 8mg (9% VD)",
+                "Created Date": "2024-07-16T01:23:09.039Z",
+                "relacionados": [
+                    "1721092989048x329554464323878340",
+                    "1721092989049x902885701498852500",
+                    "1721092989051x658687127699150800",
+                    "1721092989052x211023029743055740",
+                    "1721092989215x797137373462480900"
+                ]
+            },
+            {
+                "peso por unidade": 100,
+                "estoque": 98524,
+                "tipo_unidade": "UN",
+                "_id": "1721092989040x904697858992610000",
+                "relacionados": [
+                    "1721092988998x746708232384996500"
+                ],
+                "peso/und": "unidade",
+                "desconto": -12.5156445556946,
+                "como armazenar": "Geladeira (7ºC - 10ºC): Na embalagem original por até 5 dias.",
+                "preço antigo": 7.99,
+                "cod": "002609",
+                "Created By": "admin_user_levee-delivery_test",
+                "visivel": true,
+                "preço por kg": 5.99,
+                "Modified Date": "2026-02-27T18:32:34.488Z",
+                "Created Date": "2024-07-16T01:23:09.040Z",
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1724108292107x538077857024212860/2609.png"
+                ],
+                "categorias_produto": [
+                    "Frutas"
+                ],
+                "preço novo": 8.99,
+                "nome": "Paprica Defumada",
+                "demanda": 6,
+                "ean": "0000000013451"
+            },
+            {
+                "_id": "1721092989047x517655645984741900",
+                "relacionados": [
+                    "1721092989030x761944292727847000",
+                    "1721092989037x488653194077293800"
+                ],
+                "Created Date": "2024-07-16T01:23:09.047Z",
+                "peso por unidade": 184,
+                "estoque": 38405,
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1719347673469x219436727355680540/Pera%20Portuguesa.jpg"
+                ],
+                "demanda": 59,
+                "peso/und": "peso",
+                "categorias_produto": [
+                    "Frutas"
+                ],
+                "preço novo": 29.99,
+                "visivel": true,
+                "preço antigo": 39.99,
+                "como armazenar": "Ambiente fresco e arejado (13ºC - 18ºC): Até estar madura. Geladeira (7ºC - 10ºC): Por até 5 dias após o amadurecimento.",
+                "descriçao": "Variedade de pera com casca verde-amarelada, polpa branca, macia e suculenta. Usos: Consumir fresca, em saladas de frutas, compotas ou sobremesas.",
+                "nome": "Pera Portuguesa",
+                "info nutricional": "Por 100g:\n- Calorias: 58kcal\n- Carboidratos: 15g\n- Açúcar: 10g\n- Fibra: 3g\n- Proteína: 0.4g\n- Gordura: 0.3g\nVitaminas:\n- Vitamina C: 4mg (4% VD)\n- Potássio: 119mg (3% VD)",
+                "desconto": 25.0062515628907,
+                "Modified Date": "2026-03-03T11:43:36.755Z",
+                "Created By": "admin_user_levee-delivery_test",
+                "ean": "0000000000330",
+                "cod": "000358",
+                "tipo_unidade": "KG"
+            },
+            {
+                "Created By": "admin_user_levee-delivery_test",
+                "como armazenar": "Ambiente fresco e seco (18ºC - 22ºC): Após aberto, manter refrigerado (4ºC - 8ºC) e consumir em até 3 meses.",
+                "estoque": 100000,
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1721211793006x840893527301807500/PIMENTA%20BIQUINHO%20EM%20CONSERVA%20QUINTAL%20DE%20MINAS.jfif"
+                ],
+                "Created Date": "2024-07-16T01:23:09.048Z",
+                "peso/und": "peso",
+                "nome": "Pimenta Biquinho Em Conserva",
+                "relacionados": [
+                    "1721092989039x156543457487818400",
+                    "1721092989049x902885701498852500",
+                    "1721092989051x658687127699150800",
+                    "1721092989052x211023029743055740",
+                    "1721092989215x797137373462480900"
+                ],
+                "info nutricional": "Por 1 colher de chá (1g):\n- Calorias: 3kcal\n- Proteína: 0g\n- Gordura Total: 0g\n- Carboidratos: 1g\n- Ferro: 0.3mg (2% VD)",
+                "categorias_produto": [
+                    "Empório"
+                ],
+                "desconto": 0,
+                "preço antigo": 11.99,
+                "ean": "7898920494015",
+                "cod": "002561",
+                "demanda": 1,
+                "preço novo": 11.99,
+                "preço por kg": 5.99,
+                "descriçao": "Pimenta biquinho em conserva, da marca Quintal de Minas, com sabor suave e levemente adocicado. Usos: Consumir como acompanhamento ou ingrediente em receitas.",
+                "visivel": false,
+                "_id": "1721092989048x329554464323878340",
+                "Modified Date": "2025-05-21T17:12:58.923Z",
+                "tipo_unidade": "BJ",
+                "peso por unidade": 250
+            },
+            {
+                "Created Date": "2024-07-16T01:23:09.049Z",
+                "_id": "1721092989049x902885701498852500",
+                "Created By": "admin_user_levee-delivery_test",
+                "visivel": false,
+                "descriçao": "Pimenta calabresa desidratada em flocos, com sabor picante moderado. Receitas: Pizzas, massas, molhos, carnes. Usos: Adicionar em receitas para dar um toque picante.",
+                "ean": "0192505259615",
+                "nome": "Pimenta Biquinho Em Conserva",
+                "peso/und": "unidade",
+                "Modified Date": "2025-09-07T14:28:20.870Z",
+                "preço novo": 4.99,
+                "relacionados": [
+                    "1721092989039x156543457487818400",
+                    "1721092989048x329554464323878340",
+                    "1721092989051x658687127699150800",
+                    "1721092989052x211023029743055740",
+                    "1721092989215x797137373462480900"
+                ],
+                "como armazenar": "Ambiente fresco e seco (18ºC - 22ºC): Em recipiente hermético por até 6 meses.",
+                "tipo_unidade": "UN",
+                "estoque": 99997,
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1721667890271x736748382200400400/Pimenta%20Biquinho%20Em%20Conserva.jpg"
+                ],
+                "categorias_produto": [
+                    "Empório"
+                ],
+                "desconto": 0,
+                "preço antigo": 4.99,
+                "demanda": 1,
+                "cod": "001533"
+            },
+            {
+                "preço antigo": 10.99,
+                "ean": "0000000001189",
+                "estoque": 100000,
+                "preço novo": 10.99,
+                "tipo_unidade": "UN",
+                "cod": "000928",
+                "Created By": "admin_user_levee-delivery_test",
+                "visivel": false,
+                "demanda": 0,
+                "descriçao": "Pimenta verde com sabor picante e aroma marcante, tradicional da culinária brasileira. Receitas: Molhos, conservas, temperos para carnes. Usos: Adicionar em receitas para um toque picante.",
+                "peso/und": "unidade",
+                "categorias_produto": [
+                    "Empório"
+                ],
+                "_id": "1721092989051x658687127699150800",
+                "Modified Date": "2025-05-21T17:13:01.815Z",
+                "relacionados": [
+                    "1721092989039x156543457487818400",
+                    "1721092989048x329554464323878340",
+                    "1721092989049x902885701498852500",
+                    "1721092989052x211023029743055740",
+                    "1721092989215x797137373462480900"
+                ],
+                "nome": "Pimenta Biquinho Em Conserva 30g",
+                "desconto": 0,
+                "Created Date": "2024-07-16T01:23:09.051Z",
+                "info nutricional": "Por 100g:\n- Calorias: 40kcal\n- Carboidratos: 9g\n- Fibra: 2g\n- Proteína: 1g\n- Gordura: 0g\nVitaminas:\n- Vitamina C: 108mg (120% VD)\n- Vitamina A: 555 UI (11% VD)",
+                "qtd por unidade": "30g",
+                "como armazenar": "Geladeira (7ºC - 10ºC): Em saco plástico perfurado por até 7 dias."
+            },
+            {
+                "peso por unidade": 200,
+                "relacionados": [
+                    "1721092989039x156543457487818400",
+                    "1721092989048x329554464323878340",
+                    "1721092989049x902885701498852500",
+                    "1721092989051x658687127699150800",
+                    "1721092989215x797137373462480900"
+                ],
+                "Created By": "admin_user_levee-delivery_test",
+                "estoque": 99941,
+                "peso/und": "unidade",
+                "cod": "000160",
+                "categorias_produto": [
+                    "Legumes",
+                    "Higienizados"
+                ],
+                "Modified Date": "2026-02-19T15:29:47.999Z",
+                "tipo_unidade": "BJ",
+                "_id": "1721092989052x211023029743055740",
+                "visivel": true,
+                "nome": "Pimenta Biquinho Bandeja 200g",
+                "demanda": 15,
+                "como armazenar": "Geladeira (7ºC - 10ºC): Na embalagem original por até 7 dias.",
+                "preço novo": 7.99,
+                "desconto": 0,
+                "ean": "0000000000141",
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1721211855003x458854527228517200/PIMENTA%20BIQUINHO%20BANDEJA.jfif"
+                ],
+                "Created Date": "2024-07-16T01:23:09.052Z",
+                "preço antigo": 7.99,
+                "descriçao": "Pimenta pequena e amarela, com sabor suave e levemente adocicado, comercializada fresca em bandeja. Receitas: Molhos, conservas, temperos. Usos: Utilizar em receitas para adicionar sabor picante."
+            },
+            {
+                "categorias_produto": [
+                    "Temperos e Condimentos"
+                ],
+                "preço antigo": 7.99,
+                "nome": "Pimenta Do Reino Grão 50g",
+                "peso/und": "unidade",
+                "descriçao": "Grãos de pimenta do reino inteiros, com sabor picante e aroma marcante. Receitas: Molhos, carnes, sopas. Usos: Moer na hora para usar em receitas ou usar inteiro em conservas.",
+                "visivel": false,
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1721211886269x938622457808851000/PIMENTA%20DO%20REINO%20GRAO%2050G.jfif"
+                ],
+                "Created By": "admin_user_levee-delivery_test",
+                "_id": "1721092989202x505545731442905700",
+                "demanda": 0,
+                "peso por unidade": 50,
+                "cod": "002302",
+                "estoque": 99995,
+                "info nutricional": "Por 1 colher de chá (2g):\n- Calorias: 6kcal\n- Gordura Total: 0g\n- Sódio: 1mg (0% VD)\n- Carboidratos: 1g\n- Ferro: 0.2mg (1% VD)",
+                "qtd por unidade": "50g",
+                "Modified Date": "2025-07-19T13:38:02.895Z",
+                "desconto": 0,
+                "preço novo": 7.99,
+                "ean": "0192505115805",
+                "como armazenar": "Ambiente fresco e seco (18ºC - 22ºC): Em recipiente hermético por até 1 ano.",
+                "Created Date": "2024-07-16T01:23:09.202Z",
+                "tipo_unidade": "UN"
+            },
+            {
+                "demanda": 0,
+                "Created By": "admin_user_levee-delivery_test",
+                "preço antigo": 6.99,
+                "peso/und": "unidade",
+                "categorias_produto": [
+                    "Legumes"
+                ],
+                "como armazenar": "Geladeira (7ºC - 10ºC): Em saco plástico perfurado por até 7 dias.",
+                "preço novo": 5.99,
+                "Modified Date": "2025-05-21T17:13:01.836Z",
+                "visivel": true,
+                "estoque": 100000,
+                "tipo_unidade": "UN",
+                "descriçao": "Variedade de pimentão grande, com sabor adocicado e textura crocante. Receitas: Saladas, refogados, carnes, pizzas. Usos: Consumir cru, assado, grelhado ou refogado.",
+                "relacionados": [
+                    "1721092989213x828846541252632000",
+                    "1721092989222x747290504624399100",
+                    "1721092989226x882947952520034000"
+                ],
+                "_id": "1721092989210x312664122498456100",
+                "nome": "Pimentão Rei",
+                "ean": "0000000000147",
+                "cod": "000167",
+                "desconto": 46.19,
+                "peso por unidade": 1000,
+                "Created Date": "2024-07-16T01:23:09.210Z"
+            },
+            {
+                "cod": "000163",
+                "visivel": true,
+                "info nutricional": "Por 100g:\n- Calorias: 27kcal\n- Carboidratos: 7g\n- Açúcar: 4g\n- Fibra: 2g\n- Proteína: 1g\n- Gordura: 0.2g\nVitaminas:\n- Vitamina C: 184mg (204% VD)\n- Vitamina A: 569 UI (11% VD)",
+                "demanda": 56,
+                "desconto": -20.0080032012805,
+                "preço antigo": 24.99,
+                "peso/und": "peso",
+                "como armazenar": "Geladeira (7ºC - 10ºC): Em saco plástico perfurado por até 7 dias.",
+                "nome": "Pimentão Amarelo",
+                "preço por kg": 6.99,
+                "descriçao": "Variedade de pimentão com sabor adocicado e textura crocante. Receitas: Saladas, refogados, carnes, pizzas. Usos: Consumir cru, assado, grelhado ou refogado.",
+                "ean": "0000000000143",
+                "_id": "1721092989213x828846541252632000",
+                "relacionados": [
+                    "1721092989210x312664122498456100",
+                    "1721092989222x747290504624399100",
+                    "1721092989226x882947952520034000"
+                ],
+                "tipo_unidade": "KG",
+                "Created Date": "2024-07-16T01:23:09.213Z",
+                "Created By": "admin_user_levee-delivery_test",
+                "Modified Date": "2026-03-04T16:50:32.087Z",
+                "peso por unidade": 300,
+                "preço novo": 29.99,
+                "categorias_produto": [
+                    "Legumes"
+                ],
+                "estoque": 55915,
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1719347628113x798158496101910100/Piment%C3%A3o%20Amarelo%20Kg.jpg"
+                ]
+            },
+            {
+                "categorias_produto": [
+                    "Temperos e Condimentos"
+                ],
+                "descriçao": "Pimenta malagueta batida com especiarias, em conserva. Usos: Adicionar em porções moderadas em caldos, feijões e pratos salgados para temperar.",
+                "preço novo": 7.99,
+                "cod": "000937",
+                "Created Date": "2024-07-16T01:23:09.215Z",
+                "demanda": 0,
+                "desconto": 0,
+                "qtd por unidade": "210ml",
+                "ean": "0000000001198",
+                "visivel": false,
+                "nome": "Pimenta Malagueta Batida Pequena 210ml",
+                "Created By": "admin_user_levee-delivery_test",
+                "tipo_unidade": "UN",
+                "preço antigo": 7.99,
+                "_id": "1721092989215x797137373462480900",
+                "Modified Date": "2025-05-21T17:13:01.850Z",
+                "peso/und": "unidade",
+                "relacionados": [
+                    "1721092989039x156543457487818400",
+                    "1721092989048x329554464323878340",
+                    "1721092989049x902885701498852500",
+                    "1721092989051x658687127699150800",
+                    "1721092989052x211023029743055740"
+                ],
+                "estoque": 100000,
+                "como armazenar": "Geladeira (4ºC - 8ºC): Após aberto, consumir em até 3 meses."
+            },
+            {
+                "peso por unidade": 150,
+                "descriçao": "Pimenta recheada com queijo e especiarias, tradicional da culinária mineira, da marca Fornada de Minas. Usos: Consumir como aperitivo ou acompanhamento para carnes.",
+                "nome": "Pimentinha Fornada De Minas 150g",
+                "estoque": 99984,
+                "Created By": "admin_user_levee-delivery_test",
+                "peso/und": "unidade",
+                "_id": "1721092989218x742878752795561600",
+                "preço antigo": 3.99,
+                "desconto": 0,
+                "tipo_unidade": "PC",
+                "como armazenar": "Ambiente fresco e seco (18ºC - 22ºC): Até a data de validade da embalagem. Após aberto, consumir em até 1 semana.",
+                "preço novo": 3.99,
+                "demanda": 2,
+                "categorias_produto": [
+                    "Outros"
+                ],
+                "ean": "0000000000527",
+                "cod": "000436",
+                "qtd por unidade": "150g",
+                "Modified Date": "2026-02-16T11:22:58.887Z",
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1740148155959x699771350079989100/download%20%2852%29.jpg"
+                ],
+                "visivel": true,
+                "Created Date": "2024-07-16T01:23:09.218Z"
+            },
+            {
+                "preço antigo": 24.99,
+                "demanda": 1168,
+                "visivel": true,
+                "como armazenar": "Geladeira (7ºC - 10ºC): Em saco plástico perfurado por até 7 dias.",
+                "relacionados": [
+                    "1721092989210x312664122498456100",
+                    "1721092989213x828846541252632000",
+                    "1721092989226x882947952520034000"
+                ],
+                "Created By": "admin_user_levee-delivery_test",
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1719347629326x160583645918097600/Piment%C3%A3o%20Vermelho%20Kg.jpg"
+                ],
+                "Created Date": "2024-07-16T01:23:09.222Z",
+                "Modified Date": "2026-03-04T16:50:31.590Z",
+                "preço por kg": 19.99,
+                "cod": "000164",
+                "descriçao": "Variedade de pimentão com sabor adocicado e textura crocante. Receitas: Saladas, refogados, carnes, pizzas. Usos: Consumir cru, assado, grelhado ou refogado.",
+                "categorias_produto": [
+                    "Legumes"
+                ],
+                "_id": "1721092989222x747290504624399100",
+                "info nutricional": "Por 100g:\n- Calorias: 31kcal\n- Carboidratos: 7g\n- Açúcar: 5g\n- Fibra: 2g\n- Proteína: 1g\n- Gordura: 0.3g\nVitaminas:\n- Vitamina C: 190mg (211% VD)\n- Vitamina A: 551 UI (11% VD)",
+                "desconto": -20.0080032012805,
+                "estoque": 19715,
+                "ordem_prateleira": 11,
+                "peso/und": "peso",
+                "tipo_unidade": "KG",
+                "ean": "0000000000144",
+                "preço novo": 29.99,
+                "peso por unidade": 268,
+                "nome": "Pimentão Vermelho"
+            },
+            {
+                "categorias_produto": [
+                    "Empório"
+                ],
+                "Created Date": "2024-07-16T01:23:09.225Z",
+                "demanda": 0,
+                "preço antigo": 25.99,
+                "preço novo": 25.99,
+                "desconto": 0,
+                "peso/und": "unidade",
+                "Created By": "admin_user_levee-delivery_test",
+                "cod": "002337",
+                "relacionados": [
+                    "1721092989233x248832148452882200"
+                ],
+                "_id": "1721092989224x122386677923919780",
+                "qtd por unidade": "100g",
+                "como armazenar": "Ambiente fresco e seco (18ºC - 22ºC): Em recipiente hermético por até 3 meses. Congelador (-18ºC): Por até 6 meses.",
+                "tipo_unidade": "UN",
+                "Modified Date": "2025-05-21T17:13:01.860Z",
+                "visivel": false,
+                "ean": "0192505115393",
+                "info nutricional": "Por 100g:\n- Calorias: 560kcal\n- Gordura Total: 45g\n- Gordura Saturada: 6g\n- Gordura Monoinsaturada: 28g\n- Gordura Poli-insaturada: 13g\n- Colesterol: 0mg (0% VD)\n- Sódio: 1mg (0% VD)\n- Carboidratos: 28g\n- Fibra Alimentar: 10g\n- Açúcar: 8g\n- Proteína: 20g\nVitaminas e Minerais:\n- Potássio: 1025mg (29% VD)\n- Fósforo: 490mg (49% VD)\n- Magnésio: 121mg (30% VD)\n- Vitamina B6: 1.7mg (85% VD)",
+                "descriçao": "Pistache sem casca, da marca Saúde Plena, rico em proteínas, fibras e gorduras saudáveis. Usos: Consumir como snack, adicionar em saladas ou utilizar em receitas.",
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1721211980418x619019612852739500/PISTACHE.jfif"
+                ],
+                "estoque": 100000,
+                "nome": "Pistache 100g"
+            }
+        ],
+        "count": 100,
+        "remaining": 609
+    }
+}

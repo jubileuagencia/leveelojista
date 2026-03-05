@@ -1,0 +1,3004 @@
+{
+    "response": {
+        "cursor": 100,
+        "results": [
+            {
+                "descriçao": "Biscoito de polvilho com sabor salgado, da marca Só Mineiro. Usos: Consumir como aperitivo.",
+                "visivel": true,
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1727123890498x786442876541659800/20240831_161040.png"
+                ],
+                "Created Date": "2024-07-16T01:23:06.714Z",
+                "preço novo": 7.99,
+                "nome": "Biscoito Gravetin Sô Mineiro 150g",
+                "ean": "7898676160608",
+                "desconto": 0,
+                "peso/und": "unidade",
+                "cod": "002577",
+                "tipo_unidade": "PC",
+                "qtd por unidade": "150g",
+                "estoque": 99982,
+                "preço antigo": 7.99,
+                "Modified Date": "2026-03-02T22:42:12.107Z",
+                "categorias_produto": [
+                    "Outros",
+                    "Biscoitos"
+                ],
+                "_id": "1721092986714x189126332198738430",
+                "como armazenar": "Despensa: Embalagem original bem fechada, local fresco e seco. Durabilidade: Verificar embalagem",
+                "demanda": 0,
+                "Created By": "admin_user_levee-delivery_test"
+            },
+            {
+                "descriçao": "Biscoito amanteigado tradicional da culinária mineira, com sabor suave e delicado, da marca Fornada de Minas. Usos: Consumir como acompanhamento para café ou chá.",
+                "preço por kg": 7.99,
+                "cod": "001924",
+                "preço antigo": 7.99,
+                "Modified Date": "2025-12-27T13:24:49.531Z",
+                "tipo_unidade": "PC",
+                "info nutricional": " ",
+                "preço novo": 16.39,
+                "demanda": 0,
+                "visivel": true,
+                "peso/und": "unidade",
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1724108284989x584199133655796200/1924.jpg"
+                ],
+                "ean": "7898929337405",
+                "Created By": "admin_user_levee-delivery_test",
+                "nome": "Biscoito Nata Da Vo Fornada De Minas",
+                "categorias_produto": [
+                    "Outros",
+                    "Biscoitos"
+                ],
+                "_id": "1721092986715x181386438832291650",
+                "desconto": -105.131414267835,
+                "como armazenar": "Despensa: Embalagem original bem fechada, local fresco e seco. Durabilidade: Verificar embalagem",
+                "Created Date": "2024-07-16T01:23:06.715Z",
+                "peso por unidade": 250,
+                "estoque": 99983
+            },
+            {
+                "descriçao": "Biscoito de polvilho com queijo, da marca Fornalha de Minas, em formato de palito. Usos: Consumir como acompanhamento para café ou chá.",
+                "Modified Date": "2026-02-20T19:16:38.963Z",
+                "Created By": "admin_user_levee-delivery_test",
+                "categorias_produto": [
+                    "Outros",
+                    "Biscoitos"
+                ],
+                "desconto": -60.1001669449082,
+                "nome": "Biscoito Palito Fornalha De Minas Queijo 100g",
+                "ean": "7898929337016",
+                "estoque": 99949,
+                "tipo_unidade": "PC",
+                "peso por unidade": 250,
+                "relacionados": [
+                    "1721092986720x108551660235184370",
+                    "1721092986722x526373048174003650",
+                    "1721092986724x785321032167110900",
+                    "1721092986725x945627969886532600"
+                ],
+                "qtd por unidade": "100g",
+                "como armazenar": "Despensa: Embalagem original bem fechada, local fresco e seco. Durabilidade: Verificar embalagem",
+                "info nutricional": " ",
+                "preço novo": 9.59,
+                "peso/und": "unidade",
+                "_id": "1721092986716x575847810801961600",
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1724108273141x114009874612703620/1260.jpg"
+                ],
+                "preço antigo": 5.99,
+                "cod": "001260",
+                "demanda": 4,
+                "Created Date": "2024-07-16T01:23:06.716Z",
+                "visivel": true
+            },
+            {
+                "_id": "1721092986718x705957655008919900",
+                "como armazenar": "Despensa: Embalagem original bem fechada, local fresco e seco. Durabilidade: Verificar embalagem",
+                "nome": "Biscoito Mesclado Chocolate 300g",
+                "preço novo": 16.39,
+                "qtd por unidade": "300g",
+                "Created By": "admin_user_levee-delivery_test",
+                "cod": "000422",
+                "visivel": true,
+                "peso/und": "unidade",
+                "Modified Date": "2026-02-26T00:49:53.634Z",
+                "tipo_unidade": "PC",
+                "ean": "7898929337368",
+                "demanda": 1,
+                "Created Date": "2024-07-16T01:23:06.718Z",
+                "preço antigo": 8.49,
+                "categorias_produto": [
+                    "Outros",
+                    "Biscoitos"
+                ],
+                "estoque": 99976,
+                "relacionados": [
+                    "1721092727401x184291787466885900",
+                    "1721092986697x941517756079329500",
+                    "1721092986707x368366521634559740",
+                    "1721092986709x457506035361721100",
+                    "1721092986713x645903983218701200",
+                    "1721092986741x207182524082528260",
+                    "1721092986745x278547623846139520"
+                ],
+                "peso por unidade": 300,
+                "descriçao": "Biscoito amanteigado com gotas de chocolate. Usos: Consumir como sobremesa ou acompanhamento para café ou chá.",
+                "desconto": -93.0506478209658,
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1740146351859x126696486618266270/download%20%2848%29.jpg"
+                ]
+            },
+            {
+                "Modified Date": "2026-01-01T21:49:39.692Z",
+                "preço novo": 9.59,
+                "descriçao": "Biscoito de polvilho tradicional, da marca Fornalha de Minas, em formato de palito. Usos: Consumir como acompanhamento para café ou chá.",
+                "como armazenar": "Despensa: Embalagem original bem fechada, local fresco e seco. Durabilidade: Verificar embalagem",
+                "qtd por unidade": "100g",
+                "preço antigo": 5.99,
+                "peso por unidade": 100,
+                "ean": "0000000000519",
+                "demanda": 0,
+                "visivel": true,
+                "_id": "1721092986720x108551660235184370",
+                "Created Date": "2024-07-16T01:23:06.720Z",
+                "tipo_unidade": "PC",
+                "nome": "Biscoito Palito Fornalha De Minas 100g",
+                "estoque": 99995,
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1727123191514x440946811952166660/20240831_161331.png"
+                ],
+                "cod": "000426",
+                "relacionados": [
+                    "1721092986716x575847810801961600",
+                    "1721092986722x526373048174003650",
+                    "1721092986724x785321032167110900",
+                    "1721092986725x945627969886532600"
+                ],
+                "Created By": "admin_user_levee-delivery_test",
+                "categorias_produto": [
+                    "Outros",
+                    "Biscoitos"
+                ],
+                "desconto": -60.1001669449082,
+                "peso/und": "unidade"
+            },
+            {
+                "Created Date": "2024-07-16T01:23:06.722Z",
+                "qtd por unidade": "100g",
+                "_id": "1721092986722x526373048174003650",
+                "categorias_produto": [
+                    "Outros",
+                    "Biscoitos"
+                ],
+                "cod": "001826",
+                "peso/und": "unidade",
+                "demanda": 2,
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1724108284005x671423437384758000/1826.jpg"
+                ],
+                "nome": "Biscoito Palito Parmesão -So Mineiro 100g",
+                "preço antigo": 9.99,
+                "Modified Date": "2026-03-03T21:52:03.205Z",
+                "estoque": 99960,
+                "preço novo": 9.99,
+                "tipo_unidade": "PC",
+                "como armazenar": "Despensa: Embalagem original bem fechada, local fresco e seco. Durabilidade: Verificar embalagem",
+                "Created By": "admin_user_levee-delivery_test",
+                "relacionados": [
+                    "1721092986716x575847810801961600",
+                    "1721092986720x108551660235184370",
+                    "1721092986724x785321032167110900",
+                    "1721092986725x945627969886532600"
+                ],
+                "ean": "7898902007523",
+                "desconto": 0,
+                "visivel": true,
+                "descriçao": "Biscoito de polvilho com queijo parmesão, da marca Só Mineiro, em formato de palito. Usos: Consumir como acompanhamento para café ou chá."
+            },
+            {
+                "estoque": 99961,
+                "categorias_produto": [
+                    "Outros",
+                    "Biscoitos"
+                ],
+                "tipo_unidade": "PC",
+                "_id": "1721092986724x785321032167110900",
+                "preço antigo": 9.99,
+                "como armazenar": "Despensa: Embalagem original bem fechada, local fresco e seco. Durabilidade: Verificar embalagem",
+                "desconto": 0,
+                "visivel": true,
+                "relacionados": [
+                    "1721092986716x575847810801961600",
+                    "1721092986720x108551660235184370",
+                    "1721092986722x526373048174003650",
+                    "1721092986725x945627969886532600"
+                ],
+                "descriçao": "Biscoito de polvilho tradicional, da marca Só Mineiro, em formato de palito. Usos: Consumir como acompanhamento para café ou chá.",
+                "cod": "001825",
+                "Created Date": "2024-07-16T01:23:06.724Z",
+                "peso/und": "unidade",
+                "ean": "7898902007172",
+                "preço novo": 9.99,
+                "Modified Date": "2026-03-03T11:43:36.467Z",
+                "Created By": "admin_user_levee-delivery_test",
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1724108283772x751235942355304100/1825.jpg"
+                ],
+                "qtd por unidade": "150g",
+                "demanda": 8,
+                "nome": "Biscoito Palito Mineiro-So Mineiro 150g"
+            },
+            {
+                "estoque": 99981,
+                "qtd por unidade": "120g",
+                "relacionados": [
+                    "1721092986716x575847810801961600",
+                    "1721092986720x108551660235184370",
+                    "1721092986722x526373048174003650",
+                    "1721092986724x785321032167110900"
+                ],
+                "visivel": true,
+                "demanda": 4,
+                "preço antigo": 5.99,
+                "Modified Date": "2026-02-03T19:14:33.910Z",
+                "descriçao": "Biscoito de polvilho tradicional, da marca Fornalha de Minas, em formato de palito. Usos: Consumir como acompanhamento para café ou chá.",
+                "info nutricional": " ",
+                "tipo_unidade": "PC",
+                "Created By": "admin_user_levee-delivery_test",
+                "como armazenar": "Despensa: Embalagem original bem fechada, local fresco e seco. Durabilidade: Verificar embalagem",
+                "desconto": -60.1001669449082,
+                "preço novo": 9.59,
+                "cod": "001267",
+                "nome": "Biscoito Palito Polvilho Fornalha De Minas 120g",
+                "Created Date": "2024-07-16T01:23:06.725Z",
+                "peso/und": "unidade",
+                "ean": "7898929337092",
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1724108274135x224212730435525470/1267.jpg"
+                ],
+                "categorias_produto": [
+                    "Outros",
+                    "Biscoitos"
+                ],
+                "_id": "1721092986725x945627969886532600",
+                "peso por unidade": 250
+            },
+            {
+                "qtd por unidade": "300g",
+                "descriçao": "Biscoito tradicional com sabor amanteigado, que derrete na boca, da marca Só Mineiro. Usos: Consumir como acompanhamento para café ou chá.",
+                "peso/und": "unidade",
+                "demanda": 3,
+                "ean": "7898676160363",
+                "estoque": 99965,
+                "Created Date": "2024-07-16T01:23:06.727Z",
+                "nome": "Biscoito Quebra Quebra -So Mineiro 300g",
+                "visivel": true,
+                "preço antigo": 8.99,
+                "relacionados": [
+                    "1721092986732x237889664254192540"
+                ],
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1727123167299x797264417173972500/20240831_161127.png"
+                ],
+                "tipo_unidade": "PC",
+                "Created By": "admin_user_levee-delivery_test",
+                "como armazenar": "Despensa: Embalagem original bem fechada, local fresco e seco. Durabilidade: Verificar embalagem",
+                "desconto": 0,
+                "cod": "001840",
+                "preço novo": 8.99,
+                "categorias_produto": [
+                    "Outros",
+                    "Biscoitos"
+                ],
+                "Modified Date": "2026-03-02T16:08:32.101Z",
+                "_id": "1721092986727x255459961706374200"
+            },
+            {
+                "cod": "001293",
+                "preço novo": 19.19,
+                "info nutricional": "0",
+                "como armazenar": "Despensa: Embalagem original bem fechada, local fresco e seco. Durabilidade: Verificar embalagem",
+                "peso por unidade": 300,
+                "desconto": -47.7290223248653,
+                "peso/und": "unidade",
+                "estoque": 99974,
+                "visivel": true,
+                "demanda": 3,
+                "tipo_unidade": "PC",
+                "relacionados": [
+                    "1721092986727x255459961706374200"
+                ],
+                "descriçao": "Biscoito tradicional com sabor amanteigado, que derrete na boca. Usos: Consumir como acompanhamento para café ou chá.",
+                "Modified Date": "2026-02-10T17:32:39.257Z",
+                "_id": "1721092986732x237889664254192540",
+                "ean": "7898929337306",
+                "nome": "Biscoito Quebra Quebra 400g",
+                "categorias_produto": [
+                    "Outros",
+                    "Biscoitos"
+                ],
+                "Created Date": "2024-07-16T01:23:06.732Z",
+                "preço antigo": 12.99,
+                "qtd por unidade": "400g",
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1724108274254x180326215678510820/1293.jpg"
+                ],
+                "Created By": "admin_user_levee-delivery_test"
+            },
+            {
+                "como armazenar": "Despensa: Embalagem original bem fechada, local fresco e seco. Durabilidade: Verificar embalagem",
+                "visivel": false,
+                "preço antigo": 8.99,
+                "preço novo": 8.99,
+                "ean": "7898676160387",
+                "demanda": 0,
+                "Modified Date": "2025-05-21T17:13:00.455Z",
+                "Created Date": "2024-07-16T01:23:06.733Z",
+                "tipo_unidade": "PC",
+                "Created By": "admin_user_levee-delivery_test",
+                "descriçao": "Biscoito tradicional da marca Só Mineiro, com sabor levemente adocicado. Usos: Consumir como acompanhamento para café ou chá.",
+                "peso/und": "unidade",
+                "nome": "Biscoito Quero Mais Sô Mineiro 300g",
+                "categorias_produto": [
+                    "Outros",
+                    "Biscoitos"
+                ],
+                "_id": "1721092986733x921306519062810200",
+                "desconto": 0,
+                "estoque": 100000,
+                "qtd por unidade": "300g",
+                "cod": "001838"
+            },
+            {
+                "categorias_produto": [
+                    "Outros",
+                    "Biscoitos"
+                ],
+                "visivel": true,
+                "nome": "Biscoito Papa Ovo Fornalha De Minas 300g",
+                "peso por unidade": 300,
+                "_id": "1721092986734x864655976370354300",
+                "qtd por unidade": "300g",
+                "ean": "0000000000537",
+                "Modified Date": "2026-01-01T21:49:39.117Z",
+                "cod": "000446",
+                "demanda": 2,
+                "preço novo": 19.59,
+                "Created By": "admin_user_levee-delivery_test",
+                "preço antigo": 8.99,
+                "como armazenar": "Despensa: Embalagem original bem fechada, local fresco e seco. Durabilidade: Verificar embalagem",
+                "Created Date": "2024-07-16T01:23:06.734Z",
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1724108267384x583072921033842200/446.jpg"
+                ],
+                "peso/und": "unidade",
+                "desconto": -117.908787541713,
+                "estoque": 99988,
+                "tipo_unidade": "PC",
+                "descriçao": "Biscoito amanteigado tradicional da culinária mineira, com textura leve e sabor delicado, da marca Fornada de Minas. Usos: Consumir como acompanhamento para café ou chá."
+            },
+            {
+                "Created Date": "2024-07-16T01:23:06.735Z",
+                "ean": "0000000002882",
+                "visivel": true,
+                "nome": "Biscoito Queijo Quitanda 300g",
+                "descriçao": "Biscoito de queijo com textura crocante. Usos: Consumir como aperitivo ou acompanhamento para café ou chá.",
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1724108276540x813336971382603400/1411.jpg"
+                ],
+                "peso/und": "unidade",
+                "Modified Date": "2026-02-27T15:33:32.314Z",
+                "demanda": 0,
+                "preço antigo": 15.99,
+                "cod": "001411",
+                "categorias_produto": [
+                    "Outros",
+                    "Biscoitos"
+                ],
+                "preço novo": 18.99,
+                "Created By": "admin_user_levee-delivery_test",
+                "qtd por unidade": "300g",
+                "estoque": 99984,
+                "desconto": -18.7617260787992,
+                "como armazenar": "Despensa: Embalagem original bem fechada, local fresco e seco. Durabilidade: Verificar embalagem",
+                "tipo_unidade": "PC",
+                "relacionados": [
+                    "1721092989443x275797664959629440"
+                ],
+                "_id": "1721092986735x598836026994691300",
+                "peso por unidade": 300
+            },
+            {
+                "ean": "0000000002899",
+                "tipo_unidade": "PC",
+                "preço novo": 17.99,
+                "como armazenar": "Despensa: Embalagem original bem fechada, local fresco e seco. Durabilidade: Verificar embalagem",
+                "preço antigo": 18.99,
+                "demanda": 14,
+                "Created Date": "2024-07-16T01:23:06.737Z",
+                "desconto": 5.26592943654555,
+                "descriçao": "Biscoito Tareco",
+                "cod": "165199",
+                "em oferta": false,
+                "Created By": "admin_user_levee-delivery_test",
+                "nome": "Biscoito Tareco 300g",
+                "peso por unidade": 300,
+                "qtd por unidade": "300g",
+                "peso/und": "unidade",
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1724108277482x238132177168904670/1412.jpg"
+                ],
+                "visivel": true,
+                "categorias_produto": [
+                    "Outros",
+                    "Biscoitos"
+                ],
+                "_id": "1721092986737x428530028184610940",
+                "estoque": 99868,
+                "Modified Date": "2026-02-27T06:02:28.709Z",
+                "relacionados": [
+                    "1721092986740x214105407424454160"
+                ]
+            },
+            {
+                "desconto": 0,
+                "Modified Date": "2025-12-27T11:47:20.831Z",
+                "peso por unidade": 300,
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1727123135881x461724591857367360/20240831_161429.png"
+                ],
+                "ean": "7898929337238",
+                "visivel": false,
+                "cod": "001297",
+                "peso/und": "unidade",
+                "demanda": 1,
+                "_id": "1721092986739x792678547515966000",
+                "estoque": -99978,
+                "Created By": "admin_user_levee-delivery_test",
+                "categorias_produto": [
+                    "Outros",
+                    "Biscoitos"
+                ],
+                "nome": "Biscoito Rosquinha De Canela Fornada De Minas 300g",
+                "Created Date": "2024-07-16T01:23:06.739Z",
+                "preço novo": 7.99,
+                "descriçao": "Biscoito em formato de rosquinha, com aroma e sabor de canela, da marca Fornada de Minas. Usos: Consumir como acompanhamento para café ou chá.",
+                "qtd por unidade": "300g",
+                "como armazenar": "Despensa: Embalagem original bem fechada, local fresco e seco. Durabilidade: Verificar embalagem",
+                "preço antigo": 7.99,
+                "tipo_unidade": "PC"
+            },
+            {
+                "preço antigo": 9.99,
+                "cod": "000448",
+                "categorias_produto": [
+                    "Outros",
+                    "Biscoitos"
+                ],
+                "estoque": 100000,
+                "descriçao": "Biscoito tradicional com coco ralado, que confere sabor e textura. Usos: Consumir como acompanhamento para café ou chá.",
+                "tipo_unidade": "PC",
+                "qtd por unidade": "300g",
+                "nome": "Biscoito Tareco Amanteigado De Coco 300g",
+                "Modified Date": "2025-05-21T17:13:00.466Z",
+                "ean": "7898929337290",
+                "Created By": "admin_user_levee-delivery_test",
+                "visivel": true,
+                "peso/und": "unidade",
+                "desconto": 0,
+                "_id": "1721092986740x214105407424454160",
+                "Created Date": "2024-07-16T01:23:06.740Z",
+                "demanda": 0,
+                "como armazenar": "Despensa: Embalagem original bem fechada, local fresco e seco. Durabilidade: Verificar embalagem",
+                "relacionados": [
+                    "1721092986737x428530028184610940"
+                ],
+                "preço novo": 9.99
+            },
+            {
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1724108265318x504822705599332600/419.jpg"
+                ],
+                "tipo_unidade": "PC",
+                "como armazenar": "Despensa: Embalagem original bem fechada, local fresco e seco. Durabilidade: Verificar embalagem",
+                "nome": "Bisocoito Florzinha 300g",
+                "qtd por unidade": "300g",
+                "relacionados": [
+                    "1721092727401x184291787466885900",
+                    "1721092986697x941517756079329500",
+                    "1721092986707x368366521634559740",
+                    "1721092986709x457506035361721100",
+                    "1721092986713x645903983218701200",
+                    "1721092986718x705957655008919900",
+                    "1721092986745x278547623846139520"
+                ],
+                "cod": "000419",
+                "Created By": "admin_user_levee-delivery_test",
+                "peso/und": "unidade",
+                "preço antigo": 9.99,
+                "preço novo": 9.99,
+                "visivel": true,
+                "_id": "1721092986741x207182524082528260",
+                "estoque": 99944,
+                "Modified Date": "2026-02-27T13:25:50.212Z",
+                "categorias_produto": [
+                    "Outros",
+                    "Biscoitos"
+                ],
+                "descriçao": "Biscoito tradicional com sabor amanteigado e textura levemente crocante. Usos: Consumir como acompanhamento para café ou chá.",
+                "ean": "0000000000512",
+                "demanda": 7,
+                "desconto": 0,
+                "Created Date": "2024-07-16T01:23:06.741Z"
+            },
+            {
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1727123303482x972915127141895700/20240831_161443.png"
+                ],
+                "categorias_produto": [
+                    "Outros"
+                ],
+                "relacionados": [
+                    "1721092986946x263466390089168060"
+                ],
+                "visivel": true,
+                "Created Date": "2024-07-16T01:23:06.744Z",
+                "nome": "Bolinha De Bacon 150g Fornada de Minas",
+                "preço novo": 3.99,
+                "tipo_unidade": "PC",
+                "cod": "001809",
+                "ean": "7898160620328",
+                "demanda": 6,
+                "descriçao": "Salgado preparado com massa leve e recheio de bacon. Usos: Consumir como aperitivo ou lanche.",
+                "_id": "1721092986744x694067930879026700",
+                "Modified Date": "2026-01-11T23:41:45.984Z",
+                "qtd por unidade": "150g",
+                "estoque": 99985,
+                "desconto": 0,
+                "peso por unidade": 150,
+                "peso/und": "unidade",
+                "como armazenar": "Geladeira: Após aberto, consumir em até 3 dias. Durabilidade: Verificar embalagem",
+                "Created By": "admin_user_levee-delivery_test",
+                "preço antigo": 3.99
+            },
+            {
+                "Modified Date": "2025-12-27T10:40:13.005Z",
+                "Created By": "admin_user_levee-delivery_test",
+                "nome": "Biscoito Tentador 300g",
+                "tipo_unidade": "PC",
+                "cod": "000449",
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1724108267481x978468542676744000/449.jpg"
+                ],
+                "relacionados": [
+                    "1721092727401x184291787466885900",
+                    "1721092986697x941517756079329500",
+                    "1721092986707x368366521634559740",
+                    "1721092986709x457506035361721100",
+                    "1721092986713x645903983218701200",
+                    "1721092986718x705957655008919900",
+                    "1721092986741x207182524082528260"
+                ],
+                "peso/und": "unidade",
+                "ean": "0000000000540",
+                "categorias_produto": [
+                    "Outros",
+                    "Biscoitos"
+                ],
+                "demanda": 0,
+                "desconto": -50.0500500500501,
+                "visivel": true,
+                "Created Date": "2024-07-16T01:23:06.746Z",
+                "descriçao": "Biscoito com sabor marcante de leite, ideal para acompanhar um café. Usos: Consumir como acompanhamento para café ou chá.",
+                "peso por unidade": 300,
+                "como armazenar": "Despensa: Embalagem original bem fechada, local fresco e seco. Durabilidade: Verificar embalagem",
+                "estoque": 99995,
+                "preço novo": 14.99,
+                "_id": "1721092986745x278547623846139520",
+                "qtd por unidade": "300g",
+                "preço antigo": 9.99
+            },
+            {
+                "Modified Date": "2026-02-24T22:50:42.428Z",
+                "preço antigo": 3.99,
+                "visivel": true,
+                "demanda": 10,
+                "ean": "7898929337443",
+                "desconto": -50.125313283208,
+                "qtd por unidade": "110g",
+                "cod": "001281",
+                "descriçao": "Biscoito fino e crocante com sabor de queijo. Usos: Consumir como aperitivo.",
+                "tipo_unidade": "PC",
+                "peso por unidade": 110,
+                "nome": "Biscoito Torradinha De Queijo 110g",
+                "como armazenar": "Despensa: Embalagem original bem fechada, local fresco e seco. Durabilidade: Verificar embalagem",
+                "Created By": "admin_user_levee-delivery_test",
+                "peso/und": "unidade",
+                "categorias_produto": [
+                    "Outros",
+                    "Biscoitos"
+                ],
+                "preço novo": 5.99,
+                "Created Date": "2024-07-16T01:23:06.933Z",
+                "estoque": 99856,
+                "_id": "1721092986933x850709701635548900",
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1727123237821x921610968442178700/20240831_161343.png"
+                ]
+            },
+            {
+                "_id": "1721092986934x793832819419144600",
+                "visivel": true,
+                "estoque": 99975,
+                "Created By": "admin_user_levee-delivery_test",
+                "ean": "7898676160585",
+                "nome": "Biscoito Tomate E Manjericão So Mineiro 100g",
+                "como armazenar": "Despensa: Embalagem original bem fechada, local fresco e seco. Durabilidade: Verificar embalagem",
+                "qtd por unidade": "100g",
+                "preço antigo": 7.99,
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1741798776565x497078814594618750/S%C3%94%20MINEIO%20TOMATE%20E%20MANJERIC%C3%83O%20100G.JPG"
+                ],
+                "categorias_produto": [
+                    "Outros",
+                    "Biscoitos"
+                ],
+                "desconto": 0,
+                "Created Date": "2024-07-16T01:23:06.934Z",
+                "tipo_unidade": "PC",
+                "demanda": 1,
+                "descriçao": "Biscoito salgado com tomate seco e manjericão, da marca Só Mineiro. Usos: Consumir como aperitivo.",
+                "preço novo": 7.99,
+                "peso/und": "unidade",
+                "Modified Date": "2026-02-12T18:35:49.905Z",
+                "cod": "002574",
+                "peso por unidade": 100
+            },
+            {
+                "Modified Date": "2025-05-21T17:13:00.483Z",
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1719841319236x625336264408567600/BUCHA%20VEGETAL.jfif"
+                ],
+                "categorias_produto": [
+                    "Outros"
+                ],
+                "como armazenar": "Temperatura ambiente: Local seco e arejado. Durabilidade: Indeterminado",
+                "_id": "1721092986935x264552421001509570",
+                "cod": "000768",
+                "demanda": 0,
+                "nome": "Bucha Vegetal Orgânica 50g",
+                "preço novo": 11.99,
+                "tipo_unidade": "UN",
+                "info nutricional": "Por 100g (crua):\n- Calorias: 15kcal\n- Carboidratos: 4g\n- Fibra: 2g\n- Proteína: 1g\n- Gordura: 0.2g\nVitaminas:\n- Vitamina C: 13mg (14% VD)\n- Riboflavina: 0.1mg (6% VD)\n- Zinco: 0.4mg (5% VD)",
+                "desconto": 0,
+                "visivel": true,
+                "Created By": "admin_user_levee-delivery_test",
+                "preço antigo": 11.99,
+                "Created Date": "2024-07-16T01:23:06.935Z",
+                "peso/und": "unidade",
+                "peso por unidade": 50,
+                "estoque": 100000,
+                "ean": "0000000001001",
+                "descriçao": "Esponja vegetal natural e biodegradável, ideal para lavar louças e limpeza em geral. Usos: Substituir as esponjas sintéticas, reduzindo o impacto ambiental."
+            },
+            {
+                "desconto": -83.4724540901503,
+                "peso por unidade": 200,
+                "categorias_produto": [
+                    "Verduras"
+                ],
+                "preço novo": 10.99,
+                "visivel": false,
+                "descriçao": "Vegetal da mesma família da couve-flor, rico em vitaminas C, A e K. Originário da região do Mediterrâneo. Receitas: Saladas, refogados, suflês, tortas salgadas. Usos: Consumir cozido ou no vapor.",
+                "_id": "1721092986936x500474434325945540",
+                "peso/und": "unidade",
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1719841206160x511031798268308160/BROCOLIS%20COMUM.jfif"
+                ],
+                "demanda": 23,
+                "ean": "0000000000022",
+                "tipo_unidade": "BJ",
+                "Created Date": "2024-07-16T01:23:06.936Z",
+                "Modified Date": "2026-02-27T15:55:41.170Z",
+                "Created By": "admin_user_levee-delivery_test",
+                "preço antigo": 5.99,
+                "estoque": 99929,
+                "relacionados": [
+                    "1721092986945x507929676975158900"
+                ],
+                "ordem_prateleira": 118,
+                "como armazenar": "Geladeira: Em saco plástico. Durabilidade: 3-5 dias",
+                "nome": "Brócolis Comum 200g",
+                "cod": "000024",
+                "info nutricional": "Por 100g (cozido):\n- Calorias: 34kcal\n- Carboidratos: 7g\n- Açúcar: 2g\n- Fibra: 3g\n- Proteína: 3g\n- Gordura: 0.4g\nVitaminas:\n- Vitamina C: 89mg (99% VD)\n- Vitamina K: 101mcg (84% VD)\n- Vitamina A: 623 UI (12% VD)\n- Folato: 63mcg (16% VD)\nMinerais:\n- Potássio: 316mg (9% VD)"
+            },
+            {
+                "demanda": 243,
+                "categorias_produto": [
+                    "Verduras"
+                ],
+                "_id": "1721092986945x507929676975158900",
+                "peso por unidade": 200,
+                "Created Date": "2024-07-16T01:23:06.945Z",
+                "como armazenar": "Geladeira: Em saco plástico. Durabilidade: 3-5 dias",
+                "peso/und": "unidade",
+                "Modified Date": "2026-03-04T17:08:29.791Z",
+                "cod": "000026",
+                "preço novo": 12.99,
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1736176453681x306390229266859650/20241205_103040.JPG"
+                ],
+                "relacionados": [
+                    "1721092986936x500474434325945540"
+                ],
+                "preço antigo": 7.99,
+                "nome": "Brócolis Ninja Higienizado 200g",
+                "estoque": 99171,
+                "desconto": -62.57822277847309,
+                "descriçao": "Variedade de brócolis com sabor mais adocicado e textura mais crocante. Receitas: Saladas, refogados, suflês, acompanhamento. Usos: Consumir cru, cozido no vapor ou refogado.",
+                "visivel": true,
+                "Created By": "admin_user_levee-delivery_test",
+                "ean": "0000000000023",
+                "tipo_unidade": "BJ"
+            },
+            {
+                "como armazenar": "Despensa: Embalagem original bem fechada, local fresco e seco. Durabilidade: Verificar embalagem",
+                "demanda": 6,
+                "relacionados": [
+                    "1721092986744x694067930879026700"
+                ],
+                "ean": "0000000000525",
+                "Created Date": "2024-07-16T01:23:06.946Z",
+                "descriçao": "Salgado tradicional da culinária mineira, com massa leve e recheio de bacon, da marca Fornada de Minas. Usos: Consumir como aperitivo ou lanche.",
+                "tipo_unidade": "PC",
+                "Modified Date": "2025-10-23T15:01:40.432Z",
+                "qtd por unidade": "150g",
+                "Created By": "admin_user_levee-delivery_test",
+                "_id": "1721092986946x263466390089168060",
+                "preço novo": 3.99,
+                "nome": "Bolinha De Bacon Fornada De Minas 150g",
+                "preço antigo": 3.99,
+                "estoque": 99992,
+                "visivel": false,
+                "cod": "000434",
+                "peso/und": "unidade",
+                "categorias_produto": [
+                    "Outros"
+                ],
+                "desconto": 0,
+                "peso por unidade": 150,
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1724108266392x110968312262068830/434.jpg"
+                ]
+            },
+            {
+                "ean": "7896005800362",
+                "Modified Date": "2025-10-23T15:03:16.845Z",
+                "estoque": -99999,
+                "descriçao": "Café torrado e moído na hora, da marca 3 Corações, garantindo frescor e sabor. Usos: Preparar café.",
+                "preço antigo": 10.99,
+                "categorias_produto": [
+                    "Outros"
+                ],
+                "demanda": 1,
+                "_id": "1721092986947x100798111744797140",
+                "peso/und": "unidade",
+                "qtd por unidade": "250g",
+                "preço novo": 14.99,
+                "visivel": false,
+                "nome": "Café Torrado E Moído 3 Corações 250g",
+                "cod": "002550",
+                "tipo_unidade": "PC",
+                "como armazenar": "Despensa: Embalagem original bem fechada, local fresco e seco. Durabilidade: Verificar embalagem",
+                "relacionados": [
+                    "1721092986954x593445936625194300",
+                    "1721092986951x387556431182095360"
+                ],
+                "Created Date": "2024-07-16T01:23:06.947Z",
+                "desconto": 0,
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1724108290365x333107051930876520/2550.jpg"
+                ],
+                "Created By": "admin_user_levee-delivery_test",
+                "peso por unidade": 250
+            },
+            {
+                "ean": "7898929337115",
+                "preço novo": 12.99,
+                "_id": "1721092986948x317979698928613440",
+                "como armazenar": "Despensa: Embalagem original bem fechada, local fresco e seco. Durabilidade: Verificar embalagem",
+                "demanda": 0,
+                "Modified Date": "2025-05-21T17:13:00.495Z",
+                "qtd por unidade": "300g",
+                "Created Date": "2024-07-16T01:23:06.948Z",
+                "visivel": true,
+                "preço antigo": 12.99,
+                "categorias_produto": [
+                    "Outros",
+                    "Biscoitos"
+                ],
+                "desconto": 0,
+                "descriçao": "Biscoito de queijo tradicional da culinária mineira, da marca Fornada de Minas. Usos: Consumir como acompanhamento para café ou chá.",
+                "Created By": "admin_user_levee-delivery_test",
+                "estoque": 100000,
+                "tipo_unidade": "PC",
+                "peso/und": "unidade",
+                "nome": "Biscoito Caipirão De Queijo Fornada De Minas 300g",
+                "cod": "001527"
+            },
+            {
+                "qtd por unidade": "250g",
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1751299898662x946038917894811400/Caf%C3%A9-em-gr%C3%A3os-ou-mo%C3%ADdo_-definindo-prefer%C3%AAncias.jpg"
+                ],
+                "descriçao": "Café tradicional, com aroma e sabor característicos. Usos: Preparar café.",
+                "como armazenar": "https://share.lalamove.com/?BR100250629021625340210030023859947&lang=pt_BR&sign=dcb49dd140598294e7f7d6574489e9f4&source=web",
+                "categorias_produto": [
+                    "Outros"
+                ],
+                "visivel": true,
+                "relacionados": [
+                    "1721092986947x100798111744797140",
+                    "1721092986954x593445936625194300"
+                ],
+                "peso por unidade": 250,
+                "preço antigo": 9.9,
+                "Created Date": "2024-07-16T01:23:06.951Z",
+                "Modified Date": "2026-01-22T20:18:23.326Z",
+                "cod": "000466",
+                "desconto": -172.626262626263,
+                "demanda": 0,
+                "ean": "0000000000570",
+                "tipo_unidade": "PC",
+                "peso/und": "unidade",
+                "Created By": "admin_user_levee-delivery_test",
+                "nome": "Café 250g",
+                "info nutricional": "https://share.lalamove.com/?BR100250629021625340210030023859947&lang=pt_BR&sign=dcb49dd140598294e7f7d6574489e9f4&source=web",
+                "estoque": 99994,
+                "_id": "1721092986951x387556431182095360",
+                "preço novo": 26.99
+            },
+            {
+                "desconto": 0,
+                "tipo_unidade": "UN",
+                "Created By": "admin_user_levee-delivery_test",
+                "demanda": 4,
+                "categorias_produto": [
+                    "Temperos e Condimentos"
+                ],
+                "Modified Date": "2025-10-23T15:02:08.820Z",
+                "descriçao": "Pó obtido a partir da semente do cacau, rico em antioxidantes e com sabor amargo característico. Receitas: Bolos, tortas, bebidas, brigadeiros. Usos: Ingrediente fundamental em diversas receitas doces.",
+                "_id": "1721092986952x267124989228594500",
+                "qtd por unidade": "80g",
+                "ean": "0000000003766",
+                "como armazenar": "Despensa: Pote hermético, local fresco e seco. Durabilidade: 1 ano",
+                "preço novo": 5.99,
+                "visivel": false,
+                "peso por unidade": 80,
+                "peso/und": "unidade",
+                "estoque": -99978,
+                "Created Date": "2024-07-16T01:23:06.952Z",
+                "cod": "08250",
+                "nome": "Cacau Em Pó 80g Saúde Plena",
+                "preço antigo": 5.99,
+                "info nutricional": "Por 2 colheres de sopa (12g):\n- Calorias: 25kcal\n- Gordura Total: 1g\n- Gordura Saturada: 0.5g\n- Carboidratos: 6g\n- Fibra: 3g\n- Açúcar: 1g\n- Proteína: 1g\n- Ferro: 0.7mg (4% VD)\n- Magnésio: 26mg (6% VD)",
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1741795469218x990251468345393300/CACAU%20EM%20P%C3%93%2080G.JPG"
+                ]
+            },
+            {
+                "categorias_produto": [
+                    "Outros"
+                ],
+                "ean": "7896005800027",
+                "desconto": -125.125125125125,
+                "_id": "1721092986954x593445936625194300",
+                "Created Date": "2024-07-16T01:23:06.954Z",
+                "demanda": 8,
+                "preço antigo": 9.99,
+                "peso por unidade": 250,
+                "qtd por unidade": "250g",
+                "descriçao": "Café tradicional da marca 3 Corações, com aroma e sabor intensos. Usos: Preparar café.",
+                "relacionados": [
+                    "1721092986947x100798111744797140",
+                    "1721092986951x387556431182095360"
+                ],
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1719841462406x157400353331508700/CAFE%20%203%20CORTACOES%20250%20GR.jfif"
+                ],
+                "nome": "Café 3 Cortacoes 250g",
+                "Created By": "admin_user_levee-delivery_test",
+                "estoque": 99985,
+                "peso/und": "unidade",
+                "como armazenar": "Despensa: Embalagem original bem fechada, local fresco e seco. Durabilidade: Verificar embalagem",
+                "Modified Date": "2026-01-01T21:49:39.789Z",
+                "visivel": true,
+                "preço novo": 22.49,
+                "cod": "002549",
+                "tipo_unidade": "PC"
+            },
+            {
+                "estoque": 99999,
+                "demanda": 0,
+                "qtd por unidade": "100g",
+                "nome": "Caldo De Peixes 100g Saúde Plena",
+                "desconto": 0,
+                "preço antigo": 5.99,
+                "peso por unidade": 100,
+                "Created By": "admin_user_levee-delivery_test",
+                "tipo_unidade": "UN",
+                "como armazenar": "Geladeira: Após aberto. Durabilidade: Verificar embalagem",
+                "categorias_produto": [
+                    "Temperos e Condimentos"
+                ],
+                "descriçao": "Tempero em cubo com sabor de peixe. Usos: Temperar peixes, frutos do mar, molhos e sopas.",
+                "cod": "019250",
+                "Created Date": "2024-07-16T01:23:06.955Z",
+                "visivel": true,
+                "ean": "0192505300546",
+                "preço novo": 5.99,
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1741795487605x539196727923229950/CALDO%20DE%20PEIXES%20100G.JPG"
+                ],
+                "Modified Date": "2026-02-25T23:27:12.824Z",
+                "relacionados": [
+                    "1721092986957x426489480320466640",
+                    "1721092986957x611380704331401000"
+                ],
+                "peso/und": "unidade",
+                "_id": "1721092986955x762739490955856300"
+            },
+            {
+                "descriçao": "Casca da árvore da canela, utilizada como especiaria em diversos países. Receitas: Bolos, tortas, bebidas quentes, compotas. Usos: Aromatizar e realçar o sabor de bebidas e alimentos, tanto doces quanto salgadas.",
+                "ean": "0000000003612",
+                "peso por unidade": 30,
+                "Created Date": "2024-07-16T01:23:06.956Z",
+                "desconto": 0,
+                "_id": "1721092986956x527971183580410200",
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1719841789092x701537240089837200/CANELA%20CASCA.jfif"
+                ],
+                "Created By": "admin_user_levee-delivery_test",
+                "peso/und": "unidade",
+                "nome": "Canela Casca 30g",
+                "tipo_unidade": "UN",
+                "como armazenar": "Despensa: Pote hermético, local fresco e seco. Durabilidade: 2 anos",
+                "visivel": true,
+                "demanda": 6,
+                "Modified Date": "2026-02-23T11:45:12.965Z",
+                "estoque": 99970,
+                "categorias_produto": [
+                    "Temperos e Condimentos"
+                ],
+                "preço novo": 7.99,
+                "preço antigo": 7.99,
+                "info nutricional": "Por 1 colher de chá (2.6g):\n- Calorias: 6kcal\n- Carboidratos: 2g\n- Fibra: 1g\n- Cálcio: 26mg (3% VD)\n- Ferro: 0.2mg (1% VD)\n- Manganês: 0.6mg (31% VD)",
+                "qtd por unidade": "30g",
+                "cod": "001489"
+            },
+            {
+                "_id": "1721092986957x426489480320466640",
+                "peso por unidade": 100,
+                "qtd por unidade": "100g",
+                "visivel": false,
+                "peso/und": "unidade",
+                "cod": "001440",
+                "descriçao": "Tempero em cubo com sabor de galinha. Usos: Temperar aves, molhos, sopas e arroz.",
+                "demanda": 7,
+                "desconto": 0,
+                "Created Date": "2024-07-16T01:23:06.957Z",
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1719841638087x671911624520595000/CALDO%20DE%20GALINHA%20100G.jfif"
+                ],
+                "como armazenar": "Geladeira: Após aberto. Durabilidade: Verificar embalagem",
+                "ean": "0192505115768",
+                "Created By": "admin_user_levee-delivery_test",
+                "preço antigo": 4.99,
+                "tipo_unidade": "UN",
+                "categorias_produto": [
+                    "Temperos e Condimentos"
+                ],
+                "preço novo": 4.99,
+                "estoque": 99988,
+                "nome": "Caldo De Galinha 100g",
+                "relacionados": [
+                    "1721092986955x762739490955856300",
+                    "1721092986957x611380704331401000"
+                ],
+                "Modified Date": "2025-11-06T00:33:19.192Z"
+            },
+            {
+                "relacionados": [
+                    "1721092986955x762739490955856300",
+                    "1721092986957x426489480320466640"
+                ],
+                "peso por unidade": 100,
+                "qtd por unidade": "100g",
+                "categorias_produto": [
+                    "Temperos e Condimentos"
+                ],
+                "cod": "001534",
+                "peso/und": "unidade",
+                "estoque": 99962,
+                "Created Date": "2024-07-16T01:23:06.957Z",
+                "nome": "Caldo De bacon 100g",
+                "Modified Date": "2026-02-26T13:28:05.918Z",
+                "descriçao": "Tempero em cubo com sabor de carne. Usos: Temperar carnes, molhos, sopas e arroz.",
+                "preço antigo": 4.99,
+                "preço novo": 5.99,
+                "desconto": -20.040080160320638,
+                "tipo_unidade": "UN",
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1719841590277x566139780356074160/CALDO%20DE%20CARNE%20100G.jfif"
+                ],
+                "ean": "0192505115607",
+                "visivel": true,
+                "Created By": "admin_user_levee-delivery_test",
+                "demanda": 7,
+                "como armazenar": "Geladeira: Após aberto. Durabilidade: Verificar embalagem",
+                "_id": "1721092986957x611380704331401000"
+            },
+            {
+                "qtd por unidade": "30g",
+                "ean": "0192505259660",
+                "como armazenar": "Despensa: Pote hermético, local fresco e seco. Durabilidade: 1 ano",
+                "cod": "019250",
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1741796953267x585411071286715500/CAMOMILA%2030G.JPG"
+                ],
+                "_id": "1721092986960x891188959589007500",
+                "tipo_unidade": "UN",
+                "nome": "Camomila  Flor 30g Saúde Plena",
+                "peso por unidade": 30,
+                "Modified Date": "2025-10-23T14:09:26.104Z",
+                "Created Date": "2024-07-16T01:23:06.960Z",
+                "estoque": -99996,
+                "preço antigo": 6.99,
+                "demanda": 5,
+                "categorias_produto": [
+                    "Chás"
+                ],
+                "preço novo": 6.99,
+                "peso/und": "unidade",
+                "desconto": 0,
+                "descriçao": "Flor medicinal conhecida por suas propriedades calmantes. Usos: Preparar chá.",
+                "Created By": "admin_user_levee-delivery_test",
+                "visivel": false
+            },
+            {
+                "nome": "Capim Limão Cidreira 25g",
+                "preço antigo": 3.99,
+                "peso/und": "unidade",
+                "Created Date": "2024-07-16T01:23:06.961Z",
+                "Modified Date": "2025-05-21T17:13:00.525Z",
+                "demanda": 0,
+                "como armazenar": "Despensa: Pote hermético, local fresco e seco. Durabilidade: 1 ano",
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1719841828325x962238400828952200/CAPIM%20LIMAO%20CIDREIRA.jfif"
+                ],
+                "tipo_unidade": "UN",
+                "cod": "001524",
+                "_id": "1721092986961x379651751257476400",
+                "Created By": "admin_user_levee-delivery_test",
+                "visivel": false,
+                "categorias_produto": [
+                    "Chás"
+                ],
+                "qtd por unidade": "25g",
+                "peso por unidade": 25,
+                "ean": "0192505114228",
+                "preço novo": 3.99,
+                "estoque": 99999,
+                "desconto": 0,
+                "descriçao": "Planta medicinal com aroma cítrico e propriedades calmantes. Usos: Preparar chá."
+            },
+            {
+                "Created Date": "2024-07-16T01:23:06.962Z",
+                "cod": "000250",
+                "Created By": "admin_user_levee-delivery_test",
+                "tipo_unidade": "BJ",
+                "preço antigo": 9.99,
+                "_id": "1721092986962x802081499367622100",
+                "nome": "Caqui Bandeja 400g",
+                "desconto": 0,
+                "demanda": 96,
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1719841903514x474908027848537800/CAQUI%20BANDEJA.jfif"
+                ],
+                "Modified Date": "2026-03-04T16:50:33.441Z",
+                "relacionados": [
+                    "1721092986970x502862286846322370"
+                ],
+                "peso por unidade": 400,
+                "info nutricional": "Por 100g:\n- Calorias: 70kcal\n- Carboidratos: 18g\n- Açúcar: 13g\n- Fibra: 3g\n- Proteína: 0.6g\n- Gordura: 0.2g\nVitaminas:\n- Vitamina C: 7mg (8% VD)\n- Vitamina A: 54 UI (1% VD)",
+                "categorias_produto": [
+                    "Frutas",
+                    "Higienizados"
+                ],
+                "descriçao": "Fruta de origem asiática, com polpa macia e doce quando madura. Usos: Consumir fresca, em saladas de frutas ou sobremesas.",
+                "ean": "0000000000234",
+                "como armazenar": "Maturação: Em temperatura ambiente até amolecer. Geladeira: Após maduro. Durabilidade: 3-5 dias (maduro)",
+                "estoque": 99685,
+                "peso/und": "unidade",
+                "visivel": true,
+                "em oferta": false,
+                "preço novo": 9.99
+            },
+            {
+                "demanda": 0,
+                "preço antigo": 8.99,
+                "ean": "7896005809501",
+                "categorias_produto": [
+                    "Bebidas"
+                ],
+                "estoque": 99996,
+                "qtd por unidade": "260ml",
+                "Created By": "admin_user_levee-delivery_test",
+                "nome": "Cappuccino Pronto 3 Corações 260ml",
+                "preço novo": 9.99,
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1719841860526x284299897675242880/CAQPPUCCINO%20PRONTO%203%20CORACOES%20260%20ML.jfif"
+                ],
+                "Created Date": "2024-07-16T01:23:06.963Z",
+                "peso por unidade": 300,
+                "Modified Date": "2026-02-26T00:49:53.982Z",
+                "peso/und": "unidade",
+                "visivel": true,
+                "desconto": 0,
+                "tipo_unidade": "UN",
+                "descriçao": "Bebida pronta à base de café, leite e chocolate, da marca 3 Corações. Usos: Consumir gelado ou quente.",
+                "cod": "002106",
+                "como armazenar": "Despensa: Local fresco e seco, após aberto manter refrigerado. Durabilidade: Verificar embalagem",
+                "_id": "1721092986963x968120021605594800"
+            },
+            {
+                "cod": "000254",
+                "Modified Date": "2026-02-03T11:39:37.617Z",
+                "peso/und": "unidade",
+                "demanda": 96,
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1727788750090x101872195316984110/Carambola.webp"
+                ],
+                "preço antigo": 7.99,
+                "desconto": 12.51564455569462,
+                "categorias_produto": [
+                    "Frutas",
+                    "Higienizados"
+                ],
+                "_id": "1721092986964x251393017753511970",
+                "tipo_unidade": "BJ",
+                "como armazenar": "Geladeira: Na embalagem original. Durabilidade: 1 semana",
+                "relacionados": [
+                    "1721092986971x822195113080540300"
+                ],
+                "visivel": false,
+                "estoque": -99733,
+                "Created By": "admin_user_levee-delivery_test",
+                "preço novo": 6.99,
+                "Created Date": "2024-07-16T01:23:06.964Z",
+                "ean": "0000000000237",
+                "nome": "Carambola Bandeja",
+                "descriçao": "Carambola comercializada em bandeja, garantindo maior frescor e praticidade. Receitas: Saladas de frutas, sucos, geleias, decoração de pratos. Usos: Consumir fresca.",
+                "em oferta": true,
+                "peso por unidade": 100
+            },
+            {
+                "descriçao": "Biscoito de polvilho tradicional da culinária mineira, com formato que se assemelha a dois biscoitos unidos por um recheio, da marca Só Mineiro. Usos: Consumir como acompanhamento para café ou chá.",
+                "qtd por unidade": "300g",
+                "peso/und": "unidade",
+                "estoque": 99979,
+                "categorias_produto": [
+                    "Outros",
+                    "Biscoitos"
+                ],
+                "nome": "Casadinho -So Mineiro 300g",
+                "cod": "078989",
+                "Created Date": "2024-07-16T01:23:06.968Z",
+                "peso por unidade": 300,
+                "desconto": 0,
+                "tipo_unidade": "PC",
+                "Created By": "admin_user_levee-delivery_test",
+                "Modified Date": "2026-02-09T18:13:00.610Z",
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1741799176046x165464282500416220/download.png"
+                ],
+                "preço antigo": 9.99,
+                "como armazenar": "Despensa: Embalagem original bem fechada, local fresco e seco. Durabilidade: Verificar embalagem",
+                "preço novo": 9.99,
+                "_id": "1721092986968x958885115485166700",
+                "visivel": true,
+                "ean": "7898902007127",
+                "demanda": 0
+            },
+            {
+                "Created By": "admin_user_levee-delivery_test",
+                "categorias_produto": [
+                    "Empório"
+                ],
+                "descriçao": "Castanha de caju coberta por uma camada crocante de caramelo. Usos: Consumir como snack ou sobremesa.",
+                "Created Date": "2024-07-16T01:23:06.969Z",
+                "preço antigo": 19.99,
+                "desconto": -25.0125062531266,
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1741791891141x908736132173683600/CASTANHA%20DE%20CAJ%C3%9A%20CARAMELIZADA%20100G.JPG"
+                ],
+                "cod": "002417",
+                "estoque": 99979,
+                "visivel": true,
+                "peso por unidade": 100,
+                "demanda": 4,
+                "nome": "Castanha De Caju Caramelizada  Saúde Plena100g",
+                "peso/und": "unidade",
+                "Modified Date": "2026-03-01T21:07:34.325Z",
+                "tipo_unidade": "UN",
+                "ean": "0192505300812",
+                "_id": "1721092986969x937257831834970200",
+                "como armazenar": "Despensa: Pote hermético, local fresco e seco. Durabilidade: 3 meses",
+                "preço novo": 24.99,
+                "qtd por unidade": "100g"
+            },
+            {
+                "em oferta": true,
+                "preço antigo": 24.99,
+                "Modified Date": "2025-08-29T15:34:12.369Z",
+                "tipo_unidade": "KG",
+                "descriçao": "Variedade de caqui com formato achatado e polpa crocante. Usos: Consumir fresca, em saladas de frutas ou sobremesas.",
+                "como armazenar": "Maturação: Em temperatura ambiente até amolecer. Geladeira: Após maduro. Durabilidade: 1 semana (maduro)",
+                "_id": "1721092986970x502862286846322370",
+                "ean": "0000000000233",
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1719842019400x942985377931727000/CAQUI%20FUYU.jfif"
+                ],
+                "demanda": 21,
+                "visivel": false,
+                "Created By": "admin_user_levee-delivery_test",
+                "preço novo": 16.99,
+                "categorias_produto": [
+                    "Frutas"
+                ],
+                "desconto": 32.0128051220488,
+                "peso por unidade": 215,
+                "cod": "000248",
+                "nome": "Caqui Fuyu 100g",
+                "peso/und": "peso",
+                "estoque": 74520,
+                "relacionados": [
+                    "1721092986962x802081499367622100"
+                ],
+                "Created Date": "2024-07-16T01:23:06.970Z"
+            },
+            {
+                "relacionados": [
+                    "1721092727383x950894641018649600"
+                ],
+                "peso por unidade": 100,
+                "descriçao": "Semente da castanheira-do-pará, rica em selênio e gorduras boas. Receitas: Farofas, bolos, granola. Usos: Consumir in natura como snack ou ingrediente em receitas.",
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1741791923264x171237995892580260/CASTANHA%20DO%20PAR%C3%81%20100G.JPG"
+                ],
+                "desconto": -78.6275911365261,
+                "tipo_unidade": "UN",
+                "Created Date": "2024-07-16T01:23:06.970Z",
+                "preço antigo": 13.99,
+                "cod": "002393",
+                "estoque": 9998,
+                "ean": "0192505115751",
+                "qtd por unidade": "100g",
+                "Created By": "admin_user_levee-delivery_test",
+                "info nutricional": "Por 2 castanhas (14g):\n- Calorias: 98kcal\n- Gordura Total: 10g (15% VD)\n- Gordura Saturada: 2g (9% VD)\n- Gordura Monoinsaturada: 5g\n- Gordura Poli-insaturada: 2g\n- Colesterol: 0mg (0% VD)\n- Sódio: 0mg (0% VD)\n- Carboidratos: 1g (0% VD)\n- Fibra Alimentar: 1g (4% VD)\n- Açúcar: 0g\n- Proteína: 4g (8% VD)\nVitaminas e Minerais:\n- Selênio: 599mcg (856% VD)\n- Cobre: 0.4mg (21% VD)\n- Magnésio: 82mg (21% VD)\n- Manganês: 0.5mg (21% VD)",
+                "categorias_produto": [
+                    "Empório"
+                ],
+                "como armazenar": "Geladeira ou freezer: Pote hermético. Durabilidade: 6 meses (Geladeira), 1 ano (Freezer)",
+                "preço novo": 24.99,
+                "Modified Date": "2026-02-01T13:06:25.866Z",
+                "nome": "Castanha Do Para 100g Saúde Plena",
+                "_id": "1721092986970x820534317414135000",
+                "visivel": true,
+                "demanda": 6,
+                "peso/und": "unidade"
+            },
+            {
+                "como armazenar": "Geladeira: Em saco plástico. Durabilidade: 1 semana",
+                "ean": "0000000000236",
+                "tipo_unidade": "KG",
+                "categorias_produto": [
+                    "Frutas"
+                ],
+                "preço antigo": 12.99,
+                "visivel": false,
+                "Modified Date": "2025-10-23T14:07:53.757Z",
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1719842074184x678404077364124400/CARAMBOLA.jfif"
+                ],
+                "cod": "000252",
+                "Created Date": "2024-07-16T01:23:06.971Z",
+                "demanda": 8,
+                "desconto": 0,
+                "Created By": "admin_user_levee-delivery_test",
+                "peso por unidade": 60,
+                "relacionados": [
+                    "1721092986964x251393017753511970"
+                ],
+                "info nutricional": "Por 100g:\n- Calorias: 31kcal\n- Carboidratos: 8g\n- Açúcar: 4g\n- Fibra: 3g\n- Proteína: 1g\n- Gordura: 0.3g\nVitaminas:\n- Vitamina C: 34mg (38% VD)",
+                "preço novo": 12.99,
+                "peso/und": "peso",
+                "nome": "Carambola",
+                "preço por kg": 7,
+                "estoque": -97660,
+                "_id": "1721092986971x822195113080540300",
+                "descriçao": "Fruta originária da Ásia, com formato de estrela quando cortada. Receitas: Saladas de frutas, sucos, geleias, decoração de pratos. Usos: Consumir fresca."
+            },
+            {
+                "cod": "002513",
+                "desconto": 0,
+                "Created Date": "2024-07-16T01:23:06.973Z",
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1719842368874x549030941806078340/CEBOLA%20EM%20PO.jfif"
+                ],
+                "tipo_unidade": "PC",
+                "peso por unidade": 80,
+                "peso/und": "unidade",
+                "descriçao": "Cebola desidratada e moída, ideal para temperar e finalizar pratos. Receitas: Carnes, molhos, sopas, saladas. Usos: Temperar e realçar o sabor dos alimentos.",
+                "Modified Date": "2026-02-25T23:27:12.545Z",
+                "preço novo": 6.99,
+                "Created By": "admin_user_levee-delivery_test",
+                "ean": "0192505114662",
+                "como armazenar": "Despensa: Pote hermético, local fresco e seco. Durabilidade: 1 ano",
+                "preço antigo": 6.99,
+                "qtd por unidade": "80g",
+                "info nutricional": "Por 1 colher de chá (2.1g):\n- Calorias: 8kcal\n- Carboidratos: 2g\n- Fibra: 0.5g\n- Vitamina C: 1mg (1% VD)",
+                "categorias_produto": [
+                    "Temperos e Condimentos"
+                ],
+                "estoque": 99953,
+                "visivel": true,
+                "demanda": 2,
+                "nome": "Cebola Em Pó 80g",
+                "relacionados": [
+                    "1721092986974x909970730136103300",
+                    "1721092986975x529805476666127100",
+                    "1721092986976x123020820401499760"
+                ],
+                "_id": "1721092986973x103760871213293810"
+            },
+            {
+                "info nutricional": "Por 100g:\n- Calorias: 40kcal\n- Carboidratos: 9g\n- Açúcar: 4g\n- Fibra: 2g\n- Proteína: 1g\n- Gordura: 0.1g\nVitaminas:\n- Vitamina C: 7mg (8% VD)\n- Vitamina B6: 0.1mg (6% VD)\n- Folato: 19mcg (5% VD)",
+                "relacionados": [
+                    "1721092986973x103760871213293810",
+                    "1721092986975x529805476666127100",
+                    "1721092986976x123020820401499760"
+                ],
+                "Created Date": "2024-07-16T01:23:06.974Z",
+                "cod": "000116",
+                "preço novo": 4.99,
+                "peso/und": "peso",
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1719347658678x396805669518363000/Cebola%20Grauda.jpg"
+                ],
+                "Created By": "admin_user_levee-delivery_test",
+                "visivel": true,
+                "como armazenar": "Temperatura ambiente: Local fresco, seco e arejado. Durabilidade: Várias semanas",
+                "preço antigo": 3.99,
+                "demanda": 6040,
+                "peso por unidade": 158,
+                "nome": "Cebola Grauda",
+                "desconto": -25.062656641604,
+                "em oferta": false,
+                "ean": "0000000000105",
+                "tipo_unidade": "KG",
+                "_id": "1721092986974x909970730136103300",
+                "descriçao": "Variedade de cebola de tamanho grande, com sabor forte e marcante. Receitas: Base para molhos, sopas, refogados, carnes. Usos: Utilizada em diferentes preparos, principalmente em receitas salgadas.",
+                "preço por kg": 9.040376953,
+                "categorias_produto": [
+                    "Legumes"
+                ],
+                "estoque": 169346,
+                "Modified Date": "2026-03-04T17:31:43.186Z",
+                "ordem_prateleira": 1
+            },
+            {
+                "como armazenar": "Temperatura ambiente: Local fresco, seco e arejado. Durabilidade: Várias semanas",
+                "peso por unidade": 54,
+                "visivel": true,
+                "estoque": 38119,
+                "Modified Date": "2026-03-04T12:59:52.493Z",
+                "cod": "000119",
+                "preço novo": 2.99,
+                "Created Date": "2024-07-16T01:23:06.975Z",
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1719347597027x186270310650890940/Cebola%20Branca%20Mi%C3%BAda.jpg"
+                ],
+                "descriçao": "Variedade de cebola de tamanho pequeno, ideal para conservas e molhos. Receitas: Conservas, molhos, saladas. Usos: Utilizada em diferentes preparos, principalmente em receitas salgadas.",
+                "ean": "0000000000107",
+                "desconto": 40.0801603206413,
+                "Created By": "admin_user_levee-delivery_test",
+                "tipo_unidade": "KG",
+                "preço por kg": 6.216814159,
+                "categorias_produto": [
+                    "Legumes"
+                ],
+                "demanda": 168,
+                "relacionados": [
+                    "1721092986973x103760871213293810",
+                    "1721092986974x909970730136103300",
+                    "1721092986976x123020820401499760"
+                ],
+                "preço antigo": 4.99,
+                "peso/und": "peso",
+                "_id": "1721092986975x529805476666127100",
+                "nome": "Cebola Miuda"
+            },
+            {
+                "info nutricional": "Por 100g:\n- Calorias: 40kcal\n- Carboidratos: 9g\n- Açúcar: 5g\n- Fibra: 2g\n- Proteína: 1g\n- Gordura: 0.1g\nVitaminas:\n- Vitamina C: 7mg (8% VD)\n- Vitamina B6: 0.1mg (6% VD)\n- Folato: 19mcg (5% VD)",
+                "como armazenar": "Temperatura ambiente: Local fresco, seco e arejado. Durabilidade: 1-2 semanas",
+                "_id": "1721092986976x123020820401499760",
+                "desconto": -250.62656641604,
+                "Created Date": "2024-07-16T01:23:06.976Z",
+                "cod": "000121",
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1719347596783x216752274831320200/Cebola%20%20Roxa%20Kg.jpg"
+                ],
+                "preço por kg": 13.69547855,
+                "demanda": 468,
+                "visivel": true,
+                "ean": "0000000000109",
+                "Modified Date": "2026-03-04T17:30:48.209Z",
+                "nome": "Cebola Roxa",
+                "estoque": 892277,
+                "ordem_prateleira": 2,
+                "preço novo": 13.99,
+                "peso/und": "peso",
+                "Created By": "admin_user_levee-delivery_test",
+                "peso por unidade": 137,
+                "preço antigo": 3.99,
+                "categorias_produto": [
+                    "Legumes"
+                ],
+                "relacionados": [
+                    "1721092986973x103760871213293810",
+                    "1721092986974x909970730136103300",
+                    "1721092986975x529805476666127100"
+                ],
+                "descriçao": "Variedade de cebola com sabor mais suave que a cebola branca. Receitas: Saladas, sanduíches, carnes, conservas. Usos: Utilizada em diferentes preparos, principalmente em receitas salgadas.",
+                "tipo_unidade": "KG"
+            },
+            {
+                "demanda": 0,
+                "visivel": false,
+                "tipo_unidade": "UN",
+                "peso por unidade": 250,
+                "Created By": "admin_user_levee-delivery_test",
+                "como armazenar": "Geladeira: Em saco plástico. Durabilidade: 1 semana",
+                "estoque": 100000,
+                "preço por kg": 6.99,
+                "ean": "0000000000027",
+                "cod": "000031",
+                "nome": "Cebolete",
+                "descriçao": "Erva aromática da mesma família da cebola, com sabor delicado. Receitas: Saladas, omeletes, molhos, sopas. Usos: Utilizar as folhas picadas para finalizar e aromatizar os pratos.",
+                "desconto": 0,
+                "preço novo": 1.99,
+                "peso/und": "peso",
+                "Modified Date": "2025-05-21T17:13:00.551Z",
+                "_id": "1721092986977x229695575508752640",
+                "Created Date": "2024-07-16T01:23:06.977Z",
+                "info nutricional": "Por 100g:\n- Calorias: 30kcal\n- Carboidratos: 7g\n- Proteína: 2g\n- Gordura: 0.5g\nVitaminas:\n- Vitamina K: 207mcg (172% VD)\n- Vitamina C: 29mg (32% VD)\n- Vitamina A: 337 UI (7% VD)",
+                "categorias_produto": [
+                    "Legumes"
+                ],
+                "preço antigo": 1.99
+            },
+            {
+                "nome": "Cebolinha Fatiada (Bandeja) 50g",
+                "como armazenar": "Geladeira: Na embalagem original. Durabilidade: 5-7 dias",
+                "Modified Date": "2026-03-04T12:03:18.426Z",
+                "cod": "000034",
+                "descriçao": "Cebolinha já fatiada e comercializada em bandeja, proporcionando praticidade no preparo das receitas. Receitas: Saladas, temperos, guarnições. Usos: Utilizar as folhas fatiadas para finalizar e aromatizar os pratos.",
+                "_id": "1721092986986x740626711977548300",
+                "Created By": "admin_user_levee-delivery_test",
+                "preço antigo": 6.99,
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1736175737668x277064080019744360/20241205_103113.JPG"
+                ],
+                "peso por unidade": 50,
+                "Created Date": "2024-07-16T01:23:06.986Z",
+                "relacionados": [
+                    "1721092986987x259167540206317380",
+                    "1721092986988x711396609373103500",
+                    "1721092989473x526688367505997700",
+                    "1721092989476x593511464750558200"
+                ],
+                "preço novo": 6.99,
+                "tipo_unidade": "BJ",
+                "ordem_prateleira": 120,
+                "visivel": true,
+                "desconto": 0,
+                "demanda": 48,
+                "categorias_produto": [
+                    "Verduras",
+                    "Higienizados",
+                    "Kit Processados"
+                ],
+                "estoque": 99443,
+                "peso/und": "unidade",
+                "ean": "0000000000029"
+            },
+            {
+                "nome": "Cebolinha Hidropônica 50g",
+                "demanda": 1,
+                "categorias_produto": [
+                    "Verduras"
+                ],
+                "preço antigo": 4.99,
+                "tipo_unidade": "UN",
+                "Modified Date": "2025-10-13T15:34:54.653Z",
+                "relacionados": [
+                    "1721092986986x740626711977548300",
+                    "1721092986988x711396609373103500",
+                    "1721092989473x526688367505997700",
+                    "1721092989476x593511464750558200"
+                ],
+                "peso/und": "unidade",
+                "ean": "7898918560210",
+                "peso por unidade": 50,
+                "descriçao": "Cebolinha cultivada em sistema hidropônico, sem o uso de agrotóxicos no solo. Receitas: Saladas, temperos, guarnições. Usos: Utilizar as folhas picadas para finalizar e aromatizar os pratos.",
+                "_id": "1721092986987x259167540206317380",
+                "Created Date": "2024-07-16T01:23:06.987Z",
+                "como armazenar": "Geladeira: Em saco plástico. Durabilidade: 3 semanas",
+                "cod": "001630",
+                "visivel": false,
+                "estoque": 99998,
+                "preço novo": 4.99,
+                "desconto": 0,
+                "Created By": "admin_user_levee-delivery_test",
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1719842459992x874746439383927400/CEBOLINHA.jfif"
+                ]
+            },
+            {
+                "preço antigo": 1.49,
+                "como armazenar": "Geladeira: Em saco plástico. Durabilidade: 2 semanas",
+                "desconto": -100.671140939597,
+                "peso por unidade": 50,
+                "ordem_prateleira": 122,
+                "categorias_produto": [
+                    "Verduras"
+                ],
+                "estoque": 99409,
+                "demanda": 165,
+                "nome": "Cebolinha 50g",
+                "descriçao": "Vegetal da mesma família da cebola, com sabor suave. Receitas: Saladas, temperos, guarnições. Usos: Utilizar as folhas picadas para finalizar e aromatizar os pratos.",
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1719347658872x104991849736860050/Cebolinha.jpg"
+                ],
+                "tipo_unidade": "UN",
+                "ean": "0000000000028",
+                "Modified Date": "2026-03-04T14:44:49.101Z",
+                "visivel": true,
+                "cod": "000033",
+                "Created By": "admin_user_levee-delivery_test",
+                "peso/und": "unidade",
+                "preço novo": 2.99,
+                "Created Date": "2024-07-16T01:23:06.988Z",
+                "relacionados": [
+                    "1721092986986x740626711977548300",
+                    "1721092986987x259167540206317380",
+                    "1721092989473x526688367505997700",
+                    "1721092989476x593511464750558200"
+                ],
+                "_id": "1721092986988x711396609373103500"
+            },
+            {
+                "categorias_produto": [
+                    "Legumes"
+                ],
+                "desconto": 32.0128051220488,
+                "preço novo": 16.99,
+                "descriçao": "Variedade de cenoura com casca e polpa amareladas, mais comum no Nordeste do Brasil. Possui sabor mais adocicado. Receitas: Saladas, bolos, sucos, sopas. Usos: Consumir crua, cozida ou como ingrediente em receitas.",
+                "preço antigo": 24.99,
+                "relacionados": [
+                    "1721092987000x690516760918444500",
+                    "1721092987001x245961633394384800",
+                    "1721092987002x531252174896769340",
+                    "1721092987003x525677327461880000"
+                ],
+                "tipo_unidade": "KG",
+                "visivel": false,
+                "peso por unidade": 146,
+                "cod": "001018",
+                "Modified Date": "2026-02-19T16:58:13.442Z",
+                "_id": "1721092986989x506078536522165600",
+                "ean": "0000000000173",
+                "Created By": "admin_user_levee-delivery_test",
+                "peso/und": "peso",
+                "como armazenar": "Geladeira: Em saco plástico. Durabilidade: 1 semana",
+                "preço por kg": 12.83405483,
+                "Created Date": "2024-07-16T01:23:06.989Z",
+                "estoque": -1486,
+                "demanda": 272,
+                "info nutricional": "Por 100g:\n- Calorias: 41kcal\n- Carboidratos: 10g\n- Açúcar: 4g\n- Fibra: 3g\n- Proteína: 1g\n- Gordura: 0.2g\nVitaminas:\n- Vitamina A: 16706 UI (334% VD)\n- Vitamina K: 13.2mcg (11% VD)\n- Potássio: 320mg (9% VD)",
+                "nome": "Cenoura Amarela (Baroa)",
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1719854756165x374918028997523600/baroa.jpg"
+                ]
+            },
+            {
+                "Created Date": "2024-07-16T01:23:06.990Z",
+                "Created By": "admin_user_levee-delivery_test",
+                "cod": "001653",
+                "peso/und": "unidade",
+                "preço novo": 9.99,
+                "desconto": 0,
+                "preço antigo": 8.99,
+                "Modified Date": "2026-01-21T14:10:53.115Z",
+                "peso por unidade": 400,
+                "demanda": 9,
+                "descriçao": "Cenoura já descascada e embalada, pronta para consumo ou para utilizar em receitas. Receitas: Saladas, bolos, sucos, sopas. Usos: Consumir crua, cozida ou como ingrediente em receitas.",
+                "visivel": false,
+                "categorias_produto": [
+                    "Legumes"
+                ],
+                "como armazenar": "Geladeira: Em recipiente com água. Durabilidade: 2-3 dias",
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1720747072429x513661096319787400/CEBOLETE.jpg"
+                ],
+                "relacionados": [
+                    "1721092987000x690516760918444500",
+                    "1721092987001x245961633394384800",
+                    "1721092987002x531252174896769340",
+                    "1721092987003x525677327461880000"
+                ],
+                "tipo_unidade": "UN",
+                "_id": "1721092986990x617615778719942500",
+                "estoque": 99987,
+                "nome": "Cenoura Descascada 400g",
+                "ean": "0000000005197"
+            },
+            {
+                "nome": "Cenoura Amarela (Baroa) Vácuo 250g",
+                "Created By": "admin_user_levee-delivery_test",
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1736176021959x625228580091853800/20241205_104151.JPG"
+                ],
+                "preço antigo": 9.99,
+                "estoque": 98411,
+                "visivel": true,
+                "tipo_unidade": "UN",
+                "em oferta": false,
+                "peso por unidade": 250,
+                "demanda": 155,
+                "relacionados": [
+                    "1721092986989x506078536522165600",
+                    "1721092986990x617615778719942500",
+                    "1721092987001x245961633394384800",
+                    "1721092987002x531252174896769340",
+                    "1721092987003x525677327461880000"
+                ],
+                "desconto": 0,
+                "peso/und": "unidade",
+                "descriçao": "Cenoura amarela (baroa) embalada a vácuo, o que garante maior durabilidade. Receitas: Saladas, bolos, sucos, sopas. Usos: Consumir crua, cozida ou como ingrediente em receitas.",
+                "Modified Date": "2026-03-04T16:50:32.248Z",
+                "como armazenar": "Geladeira: Na embalagem original. Durabilidade: Verificar embalagem",
+                "preço novo": 9.99,
+                "_id": "1721092987000x690516760918444500",
+                "cod": "001743",
+                "categorias_produto": [
+                    "Legumes",
+                    "Higienizados",
+                    "Kit Processados"
+                ],
+                "Created Date": "2024-07-16T01:23:07.000Z",
+                "ean": "0000000005999"
+            },
+            {
+                "Created By": "admin_user_levee-delivery_test",
+                "preço antigo": 9.99,
+                "tipo_unidade": "KG",
+                "descriçao": "Cenoura amarela (baroa) comercializada em bandeja, proporcionando praticidade e frescor. Receitas: Saladas, bolos, sucos, sopas. Usos: Consumir crua, cozida ou como ingrediente em receitas.",
+                "estoque": 99776,
+                "demanda": 37,
+                "Modified Date": "2026-03-04T16:50:32.927Z",
+                "Created Date": "2024-07-16T01:23:07.001Z",
+                "nome": "Cenoura Amarela Bandeja (Baroa)",
+                "desconto": 30.03003003003,
+                "preço novo": 6.99,
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1724116596843x167523294851821920/Cenoura%20Amarela%20Bandeja%20%28Baroa%29.jpg"
+                ],
+                "visivel": true,
+                "ordem_prateleira": 23,
+                "peso por unidade": 300,
+                "como armazenar": "Geladeira: Na embalagem original. Durabilidade: 1 semana",
+                "_id": "1721092987001x245961633394384800",
+                "cod": "001623",
+                "categorias_produto": [
+                    "Legumes",
+                    "Higienizados"
+                ],
+                "relacionados": [
+                    "1721092986989x506078536522165600",
+                    "1721092986990x617615778719942500",
+                    "1721092987000x690516760918444500",
+                    "1721092987002x531252174896769340",
+                    "1721092987003x525677327461880000"
+                ],
+                "peso/und": "unidade",
+                "ean": "0000000004909"
+            },
+            {
+                "cod": "000123",
+                "peso/und": "peso",
+                "como armazenar": "Geladeira: Em saco plástico. Durabilidade: 1-2 semanas",
+                "estoque": 9155804,
+                "tipo_unidade": "KG",
+                "Modified Date": "2026-03-04T16:50:31.480Z",
+                "preço novo": 8.99,
+                "ordem_prateleira": 28,
+                "descriçao": "Variedade de cenoura com casca e polpa avermelhadas, rica em licopeno. Receitas: Saladas, sucos, purês. Usos: Consumir crua, cozida ou como ingrediente em receitas.",
+                "preço antigo": 5.99,
+                "demanda": 6241,
+                "relacionados": [
+                    "1721092986989x506078536522165600",
+                    "1721092986990x617615778719942500",
+                    "1721092987000x690516760918444500",
+                    "1721092987001x245961633394384800",
+                    "1721092987003x525677327461880000"
+                ],
+                "visivel": true,
+                "ean": "0000000000111",
+                "categorias_produto": [
+                    "Legumes"
+                ],
+                "Created Date": "2024-07-16T01:23:07.002Z",
+                "preço por kg": 9.639493422,
+                "peso por unidade": 183,
+                "_id": "1721092987002x531252174896769340",
+                "Created By": "admin_user_levee-delivery_test",
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1719347600175x123750041298254000/Cenoura.jpg"
+                ],
+                "desconto": -50.0834724540901,
+                "nome": "Cenoura Vermelha"
+            },
+            {
+                "preço antigo": 12.99,
+                "Created Date": "2024-07-16T01:23:07.003Z",
+                "peso por unidade": 350,
+                "como armazenar": "Geladeira: Em recipiente com água. Durabilidade: 3-5 dias",
+                "categorias_produto": [
+                    "Legumes"
+                ],
+                "_id": "1721092987003x525677327461880000",
+                "Created By": "admin_user_levee-delivery_test",
+                "tipo_unidade": "KG",
+                "demanda": 20,
+                "estoque": 99869,
+                "nome": "Cenoura Palito 350g",
+                "desconto": 0,
+                "peso/und": "unidade",
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1736176569063x477335978218915260/20241205_105038.JPG"
+                ],
+                "preço novo": 12.99,
+                "Modified Date": "2026-03-04T01:59:40.401Z",
+                "cod": "001552",
+                "descriçao": "Cenoura cortada em palitos, ideal para aperitivos e lanches. Usos: Consumir crua com molhos, como aperitivo ou acompanhamento.",
+                "visivel": true,
+                "relacionados": [
+                    "1721092986989x506078536522165600",
+                    "1721092986990x617615778719942500",
+                    "1721092987000x690516760918444500",
+                    "1721092987001x245961633394384800",
+                    "1721092987002x531252174896769340"
+                ],
+                "ean": "0000000004237"
+            },
+            {
+                "estoque": 99983,
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1719854848088x479206181829421760/CAVALINHA.jpg"
+                ],
+                "Modified Date": "2026-01-02T14:11:36.800Z",
+                "ean": "0192505259769",
+                "como armazenar": "Despensa: Pote hermético, local fresco e seco. Durabilidade: 1 ano",
+                "tipo_unidade": "UN",
+                "Created By": "admin_user_levee-delivery_test",
+                "demanda": 0,
+                "categorias_produto": [
+                    "Chás"
+                ],
+                "_id": "1721092987005x241646918534117250",
+                "Created Date": "2024-07-16T01:23:07.005Z",
+                "descriçao": "Planta medicinal com propriedades diuréticas. Usos: Preparar chá.",
+                "peso por unidade": 25,
+                "preço novo": 5.99,
+                "peso/und": "unidade",
+                "cod": "001531",
+                "desconto": 0,
+                "qtd por unidade": "25g",
+                "preço antigo": 5.99,
+                "nome": "Chá De Cavalinha 25g",
+                "visivel": true
+            },
+            {
+                "qtd por unidade": "30g",
+                "categorias_produto": [
+                    "Chás"
+                ],
+                "preço antigo": 5.99,
+                "demanda": 0,
+                "peso por unidade": 30,
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1719854894377x566826786762009100/CHA%20DE%20IPE-ROXO.jpg"
+                ],
+                "estoque": 100000,
+                "tipo_unidade": "UN",
+                "visivel": true,
+                "peso/und": "unidade",
+                "ean": "0192505259509",
+                "Created By": "admin_user_levee-delivery_test",
+                "preço novo": 5.99,
+                "_id": "1721092987155x427420528222812700",
+                "Created Date": "2024-07-16T01:23:07.155Z",
+                "descriçao": "Planta medicinal com propriedades anti-inflamatórias e antioxidantes. Usos: Preparar chá.",
+                "desconto": 0,
+                "cod": "002331",
+                "Modified Date": "2025-05-21T17:13:00.572Z",
+                "nome": "Chá De Ipê-Roxo 30g",
+                "como armazenar": "Despensa: Pote hermético, local fresco e seco. Durabilidade: 1 ano"
+            },
+            {
+                "_id": "1721092987157x348964388317877250",
+                "desconto": 0,
+                "categorias_produto": [
+                    "Chás"
+                ],
+                "nome": "Chá De Melissa 30g",
+                "tipo_unidade": "UN",
+                "ean": "0000000004121",
+                "como armazenar": "Despensa: Pote hermético, local fresco e seco. Durabilidade: 1 ano",
+                "estoque": 99992,
+                "peso por unidade": 30,
+                "Created Date": "2024-07-16T01:23:07.157Z",
+                "preço novo": 5.99,
+                "cod": "001541",
+                "peso/und": "unidade",
+                "Modified Date": "2026-01-08T16:40:42.840Z",
+                "Created By": "admin_user_levee-delivery_test",
+                "demanda": 0,
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1719854931099x672688409883870000/CHA%20DE%20MELISSA.jpg"
+                ],
+                "preço antigo": 5.99,
+                "visivel": true,
+                "descriçao": "Planta medicinal com propriedades calmantes e relaxantes. Usos: Preparar chá."
+            },
+            {
+                "preço antigo": 9.99,
+                "visivel": true,
+                "categorias_produto": [
+                    "Temperos e Condimentos"
+                ],
+                "como armazenar": "Despensa: Pote hermético, local fresco e seco. Durabilidade: 1 ano",
+                "desconto": -70.0700700700701,
+                "peso/und": "unidade",
+                "estoque": 99992,
+                "info nutricional": "Por 2 colheres de sopa (28g):\n- Calorias: 138kcal\n- Gordura Total: 9g (14% VD)\n- Gordura Saturada: 1g (5% VD)\n- Gordura Monoinsaturada: 1g\n- Gordura Poli-insaturada: 6g\n- Colesterol: 0mg (0% VD)\n- Sódio: 5mg (0% VD)\n- Carboidratos: 12g (4% VD)\n- Fibra Alimentar: 11g (44% VD)\n- Açúcar: 1g\n- Proteína: 4g (8% VD)\nVitaminas e Minerais:\n- Cálcio: 177mg (18% VD)\n- Ferro: 2mg (11% VD)\n- Magnésio: 95mg (24% VD)\n- Fósforo: 265mg (27% VD)",
+                "Modified Date": "2026-02-20T16:16:31.330Z",
+                "descriçao": "Farinha rica em fibras e ômega 3, obtida a partir da semente de chia. Receitas: Bolos, pães, vitaminas, iogurtes. Usos: Acrescentar em receitas para aumentar o valor nutricional.",
+                "tipo_unidade": "UN",
+                "nome": "chia semente ",
+                "ean": "0192505299703",
+                "demanda": 0,
+                "Created By": "admin_user_levee-delivery_test",
+                "preço novo": 16.99,
+                "peso por unidade": 100,
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1719842495832x521124512889592960/CHIA%20%20FARINHA.jfif"
+                ],
+                "cod": "002390",
+                "_id": "1721092987158x800757014969316400",
+                "Created Date": "2024-07-16T01:23:07.158Z",
+                "qtd por unidade": "100g"
+            },
+            {
+                "demanda": 5,
+                "_id": "1721092987159x929655727156298900",
+                "nome": "Champignon Gallega 200g",
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1719347602191x151703080723149400/Cogumelo%20Fatiado%20Gallega%20Pote%20200g.jpg"
+                ],
+                "categorias_produto": [
+                    "Empório"
+                ],
+                "cod": "002241",
+                "info nutricional": "Por 100g:\n- Calorias: 22kcal\n- Carboidratos: 3g\n- Fibra: 1g\n- Proteína: 3g\n- Gordura: 0.3g\nVitaminas:\n- Riboflavina: 0.4mg (24% VD)\n- Niacina: 3.6mg (18% VD)\n- Ácido Pantotênico: 1.5mg (15% VD)\nMinerais:\n- Selênio: 12.4mcg (18% VD)\n- Potássio: 318mg (9% VD)\n- Fósforo: 86mg (9% VD)",
+                "tipo_unidade": "UN",
+                "Modified Date": "2026-01-13T16:37:18.051Z",
+                "qtd por unidade": "200g",
+                "desconto": 0,
+                "preço novo": 18.99,
+                "ean": "7898912872012",
+                "peso/und": "unidade",
+                "preço antigo": 17.99,
+                "descriçao": "Cogumelo com sabor delicado e textura firme, ideal para refogados e saladas. Receitas: Risotos, massas, saladas, tortas, recheios. Usos: Consumir cozido ou refogado.",
+                "peso por unidade": 200,
+                "Created Date": "2024-07-16T01:23:07.159Z",
+                "Created By": "admin_user_levee-delivery_test",
+                "visivel": true,
+                "como armazenar": "Geladeira: Na embalagem original. Durabilidade: 5-7 dias",
+                "estoque": 99986
+            },
+            {
+                "peso/und": "unidade",
+                "Created Date": "2024-07-16T01:23:07.164Z",
+                "demanda": 6,
+                "desconto": 0,
+                "estoque": 99970,
+                "Modified Date": "2026-02-12T03:10:37.414Z",
+                "categorias_produto": [
+                    "Temperos e Condimentos"
+                ],
+                "descriçao": "Tempero tradicional da culinária argentina, à base de ervas e especiarias, com adição de pimenta, da marca Saúde Plena. Usos: Acompanhar carnes, aves e peixes.",
+                "preço novo": 8.99,
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1741795507531x948500981418492200/CHILI%20TEMPERO%2070G.JPG"
+                ],
+                "qtd por unidade": "50g",
+                "como armazenar": "Geladeira: Após aberto. Durabilidade: Verificar embalagem",
+                "tipo_unidade": "UN",
+                "ean": "0192505114907",
+                "peso por unidade": 50,
+                "cod": "000815",
+                "nome": "Chimichurri 50 g Saúde Plena",
+                "relacionados": [
+                    "1721092987166x473627086278893800"
+                ],
+                "_id": "1721092987164x110590622942560380",
+                "Created By": "admin_user_levee-delivery_test",
+                "visivel": true
+            },
+            {
+                "demanda": 0,
+                "categorias_produto": [
+                    "Outros"
+                ],
+                "Created By": "admin_user_levee-delivery_test",
+                "visivel": true,
+                "preço antigo": 8.99,
+                "tipo_unidade": "UN",
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1740416542692x482537460438572350/download%20%2873%29.jpg"
+                ],
+                "_id": "1721092987164x381971478382471700",
+                "descriçao": "Barra de proteína com sabor chocolate, ideal para complementar a dieta. Usos: Consumir como lanche.",
+                "estoque": 100000,
+                "cod": "002064",
+                "qtd por unidade": "40g",
+                "Created Date": "2024-07-16T01:23:07.164Z",
+                "como armazenar": "Despensa: Embalagem original bem fechada, local fresco e seco. Durabilidade: Verificar embalagem",
+                "peso/und": "unidade",
+                "preço novo": 8.99,
+                "nome": "Choklers Protein 40g",
+                "peso por unidade": 200,
+                "ean": "7898675804770",
+                "Modified Date": "2025-05-21T17:13:00.605Z",
+                "desconto": 0
+            },
+            {
+                "peso por unidade": 70,
+                "desconto": 0,
+                "como armazenar": "Geladeira: Em saco plástico. Durabilidade: 1 semana",
+                "demanda": 0,
+                "Created Date": "2024-07-16T01:23:07.165Z",
+                "descriçao": "Fruta cítrica rica em vitamina C, com sabor azedo. Receitas: Sucos, molhos, geleias, doces. Usos: Utilizar o suco ou as raspas da casca para aromatizar e realçar o sabor de pratos doces e salgados.",
+                "ean": "0000000003025",
+                "tipo_unidade": "UN",
+                "preço novo": 10.99,
+                "estoque": 100000,
+                "visivel": false,
+                "categorias_produto": [
+                    "Temperos e Condimentos"
+                ],
+                "qtd por unidade": "70g",
+                "preço antigo": 10.99,
+                "Created By": "admin_user_levee-delivery_test",
+                "cod": "001426",
+                "nome": "Chimilimão 70g",
+                "Modified Date": "2025-05-21T17:13:00.615Z",
+                "peso/und": "unidade",
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1719855066954x527587192463304200/CHIMILIMAO.jpg"
+                ],
+                "_id": "1721092987165x988748136934426000"
+            },
+            {
+                "peso por unidade": 50,
+                "categorias_produto": [
+                    "Temperos e Condimentos"
+                ],
+                "cod": "001477",
+                "estoque": 99979,
+                "peso/und": "unidade",
+                "preço novo": 8.99,
+                "preço antigo": 7.99,
+                "como armazenar": "Geladeira: Após aberto. Durabilidade: Verificar embalagem",
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1739890175000x527943866870854460/download.png"
+                ],
+                "ean": "0192505114013",
+                "Created Date": "2024-07-16T01:23:07.166Z",
+                "qtd por unidade": "50g",
+                "Created By": "admin_user_levee-delivery_test",
+                "demanda": 7,
+                "Modified Date": "2026-01-21T16:43:33.967Z",
+                "desconto": -12.51564455569462,
+                "nome": "Chimichurri Fit 50g",
+                "relacionados": [
+                    "1721092987164x110590622942560380"
+                ],
+                "visivel": true,
+                "_id": "1721092987166x473627086278893800",
+                "descriçao": "Versão mais saudável do chimichurri tradicional, com baixo teor de sódio. Usos: Acompanhar carnes, aves e peixes.",
+                "tipo_unidade": "UN"
+            },
+            {
+                "Modified Date": "2026-03-03T17:05:44.950Z",
+                "preço por kg": 4.069765796,
+                "peso por unidade": 324,
+                "preço novo": 5.99,
+                "_id": "1721092987167x476216195980733200",
+                "como armazenar": "Geladeira: Em saco plástico. Durabilidade: 1 semana",
+                "ordem_prateleira": 29,
+                "info nutricional": "Por 100g (cozido):\n- Calorias: 19kcal\n- Carboidratos: 4g\n- Açúcar: 2g\n- Fibra: 2g\n- Proteína: 1g\n- Gordura: 0.2g\nVitaminas:\n- Vitamina C: 9mg (10% VD)\n- Folato: 14mcg (4% VD)",
+                "preço antigo": 4.99,
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1719347659527x385339125610865150/Chuchu.jpg"
+                ],
+                "descriçao": "Legume versátil, originário da América Central, com sabor suave. Receitas: Refogados, sopas, saladas, tortas. Usos: Consumir cozido, refogado ou como ingrediente em receitas.",
+                "Created By": "admin_user_levee-delivery_test",
+                "cod": "396058",
+                "estoque": 4840875,
+                "tipo_unidade": "KG",
+                "desconto": -20.0400801603206,
+                "visivel": true,
+                "peso/und": "peso",
+                "relacionados": [
+                    "1721092987170x320389483738027200"
+                ],
+                "ean": "0000000000113",
+                "categorias_produto": [
+                    "Legumes"
+                ],
+                "demanda": 1142,
+                "Created Date": "2024-07-16T01:23:07.167Z",
+                "nome": "Chuchu"
+            },
+            {
+                "peso por unidade": 400,
+                "preço novo": 4.99,
+                "ean": "0000000005982",
+                "nome": "Chuchu Descascado 400g",
+                "Modified Date": "2026-03-04T17:08:29.014Z",
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1736176698920x520484125887786100/20241205_104747.JPG"
+                ],
+                "estoque": 99007,
+                "categorias_produto": [
+                    "Legumes",
+                    "Higienizados",
+                    "Kit Processados"
+                ],
+                "cod": "001742",
+                "visivel": true,
+                "tipo_unidade": "UN",
+                "descriçao": "Chuchu já descascado e embalado, proporcionando praticidade no preparo das receitas. Receitas: Refogados, sopas, saladas, tortas. Usos: Consumir cozido, refogado ou como ingrediente em receitas.",
+                "relacionados": [
+                    "1721092987167x476216195980733200"
+                ],
+                "Created Date": "2024-07-16T01:23:07.170Z",
+                "peso/und": "unidade",
+                "Created By": "admin_user_levee-delivery_test",
+                "preço antigo": 4.99,
+                "como armazenar": "Geladeira: Em recipiente com água. Durabilidade: 2-3 dias",
+                "_id": "1721092987170x320389483738027200",
+                "demanda": 125,
+                "desconto": 0
+            },
+            {
+                "Modified Date": "2026-02-05T19:02:57.995Z",
+                "Created By": "admin_user_levee-delivery_test",
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1719855195245x929469461812924700/COALHADA%20INTEGRAL%20500G%20MOCAMBO.jpg"
+                ],
+                "demanda": 4,
+                "como armazenar": "Geladeira: Na embalagem original. Durabilidade: Verificar embalagem",
+                "categorias_produto": [
+                    "Laticíneos"
+                ],
+                "descriçao": "Produto lácteo cremoso, resultante da fermentação do leite, da marca Mocambo. Usos: Consumir pura, com mel ou como ingrediente em receitas.",
+                "visivel": true,
+                "_id": "1721092987171x917231706161498500",
+                "Created Date": "2024-07-16T01:23:07.171Z",
+                "qtd por unidade": "500g",
+                "tipo_unidade": "UN",
+                "preço novo": 14.99,
+                "ean": "7897712300084",
+                "estoque": 99980,
+                "relacionados": [
+                    "1721092989438x233733084603773280"
+                ],
+                "peso/und": "unidade",
+                "preço antigo": 14.99,
+                "nome": "Coalhada Integral 500g",
+                "peso por unidade": 500,
+                "cod": "002308",
+                "desconto": 0
+            },
+            {
+                "visivel": false,
+                "desconto": 0,
+                "Created By": "admin_user_levee-delivery_test",
+                "peso/und": "unidade",
+                "descriçao": "Doce tradicional brasileiro, feito com coco ralado e polpa de maracujá. Usos: Consumir como sobremesa.",
+                "ean": "0000000000744",
+                "Created Date": "2024-07-16T01:23:07.172Z",
+                "estoque": 100000,
+                "preço novo": 29.99,
+                "nome": "Cocada Com Maracujá Kg",
+                "preço antigo": 29.99,
+                "tipo_unidade": "KG",
+                "demanda": 0,
+                "cod": "000596",
+                "categorias_produto": [
+                    "Outros"
+                ],
+                "_id": "1721092987172x647190226890696600",
+                "Modified Date": "2025-05-21T17:13:00.813Z",
+                "como armazenar": "Geladeira: Após aberto, consumir em até 5 dias. Durabilidade: Verificar embalagem"
+            },
+            {
+                "categorias_produto": [
+                    "Frutas"
+                ],
+                "tipo_unidade": "UN",
+                "peso/und": "unidade",
+                "peso por unidade": 1500,
+                "Created By": "admin_user_levee-delivery_test",
+                "ean": "0000000003094",
+                "demanda": 40,
+                "como armazenar": "Não aplicável: Produto pronto para consumo.",
+                "visivel": true,
+                "preço novo": 9.99,
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1719855280930x942102572339941000/COCO.jpg"
+                ],
+                "Created Date": "2024-07-16T01:23:07.173Z",
+                "descriçao": "Coco verde aberto e pronto para consumo, com canudo para facilitar a degustação. Usos: Consumir a água e a polpa in natura.",
+                "nome": "Coco Praia (Preparado Com Canudo) 1500g",
+                "Modified Date": "2026-02-27T15:39:55.958Z",
+                "cod": "001433",
+                "preço antigo": 6.99,
+                "estoque": 99697,
+                "desconto": -42.9184549356223,
+                "_id": "1721092987173x450946597413204540"
+            },
+            {
+                "descriçao": "Fruto do coqueiro, rico em fibras e gorduras boas. Receitas: Doces, bolos, farofas, leite de coco. Usos: Utilizar a polpa ralada em receitas ou consumir in natura.",
+                "como armazenar": "Despensa: Local fresco e seco. Durabilidade: Várias semanas",
+                "desconto": -25.0312891113892,
+                "_id": "1721092987174x656893908492121100",
+                "peso por unidade": 1000,
+                "categorias_produto": [
+                    "Frutas"
+                ],
+                "preço por kg": 7.289627722,
+                "estoque": 64355,
+                "cod": "000258",
+                "peso/und": "peso",
+                "nome": "Coco Seco",
+                "Created Date": "2024-07-16T01:23:07.174Z",
+                "ordem_prateleira": 56,
+                "relacionados": [
+                    "1721092987180x394450831025111200",
+                    "1721092987187x420852923432447170"
+                ],
+                "info nutricional": "Por 100g:\n- Calorias: 600kcal\n- Gordura Total: 65g\n- Gordura Saturada: 57g\n- Carboidratos: 14g\n- Fibra: 16g\n- Açúcar: 6g\n- Proteína: 8g\nMinerais:\n- Manganês: 1.2mg (55% VD)\n- Cobre: 0.4mg (21% VD)\n- Ferro: 2.4mg (13% VD)",
+                "Created By": "admin_user_levee-delivery_test",
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1720747257123x677136800717171800/COCO%20SECO.jpg"
+                ],
+                "preço antigo": 7.99,
+                "demanda": 12,
+                "visivel": true,
+                "Modified Date": "2026-02-27T15:55:40.411Z",
+                "ean": "0000000000240",
+                "tipo_unidade": "KG",
+                "preço novo": 9.99
+            },
+            {
+                "peso/und": "unidade",
+                "Created By": "admin_user_levee-delivery_test",
+                "preço novo": 3.99,
+                "desconto": 0,
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1719347677497x748285307427490200/Salsinha.jpg"
+                ],
+                "estoque": 99999,
+                "tipo_unidade": "UN",
+                "descriçao": "Coentro cultivado em sistema hidropônico, sem o uso de agrotóxicos no solo. Receitas: Carnes, frango, peixes, saladas. Usos: Utilizar as folhas picadas para finalizar e aromatizar os pratos.",
+                "ean": "0000000004985",
+                "demanda": 1,
+                "relacionados": [
+                    "1721092987178x242096829803438940"
+                ],
+                "peso por unidade": 50,
+                "cod": "001631",
+                "Created Date": "2024-07-16T01:23:07.177Z",
+                "preço antigo": 3.99,
+                "nome": "Coentro Hidropônica 50g",
+                "como armazenar": "Geladeira: Em saco plástico. Durabilidade: 2 semanas",
+                "categorias_produto": [
+                    "Verduras"
+                ],
+                "_id": "1721092987177x350921902822092000",
+                "visivel": false,
+                "Modified Date": "2025-05-21T17:12:58.592Z"
+            },
+            {
+                "Modified Date": "2026-03-04T15:33:52.680Z",
+                "peso por unidade": 50,
+                "Created Date": "2024-07-16T01:23:07.178Z",
+                "nome": "Coentro 50g",
+                "relacionados": [
+                    "1721092987177x350921902822092000"
+                ],
+                "descriçao": "Erva aromática muito utilizada na culinária brasileira, com sabor e aroma marcantes. Receitas: Carnes, frango, peixes, saladas. Usos: Utilizar as folhas picadas para finalizar e aromatizar os pratos.",
+                "ordem_prateleira": 121,
+                "ean": "0000000000032",
+                "info nutricional": "Por 100g:\n- Calorias: 23kcal\n- Carboidratos: 4g\n- Fibra: 3g\n- Proteína: 2g\n- Gordura: 0.5g\nVitaminas:\n- Vitamina K: 388mcg (323% VD)\n- Vitamina C: 13mg (14% VD)\n- Vitamina A: 337 UI (7% VD)",
+                "estoque": 99782,
+                "preço antigo": 3.99,
+                "tipo_unidade": "UN",
+                "Created By": "admin_user_levee-delivery_test",
+                "demanda": 42,
+                "cod": "000037",
+                "peso/und": "unidade",
+                "desconto": 0,
+                "visivel": true,
+                "categorias_produto": [
+                    "Verduras"
+                ],
+                "_id": "1721092987178x242096829803438940",
+                "preço novo": 3.99,
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1719347677497x748285307427490200/Salsinha.jpg"
+                ],
+                "como armazenar": "Geladeira: Em saco plástico. Durabilidade: 1 semana"
+            },
+            {
+                "_id": "1721092987179x236598413782409540",
+                "preço novo": 15.99,
+                "visivel": true,
+                "estoque": 99985,
+                "cod": "001559",
+                "como armazenar": "Geladeira: Na embalagem original. Durabilidade: 5-7 dias",
+                "desconto": 0,
+                "peso por unidade": 200,
+                "tipo_unidade": "BJ",
+                "Modified Date": "2026-02-19T19:16:30.672Z",
+                "Created Date": "2024-07-16T01:23:07.179Z",
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1719855348219x179061016312773060/COGUMELO%20FRESCO%20%20PORTO%20BELO.jpg"
+                ],
+                "peso/und": "unidade",
+                "categorias_produto": [
+                    "Empório"
+                ],
+                "info nutricional": "Por 100g:\n- Calorias: 22kcal\n- Carboidratos: 3g\n- Fibra: 1g\n- Proteína: 3g\n- Gordura: 0.3g\nVitaminas:\n- Riboflavina: 0.4mg (24% VD)\n- Niacina: 3.6mg (18% VD)\n- Ácido Pantotênico: 1.5mg (15% VD)\nMinerais:\n- Selênio: 12.4mcg (18% VD)\n- Potássio: 318mg (9% VD)\n- Fósforo: 86mg (9% VD)",
+                "relacionados": [
+                    "1721092987188x366373060113667900",
+                    "1721092987190x308593072823059260",
+                    "1721092987189x261526996511622050"
+                ],
+                "nome": "Cogumelo Fresco Porto Belo 200g",
+                "Created By": "admin_user_levee-delivery_test",
+                "preço antigo": 15.99,
+                "demanda": 1,
+                "ean": "0000000004305",
+                "descriçao": "Variedade de cogumelo com sabor suave e delicado. Receitas: Risotos, massas, saladas. Usos: Consumir cozido ou refogado."
+            },
+            {
+                "Created Date": "2024-07-16T01:23:07.180Z",
+                "preço por kg": 39.99801272,
+                "categorias_produto": [
+                    "Frutas",
+                    "Higienizados"
+                ],
+                "preço novo": 49.99,
+                "visivel": true,
+                "estoque": 61803,
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1719855791724x294502722000950400/MASSA%20DE%20COCO%20SECO.jpg"
+                ],
+                "desconto": -25.006251562890718,
+                "ean": "0000000004077",
+                "cod": "001536",
+                "demanda": 18,
+                "descriçao": "Coco seco já descascado e processado, pronto para utilizar em receitas. Receitas: Doces, bolos, farofas, leite de coco. Usos: Utilizar a massa em receitas.",
+                "peso por unidade": 359,
+                "nome": "Coco Seco Descascado (Massa)",
+                "como armazenar": "Geladeira: Em recipiente fechado. Durabilidade: 2-3 dias",
+                "peso/und": "peso",
+                "_id": "1721092987180x394450831025111200",
+                "Modified Date": "2026-03-04T00:19:51.325Z",
+                "Created By": "admin_user_levee-delivery_test",
+                "tipo_unidade": "KG",
+                "preço antigo": 39.99,
+                "relacionados": [
+                    "1721092987174x656893908492121100",
+                    "1721092987187x420852923432447170"
+                ]
+            },
+            {
+                "como armazenar": "Geladeira: Após aberto, consumir em até 2 dias. Durabilidade: 1 semana (fechado)",
+                "Modified Date": "2026-02-27T18:26:19.192Z",
+                "Created Date": "2024-07-16T01:23:07.181Z",
+                "ordem_prateleira": 88,
+                "_id": "1721092987181x488345044401385300",
+                "preço novo": 6.99,
+                "ean": "0000000000242",
+                "nome": "Coco Verde Natural 1500g",
+                "peso/und": "unidade",
+                "Created By": "admin_user_levee-delivery_test",
+                "estoque": 99883,
+                "descriçao": "Fruto do coqueiro ainda verde, rico em água e sais minerais. Usos: Consumir a água e a polpa in natura.",
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1719347659732x794648669730920300/Coco%20Verde%20%20Natural.jpg"
+                ],
+                "peso por unidade": 1500,
+                "preço antigo": 8.99,
+                "cod": "000260",
+                "tipo_unidade": "UN",
+                "desconto": 22.2469410456062,
+                "categorias_produto": [
+                    "Frutas"
+                ],
+                "visivel": true,
+                "demanda": 41
+            },
+            {
+                "peso por unidade": 700,
+                "ean": "0000000009508",
+                "preço antigo": 14.99,
+                "tipo_unidade": "KG",
+                "nome": "Coco Seco Aberto",
+                "Created Date": "2024-07-16T01:23:07.187Z",
+                "como armazenar": "Geladeira: Em recipiente fechado. Durabilidade: 3-5 dias",
+                "preço por kg": 14.98550725,
+                "peso/und": "peso",
+                "categorias_produto": [
+                    "Frutas"
+                ],
+                "_id": "1721092987187x420852923432447170",
+                "preço novo": 14.99,
+                "cod": "002138",
+                "estoque": 90959,
+                "demanda": 2,
+                "Modified Date": "2026-02-25T12:35:04.696Z",
+                "relacionados": [
+                    "1721092987174x656893908492121100",
+                    "1721092987180x394450831025111200"
+                ],
+                "desconto": 0,
+                "descriçao": "Coco seco já aberto, facilitando o acesso à polpa. Receitas: Doces, bolos, farofas, leite de coco. Usos: Utilizar a polpa ralada em receitas ou consumir in natura.",
+                "visivel": true,
+                "Created By": "admin_user_levee-delivery_test",
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1719347601158x936036212989852500/Coco%20Seco.jpg"
+                ]
+            },
+            {
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1719855391381x146641514796793200/COGUMELO%20FRESCO%20SHIMEJI.jpg"
+                ],
+                "demanda": 0,
+                "visivel": true,
+                "tipo_unidade": "BJ",
+                "Created By": "admin_user_levee-delivery_test",
+                "categorias_produto": [
+                    "Verduras"
+                ],
+                "desconto": 0,
+                "ean": "0000000000034",
+                "descriçao": "Cogumelo de origem japonesa, com sabor delicado e textura levemente crocante. Receitas: Risotos, massas, sopas, refogados. Usos: Consumir cozido ou refogado.",
+                "info nutricional": "Por 100g:\n- Calorias: 34kcal\n- Carboidratos: 6g\n- Proteína: 3g\n- Gordura: 0.4g\nVitaminas:\n- Niacina: 4mg (20% VD)\n- Ácido Pantotênico: 1mg (10% VD)\nMinerais:\n- Potássio: 400mg (11% VD)\n- Fósforo: 86mg (9% VD)",
+                "preço novo": 15.99,
+                "_id": "1721092987188x366373060113667900",
+                "peso por unidade": 200,
+                "estoque": 99989,
+                "Created Date": "2024-07-16T01:23:07.188Z",
+                "Modified Date": "2026-02-11T21:21:53.376Z",
+                "nome": "Cogumelo Fresco Shimeji 200g",
+                "como armazenar": "Geladeira: Na embalagem original. Durabilidade: 5-7 dias",
+                "cod": "000040",
+                "preço antigo": 15.99,
+                "relacionados": [
+                    "1721092987179x236598413782409540",
+                    "1721092987190x308593072823059260",
+                    "1721092987189x261526996511622050"
+                ],
+                "peso/und": "unidade"
+            },
+            {
+                "_id": "1721092987189x261526996511622050",
+                "preço antigo": 9.99,
+                "estoque": 99991,
+                "cod": "001496",
+                "como armazenar": "Geladeira: Na embalagem original. Durabilidade: 5-7 dias",
+                "desconto": -60.06,
+                "info nutricional": "Por 100g:\n- Calorias: 22kcal\n- Carboidratos: 3g\n- Fibra: 1g\n- Proteína: 3g\n- Gordura: 0.3g\nVitaminas:\n- Riboflavina: 0.4mg (24% VD)\n- Niacina: 3.6mg (18% VD)\n- Ácido Pantotênico: 1.5mg (15% VD)\nMinerais:\n- Selênio: 12.4mcg (18% VD)\n- Potássio: 318mg (9% VD)\n- Fósforo: 86mg (9% VD)",
+                "peso por unidade": 200,
+                "relacionados": [
+                    "1721092987179x236598413782409540",
+                    "1721092987188x366373060113667900",
+                    "1721092987190x308593072823059260"
+                ],
+                "nome": "Cogumelo Paris 200g",
+                "tipo_unidade": "UN",
+                "visivel": true,
+                "categorias_produto": [
+                    "Verduras"
+                ],
+                "descriçao": "Variedade de cogumelo mais comum no Brasil, com sabor suave. Receitas: Risotos, massas, pizzas, saladas, recheios. Usos: Consumir cozido, refogado ou grelhado.",
+                "Created Date": "2024-07-16T01:23:07.189Z",
+                "peso/und": "unidade",
+                "Created By": "admin_user_levee-delivery_test",
+                "ean": "0000000003681",
+                "preço novo": 15.99,
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1719855496061x125731397306401380/COGUMELO%20PARIS%20BDJ.jpg"
+                ],
+                "demanda": 0,
+                "Modified Date": "2026-01-11T14:07:11.278Z"
+            },
+            {
+                "Modified Date": "2026-03-04T12:59:54.700Z",
+                "peso/und": "unidade",
+                "demanda": 0,
+                "tipo_unidade": "UN",
+                "categorias_produto": [
+                    "Verduras"
+                ],
+                "Created By": "admin_user_levee-delivery_test",
+                "nome": "Cogumelo Fresco Shitake 200g",
+                "desconto": 0,
+                "Created Date": "2024-07-16T01:23:07.190Z",
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1719855450591x934990795271396200/COGUMELO%20FRESCO%20SHITAKE.jpg"
+                ],
+                "relacionados": [
+                    "1721092987179x236598413782409540",
+                    "1721092987188x366373060113667900",
+                    "1721092987189x261526996511622050"
+                ],
+                "estoque": 99970,
+                "info nutricional": "Por 100g:\n- Calorias: 34kcal\n- Carboidratos: 6g\n- Fibra: 2g\n- Proteína: 2g\n- Gordura: 0.5g\nVitaminas:\n- Niacina: 3mg (15% VD)\n- Ácido Pantotênico: 1mg (10% VD)\n- Cobre: 0.3mg (17% VD)",
+                "cod": "000042",
+                "descriçao": "Cogumelo de origem japonesa, com sabor marcante e aroma amadeirado. Receitas: Risotos, massas, sopas, refogados. Usos: Consumir cozido ou refogado.",
+                "preço antigo": 16.99,
+                "visivel": true,
+                "peso por unidade": 200,
+                "ean": "0000000000035",
+                "como armazenar": "Geladeira: Na embalagem original. Durabilidade: 5-7 dias",
+                "preço novo": 16.99,
+                "_id": "1721092987190x308593072823059260"
+            },
+            {
+                "nome": "Colher De Pau 100g",
+                "peso por unidade": 100,
+                "Modified Date": "2025-05-21T17:12:56.065Z",
+                "desconto": 0,
+                "preço novo": 6.99,
+                "tipo_unidade": "UN",
+                "peso/und": "unidade",
+                "categorias_produto": [
+                    "Outros"
+                ],
+                "como armazenar": "Temperatura ambiente: Local seco e arejado. Durabilidade: Indeterminado",
+                "cod": "000774",
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1719856099072x219579719415438300/COLHER%20DE%20PAU.jpg"
+                ],
+                "Created By": "admin_user_levee-delivery_test",
+                "visivel": false,
+                "preço antigo": 6.99,
+                "descriçao": "Utensílio de cozinha tradicional, feito em madeira, ideal para preparar alimentos quentes. Usos: Mexer e servir alimentos.",
+                "ean": "0000000001006",
+                "_id": "1721092987191x710862246326635400",
+                "demanda": 4,
+                "estoque": 99996,
+                "Created Date": "2024-07-16T01:23:07.191Z"
+            },
+            {
+                "tipo_unidade": "UN",
+                "como armazenar": "Despensa: Local fresco e seco, após aberto manter refrigerado. Durabilidade: Verificar embalagem",
+                "peso/und": "unidade",
+                "peso por unidade": 600,
+                "desconto": 0,
+                "categorias_produto": [
+                    "Empório"
+                ],
+                "preço antigo": 29.9,
+                "cod": "001759",
+                "demanda": 0,
+                "ean": "7898920492073",
+                "descriçao": "Mistura de legumes em conserva, como cenoura, ervilha, milho e vagem. Receitas: Saladas, maionese, arroz. Usos: Consumir como acompanhamento ou ingrediente em receitas.",
+                "Created Date": "2024-07-16T01:23:07.194Z",
+                "Modified Date": "2025-11-10T23:15:15.816Z",
+                "estoque": 99999,
+                "visivel": true,
+                "Created By": "admin_user_levee-delivery_test",
+                "_id": "1721092987194x850599732370337400",
+                "nome": "Conserva De Legumes 600g",
+                "qtd por unidade": "600g",
+                "preço novo": 29.9,
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1719856222036x681499003627079600/CONSERVA%20DE%20LEGUMES.jpg"
+                ]
+            },
+            {
+                "relacionados": [
+                    "1721092987197x830263851909155800"
+                ],
+                "descriçao": "Biscoito crocante com pedaços de amendoim e cacau, da marca Fornada de Minas. Usos: Consumir como lanche ou sobremesa.",
+                "Modified Date": "2026-02-06T16:59:29.130Z",
+                "como armazenar": "Despensa: Embalagem original bem fechada, local fresco e seco. Durabilidade: Verificar embalagem",
+                "preço novo": 16.79,
+                "peso/und": "unidade",
+                "categorias_produto": [
+                    "Outros",
+                    "Biscoitos"
+                ],
+                "Created By": "admin_user_levee-delivery_test",
+                "tipo_unidade": "PC",
+                "cod": "001923",
+                "visivel": true,
+                "demanda": 2,
+                "_id": "1721092987195x688729056455264400",
+                "Created Date": "2024-07-16T01:23:07.195Z",
+                "peso por unidade": 300,
+                "estoque": 99994,
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1767025934132x114049421956084590/img_4817.jpg"
+                ],
+                "nome": "Cookies De Amendoim C/ Cacau Fornada De Minas",
+                "preço antigo": 10.59,
+                "ean": "7898929337696",
+                "desconto": -58.5457979225685
+            },
+            {
+                "nome": "Colorau Especial 150g",
+                "preço antigo": 5.99,
+                "tipo_unidade": "UN",
+                "Created Date": "2024-07-16T01:23:07.196Z",
+                "Created By": "admin_user_levee-delivery_test",
+                "visivel": true,
+                "_id": "1721092987196x599070184305605200",
+                "estoque": 99909,
+                "categorias_produto": [
+                    "Temperos e Condimentos"
+                ],
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1719856162926x408651366499922500/COLORAU.jpg"
+                ],
+                "demanda": 18,
+                "desconto": -16.69449081803005,
+                "descriçao": "Condimento em pó, obtido a partir do urucum, que confere cor avermelhada aos alimentos. Receitas: Carnes, aves, peixes, arroz. Usos: Temperar e colorir os alimentos.",
+                "ean": "0192505115782",
+                "peso por unidade": 150,
+                "preço novo": 6.99,
+                "peso/und": "unidade",
+                "qtd por unidade": "150g",
+                "Modified Date": "2026-03-03T11:03:35.495Z",
+                "cod": "001464",
+                "como armazenar": "Despensa: Pote hermético, local fresco e seco. Durabilidade: 1 ano"
+            },
+            {
+                "ean": "7898929337122",
+                "desconto": 0,
+                "peso/und": "unidade",
+                "Modified Date": "2026-02-28T01:58:13.823Z",
+                "nome": "Cookies De Aveia E Chocolate 300g(Fornada)",
+                "tipo_unidade": "PC",
+                "Created Date": "2024-07-16T01:23:07.197Z",
+                "preço por kg": 6.99,
+                "qtd por unidade": "300g",
+                "visivel": true,
+                "Created By": "admin_user_levee-delivery_test",
+                "preço novo": 8.49,
+                "descriçao": "Biscoito crocante com aveia em flocos e gotas de chocolate. Usos: Consumir como lanche ou sobremesa.",
+                "_id": "1721092987197x830263851909155800",
+                "peso por unidade": 300,
+                "como armazenar": "Despensa: Embalagem original bem fechada, local fresco e seco. Durabilidade: Verificar embalagem",
+                "cod": "789892",
+                "categorias_produto": [
+                    "Outros",
+                    "Empório",
+                    "Biscoitos"
+                ],
+                "preço antigo": 8.49,
+                "demanda": 4,
+                "estoque": 99368,
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1741792234483x931847684075396900/COOKIES%20AVEIA%20E%20CHOCOLATE%28FORNADA%29300G.JPG"
+                ]
+            },
+            {
+                "nome": "Couve 70g",
+                "peso/und": "unidade",
+                "info nutricional": "Por 100g (cozido):\n- Calorias: 49kcal\n- Carboidratos: 9g\n- Açúcar: 1g\n- Fibra: 4g\n- Proteína: 3g\n- Gordura: 1g\nVitaminas:\n- Vitamina K: 817mcg (681% VD)\n- Vitamina A: 654 UI (13% VD)\n- Vitamina C: 80mg (89% VD)",
+                "Modified Date": "2026-03-04T12:59:53.931Z",
+                "descriçao": "Vegetal folhoso rico em ferro e vitaminas, originário da região do Mediterrâneo. Receitas: Charuto, farofa, sucos verdes, saladas. Usos: Consumir cozido ou como ingrediente em receitas.",
+                "ordem_prateleira": 123,
+                "relacionados": [
+                    "1721092987202x822940502710149100"
+                ],
+                "demanda": 177,
+                "Created By": "admin_user_levee-delivery_test",
+                "visivel": true,
+                "cod": "000043",
+                "tipo_unidade": "UN",
+                "ean": "0630941370193",
+                "preço antigo": 1.99,
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1719347605174x139571844885629800/Couve%20Manteiga%201%20Uni.jpg"
+                ],
+                "preço novo": 3.99,
+                "peso por unidade": 70,
+                "_id": "1721092987198x143241250882439890",
+                "categorias_produto": [
+                    "Verduras"
+                ],
+                "como armazenar": "Geladeira: Em saco plástico. Durabilidade: 3-5 dias",
+                "Created Date": "2024-07-16T01:23:07.198Z",
+                "estoque": 99336,
+                "desconto": -100.502512562814
+            },
+            {
+                "como armazenar": "Geladeira: Em saco plástico. Durabilidade: 1 semana",
+                "tipo_unidade": "UN",
+                "preço antigo": 7.99,
+                "desconto": -100.125156445557,
+                "peso por unidade": 300,
+                "Created By": "admin_user_levee-delivery_test",
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1719347604799x213966958660627420/Couve%20Flor.jpg"
+                ],
+                "estoque": 99611,
+                "ordem_prateleira": 100,
+                "descriçao": "Vegetal da mesma família do brócolis, rico em vitaminas e minerais. Receitas: Saladas, refogados, suflês, tortas salgadas. Usos: Consumir cozido, refogado ou assado.",
+                "demanda": 97,
+                "info nutricional": "Por 100g (cozido):\n- Calorias: 25kcal\n- Carboidratos: 5g\n- Açúcar: 2g\n- Fibra: 2g\n- Proteína: 2g\n- Gordura: 0.3g\nVitaminas:\n- Vitamina C: 48mg (53% VD)\n- Vitamina K: 17mcg (14% VD)",
+                "Modified Date": "2026-03-03T21:52:02.911Z",
+                "peso/und": "unidade",
+                "categorias_produto": [
+                    "Verduras"
+                ],
+                "preço novo": 15.99,
+                "ean": "0000000000115",
+                "nome": "Couve Flor 300g",
+                "cod": "000127",
+                "visivel": true,
+                "_id": "1721092987201x462893613230547200",
+                "Created Date": "2024-07-16T01:23:07.201Z"
+            },
+            {
+                "nome": "Cream Cheese Entre Rios 180g",
+                "categorias_produto": [
+                    "Laticíneos"
+                ],
+                "cod": "001992",
+                "_id": "1721092987202x209094353797693250",
+                "visivel": true,
+                "como armazenar": "Geladeira: Na embalagem original. Durabilidade: Verificar embalagem",
+                "estoque": 99991,
+                "preço novo": 12.99,
+                "peso/und": "unidade",
+                "ean": "0000000008167",
+                "peso por unidade": 180,
+                "demanda": 2,
+                "tipo_unidade": "KG",
+                "preço antigo": 12.99,
+                "Modified Date": "2026-02-12T03:10:37.592Z",
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1719856336278x747797886486201900/CREAM%20CHEESE%20ENTRE%20RIOS%20180G.jpg"
+                ],
+                "qtd por unidade": "180g",
+                "desconto": 0,
+                "Created Date": "2024-07-16T01:23:07.202Z",
+                "Created By": "admin_user_levee-delivery_test",
+                "descriçao": "Queijo cremoso tradicional, da marca Entre Rios. Usos: Consumir com torradas, pães, em receitas de molhos e recheios."
+            },
+            {
+                "Created Date": "2024-07-16T01:23:07.202Z",
+                "como armazenar": "Geladeira: Na embalagem original. Durabilidade: 3-5 dias",
+                "desconto": 14.3061516452074,
+                "peso/und": "unidade",
+                "Created By": "admin_user_levee-delivery_test",
+                "preço antigo": 6.99,
+                "cod": "000045",
+                "visivel": true,
+                "tipo_unidade": "BJ",
+                "estoque": 98832,
+                "demanda": 180,
+                "peso por unidade": 100,
+                "_id": "1721092987202x822940502710149100",
+                "descriçao": "Couve já picada e comercializada em bandeja, proporcionando praticidade no preparo das receitas. Receitas: Charuto, farofa, sucos verdes. Usos: Consumir cozido ou como ingrediente em receitas.",
+                "preço novo": 5.99,
+                "relacionados": [
+                    "1721092987198x143241250882439890"
+                ],
+                "nome": "Couve Picada Bandeja 100g",
+                "ean": "0000000000037",
+                "ordem_prateleira": 124,
+                "categorias_produto": [
+                    "Verduras",
+                    "Higienizados"
+                ],
+                "Modified Date": "2026-03-04T17:08:29.895Z",
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1736175206494x209813494936327070/20241205_102453.JPG"
+                ]
+            },
+            {
+                "Created Date": "2024-07-16T01:23:07.204Z",
+                "desconto": 0,
+                "preço antigo": 3.99,
+                "qtd por unidade": "200g",
+                "ean": "7891097105661",
+                "_id": "1721092987204x622700947036396000",
+                "como armazenar": "Geladeira: Na embalagem original. Durabilidade: Verificar embalagem",
+                "visivel": true,
+                "descriçao": "Creme de leite tradicional, da marca Parmalat. Receitas: Molhos, doces, tortas. Usos: Utilizar em receitas doces ou salgadas.",
+                "preço novo": 3.99,
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1719856377586x913627951523060100/CREME%20DE%20LEITE%20PARMALAT%20200GR.jpg"
+                ],
+                "peso/und": "unidade",
+                "demanda": 4,
+                "tipo_unidade": "UN",
+                "nome": "Creme De Leite Parmalat 200g",
+                "peso por unidade": 200,
+                "estoque": 99952,
+                "Modified Date": "2026-02-10T17:32:39.025Z",
+                "categorias_produto": [
+                    "Laticíneos"
+                ],
+                "Created By": "admin_user_levee-delivery_test",
+                "cod": "002578"
+            },
+            {
+                "_id": "1721092987206x118983170888809820",
+                "descriçao": "Solução para higienizar frutas, legumes e verduras, eliminando bactérias e impurezas. Usos: Diluir em água e deixar os alimentos de molho antes de consumi-los.",
+                "Modified Date": "2026-01-10T10:29:09.000Z",
+                "peso por unidade": 500,
+                "como armazenar": "Temperatura ambiente: Local fresco e seco. Durabilidade: Verificar embalagem",
+                "ean": "7898920433601",
+                "categorias_produto": [
+                    "Outros"
+                ],
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1719860824817x496430137739010800/DESINFETANTE%20HORTIFRUTICOLA%20300ML.jpg"
+                ],
+                "peso/und": "unidade",
+                "tipo_unidade": "UN",
+                "cod": "002191",
+                "nome": "Desinfetante Hortifrutícola 300ml",
+                "demanda": 8,
+                "Created By": "admin_user_levee-delivery_test",
+                "preço novo": 12.99,
+                "estoque": 99983,
+                "qtd por unidade": "300ml",
+                "preço antigo": 12.99,
+                "Created Date": "2024-07-16T01:23:07.206Z",
+                "visivel": true,
+                "desconto": 0
+            },
+            {
+                "Created By": "admin_user_levee-delivery_test",
+                "demanda": 0,
+                "como armazenar": "Despensa: Local fresco e seco, após aberto manter refrigerado. Durabilidade: Verificar embalagem",
+                "preço novo": 4.99,
+                "categorias_produto": [
+                    "Outros"
+                ],
+                "_id": "1721092987208x177771857711391140",
+                "Created Date": "2024-07-16T01:23:07.208Z",
+                "estoque": 100000,
+                "peso por unidade": 200,
+                "Modified Date": "2025-05-21T17:13:00.852Z",
+                "ean": "7898058982064",
+                "visivel": false,
+                "qtd por unidade": "150g",
+                "peso/und": "unidade",
+                "cod": "001274",
+                "descriçao": "Doce de leite tradicional em formato de tablete, com pedaços de amendoim. Usos: Consumir como doce, sobremesa ou ingrediente em receitas.",
+                "tipo_unidade": "UN",
+                "nome": "Cumari Verde 150g",
+                "desconto": 0,
+                "preço antigo": 4.99
+            },
+            {
+                "tipo_unidade": "UN",
+                "nome": "Doce De Leite C/Amendoim (Cajuzinho) 130g",
+                "relacionados": [
+                    "1721092987211x348097966177807400"
+                ],
+                "ean": "7898666580164",
+                "visivel": false,
+                "qtd por unidade": "130g",
+                "categorias_produto": [
+                    "Outros"
+                ],
+                "estoque": 100000,
+                "cod": "002447",
+                "Modified Date": "2025-05-21T17:13:00.861Z",
+                "demanda": 0,
+                "preço antigo": 6.99,
+                "Created By": "admin_user_levee-delivery_test",
+                "preço novo": 6.99,
+                "desconto": 0,
+                "como armazenar": "Temperatura ambiente em local fresco e seco, após aberto manter refrigerado entre 0ºC e 10ºC. Validade média: 6 meses (fechado), 1 semana (aberto).",
+                "Created Date": "2024-07-16T01:23:07.209Z",
+                "_id": "1721092987209x787733313800576000",
+                "descriçao": "Doce de leite tradicional em formato de cajuzinho, com recheio cremoso e cobertura de amendoim. Usos: Consumir como doce ou sobremesa.",
+                "peso/und": "unidade",
+                "peso por unidade": 200
+            },
+            {
+                "Modified Date": "2025-07-19T13:43:55.676Z",
+                "Created Date": "2024-07-16T01:23:07.210Z",
+                "visivel": false,
+                "ean": "0192505114570",
+                "tipo_unidade": "UN",
+                "peso por unidade": 255,
+                "preço novo": 10.99,
+                "_id": "1721092987210x948987613829097600",
+                "info nutricional": "Por 100g:\n- Calorias: 240kcal\n- Gordura Total: 0.5g\n- Carboidratos: 63g\n- Fibra: 7g\n- Açúcar: 56g\n- Proteína: 4g\n- Potássio: 1162mg (33% VD)\n- Ferro: 6.3mg (35% VD)",
+                "peso/und": "unidade",
+                "descriçao": "Damasco seco importado da Turquia, da marca Saúde Plena, rico em fibras e vitaminas. Usos: Consumir como snack, em receitas de sobremesas e acompanhamentos.",
+                "nome": "Damasco Turco Seco 100g",
+                "cod": "002344",
+                "estoque": 99734,
+                "preço antigo": 10.99,
+                "como armazenar": "Despensa: Pote hermético, local fresco e seco. Durabilidade: 6 meses",
+                "preço por kg": 10.99,
+                "Created By": "admin_user_levee-delivery_test",
+                "demanda": 4,
+                "desconto": 0,
+                "categorias_produto": [
+                    "Empório"
+                ],
+                "qtd por unidade": "100g",
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1719347606105x940395515158435800/Damasco%20Turco%20300g.jpg"
+                ]
+            },
+            {
+                "preço antigo": 6.99,
+                "descriçao": "Doce de leite tradicional com pedaços de amendoim, em embalagem prática. Usos: Consumir como doce, sobremesa ou ingrediente em receitas.",
+                "desconto": 0,
+                "visivel": false,
+                "_id": "1721092987211x348097966177807400",
+                "relacionados": [
+                    "1721092987209x787733313800576000",
+                    "1721092727389x744715915317755400",
+                    "1721092727390x783101169221158000",
+                    "1721092989303x599017524657527200",
+                    "1721092989436x126651777400327740"
+                ],
+                "qtd por unidade": "130g",
+                "nome": "Doce De Leite C/Amendoim 130g",
+                "tipo_unidade": "UN",
+                "categorias_produto": [
+                    "Outros"
+                ],
+                "Modified Date": "2025-05-21T17:13:00.870Z",
+                "estoque": 100000,
+                "Created Date": "2024-07-16T01:23:07.211Z",
+                "ean": "7898666580089",
+                "como armazenar": "Temperatura ambiente em local fresco e seco, após aberto manter refrigerado entre 0ºC e 10ºC. Validade média: 6 meses (fechado), 1 semana (aberto).",
+                "cod": "002446",
+                "peso/und": "unidade",
+                "demanda": 0,
+                "preço novo": 6.99,
+                "Created By": "admin_user_levee-delivery_test"
+            },
+            {
+                "peso/und": "peso",
+                "preço antigo": 14.99,
+                "_id": "1721092987342x906555959632024700",
+                "peso por unidade": 1000,
+                "visivel": false,
+                "ean": "0000000000243",
+                "categorias_produto": [
+                    "Frutas"
+                ],
+                "preço por kg": 9.990848477,
+                "descriçao": "Fruto amazônico com polpa cremosa e sabor agridoce. Receitas: Sorvetes, mousses, geleias, bombons. Usos: Consumir a polpa in natura ou como ingrediente em receitas doces.",
+                "desconto": -33.36,
+                "preço novo": 19.99,
+                "demanda": 0,
+                "Created Date": "2024-07-16T01:23:07.342Z",
+                "info nutricional": "Por 100g (polpa):\n- Calorias: 68kcal\n- Carboidratos: 17g\n- Fibra: 7g\n- Proteína: 1g\n- Gordura: 0.5g\nVitaminas:\n- Vitamina C: 26mg (29% VD)\n- Tiamina: 0.1mg (7% VD)\n- Riboflavina: 0.1mg (6% VD)",
+                "nome": "Cupuacu",
+                "cod": "000261",
+                "Created By": "admin_user_levee-delivery_test",
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1719860724628x322127133065702700/cupua%C3%A7u.jpg"
+                ],
+                "Modified Date": "2025-05-21T17:13:00.878Z",
+                "estoque": 100000,
+                "como armazenar": "Maturação: Em temperatura ambiente. Geladeira: Após maduro. Durabilidade: 3-5 dias (maduro)",
+                "tipo_unidade": "KG"
+            },
+            {
+                "como armazenar": "Refrigerado entre 0ºC e 10ºC, em embalagem fechada ou coberta. Validade média: 5 dias.",
+                "Modified Date": "2025-05-28T16:48:41.171Z",
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1741795176401x734979691152086500/AMENDOIM%20TORRADO%20EM%20CASCA%20200G%28JC%20DOCES%29.JPG"
+                ],
+                "ean": "0000000000755",
+                "preço novo": 8.99,
+                "nome": "Amendoim c/ casca 200gr JC DOCES",
+                "estoque": 99999,
+                "desconto": -28.612303290414875,
+                "preço antigo": 6.99,
+                "Created By": "admin_user_levee-delivery_test",
+                "_id": "1721092987343x624712590422379600",
+                "demanda": 0,
+                "cod": "071085",
+                "categorias_produto": [
+                    "Outros"
+                ],
+                "visivel": false,
+                "peso por unidade": 200,
+                "Created Date": "2024-07-16T01:23:07.343Z",
+                "tipo_unidade": "UN",
+                "descriçao": "Doce de leite tradicional com coco ralado, que confere sabor e textura. Usos: Consumir como doce, recheio para bolos e tortas ou ingrediente em receitas.",
+                "peso/und": "unidade"
+            },
+            {
+                "preço novo": 14.99,
+                "Modified Date": "2026-02-08T14:29:32.865Z",
+                "visivel": true,
+                "como armazenar": "Temperatura ambiente em local fresco e seco, após aberto manter refrigerado entre 0ºC e 10ºC. Validade média: 6 meses (fechado), 1 semana (aberto).",
+                "tipo_unidade": "UN",
+                "Created Date": "2024-07-16T01:23:07.344Z",
+                "preço antigo": 14.99,
+                "demanda": 2,
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1724108289829x439376714228572900/2465.jpg"
+                ],
+                "estoque": 99977,
+                "qtd por unidade": "400g",
+                "categorias_produto": [
+                    "Outros"
+                ],
+                "Created By": "admin_user_levee-delivery_test",
+                "nome": "Doce De Leite Pastoso Tradicional 400g",
+                "desconto": 0,
+                "peso/und": "unidade",
+                "cod": "002465",
+                "ean": "7898666580010",
+                "descriçao": "Doce de leite tradicional com textura pastosa, ideal para espalhar. Usos: Consumir com pães, biscoitos, torradas ou como ingrediente em receitas.",
+                "_id": "1721092987344x668533070416567300"
+            }
+        ],
+        "count": 100,
+        "remaining": 809
+    }
+}

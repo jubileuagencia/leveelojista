@@ -1,395 +1,490 @@
-# Guia de Configuração ManyChat — Spoiler Astrológico da Semana
-## Fluxo completo com instruções passo a passo
+# Guia de Configuracao ManyChat — Spoiler Astrologico Semanal
 
-**Versão:** 1.0
-**Responsável setup:** Fernando / Gabriel
-**Atualização semanal:** Fernando ou Gabriel (toda segunda-feira)
-**Cliente:** Película Sideral
+**Versao:** 2.0
+**Responsavel setup:** Fernando / Gabriel
+**Atualizacao semanal:** Fernando ou Gabriel (toda segunda-feira)
+**Cliente:** Pelicula Sideral
 
 ---
 
-## Visão Geral
-
-O ManyChat responde automaticamente quando pessoas interagem nos Stories e Reels sobre o Spoiler Astrológico da Semana. A mesma estrutura se repete toda semana — só muda o tema astrológico e as 12 mini-interpretações.
-
-### Diagrama do Fluxo
+## Visao Geral do Fluxo
 
 ```
-Comentário / Resposta no Instagram
-           │
-           ▼
-    ┌──────────────┐
-    │  DETECTOR DE  │
-    │ PALAVRA-CHAVE │
-    └──────┬───────┘
-           │
-    ┌──────┴──────────────────┐
-    │                         │
-    ▼                         ▼
- Signo detectado        "não sei" detectado
- (áries, touro...)      (não sei, nao sei...)
-    │                         │
-    ▼                         ▼
-┌─────────────┐        ┌──────────────┐
-│ CAMINHO A   │        │ CAMINHO B    │
-│ Interpretação│       │ Vídeo tutorial│
-│ personalizada│       │ "Como descobrir│
-│              │       │  ascendente"  │
-│ → Oferta    │        │              │
-│   Camarin   │        │ → Oferta     │
-└─────────────┘        │   Curso      │
-                       │              │
-                       │ → Ou volta   │
-                       │   Caminho A  │
-                       └──────────────┘
-
-  Comentário não reconhecido
-           │
-           ▼
-    ┌──────────────┐
-    │  FALLBACK    │
-    │ "Qual seu    │
-    │  ascendente?"│
-    └──────────────┘
+Comentario / Resposta no Instagram
+           |
+           v
+    +----------------+
+    | DETECTOR DE    |
+    | PALAVRA-CHAVE  |
+    +-------+--------+
+            |
+    +-------+-----------------------+-------------------+
+    |                               |                   |
+    v                               v                   v
+ Signo detectado           "nao sei" detectado     Nao reconhecido
+ (aries, touro...)         (nao sei, n sei...)
+    |                               |                   |
+    v                               v                   v
++-----------+              +---------------+     +------------+
+| CAMINHO A |              | CAMINHO B     |     | FALLBACK   |
+| Interp.   |              | Video tutorial|     | Reperguntar|
+| + Oferta  |              | + Oferta      |     | signo      |
+| Camarim   |              | Curso         |     +------------+
++-----------+              | ou volta ao A |
+                           +---------------+
 ```
 
 ---
 
-## PARTE 1 — Configuração Inicial (fazer uma vez)
+## PARTE 1 — Configuracao Inicial (fazer uma vez)
 
-### 1.1 Triggers (Gatilhos)
+### 1.1 Custom Fields (Campos Personalizados)
 
-Criar **um único fluxo** com múltiplas palavras-chave de entrada.
+> Menu lateral > **Settings** > **Custom Fields** > **+ New User Field**
 
-**No ManyChat:**
-1. Ir em **Automation** → **New Automation**
-2. Nome: `Spoiler Semanal — Fluxo Principal`
-3. Trigger: **Instagram Comment / Story Reply**
+| #  | Nome do Campo        | Tipo | Para que serve                  |
+|----|----------------------|------|---------------------------------|
+| 1  | `ascendente`         | Text | Guardar o signo da pessoa       |
+| 2  | `tema_semana`        | Text | Tema astrologico da semana      |
+| 3  | `interp_aries`       | Text | Mini-interpretacao de Aries     |
+| 4  | `interp_touro`       | Text | Mini-interpretacao de Touro     |
+| 5  | `interp_gemeos`      | Text | Mini-interpretacao de Gemeos    |
+| 6  | `interp_cancer`      | Text | Mini-interpretacao de Cancer    |
+| 7  | `interp_leao`        | Text | Mini-interpretacao de Leao      |
+| 8  | `interp_virgem`      | Text | Mini-interpretacao de Virgem    |
+| 9  | `interp_libra`       | Text | Mini-interpretacao de Libra     |
+| 10 | `interp_escorpiao`   | Text | Mini-interpretacao de Escorpiao |
+| 11 | `interp_sagitario`   | Text | Mini-interpretacao de Sagitario |
+| 12 | `interp_capricornio` | Text | Mini-interpretacao de Capricornio |
+| 13 | `interp_aquario`     | Text | Mini-interpretacao de Aquario   |
+| 14 | `interp_peixes`      | Text | Mini-interpretacao de Peixes    |
 
-**Palavras-chave do trigger (todas em lowercase):**
+Para cada: **+ New User Field** > digita o nome > seleciona "Text" > **Create**
 
-| Grupo | Palavras-chave | Destino |
-|-------|---------------|---------|
-| Signos | áries, aries, touro, gêmeos, gemeos, câncer, cancer, leão, leao, virgem, libra, escorpião, escorpiao, sagitário, sagitario, capricórnio, capricornio, aquário, aquario, peixes | Caminho A |
-| Não sabe | não sei, nao sei, n sei, não tenho certeza, nao tenho certeza | Caminho B |
-| Interesse | quero, spoiler | Caminho A (genérico) |
+- [ ] Todos os 14 Custom Fields criados
 
-> **IMPORTANTE:** Adicionar versões sem acento para cada palavra (ex: `áries` E `aries`).
+---
 
-### 1.2 Custom Fields (Campos Personalizados)
+### 1.2 Bot Fields (Campos Globais)
 
-Criar os seguintes Custom Fields no ManyChat:
+> **Settings** > **Bot Fields** > **+ New Bot Field**
 
-| Campo | Tipo | Uso |
-|-------|------|-----|
-| `ascendente` | Text | Armazena o signo do usuário |
-| `tema_semana` | Text | Tema astrológico atual |
-| `interp_aries` | Text | Interpretação Áries da semana |
-| `interp_touro` | Text | Interpretação Touro da semana |
-| `interp_gemeos` | Text | Interpretação Gêmeos da semana |
-| `interp_cancer` | Text | Interpretação Câncer da semana |
-| `interp_leao` | Text | Interpretação Leão da semana |
-| `interp_virgem` | Text | Interpretação Virgem da semana |
-| `interp_libra` | Text | Interpretação Libra da semana |
-| `interp_escorpiao` | Text | Interpretação Escorpião da semana |
-| `interp_sagitario` | Text | Interpretação Sagitário da semana |
-| `interp_capricornio` | Text | Interpretação Capricórnio da semana |
-| `interp_aquario` | Text | Interpretação Aquário da semana |
-| `interp_peixes` | Text | Interpretação Peixes da semana |
+Bot Fields valem para TODOS os usuarios (diferente dos Custom Fields que sao por pessoa).
+
+| Nome                 | Tipo | Valor Inicial                           |
+|----------------------|------|-----------------------------------------|
+| `tema_semana_global` | Text | "Lua Nova em Peixes" (ou o tema atual)  |
+
+**NOTA IMPORTANTE:** As 12 interpretacoes (`interp_*`) devem ser Bot Fields tambem, nao Custom Fields — assim voce atualiza UMA VEZ e vale pra todo mundo. Revise o passo 1.1 e crie como Bot Fields em vez de Custom Fields.
+
+- [ ] Bot Field `tema_semana_global` criado
+
+---
 
 ### 1.3 Tags
 
-Criar as seguintes tags:
+> Menu lateral > **Audience** > **Tags** > **+ New Tag**
 
-| Tag | Quando aplicar |
-|-----|----------------|
-| `spoiler-caminho-a` | Quando entra no Caminho A |
-| `spoiler-caminho-b` | Quando entra no Caminho B |
-| `spoiler-clicou-camarin` | Quando clica no botão do Camarin |
-| `spoiler-clicou-curso` | Quando clica no botão do Curso |
-| `spoiler-remarketing` | Quando clica "agora não" |
-| `spoiler-descobriu-signo` | Quando volta do Caminho B pro A |
+| Tag                   | Para que serve                           |
+|-----------------------|------------------------------------------|
+| `spoiler-interagiu`   | Marcou quem interagiu no spoiler         |
+| `sabe-ascendente`     | Sabe o ascendente                        |
+| `nao-sabe-ascendente` | Nao sabe o ascendente                    |
+| `remarketing`         | Disse "agora nao" — remarketing futuro   |
+| `interesse-camarim`   | Clicou no link do Camarim                |
+| `interesse-curso`     | Clicou no link do Curso                  |
 
----
-
-## PARTE 2 — Caminho A: Sabe o Ascendente
-
-### Fluxo passo a passo
-
-**Step 1 — Condição: Identificar o signo**
-
-Criar condição (Condition node) que verifica qual signo foi mencionado:
-- Se contém "áries" ou "aries" → Set Custom Field `ascendente` = "Áries" → Ir para Step 2 (Áries)
-- Se contém "touro" → Set Custom Field `ascendente` = "Touro" → Ir para Step 2 (Touro)
-- *(repetir para todos os 12 signos)*
-
-**Step 2 — Mensagem 1: Interpretação personalizada**
-
-> Enviar IMEDIATAMENTE após o trigger
-
-Para cada signo, uma mensagem com o template abaixo. Usar variáveis dinâmicas para que só precise atualizar os Custom Fields semanalmente.
-
-**Template da mensagem (copiar para cada signo, trocando nome/emoji):**
-
-```
-Oi! Vi que seu ascendente é Áries ♈
-
-Essa semana, com {{tema_semana}}, isso significa que {{interp_aries}}
-
-✨ Cuida dessa energia e aproveita o momento.
-```
-
-| Signo | Emoji | Custom Field |
-|-------|-------|-------------|
-| Áries | ♈ | `{{interp_aries}}` |
-| Touro | ♉ | `{{interp_touro}}` |
-| Gêmeos | ♊ | `{{interp_gemeos}}` |
-| Câncer | ♋ | `{{interp_cancer}}` |
-| Leão | ♌ | `{{interp_leao}}` |
-| Virgem | ♍ | `{{interp_virgem}}` |
-| Libra | ♎ | `{{interp_libra}}` |
-| Escorpião | ♏ | `{{interp_escorpiao}}` |
-| Sagitário | ♐ | `{{interp_sagitario}}` |
-| Capricórnio | ♑ | `{{interp_capricornio}}` |
-| Aquário | ♒ | `{{interp_aquario}}` |
-| Peixes | ♓ | `{{interp_peixes}}` |
-
-**Ação:** Aplicar tag `spoiler-caminho-a`
-
-**Step 3 — Delay: 30 segundos**
-
-**Step 4 — Mensagem 2: Transição para oferta**
-
-```
-Toda semana eu aprofundo isso ao vivo no Camarin Sideral — é onde eu abro o céu inteiro e mostro como navegar cada energia.
-
-Quer conhecer?
-```
-
-**Botões:**
-- `Quero fazer parte ✨` → Ir para Step 5A
-- `Agora não, obrigado` → Ir para Step 5B
-
-**Step 5A — Clicou "Quero fazer parte"**
-
-```
-Que bom! 💜
-
-Aqui tá o link pra conhecer o Camarin Sideral:
-{link_camarin_utm}
-
-Lá dentro tem aula ao vivo toda semana, aprofundamento no seu mapa pessoal, e uma comunidade incrível de pessoas que também tão nessa jornada.
-
-Te espero lá!
-```
-
-**Ação:** Aplicar tag `spoiler-clicou-camarin`
-
-**Step 5B — Clicou "Agora não"**
-
-```
-Sem problema! Quando sentir que é o momento, o convite tá de pé 😊
-
-Enquanto isso, continua acompanhando o Jornal Sideral — toda semana tem conteúdo novo por aqui.
-```
-
-**Ação:** Aplicar tag `spoiler-remarketing`
+- [ ] Todas as 6 Tags criadas
 
 ---
 
-## PARTE 3 — Caminho B: Não Sabe o Ascendente
+## PARTE 2 — Criar o Trigger (Gatilho de Automacao)
 
-### Fluxo passo a passo
+### 2.1 Criar Nova Automacao
 
-**Step 1 — Mensagem 1: Acolhimento + vídeo**
+1. Menu lateral > **Automation**
+2. Botao azul **+ New Automation**
+3. Selecionar **Start from Scratch**
+4. Nome: `Spoiler Astrologico Semanal`
 
-> Enviar IMEDIATAMENTE após o trigger
+### 2.2 Configurar o Trigger
 
-```
-Sem problema! Muita gente não sabe e tá tudo bem 😊
-
-Fiz um vídeo rapidinho (1 minuto) te mostrando como descobrir. É super fácil!
-```
-
-**Ação:** Enviar vídeo tutorial (anexar arquivo de vídeo no ManyChat)
-**Ação:** Aplicar tag `spoiler-caminho-b`
-
-> **DEPENDÊNCIA:** O vídeo tutorial precisa ser gravado pelo Victor (60-90s mostrando como acessar o mapa gratuito e encontrar o ascendente).
-
-**Step 2 — Delay: 2 minutos** (tempo de assistir o vídeo)
-
-**Step 3 — Mensagem 2: Follow-up**
+1. Clicar em **Choose a Trigger**
+2. Selecionar **Instagram**
+3. Escolher **Instagram Comments**
+4. Configurar:
+   - **Comment Automation for:** `Specific Post` (recomendado) — colar link do Reels/Post
+   - Ou `All Posts` se quiser pra todos
+5. **Trigger Keywords** (uma por linha):
 
 ```
-E aí, conseguiu descobrir? 🌟
-
-Saber seu ascendente muda TUDO na astrologia — é a chave pra entender como os trânsitos da semana afetam a sua vida de verdade.
+aries
+áries
+touro
+gemeos
+gêmeos
+cancer
+câncer
+leao
+leão
+virgem
+libra
+escorpiao
+escorpião
+sagitario
+sagitário
+capricornio
+capricórnio
+aquario
+aquário
+peixes
+não sei
+nao sei
+quero
+spoiler
 ```
 
-**Botões:**
-- `Descobri! Meu ascendente é...` → Ir para Step 4A
-- `Quero aprender mais sobre mapa astral` → Ir para Step 4B
+6. **Keyword matching rule:** `Message contains keyword`
+7. Marcar **Also trigger for Story Replies** (se disponivel)
+8. Clicar **Done / Save**
 
-**Step 4A — Descobriu o ascendente**
-
-```
-Boa! Me conta então: qual é o seu ascendente? 😊
-```
-
-**Ação:** Aplicar tag `spoiler-descobriu-signo`
-**Ação:** Aguardar resposta → Redirecionar para **Caminho A** (detector de palavra-chave)
-
-> No ManyChat: Configurar um "User Input" node que captura a próxima mensagem e redireciona para o início do Caminho A.
-
-**Step 4B — Quer aprender mais**
-
-```
-O mapa astral é tipo um manual de quem você é — e aprender a ler muda tudo.
-
-Eu fiz um curso chamado Decifrando o Mapa Astral, onde ensino do zero a interpretar cada parte do mapa.
-
-Se faz sentido pra você, dá uma olhada:
-{link_curso_utm}
-```
-
-**Ação:** Aplicar tag `spoiler-clicou-curso`
+- [ ] Trigger configurado com todas as keywords
 
 ---
 
-## PARTE 4 — Fallback
+## PARTE 3 — CAMINHO A: Sabe o Ascendente (12 signos)
 
-Para comentários que o ManyChat não reconhece (não contém nenhuma palavra-chave):
+### 3.1 Adicionar Condicao (Condition)
+
+Logo apos o trigger:
+
+1. Clicar no **+** abaixo do trigger
+2. Selecionar **Condition**
+3. Configurar: `If > Comment Text > contains > aries`
+4. Isso cria dois caminhos: **Yes** e **No**
+
+### 3.2 Caminho Yes (Aries) — Acoes + Mensagem 1
+
+**ANTES da mensagem, adicionar Actions:**
+
+1. **+** > **Action** > **Set Custom Field** > `ascendente` = `aries`
+2. **Action** > **Add Tag** > `spoiler-interagiu`
+3. **Action** > **Add Tag** > `sabe-ascendente`
+
+**Mensagem 1 — Mini-interpretacao personalizada:**
+
+4. **+** > **Send Message** > **Instagram DM** > **Text**
 
 ```
-Oi! Não consegui identificar seu signo 😅
+Oi, {{first name}}! Vi que seu ascendente e Aries ♈
 
-Pode me dizer qual seu ascendente? (ex: Áries, Touro, Gêmeos...)
+{{interp_aries}}
 
-Se não sabe, responde "não sei" que eu te ajudo a descobrir!
+Essa semana o tema e: {{tema_semana_global}}
 ```
 
-**Ação:** Aguardar resposta → Redirecionar para detector de palavra-chave (início do fluxo)
+### 3.3 Delay de 30 segundos
+
+1. **+** > **Smart Delay** > **30 segundos**
+
+### 3.4 Mensagem 2 — Transicao para Oferta
+
+1. **+** > **Send Message** > **Instagram DM** > **Text + Buttons**
+
+```
+Toda semana eu aprofundo isso ao vivo no Camarim Sideral. Quer conhecer? ✨
+```
+
+**Botao 1:**
+- Texto: `Quero fazer parte ✨`
+- Tipo: **Open Website**
+- URL: `https://optimizeformobile.vercel.app/`
+- Action no botao: **Add Tag** > `interesse-camarim`
+
+**Botao 2:**
+- Texto: `Agora nao, obrigado`
+- Tipo: **Send Message** (vai para encerramento)
+- Action no botao: **Add Tag** > `remarketing`
+
+### 3.5 Mensagem de Encerramento ("Agora nao")
+
+No caminho do botao "Agora nao":
+
+```
+Sem problema! Se mudar de ideia, e so me chamar 😊
+Toda semana tem conteudo novo por aqui.
+```
+
+### 3.6 REPLICAR PARA OS OUTROS 11 SIGNOS
+
+No caminho **No** da primeira condicao, encadear novas condicoes:
+
+| # | Condicao (contains)         | Emoji | Campo              | Valor ascendente |
+|---|----------------------------|-------|--------------------|------------------|
+| 1 | aries / áries              | ♈    | `interp_aries`     | aries            |
+| 2 | touro                      | ♉    | `interp_touro`     | touro            |
+| 3 | gemeos / gêmeos            | ♊    | `interp_gemeos`    | gemeos           |
+| 4 | cancer / câncer            | ♋    | `interp_cancer`    | cancer           |
+| 5 | leao / leão                | ♌    | `interp_leao`      | leao             |
+| 6 | virgem                     | ♍    | `interp_virgem`    | virgem           |
+| 7 | libra                      | ♎    | `interp_libra`     | libra            |
+| 8 | escorpiao / escorpião      | ♏    | `interp_escorpiao` | escorpiao        |
+| 9 | sagitario / sagitário      | ♐    | `interp_sagitario` | sagitario        |
+| 10| capricornio / capricórnio  | ♑    | `interp_capricornio`| capricornio     |
+| 11| aquario / aquário          | ♒    | `interp_aquario`   | aquario          |
+| 12| peixes                     | ♓    | `interp_peixes`    | peixes           |
+
+**DICA:** Botao direito no bloco > **Duplicate** para copiar a estrutura e so trocar textos.
+
+Cada signo segue a MESMA estrutura:
+1. Actions (set ascendente + tags)
+2. Mensagem 1 (interpretacao)
+3. Delay 30s
+4. Mensagem 2 (botoes oferta)
+5. Encerramento (se "agora nao")
+
+- [ ] Caminho A completo para todos os 12 signos
 
 ---
 
-## PARTE 5 — Eventos de Pixel do Facebook
+## PARTE 4 — CAMINHO B: Nao Sabe o Ascendente
 
-Configurar eventos customizados no ManyChat para rastreamento e remarketing:
+### 4.1 Condicao para "nao sei"
 
-| Evento | Quando dispara | Uso |
-|--------|----------------|-----|
-| `SpoilerCaminhoA` | Quando entra no Caminho A | Público: pessoas engajadas com astrologia |
-| `SpoilerCaminhoB` | Quando entra no Caminho B | Público: iniciantes em astrologia |
-| `SpoilerClicouCamarin` | Quando clica no botão LP Camarin | Público: quase-comprou Camarin |
-| `SpoilerClicouCurso` | Quando clica no botão LP Curso | Público: quase-comprou Curso |
+Apos todas as 12 condicoes de signo, no ultimo caminho **No**:
 
-**Como configurar no ManyChat:**
-1. Ir em **Settings** → **Integrations** → **Facebook Pixel**
-2. Conectar o Pixel ID da Película Sideral
-3. Em cada step indicado acima, adicionar **Action** → **Track Event** → Nome do evento
+1. **Condition:** `If > Comment Text > contains > não sei` OR `nao sei`
 
-**Públicos de Remarketing no Meta Ads:**
-- Criar público customizado baseado em cada evento
-- Lookalike baseado em `SpoilerClicouCamarin` (mais qualificados)
+### 4.2 Mensagem 1 — Acolhimento + Video
+
+No caminho **Yes**:
+
+1. **Action:** Add Tag > `nao-sabe-ascendente`
+2. **Action:** Add Tag > `spoiler-interagiu`
+3. **Send Message** > Instagram DM:
+
+```
+Sem problema! Muita gente nao sabe 😊
+Fiz um video rapido te mostrando como descobrir — e bem facil!
+```
+
+4. **+** > **Send Message** > Instagram DM > **Attachment / Video**
+5. Upload do video tutorial OU enviar como link:
+
+```
+👉 Assista aqui: [link do video tutorial]
+```
+
+> Video pode ser MP4 ate 25MB direto no ManyChat, ou enviar como link.
+
+### 4.3 Delay de 2 minutos
+
+**Smart Delay:** 2 minutos (tempo de assistir o video)
+
+### 4.4 Mensagem 2 — Follow-up com Botoes
+
+**Send Message** > Instagram DM > **Text + Buttons:**
+
+```
+Conseguiu descobrir? Saber seu ascendente muda tudo na astrologia! 🌟
+```
+
+**Botao 1:**
+- Texto: `Descobri! Meu ascendente e...`
+- Tipo: **Send Message**
+- Vai para: perguntar o signo (4.5)
+
+**Botao 2:**
+- Texto: `Quero aprender mais`
+- Tipo: **Open Website**
+- URL: `[Link LP Curso Decifrando]`
+- Action: **Add Tag** > `interesse-curso`
+
+### 4.5 Reconectar com Caminho A ("Descobri!")
+
+1. **Send Message:**
+
+```
+Que legal! Me conta: qual e o seu ascendente?
+(ex: Aries, Touro, Gemeos...)
+```
+
+2. **User Input:**
+   - Tipo: **Multiple Choice** (listar os 12 signos) OU **Free Text**
+   - Salvar resposta em: Custom Field `ascendente`
+3. Apos capturar, usar **Condition** para verificar o valor e redirecionar para o Caminho A correspondente
+
+**DICA:** Usar **"Go to Step"** para redirecionar para blocos ja existentes sem duplicar.
+
+- [ ] Caminho B completo
 
 ---
 
-## PARTE 6 — Atualização Semanal
+## PARTE 5 — FALLBACK
 
-### O que atualizar toda segunda-feira
+### 5.1 Mensagem de Fallback
 
-Apenas **13 campos** precisam ser atualizados semanalmente:
+No ultimo caminho **No** (nao e signo nem "nao sei"):
 
-| Campo | Exemplo |
-|-------|---------|
-| `tema_semana` | "Lua Nova em Peixes" |
-| `interp_aries` | "essa energia ativa sua casa 12 — momento de olhar pra dentro, revisar padrões e confiar na sua intuição antes de agir" |
-| `interp_touro` | "a Lua Nova ilumina sua casa 11 — novas conexões e projetos coletivos ganham força" |
-| `interp_gemeos` | "sua casa 10 é ativada — semana decisiva para carreira e reputação" |
-| `interp_cancer` | "a energia vai pra casa 9 — expansão, aprendizado, e uma vontade de ir mais longe" |
-| `interp_leao` | "casa 8 ativada — transformação profunda, desapegos necessários, renovação" |
-| `interp_virgem` | "a Lua Nova mexe na sua casa 7 — relacionamentos pedem atenção e novos acordos" |
-| `interp_libra` | "casa 6 em foco — rotina, saúde e hábitos pedem reorganização" |
-| `interp_escorpiao` | "energia na casa 5 — criatividade, romance e expressão pessoal em alta" |
-| `interp_sagitario` | "casa 4 iluminada — lar, família e raízes emocionais pedem atenção" |
-| `interp_capricornio` | "sua casa 3 é ativada — comunicação, estudos e conversas importantes" |
-| `interp_aquario` | "casa 2 em foco — valores, dinheiro e autoestima em revisão" |
-| `interp_peixes` | "a Lua Nova acontece no SEU signo — recomeço pessoal, novas intenções, momento de plantar" |
+1. **Action:** Add Tag > `spoiler-interagiu`
+2. **Send Message** > Instagram DM:
 
-### Passo a passo para atualizar
+```
+Oi! Nao consegui identificar seu signo 😅
+Pode me dizer qual seu ascendente?
 
-1. Abrir ManyChat → **Settings** → **Custom Fields**
-2. Atualizar o campo `tema_semana` com o tema da semana
-3. Atualizar os 12 campos `interp_*` com as interpretações da semana
-4. **Testar:** Enviar um comentário teste com um signo e verificar se a mensagem está com o conteúdo atualizado
-5. Marcar como feito no checklist semanal
+(ex: Aries, Touro, Gemeos...)
 
-> **DICA:** As 12 interpretações são fornecidas no briefing semanal (templates/briefing-semanal-pelicula.md, seção 5).
+Se nao sabe, responde "nao sei" que eu te ajudo 😊
+```
 
-### Regras das mini-interpretações
+3. **User Input:**
+   - Tipo: **Free Text**
+   - Salvar em: Custom Field `ascendente`
+   - Timeout: **24 horas**
+4. Apos resposta, **Conditions:**
+   - Se contem um dos 12 signos > Caminho A
+   - Se contem "nao sei" > Caminho B
+   - Se outra coisa > mensagem educada encerrando
 
-| Regra | Descrição |
-|-------|-----------|
-| **Tamanho** | 2-3 frases (máximo 280 caracteres) |
-| **Tom** | Pessoal, direto, empoderador |
-| **Conteúdo** | Qual casa é ativada + o que significa na prática |
-| **Proibido** | Previsões negativas, fatalismo, medo |
-| **Exemplo bom** | "essa energia ativa sua casa 7 — momento ideal pra conversas honestas nos relacionamentos" |
-| **Exemplo ruim** | "cuidado com brigas nos relacionamentos essa semana" |
+- [ ] Fallback configurado
 
 ---
 
-## PARTE 7 — Links com UTM
+## PARTE 6 — Publicar e Testar
 
-### Camarin Sideral
+### 6.1 Revisar o Fluxo
+
+1. No editor visual, clicar em CADA bloco e verificar:
+   - Textos corretos
+   - Links funcionando
+   - Tags corretas
+   - Custom Fields corretos
+2. Verificar que nao ha caminhos "soltos" (blocos sem conexao)
+
+### 6.2 Testar com Preview
+
+Clicar **Preview** (canto superior direito) e testar:
+
+| Cenario                | Digitar       | Resultado esperado                  |
+|------------------------|---------------|-------------------------------------|
+| Caminho A (aries)      | `aries`       | DM com interpretacao de Aries       |
+| Caminho A (leao)       | `leao`        | DM com interpretacao de Leao        |
+| Caminho A (sem acento) | `gemeos`      | DM com interpretacao de Gemeos      |
+| Caminho B              | `nao sei`     | DM com video tutorial               |
+| Fallback               | `bla bla bla` | DM perguntando ascendente           |
+| Botoes                 | Clicar cada   | Links abrem / tags aplicam          |
+
+### 6.3 Teste Real
+
+1. **Publish** (canto superior direito — botao fica azul)
+2. Pedir pra alguem da equipe (Gabriel, Karol) comentar no post de teste
+3. Monitorar DMs nos primeiros 30 minutos
+4. Verificar em **Audience** se tags estao sendo aplicadas
+
+- [ ] Preview testado (3+ cenarios)
+- [ ] Automacao publicada
+- [ ] Teste real com equipe
+
+---
+
+## PARTE 7 — Atualizacao Semanal (Toda Segunda-Feira)
+
+### 7.1 Atualizar Tema da Semana
+
+1. **Settings** > **Bot Fields**
+2. Encontrar `tema_semana_global`
+3. Trocar valor para o novo tema
+4. **Save**
+
+### 7.2 Atualizar as 12 Mini-Interpretacoes
+
+> Se criou como **Bot Fields** (recomendado):
+
+1. **Settings** > **Bot Fields**
+2. Atualizar cada campo:
+
+| Campo              | Exemplo de valor                                                |
+|--------------------|-----------------------------------------------------------------|
+| `interp_aries`     | "Com Marte ativando seu setor de comunicacao, cuidado com..."   |
+| `interp_touro`     | "A semana pede revisao financeira. Marte mexe com seu setor..." |
+| `interp_gemeos`    | *(preencher)*                                                   |
+| `interp_cancer`    | *(preencher)*                                                   |
+| `interp_leao`      | *(preencher)*                                                   |
+| `interp_virgem`    | *(preencher)*                                                   |
+| `interp_libra`     | *(preencher)*                                                   |
+| `interp_escorpiao` | *(preencher)*                                                   |
+| `interp_sagitario` | *(preencher)*                                                   |
+| `interp_capricornio`| *(preencher)*                                                  |
+| `interp_aquario`   | *(preencher)*                                                   |
+| `interp_peixes`    | *(preencher)*                                                   |
+
+3. **Save** em cada um
+
+**Tempo estimado:** 15-20 minutos por semana.
+
+### Regras das mini-interpretacoes
+
+| Regra      | Descricao                                          |
+|------------|---------------------------------------------------|
+| Tamanho    | 2-3 frases (max 280 caracteres)                   |
+| Tom        | Pessoal, direto, empoderador                      |
+| Conteudo   | Qual casa e ativada + o que significa na pratica   |
+| Proibido   | Previsoes negativas, fatalismo, medo              |
+| Bom        | "essa energia ativa sua casa 7 — conversas honestas" |
+| Ruim       | "cuidado com brigas nos relacionamentos"           |
+
+---
+
+## PARTE 8 — Links com UTM
+
+### Camarim Sideral (Caminho A)
 ```
-{url_camarin}?utm_source=manychat&utm_medium=dm&utm_campaign=spoiler-semanal&utm_content=caminho-a
+https://optimizeformobile.vercel.app/?utm_source=manychat&utm_medium=dm&utm_campaign=spoiler-semanal&utm_content=caminho-a
 ```
 
-### Curso Decifrando Mapa Astral
+### Curso Decifrando Mapa Astral (Caminho B)
 ```
 {url_curso}?utm_source=manychat&utm_medium=dm&utm_campaign=spoiler-semanal&utm_content=caminho-b
 ```
 
-> Substituir `{url_camarin}` e `{url_curso}` pelos links reais antes de configurar.
+> Substituir `{url_curso}` pelo link real antes de configurar.
 
 ---
 
-## PARTE 8 — Checklist de Testes
+## PARTE 9 — Checklist de Verificacao Final
 
-Antes de ativar o fluxo, testar cada cenário:
-
-### Testes obrigatórios
-
-- [ ] **Teste Caminho A (Áries):** Comentar "áries" em um Reel → verificar DM com interpretação correta
-- [ ] **Teste Caminho A (Peixes):** Comentar "peixes" → verificar DM
-- [ ] **Teste Caminho A (sem acento):** Comentar "gemeos" → verificar DM
-- [ ] **Teste Caminho A (botão Camarin):** Clicar "Quero fazer parte" → verificar link correto e tag
-- [ ] **Teste Caminho A (botão agora não):** Clicar "Agora não" → verificar tag remarketing
-- [ ] **Teste Caminho B:** Comentar "não sei" → verificar DM + vídeo
-- [ ] **Teste Caminho B (sem acento):** Comentar "nao sei" → verificar DM
-- [ ] **Teste Caminho B (botão curso):** Clicar "Quero aprender mais" → verificar link
-- [ ] **Teste Caminho B (botão descobriu):** Clicar "Descobri!" → verificar redirecionamento para Caminho A
-- [ ] **Teste Fallback:** Comentar algo aleatório → verificar mensagem de fallback
-- [ ] **Teste Stories:** Responder caixinha com "leão" → verificar DM
-- [ ] **Teste UTM:** Verificar que todos os links têm UTM correto
-- [ ] **Teste Pixel:** Verificar no Events Manager que os eventos estão disparando
-
----
-
-## PARTE 9 — Dependências e Próximos Passos
-
-| Item | Status | Responsável | Impacto |
-|------|--------|-------------|---------|
-| Vídeo tutorial "Como descobrir ascendente" | Precisa gravar | Victor | Bloqueia Caminho B |
-| Link LP Camarin com UTM | Confirmar | Fernando | Links no Caminho A |
-| Link LP Curso com UTM | Confirmar | Fernando | Links no Caminho B |
-| Pixel ID da Película | Confirmar | Fernando/Diego | Eventos de rastreamento |
-| Primeira semana de interpretações | Escrever | Fernando | Conteúdo dos Custom Fields |
-
-> **Workaround Caminho B (se vídeo não estiver pronto):** Substituir o vídeo por uma mensagem de texto com o passo a passo escrito:
-> "1. Acesse astro.com → 2. Clique em 'Carta Natal Gratuita' → 3. Coloque sua data, hora e local de nascimento → 4. Seu ascendente aparece ao lado do signo solar"
+| #  | Item                                                          | Status |
+|----|---------------------------------------------------------------|--------|
+| 1  | Custom Fields criados (ascendente + 12 interpretacoes)        | [ ]    |
+| 2  | Bot Fields criados (tema_semana_global)                       | [ ]    |
+| 3  | Tags criadas (6 tags)                                         | [ ]    |
+| 4  | Trigger configurado (palavras-chave)                          | [ ]    |
+| 5  | Caminho A: 12 signos com mensagem + delay + botoes            | [ ]    |
+| 6  | Caminho B: "nao sei" + video + delay + botoes                 | [ ]    |
+| 7  | Fallback: mensagem de reperguntar                             | [ ]    |
+| 8  | Botao "Quero fazer parte" > link LP Camarim                   | [ ]    |
+| 9  | Botao "Quero aprender mais" > link LP Curso                   | [ ]    |
+| 10 | Botao "Agora nao" > tag remarketing                           | [ ]    |
+| 11 | Botao "Descobri!" > reconecta no Caminho A                    | [ ]    |
+| 12 | Preview testado (3+ cenarios)                                 | [ ]    |
+| 13 | Automacao publicada                                           | [ ]    |
+| 14 | Teste real com equipe                                         | [ ]    |
 
 ---
 
-*Documento referência para configuração e manutenção do ManyChat. Atualizar conforme iterações.*
+## Dependencias
+
+| Item                                    | Status         | Responsavel   |
+|-----------------------------------------|----------------|---------------|
+| Video tutorial "Como descobrir ascendente" | Precisa gravar | Victor        |
+| Link LP Camarim com UTM                 | Confirmado     | Fernando      |
+| Link LP Curso com UTM                   | Confirmar      | Fernando      |
+| Primeira semana de interpretacoes       | Escrever       | Fernando      |
+
+> **Workaround (se video nao estiver pronto):** Substituir por texto:
+> "1. Acesse astro.com > 2. Clique em 'Carta Natal Gratuita' > 3. Coloque data, hora e local de nascimento > 4. Seu ascendente aparece ao lado do signo solar"
+
+---
+
+*Documento v2.0 — Guia passo-a-passo para configuracao e manutencao do ManyChat.*

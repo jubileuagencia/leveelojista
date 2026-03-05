@@ -1,0 +1,241 @@
+{
+    "response": {
+        "cursor": 1000,
+        "results": [
+            {
+                "preço novo": 19.99,
+                "desconto": 0,
+                "visivel": false,
+                "relacionados": [
+                    "1770736881142x345102253448757250",
+                    "1770736941416x547895672718753800"
+                ],
+                "_id": "1770737267770x778357565224648700",
+                "Modified Date": "2026-02-20T17:03:24.859Z",
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1770737240573x888981541094796300/43.png"
+                ],
+                "Created By": "1691143865250x481074744108582500",
+                "Created Date": "2026-02-10T15:27:49.303Z",
+                "peso/und": "unidade",
+                "nome": "Suco de Tangerina (Mexerica) Levee 1L",
+                "peso por unidade": 1000,
+                "cod": "182674",
+                "categorias_produto": [
+                    "Sucos"
+                ],
+                "tipo_unidade": "UN",
+                "descriçao": "Ingredientes: 100% Fruta. Sem lactose, sem açúcar.\nRefrescante e diurético, auxilia na hidratação do corpo e fornece vitaminas essenciais que ajudam a prevenir gripes e resfriados.\n",
+                "estoque": -99998
+            },
+            {
+                "descriçao": "Ingredientes: 100% Fruta. Sem lactose, sem açúcar.\nPoderoso digestivo natural rico em bromelina, enzima que facilita a digestão, além de ter efeito diurético que ajuda a reduzir o inchaço.\n",
+                "tipo_unidade": "UN",
+                "categorias_produto": [
+                    "Sucos"
+                ],
+                "Created Date": "2026-02-10T15:29:01.141Z",
+                "cod": "194578",
+                "estoque": 99999,
+                "Created By": "1691143865250x481074744108582500",
+                "Modified Date": "2026-02-14T15:56:33.767Z",
+                "nome": "Suco de Abacaxi Levee 1L",
+                "relacionados": [
+                    "1770736941416x547895672718753800",
+                    "1770736996355x492062235206090750",
+                    "1770737056019x983614915752493000",
+                    "1770737267770x778357565224648700"
+                ],
+                "peso por unidade": 1000,
+                "visivel": true,
+                "peso/und": "unidade",
+                "preço novo": 19.99,
+                "desconto": 0,
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1770737297376x781952778536871700/44.png"
+                ],
+                "_id": "1770737339645x876736131639541800"
+            },
+            {
+                "visivel": true,
+                "em oferta": true,
+                "desconto": 95.047523761881,
+                "relacionados": [
+                    "1770736102842x463250481369055200",
+                    "1770736332634x443459154471288800"
+                ],
+                "descriçao": "Ingredientes: 100% Fruta. Sem lactose, sem açúcar.\nExcelente fonte de Vitamina C, este suco é um poderoso aliado para fortalecer sua imunidade e dar energia natural para o dia a dia.\nsomente 1 por Compra.",
+                "peso por unidade": 1000,
+                "Created By": "1691143865250x481074744108582500",
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1770749177117x685424229286149400/25.png"
+                ],
+                "tipo_unidade": "UN",
+                "_id": "1770749319637x811182648567791600",
+                "Modified Date": "2026-03-04T17:08:30.136Z",
+                "preço antigo": 19.99,
+                "peso/und": "unidade",
+                "cod": "999999",
+                "estoque": 99852,
+                "Created Date": "2026-02-10T18:48:42.397Z",
+                "categorias_produto": [
+                    "Ofertas"
+                ],
+                "preço novo": 0.99,
+                "nome": "Promoção Suco de Laranja Levee 1L "
+            },
+            {
+                "categorias_produto": [
+                    "Ofertas"
+                ],
+                "nome": "Promoção Suco de Graviola Levee 1L",
+                "descriçao": "Ingredientes: 100% Fruta. Sem lactose, sem açúcar.\nCom propriedades anti-inflamatórias e antioxidantes, auxilia no fortalecimento da imunidade e na proteção do sistema gástrico.\nsomente 1 por pedido",
+                "preço antigo": 19.99,
+                "cod": "999999",
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1770749568514x545747754083296700/23.png"
+                ],
+                "Modified Date": "2026-03-03T19:01:50.283Z",
+                "Created Date": "2026-02-10T18:53:44.934Z",
+                "peso/und": "unidade",
+                "tipo_unidade": "UN",
+                "peso por unidade": 1000,
+                "Created By": "1691143865250x481074744108582500",
+                "preço novo": 0.99,
+                "visivel": true,
+                "desconto": 95.047523761881,
+                "_id": "1770749622344x460163215841296400",
+                "estoque": 99965,
+                "em oferta": true,
+                "relacionados": [
+                    "1770736652920x860051037660381200",
+                    "1770736514362x972293779332792300",
+                    "1770736765508x110729660374974460"
+                ]
+            },
+            {
+                "_id": "1770749882771x786472483285893100",
+                "descriçao": "Ingredientes: 100% Fruta. Sem lactose, sem açúcar.\nUma poderosa combinação antioxidante que combate o envelhecimento celular. A pitaya auxilia no funcionamento do intestino, enquanto o morango reforça a imunidade com alta carga de Vitamina C.\n",
+                "peso/und": "unidade",
+                "estoque": 99953,
+                "Modified Date": "2026-03-04T03:40:41.582Z",
+                "peso por unidade": 1000,
+                "categorias_produto": [
+                    "Ofertas"
+                ],
+                "preço novo": 0.99,
+                "preço antigo": 19.99,
+                "visivel": true,
+                "relacionados": [
+                    "1770736514362x972293779332792300",
+                    "1770736400908x101415402829512700"
+                ],
+                "tipo_unidade": "UN",
+                "Created By": "1691143865250x481074744108582500",
+                "nome": "Promoção Suco de Pitaya com Morango Levee 1L",
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1770749722393x200731964129373000/27.png"
+                ],
+                "em oferta": true,
+                "cod": "999999",
+                "Created Date": "2026-02-10T18:58:05.326Z",
+                "desconto": 95.047523761881
+            },
+            {
+                "tipo_unidade": "UN",
+                "visivel": true,
+                "peso/und": "unidade",
+                "Created By": "1691143865250x481074744108582500",
+                "nome": "Promoção Suco de Manga Levee 1L",
+                "Created Date": "2026-02-10T19:00:22.105Z",
+                "descriçao": "Ingredientes: 100% Fruta. Sem lactose, sem açúcar.\nRico em fibras que auxiliam a digestão e Vitamina A, essencial para a saúde da pele e dos olhos, além de fornecer energia de rápida absorção.\n",
+                "categorias_produto": [
+                    "Ofertas"
+                ],
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1770749952572x832510991616352300/26.png"
+                ],
+                "preço antigo": 19.99,
+                "Modified Date": "2026-03-04T14:53:28.224Z",
+                "em oferta": true,
+                "peso por unidade": 1000,
+                "cod": "999999",
+                "relacionados": [
+                    "1770736514362x972293779332792300",
+                    "1770736102842x463250481369055200"
+                ],
+                "preço novo": 0.99,
+                "estoque": 99969,
+                "desconto": 95.047523761881,
+                "_id": "1770750019610x840662418736283600"
+            },
+            {
+                "em oferta": true,
+                "peso por unidade": 1000,
+                "cod": "999999",
+                "categorias_produto": [
+                    "Ofertas"
+                ],
+                "preço novo": 0.99,
+                "Created By": "1691143865250x481074744108582500",
+                "Created Date": "2026-02-10T19:03:07.565Z",
+                "descriçao": "Ingredientes: 100% Fruta. Sem lactose, sem açúcar.\nUma das maiores fontes de licopeno e Vitamina C, excelente para a saúde da pele e para manter o sistema imunológico sempre protegido.\n",
+                "preço antigo": 19.99,
+                "Modified Date": "2026-03-03T11:03:32.802Z",
+                "estoque": 99972,
+                "relacionados": [
+                    "1770655509222x133012001993785340",
+                    "1770736102842x463250481369055200"
+                ],
+                "_id": "1770750185097x717841906855837700",
+                "tipo_unidade": "UN",
+                "nome": "Promoção Suco de Goiaba Vermelha Levee 1L",
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1770750149066x545385200713372350/24.png"
+                ],
+                "visivel": true,
+                "desconto": 95.047523761881,
+                "peso/und": "unidade"
+            },
+            {
+                "peso/und": "peso",
+                "Modified Date": "2026-02-28T22:54:24.229Z",
+                "preço novo": 25.99,
+                "Created Date": "2026-02-27T13:37:00.250Z",
+                "_id": "1772199419478x736015509687107600",
+                "tipo_unidade": "KG",
+                "nome": "salada de frutas ",
+                "peso por unidade": 500,
+                "desconto": 0,
+                "descriçao": "mamao, melao, manga, morango, uva vitoria e uva thompson",
+                "Created By": "1691143865250x481074744108582500",
+                "cod": "002077",
+                "visivel": true,
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1772199285224x198152178444126000/images%20%285%29.jpg"
+                ],
+                "estoque": 99500
+            },
+            {
+                "_id": "1772199503869x128085463612260350",
+                "visivel": true,
+                "estoque": 100000,
+                "Created Date": "2026-02-27T13:38:24.204Z",
+                "Created By": "1691143865250x481074744108582500",
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1772199464109x517036295278647200/c320b5b5-suco-fruitz-uva-900ml.webp"
+                ],
+                "cod": "002695",
+                "nome": "suco de uva fruitz",
+                "preço novo": 15.99,
+                "peso/und": "unidade",
+                "peso por unidade": 900,
+                "tipo_unidade": "UN",
+                "Modified Date": "2026-02-27T13:38:24.444Z",
+                "desconto": 0
+            }
+        ],
+        "count": 9,
+        "remaining": 0
+    }
+}

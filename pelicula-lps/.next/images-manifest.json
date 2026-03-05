@@ -34,7 +34,18 @@
     "dangerouslyAllowSVG": false,
     "contentSecurityPolicy": "script-src 'none'; frame-src 'none'; sandbox;",
     "contentDispositionType": "attachment",
-    "remotePatterns": [],
+    "remotePatterns": [
+      {
+        "protocol": "https",
+        "hostname": "^(?:(?!\\.)(?=.)[^/]*?\\.panda\\.video\\/?)$",
+        "pathname": "^(?:(?!(?:^|\\/)\\.{1,2}(?:\\/|$))(?:(?:(?!(?:^|\\/)\\.{1,2}(?:\\/|$)).)*?)\\/?)$"
+      },
+      {
+        "protocol": "https",
+        "hostname": "^(?:^(?:player\\-vz\\-[^/]*?\\.tv\\.pandavideo\\.com\\.br)$)$",
+        "pathname": "^(?:(?!(?:^|\\/)\\.{1,2}(?:\\/|$))(?:(?:(?!(?:^|\\/)\\.{1,2}(?:\\/|$)).)*?)\\/?)$"
+      }
+    ],
     "unoptimized": false,
     "sizes": [
       640,

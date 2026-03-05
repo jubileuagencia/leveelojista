@@ -82,6 +82,25 @@
       "env": {
         "FIGMA_API_KEY": "figd_gQq2WmQKwLXkczewpUxlk7LR7donc8h-obpO8eCY"
       }
+    },
+    "bubble": {
+      "type": "stdio",
+      "command": "node",
+      "args": [
+        "/opt/projects/JUBILEU-AGENCIA/.bubble-mcp/dist/mcp-server.js"
+      ],
+      "env": {
+        "BUBBLE_API_URL": "https://leveehort.com.br",
+        "BUBBLE_API_TOKEN": "526abb6230b308fb0df0b5c2e3c37304"
+      }
+    },
+    "meta-ads": {
+      "type": "stdio",
+      "command": "npx",
+      "args": ["-y", "meta-ads-mcp"],
+      "env": {
+        "META_ACCESS_TOKEN": "PREENCHER_COM_TOKEN_META"
+      }
     }
   }
 }

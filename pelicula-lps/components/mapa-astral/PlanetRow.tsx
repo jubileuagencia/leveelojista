@@ -20,10 +20,10 @@ export default function PlanetRow({ symbol, name, sign, signEmoji, degree, house
         <span className="text-white/90 text-sm font-body">
           {signEmoji} {sign}
         </span>
-        <span className="font-mono text-[0.6rem] text-white/30 w-14 text-right">
+        <span className="font-mono text-[0.6rem] text-white/50 w-14 text-right">
           {degree.toFixed(1)}°
         </span>
-        <span className="font-mono text-[0.55rem] tracking-[1px] text-white/20 w-16 text-right hidden sm:block">
+        <span className="font-mono text-[0.55rem] tracking-[1px] text-white/40 w-16 text-right hidden sm:block">
           {house}
         </span>
       </div>

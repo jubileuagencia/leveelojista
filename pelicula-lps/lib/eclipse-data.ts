@@ -107,5 +107,5 @@ export const ECLIPSE_META = {
   type: "Lunar Total",
   sign: "Virgem",
   degree: "15°29'",
-  substackUrl: "https://peliculasideral.substack.com/",
+  substackUrl: "https://peliculasideral.substack.com/p/eclipse-lunar-total-em-virgem-03032026",
 } as const;

@@ -7,34 +7,37 @@ export default function CamarimFinalCTA() {
     <SectionWrapper>
       <div className="text-center max-w-[700px] mx-auto">
         <h2 className="fade-in font-display text-3xl md:text-5xl font-bold mb-6">
-          O céu muda toda semana.
+          Astrologia não se aprende uma vez.
           <br />
-          <span className="text-gold">Seu entendimento também pode.</span>
+          <span className="text-gold">Se pratica toda semana.</span>
         </h2>
 
         <div className="fade-in text-text-soft text-base md:text-lg leading-relaxed mb-8 space-y-4">
           <p>
-            Astrologia não é algo que você aprende uma vez e pronto. É uma
-            linguagem viva — que se revela aos poucos, semana a semana, trânsito
-            a trânsito, conversa a conversa.
+            No Camarim, Victor guia, a comunidade troca e o céu renova o
+            conteúdo. Toda segunda tem live. Toda quarta tem publicação.
+            E entre uma coisa e outra, tem gente discutindo, perguntando,
+            compartilhando mapas e descobertas.
           </p>
-          <p>
-            O Camarim é o espaço onde essa prática acontece.
-          </p>
-          <p className="text-text">
-            Com Victor guiando, uma comunidade trocando e o céu renovando o
-            conteúdo toda semana.
+          <p className="text-text font-medium">
+            Seu lugar na próxima live está aberto.
           </p>
         </div>
 
-        <div className="fade-in mb-6">
+        <div className="fade-in mb-4">
           <Button href={CAMARIM_CHECKOUT_URLS.anual} variant="purple">
-            Quero entrar no Camarim
+            Entrar na próxima live
+          </Button>
+        </div>
+
+        <div className="fade-in mb-6">
+          <Button href={CAMARIM_CHECKOUT_URLS.mensal} variant="ghost-light" size="md">
+            Ou começar pelo mensal — R$19/mês
           </Button>
         </div>
 
         <p className="fade-in font-mono text-[0.65rem] tracking-[2px] uppercase text-text-muted">
-          A partir de R$19/mês · Acesso imediato · Cancele quando quiser
+          Acesso imediato · Cancele quando quiser
         </p>
       </div>
 

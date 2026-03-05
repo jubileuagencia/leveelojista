@@ -19,27 +19,24 @@ export default function CamarimHero() {
         </div>
 
         <h1 className="fade-in font-display text-5xl md:text-7xl lg:text-8xl font-bold leading-[1.05] mb-6">
-          <span className="text-gold-light">Camarim</span>
+          <span className="text-text">O céu muda</span>
           <br />
-          <span className="text-text">Sideral</span>
+          <span className="text-text">toda semana.</span>
+          <br />
+          <span className="text-gold-light">Sua leitura também.</span>
         </h1>
 
-        <p className="fade-in text-text-soft text-lg md:text-xl leading-relaxed max-w-[640px] mx-auto mb-4">
-          A comunidade semanal para quem quer ir além do horóscopo.
-          <br className="hidden md:block" /> Toda semana, uma nova lente para olhar o céu — e se entender melhor.
-        </p>
-
-        <p className="fade-in text-text-muted text-base md:text-lg leading-relaxed max-w-[600px] mx-auto mb-8">
-          Lives ao vivo com Victor, conteúdo exclusivo no Substack e uma comunidade que estuda astrologia de verdade — com profundidade, método e sem misticismo vazio.
+        <p className="fade-in text-text-soft text-lg md:text-xl leading-relaxed max-w-[640px] mx-auto mb-8">
+          Lives semanais com Victor, conteúdo exclusivo e uma comunidade que pratica astrologia de verdade — não apenas consome.
         </p>
 
         <div className="fade-in font-mono text-xs tracking-[3px] uppercase text-text-muted mb-10">
-          52 lives por ano · Conteúdo semanal · Comunidade ativa
+          52 lives por ano · 3x conteúdo por semana · Comunidade ativa
         </div>
 
         <div className="fade-in mb-6">
           <Button href={CAMARIM_CHECKOUT_URLS.anual} variant="purple">
-            Quero entrar no Camarim
+            Começar a praticar astrologia toda semana
           </Button>
         </div>
 

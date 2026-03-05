@@ -1,0 +1,2207 @@
+{
+    "response": {
+        "cursor": 700,
+        "results": [
+            {
+                "desconto": 0,
+                "estoque": 9998,
+                "Modified Date": "2025-12-27T00:50:32.690Z",
+                "cod": "019250",
+                "_id": "1737555007550x821235486588403700",
+                "peso/und": "unidade",
+                "tipo_unidade": "UN",
+                "Created By": "1691143865250x481074744108582500",
+                "peso por unidade": 30,
+                "nome": "Sene folhas 30 g Saúde Plena ",
+                "em oferta": false,
+                "demanda": 0,
+                "preço novo": 3.99,
+                "preço antigo": 3.99,
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1741794629756x248724118722376560/SENE%20FOLHAS%20.JPG"
+                ],
+                "Created Date": "2025-01-22T14:10:07.852Z",
+                "categorias_produto": [
+                    "Empório"
+                ],
+                "visivel": true
+            },
+            {
+                "peso por unidade": 250,
+                "preço novo": 12.99,
+                "demanda": 1,
+                "nome": "Lentilha 250 g Saúde Plena ",
+                "em oferta": false,
+                "Modified Date": "2025-05-21T17:12:59.325Z",
+                "cod": "019250",
+                "visivel": true,
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1741793954882x582764986292166300/LENTILHA%20250G.JPG"
+                ],
+                "Created Date": "2025-01-22T14:11:19.803Z",
+                "preço antigo": 12.99,
+                "_id": "1737555079596x919222782047551500",
+                "Created By": "1691143865250x481074744108582500",
+                "tipo_unidade": "UN",
+                "categorias_produto": [
+                    "Empório"
+                ],
+                "desconto": 0,
+                "peso/und": "unidade",
+                "estoque": 9999
+            },
+            {
+                "em oferta": false,
+                "visivel": true,
+                "peso/und": "unidade",
+                "Modified Date": "2025-05-21T21:20:12.035Z",
+                "Created By": "1691143865250x481074744108582500",
+                "cod": "019250",
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1741794642473x436155193925663360/SENE%20VAGEM%2030G.JPG"
+                ],
+                "preço novo": 7.99,
+                "desconto": 0,
+                "categorias_produto": [
+                    "Empório"
+                ],
+                "preço antigo": 7.99,
+                "_id": "1737555139995x865865736648917000",
+                "estoque": 9999,
+                "tipo_unidade": "UN",
+                "nome": "Sene vagem Folículos 30 g Saúde Plena ",
+                "Created Date": "2025-01-22T14:12:20.222Z",
+                "demanda": 0,
+                "peso por unidade": 30
+            },
+            {
+                "visivel": true,
+                "preço novo": 5.99,
+                "peso/und": "unidade",
+                "Created By": "1691143865250x481074744108582500",
+                "nome": "Canela de velho 30 g Saúde Plena ",
+                "Modified Date": "2025-08-09T15:28:35.696Z",
+                "preço antigo": 5.99,
+                "em oferta": false,
+                "Created Date": "2025-01-22T14:22:09.489Z",
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1741791799665x926186208732837600/CANELA%20DE%20VELHO%2030G.JPG"
+                ],
+                "peso por unidade": 30,
+                "desconto": 0,
+                "tipo_unidade": "UN",
+                "categorias_produto": [
+                    "Empório"
+                ],
+                "estoque": 9999,
+                "demanda": 0,
+                "_id": "1737555729022x588792947747323900",
+                "cod": "019250"
+            },
+            {
+                "desconto": 0,
+                "Modified Date": "2025-05-21T17:13:06.853Z",
+                "cod": "019250",
+                "preço novo": 13.99,
+                "tipo_unidade": "UN",
+                "demanda": 0,
+                "nome": "Valeriana 25 g Saúde Plena ",
+                "Created Date": "2025-01-22T14:26:18.635Z",
+                "peso/und": "unidade",
+                "categorias_produto": [
+                    "Empório"
+                ],
+                "_id": "1737555969168x348357427701743600",
+                "peso por unidade": 25,
+                "visivel": true,
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1741794811279x828070572426783200/VALERIANA%2025G.JPG"
+                ],
+                "Created By": "1691143865250x481074744108582500",
+                "estoque": 10000,
+                "em oferta": false
+            },
+            {
+                "demanda": 0,
+                "_id": "1737560809279x497068417186791400",
+                "tipo_unidade": "UN",
+                "nome": "Emburana semente 50 g Saúde Plena ",
+                "preço novo": 12.99,
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1741792336650x820103921115805200/EMBURANA%20SEMENTES%2050G.JPG"
+                ],
+                "Created Date": "2025-01-22T15:46:49.621Z",
+                "peso por unidade": 50,
+                "Created By": "1691143865250x481074744108582500",
+                "em oferta": false,
+                "peso/und": "unidade",
+                "estoque": 10000,
+                "Modified Date": "2025-05-21T17:13:06.864Z",
+                "preço antigo": 12.99,
+                "desconto": 0,
+                "visivel": true,
+                "cod": "019250",
+                "categorias_produto": [
+                    "Empório"
+                ]
+            },
+            {
+                "visivel": true,
+                "preço novo": 8.99,
+                "preço antigo": 8.99,
+                "_id": "1737560893434x225477465898221570",
+                "em oferta": false,
+                "Created Date": "2025-01-22T15:48:13.981Z",
+                "peso/und": "unidade",
+                "demanda": 0,
+                "Modified Date": "2025-05-21T17:13:06.875Z",
+                "Created By": "1691143865250x481074744108582500",
+                "nome": "Farinha temperada de empanar 250 g Saúde Plena ",
+                "desconto": 0,
+                "cod": "0192505114990",
+                "estoque": 10000,
+                "categorias_produto": [
+                    "Empório"
+                ],
+                "tipo_unidade": "UN"
+            },
+            {
+                "Created By": "1691143865250x481074744108582500",
+                "categorias_produto": [
+                    "Empório"
+                ],
+                "desconto": 0,
+                "_id": "1737560965431x129446473646735360",
+                "preço antigo": 4.99,
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1739888326989x964697496634997200/download.png"
+                ],
+                "cod": "019250",
+                "nome": "Amaciante de carne com tempero 100 g Saúde Plena ",
+                "peso por unidade": 100,
+                "preço novo": 4.99,
+                "peso/und": "unidade",
+                "Created Date": "2025-01-22T15:49:25.738Z",
+                "tipo_unidade": "UN",
+                "visivel": false,
+                "Modified Date": "2025-10-23T14:52:56.257Z",
+                "demanda": 0,
+                "em oferta": false,
+                "estoque": 9998
+            },
+            {
+                "Created Date": "2025-01-22T15:51:12.035Z",
+                "cod": "019250",
+                "preço antigo": 9.99,
+                "peso/und": "unidade",
+                "nome": "Linhaça marrom 200 g Saúde Plena ",
+                "em oferta": false,
+                "Created By": "1691143865250x481074744108582500",
+                "Modified Date": "2025-12-27T13:24:50.072Z",
+                "desconto": 0,
+                "demanda": 0,
+                "estoque": 9998,
+                "categorias_produto": [
+                    "Empório"
+                ],
+                "peso por unidade": 200,
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1741793987405x401683953590472600/LINHA%C3%87A%20MARROM%20200G.JPG"
+                ],
+                "tipo_unidade": "UN",
+                "_id": "1737561071776x364293497758154750",
+                "preço novo": 9.99,
+                "visivel": true
+            },
+            {
+                "nome": "Linhaça dourada 200 g Saúde Plena ",
+                "Created By": "1691143865250x481074744108582500",
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1741799572926x330461108412693200/LINHA%C3%87A%20DOURADA%20200%20G.JPG"
+                ],
+                "visivel": false,
+                "tipo_unidade": "UN",
+                "preço novo": 9.99,
+                "estoque": 9999,
+                "preço antigo": 9.99,
+                "cod": "019250",
+                "peso/und": "unidade",
+                "peso por unidade": 200,
+                "Modified Date": "2025-07-19T13:21:43.221Z",
+                "_id": "1737561137912x802003490053029900",
+                "Created Date": "2025-01-22T15:52:18.256Z",
+                "demanda": 0,
+                "desconto": 0,
+                "em oferta": false
+            },
+            {
+                "tipo_unidade": "UN",
+                "peso por unidade": 200,
+                "demanda": 0,
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1741794655420x677456500907469000/SOJA%20EM%20GR%C3%83O%20200G.JPG"
+                ],
+                "visivel": true,
+                "em oferta": false,
+                "nome": "Soja em grão 200 g Saúde Plena ",
+                "categorias_produto": [
+                    "Empório"
+                ],
+                "Modified Date": "2025-05-21T17:13:06.941Z",
+                "desconto": 0,
+                "peso/und": "unidade",
+                "Created By": "1691143865250x481074744108582500",
+                "cod": "019250",
+                "preço antigo": 5.99,
+                "_id": "1737561306282x439797059999236100",
+                "Created Date": "2025-01-22T15:56:18.131Z",
+                "preço novo": 5.99,
+                "estoque": 10000
+            },
+            {
+                "peso/und": "unidade",
+                "Created Date": "2025-01-22T15:57:26.242Z",
+                "preço antigo": 9.99,
+                "desconto": 0,
+                "_id": "1737561374366x231104748810666000",
+                "preço novo": 9.99,
+                "nome": "Grão de bico 200 g Saúde Plena",
+                "demanda": 1,
+                "categorias_produto": [
+                    "Empório"
+                ],
+                "cod": "019250",
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1741793837193x340876814783303900/GR%C3%83O%20DE%20BICO%20200%20G.JPG"
+                ],
+                "estoque": 9997,
+                "Modified Date": "2026-02-18T17:39:04.481Z",
+                "peso por unidade": 200,
+                "visivel": true,
+                "tipo_unidade": "UN",
+                "Created By": "1691143865250x481074744108582500",
+                "em oferta": false
+            },
+            {
+                "cod": "019250",
+                "categorias_produto": [
+                    "Empório"
+                ],
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1741794725928x250588799962275550/TEMPERO%20PARA%20FEIJ%C3%83O%2080G.JPG"
+                ],
+                "Modified Date": "2026-02-24T03:34:32.655Z",
+                "estoque": 9982,
+                "Created By": "1691143865250x481074744108582500",
+                "peso por unidade": 80,
+                "nome": "Tempero para Feijão 80 g Saúde Plena",
+                "peso/und": "unidade",
+                "preço novo": 10.99,
+                "demanda": 1,
+                "visivel": true,
+                "preço antigo": 6.99,
+                "Created Date": "2025-01-22T15:58:31.921Z",
+                "desconto": -57.2246065808298,
+                "_id": "1737561439808x431398692637900800",
+                "tipo_unidade": "UN",
+                "em oferta": false
+            },
+            {
+                "em oferta": false,
+                "cod": "019250",
+                "nome": "Caldo de Costela 100 g Saúde Plena",
+                "tipo_unidade": "UN",
+                "Created Date": "2025-01-22T15:59:55.094Z",
+                "peso/und": "unidade",
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1741791716667x294312727921036700/CALDO%20DE%20COSTELA%20100G.JPG"
+                ],
+                "peso por unidade": 100,
+                "demanda": 1,
+                "preço novo": 5.99,
+                "_id": "1737561523229x878624378800046100",
+                "preço antigo": 5.99,
+                "Modified Date": "2025-06-18T14:14:50.305Z",
+                "estoque": 9997,
+                "desconto": 0,
+                "visivel": false,
+                "categorias_produto": [
+                    "Empório"
+                ],
+                "Created By": "1691143865250x481074744108582500"
+            },
+            {
+                "preço antigo": 6.99,
+                "peso/und": "unidade",
+                "tipo_unidade": "UN",
+                "preço novo": 5.99,
+                "peso por unidade": 100,
+                "em oferta": false,
+                "cod": "019250",
+                "categorias_produto": [
+                    "Empório"
+                ],
+                "_id": "1737561578745x599879508912504800",
+                "estoque": 9987,
+                "nome": "Caldo para legumes 100 g Saúde Plena ",
+                "desconto": 14.306151645207438,
+                "Created By": "1691143865250x481074744108582500",
+                "Created Date": "2025-01-22T16:00:50.753Z",
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1741791779828x194712476070946660/CALDO%20DE%20LEGUMES%20100G.JPG"
+                ],
+                "Modified Date": "2026-02-24T16:35:40.495Z",
+                "demanda": 3,
+                "visivel": true
+            },
+            {
+                "peso/und": "unidade",
+                "peso por unidade": 50,
+                "preço antigo": 7.99,
+                "Created By": "1691143865250x481074744108582500",
+                "preço novo": 8.99,
+                "categorias_produto": [
+                    "Empório"
+                ],
+                "cod": "019250",
+                "demanda": 1,
+                "_id": "1737561636400x861622238539677700",
+                "Created Date": "2025-01-22T16:01:48.569Z",
+                "em oferta": false,
+                "Modified Date": "2026-02-27T21:08:12.245Z",
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1741798508470x440175612755064000/HIMICHURRI%20COM%20PIMENTA%2050G.JPG"
+                ],
+                "estoque": 9985,
+                "nome": "Chimichurri com pimenta 50 g Saúde Plena ",
+                "visivel": true,
+                "desconto": -12.51564455569462,
+                "tipo_unidade": "UN"
+            },
+            {
+                "visivel": true,
+                "desconto": 0,
+                "cod": "019250",
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1741791648385x711481454806675100/CALDO%20DE%20CARNE%20100G.JPG"
+                ],
+                "Created Date": "2025-01-22T16:02:53.874Z",
+                "estoque": 9987,
+                "em oferta": false,
+                "peso/und": "unidade",
+                "demanda": 4,
+                "categorias_produto": [
+                    "Empório"
+                ],
+                "preço novo": 5.99,
+                "preço antigo": 5.99,
+                "tipo_unidade": "UN",
+                "peso por unidade": 100,
+                "Created By": "1691143865250x481074744108582500",
+                "_id": "1737561701593x948439524107878400",
+                "Modified Date": "2026-02-22T21:27:57.290Z",
+                "nome": "Caldo de carne 100 g Saúde Plena "
+            },
+            {
+                "categorias_produto": [
+                    "Empório"
+                ],
+                "Created By": "1691143865250x481074744108582500",
+                "preço novo": 5.99,
+                "cod": "0192505260680",
+                "Modified Date": "2025-05-21T17:13:06.972Z",
+                "peso/und": "unidade",
+                "tipo_unidade": "UN",
+                "estoque": 10000,
+                "_id": "1737561766027x251115758500446200",
+                "nome": "Tempero Sírio 70 g Saúde Plena ",
+                "em oferta": false,
+                "preço antigo": 5.99,
+                "visivel": true,
+                "demanda": 0,
+                "Created Date": "2025-01-22T16:03:58.123Z",
+                "desconto": 0
+            },
+            {
+                "Modified Date": "2025-06-18T14:17:08.979Z",
+                "peso por unidade": 100,
+                "categorias_produto": [
+                    "Empório"
+                ],
+                "Created Date": "2025-01-22T16:04:59.000Z",
+                "peso/und": "unidade",
+                "demanda": 0,
+                "nome": "Caldo de galinha 100 g Saúde Plena ",
+                "tipo_unidade": "UN",
+                "em oferta": false,
+                "cod": "019250",
+                "desconto": 0,
+                "_id": "1737561826639x992623834532151300",
+                "visivel": false,
+                "preço novo": 5.99,
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1741791737904x734792782008308900/CALDO%20DE%20GALINHA%20100G.JPG"
+                ],
+                "Created By": "1691143865250x481074744108582500",
+                "preço antigo": 5.99,
+                "estoque": 10000
+            },
+            {
+                "cod": "019250",
+                "estoque": 9997,
+                "demanda": 1,
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1741794704494x325929008106346000/TEMPERO%20MINEIRO%2080G.JPG"
+                ],
+                "Created Date": "2025-01-22T16:06:02.450Z",
+                "Created By": "1691143865250x481074744108582500",
+                "peso por unidade": 80,
+                "tipo_unidade": "UN",
+                "_id": "1737561890621x728877952027328500",
+                "Modified Date": "2025-07-30T19:51:18.232Z",
+                "preço antigo": 6.99,
+                "peso/und": "unidade",
+                "categorias_produto": [
+                    "Empório"
+                ],
+                "em oferta": false,
+                "preço novo": 6.99,
+                "visivel": false,
+                "nome": "Tempero mineiro 80 g Saúde Plena ",
+                "desconto": 0
+            },
+            {
+                "preço antigo": 4.99,
+                "visivel": true,
+                "em oferta": false,
+                "peso por unidade": 20,
+                "Modified Date": "2026-02-27T12:18:28.273Z",
+                "_id": "1737561975861x992458839790977000",
+                "Created By": "1691143865250x481074744108582500",
+                "tipo_unidade": "UN",
+                "Created Date": "2025-01-22T16:07:27.683Z",
+                "demanda": 1,
+                "nome": "Sálvia 20 g Saúde Plena ",
+                "categorias_produto": [
+                    "Empório"
+                ],
+                "desconto": 0,
+                "cod": "019250",
+                "estoque": 9993,
+                "preço novo": 4.99,
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1741794615431x416374822457980160/S%C3%81LVIA%2020G.JPG"
+                ],
+                "peso/und": "unidade"
+            },
+            {
+                "visivel": true,
+                "preço novo": 5.99,
+                "em oferta": false,
+                "Created Date": "2025-01-22T16:08:30.448Z",
+                "peso/und": "unidade",
+                "preço antigo": 5.99,
+                "categorias_produto": [
+                    "Empório"
+                ],
+                "nome": "Feno grego pó 70 g Saúde Plena ",
+                "peso por unidade": 70,
+                "Modified Date": "2025-05-21T17:13:06.999Z",
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1741792524560x611329659352451700/FENO%20GREGO%20P%C3%93%2070G.JPG"
+                ],
+                "Created By": "1691143865250x481074744108582500",
+                "_id": "1737562038600x264411943691091970",
+                "desconto": 0,
+                "cod": "019250",
+                "estoque": 10000,
+                "tipo_unidade": "UN",
+                "demanda": 0
+            },
+            {
+                "Modified Date": "2025-11-17T04:26:16.553Z",
+                "peso/und": "unidade",
+                "em oferta": false,
+                "categorias_produto": [
+                    "Empório"
+                ],
+                "tipo_unidade": "UN",
+                "preço antigo": 5.99,
+                "nome": "Chilli tempero 70 g Saúde Plena ",
+                "visivel": true,
+                "_id": "1737562100197x139992577672216580",
+                "Created By": "1691143865250x481074744108582500",
+                "demanda": 1,
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1741792115524x237843968603371330/CHILI%20TEMPERO%2070G.JPG"
+                ],
+                "Created Date": "2025-01-22T16:09:32.048Z",
+                "estoque": 9996,
+                "peso por unidade": 70,
+                "cod": "019250",
+                "preço novo": 5.99,
+                "desconto": 0
+            },
+            {
+                "Modified Date": "2026-03-03T21:52:03.453Z",
+                "preço novo": 12.99,
+                "_id": "1737655583714x226577552484335600",
+                "estoque": 99591,
+                "visivel": true,
+                "Created Date": "2025-01-23T18:06:18.631Z",
+                "preço antigo": 9.99,
+                "tipo_unidade": "BJ",
+                "desconto": -30.03003003003,
+                "Created By": "1685486814495x592895131987515800",
+                "peso por unidade": 300,
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1738006960383x935024666955157000/BROCOLIS%20NINJA.webp"
+                ],
+                "nome": "Brócolis Ninja 300g",
+                "relacionados": [
+                    "1721092986945x507929676975158900",
+                    "1721092986936x500474434325945540"
+                ],
+                "categorias_produto": [
+                    "Verduras"
+                ],
+                "peso/und": "unidade",
+                "demanda": 89,
+                "cod": "000023"
+            },
+            {
+                "demanda": 40,
+                "categorias_produto": [
+                    "Verduras"
+                ],
+                "Created By": "1727113378424x224255095795330430",
+                "Modified Date": "2026-03-04T16:50:31.230Z",
+                "preço novo": 9.99,
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1738006854426x618677432581980500/BROCOLIS%20NINJA.webp"
+                ],
+                "_id": "1738006883383x403599055921086460",
+                "estoque": 99653,
+                "Created Date": "2025-01-27T19:41:23.878Z",
+                "desconto": -66.7779632721202,
+                "visivel": true,
+                "peso por unidade": 200,
+                "tipo_unidade": "BJ",
+                "peso/und": "unidade",
+                "preço antigo": 5.99,
+                "cod": "23",
+                "nome": "BROCOLIS NINJA"
+            },
+            {
+                "nome": "VIitamil Cemil 200 ml",
+                "categorias_produto": [
+                    "Bebidas"
+                ],
+                "cod": "789659",
+                "preço antigo": 2.99,
+                "preço novo": 2.99,
+                "visivel": true,
+                "estoque": 99996,
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1739880361864x639298929058775600/download.jpg"
+                ],
+                "Created By": "1691143865250x481074744108582500",
+                "peso por unidade": 200,
+                "Created Date": "2025-02-18T12:06:50.288Z",
+                "tipo_unidade": "UN",
+                "demanda": 0,
+                "desconto": 0,
+                "Modified Date": "2025-07-05T21:30:28.260Z",
+                "_id": "1739880410141x219009539915120640",
+                "peso/und": "unidade"
+            },
+            {
+                "preço novo": 16.99,
+                "desconto": 0,
+                "peso/und": "unidade",
+                "demanda": 0,
+                "cod": "789810",
+                "Created By": "1691143865250x481074744108582500",
+                "Created Date": "2025-02-18T12:31:41.803Z",
+                "nome": "Sal de Parrilla Curinga  500g",
+                "categorias_produto": [
+                    "Temperos e Condimentos"
+                ],
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1741871497283x213834218514344480/CURINHASAL%20DE%20PARRILLA%20ARGENTINO%20500G.JPG"
+                ],
+                "estoque": 99999,
+                "_id": "1739881901649x553953486735409150",
+                "visivel": true,
+                "Modified Date": "2025-05-21T17:13:07.020Z",
+                "peso por unidade": 500,
+                "tipo_unidade": "UN"
+            },
+            {
+                "desconto": 0,
+                "preço novo": 16.99,
+                "tipo_unidade": "UN",
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1741795977952x480328615388938800/SAL%20DE%20PARRILLA%20COM%20ERVAS%20FINAS%20500G.JPG"
+                ],
+                "Created Date": "2025-02-18T12:35:10.103Z",
+                "nome": "Sal de Parrilla  com  Ervas Finas Curinga ",
+                "cod": "789810",
+                "visivel": true,
+                "Modified Date": "2026-03-04T04:10:33.938Z",
+                "categorias_produto": [
+                    "Temperos e Condimentos"
+                ],
+                "demanda": 1,
+                "peso por unidade": 500,
+                "Created By": "1691143865250x481074744108582500",
+                "peso/und": "unidade",
+                "_id": "1739882110265x378206397257744400",
+                "estoque": 99995
+            },
+            {
+                "peso por unidade": 500,
+                "Modified Date": "2025-05-21T17:13:07.031Z",
+                "desconto": 0,
+                "estoque": 99999,
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1741796028629x613104958670930600/CURINGA%20SAL%20DE%20PARRILLA%20COM%20PIMENTA%20DO%20REINO%20500G.JPG"
+                ],
+                "Created Date": "2025-02-18T12:36:54.047Z",
+                "demanda": 0,
+                "cod": "789810",
+                "Created By": "1691143865250x481074744108582500",
+                "_id": "1739882213936x317652554845782000",
+                "visivel": true,
+                "peso/und": "unidade",
+                "tipo_unidade": "UN",
+                "nome": "Sal de  Parrilla com Pimenta do Reino Curinga",
+                "categorias_produto": [
+                    "Temperos e Condimentos"
+                ],
+                "preço novo": 16.99
+            },
+            {
+                "Created By": "1691143865250x481074744108582500",
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1741791948002x584525178672070300/CASTANHA%20DE%20CAJ%C3%9A%20SEM%20SAL%20100G.JPG"
+                ],
+                "desconto": 0,
+                "_id": "1739883039361x329043200874905600",
+                "cod": "019250",
+                "peso por unidade": 100,
+                "tipo_unidade": "UN",
+                "preço novo": 19.99,
+                "estoque": 99987,
+                "demanda": 2,
+                "Created Date": "2025-02-18T12:50:39.154Z",
+                "visivel": true,
+                "categorias_produto": [
+                    "Empório"
+                ],
+                "nome": "Castanha e Caj sem sal 100g Saúde Plena",
+                "peso/und": "unidade",
+                "Modified Date": "2026-02-24T21:34:33.878Z"
+            },
+            {
+                "Created Date": "2025-02-18T12:57:16.595Z",
+                "estoque": 99999,
+                "visivel": false,
+                "Modified Date": "2025-12-19T18:35:49.634Z",
+                "_id": "1739883435148x623984481739997200",
+                "demanda": 0,
+                "peso por unidade": 100,
+                "desconto": 0,
+                "preço novo": 4.99,
+                "nome": "Amendoim Levemente Salgado 100 Saúde Plena",
+                "cod": "019250",
+                "tipo_unidade": "UN",
+                "Created By": "1691143865250x481074744108582500",
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1741802856502x507967432127260000/AMENDOIM%20LEVEMENTE%20SALGADO%20100G.JPG"
+                ],
+                "peso/und": "unidade"
+            },
+            {
+                "estoque": 100000,
+                "_id": "1739883521933x381635556500570100",
+                "nome": "Amendoim com Churrasco 100 Saúde Plena",
+                "cod": "019250",
+                "Created Date": "2025-02-18T12:58:42.589Z",
+                "demanda": 0,
+                "Created By": "1691143865250x481074744108582500",
+                "desconto": 0,
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1741800510616x846047862646403500/AMENDOIM%20CHURRASCO%20100G.JPG"
+                ],
+                "tipo_unidade": "UN",
+                "Modified Date": "2025-12-19T18:33:38.168Z",
+                "peso/und": "unidade",
+                "peso por unidade": 100,
+                "preço novo": 4.99,
+                "visivel": false
+            },
+            {
+                "Created Date": "2025-02-18T13:20:07.327Z",
+                "Created By": "1691143865250x481074744108582500",
+                "_id": "1739884807466x693277011053903900",
+                "nome": "Pimenta Calabresa Flocos",
+                "estoque": 99996,
+                "peso/und": "unidade",
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1741871190716x271260737266507000/pimenta%20calabesa%20flocos.JPG"
+                ],
+                "demanda": 0,
+                "Modified Date": "2025-12-27T00:50:32.702Z",
+                "cod": "019250",
+                "peso por unidade": 50,
+                "visivel": true,
+                "tipo_unidade": "UN",
+                "categorias_produto": [
+                    "Empório"
+                ],
+                "preço novo": 5.99,
+                "desconto": 0
+            },
+            {
+                "desconto": -28.6123032904149,
+                "visivel": true,
+                "demanda": 2,
+                "tipo_unidade": "UN",
+                "cod": "019250",
+                "preço antigo": 6.99,
+                "preço novo": 8.99,
+                "nome": "Páprica Picante Saúde Plena",
+                "Created Date": "2025-02-18T13:23:15.387Z",
+                "categorias_produto": [
+                    "Temperos e Condimentos"
+                ],
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1741801410520x641169970454908800/P%C3%81PRICA%20PICANTE%20100G.JPG"
+                ],
+                "estoque": 99989,
+                "peso/und": "unidade",
+                "_id": "1739884995578x183053567643353100",
+                "Modified Date": "2026-02-19T23:41:20.082Z",
+                "Created By": "1691143865250x481074744108582500",
+                "peso por unidade": 100
+            },
+            {
+                "peso/und": "unidade",
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1741871047846x829151255775354200/P%C3%81PRICA%20DOCE%20100G.JPG"
+                ],
+                "nome": "Páprica Doce 100 g Saúde Plena",
+                "Modified Date": "2026-02-25T23:27:12.827Z",
+                "Created By": "1691143865250x481074744108582500",
+                "visivel": true,
+                "estoque": 99994,
+                "Created Date": "2025-02-18T13:24:09.891Z",
+                "cod": "019250",
+                "categorias_produto": [
+                    "Temperos e Condimentos"
+                ],
+                "desconto": -12.5156445556946,
+                "tipo_unidade": "UN",
+                "peso por unidade": 100,
+                "preço antigo": 7.99,
+                "demanda": 1,
+                "preço novo": 8.99,
+                "_id": "1739885050052x383742994580504600"
+            },
+            {
+                "peso por unidade": 70,
+                "peso/und": "unidade",
+                "demanda": 0,
+                "nome": "Pimenta Reino  Preta Moída 70 g Saúde Plena",
+                "Modified Date": "2026-02-28T01:58:13.875Z",
+                "_id": "1739885169632x642589696279183400",
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1741871357203x439994148341446000/pimenta%20do%20reino%20preta%20moida.JPG"
+                ],
+                "cod": "019250",
+                "Created Date": "2025-02-18T13:26:09.455Z",
+                "desconto": 0,
+                "Created By": "1691143865250x481074744108582500",
+                "preço novo": 13.99,
+                "tipo_unidade": "UN",
+                "estoque": 99993,
+                "visivel": true
+            },
+            {
+                "desconto": 0,
+                "tipo_unidade": "UN",
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1741871333551x247035476656823680/pimenta%20do%20reino%20branca%20moida.JPG"
+                ],
+                "cod": "019250",
+                "Created Date": "2025-02-18T13:27:47.655Z",
+                "estoque": 100000,
+                "demanda": 0,
+                "preço novo": 13.99,
+                "peso/und": "unidade",
+                "_id": "1739885267909x546549131675172860",
+                "peso por unidade": 50,
+                "nome": "Pimenta Reino Branca Moída 50 g Saúe Plena",
+                "Modified Date": "2025-05-21T17:13:07.296Z",
+                "visivel": true,
+                "Created By": "1691143865250x481074744108582500"
+            },
+            {
+                "preço novo": 7.99,
+                "Modified Date": "2025-12-29T17:52:12.379Z",
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1741800371227x102454713044611180/CURINGA%20TEPERO%20COMPLETO%20500G.JPG"
+                ],
+                "Created Date": "2025-02-18T13:34:19.649Z",
+                "visivel": true,
+                "peso/und": "unidade",
+                "cod": "789810",
+                "desconto": 0,
+                "nome": "Tempero Completo  500GCuringa",
+                "estoque": 99999,
+                "tipo_unidade": "UN",
+                "_id": "1739885659770x952731800565973000",
+                "peso por unidade": 500,
+                "demanda": 0,
+                "Created By": "1691143865250x481074744108582500"
+            },
+            {
+                "categorias_produto": [
+                    "Temperos e Condimentos"
+                ],
+                "nome": " Kit Tempero Agroecologico 1050 ",
+                "desconto": 0,
+                "peso por unidade": 1050,
+                "peso/und": "unidade",
+                "tipo_unidade": "UN",
+                "cod": "78652",
+                "visivel": false,
+                "preço novo": 45.9,
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1741795843437x969607705890237700/PRODUTO%20AGROECOLOGICO%20TEMPERO%20ARTESANAL.JPG"
+                ],
+                "Modified Date": "2026-02-12T19:51:42.904Z",
+                "_id": "1739886070495x223732286367989760",
+                "descriçao": "1 pote de 350 G de tempero sabor calabresa\n1 pote de 350 G de tempero sabor baiano\n1 pote de 350 G de tempero sabor  cheiro verde",
+                "Created Date": "2025-02-18T13:41:10.247Z",
+                "Created By": "1691143865250x481074744108582500",
+                "estoque": 99998,
+                "demanda": 1
+            },
+            {
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1739886173057x410300480907073600/download.png"
+                ],
+                "categorias_produto": [
+                    "Temperos e Condimentos"
+                ],
+                "desconto": 0,
+                "Created Date": "2025-02-18T13:43:31.226Z",
+                "cod": "898920",
+                "nome": "Pimenta Malagueta Quintal de Minas  1 Litro",
+                "peso/und": "unidade",
+                "Modified Date": "2025-05-21T17:13:07.314Z",
+                "estoque": 100000,
+                "tipo_unidade": "UN",
+                "peso por unidade": 1,
+                "preço novo": 39.9,
+                "Created By": "1691143865250x481074744108582500",
+                "demanda": 0,
+                "_id": "1739886208671x584902332312977400"
+            },
+            {
+                "_id": "1739886296591x805585495992303600",
+                "nome": "Pimenta Malagueta Batida Quintal de Minas 900 ml",
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1741871288195x209072028060404160/PIMENTA%20MALAGUETA%20870G.JPG"
+                ],
+                "desconto": 0,
+                "demanda": 0,
+                "Created By": "1691143865250x481074744108582500",
+                "tipo_unidade": "UN",
+                "Created Date": "2025-02-18T13:44:56.326Z",
+                "cod": "898920",
+                "peso/und": "unidade",
+                "visivel": true,
+                "peso por unidade": 900,
+                "preço novo": 29.9,
+                "estoque": 99997,
+                "Modified Date": "2025-08-02T18:37:45.432Z"
+            },
+            {
+                "peso/und": "unidade",
+                "demanda": 0,
+                "cod": "789856",
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1739886509161x370189477385380900/molho-de-alho-com-especiarias-145ml-jhocan_2024-08-23_10-48-03_0_488.png"
+                ],
+                "categorias_produto": [
+                    "Temperos e Condimentos"
+                ],
+                "_id": "1739886532505x613469779161776100",
+                "nome": "Molho de Alho com Especiarias 145 Ml",
+                "peso por unidade": 145,
+                "estoque": 99996,
+                "preço novo": 5.99,
+                "Modified Date": "2026-02-13T23:43:38.410Z",
+                "desconto": 0,
+                "Created By": "1691143865250x481074744108582500",
+                "visivel": true,
+                "tipo_unidade": "UN",
+                "Created Date": "2025-02-18T13:48:52.264Z"
+            },
+            {
+                "estoque": 99996,
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1739886682918x115193513351648620/download%20%281%29.jpg"
+                ],
+                "peso/und": "unidade",
+                "preço novo": 5.99,
+                "desconto": 0,
+                "cod": "789856",
+                "Modified Date": "2025-09-30T20:19:38.994Z",
+                "tipo_unidade": "UN",
+                "categorias_produto": [
+                    "Temperos e Condimentos"
+                ],
+                "nome": "Molho de Alho com Pimenta Jhocan 145 ML ",
+                "Created Date": "2025-02-18T13:53:03.667Z",
+                "visivel": true,
+                "Created By": "1691143865250x481074744108582500",
+                "_id": "1739886783802x353395556433526800",
+                "peso por unidade": 145,
+                "demanda": 1
+            },
+            {
+                "desconto": 0,
+                "peso por unidade": 150,
+                "tipo_unidade": "UN",
+                "_id": "1739886951915x664609069433880600",
+                "Created By": "1691143865250x481074744108582500",
+                "visivel": false,
+                "estoque": -99999,
+                "nome": "Molho de Pimenta 150ml Calico",
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1739886917070x242280979259163140/download%20%282%29.jpg"
+                ],
+                "Created Date": "2025-02-18T13:55:51.737Z",
+                "demanda": 0,
+                "categorias_produto": [
+                    "Temperos e Condimentos"
+                ],
+                "cod": "789460",
+                "peso/und": "unidade",
+                "preço novo": 5.99,
+                "Modified Date": "2025-12-19T18:46:56.370Z"
+            },
+            {
+                "peso por unidade": 150,
+                "Modified Date": "2025-12-19T18:47:09.544Z",
+                "nome": "Molho de Pimenta Furiosa 150ml Calico",
+                "visivel": false,
+                "preço novo": 7.99,
+                "desconto": 0,
+                "Created By": "1691143865250x481074744108582500",
+                "peso/und": "unidade",
+                "categorias_produto": [
+                    "Temperos e Condimentos"
+                ],
+                "tipo_unidade": "UN",
+                "estoque": -99993,
+                "demanda": 3,
+                "Created Date": "2025-02-18T13:59:03.426Z",
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1739887111724x822298804947446700/download%20%282%29.jpg"
+                ],
+                "cod": "789460",
+                "_id": "1739887143311x707588185376161800"
+            },
+            {
+                "Created By": "1691143865250x481074744108582500",
+                "tipo_unidade": "UN",
+                "estoque": -99996,
+                "visivel": false,
+                "preço novo": 4.99,
+                "_id": "1739887317014x577635131902394400",
+                "Modified Date": "2025-12-19T18:47:23.070Z",
+                "cod": "895867",
+                "Created Date": "2025-02-18T14:01:56.937Z",
+                "demanda": 0,
+                "categorias_produto": [
+                    "Temperos e Condimentos"
+                ],
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1739887268324x119162676149471070/download%20%284%29.jpg"
+                ],
+                "nome": "Molho de Pimente Suave 145 Ml Jhocan",
+                "desconto": 0,
+                "peso por unidade": 145,
+                "peso/und": "unidade"
+            },
+            {
+                "Created Date": "2025-02-18T14:04:45.569Z",
+                "desconto": 0,
+                "_id": "1739887485556x122534336880181250",
+                "Modified Date": "2025-12-19T18:47:33.248Z",
+                "preço novo": 7.99,
+                "estoque": -99999,
+                "visivel": false,
+                "peso/und": "unidade",
+                "Created By": "1691143865250x481074744108582500",
+                "nome": "Molho de Pimenta uLtra Forte 145 Ml Jhocan",
+                "peso por unidade": 145,
+                "cod": "789856",
+                "tipo_unidade": "UN",
+                "categorias_produto": [
+                    "Temperos e Condimentos"
+                ],
+                "demanda": 1,
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1739887449563x497472110028731840/download%20%284%29.jpg"
+                ]
+            },
+            {
+                "Created Date": "2025-02-18T14:06:42.215Z",
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1739887570760x441431146152739840/download%20%281%29.jpg"
+                ],
+                "Modified Date": "2025-12-19T18:47:40.902Z",
+                "categorias_produto": [
+                    "Temperos e Condimentos"
+                ],
+                "cod": "789856",
+                "peso/und": "unidade",
+                "desconto": 0,
+                "estoque": -100000,
+                "demanda": 0,
+                "tipo_unidade": "UN",
+                "nome": "Molho de Pimenta Mexicana 150 Jhocan",
+                "_id": "1739887601813x216925115524317200",
+                "Created By": "1691143865250x481074744108582500",
+                "preço novo": 8.99,
+                "peso por unidade": 150,
+                "visivel": false
+            },
+            {
+                "cod": "019250",
+                "visivel": true,
+                "nome": "Aveia Flocos Grossos  300 g  Saúde Plena",
+                "demanda": 0,
+                "peso por unidade": 300,
+                "estoque": 99998,
+                "Created Date": "2025-02-18T14:08:40.005Z",
+                "Modified Date": "2026-01-16T15:14:04.648Z",
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1741791476039x539397764735036100/AVEIA%20FLOCOS%20GROSSOS%20300G.JPG"
+                ],
+                "tipo_unidade": "UN",
+                "peso/und": "unidade",
+                "preço novo": 9.99,
+                "desconto": 0,
+                "Created By": "1691143865250x481074744108582500",
+                "categorias_produto": [
+                    "Empório"
+                ],
+                "_id": "1739887720114x497956543450316800"
+            },
+            {
+                "demanda": 2,
+                "categorias_produto": [
+                    "Empório"
+                ],
+                "_id": "1739887867823x830351183964274700",
+                "Modified Date": "2026-01-30T17:10:24.772Z",
+                "estoque": 99990,
+                "Created By": "1691143865250x481074744108582500",
+                "peso/und": "unidade",
+                "peso por unidade": 200,
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1741791511519x682559707311119000/AVEIA%20FLOCOS%20200G.JPG"
+                ],
+                "cod": "019250",
+                "visivel": true,
+                "Created Date": "2025-02-18T14:11:07.937Z",
+                "tipo_unidade": "UN",
+                "desconto": 0,
+                "preço novo": 9.99,
+                "nome": "Aveia Flocos Médio 200g Saúde Plena"
+            },
+            {
+                "visivel": false,
+                "Created By": "1691143865250x481074744108582500",
+                "Created Date": "2025-02-18T14:18:07.693Z",
+                "Modified Date": "2025-10-23T14:13:15.921Z",
+                "estoque": -100000,
+                "cod": "019250",
+                "demanda": 0,
+                "tipo_unidade": "UN",
+                "_id": "1739888286774x740405446319800300",
+                "preço novo": 4.99,
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1741869830161x855346475379019400/bicarbonato%20de%20s%C3%B3dio%20150g.JPG"
+                ],
+                "nome": "Bircabonato e Sódio 150 g Saúde Plena",
+                "peso/und": "unidade",
+                "desconto": 0,
+                "peso por unidade": 150
+            },
+            {
+                "demanda": 2,
+                "visivel": true,
+                "desconto": 0,
+                "Created By": "1691143865250x481074744108582500",
+                "nome": "Alecrim  50 g Saúde Plena",
+                "categorias_produto": [
+                    "Empório"
+                ],
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1741738516539x155346096751512130/ALECRIM%2050G.JPG"
+                ],
+                "Created Date": "2025-02-18T14:25:50.459Z",
+                "peso por unidade": 50,
+                "estoque": 99990,
+                "peso/und": "unidade",
+                "tipo_unidade": "UN",
+                "Modified Date": "2025-12-23T13:37:49.639Z",
+                "_id": "1739888750660x334167040007077900",
+                "preço novo": 5.99,
+                "cod": "019250"
+            },
+            {
+                "Modified Date": "2026-02-19T14:17:53.430Z",
+                "tipo_unidade": "UN",
+                "visivel": true,
+                "estoque": 99984,
+                "cod": "019250",
+                "_id": "1739889072454x619713888393101300",
+                "desconto": 0,
+                "Created By": "1691143865250x481074744108582500",
+                "preço novo": 3.99,
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1741794755279x422024892816247550/TOMILHO%20DESIDRATADO%2030G.JPG"
+                ],
+                "peso/und": "unidade",
+                "peso por unidade": 30,
+                "categorias_produto": [
+                    "Empório"
+                ],
+                "Created Date": "2025-02-18T14:31:12.625Z",
+                "demanda": 2,
+                "nome": "Tomilho Desidratado 30 g Saúde Plena"
+            },
+            {
+                "peso/und": "unidade",
+                "visivel": false,
+                "Created By": "1691143865250x481074744108582500",
+                "estoque": 100000,
+                "cod": "192505",
+                "nome": "Caldo de Costela 100 g Saúde Plena",
+                "Created Date": "2025-02-18T14:36:32.042Z",
+                "_id": "1739889392126x323059407659204600",
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1741800589690x896109000000655100/CALDO%20DE%20COSTELA%20100G.JPG"
+                ],
+                "preço novo": 5.99,
+                "demanda": 1,
+                "desconto": 0,
+                "tipo_unidade": "UN",
+                "peso por unidade": 100,
+                "Modified Date": "2025-06-18T14:15:24.846Z"
+            },
+            {
+                "estoque": 99999,
+                "tipo_unidade": "UN",
+                "peso por unidade": 100,
+                "nome": "DRY RUB PEIXE 100 G Saúde Plena",
+                "Created Date": "2025-02-18T14:46:13.872Z",
+                "Modified Date": "2025-11-19T17:54:14.585Z",
+                "Created By": "1691143865250x481074744108582500",
+                "categorias_produto": [
+                    "Empório"
+                ],
+                "desconto": 0,
+                "_id": "1739889971962x221238314409132030",
+                "peso/und": "unidade",
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1741792317211x186346646571311940/DRY%20RUB%20PEIXE%20100G.JPG"
+                ],
+                "visivel": true,
+                "cod": "019250",
+                "preço novo": 6.99,
+                "demanda": 0
+            },
+            {
+                "desconto": 0,
+                "nome": "curry tempero 100g Saúde Plena",
+                "Modified Date": "2026-02-26T00:49:54.115Z",
+                "tipo_unidade": "UN",
+                "estoque": 99993,
+                "peso/und": "unidade",
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1741792271775x609490526200178200/CURRY%20TEMPERO%20100G.JPG"
+                ],
+                "preço novo": 8.99,
+                "cod": "012505",
+                "categorias_produto": [
+                    "Empório"
+                ],
+                "peso por unidade": 100,
+                "Created Date": "2025-02-18T14:53:56.186Z",
+                "demanda": 2,
+                "visivel": true,
+                "Created By": "1691143865250x481074744108582500",
+                "_id": "1739890436128x668136625750409200"
+            },
+            {
+                "estoque": -99986,
+                "nome": "Molho Shoyu Jhocan145 ml",
+                "peso por unidade": 145,
+                "peso/und": "unidade",
+                "categorias_produto": [
+                    "Temperos e Condimentos"
+                ],
+                "tipo_unidade": "UN",
+                "demanda": 2,
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1739890935837x384599397908617300/download%20%286%29.jpg"
+                ],
+                "Created By": "1691143865250x481074744108582500",
+                "_id": "1739890979222x626772122101874700",
+                "desconto": 0,
+                "Modified Date": "2025-12-19T18:47:51.139Z",
+                "cod": "789856",
+                "preço novo": 4.99,
+                "visivel": false,
+                "Created Date": "2025-02-18T15:02:59.555Z"
+            },
+            {
+                "Modified Date": "2025-12-20T13:12:46.575Z",
+                "peso/und": "unidade",
+                "categorias_produto": [
+                    "Temperos e Condimentos"
+                ],
+                "preço novo": 4.99,
+                "visivel": false,
+                "Created By": "1691143865250x481074744108582500",
+                "peso por unidade": 145,
+                "estoque": -99987,
+                "Created Date": "2025-02-18T15:07:55.098Z",
+                "desconto": 0,
+                "cod": "789567",
+                "demanda": 1,
+                "_id": "1739891275067x738597868962840600",
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1739891128242x968384835753197700/download%20%287%29.jpg"
+                ],
+                "tipo_unidade": "UN",
+                "nome": "Molho Inglês Jhocan 145 Ml"
+            },
+            {
+                "categorias_produto": [
+                    "Temperos e Condimentos"
+                ],
+                "preço novo": 4.99,
+                "Created Date": "2025-02-18T15:10:14.237Z",
+                "peso por unidade": 145,
+                "visivel": true,
+                "Created By": "1691143865250x481074744108582500",
+                "peso/und": "unidade",
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1739891364569x335356774034596000/download%20%281%29.jpg"
+                ],
+                "tipo_unidade": "UN",
+                "estoque": 99997,
+                "desconto": 0,
+                "Modified Date": "2026-01-18T20:09:43.151Z",
+                "nome": "Molho de Picanha 145 Ml Jhocan",
+                "_id": "1739891414369x168294501274091520",
+                "demanda": 0,
+                "cod": "789856"
+            },
+            {
+                "demanda": 1,
+                "peso/und": "unidade",
+                "cod": "789856",
+                "estoque": 99992,
+                "preço novo": 4.99,
+                "desconto": 0,
+                "Created By": "1691143865250x481074744108582500",
+                "tipo_unidade": "UN",
+                "peso por unidade": 145,
+                "nome": "Molho para Churrasco 145 Ml Jhocan",
+                "Created Date": "2025-02-18T15:13:33.576Z",
+                "categorias_produto": [
+                    "Temperos e Condimentos"
+                ],
+                "_id": "1739891613794x187325067734024200",
+                "Modified Date": "2025-11-07T14:02:03.633Z",
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1741795754328x719007329951897700/MOLHO%20PARA%20CHURRASO%20JHOCAN%20145%20ML.JPG"
+                ],
+                "visivel": true
+            },
+            {
+                "cod": "898567",
+                "estoque": 99998,
+                "nome": "Molho de Azeitona Verde 145 Ml Jhocan",
+                "visivel": true,
+                "peso por unidade": 145,
+                "tipo_unidade": "UN",
+                "desconto": 0,
+                "Created Date": "2025-02-18T15:29:06.560Z",
+                "Created By": "1691143865250x481074744108582500",
+                "categorias_produto": [
+                    "Temperos e Condimentos"
+                ],
+                "preço novo": 9.99,
+                "_id": "1739892540790x874363041940504600",
+                "Modified Date": "2025-08-22T12:26:34.852Z",
+                "peso/und": "unidade",
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1739892439815x665617110694634900/download%20%289%29.jpg"
+                ],
+                "demanda": 0
+            },
+            {
+                "nome": "Molho para Salada 145 Ml Jhocan",
+                "peso por unidade": 145,
+                "cod": "789585",
+                "preço novo": 4.99,
+                "desconto": 0,
+                "Created By": "1691143865250x481074744108582500",
+                "categorias_produto": [
+                    "Temperos e Condimentos"
+                ],
+                "Created Date": "2025-02-18T16:58:31.658Z",
+                "estoque": 99997,
+                "_id": "1739897911058x231333198969962500",
+                "tipo_unidade": "UN",
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1739897904550x696420854818894000/images.jpg"
+                ],
+                "visivel": true,
+                "Modified Date": "2026-01-14T15:08:34.753Z",
+                "peso/und": "unidade",
+                "demanda": 0
+            },
+            {
+                "peso por unidade": 145,
+                "Modified Date": "2025-12-20T13:13:15.622Z",
+                "estoque": -99993,
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1739898041879x919393446299869700/download%20%289%29.jpg"
+                ],
+                "cod": "89567",
+                "categorias_produto": [
+                    "Temperos e Condimentos"
+                ],
+                "preço novo": 9.99,
+                "Created By": "1691143865250x481074744108582500",
+                "peso/und": "unidade",
+                "demanda": 0,
+                "visivel": false,
+                "tipo_unidade": "UN",
+                "_id": "1739898061850x431571834209304600",
+                "desconto": 0,
+                "nome": "Molho Cremoso de Ervas Finas 145 g Jhocan",
+                "Created Date": "2025-02-18T17:01:01.686Z"
+            },
+            {
+                "demanda": 0,
+                "nome": "Molho de Pimenta Verde 145ML Chacón",
+                "peso por unidade": 145,
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1739898296680x963369932373119100/download%20%2810%29.jpg"
+                ],
+                "Created Date": "2025-02-18T17:05:23.633Z",
+                "cod": "78984",
+                "desconto": 0,
+                "Modified Date": "2025-12-20T13:13:26.679Z",
+                "estoque": -100000,
+                "_id": "1739898323469x409191446101360640",
+                "preço novo": 9.99,
+                "peso/und": "unidade",
+                "tipo_unidade": "UN",
+                "Created By": "1691143865250x481074744108582500",
+                "visivel": false,
+                "categorias_produto": [
+                    "Temperos e Condimentos"
+                ]
+            },
+            {
+                "visivel": false,
+                "cod": "78985",
+                "_id": "1739898654640x284241681327325200",
+                "Modified Date": "2025-12-20T13:13:37.782Z",
+                "peso/und": "unidade",
+                "Created By": "1691143865250x481074744108582500",
+                "Created Date": "2025-02-18T17:10:54.642Z",
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1741795683642x850529416918603900/MOLHO%20CREMOSO%20SABOR%20ARTIFICIAL%20DE%20MOSTARDA%20E%20MEL%20200G.JPG"
+                ],
+                "nome": "Molho Cremoso sabor Artificial Mostarda e Mel 200g Jhocan",
+                "tipo_unidade": "UN",
+                "demanda": 1,
+                "estoque": -99994,
+                "peso por unidade": 200,
+                "categorias_produto": [
+                    "Temperos e Condimentos"
+                ],
+                "preço novo": 9.99,
+                "desconto": 0
+            },
+            {
+                "peso por unidade": 180,
+                "tipo_unidade": "UN",
+                "Modified Date": "2025-12-20T13:14:07.389Z",
+                "preço novo": 9.49,
+                "demanda": 0,
+                "_id": "1739898733261x286878585171738620",
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1741795701299x724346474559339500/MOLHO%20DE%20AZEITONA%20VEE%20JHOCAN%20180%20ML.JPG"
+                ],
+                "cod": "898567",
+                "visivel": false,
+                "peso/und": "unidade",
+                "Created By": "1691143865250x481074744108582500",
+                "nome": "Molho de Azeitona Verde 180 ml Jhocan",
+                "Created Date": "2025-02-18T17:12:13.835Z",
+                "desconto": 0,
+                "categorias_produto": [
+                    "Temperos e Condimentos"
+                ],
+                "estoque": -99999
+            },
+            {
+                "visivel": false,
+                "nome": "Molho e Churrasco 150Ml Jhocan",
+                "demanda": 0,
+                "_id": "1739898790871x159851029541158900",
+                "desconto": 0,
+                "Created Date": "2025-02-18T17:13:10.821Z",
+                "peso por unidade": 150,
+                "preço novo": 9.49,
+                "cod": "789856",
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1741795720573x414216094045882100/MOLHO%20PARA%20CHURRASO%20JHOCAN%20145%20ML.JPG"
+                ],
+                "Modified Date": "2025-12-20T13:14:19.400Z",
+                "peso/und": "unidade",
+                "Created By": "1691143865250x481074744108582500",
+                "estoque": -99998,
+                "tipo_unidade": "UN",
+                "categorias_produto": [
+                    "Temperos e Condimentos"
+                ]
+            },
+            {
+                "desconto": 0,
+                "estoque": 99998,
+                "Modified Date": "2025-05-21T17:13:07.494Z",
+                "visivel": true,
+                "_id": "1739899051735x248924088783077380",
+                "tipo_unidade": "UN",
+                "demanda": 0,
+                "nome": "Leite Coco em Pó 100g Saúde Plena",
+                "peso/und": "unidade",
+                "peso por unidade": 100,
+                "preço novo": 12.99,
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1741956065817x740765810010515200/LEITE%20DE%20COCOC%20EM%20P%C3%93%20100G.JPG"
+                ],
+                "Created By": "1691143865250x481074744108582500",
+                "cod": "192505",
+                "Created Date": "2025-02-18T17:17:31.524Z"
+            },
+            {
+                "peso por unidade": 100,
+                "Modified Date": "2025-05-21T17:13:07.507Z",
+                "visivel": true,
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1741800602793x571084048612963600/MACA%20PERUANA%20100G.JPG"
+                ],
+                "demanda": 0,
+                "cod": "192505",
+                "nome": "Maca Peruana 100 Saúde Plena",
+                "Created Date": "2025-02-18T17:18:43.933Z",
+                "peso/und": "unidade",
+                "tipo_unidade": "UN",
+                "desconto": 0,
+                "_id": "1739899124110x405199243944656900",
+                "preço novo": 15.99,
+                "Created By": "1691143865250x481074744108582500",
+                "estoque": 100000
+            },
+            {
+                "nome": "Psyllium 100 g Saúde Plena",
+                "tipo_unidade": "UN",
+                "categorias_produto": [
+                    "Temperos e Condimentos"
+                ],
+                "Modified Date": "2026-02-09T16:02:59.569Z",
+                "Created By": "1691143865250x481074744108582500",
+                "estoque": 99988,
+                "preço novo": 21.99,
+                "Created Date": "2025-02-18T17:23:22.721Z",
+                "desconto": 0,
+                "peso por unidade": 100,
+                "demanda": 3,
+                "peso/und": "unidade",
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1741795902433x533832279559575550/PSYLLIUM%20100G.JPG"
+                ],
+                "cod": "192505",
+                "visivel": true,
+                "_id": "1739899402287x593275782958153700"
+            },
+            {
+                "cod": "192505",
+                "visivel": true,
+                "tipo_unidade": "UN",
+                "nome": "Guaraná em pó puro 100 g Saúde Plena",
+                "peso/und": "unidade",
+                "preço novo": 13.99,
+                "Modified Date": "2026-02-20T18:38:26.618Z",
+                "estoque": 99998,
+                "peso por unidade": 100,
+                "Created Date": "2025-02-18T17:24:58.327Z",
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1741795568187x181084744330557000/GUARAN%C3%81%20EM%20P%C3%93%20100G.JPG"
+                ],
+                "_id": "1739899495703x537785069512687600",
+                "demanda": 1,
+                "Created By": "1691143865250x481074744108582500",
+                "desconto": 0,
+                "categorias_produto": [
+                    "Temperos e Condimentos"
+                ]
+            },
+            {
+                "estoque": 99998,
+                "_id": "1739899582520x499375495855210500",
+                "preço novo": 9.99,
+                "peso/und": "unidade",
+                "categorias_produto": [
+                    "Temperos e Condimentos"
+                ],
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1741795553825x208623797274754000/FIBRA%20DE%20MA%C3%87%C3%83%20100G.JPG"
+                ],
+                "desconto": 0,
+                "Created Date": "2025-02-18T17:26:23.444Z",
+                "tipo_unidade": "UN",
+                "nome": "Fibra de Maçã 100 g Saúde Plena",
+                "demanda": 0,
+                "visivel": true,
+                "cod": "192505",
+                "peso por unidade": 100,
+                "Modified Date": "2025-11-08T00:51:45.107Z",
+                "Created By": "1691143865250x481074744108582500"
+            },
+            {
+                "peso/und": "unidade",
+                "preço novo": 7.99,
+                "desconto": 0,
+                "categorias_produto": [
+                    "Temperos e Condimentos"
+                ],
+                "Modified Date": "2025-12-19T18:32:51.701Z",
+                "peso por unidade": 100,
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1741795449280x804365606675064600/AMARANTO%20FLOOS%20100G.JPG"
+                ],
+                "cod": "192505",
+                "demanda": 3,
+                "Created Date": "2025-02-18T17:27:40.579Z",
+                "estoque": -55555,
+                "Created By": "1691143865250x481074744108582500",
+                "tipo_unidade": "UN",
+                "nome": "Amaranto fLOCOS 100G Saúde Plena",
+                "visivel": false,
+                "_id": "1739899660791x766180751560409100"
+            },
+            {
+                "peso/und": "unidade",
+                "tipo_unidade": "UN",
+                "desconto": 0,
+                "estoque": 100000,
+                "demanda": 0,
+                "Created Date": "2025-02-18T17:29:08.626Z",
+                "peso por unidade": 90,
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1741800628647x339758760719632900/COL%C3%81GENO%2090G.JPG"
+                ],
+                "visivel": true,
+                "preço novo": 22.99,
+                "_id": "1739899748818x379551889445355500",
+                "nome": "Colágeno Hidrolisado 90g Saúde Plena",
+                "Created By": "1691143865250x481074744108582500",
+                "cod": "192505",
+                "Modified Date": "2025-05-21T17:13:07.531Z"
+            },
+            {
+                "nome": "Endro Sementes 100g Saúde Plena",
+                "preço novo": 6.99,
+                "cod": "192505",
+                "demanda": 0,
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1739899899715x242523575646432130/download.png"
+                ],
+                "peso por unidade": 100,
+                "visivel": true,
+                "tipo_unidade": "UN",
+                "categorias_produto": [
+                    "Empório"
+                ],
+                "Created By": "1691143865250x481074744108582500",
+                "_id": "1739899923365x974357971494502400",
+                "Created Date": "2025-02-18T17:32:03.236Z",
+                "Modified Date": "2025-05-21T17:13:07.550Z",
+                "estoque": 100000,
+                "desconto": 0,
+                "peso/und": "unidade"
+            },
+            {
+                "peso/und": "unidade",
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1741792062695x593657440638431900/CH%C3%81%20DE%20PORANGABA%2030G.JPG"
+                ],
+                "Created By": "1691143865250x481074744108582500",
+                "Modified Date": "2025-05-21T17:13:07.604Z",
+                "_id": "1739900050954x589851856994304000",
+                "Created Date": "2025-02-18T17:34:10.719Z",
+                "cod": "019250",
+                "estoque": 100000,
+                "desconto": 0,
+                "nome": "Chá de Porongaba 30 g Saúde Plena",
+                "tipo_unidade": "UN",
+                "visivel": true,
+                "peso por unidade": 30,
+                "demanda": 0,
+                "categorias_produto": [
+                    "Empório"
+                ],
+                "preço novo": 5.99
+            },
+            {
+                "_id": "1739900152418x143719385679790080",
+                "tipo_unidade": "UN",
+                "peso/und": "unidade",
+                "cod": "192505",
+                "peso por unidade": 50,
+                "demanda": 0,
+                "preço novo": 9.99,
+                "Created Date": "2025-02-18T17:35:52.522Z",
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1741792081950x863772493819689100/CH%C3%81%20PRETO%2050G.JPG"
+                ],
+                "categorias_produto": [
+                    "Empório"
+                ],
+                "Created By": "1691143865250x481074744108582500",
+                "visivel": true,
+                "desconto": 0,
+                "Modified Date": "2025-05-21T17:13:07.617Z",
+                "estoque": 100000,
+                "nome": "Chá Preto 50 g Saúde Plena"
+            },
+            {
+                "Created Date": "2025-02-18T17:39:02.471Z",
+                "desconto": 0,
+                "demanda": 0,
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1739900321386x583137593048750300/download.png"
+                ],
+                "estoque": 100000,
+                "Modified Date": "2025-05-21T17:13:07.632Z",
+                "peso/und": "unidade",
+                "Created By": "1691143865250x481074744108582500",
+                "nome": "Chá de Zimbro 50g Saúe Plena",
+                "_id": "1739900342678x655578656306626600",
+                "cod": "019250",
+                "tipo_unidade": "UN",
+                "visivel": true,
+                "preço novo": 15.99,
+                "peso por unidade": 50
+            },
+            {
+                "Created By": "1691143865250x481074744108582500",
+                "nome": "Graviola  folhas 25 g Saúde Plena",
+                "visivel": true,
+                "cod": "192505",
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1741793869379x925368537074502100/GRAVIOLA%2025%20G.JPG"
+                ],
+                "_id": "1739900457324x775409646548549600",
+                "tipo_unidade": "UN",
+                "categorias_produto": [
+                    "Empório"
+                ],
+                "Created Date": "2025-02-18T17:40:57.400Z",
+                "peso por unidade": 25,
+                "demanda": 0,
+                "preço novo": 4.99,
+                "peso/und": "unidade",
+                "estoque": 100000,
+                "desconto": 0,
+                "Modified Date": "2025-05-21T17:13:07.641Z"
+            },
+            {
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1741791370943x442100723798252800/ARNICA%20SILVESTRE%2030G.JPG"
+                ],
+                "peso por unidade": 30,
+                "tipo_unidade": "UN",
+                "categorias_produto": [
+                    "Empório"
+                ],
+                "Created Date": "2025-02-18T17:42:05.669Z",
+                "nome": "Arnica Silvestre 30g Saúde Plena",
+                "demanda": 0,
+                "desconto": 0,
+                "cod": "019250",
+                "visivel": true,
+                "Modified Date": "2025-05-21T17:13:07.655Z",
+                "Created By": "1691143865250x481074744108582500",
+                "estoque": 100000,
+                "peso/und": "unidade",
+                "_id": "1739900525435x297922028487049200",
+                "preço novo": 4.99
+            },
+            {
+                "Modified Date": "2025-12-27T13:24:50.137Z",
+                "preço novo": 9.99,
+                "cod": "019250",
+                "visivel": true,
+                "Created By": "1691143865250x481074744108582500",
+                "peso por unidade": 50,
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1741793888722x157413322754645700/HORTEL%C3%83%20DESITRADADO%2050G.JPG"
+                ],
+                "desconto": 0,
+                "estoque": 99996,
+                "demanda": 0,
+                "_id": "1739900711635x624600904797257700",
+                "tipo_unidade": "UN",
+                "peso/und": "unidade",
+                "Created Date": "2025-02-18T17:45:11.499Z",
+                "nome": "Hortelã 50 g Saúde Plena",
+                "categorias_produto": [
+                    "Empório"
+                ]
+            },
+            {
+                "preço novo": 5.99,
+                "Created Date": "2025-02-18T17:47:04.585Z",
+                "Modified Date": "2025-05-21T17:13:07.693Z",
+                "peso por unidade": 50,
+                "desconto": 0,
+                "demanda": 0,
+                "_id": "1739900824037x800260077143457800",
+                "cod": "019250",
+                "peso/und": "unidade",
+                "visivel": true,
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1741794328526x394544244793864060/QUINA-QUINA%2050G.JPG"
+                ],
+                "tipo_unidade": "UN",
+                "nome": "Quina-Quina 50g Saúde Plena",
+                "Created By": "1691143865250x481074744108582500",
+                "estoque": 100000,
+                "categorias_produto": [
+                    "Empório"
+                ]
+            },
+            {
+                "Modified Date": "2025-05-21T17:13:07.703Z",
+                "preço novo": 4.99,
+                "demanda": 0,
+                "peso/und": "unidade",
+                "peso por unidade": 20,
+                "Created Date": "2025-02-18T17:48:58.003Z",
+                "estoque": 100000,
+                "nome": "Cana do Brejo Desidratada 20 g Saúde Plena",
+                "desconto": 0,
+                "_id": "1739900937999x757756817147691000",
+                "visivel": true,
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1741800651816x160294925396828000/CANA%20DO%20BREJO%20DESIDRATADA%2020G.JPG"
+                ],
+                "Created By": "1691143865250x481074744108582500",
+                "tipo_unidade": "UN",
+                "cod": "019250"
+            },
+            {
+                "_id": "1739901143296x486710801415798800",
+                "Created By": "1691143865250x481074744108582500",
+                "peso por unidade": 25,
+                "cod": "019250",
+                "demanda": 0,
+                "desconto": 0,
+                "visivel": true,
+                "preço novo": 5.49,
+                "Created Date": "2025-02-18T17:52:23.465Z",
+                "categorias_produto": [
+                    "Empório"
+                ],
+                "nome": "Tanchagem 25 g Saúde Plena",
+                "estoque": 99999,
+                "tipo_unidade": "UN",
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1741794686624x773725601249478400/TANCHAGEM%2025G.JPG"
+                ],
+                "peso/und": "unidade",
+                "Modified Date": "2025-10-21T19:05:15.794Z"
+            },
+            {
+                "visivel": true,
+                "Created By": "1691143865250x481074744108582500",
+                "peso por unidade": 40,
+                "estoque": 99996,
+                "categorias_produto": [
+                    "Empório"
+                ],
+                "Created Date": "2025-02-18T18:00:21.653Z",
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1741792098618x185853034385323520/CH%C3%81%20QUEBRA%20PEDRA%2040G.JPG"
+                ],
+                "nome": "Chá Quebra Pedra 40g Saúde Plena",
+                "demanda": 1,
+                "cod": "019250",
+                "Modified Date": "2025-08-04T19:39:24.754Z",
+                "peso/und": "unidade",
+                "tipo_unidade": "UN",
+                "_id": "1739901621793x890022051136143400",
+                "preço novo": 10.99,
+                "desconto": 0
+            },
+            {
+                "_id": "1739901693664x189315749420728320",
+                "Created Date": "2025-02-18T18:01:33.434Z",
+                "preço novo": 5.99,
+                "desconto": 0,
+                "estoque": 100000,
+                "peso por unidade": 20,
+                "peso/und": "unidade",
+                "Modified Date": "2025-05-21T17:13:07.727Z",
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1741800668987x836832974218220200/CABELO%20DE%20MILHO%2020G.JPG"
+                ],
+                "tipo_unidade": "UN",
+                "nome": "Cabelo de Milho 20g Saúde Plena",
+                "Created By": "1691143865250x481074744108582500",
+                "cod": "019250",
+                "visivel": true,
+                "demanda": 0
+            },
+            {
+                "tipo_unidade": "UN",
+                "peso por unidade": 80,
+                "desconto": 0,
+                "estoque": 99999,
+                "Created Date": "2025-02-18T18:02:49.600Z",
+                "Created By": "1691143865250x481074744108582500",
+                "nome": "Funcho Sementes 80 g Saúde PLENA",
+                "Modified Date": "2025-08-19T22:28:23.306Z",
+                "demanda": 0,
+                "categorias_produto": [
+                    "Empório"
+                ],
+                "preço novo": 7.99,
+                "cod": "019250",
+                "_id": "1739901769552x200575938517008400",
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1741792541974x576175436062407400/FUNCHO%20SEMENTE%2080G.JPG"
+                ],
+                "visivel": true,
+                "peso/und": "unidade"
+            },
+            {
+                "peso por unidade": 30,
+                "tipo_unidade": "UN",
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1741794596735x227448342120728300/SALSAPARRILHA%2030G.JPG"
+                ],
+                "visivel": true,
+                "peso/und": "unidade",
+                "estoque": 100000,
+                "demanda": 0,
+                "categorias_produto": [
+                    "Empório"
+                ],
+                "desconto": 0,
+                "preço novo": 6.99,
+                "cod": "019250",
+                "_id": "1739901847394x494455149002489860",
+                "Created Date": "2025-02-18T18:04:07.615Z",
+                "Modified Date": "2025-05-21T17:13:07.752Z",
+                "nome": "SALSAPARRILHA 30G sAÚDE pLENA",
+                "Created By": "1691143865250x481074744108582500"
+            },
+            {
+                "Created By": "1691143865250x481074744108582500",
+                "demanda": 1,
+                "desconto": 0,
+                "preço novo": 5.99,
+                "cod": "019250",
+                "tipo_unidade": "UN",
+                "visivel": true,
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1741965877987x778336292656261100/20250221_125806.jpg"
+                ],
+                "Created Date": "2025-02-18T18:09:39.569Z",
+                "nome": "Gengibre seco 100g Saúe Plena",
+                "peso por unidade": 100,
+                "categorias_produto": [
+                    "Empório"
+                ],
+                "Modified Date": "2026-03-04T01:59:40.758Z",
+                "_id": "1739902179375x480947543398416400",
+                "peso/und": "unidade",
+                "estoque": 99993
+            },
+            {
+                "_id": "1739902248310x660402400930562000",
+                "preço novo": 7.99,
+                "estoque": 99998,
+                "nome": "Alfavaca 30 g Saúde Plena",
+                "peso/und": "unidade",
+                "Created By": "1691143865250x481074744108582500",
+                "Modified Date": "2025-10-21T19:05:15.801Z",
+                "demanda": 1,
+                "cod": "019250",
+                "peso por unidade": 30,
+                "categorias_produto": [
+                    "Empório"
+                ],
+                "desconto": 0,
+                "visivel": true,
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1741738857787x990130020651270700/ALFAVACA%2030G.JPG"
+                ],
+                "tipo_unidade": "UN",
+                "Created Date": "2025-02-18T18:10:48.132Z"
+            },
+            {
+                "cod": "019250",
+                "Modified Date": "2025-05-21T17:13:07.763Z",
+                "estoque": 100000,
+                "tipo_unidade": "UN",
+                "desconto": 0,
+                "peso por unidade": 20,
+                "demanda": 0,
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1741738471933x834581740437546900/ALCACHOFRA%2020G.JPG"
+                ],
+                "visivel": true,
+                "nome": "Alcachofra 20g Saúde Plena",
+                "categorias_produto": [
+                    "Empório"
+                ],
+                "Created By": "1691143865250x481074744108582500",
+                "_id": "1739902350329x368066726140575740",
+                "Created Date": "2025-02-18T18:12:30.097Z",
+                "peso/und": "unidade",
+                "preço novo": 4.99
+            },
+            {
+                "cod": "019250",
+                "Modified Date": "2025-05-21T17:13:07.954Z",
+                "nome": "Garcínia 50g Saúde Plena",
+                "estoque": 100000,
+                "peso/und": "unidade",
+                "preço novo": 11.99,
+                "desconto": 0,
+                "visivel": true,
+                "Created Date": "2025-02-18T18:14:34.742Z",
+                "peso por unidade": 50,
+                "demanda": 0,
+                "Created By": "1691143865250x481074744108582500",
+                "_id": "1739902474927x719603346951372800",
+                "tipo_unidade": "UN",
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1741792557086x533254933961364800/GARC%C3%8DNIA%2050G.JPG"
+                ],
+                "categorias_produto": [
+                    "Empório"
+                ]
+            },
+            {
+                "Created By": "1691143865250x481074744108582500",
+                "nome": "Chá Bardan Desidratado 25g",
+                "categorias_produto": [
+                    "Empório"
+                ],
+                "_id": "1739902559446x407872439784570900",
+                "Created Date": "2025-02-18T18:15:59.211Z",
+                "peso por unidade": 25,
+                "preço novo": 4.99,
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1741966452907x320813602830995600/CH%C3%81%20BARDANA%2025%20G.JPG"
+                ],
+                "Modified Date": "2025-05-21T17:13:07.964Z",
+                "peso/und": "unidade",
+                "cod": "019250",
+                "visivel": true,
+                "estoque": 100000,
+                "tipo_unidade": "UN",
+                "desconto": 0,
+                "demanda": 0
+            },
+            {
+                "estoque": 100000,
+                "demanda": 0,
+                "Modified Date": "2025-05-21T17:13:07.982Z",
+                "tipo_unidade": "UN",
+                "nome": "Jambolão 30 g Saúde Plena",
+                "peso por unidade": 30,
+                "_id": "1739902841501x406755154947997700",
+                "Created By": "1691143865250x481074744108582500",
+                "Created Date": "2025-02-18T18:20:41.663Z",
+                "peso/und": "unidade",
+                "preço novo": 4.99,
+                "desconto": 0,
+                "cod": "019250",
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1741793937164x202022030163402360/JAMBOL%C3%83O%2030%20G.JPG"
+                ],
+                "categorias_produto": [
+                    "Empório"
+                ],
+                "visivel": true
+            },
+            {
+                "peso por unidade": 50,
+                "visivel": true,
+                "desconto": 0,
+                "categorias_produto": [
+                    "Empório"
+                ],
+                "preço novo": 6.99,
+                "Created By": "1691143865250x481074744108582500",
+                "Created Date": "2025-02-18T18:21:47.626Z",
+                "peso/und": "unidade",
+                "Modified Date": "2025-05-21T17:13:07.990Z",
+                "nome": "Chá Branco m 50 g Saúde Plena",
+                "_id": "1739902907209x444491730492325900",
+                "tipo_unidade": "UN",
+                "estoque": 100000,
+                "cod": "019250",
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1741792023515x347094475289790900/CH%C3%81%20BRANCO%2030G.JPG"
+                ],
+                "demanda": 0
+            },
+            {
+                "Created By": "1691143865250x481074744108582500",
+                "desconto": 0,
+                "estoque": 100000,
+                "cod": "019250",
+                "peso/und": "unidade",
+                "Modified Date": "2025-05-21T17:13:08.000Z",
+                "tipo_unidade": "UN",
+                "Created Date": "2025-02-18T18:28:40.484Z",
+                "nome": "Açucar de Coco 200 g Saúde Plena",
+                "_id": "1739903320639x327985966100250600",
+                "peso por unidade": 200,
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1741800683631x646823719770649200/A%C3%87%C3%9ACAR%20DE%20COCO%20200G.JPG"
+                ],
+                "demanda": 0,
+                "preço novo": 17.99,
+                "visivel": true
+            },
+            {
+                "nome": "Leite em pó Integral 200G Itambé",
+                "Created By": "1691143865250x481074744108582500",
+                "visivel": false,
+                "peso/und": "unidade",
+                "tipo_unidade": "UN",
+                "demanda": 0,
+                "cod": "789605",
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1740055288958x375777170519006100/download%20%2811%29.jpg"
+                ],
+                "categorias_produto": [
+                    "Laticíneos"
+                ],
+                "desconto": 0,
+                "preço novo": 10.99,
+                "Created Date": "2025-02-20T12:42:45.326Z",
+                "peso por unidade": 200,
+                "Modified Date": "2025-05-21T17:13:08.008Z",
+                "estoque": 99999,
+                "_id": "1740055365330x648396591808905200"
+            },
+            {
+                "Modified Date": "2025-05-21T17:13:08.018Z",
+                "nome": "Chá de Espinheira Santa Orgânico 10 G Campo Verde",
+                "peso/und": "unidade",
+                "tipo_unidade": "UN",
+                "demanda": 0,
+                "Created By": "1691143865250x481074744108582500",
+                "peso por unidade": 10,
+                "desconto": 0,
+                "preço novo": 14.99,
+                "categorias_produto": [
+                    "Empório"
+                ],
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1740055639069x953840837169068900/shopping%20%281%29.webp"
+                ],
+                "cod": "789896",
+                "_id": "1740055665982x371902017432191000",
+                "Created Date": "2025-02-20T12:47:45.749Z",
+                "estoque": 99999,
+                "visivel": true
+            },
+            {
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1740055796189x238038752076135330/download.webp"
+                ],
+                "Created By": "1691143865250x481074744108582500",
+                "tipo_unidade": "UN",
+                "categorias_produto": [
+                    "Empório"
+                ],
+                "Created Date": "2025-02-20T12:50:21.883Z",
+                "estoque": -100000,
+                "preço novo": 14.99,
+                "desconto": 0,
+                "peso/und": "unidade",
+                "demanda": 0,
+                "Modified Date": "2025-10-23T15:02:18.409Z",
+                "nome": "Cá de Erva - oce Orgânico 10 G Campo Verde",
+                "_id": "1740055821954x715897716187856900",
+                "peso por unidade": 10,
+                "visivel": false,
+                "cod": "789896"
+            },
+            {
+                "tipo_unidade": "UN",
+                "nome": "Chá de Hortelã 10 G Orgânico Campo Verde",
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1740055902069x279940778950793500/download%20%2812%29.jpg"
+                ],
+                "_id": "1740055953762x966972941947633700",
+                "peso/und": "unidade",
+                "peso por unidade": 10,
+                "estoque": 99997,
+                "Created By": "1691143865250x481074744108582500",
+                "cod": "78986",
+                "desconto": 0,
+                "Modified Date": "2025-10-23T15:11:53.031Z",
+                "Created Date": "2025-02-20T12:52:33.615Z",
+                "categorias_produto": [
+                    "Empório"
+                ],
+                "preço novo": 14.99,
+                "visivel": true,
+                "demanda": 0
+            }
+        ],
+        "count": 100,
+        "remaining": 209
+    }
+}

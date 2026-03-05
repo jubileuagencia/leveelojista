@@ -1,0 +1,2164 @@
+{
+    "response": {
+        "cursor": 800,
+        "results": [
+            {
+                "desconto": 0,
+                "peso/und": "unidade",
+                "nome": "Café 3 Corações Extra Forte 250 g",
+                "Created Date": "2025-02-20T12:55:36.556Z",
+                "_id": "1740056136630x663068432171794400",
+                "cod": "789600",
+                "categorias_produto": [
+                    "Empório"
+                ],
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1740056112104x431170958201572160/shopping%20%282%29.webp"
+                ],
+                "visivel": true,
+                "estoque": 99964,
+                "preço novo": 22.49,
+                "Modified Date": "2026-02-26T00:49:52.933Z",
+                "peso por unidade": 250,
+                "tipo_unidade": "UN",
+                "Created By": "1691143865250x481074744108582500",
+                "demanda": 2
+            },
+            {
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1740056343811x608540848067187000/download%20%2814%29.jpg"
+                ],
+                "estoque": 99996,
+                "tipo_unidade": "UN",
+                "Modified Date": "2025-10-23T15:03:30.261Z",
+                "Created Date": "2025-02-20T12:59:31.221Z",
+                "peso/und": "unidade",
+                "preço novo": 22.49,
+                "nome": "Café 3 corações  Tradicional 250 g vaco",
+                "desconto": 0,
+                "visivel": true,
+                "categorias_produto": [
+                    "Empório"
+                ],
+                "_id": "1740056371679x946558972233252900",
+                "cod": "789600",
+                "Created By": "1691143865250x481074744108582500",
+                "demanda": 1,
+                "peso por unidade": 250
+            },
+            {
+                "desconto": 0,
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1740057015539x912072863936052700/shopping%20%283%29.webp"
+                ],
+                "preço novo": 6.99,
+                "Created Date": "2025-02-20T13:11:04.398Z",
+                "demanda": 3,
+                "peso/und": "unidade",
+                "_id": "1740057064789x422137676764020740",
+                "tipo_unidade": "UN",
+                "cod": "789600",
+                "peso por unidade": 30,
+                "Modified Date": "2026-01-26T21:10:19.291Z",
+                "nome": "Filtro de Papel 3 Corações 30 unidades-103",
+                "Created By": "1691143865250x481074744108582500",
+                "visivel": true,
+                "estoque": 99985,
+                "categorias_produto": [
+                    "Empório"
+                ]
+            },
+            {
+                "_id": "1740057421348x256562840705171460",
+                "estoque": 99999,
+                "peso por unidade": 500,
+                "preço novo": 22.9,
+                "desconto": 0,
+                "tipo_unidade": "UN",
+                "demanda": 0,
+                "Created Date": "2025-02-20T13:17:01.547Z",
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1740057348476x129881968810981340/download%20%2815%29.jpg"
+                ],
+                "cod": "789991",
+                "visivel": true,
+                "Modified Date": "2025-08-16T18:51:24.882Z",
+                "nome": "Vinagre de Maçã Orgânico 500Ml Nova Esperança",
+                "peso/und": "unidade",
+                "Created By": "1691143865250x481074744108582500"
+            },
+            {
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1740057598047x205582749332332130/download%20%2816%29.jpg"
+                ],
+                "Modified Date": "2026-01-09T15:52:48.001Z",
+                "Created By": "1691143865250x481074744108582500",
+                "Created Date": "2025-02-20T13:20:39.198Z",
+                "peso por unidade": 280,
+                "preço novo": 3.99,
+                "cod": "789855",
+                "estoque": 99998,
+                "categorias_produto": [
+                    "Empório"
+                ],
+                "desconto": 0,
+                "_id": "1740057639579x858644336853123100",
+                "visivel": true,
+                "demanda": 0,
+                "tipo_unidade": "UN",
+                "nome": "Ervilha em Conserva 280 g Pramesa",
+                "peso/und": "unidade"
+            },
+            {
+                "peso/und": "unidade",
+                "categorias_produto": [
+                    "Empório"
+                ],
+                "nome": "Manteiga de Garrafa 300 Ml Janaúba",
+                "preço novo": 19.99,
+                "Created Date": "2025-02-20T13:24:15.183Z",
+                "demanda": 1,
+                "peso por unidade": 300,
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1740057828394x334037323854610370/download%20%2817%29.jpg"
+                ],
+                "desconto": 0,
+                "cod": "789830",
+                "estoque": 99992,
+                "visivel": true,
+                "Modified Date": "2026-02-12T14:26:00.980Z",
+                "tipo_unidade": "UN",
+                "_id": "1740057855766x228908532844462080",
+                "Created By": "1691143865250x481074744108582500"
+            },
+            {
+                "Created Date": "2025-02-20T13:26:23.587Z",
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1740057954631x201452802181257150/download%20%2818%29.jpg"
+                ],
+                "preço novo": 4.99,
+                "demanda": 0,
+                "_id": "1740057984192x490904504687919100",
+                "cod": "789608",
+                "Created By": "1691143865250x481074744108582500",
+                "Modified Date": "2025-05-21T17:13:08.083Z",
+                "nome": "Velas São Domingos 90 g",
+                "peso/und": "unidade",
+                "peso por unidade": 9,
+                "desconto": 0,
+                "visivel": true,
+                "estoque": 100000,
+                "tipo_unidade": "UN"
+            },
+            {
+                "cod": "789811",
+                "nome": "Sacos para Lixos plastipam Especial ",
+                "estoque": 99999,
+                "desconto": 0,
+                "peso/und": "unidade",
+                "categorias_produto": [
+                    "Outros"
+                ],
+                "preço novo": 8.99,
+                "Created Date": "2025-02-20T13:37:37.863Z",
+                "Modified Date": "2025-06-11T00:47:16.885Z",
+                "tipo_unidade": "UN",
+                "_id": "1740058658295x834524783781347300",
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1740058601749x793301249506635600/download%20%2819%29.jpg"
+                ],
+                "peso por unidade": 10,
+                "visivel": true,
+                "demanda": 0,
+                "Created By": "1691143865250x481074744108582500"
+            },
+            {
+                "demanda": 0,
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1740058727475x429646202334857100/download%20%2820%29.jpg"
+                ],
+                "cod": "789811",
+                "Created By": "1691143865250x481074744108582500",
+                "tipo_unidade": "UN",
+                "Created Date": "2025-02-20T13:39:13.919Z",
+                "_id": "1740058754438x865566368363446300",
+                "desconto": 0,
+                "estoque": 99999,
+                "categorias_produto": [
+                    "Outros"
+                ],
+                "nome": "Sacos para Lixos plastipam Especial  15 Litros",
+                "Modified Date": "2025-11-11T13:46:57.277Z",
+                "visivel": true,
+                "peso/und": "unidade",
+                "peso por unidade": 20,
+                "preço novo": 7.99
+            },
+            {
+                "_id": "1740058880500x572103564449284100",
+                "categorias_produto": [
+                    "Outros"
+                ],
+                "peso/und": "unidade",
+                "tipo_unidade": "UN",
+                "Modified Date": "2025-05-21T17:12:59.791Z",
+                "peso por unidade": 50,
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1740058855286x864056644869822600/download%20%2821%29.jpg"
+                ],
+                "cod": "789811",
+                "desconto": 0,
+                "nome": "Sacos Plásticos para Lixinho de pia Plastipam ",
+                "preço novo": 5.99,
+                "Created By": "1691143865250x481074744108582500",
+                "demanda": 1,
+                "visivel": true,
+                "Created Date": "2025-02-20T13:41:19.959Z",
+                "estoque": 99999
+            },
+            {
+                "nome": "Bala de Mel com Própolis e Gengibre 380g Apiserra",
+                "tipo_unidade": "UN",
+                "visivel": true,
+                "peso por unidade": 38,
+                "Created Date": "2025-02-20T13:48:24.757Z",
+                "peso/und": "unidade",
+                "Modified Date": "2026-02-28T11:50:37.161Z",
+                "demanda": 2,
+                "_id": "1740059305151x814487058103402500",
+                "cod": "789895",
+                "estoque": 99997,
+                "Created By": "1691143865250x481074744108582500",
+                "desconto": 0,
+                "preço novo": 4.99,
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1740059196487x397431606592584260/download%20%2822%29.jpg"
+                ]
+            },
+            {
+                "Modified Date": "2025-05-21T17:13:08.122Z",
+                "Created By": "1691143865250x481074744108582500",
+                "desconto": 0,
+                "peso/und": "unidade",
+                "estoque": 100000,
+                "cod": "789893",
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1740059450366x920752571790054000/shopping%20%284%29.webp"
+                ],
+                "Created Date": "2025-02-20T13:51:15.848Z",
+                "_id": "1740059476006x931684599741284400",
+                "tipo_unidade": "UN",
+                "demanda": 0,
+                "peso por unidade": 80,
+                "nome": "Bala de Mel 80 g Sem conservantes Celebrê",
+                "preço novo": 10.99,
+                "visivel": true
+            },
+            {
+                "cod": "789893",
+                "Created Date": "2025-02-20T13:53:04.457Z",
+                "desconto": 0,
+                "tipo_unidade": "UN",
+                "demanda": 0,
+                "categorias_produto": [
+                    "Mercearia"
+                ],
+                "peso por unidade": 80,
+                "preço novo": 11.99,
+                "_id": "1740059585041x439780166750699500",
+                "estoque": 100000,
+                "visivel": true,
+                "Created By": "1691143865250x481074744108582500",
+                "nome": "Bala de Mel Caramelizado 80 g Celebrê",
+                "Modified Date": "2025-05-21T17:13:08.134Z",
+                "peso/und": "unidade",
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1740059561249x732411232101379000/shopping%20%285%29.webp"
+                ]
+            },
+            {
+                "desconto": 0,
+                "peso por unidade": 130,
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1740059769871x654726726068873300/download%20%2823%29.jpg"
+                ],
+                "Created Date": "2025-02-20T14:02:06.859Z",
+                "demanda": 2,
+                "peso/und": "unidade",
+                "Created By": "1691143865250x481074744108582500",
+                "_id": "1740060127453x738250575742238700",
+                "categorias_produto": [
+                    "Mercearia"
+                ],
+                "tipo_unidade": "UN",
+                "preço novo": 6.99,
+                "nome": "Doce de Leite com Chocolate 130 g Vovó Ana",
+                "Modified Date": "2026-02-04T08:21:06.689Z",
+                "cod": "789896",
+                "visivel": false,
+                "estoque": 99990
+            },
+            {
+                "estoque": 99989,
+                "categorias_produto": [
+                    "Mercearia"
+                ],
+                "peso por unidade": 130,
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1740060219478x649471756367985700/download%20%2824%29.jpg"
+                ],
+                "nome": "Doce de Leite com Coco 130 g Vovó Ana",
+                "Created By": "1691143865250x481074744108582500",
+                "visivel": false,
+                "Modified Date": "2025-07-26T10:42:09.295Z",
+                "demanda": 1,
+                "cod": "789866",
+                "tipo_unidade": "UN",
+                "desconto": 0,
+                "Created Date": "2025-02-20T14:04:02.132Z",
+                "_id": "1740060242641x597142523225833500",
+                "peso/und": "unidade",
+                "preço novo": 6.99
+            },
+            {
+                "visivel": false,
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1740060324872x825731798520296100/download%20%2825%29.jpg"
+                ],
+                "Modified Date": "2025-07-26T10:42:54.707Z",
+                "preço novo": 6.99,
+                "cod": "789866",
+                "nome": "Doce de Leite com Amendoim Cajuzinho 130 g Vovó Ana",
+                "desconto": 0,
+                "tipo_unidade": "UN",
+                "estoque": 99999,
+                "Created Date": "2025-02-20T14:05:44.919Z",
+                "peso/und": "unidade",
+                "_id": "1740060344902x582645515067326500",
+                "demanda": 0,
+                "categorias_produto": [
+                    "Mercearia"
+                ],
+                "Created By": "1691143865250x481074744108582500",
+                "peso por unidade": 130
+            },
+            {
+                "tipo_unidade": "UN",
+                "estoque": 99990,
+                "Created By": "1691143865250x481074744108582500",
+                "desconto": 0,
+                "peso/und": "unidade",
+                "_id": "1740060454262x816354534606504000",
+                "visivel": false,
+                "preço novo": 6.99,
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1740060432171x634281407151085400/download%20%2826%29.jpg"
+                ],
+                "categorias_produto": [
+                    "Mercearia"
+                ],
+                "Modified Date": "2025-07-26T10:43:01.441Z",
+                "peso por unidade": 130,
+                "nome": "Doce de Leite com Amendoim pe de moleque 130 g Vovó Ana",
+                "Created Date": "2025-02-20T14:07:33.644Z",
+                "cod": "789866",
+                "demanda": 2
+            },
+            {
+                "preço novo": 6.99,
+                "estoque": 99996,
+                "peso/und": "unidade",
+                "_id": "1740060545032x193311189644083200",
+                "nome": "Doce de Leite com Ameixa 130 g Vovó Ana",
+                "Created By": "1691143865250x481074744108582500",
+                "cod": "789866",
+                "peso por unidade": 130,
+                "desconto": 0,
+                "visivel": false,
+                "Modified Date": "2025-10-01T14:34:15.517Z",
+                "demanda": 0,
+                "Created Date": "2025-02-20T14:09:05.162Z",
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1740060524058x936330704097061900/download%20%2827%29.jpg"
+                ],
+                "tipo_unidade": "UN"
+            },
+            {
+                "cod": "789866",
+                "Created Date": "2025-02-20T14:24:50.783Z",
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1740061468337x832495417969436500/download%20%2829%29.jpg"
+                ],
+                "nome": "Doce de Leite com Coco bombom paulistinha 130 g Vovó Ana",
+                "categorias_produto": [
+                    "Mercearia"
+                ],
+                "tipo_unidade": "UN",
+                "demanda": 0,
+                "preço novo": 6.99,
+                "estoque": 99998,
+                "Created By": "1691143865250x481074744108582500",
+                "Modified Date": "2026-02-04T08:21:06.716Z",
+                "peso por unidade": 130,
+                "visivel": false,
+                "desconto": 0,
+                "_id": "1740061491353x927843712224723000",
+                "peso/und": "unidade"
+            },
+            {
+                "Modified Date": "2025-07-26T10:42:38.547Z",
+                "peso por unidade": 130,
+                "cod": "789866",
+                "_id": "1740061560803x488524202061856800",
+                "estoque": 100000,
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1740061534285x804391838943538300/download%20%2828%29.jpg"
+                ],
+                "categorias_produto": [
+                    "Mercearia"
+                ],
+                "preço novo": 6.99,
+                "tipo_unidade": "UN",
+                "peso/und": "unidade",
+                "Created Date": "2025-02-20T14:26:00.489Z",
+                "desconto": 0,
+                "Created By": "1691143865250x481074744108582500",
+                "nome": "Doce de Leite com Abacaxi 130 g Vovó Ana",
+                "demanda": 0,
+                "visivel": false
+            },
+            {
+                "peso/und": "unidade",
+                "Modified Date": "2025-12-18T15:09:06.222Z",
+                "Created Date": "2025-02-20T14:31:29.216Z",
+                "preço novo": 4.99,
+                "demanda": 0,
+                "peso por unidade": 60,
+                "estoque": -55445,
+                "categorias_produto": [
+                    "Mercearia"
+                ],
+                "desconto": 0,
+                "Created By": "1691143865250x481074744108582500",
+                "nome": "Mel Sachê 60 g Apiserra",
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1740061867158x775185630744186600/download%20%2830%29.jpg"
+                ],
+                "visivel": false,
+                "_id": "1740061889767x494559712557400060",
+                "cod": "788955",
+                "tipo_unidade": "UN"
+            },
+            {
+                "Modified Date": "2025-12-26T18:35:00.887Z",
+                "Created By": "1691143865250x481074744108582500",
+                "preço novo": 9.99,
+                "Created Date": "2025-02-20T14:58:27.078Z",
+                "tipo_unidade": "UN",
+                "desconto": 0,
+                "demanda": 0,
+                "_id": "1740063507674x806687372062228500",
+                "nome": "Farofa de Mandioca Traicional sem Pimenta (Moréa ) 350 g",
+                "peso/und": "unidade",
+                "peso por unidade": 350,
+                "visivel": false,
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1740063475155x839231062608181100/download%20%2832%29.jpg"
+                ],
+                "categorias_produto": [
+                    "Empório"
+                ],
+                "estoque": -100000,
+                "cod": "788953"
+            },
+            {
+                "preço novo": 8.99,
+                "Created By": "1691143865250x481074744108582500",
+                "peso/und": "unidade",
+                "tipo_unidade": "UN",
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1740064270121x154330954851093820/download%20%2831%29.jpg"
+                ],
+                "estoque": -99999,
+                "Created Date": "2025-02-20T15:11:33.937Z",
+                "demanda": 1,
+                "_id": "1740064293989x978776478332485600",
+                "nome": "Farofa de Mandioca Alho (Moréa) 350 g",
+                "desconto": 0,
+                "peso por unidade": 350,
+                "cod": "788953",
+                "Modified Date": "2025-12-26T18:35:16.065Z",
+                "visivel": false
+            },
+            {
+                "preço novo": 9.5,
+                "peso/und": "unidade",
+                "desconto": 0,
+                "nome": "Farofa de Mandioca Bacon 350 G (Moréa)",
+                "cod": "789895",
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1740064386003x794141800650679600/download%20%2833%29.jpg"
+                ],
+                "estoque": 99996,
+                "Created Date": "2025-02-20T15:13:27.119Z",
+                "tipo_unidade": "UN",
+                "categorias_produto": [
+                    "Empório"
+                ],
+                "Created By": "1691143865250x481074744108582500",
+                "_id": "1740064407756x716011951883026400",
+                "Modified Date": "2025-12-26T18:35:33.919Z",
+                "visivel": true,
+                "peso por unidade": 350,
+                "demanda": 1
+            },
+            {
+                "peso por unidade": 300,
+                "visivel": false,
+                "Created By": "1691143865250x481074744108582500",
+                "estoque": -100000,
+                "preço novo": 9.5,
+                "categorias_produto": [
+                    "Empório"
+                ],
+                "desconto": 0,
+                "_id": "1740064476887x584948101462622200",
+                "tipo_unidade": "UN",
+                "Modified Date": "2025-12-26T18:35:45.970Z",
+                "demanda": 0,
+                "peso/und": "unidade",
+                "nome": "Farofa Costelinha e Limão 300 G (Moréa)",
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1740064453726x885521996986259700/download%20%2836%29.jpg"
+                ],
+                "Created Date": "2025-02-20T15:14:36.754Z",
+                "cod": "789895"
+            },
+            {
+                "Created By": "1691143865250x481074744108582500",
+                "_id": "1740064656157x292520256712474600",
+                "tipo_unidade": "UN",
+                "cod": "789895",
+                "estoque": -100000,
+                "visivel": false,
+                "preço novo": 9.5,
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1740064632544x428432829641927740/download%20%2836%29.jpg"
+                ],
+                "desconto": 0,
+                "peso/und": "unidade",
+                "Modified Date": "2026-01-03T20:03:00.192Z",
+                "nome": "Farofa Lemon Pepper350 g(Moréa)",
+                "demanda": 0,
+                "Created Date": "2025-02-20T15:17:36.916Z",
+                "peso por unidade": 350,
+                "categorias_produto": [
+                    "Empório"
+                ]
+            },
+            {
+                "cod": "789895",
+                "Created By": "1691143865250x481074744108582500",
+                "nome": "Farofa de Mandioca 350 G (Moréa)",
+                "preço novo": 8.99,
+                "peso por unidade": 350,
+                "Created Date": "2025-02-20T15:20:52.966Z",
+                "categorias_produto": [
+                    "Empório"
+                ],
+                "peso/und": "unidade",
+                "_id": "1740064853549x783760345280282600",
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1740064831207x665183588561368200/download%20%2835%29.jpg"
+                ],
+                "estoque": -99998,
+                "tipo_unidade": "UN",
+                "Modified Date": "2025-12-26T18:36:28.452Z",
+                "desconto": 0,
+                "demanda": 1,
+                "visivel": false
+            },
+            {
+                "desconto": -66.7779632721202,
+                "_id": "1740065459229x915387518673485800",
+                "demanda": 0,
+                "Modified Date": "2025-12-26T19:46:53.067Z",
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1740065074435x730954222098927100/download%20%2839%29.jpg"
+                ],
+                "tipo_unidade": "UN",
+                "peso por unidade": 500,
+                "preço novo": 9.99,
+                "peso/und": "unidade",
+                "nome": "Farinha de Milho Biju Caseira(Moréa)500 G",
+                "categorias_produto": [
+                    "Empório"
+                ],
+                "preço antigo": 5.99,
+                "Created By": "1691143865250x481074744108582500",
+                "Created Date": "2025-02-20T15:30:58.713Z",
+                "visivel": true,
+                "cod": "789895",
+                "estoque": 99997
+            },
+            {
+                "visivel": true,
+                "demanda": 1,
+                "cod": "789853",
+                "Created By": "1691143865250x481074744108582500",
+                "peso por unidade": 500,
+                "preço novo": 5.5,
+                "Created Date": "2025-02-20T15:33:41.348Z",
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1740065600353x821156366492681100/download%20%2840%29.jpg"
+                ],
+                "estoque": 99995,
+                "peso/und": "unidade",
+                "Modified Date": "2026-02-27T21:08:12.360Z",
+                "desconto": 0,
+                "_id": "1740065621930x128586637008175100",
+                "tipo_unidade": "UN",
+                "nome": "Farinha de Mandioca Biju fina Torradinha 500 g (Moréa)",
+                "categorias_produto": [
+                    "Empório"
+                ]
+            },
+            {
+                "demanda": 0,
+                "peso por unidade": 200,
+                "_id": "1740066070236x471789106935889900",
+                "desconto": 0,
+                "Created Date": "2025-02-20T15:41:09.612Z",
+                "nome": "Açafrão da Terra em pó (Jhocan) 200 g",
+                "peso/und": "unidade",
+                "tipo_unidade": "UN",
+                "preço novo": 5.99,
+                "Modified Date": "2026-02-24T15:27:23.699Z",
+                "Created By": "1691143865250x481074744108582500",
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1740066040330x324728850672068900/download%20%2841%29.jpg"
+                ],
+                "cod": "789856",
+                "visivel": true,
+                "estoque": 99994
+            },
+            {
+                "peso/und": "unidade",
+                "cod": "123557",
+                "peso por unidade": 920,
+                "categorias_produto": [
+                    "Empório"
+                ],
+                "desconto": 16.700000000000006,
+                "estoque": -100000,
+                "Created By": "1691143865250x481074744108582500",
+                "nome": "Aguardente de Cana 920 Ml(Cachaça de Minas)",
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1741738761206x742045239566288000/AGUARDANTE%20DE%20CANA%20CACHA%C3%87A%20DE%20MINAS%20920ML.JPG"
+                ],
+                "preço antigo": 30,
+                "demanda": 0,
+                "Created Date": "2025-02-20T15:46:09.204Z",
+                "Modified Date": "2025-10-23T14:50:11.321Z",
+                "visivel": false,
+                "tipo_unidade": "UN",
+                "preço novo": 24.99,
+                "_id": "1740066369503x563513506741616600"
+            },
+            {
+                "cod": "89653",
+                "categorias_produto": [
+                    "Empório"
+                ],
+                "demanda": 0,
+                "visivel": true,
+                "desconto": 0,
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1741794835514x524117875083327300/VINHO%20SALUD%20BLEAND%20BLAME%20750ML.JPG"
+                ],
+                "Modified Date": "2025-05-21T17:13:08.289Z",
+                "nome": "Vinho Salud750 ml",
+                "estoque": 100000,
+                "tipo_unidade": "UN",
+                "peso por unidade": 750,
+                "Created By": "1691143865250x481074744108582500",
+                "preço novo": 19.99,
+                "peso/und": "unidade",
+                "Created Date": "2025-02-20T15:47:57.087Z",
+                "_id": "1740066477499x550778880014417900"
+            },
+            {
+                "categorias_produto": [
+                    "Mercearia"
+                ],
+                "Created Date": "2025-02-21T11:28:54.688Z",
+                "preço novo": 7.99,
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1741795018179x763979373879068500/SABORES%20QUERO%20MAIS%20TORRESMO%2070G.JPG"
+                ],
+                "cod": "070341",
+                "_id": "1740137334525x604303103545049100",
+                "tipo_unidade": "UN",
+                "peso por unidade": 70,
+                "peso/und": "unidade",
+                "Created By": "1691143865250x481074744108582500",
+                "desconto": 0,
+                "visivel": true,
+                "estoque": 99983,
+                "Modified Date": "2026-02-20T20:49:45.576Z",
+                "nome": "Torresmo Sabores quero mais 70g",
+                "demanda": 2
+            },
+            {
+                "desconto": 0,
+                "peso/und": "unidade",
+                "visivel": true,
+                "categorias_produto": [
+                    "Mercearia"
+                ],
+                "nome": "Batata Chips Sabores Quero mais 90g",
+                "preço novo": 7.99,
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1741795044310x565858272793724900/BATATA%20CHIPS%2090G%20%28SABORES%20QUERO%20MAIS%29.JPG"
+                ],
+                "Modified Date": "2026-02-25T21:43:11.105Z",
+                "Created Date": "2025-02-21T11:30:02.082Z",
+                "demanda": 0,
+                "estoque": 99995,
+                "_id": "1740137401892x144629993079570430",
+                "tipo_unidade": "UN",
+                "peso por unidade": 90,
+                "cod": "007341",
+                "Created By": "1691143865250x481074744108582500"
+            },
+            {
+                "tipo_unidade": "UN",
+                "estoque": 99999,
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1740137526259x384149428291817840/download%20%2842%29.jpg"
+                ],
+                "visivel": false,
+                "preço novo": 5.99,
+                "_id": "1740137552396x248774747604123650",
+                "Created Date": "2025-02-21T11:32:32.944Z",
+                "categorias_produto": [
+                    "Mercearia"
+                ],
+                "demanda": 0,
+                "desconto": 0,
+                "cod": "789890",
+                "peso/und": "unidade",
+                "nome": "Coco Ralado ÚMIDO E ADOÇADO (COPRA)100G",
+                "peso por unidade": 100,
+                "Modified Date": "2025-06-18T14:20:52.716Z",
+                "Created By": "1691143865250x481074744108582500"
+            },
+            {
+                "_id": "1740137881959x913867902579114000",
+                "demanda": 0,
+                "desconto": 0,
+                "Created By": "1691143865250x481074744108582500",
+                "cod": "760000",
+                "preço novo": 5.99,
+                "peso por unidade": 50,
+                "peso/und": "unidade",
+                "estoque": 100000,
+                "tipo_unidade": "UN",
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1740137858784x420131691364509900/download.png"
+                ],
+                "visivel": true,
+                "Created Date": "2025-02-21T11:38:02.671Z",
+                "nome": "Bananinha Chips(Natural)50 g ",
+                "Modified Date": "2025-05-21T17:13:08.325Z"
+            },
+            {
+                "Created By": "1691143865250x481074744108582500",
+                "tipo_unidade": "UN",
+                "Modified Date": "2026-03-02T16:08:32.059Z",
+                "visivel": true,
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1741794916465x834189113039027700/BANANINHA%20CHIPS%20115%20%20%28VOV%C3%93%20MIRTES%29.JPG"
+                ],
+                "preço novo": 5.99,
+                "nome": "Bananinha chips(limão) Vovo Mirtes115 g",
+                "Created Date": "2025-02-21T11:39:56.892Z",
+                "desconto": 0,
+                "estoque": 99997,
+                "cod": "760000",
+                "peso por unidade": 115,
+                "demanda": 0,
+                "peso/und": "unidade",
+                "_id": "1740137996682x813364583711375400",
+                "categorias_produto": [
+                    "Mercearia"
+                ]
+            },
+            {
+                "tipo_unidade": "UN",
+                "peso por unidade": 500,
+                "_id": "1740138170278x526349193399238660",
+                "preço novo": 7.99,
+                "Created Date": "2025-02-21T11:42:50.421Z",
+                "nome": "Tapioca Goma Fresca(BE nATURE) 500G",
+                "Modified Date": "2026-02-27T18:26:18.680Z",
+                "cod": "789865",
+                "demanda": 0,
+                "peso/und": "unidade",
+                "categorias_produto": [
+                    "Mercearia"
+                ],
+                "Created By": "1691143865250x481074744108582500",
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1740138147482x793434999906477600/download%20%2843%29.jpg"
+                ],
+                "estoque": 99994,
+                "desconto": 0,
+                "visivel": true
+            },
+            {
+                "_id": "1740138956279x630734352272851000",
+                "peso/und": "unidade",
+                "estoque": 99999,
+                "preço novo": 6.99,
+                "cod": "789891",
+                "Created Date": "2025-02-21T11:55:56.622Z",
+                "demanda": 0,
+                "categorias_produto": [
+                    "Mercearia"
+                ],
+                "desconto": 0,
+                "visivel": true,
+                "peso por unidade": 500,
+                "Created By": "1691143865250x481074744108582500",
+                "Modified Date": "2026-02-09T12:41:27.109Z",
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1740138411276x888217585267148800/download.png"
+                ],
+                "nome": "Canjica Branca 500g Tio Antonio a Roça",
+                "tipo_unidade": "UN"
+            },
+            {
+                "cod": "789119",
+                "Modified Date": "2026-02-26T00:49:53.246Z",
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1740139400110x675692651871016700/download%20%2844%29.jpg"
+                ],
+                "desconto": 0,
+                "_id": "1740139456854x409607423486328800",
+                "estoque": 99943,
+                "nome": "Pão de Sanduíche Forma(Seven Boys)450 g",
+                "visivel": true,
+                "tipo_unidade": "UN",
+                "preço novo": 8.99,
+                "peso por unidade": 450,
+                "Created Date": "2025-02-21T12:04:18.107Z",
+                "Created By": "1691143865250x481074744108582500",
+                "categorias_produto": [
+                    "Mercearia"
+                ],
+                "peso/und": "unidade",
+                "demanda": 3
+            },
+            {
+                "demanda": 1,
+                "peso por unidade": 1,
+                "Modified Date": "2025-05-21T17:12:59.849Z",
+                "desconto": 0,
+                "Created Date": "2025-02-21T12:12:21.233Z",
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1741794961585x200497043672650300/IGUAIA%20DIVINA%20SUCO%20DE%20MA%C3%87%C3%83%20INTEGRAL%201L.JPG"
+                ],
+                "_id": "1740139941065x264885806830452740",
+                "Created By": "1691143865250x481074744108582500",
+                "categorias_produto": [
+                    "Mercearia"
+                ],
+                "preço novo": 19.99,
+                "nome": "Suco de maçã IntegraL (Iguaria Divina)1 LITROS",
+                "cod": "789892",
+                "tipo_unidade": "UN",
+                "visivel": true,
+                "peso/und": "unidade",
+                "estoque": 99999
+            },
+            {
+                "desconto": 0,
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1740146174224x505562570409612000/download%20%2847%29.jpg"
+                ],
+                "cod": "789892",
+                "peso por unidade": 300,
+                "Created Date": "2025-02-21T13:56:37.847Z",
+                "Modified Date": "2026-02-27T06:02:28.540Z",
+                "visivel": true,
+                "_id": "1740146197668x252924355042607100",
+                "Created By": "1691143865250x481074744108582500",
+                "nome": "Biscoito florzinha (Fornada) 300 g",
+                "tipo_unidade": "PC",
+                "preço novo": 16.39,
+                "demanda": 5,
+                "categorias_produto": [
+                    "Empório",
+                    "Biscoitos"
+                ],
+                "peso/und": "unidade",
+                "estoque": 99971
+            },
+            {
+                "Modified Date": "2025-12-10T14:21:46.819Z",
+                "tipo_unidade": "UN",
+                "Created By": "1691143865250x481074744108582500",
+                "preço novo": 16.39,
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1740146545888x144358948856571970/download%20%2849%29.jpg"
+                ],
+                "_id": "1740146639465x943771204869947400",
+                "desconto": 0,
+                "peso por unidade": 300,
+                "Created Date": "2025-02-21T14:03:59.647Z",
+                "visivel": true,
+                "estoque": 99995,
+                "peso/und": "unidade",
+                "demanda": 1,
+                "cod": "789892",
+                "nome": "Biscoito Integral com Granola (Fornada )300 g",
+                "categorias_produto": [
+                    "Empório",
+                    "Biscoitos"
+                ]
+            },
+            {
+                "preço novo": 7.99,
+                "peso/und": "unidade",
+                "demanda": 8,
+                "categorias_produto": [
+                    "Empório",
+                    "Biscoitos"
+                ],
+                "visivel": false,
+                "peso por unidade": 300,
+                "estoque": 99985,
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1741791592815x552539555252271600/BISCOITO%20NATA%20DA%20RO%C3%87A%20%28FORNADA%29.JPG"
+                ],
+                "cod": "789892",
+                "desconto": 0,
+                "nome": "Biscoito Nata da Roça 300 g (fornada)",
+                "Created Date": "2025-02-21T14:10:40.406Z",
+                "Modified Date": "2025-07-26T10:42:20.124Z",
+                "tipo_unidade": "PC",
+                "_id": "1740147040242x611724379408826400",
+                "Created By": "1691143865250x481074744108582500"
+            },
+            {
+                "desconto": 0,
+                "preço novo": 14.99,
+                "Created By": "1691143865250x481074744108582500",
+                "Created Date": "2025-02-21T14:19:51.601Z",
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1741794982973x205723227874903940/TRANCINHA%20DE%20QUEIJO%20300G%28FORNADA%29.JPG"
+                ],
+                "visivel": true,
+                "cod": "789892",
+                "_id": "1740147591439x942502184556167200",
+                "estoque": 99995,
+                "peso/und": "unidade",
+                "tipo_unidade": "PC",
+                "categorias_produto": [
+                    "Mercearia"
+                ],
+                "peso por unidade": 300,
+                "nome": "Trancinha de Queijo 300 g (Fornada)",
+                "Modified Date": "2026-01-05T14:14:14.711Z",
+                "demanda": 0
+            },
+            {
+                "peso por unidade": 300,
+                "cod": "789892",
+                "tipo_unidade": "PC",
+                "categorias_produto": [
+                    "Empório"
+                ],
+                "preço novo": 11.99,
+                "_id": "1740147958273x855277261726679000",
+                "Modified Date": "2025-07-05T17:29:33.721Z",
+                "desconto": 0,
+                "demanda": 0,
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1741794772837x389242634924256830/TRUFA%20DE%20AMENDOIM300G%28FORNADA%29.JPG"
+                ],
+                "estoque": 99999,
+                "nome": "Trufa de Amendoim 300 g (Fornaa)",
+                "Created Date": "2025-02-21T14:25:58.654Z",
+                "Created By": "1691143865250x481074744108582500",
+                "peso/und": "unidade",
+                "visivel": true
+            },
+            {
+                "Created By": "1691143865250x481074744108582500",
+                "visivel": true,
+                "nome": "Trança de nata 350 g (Fornada)",
+                "tipo_unidade": "PC",
+                "_id": "1740148103444x902863032131256300",
+                "Modified Date": "2026-03-01T21:07:34.509Z",
+                "peso/und": "unidade",
+                "peso por unidade": 350,
+                "cod": "789894",
+                "Created Date": "2025-02-21T14:28:23.820Z",
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1740148041746x377596660963640500/download%20%2851%29.jpg"
+                ],
+                "desconto": 0,
+                "preço novo": 15.99,
+                "demanda": 3,
+                "estoque": 99987,
+                "categorias_produto": [
+                    "Empório"
+                ]
+            },
+            {
+                "nome": "Suspiro de morango 120 g (Fornada)",
+                "tipo_unidade": "PC",
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1740148378398x799830443252149800/download%20%2853%29.jpg"
+                ],
+                "_id": "1740148402119x847039816889008100",
+                "Created Date": "2025-02-21T14:33:22.267Z",
+                "estoque": 99985,
+                "desconto": 0,
+                "peso por unidade": 120,
+                "cod": "789892",
+                "demanda": 0,
+                "peso/und": "unidade",
+                "categorias_produto": [
+                    "Empório"
+                ],
+                "Modified Date": "2026-02-25T21:43:11.322Z",
+                "Created By": "1691143865250x481074744108582500",
+                "preço novo": 7.99,
+                "visivel": true
+            },
+            {
+                "Created By": "1691143865250x481074744108582500",
+                "_id": "1740149464567x400778893243449340",
+                "visivel": true,
+                "nome": "Suspiro de Leite Condensado 120 (Fornada)",
+                "Modified Date": "2025-12-22T16:33:49.030Z",
+                "estoque": 99987,
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1740149447103x882996108131689700/download%20%2854%29.jpg"
+                ],
+                "Created Date": "2025-02-21T14:51:05.412Z",
+                "peso/und": "unidade",
+                "cod": "789892",
+                "tipo_unidade": "PC",
+                "peso por unidade": 120,
+                "categorias_produto": [
+                    "Empório"
+                ],
+                "desconto": 0,
+                "demanda": 1,
+                "preço novo": 7.99
+            },
+            {
+                "Modified Date": "2025-08-26T14:21:39.737Z",
+                "demanda": 0,
+                "Created By": "1691143865250x481074744108582500",
+                "peso/und": "unidade",
+                "tipo_unidade": "PC",
+                "desconto": 0,
+                "nome": "Suspiro Blue Ice (Fornada)",
+                "preço novo": 7.99,
+                "Created Date": "2025-02-21T14:51:56.226Z",
+                "visivel": true,
+                "peso por unidade": 120,
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1741799408387x780125433681434900/SUSPIRO%20BLUE%20ICE%20120G.JPG"
+                ],
+                "cod": "789892",
+                "estoque": 99998,
+                "_id": "1740149516108x586702018414903300"
+            },
+            {
+                "preço novo": 8.49,
+                "peso/und": "unidade",
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1741799376713x175322234403892500/CHOCONATA%20300G%28FORNADA%29.JPG"
+                ],
+                "estoque": 99998,
+                "_id": "1740150023321x152609440968212480",
+                "Modified Date": "2025-06-27T18:33:07.427Z",
+                "nome": "Choconata  300 g(Fornada)",
+                "Created Date": "2025-02-21T15:00:23.533Z",
+                "demanda": 0,
+                "peso por unidade": 300,
+                "visivel": true,
+                "cod": "788929",
+                "tipo_unidade": "PC",
+                "Created By": "1691143865250x481074744108582500",
+                "desconto": 0
+            },
+            {
+                "preço novo": 14.99,
+                "desconto": 0,
+                "Modified Date": "2026-02-25T21:43:11.200Z",
+                "Created By": "1691143865250x481074744108582500",
+                "estoque": 99990,
+                "tipo_unidade": "PC",
+                "visivel": true,
+                "Created Date": "2025-02-21T15:04:09.040Z",
+                "peso/und": "unidade",
+                "peso por unidade": 300,
+                "_id": "1740150248839x302260495930097660",
+                "cod": "789892",
+                "categorias_produto": [
+                    "Empório"
+                ],
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1741794041885x337818168033477760/MINI%20CHOCOTONE%20300G%28FORNADA%29.JPG"
+                ],
+                "demanda": 1,
+                "nome": "Mini Chocotone 300 g (fORNADA)"
+            },
+            {
+                "nome": "Argola de Queijo 250 g (fORNADA)",
+                "preço novo": 16.99,
+                "_id": "1740150353729x134842828567085060",
+                "Modified Date": "2025-12-27T10:38:45.126Z",
+                "visivel": true,
+                "desconto": 0,
+                "Created By": "1691143865250x481074744108582500",
+                "peso por unidade": 250,
+                "demanda": 0,
+                "cod": "789892",
+                "Created Date": "2025-02-21T15:05:53.867Z",
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1741802444838x720548431733210900/AGOLA%20DE%20QUEIJO%20PARMES%C3%83O%20250G%20%28FORNADA%29.JPG"
+                ],
+                "peso/und": "unidade",
+                "estoque": 99999,
+                "tipo_unidade": "PC"
+            },
+            {
+                "Modified Date": "2025-10-23T14:39:46.975Z",
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1741799550095x525074976437067700/S%C3%94%20MINEIRO%20TORRADINHA%20MINEIRA%20150G.JPG"
+                ],
+                "tipo_unidade": "PC",
+                "desconto": 0,
+                "preço novo": 10.99,
+                "_id": "1740150651256x136897142924509180",
+                "estoque": 99999,
+                "cod": "789890",
+                "Created By": "1691143865250x481074744108582500",
+                "peso por unidade": 150,
+                "visivel": true,
+                "nome": "Torradinha Mineira 150 g (Sô Mineiro)",
+                "peso/und": "unidade",
+                "demanda": 0,
+                "Created Date": "2025-02-21T15:10:51.487Z"
+            },
+            {
+                "peso/und": "unidade",
+                "Created Date": "2025-02-21T15:15:19.277Z",
+                "Modified Date": "2025-12-23T15:56:04.856Z",
+                "estoque": 100000,
+                "visivel": true,
+                "desconto": 0,
+                "preço novo": 19.59,
+                "Created By": "1691143865250x481074744108582500",
+                "demanda": 0,
+                "cod": "789892",
+                "_id": "1740150919107x747454315289641000",
+                "tipo_unidade": "PC",
+                "peso por unidade": 300,
+                "nome": "Argola Papão 300 g (Fornada)",
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1741799427649x187452129977761180/ARGOLA%20PAP%C3%83O%20%28FORNADA%29.JPG"
+                ]
+            },
+            {
+                "Modified Date": "2026-01-18T20:20:10.787Z",
+                "tipo_unidade": "PC",
+                "estoque": 99989,
+                "visivel": true,
+                "peso/und": "unidade",
+                "preço novo": 5.99,
+                "desconto": 0,
+                "nome": "Bolinha de Queijo 100 g(Fornada)",
+                "peso por unidade": 100,
+                "categorias_produto": [
+                    "Empório"
+                ],
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1741791618788x632459868156717000/bolinha%20de%20queijo%20100g%28fornada%29.JPG"
+                ],
+                "Created By": "1691143865250x481074744108582500",
+                "Created Date": "2025-02-21T15:16:19.437Z",
+                "demanda": 1,
+                "_id": "1740150979346x706319276549079000",
+                "cod": "789892"
+            },
+            {
+                "visivel": true,
+                "cod": "789892",
+                "tipo_unidade": "PC",
+                "peso por unidade": 100,
+                "estoque": 99995,
+                "Created By": "1691143865250x481074744108582500",
+                "demanda": 0,
+                "Created Date": "2025-02-21T15:17:23.387Z",
+                "categorias_produto": [
+                    "Empório"
+                ],
+                "_id": "1740151043196x478293947833384960",
+                "nome": "bolinha de Queijo 100g (Fornada)",
+                "desconto": 0,
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1741739885116x137509190226361870/bolinha%20de%20queijo%20100g%28fornada%29.JPG"
+                ],
+                "peso/und": "unidade",
+                "Modified Date": "2026-02-03T12:42:48.177Z",
+                "preço novo": 5.99
+            },
+            {
+                "Created By": "1691143865250x481074744108582500",
+                "peso/und": "unidade",
+                "visivel": true,
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1741799481591x798623366853465200/SUSPIRO%20DE%20ABACAXI120G%28FORNADA%29.JPG"
+                ],
+                "demanda": 1,
+                "cod": "789892",
+                "peso por unidade": 120,
+                "preço novo": 7.99,
+                "Created Date": "2025-02-21T15:18:53.958Z",
+                "desconto": 0,
+                "nome": "Suspiro de Abacaxi 120 g(Fornada)",
+                "_id": "1740151133832x759529059922739200",
+                "Modified Date": "2025-08-13T18:40:25.185Z",
+                "tipo_unidade": "PC",
+                "estoque": 99997
+            },
+            {
+                "categorias_produto": [
+                    "Empório"
+                ],
+                "desconto": 0,
+                "Created Date": "2025-02-21T15:25:32.268Z",
+                "Modified Date": "2026-02-06T16:59:28.966Z",
+                "demanda": 1,
+                "cod": "789890",
+                "visivel": true,
+                "estoque": 99994,
+                "tipo_unidade": "PC",
+                "nome": "Tomante e Manjerição (sô Mineiro)",
+                "Created By": "1691143865250x481074744108582500",
+                "peso/und": "unidade",
+                "preço novo": 7.99,
+                "peso por unidade": 100,
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1741800460272x490994808061204350/S%C3%94%20MINEIO%20TOMATE%20E%20MANJERIC%C3%83O%20100G.JPG"
+                ],
+                "_id": "1740151531424x499853822413504500"
+            },
+            {
+                "estoque": 99999,
+                "desconto": 0,
+                "tipo_unidade": "PC",
+                "visivel": true,
+                "Created By": "1691143865250x481074744108582500",
+                "preço novo": 7.99,
+                "Modified Date": "2026-02-06T16:59:29.517Z",
+                "demanda": 0,
+                "_id": "1740151595341x364087078138413060",
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1740151579891x858682583558199000/download.png"
+                ],
+                "nome": "Cebola e Salsa 100 g (Sô Mineiro)",
+                "peso por unidade": 100,
+                "Created Date": "2025-02-21T15:26:35.527Z",
+                "cod": "789867",
+                "peso/und": "unidade"
+            },
+            {
+                "nome": "Rosquinha Caseira Familia Quitanda 155 g",
+                "desconto": 0,
+                "Created By": "1691143865250x481074744108582500",
+                "preço novo": 7.99,
+                "peso/und": "unidade",
+                "tipo_unidade": "PC",
+                "peso por unidade": 155,
+                "demanda": 0,
+                "cod": "789560",
+                "Modified Date": "2025-11-19T14:40:08.149Z",
+                "estoque": 0,
+                "_id": "1740151935263x405684832740048900",
+                "categorias_produto": [
+                    "Empório"
+                ],
+                "visivel": false,
+                "Created Date": "2025-02-21T15:32:15.393Z",
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1740151901218x293624651920374660/download.png"
+                ]
+            },
+            {
+                "tipo_unidade": "PC",
+                "Created By": "1691143865250x481074744108582500",
+                "estoque": 99998,
+                "cod": "078900",
+                "_id": "1740152509955x439839728720412700",
+                "Created Date": "2025-02-21T15:41:50.192Z",
+                "nome": "Amendoim torrada na Casa (Palavitos)",
+                "peso/und": "unidade",
+                "demanda": 0,
+                "desconto": 0,
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1741739683218x474066956786524800/AMENDOIM%20TORRADO%20EM%20CASCA%20200G%28PALAVITOS%29.JPG"
+                ],
+                "Modified Date": "2025-12-19T18:36:00.632Z",
+                "peso por unidade": 200,
+                "categorias_produto": [
+                    "Empório"
+                ],
+                "preço novo": 4.99,
+                "visivel": false
+            },
+            {
+                "_id": "1740405194059x168697072125476860",
+                "Created Date": "2025-02-24T13:53:12.517Z",
+                "visivel": true,
+                "tipo_unidade": "PC",
+                "desconto": 0,
+                "estoque": 99996,
+                "Created By": "1691143865250x481074744108582500",
+                "peso/und": "unidade",
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1740405082990x976701723769839400/download%20%2855%29.jpg"
+                ],
+                "nome": "Pão Integral granfinno sem açucar 370 Diet",
+                "demanda": 1,
+                "cod": "70019",
+                "preço novo": 12.99,
+                "peso por unidade": 370,
+                "Modified Date": "2025-12-29T16:50:31.256Z"
+            },
+            {
+                "preço novo": 12.99,
+                "cod": "700031",
+                "Created By": "1691143865250x481074744108582500",
+                "tipo_unidade": "PC",
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1740405355080x268647121562552100/download%20%2856%29.jpg"
+                ],
+                "Created Date": "2025-02-24T13:56:10.392Z",
+                "desconto": 0,
+                "estoque": 99987,
+                "demanda": 2,
+                "Modified Date": "2026-03-02T13:29:47.670Z",
+                "_id": "1740405372858x719473435951759400",
+                "nome": "Pão Integral granfinno Mais Fibras 370 g",
+                "peso/und": "unidade",
+                "peso por unidade": 3701,
+                "visivel": true,
+                "categorias_produto": [
+                    "Empório"
+                ]
+            },
+            {
+                "nome": "Pão Integral granfinno  passas 370 G",
+                "desconto": 0,
+                "_id": "1740405461852x421531078224248800",
+                "peso por unidade": 370,
+                "Created By": "1691143865250x481074744108582500",
+                "cod": "700031",
+                "Created Date": "2025-02-24T13:57:39.265Z",
+                "categorias_produto": [
+                    "Empório"
+                ],
+                "tipo_unidade": "PC",
+                "peso/und": "unidade",
+                "visivel": true,
+                "preço novo": 12.99,
+                "estoque": 99988,
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1740405437287x221761718895303840/download%20%2857%29.jpg"
+                ],
+                "Modified Date": "2026-01-23T23:34:41.236Z",
+                "demanda": 4
+            },
+            {
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1741870548653x730303641407771000/download%20%2889%29.jpg"
+                ],
+                "Created Date": "2025-02-24T14:53:13.580Z",
+                "estoque": 100000,
+                "demanda": 0,
+                "_id": "1740408794128x791258558397153300",
+                "Created By": "1691143865250x481074744108582500",
+                "nome": "Doces Rezenda Cocada 500 g",
+                "desconto": 0,
+                "Modified Date": "2025-07-30T19:41:03.007Z",
+                "peso por unidade": 500,
+                "preço novo": 16.99,
+                "peso/und": "unidade",
+                "categorias_produto": [
+                    "Laticíneos"
+                ],
+                "tipo_unidade": "PC",
+                "cod": "789822",
+                "visivel": false
+            },
+            {
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1741871004380x630208493360491600/download%20%2890%29.jpg"
+                ],
+                "estoque": 99999,
+                "_id": "1740408928971x504272475426652160",
+                "visivel": true,
+                "cod": "790856",
+                "preço novo": 18.99,
+                "categorias_produto": [
+                    "Empório"
+                ],
+                "nome": "Paçoca Cremosa Gomert 400 g Maestro Doces Artesanais",
+                "peso por unidade": 400,
+                "tipo_unidade": "PC",
+                "Created Date": "2025-02-24T14:55:28.196Z",
+                "Modified Date": "2025-06-18T14:41:33.373Z",
+                "Created By": "1691143865250x481074744108582500",
+                "demanda": 0,
+                "desconto": 0,
+                "peso/und": "unidade"
+            },
+            {
+                "peso/und": "unidade",
+                "peso por unidade": 400,
+                "nome": "Doce de Abobora com Coco em Barra 400 G Doces Rezendes",
+                "desconto": 0,
+                "Created By": "1691143865250x481074744108582500",
+                "tipo_unidade": "PC",
+                "_id": "1740409157018x281398480806346750",
+                "Created Date": "2025-02-24T14:59:16.189Z",
+                "preço novo": 16.99,
+                "estoque": 100000,
+                "demanda": 0,
+                "cod": "789822",
+                "categorias_produto": [
+                    "Empório"
+                ],
+                "Modified Date": "2025-05-21T17:13:08.721Z",
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1740409135652x218708381066236700/download.png"
+                ]
+            },
+            {
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1740409501692x839511172874674000/download%20%2858%29.jpg"
+                ],
+                "preço novo": 14.99,
+                "cod": "789626",
+                "Created By": "1691143865250x481074744108582500",
+                "estoque": 0,
+                "tipo_unidade": "UN",
+                "demanda": 3,
+                "peso/und": "unidade",
+                "nome": "Suco Integral Sabor uva 900 ml ",
+                "_id": "1740409526014x379222109907845100",
+                "Created Date": "2025-02-24T15:05:24.377Z",
+                "categorias_produto": [
+                    "Empório"
+                ],
+                "desconto": 0,
+                "visivel": false,
+                "Modified Date": "2026-02-27T13:39:12.464Z",
+                "peso por unidade": 900
+            },
+            {
+                "_id": "1740409821626x826383838829871100",
+                "preço novo": 34.99,
+                "peso/und": "unidade",
+                "estoque": 99999,
+                "categorias_produto": [
+                    "Empório"
+                ],
+                "Modified Date": "2025-06-06T16:16:01.900Z",
+                "peso por unidade": 420,
+                "demanda": 0,
+                "cod": "896545",
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1740409778973x166847060397521630/download.png"
+                ],
+                "desconto": 0,
+                "tipo_unidade": "UN",
+                "Created Date": "2025-02-24T15:10:18.961Z",
+                "nome": "Doce de LEITE 420 G (Doces Belem)",
+                "visivel": true,
+                "Created By": "1691143865250x481074744108582500"
+            },
+            {
+                "_id": "1740410272961x727283848710717400",
+                "visivel": true,
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1740410246257x301013785405953150/download%20%2859%29.jpg"
+                ],
+                "Created By": "1691143865250x481074744108582500",
+                "cod": "789773",
+                "demanda": 0,
+                "categorias_produto": [
+                    "Empório"
+                ],
+                "nome": "Doce cremoso de Leite 700 g (São Lourenço)",
+                "preço novo": 29.99,
+                "Created Date": "2025-02-24T15:17:50.232Z",
+                "peso por unidade": 700,
+                "peso/und": "unidade",
+                "tipo_unidade": "UN",
+                "Modified Date": "2026-01-26T21:10:19.237Z",
+                "estoque": 99994,
+                "desconto": 0
+            },
+            {
+                "nome": "Higieniza verduras, Frutas e legumes 300 ml(Três Barras)",
+                "demanda": 1,
+                "peso por unidade": 300,
+                "Created Date": "2025-02-24T15:20:59.039Z",
+                "estoque": 99978,
+                "visivel": true,
+                "tipo_unidade": "UN",
+                "categorias_produto": [
+                    "Mercearia"
+                ],
+                "peso/und": "unidade",
+                "preço novo": 12.99,
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1740410432459x527995328409005760/download%20%2860%29.jpg"
+                ],
+                "Modified Date": "2026-03-04T14:44:50.384Z",
+                "Created By": "1691143865250x481074744108582500",
+                "_id": "1740410461421x133185116325806080",
+                "desconto": 0,
+                "cod": "789892"
+            },
+            {
+                "categorias_produto": [
+                    "Empório"
+                ],
+                "Created Date": "2025-02-24T15:23:39.180Z",
+                "demanda": 1,
+                "Created By": "1691143865250x481074744108582500",
+                "visivel": true,
+                "desconto": 0,
+                "_id": "1740410621935x161108052922073100",
+                "estoque": 99997,
+                "cod": "789800",
+                "preço novo": 31.99,
+                "peso/und": "unidade",
+                "tipo_unidade": "UN",
+                "Modified Date": "2026-02-25T21:43:11.298Z",
+                "peso por unidade": 400,
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1740410593545x670829282255360700/images%20%281%29.jpg"
+                ],
+                "nome": "Doce de Leite com Coco 400 g (Portão Cambuí)",
+                "em oferta": false
+            },
+            {
+                "estoque": 99997,
+                "Modified Date": "2025-06-18T14:21:02.721Z",
+                "demanda": 2,
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1740410812747x874039337745784500/shopping%20%286%29.webp"
+                ],
+                "Created By": "1691143865250x481074744108582500",
+                "Created Date": "2025-02-24T15:27:19.943Z",
+                "peso/und": "unidade",
+                "visivel": false,
+                "nome": "óleo e Coco 200 ml extravirgem (Copra)",
+                "categorias_produto": [
+                    "Empório"
+                ],
+                "peso por unidade": 200,
+                "desconto": 0,
+                "_id": "1740410842226x427318461809557500",
+                "cod": "78890",
+                "tipo_unidade": "UN",
+                "preço novo": 24.99
+            },
+            {
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1740411972791x681728738935075200/download.png"
+                ],
+                "estoque": 100000,
+                "peso por unidade": 250,
+                "categorias_produto": [
+                    "Empório"
+                ],
+                "demanda": 0,
+                "desconto": 0,
+                "_id": "1740412000737x228290383936225300",
+                "tipo_unidade": "UN",
+                "Created Date": "2025-02-24T15:46:38.456Z",
+                "preço novo": 24.99,
+                "peso/und": "unidade",
+                "cod": "789250",
+                "visivel": true,
+                "nome": "Doce de LEITE 250 G (Doces Belem)",
+                "Modified Date": "2025-06-06T16:15:25.564Z",
+                "Created By": "1691143865250x481074744108582500"
+            },
+            {
+                "demanda": 0,
+                "desconto": 0,
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1740412099943x803740602580389000/download%20%2861%29.jpg"
+                ],
+                "Created By": "1691143865250x481074744108582500",
+                "tipo_unidade": "PC",
+                "preço novo": 34.99,
+                "Created Date": "2025-02-24T15:49:39.147Z",
+                "estoque": 100000,
+                "visivel": false,
+                "peso/und": "unidade",
+                "_id": "1740412181258x644794890943725600",
+                "categorias_produto": [
+                    "Empório"
+                ],
+                "cod": "004014",
+                "peso por unidade": 230,
+                "nome": "Creme de Chocolate 230 g (Coffelo)",
+                "Modified Date": "2025-06-14T14:11:36.253Z"
+            },
+            {
+                "Created Date": "2025-02-24T16:32:35.225Z",
+                "_id": "1740414757994x712229407687442400",
+                "estoque": 99999,
+                "preço novo": 15.99,
+                "Modified Date": "2025-08-09T15:28:35.797Z",
+                "cod": "789895",
+                "tipo_unidade": "UN",
+                "visivel": true,
+                "Created By": "1691143865250x481074744108582500",
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1740414730392x891831427354621600/download%20%2864%29.jpg"
+                ],
+                "nome": "Mel e extrato de Propolis 200g Apiserra 280g",
+                "demanda": 0,
+                "categorias_produto": [
+                    "Empório"
+                ],
+                "peso/und": "unidade",
+                "desconto": 0,
+                "peso por unidade": 280
+            },
+            {
+                "peso por unidade": 230,
+                "cod": "789269",
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1740415160044x866712647050226700/download%20%2867%29.jpg"
+                ],
+                "Modified Date": "2025-06-14T14:10:19.393Z",
+                "estoque": 99998,
+                "preço novo": 30.99,
+                "desconto": 0,
+                "Created Date": "2025-02-24T16:39:45.091Z",
+                "categorias_produto": [
+                    "Empório"
+                ],
+                "nome": "GELEIA DE KIWI PURO & LEVE",
+                "Created By": "1691143865250x481074744108582500",
+                "tipo_unidade": "UN",
+                "visivel": false,
+                "demanda": 1,
+                "_id": "1740415187817x153827258843791360",
+                "peso/und": "unidade"
+            },
+            {
+                "Created By": "1691143865250x481074744108582500",
+                "demanda": 0,
+                "peso/und": "unidade",
+                "cod": "789269",
+                "desconto": 0,
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1740415222934x510460209727939600/download%20%2866%29.jpg"
+                ],
+                "peso por unidade": 230,
+                "estoque": 99998,
+                "nome": "GELEIA DE  CUPUAÇU PURO & LEVE",
+                "visivel": false,
+                "Modified Date": "2025-06-14T14:11:19.370Z",
+                "Created Date": "2025-02-24T16:40:42.803Z",
+                "preço novo": 30.99,
+                "_id": "1740415245571x580698443822661600",
+                "tipo_unidade": "UN",
+                "categorias_produto": [
+                    "Empório"
+                ]
+            },
+            {
+                "peso por unidade": 230,
+                "nome": "GELEIA DE DAMASCO PURO & LEVE",
+                "categorias_produto": [
+                    "Empório"
+                ],
+                "desconto": 0,
+                "tipo_unidade": "UN",
+                "Created By": "1691143865250x481074744108582500",
+                "visivel": true,
+                "preço novo": 30.99,
+                "cod": "789269",
+                "estoque": 99996,
+                "_id": "1740415318146x963844830216585200",
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1740415289693x214910419366504130/download%20%2865%29.jpg"
+                ],
+                "Modified Date": "2025-06-14T14:09:52.751Z",
+                "demanda": 3,
+                "Created Date": "2025-02-24T16:41:55.558Z",
+                "peso/und": "unidade"
+            },
+            {
+                "cod": "789800",
+                "tipo_unidade": "UN",
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1740415435132x132433252911253740/download%20%2868%29.jpg"
+                ],
+                "peso/und": "unidade",
+                "categorias_produto": [
+                    "Empório"
+                ],
+                "Created Date": "2025-02-24T16:45:13.990Z",
+                "visivel": true,
+                "demanda": 2,
+                "preço novo": 14.99,
+                "estoque": 99991,
+                "Created By": "1691143865250x481074744108582500",
+                "nome": "GELEIA DE JABUTICABA (TATITÂNIA)300G",
+                "_id": "1740415516330x797824344374378500",
+                "peso por unidade": 300,
+                "Modified Date": "2026-02-25T16:24:31.141Z",
+                "desconto": 0
+            },
+            {
+                "peso/und": "unidade",
+                "_id": "1740415776603x375177638414647300",
+                "Created Date": "2025-02-24T16:49:33.835Z",
+                "estoque": 99997,
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1740415740927x361394161194039700/download%20%2869%29.jpg"
+                ],
+                "demanda": 0,
+                "visivel": true,
+                "nome": "Cocada ao Leite 400 g (Portão Cambuí)",
+                "peso por unidade": 400,
+                "cod": "789800",
+                "preço novo": 31.99,
+                "desconto": 0,
+                "Modified Date": "2026-02-26T00:49:53.193Z",
+                "categorias_produto": [
+                    "Empório"
+                ],
+                "tipo_unidade": "UN",
+                "Created By": "1691143865250x481074744108582500"
+            },
+            {
+                "Created Date": "2025-02-24T16:51:33.918Z",
+                "nome": "Doce de Leite com Ameixa410 g (Portão Cambuí)",
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1740415866517x948981568250028700/download%20%2870%29.jpg"
+                ],
+                "estoque": 99998,
+                "peso por unidade": 410,
+                "demanda": 0,
+                "Created By": "1691143865250x481074744108582500",
+                "_id": "1740415896605x702098815881052200",
+                "desconto": 0,
+                "visivel": true,
+                "Modified Date": "2026-01-05T14:14:14.085Z",
+                "preço novo": 31.99,
+                "tipo_unidade": "UN",
+                "cod": "789800",
+                "peso/und": "unidade"
+            },
+            {
+                "Modified Date": "2026-02-23T13:55:21.171Z",
+                "nome": "Doce de Leite com coco zero adição de açucares (São Lourenço)",
+                "visivel": true,
+                "demanda": 2,
+                "desconto": 0,
+                "preço novo": 32.99,
+                "Created Date": "2025-02-24T16:54:47.710Z",
+                "estoque": 99980,
+                "cod": "789777",
+                "peso/und": "unidade",
+                "Created By": "1691143865250x481074744108582500",
+                "peso por unidade": 375,
+                "_id": "1740416090196x285839506070568960",
+                "categorias_produto": [
+                    "Empório"
+                ],
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1740416024193x114842702447648600/download%20%2871%29.jpg"
+                ],
+                "tipo_unidade": "UN"
+            },
+            {
+                "Modified Date": "2026-02-08T17:06:46.889Z",
+                "Created Date": "2025-02-24T16:58:47.747Z",
+                "nome": "Granola Tia Sônia 200 g",
+                "visivel": true,
+                "peso/und": "unidade",
+                "categorias_produto": [
+                    "Empório"
+                ],
+                "demanda": 0,
+                "preço novo": 18.99,
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1740416306333x945688412734214000/download%20%281%29.webp"
+                ],
+                "estoque": 99992,
+                "tipo_unidade": "UN",
+                "cod": "789811",
+                "peso por unidade": 200,
+                "desconto": 0,
+                "Created By": "1691143865250x481074744108582500",
+                "_id": "1740416330521x101423176142553090"
+            },
+            {
+                "estoque": -99995,
+                "visivel": false,
+                "nome": "Doce de Banana Mariola Zero 180 g",
+                "peso por unidade": 180,
+                "Modified Date": "2025-12-20T14:39:57.490Z",
+                "peso/und": "unidade",
+                "Created By": "1691143865250x481074744108582500",
+                "cod": "78989",
+                "preço novo": 18.99,
+                "desconto": 0,
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1740416439782x195826553078726200/download%20%2872%29.jpg"
+                ],
+                "Created Date": "2025-02-24T17:01:03.275Z",
+                "demanda": 1,
+                "categorias_produto": [
+                    "Empório"
+                ],
+                "_id": "1740416465977x609912539709177900",
+                "tipo_unidade": "UN"
+            },
+            {
+                "peso/und": "unidade",
+                "peso por unidade": 40,
+                "tipo_unidade": "UN",
+                "Created By": "1691143865250x481074744108582500",
+                "estoque": 99998,
+                "preço novo": 8.99,
+                "desconto": 0,
+                "visivel": true,
+                "Modified Date": "2026-02-12T16:43:04.616Z",
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1740416631305x268309217011188920/download%20%2874%29.jpg"
+                ],
+                "demanda": 0,
+                "_id": "1740416655013x648913338624901100",
+                "cod": "789865",
+                "categorias_produto": [
+                    "Empório"
+                ],
+                "nome": "Choklers Protein 40g",
+                "Created Date": "2025-02-24T17:04:12.294Z"
+            },
+            {
+                "peso por unidade": 40,
+                "cod": "789867",
+                "preço novo": 8.99,
+                "Modified Date": "2026-02-12T16:43:04.638Z",
+                "demanda": 0,
+                "tipo_unidade": "UN",
+                "estoque": 99978,
+                "Created Date": "2025-02-24T17:05:16.491Z",
+                "desconto": 0,
+                "peso/und": "unidade",
+                "visivel": true,
+                "Created By": "1691143865250x481074744108582500",
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1740416697334x433272500122392260/download%20%2875%29.jpg"
+                ],
+                "_id": "1740416718792x536505860090232800",
+                "categorias_produto": [
+                    "Empório"
+                ],
+                "nome": "Choklers Protein 40g"
+            },
+            {
+                "estoque": 100000,
+                "nome": "Doces REZENDA  Premíum 250",
+                "Created Date": "2025-02-24T17:09:21.536Z",
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1740416938127x896922844636870400/images%20%283%29.jpg"
+                ],
+                "Created By": "1691143865250x481074744108582500",
+                "demanda": 0,
+                "peso/und": "unidade",
+                "preço novo": 11.9,
+                "visivel": true,
+                "peso por unidade": 250,
+                "categorias_produto": [
+                    "Empório"
+                ],
+                "tipo_unidade": "UN",
+                "_id": "1740416964235x569710579067125760",
+                "desconto": 0,
+                "cod": "789822",
+                "Modified Date": "2025-05-21T17:13:08.856Z"
+            },
+            {
+                "visivel": true,
+                "Created Date": "2025-02-24T17:13:53.840Z",
+                "Modified Date": "2025-10-13T14:23:01.290Z",
+                "demanda": 0,
+                "categorias_produto": [
+                    "Empório"
+                ],
+                "peso/und": "unidade",
+                "_id": "1740417236595x719471768062656500",
+                "preço novo": 3.5,
+                "nome": "Bananinha Origina 30 g (Tachão)",
+                "desconto": 0,
+                "Created By": "1691143865250x481074744108582500",
+                "cod": "789759",
+                "peso por unidade": 30,
+                "tipo_unidade": "UN",
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1740417151963x314290833759973700/download%20%2877%29.jpg"
+                ],
+                "estoque": 99992
+            },
+            {
+                "visivel": true,
+                "Created By": "1691143865250x481074744108582500",
+                "peso/und": "unidade",
+                "categorias_produto": [
+                    "Empório"
+                ],
+                "tipo_unidade": "UN",
+                "cod": "789890",
+                "preço novo": 2.99,
+                "_id": "1740417404719x211429876836597760",
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1740417342613x681810338104970500/download%20%2878%29.jpg"
+                ],
+                "Created Date": "2025-02-24T17:16:42.031Z",
+                "Modified Date": "2026-02-24T16:35:40.441Z",
+                "demanda": 7,
+                "desconto": 0,
+                "nome": "Barrinha de Fruta sem adição de  açúcar 30 g(famoso)",
+                "estoque": 99938,
+                "peso por unidade": 30
+            },
+            {
+                "nome": "Doce pé de moça (Ricco)",
+                "categorias_produto": [
+                    "Empório"
+                ],
+                "desconto": 0,
+                "visivel": true,
+                "cod": "789894",
+                "demanda": 0,
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1740417600865x252239452050145860/download%20%2879%29.jpg"
+                ],
+                "Created Date": "2025-02-24T17:22:25.213Z",
+                "peso por unidade": 10,
+                "_id": "1740417747789x551216734119395300",
+                "Modified Date": "2025-07-30T03:07:47.273Z",
+                "Created By": "1691143865250x481074744108582500",
+                "estoque": 99996,
+                "peso/und": "unidade",
+                "preço novo": 3.99,
+                "tipo_unidade": "UN"
+            },
+            {
+                "peso/und": "unidade",
+                "Created By": "1691143865250x481074744108582500",
+                "preço novo": 4.49,
+                "desconto": 0,
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1740418565747x825320898743462800/images%20%284%29.jpg"
+                ],
+                "_id": "1740418708584x771038336303497200",
+                "Created Date": "2025-02-24T17:38:25.850Z",
+                "cod": "89685",
+                "nome": "Bananinha Paraibuna  36 g",
+                "estoque": 100000,
+                "peso por unidade": 36,
+                "categorias_produto": [
+                    "Empório"
+                ],
+                "visivel": false,
+                "demanda": 0,
+                "tipo_unidade": "UN",
+                "Modified Date": "2025-10-23T14:58:56.504Z"
+            },
+            {
+                "Created Date": "2025-02-24T17:41:44.383Z",
+                "visivel": false,
+                "tipo_unidade": "UN",
+                "preço novo": 2.29,
+                "Modified Date": "2025-10-23T14:59:12.713Z",
+                "Created By": "1691143865250x481074744108582500",
+                "cod": "789790",
+                "estoque": 100000,
+                "demanda": 0,
+                "_id": "1740418906553x665819302200082400",
+                "peso por unidade": 20,
+                "nome": "Barra de Cereais (Trio ORIGINAL)20 G",
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1740418885148x727495447771337600/download%20%2880%29.jpg"
+                ],
+                "peso/und": "unidade",
+                "categorias_produto": [
+                    "Empório"
+                ],
+                "desconto": 0
+            },
+            {
+                "Modified Date": "2025-10-23T14:58:52.004Z",
+                "_id": "1740419037869x744336796673900500",
+                "peso/und": "unidade",
+                "Created By": "1691143865250x481074744108582500",
+                "visivel": false,
+                "cod": "789688",
+                "tipo_unidade": "UN",
+                "preço novo": 4.49,
+                "desconto": 0,
+                "peso por unidade": 20,
+                "demanda": 0,
+                "nome": "Bananinha Paraibuba (com nibs de cacau) 20g",
+                "Created Date": "2025-02-24T17:43:55.092Z",
+                "estoque": 100000,
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1740419005934x188786109587822050/download%20%2881%29.jpg"
+                ],
+                "categorias_produto": [
+                    "Empório"
+                ]
+            },
+            {
+                "cod": "789874",
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1740419107539x965501288486820600/download%20%2882%29.jpg"
+                ],
+                "Modified Date": "2025-05-21T17:13:08.920Z",
+                "Created By": "1691143865250x481074744108582500",
+                "desconto": 0,
+                "peso por unidade": 8,
+                "tipo_unidade": "UN",
+                "preço novo": 8.99,
+                "demanda": 0,
+                "peso/und": "unidade",
+                "estoque": 100000,
+                "categorias_produto": [
+                    "Empório"
+                ],
+                "visivel": true,
+                "nome": "pr workout(angry berries)8g",
+                "Created Date": "2025-02-24T17:45:33.791Z",
+                "_id": "1740419136569x677175319973331000"
+            },
+            {
+                "Modified Date": "2026-02-04T20:42:40.312Z",
+                "nome": "cocada Recheada (Prove e Aprova)45 g",
+                "Created Date": "2025-02-24T18:35:32.675Z",
+                "visivel": true,
+                "Created By": "1691143865250x481074744108582500",
+                "estoque": 99991,
+                "cod": "789329",
+                "peso/und": "unidade",
+                "peso por unidade": 45,
+                "tipo_unidade": "UN",
+                "demanda": 0,
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1740422096112x583848226962286500/download%20%2883%29.jpg"
+                ],
+                "categorias_produto": [
+                    "Empório"
+                ],
+                "preço novo": 3.99,
+                "_id": "1740422134769x476425965788987400",
+                "desconto": 0
+            },
+            {
+                "preço novo": 2.99,
+                "demanda": 0,
+                "categorias_produto": [
+                    "Empório"
+                ],
+                "Created Date": "2025-02-24T18:37:23.959Z",
+                "tipo_unidade": "UN",
+                "estoque": 99982,
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1740422206879x695599791684258200/download%20%2884%29.jpg"
+                ],
+                "peso por unidade": 90,
+                "visivel": true,
+                "peso/und": "unidade",
+                "_id": "1740422246718x562868496181493760",
+                "Modified Date": "2026-02-27T21:08:12.383Z",
+                "desconto": 0,
+                "Created By": "1691143865250x481074744108582500",
+                "cod": "061920",
+                "nome": "Cocada Caseira (Doces léo)90g"
+            },
+            {
+                "categorias_produto": [
+                    "Empório"
+                ],
+                "Created By": "1691143865250x481074744108582500",
+                "peso por unidade": 250,
+                "Modified Date": "2026-02-10T11:47:09.736Z",
+                "peso/und": "unidade",
+                "demanda": 0,
+                "preço novo": 25.99,
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1740422390038x636119832839088600/download%20%2885%29.jpg"
+                ],
+                "visivel": true,
+                "nome": "Ameixa sem Caroço(Be Nature)250g",
+                "Created Date": "2025-02-24T18:42:44.435Z",
+                "estoque": 99991,
+                "_id": "1740422567223x152428143543320580",
+                "tipo_unidade": "UN",
+                "desconto": 0,
+                "cod": "789865"
+            },
+            {
+                "tipo_unidade": "UN",
+                "Modified Date": "2026-02-28T21:45:02.382Z",
+                "preço novo": 24.99,
+                "nome": "Ovos Caipiras Orgânico Raiar 20 unidades",
+                "_id": "1740422829266x422420201878061060",
+                "categorias_produto": [
+                    "Mercearia"
+                ],
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1740422776668x993632577436214700/download%20%2886%29.jpg"
+                ],
+                "estoque": 99943,
+                "peso por unidade": 6,
+                "desconto": 0,
+                "visivel": true,
+                "Created By": "1691143865250x481074744108582500",
+                "cod": "789875",
+                "peso/und": "unidade",
+                "em oferta": false,
+                "Created Date": "2025-02-24T18:47:06.982Z",
+                "demanda": 4
+            }
+        ],
+        "count": 100,
+        "remaining": 109
+    }
+}

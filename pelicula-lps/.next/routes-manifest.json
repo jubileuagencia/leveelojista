@@ -18,7 +18,25 @@
     "afterFiles": [],
     "fallback": []
   },
-  "dynamicRoutes": [],
+  "dynamicRoutes": [
+    {
+      "page": "/curso/[courseSlug]",
+      "regex": "^/curso/([^/]+?)(?:/)?$",
+      "routeKeys": {
+        "nxtPcourseSlug": "nxtPcourseSlug"
+      },
+      "namedRegex": "^/curso/(?<nxtPcourseSlug>[^/]+?)(?:/)?$"
+    },
+    {
+      "page": "/curso/[courseSlug]/[lessonSlug]",
+      "regex": "^/curso/([^/]+?)/([^/]+?)(?:/)?$",
+      "routeKeys": {
+        "nxtPcourseSlug": "nxtPcourseSlug",
+        "nxtPlessonSlug": "nxtPlessonSlug"
+      },
+      "namedRegex": "^/curso/(?<nxtPcourseSlug>[^/]+?)/(?<nxtPlessonSlug>[^/]+?)(?:/)?$"
+    }
+  ],
   "staticRoutes": [
     {
       "page": "/",
@@ -33,10 +51,34 @@
       "namedRegex": "^/_not\\-found(?:/)?$"
     },
     {
+      "page": "/auth/callback",
+      "regex": "^/auth/callback(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/auth/callback(?:/)?$"
+    },
+    {
       "page": "/camarim",
       "regex": "^/camarim(?:/)?$",
       "routeKeys": {},
       "namedRegex": "^/camarim(?:/)?$"
+    },
+    {
+      "page": "/catalogo",
+      "regex": "^/catalogo(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/catalogo(?:/)?$"
+    },
+    {
+      "page": "/checkout",
+      "regex": "^/checkout(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/checkout(?:/)?$"
+    },
+    {
+      "page": "/checkout/sucesso",
+      "regex": "^/checkout/sucesso(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/checkout/sucesso(?:/)?$"
     },
     {
       "page": "/decifrando",
@@ -49,6 +91,54 @@
       "regex": "^/decifrando\\-costar(?:/)?$",
       "routeKeys": {},
       "namedRegex": "^/decifrando\\-costar(?:/)?$"
+    },
+    {
+      "page": "/forgot-password",
+      "regex": "^/forgot\\-password(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/forgot\\-password(?:/)?$"
+    },
+    {
+      "page": "/login",
+      "regex": "^/login(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/login(?:/)?$"
+    },
+    {
+      "page": "/mapa-astral",
+      "regex": "^/mapa\\-astral(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/mapa\\-astral(?:/)?$"
+    },
+    {
+      "page": "/minha-conta",
+      "regex": "^/minha\\-conta(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/minha\\-conta(?:/)?$"
+    },
+    {
+      "page": "/reset-password",
+      "regex": "^/reset\\-password(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/reset\\-password(?:/)?$"
+    },
+    {
+      "page": "/robots.txt",
+      "regex": "^/robots\\.txt(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/robots\\.txt(?:/)?$"
+    },
+    {
+      "page": "/signup",
+      "regex": "^/signup(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/signup(?:/)?$"
+    },
+    {
+      "page": "/sitemap.xml",
+      "regex": "^/sitemap\\.xml(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/sitemap\\.xml(?:/)?$"
     }
   ],
   "dataRoutes": [],

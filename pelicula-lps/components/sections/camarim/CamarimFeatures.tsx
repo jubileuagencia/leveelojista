@@ -3,32 +3,32 @@ import SectionWrapper from "@/components/ui/SectionWrapper";
 const FEATURES = [
   {
     num: 1,
-    name: "Spoiler da Semana (live semanal)",
-    text: "Toda semana, Victor abre o mapa astrológico dos próximos dias ao vivo. Trânsitos, aspectos relevantes e como eles conversam com o seu mapa natal. Não é previsão — é preparação.",
+    name: "Spoiler da Semana — seu briefing semanal do céu",
+    text: "Toda segunda, Victor abre o mapa astrológico dos próximos dias ao vivo. Trânsitos, aspectos relevantes e como eles conversam com o seu mapa natal. Não é previsão — é preparação.",
     highlight: "52 lives por ano. Uma nova lente toda semana.",
   },
   {
     num: 2,
-    name: "Conteúdo exclusivo no Substack",
-    text: "Publicações semanais que vão além do que está no Instagram. Análises de trânsitos, interpretações de lunações, artigos sobre técnicas astrológicas e reflexões que conectam céu e vida cotidiana.",
-    highlight: "O conteúdo que não cabe num post de 2.200 caracteres.",
+    name: "A profundidade que não cabe num post",
+    text: "Publicações semanais no Substack que vão além do Instagram. Análises de trânsitos, interpretações de lunações, artigos técnicos e reflexões que conectam céu e vida cotidiana.",
+    highlight: "O conteúdo que você procura e não encontra em lugar nenhum.",
   },
   {
     num: 3,
-    name: "Comunidade de estudo",
-    text: "Um espaço para trocar com outras pessoas que estudam astrologia de verdade. Tire dúvidas, compartilhe descobertas do seu mapa, discuta trânsitos da semana e encontre companhia na jornada.",
-    highlight: "Aprender sozinho tem teto. Em comunidade, não.",
+    name: "Gente como você — uma comunidade que estuda de verdade",
+    text: "Um espaço para trocar com quem leva astrologia a sério. Tire dúvidas, compartilhe descobertas do seu mapa, discuta trânsitos da semana e encontre companhia na jornada.",
+    highlight: "Sozinho, você acumula informação. Em comunidade, você constrói leitura.",
   },
   {
     num: 4,
-    name: "Interpretações personalizadas",
-    text: "Periodicamente, Victor traz análises voltadas para mapas específicos de membros. Seu mapa vira objeto de estudo — e você vê, na prática, como uma leitura profissional funciona.",
-    highlight: null,
+    name: "Seu mapa, analisado ao vivo",
+    text: "Victor traz análises voltadas para mapas específicos de membros. Seu mapa vira objeto de estudo — e você vê, na prática, como uma leitura profissional funciona.",
+    highlight: "O tipo de atenção que só existe em consulta particular.",
   },
   {
     num: 5,
-    name: "Arquivo completo",
-    text: "Acesso ao acervo de todas as lives anteriores, publicações e materiais exclusivos. Entrou agora? Pode assistir tudo desde o início, no seu ritmo.",
+    name: "Entrou agora? Assista tudo desde o início",
+    text: "Acesso ao acervo completo de lives anteriores, publicações e materiais exclusivos. Mais de 100 horas de conteúdo disponíveis no seu ritmo.",
     highlight: null,
   },
 ];
@@ -41,11 +41,11 @@ export default function CamarimFeatures() {
           O que você recebe
         </span>
         <h2 className="fade-in font-display text-3xl md:text-5xl font-bold mb-4">
-          Cinco pilares do Camarim
+          O que muda na sua semana quando você entra
         </h2>
         <p className="fade-in text-text-soft text-lg max-w-[700px] mx-auto">
-          Uma estrutura semanal que transforma consumo passivo em prática ativa
-          de astrologia.
+          Uma estrutura que transforma consumo passivo em prática ativa de
+          astrologia — toda semana, sem exceção.
         </p>
       </div>
 

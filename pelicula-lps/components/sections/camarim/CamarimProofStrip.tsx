@@ -4,9 +4,9 @@ import { useEffect, useRef } from "react";
 
 const STATS = [
   { value: "52", label: "Lives por ano" },
-  { value: "12+", label: "Membros ativos" },
-  { value: "100%", label: "Conteúdo semanal" },
-  { value: "∞", label: "Acesso ao arquivo" },
+  { value: "3x", label: "Conteúdo por semana" },
+  { value: "100+", label: "Horas de arquivo" },
+  { value: "24/7", label: "Comunidade ativa" },
 ];
 
 export default function CamarimProofStrip() {

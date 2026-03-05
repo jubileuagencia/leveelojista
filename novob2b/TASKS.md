@@ -177,10 +177,35 @@
 
 ## FASE 4 — Nice-to-have 🟢
 
-### 4.1 Google Sheets Integration
-- [ ] Sync bidirecional de produtos (edição em massa)
-- [ ] Aba Preços + Aba Cadastro
-- [ ] Apps Script com validação
+### 4.1 Google Sheets Integration — Gestão de Produtos
+
+**Dependências:** `T1 → T3, T5 → T4 → T6 → T7`
+**Arquitetura:** `docs/architecture/google-sheets-integration.md`
+
+| # | Tarefa | Agente | Bloqueada por | Status |
+|---|--------|--------|---------------|--------|
+| T1 | Arquitetura da Integração Sheets↔Supabase | @architect | — | [x] |
+| ~~T2~~ | ~~API de Sync~~ | — | — | Eliminada (acesso direto PostgREST) |
+| T3 | Estrutura da Planilha Google Sheets Template | @dev + @po | T1 | [x] |
+| T4 | Apps Script — Sync Engine | @dev | T3, T5 | [x] |
+| T5 | Migration SQL — RPC `bulk_upsert_products` | @data-engineer | T1 | [x] |
+| T6 | Testes & Validação | @qa | T3, T4, T5 | [x] |
+| T7 | Documentação & Handoff para cliente | @pm | T6 | [x] |
+
+#### Decisões Arquiteturais (T1)
+- **Acesso direto**: Apps Script → Supabase PostgREST (sem middleware/Edge Function)
+- **Auth**: `service_role` key via `PropertiesService` do Apps Script (server-side, seguro)
+- **Chave de match**: `display_id` (amigável, UNIQUE, sequencial)
+- **Conflitos**: Last Write Wins — planilha tem prioridade no push
+- **Validação**: Dupla — local no Apps Script + server-side na RPC SQL
+- **T2 eliminada**: API Route/Edge Function desnecessária — PostgREST já serve
+
+#### Detalhamento
+- **T3**: Aba "Cadastro" (ID, nome, preço, unidade, categoria, descrição, ativo, imagem URL, status sync, última sync), Aba "Categorias" (readonly). Dropdowns, validação, formatação condicional
+- **T4**: Funções `pullFromSupabase()` e `pushToSupabase()`, validação pré-envio, menu customizado "📦 Levee Produtos"
+- **T5**: Migration 007 — RPC `bulk_upsert_products(p_products JSONB)` com validação, resolve category_name→UUID, retorna {inserted, updated, errors[]}
+- **T6**: Sync bidirecional, edge cases (duplicatas, campos vazios, preço negativo, categoria inexistente, 100+ produtos)
+- **T7**: Guia de uso para Levee + documentação técnica
 
 ### 4.2 Notificações
 - [ ] Email de confirmação de pedido
@@ -224,17 +249,19 @@ O novob2b já é **superior** ao deliverytest em:
 
 - [x] Rodar migration `006_fix_payment_method_cast.sql` no Supabase SQL Editor
 - [x] Configurar env vars no Vercel Dashboard (VITE_SUPABASE_URL + VITE_SUPABASE_ANON_KEY)
-- [ ] Commit + push dos arquivos pendentes (LoginForm.tsx, RegisterForm.tsx) via @devops
+- [x] Commit + push dos arquivos pendentes (LoginForm.tsx, RegisterForm.tsx) via @devops
 
 ---
 
 ## Ordem de Execução (próximos passos)
 
 ```
-3.4 Deploy: CONCLUÍDA → Fase 4 (nice-to-have)
+Fases 1-3: COMPLETAS → Fase 4.1 Google Sheets: COMPLETA → Próximo: Fase 4.2+
 ```
 
 > Fases 1, 2, 2.5 e 3: COMPLETAS ✅
+> Fase 4.1 Google Sheets: COMPLETA ✅ (2026-03-04)
 > Deploy Vercel: CONCLUÍDO (env vars + migration 006 aplicados em 2026-02-27)
 > GitHub: github.com/jubileuagencia/leveelojista
-> Próximo: Fase 4 (Google Sheets, Notificações, Relatórios, PWA)
+> Migrations: 000-008 (008 = bulk_upsert_products com setval)
+> **Próximo: Fase 4.2 (Notificações), 4.3 (Relatórios), 4.4 (PWA)**

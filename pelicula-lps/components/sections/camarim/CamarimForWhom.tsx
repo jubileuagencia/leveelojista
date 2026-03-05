@@ -5,7 +5,7 @@ const FOR_YOU = [
   "Quer entender os trânsitos semanais e como eles afetam o SEU mapa",
   "Sente falta de uma comunidade séria para trocar sobre astrologia",
   "Quer ir além do horóscopo e aprender a ler o céu com profundidade",
-  "Valoriza conteúdo de qualidade e didática clara",
+  "Quer parar de depender de posts de Instagram para entender trânsitos",
   "Quer acompanhar o céu em tempo real, não só em teoria",
 ];
 
@@ -13,7 +13,7 @@ const NOT_FOR_YOU = [
   "Busca previsões prontas tipo 'seu destino é X'",
   "Quer apenas horóscopo diário genérico",
   "Não tem interesse em aprofundar o estudo de astrologia",
-  "Prefere uma abordagem puramente esotérica/new age",
+  "Não vai conseguir dedicar ~1h por semana para acompanhar",
 ];
 
 export default function CamarimForWhom() {

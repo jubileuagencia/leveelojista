@@ -1,5 +1,5 @@
 import { NextResponse } from "next/server";
-import { findCityBySlug } from "@/lib/cities";
+import { findCityById } from "@/lib/cities-server";
 import {
   SIGN_NAMES,
   SIGN_EMOJIS,
@@ -14,6 +14,8 @@ import { createServiceClient } from "@/lib/supabase";
 
 const API_HOST = "astrologer.p.rapidapi.com";
 const API_KEY = process.env.ASTROLOGER_API_KEY ?? "";
+const MANYCHAT_API_TOKEN = process.env.MANYCHAT_API_TOKEN ?? "";
+const MANYCHAT_TAG_ID = 82561115;
 
 interface ChartRequest {
   name: string;
@@ -24,6 +26,8 @@ interface ChartRequest {
   hour: number;
   minute: number;
   citySlug: string;
+  instagram: string;
+  manychatId: string;
 }
 
 interface PlanetPosition {
@@ -53,7 +57,7 @@ function validate(body: unknown): { data: ChartRequest; error?: string } {
   const minute = Number(b.minute);
 
   if (!Number.isInteger(month) || month < 1 || month > 12) return { data: {} as ChartRequest, error: "Mês inválido" };
-  if (!Number.isInteger(year) || year < 1900 || year > 2025) return { data: {} as ChartRequest, error: "Ano inválido" };
+  if (!Number.isInteger(year) || year < 1900 || year > 2026) return { data: {} as ChartRequest, error: "Ano inválido" };
   if (!Number.isInteger(day) || day < 1 || day > 31) return { data: {} as ChartRequest, error: "Dia inválido" };
 
   // Validate actual date
@@ -64,13 +68,16 @@ function validate(body: unknown): { data: ChartRequest; error?: string } {
   if (!Number.isInteger(minute) || minute < 0 || minute > 59) return { data: {} as ChartRequest, error: "Minuto inválido" };
 
   const citySlug = String(b.citySlug ?? "").trim();
-  if (!findCityBySlug(citySlug)) return { data: {} as ChartRequest, error: "Selecione uma cidade" };
+  if (!findCityById(Number(citySlug))) return { data: {} as ChartRequest, error: "Selecione uma cidade" };
 
-  return { data: { name, email, day, month, year, hour, minute, citySlug } };
+  const instagram = String(b.instagram ?? "").trim().replace(/^@/, "");
+  const manychatId = String(b.manychatId ?? "").trim();
+
+  return { data: { name, email, day, month, year, hour, minute, citySlug, instagram, manychatId } };
 }
 
 async function callAstrologerAPI(data: ChartRequest) {
-  const city = findCityBySlug(data.citySlug)!;
+  const city = findCityById(Number(data.citySlug))!;
 
   const body = {
     subject: {
@@ -159,27 +166,177 @@ function getAscendant(subject: Record<string, unknown>): { sign: string; signKey
   };
 }
 
+async function tagManychatSubscriber(subscriberId: string) {
+  try {
+    await fetch("https://api.manychat.com/fb/subscriber/addTag", {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json",
+        Authorization: `Bearer ${MANYCHAT_API_TOKEN}`,
+      },
+      body: JSON.stringify({
+        subscriber_id: subscriberId,
+        tag_id: MANYCHAT_TAG_ID,
+      }),
+      signal: AbortSignal.timeout(10000),
+    });
+  } catch (err) {
+    console.error("ManyChat tag error:", err);
+  }
+}
+
+interface ExistingChartResult {
+  ascendant: { sign: string; signKey: string; emoji: string };
+  planets: PlanetPosition[];
+  eclipse: { house: number; theme: typeof HOUSE_THEMES[number]; meta: typeof ECLIPSE_META };
+  cached: true;
+}
+
+async function findExistingChart(data: ChartRequest): Promise<ExistingChartResult | null> {
+  try {
+    const supabase = createServiceClient();
+    // eslint-disable-next-line @typescript-eslint/no-explicit-any
+    const sb = supabase as any;
+
+    // Find lead by email, manychat_id, or ig_username
+    let lead: { id: string } | null = null;
+
+    // Priority 1: manychat_id (most specific from ManyChat flow)
+    if (data.manychatId) {
+      const { data: mcLead } = await sb
+        .from("leads")
+        .select("id")
+        .eq("manychat_id", data.manychatId)
+        .maybeSingle();
+      if (mcLead) lead = mcLead;
+    }
+
+    // Priority 2: email
+    if (!lead) {
+      const { data: emailLead } = await sb
+        .from("leads")
+        .select("id")
+        .eq("email", data.email)
+        .maybeSingle();
+      if (emailLead) lead = emailLead;
+    }
+
+    // Priority 3: ig_username
+    if (!lead && data.instagram) {
+      const { data: igLead } = await sb
+        .from("leads")
+        .select("id")
+        .eq("ig_username", data.instagram)
+        .maybeSingle();
+      if (igLead) lead = igLead;
+    }
+
+    if (!lead) return null;
+
+    // Fetch the most recent chart for this lead
+    const { data: chart } = await sb
+      .from("charts")
+      .select("chart_data, ascendant_sign")
+      .eq("lead_id", lead.id)
+      .order("created_at", { ascending: false })
+      .limit(1)
+      .maybeSingle();
+
+    if (!chart?.chart_data) return null;
+
+    // Reconstruct result from stored chart_data
+    const stored = chart.chart_data as { ascendant: ExistingChartResult["ascendant"]; planets: PlanetPosition[] };
+    const ascSignKey = (stored.ascendant?.signKey ?? chart.ascendant_sign ?? "Ari") as SignKey;
+    const eclipseHouse = ECLIPSE_HOUSE_MAP[ascSignKey] ?? 1;
+
+    // Update lead with any new data (mc_id, ig, name) without creating a new record
+    const updates: Record<string, string> = {};
+    if (data.manychatId) updates.manychat_id = data.manychatId;
+    if (data.instagram) updates.ig_username = data.instagram;
+    if (data.name) updates.name = data.name;
+    if (data.email) updates.email = data.email;
+    if (Object.keys(updates).length > 0) {
+      await sb.from("leads").update(updates).eq("id", lead.id);
+    }
+
+    return {
+      ascendant: stored.ascendant ?? {
+        sign: SIGN_NAMES[ascSignKey] ?? ascSignKey,
+        signKey: ascSignKey,
+        emoji: SIGN_EMOJIS[ascSignKey] ?? "",
+      },
+      planets: stored.planets ?? [],
+      eclipse: {
+        house: eclipseHouse,
+        theme: HOUSE_THEMES[eclipseHouse],
+        meta: ECLIPSE_META,
+      },
+      cached: true,
+    };
+  } catch (err) {
+    console.error("findExistingChart error:", err);
+    return null;
+  }
+}
+
 async function saveToSupabase(data: ChartRequest, ascendantSign: string, sunSign: string, moonSign: string, chartData: unknown) {
   try {
     const supabase = createServiceClient();
-
-    // Upsert lead (email unique)
     // eslint-disable-next-line @typescript-eslint/no-explicit-any
-    const { data: lead, error: leadError } = await (supabase as any)
-      .from("leads")
-      .upsert({ name: data.name, email: data.email }, { onConflict: "email" })
-      .select("id")
-      .single();
+    const sb = supabase as any;
 
-    if (leadError || !lead) {
-      console.error("Lead save error:", leadError);
-      return;
+    // Try to find existing lead by manychat_id or ig_username first
+    let existingLeadId: string | null = null;
+
+    if (data.manychatId) {
+      const { data: mcLead } = await sb
+        .from("leads")
+        .select("id")
+        .eq("manychat_id", data.manychatId)
+        .maybeSingle();
+      if (mcLead) existingLeadId = mcLead.id;
+    }
+
+    if (!existingLeadId && data.instagram) {
+      const { data: igLead } = await sb
+        .from("leads")
+        .select("id")
+        .eq("ig_username", data.instagram)
+        .maybeSingle();
+      if (igLead) existingLeadId = igLead.id;
+    }
+
+    let leadId: string;
+
+    if (existingLeadId) {
+      // Update existing lead with all new data
+      const updates: Record<string, string> = { name: data.name, email: data.email };
+      if (data.instagram) updates.ig_username = data.instagram;
+      if (data.manychatId) updates.manychat_id = data.manychatId;
+      await sb.from("leads").update(updates).eq("id", existingLeadId);
+      leadId = existingLeadId;
+    } else {
+      // Upsert by email (new lead or email-only match)
+      const leadPayload: Record<string, string> = { name: data.name, email: data.email };
+      if (data.instagram) leadPayload.ig_username = data.instagram;
+      if (data.manychatId) leadPayload.manychat_id = data.manychatId;
+
+      const { data: lead, error: leadError } = await sb
+        .from("leads")
+        .upsert(leadPayload, { onConflict: "email" })
+        .select("id")
+        .single();
+
+      if (leadError || !lead) {
+        console.error("Lead save error:", leadError);
+        return;
+      }
+      leadId = (lead as { id: string }).id;
     }
 
     // Insert chart
-    // eslint-disable-next-line @typescript-eslint/no-explicit-any
-    const { error: chartError } = await (supabase as any).from("charts").insert({
-      lead_id: (lead as { id: string }).id,
+    const { error: chartError } = await sb.from("charts").insert({
+      lead_id: leadId,
       birth_date: `${data.year}-${String(data.month).padStart(2, "0")}-${String(data.day).padStart(2, "0")}`,
       birth_time: `${String(data.hour).padStart(2, "0")}:${String(data.minute).padStart(2, "0")}:00`,
       birth_city: data.citySlug,
@@ -205,6 +362,16 @@ export async function POST(request: Request) {
       return NextResponse.json({ error }, { status: 400 });
     }
 
+    // Check if this user already has a chart in the database
+    const existing = await findExistingChart(data);
+    if (existing) {
+      // Tag ManyChat subscriber even for cached results
+      if (data.manychatId && MANYCHAT_API_TOKEN) {
+        tagManychatSubscriber(data.manychatId).catch(() => {});
+      }
+      return NextResponse.json(existing);
+    }
+
     if (!API_KEY) {
       return NextResponse.json({ error: "API não configurada" }, { status: 500 });
     }
@@ -220,8 +387,13 @@ export async function POST(request: Request) {
     const eclipseHouse = ECLIPSE_HOUSE_MAP[ascendant.signKey] ?? 1;
     const eclipseTheme = HOUSE_THEMES[eclipseHouse];
 
-    // Save to Supabase (non-blocking)
-    saveToSupabase(data, ascendant.signKey, sunSign, moonSign, { planets, ascendant });
+    // Save to Supabase (awaited — serverless kills non-awaited promises)
+    await saveToSupabase(data, ascendant.signKey, sunSign, moonSign, { planets, ascendant });
+
+    // Tag ManyChat subscriber (fire-and-forget)
+    if (data.manychatId && MANYCHAT_API_TOKEN) {
+      tagManychatSubscriber(data.manychatId).catch(() => {});
+    }
 
     return NextResponse.json({
       ascendant,
@@ -231,6 +403,7 @@ export async function POST(request: Request) {
         theme: eclipseTheme,
         meta: ECLIPSE_META,
       },
+      cached: false,
     });
   } catch (err) {
     console.error("Chart API error:", err);

@@ -6,7 +6,7 @@ const PAINS = [
     title: "A jornada solitária",
     quote:
       "Estudo astrologia há meses, mas não tenho com quem trocar. Meus amigos acham que é horóscopo de revista.",
-    body: "Você lê, assiste, anota — mas a reflexão morre ali. Sem troca, sem pergunta respondida, sem alguém que olhe pro mesmo mapa e veja outra camada. Estudar sozinho tem um teto.",
+    body: "Você lê, assiste, anota — mas a reflexão morre ali. Sem troca, sem pergunta respondida, sem alguém que olhe pro mesmo mapa e veja outra camada. E a dúvida mais comum fica sem resposta: 'Será que estou interpretando certo?'",
   },
   {
     icon: "◇",
@@ -20,7 +20,7 @@ const PAINS = [
     title: "A falta de método",
     quote:
       "Tenho dezenas de anotações, mas não sei como conectar as peças. Cada fonte diz algo diferente.",
-    body: "Sem um fio condutor, astrologia vira uma coleção de fragmentos desconectados. Você sabe coisas, mas não consegue formar uma leitura coerente. Falta um guia que mostre o caminho semana a semana.",
+    body: "Sem um fio condutor, astrologia vira uma coleção de fragmentos desconectados. Você sabe coisas, mas não consegue formar uma leitura coerente. Falta um fio condutor — alguém que conecte as peças em tempo real.",
   },
 ];
 
@@ -29,7 +29,7 @@ export default function CamarimPainPoints() {
     <SectionWrapper id="problema" alt>
       <div className="text-center mb-14">
         <h2 className="fade-in font-display text-3xl md:text-5xl font-bold mb-4">
-          Estudar astrologia sozinho tem um teto
+          Você estuda, anota, pesquisa — mas algo trava
         </h2>
         <p className="fade-in text-text-soft text-lg max-w-[700px] mx-auto">
           Você já percebeu: ler artigos e assistir vídeos avulsos só te leva até

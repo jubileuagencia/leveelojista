@@ -1,0 +1,2497 @@
+{
+    "response": {
+        "cursor": 500,
+        "results": [
+            {
+                "ean": "0000000000169",
+                "como armazenar": "Refrigeração: Entre 0ºC e 8ºC (5-7 dias).",
+                "preço antigo": 7.99,
+                "peso/und": "unidade",
+                "categorias_produto": [
+                    "Legumes",
+                    "Higienizados"
+                ],
+                "peso por unidade": 200,
+                "demanda": 69,
+                "ordem_prateleira": 20,
+                "desconto": 25.03128911138924,
+                "descriçao": "Vagem macarrão fresca comercializada em bandeja, garantindo praticidade e frescor. Receitas: Saladas, refogados, acompanhamentos. Usos: Consumir cozida.",
+                "estoque": 99613,
+                "cod": "000197",
+                "_id": "1721092990074x238781263113957200",
+                "Created By": "admin_user_levee-delivery_test",
+                "Modified Date": "2026-03-04T12:32:26.305Z",
+                "tipo_unidade": "BJ",
+                "nome": "Vagem Rasteira 200g",
+                "visivel": true,
+                "preço novo": 5.99,
+                "qtd por unidade": "500g",
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1721213560308x880219651304473700/VAGEM%20MACARRAO%20BANDEJA.jfif"
+                ],
+                "Created Date": "2024-07-16T01:23:10.074Z"
+            },
+            {
+                "preço novo": 7.99,
+                "desconto": -14.306151645207438,
+                "cod": "002352",
+                "Created By": "admin_user_levee-delivery_test",
+                "_id": "1721092990081x116530080397076350",
+                "demanda": 10,
+                "Modified Date": "2025-10-08T13:57:07.330Z",
+                "descriçao": "Fruto da Amazônia, rico em vitaminas e minerais, da marca Saúde Plena. Usos: Consumir em natura ou como ingrediente em receitas.",
+                "visivel": false,
+                "como armazenar": "Temperatura Ambiente (entre 18ºC e 25ºC), em local seco e arejado, longe da luz (12 meses).",
+                "relacionados": [
+                    "1721092990073x500772467589991200"
+                ],
+                "nome": "Vagem Macarrão Bandeja",
+                "categorias_produto": [
+                    "Chás",
+                    "Higienizados",
+                    "Kit Processados"
+                ],
+                "ean": "0192505115447",
+                "peso por unidade": 200,
+                "estoque": 99977,
+                "tipo_unidade": "UN",
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1724116042689x663730528979127400/Vagem%20Macarr%C3%A3o%20Bandeja.webp"
+                ],
+                "peso/und": "unidade",
+                "Created Date": "2024-07-16T01:23:10.081Z",
+                "preço antigo": 6.99
+            },
+            {
+                "visivel": true,
+                "ean": "7898925422167",
+                "qtd por unidade": "750ml",
+                "cod": "001981",
+                "Modified Date": "2026-02-28T01:22:31.287Z",
+                "categorias_produto": [
+                    "Empório"
+                ],
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1721213600543x358752087166238200/VINAGRE%20ORGANICO%20DE%20MACA%20NOVA%20ESPERANCA%20750ML.jfif"
+                ],
+                "descriçao": "Vinagre de maçã orgânico, da marca Nova Esperança, sem adição de conservantes. Usos: Temperar saladas, legumes, carnes, aves, peixes, ou utilizar em marinadas.",
+                "desconto": 0,
+                "tipo_unidade": "UN",
+                "_id": "1721092990084x334601127843647170",
+                "Created By": "admin_user_levee-delivery_test",
+                "nome": "Vinagre Orgânico De Maçã Nova Esperança 750ml",
+                "peso/und": "unidade",
+                "preço antigo": 22.9,
+                "como armazenar": "Temperatura Ambiente (entre 18ºC e 25ºC), em local fresco e escuro (2 anos ou mais).",
+                "preço novo": 22.9,
+                "estoque": 99989,
+                "Created Date": "2024-07-16T01:23:10.084Z",
+                "demanda": 5
+            },
+            {
+                "Modified Date": "2026-03-04T16:50:30.679Z",
+                "nome": "Vinagrete Fresco 180 gramas",
+                "peso por unidade": 300,
+                "preço antigo": 8.99,
+                "como armazenar": "Refrigeração: Entre 0ºC e 8ºC (3-5 dias).",
+                "relacionados": [
+                    "1721092990094x565843120194112300"
+                ],
+                "demanda": 41,
+                "categorias_produto": [
+                    "Legumes",
+                    "Higienizados",
+                    "Kit Processados"
+                ],
+                "estoque": 99433,
+                "peso/und": "unidade",
+                "tipo_unidade": "UN",
+                "ean": "0000000010603",
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1721213948877x223880808249621100/Vinagrete.jfif"
+                ],
+                "qtd por unidade": "300g",
+                "desconto": 0,
+                "_id": "1721092990087x176419435499494800",
+                "descriçao": "Vinagrete pronto, com tomate, cebola e pimentão picados, temperado com vinagre, azeite e ervas frescas, em porção maior. Usos: Acompanhar saladas, carnes, aves e peixes.",
+                "cod": "002251",
+                "Created Date": "2024-07-16T01:23:10.087Z",
+                "visivel": true,
+                "preço novo": 8.99,
+                "Created By": "admin_user_levee-delivery_test"
+            },
+            {
+                "Created By": "admin_user_levee-delivery_test",
+                "cod": "002236",
+                "preço antigo": 9.99,
+                "como armazenar": "Refrigeração: Entre 0ºC e 8ºC (vide embalagem).",
+                "peso por unidade": 250,
+                "tipo_unidade": "UN",
+                "nome": "Whey Cookiesn Cream 250ml",
+                "_id": "1721092990091x103982149201846450",
+                "demanda": 0,
+                "desconto": 0,
+                "Created Date": "2024-07-16T01:23:10.091Z",
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1721213980394x919778134976051500/WHEY%20COOKIESN%20CREAM%20250ML.jfif"
+                ],
+                "relacionados": [
+                    "1721092990092x584822665134101200"
+                ],
+                "Modified Date": "2025-05-21T17:13:03.132Z",
+                "peso/und": "unidade",
+                "ean": "7896045110629",
+                "descriçao": "Bebida láctea à base de soro do leite, com sabor de cookies and cream. Usos: Consumir como suplemento alimentar.",
+                "visivel": true,
+                "qtd por unidade": "250ml",
+                "categorias_produto": [
+                    "Bebidas"
+                ],
+                "estoque": 100000,
+                "preço novo": 9.99
+            },
+            {
+                "_id": "1721092990092x584822665134101200",
+                "ean": "0000000008174",
+                "como armazenar": "Refrigeração: Entre 0ºC e 8ºC (vide embalagem).",
+                "Created Date": "2024-07-16T01:23:10.092Z",
+                "nome": "Whey Cookiesn Cream 250ml",
+                "Modified Date": "2025-05-21T17:13:03.151Z",
+                "cod": "001993",
+                "tipo_unidade": "UN",
+                "visivel": false,
+                "preço antigo": 9.9,
+                "desconto": 0,
+                "demanda": 0,
+                "relacionados": [
+                    "1721092990091x103982149201846450"
+                ],
+                "categorias_produto": [
+                    "Laticíneos"
+                ],
+                "Created By": "admin_user_levee-delivery_test",
+                "preço novo": 9.9,
+                "qtd por unidade": "250ml",
+                "peso/und": "unidade",
+                "estoque": 100000,
+                "descriçao": "Bebida láctea à base de soro do leite, sabor natural, da marca Campo Verde. Usos: Consumir como suplemento alimentar."
+            },
+            {
+                "demanda": 1,
+                "preço antigo": 7.99,
+                "desconto": 0,
+                "como armazenar": "Refrigeração: Entre 0ºC e 8ºC (3-5 dias).",
+                "relacionados": [
+                    "1721092990087x176419435499494800"
+                ],
+                "Modified Date": "2026-03-04T01:59:40.683Z",
+                "Created Date": "2024-07-16T01:23:10.094Z",
+                "_id": "1721092990094x565843120194112300",
+                "ean": "0192505259752",
+                "visivel": true,
+                "categorias_produto": [
+                    "Temperos e Condimentos"
+                ],
+                "Created By": "admin_user_levee-delivery_test",
+                "cod": "001900",
+                "nome": "Vinagrete Saúde Plena 50g",
+                "tipo_unidade": "KG",
+                "estoque": 99975,
+                "preço novo": 7.99,
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1721214030590x584529679589039400/Vinagrete%20DESI.jfif"
+                ],
+                "peso/und": "unidade",
+                "qtd por unidade": "50g",
+                "descriçao": "Sachê de vinagrete desidratado, da marca Saúde Plena, prático para temperar saladas. Usos: Dissolver em água e utilizar como tempero para saladas."
+            },
+            {
+                "desconto": 0,
+                "Created By": "admin_user_levee-delivery_test",
+                "qtd por unidade": "250ml",
+                "nome": "Whey Natural Campo Verde Choc 250ml",
+                "visivel": true,
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1724108286217x728764122015578900/1994.jpg"
+                ],
+                "Created Date": "2024-07-16T01:23:10.096Z",
+                "como armazenar": "Refrigeração: Entre 0ºC e 8ºC (vide embalagem).",
+                "categorias_produto": [
+                    "Laticíneos"
+                ],
+                "descriçao": "Bebida láctea à base de soro do leite, sabor chocolate, da marca Campo Verde. Usos: Consumir como suplemento alimentar.",
+                "tipo_unidade": "UN",
+                "peso/und": "unidade",
+                "ean": "7898205924411",
+                "estoque": 99996,
+                "Modified Date": "2025-05-21T17:12:56.260Z",
+                "demanda": 4,
+                "preço antigo": 9.99,
+                "cod": "001994",
+                "preço novo": 9.99,
+                "_id": "1721092990096x111057301976010160"
+            },
+            {
+                "_id": "1721092990098x892775991751185300",
+                "cod": "002602",
+                "Created By": "admin_user_levee-delivery_test",
+                "relacionados": [
+                    "1721092990099x313669879306650800",
+                    "1721092990104x878930195235609200"
+                ],
+                "nome": "Wheyfit Parmalat 250g",
+                "demanda": 4,
+                "tipo_unidade": "UN",
+                "preço novo": 8.99,
+                "Modified Date": "2025-05-21T17:12:56.271Z",
+                "peso/und": "unidade",
+                "descriçao": "Suplemento proteico em pó sabor batata doce com coco, da marca Parmalat. Usos: Misturar com água ou leite e consumir como suplemento alimentar.",
+                "qtd por unidade": "250g",
+                "Created Date": "2024-07-16T01:23:10.098Z",
+                "desconto": 0,
+                "preço antigo": 8.99,
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1721214058014x141896867290167710/WHEYFIT%20PARMALAT%20250%20GRAMAS%20BATATA%20%20DOCE%20COM%20COCO.jfif"
+                ],
+                "como armazenar": "Temperatura Ambiente (entre 18ºC e 25ºC), em local seco e fresco (vide embalagem).",
+                "ean": "7891097104336",
+                "visivel": true,
+                "estoque": 99998,
+                "categorias_produto": [
+                    "Bebidas"
+                ]
+            },
+            {
+                "_id": "1721092990099x313669879306650800",
+                "Created By": "admin_user_levee-delivery_test",
+                "como armazenar": "Temperatura Ambiente (entre 18ºC e 25ºC), em local seco e fresco (vide embalagem).",
+                "demanda": 4,
+                "preço antigo": 8.99,
+                "estoque": 100000,
+                "visivel": true,
+                "nome": "Wheyfit Parmalat 250g",
+                "cod": "002579",
+                "ean": "7891097106125",
+                "Created Date": "2024-07-16T01:23:10.099Z",
+                "desconto": 0,
+                "qtd por unidade": "250g",
+                "tipo_unidade": "UN",
+                "preço novo": 8.99,
+                "Modified Date": "2025-05-21T17:12:56.481Z",
+                "relacionados": [
+                    "1721092990098x892775991751185300",
+                    "1721092990104x878930195235609200"
+                ],
+                "peso/und": "unidade",
+                "categorias_produto": [
+                    "Laticíneos"
+                ],
+                "descriçao": "Suplemento proteico em pó sabor chocolate, da marca Parmalat. Usos: Misturar com água ou leite e consumir como suplemento alimentar."
+            },
+            {
+                "preço antigo": 8.99,
+                "nome": "Wheyfit Parmalat 250g",
+                "Created By": "admin_user_levee-delivery_test",
+                "relacionados": [
+                    "1721092990098x892775991751185300",
+                    "1721092990099x313669879306650800"
+                ],
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1721214094251x702543439107593100/WHEYFIT%20PARMALAT%20250%20GRAMAS%20CAPPUCINNO.jfif"
+                ],
+                "cod": "002601",
+                "como armazenar": "Temperatura Ambiente (entre 18ºC e 25ºC), em local seco e fresco (vide embalagem).",
+                "descriçao": "Suplemento proteico em pó sabor cappuccino, da marca Parmalat. Usos: Misturar com água ou leite e consumir como suplemento alimentar.",
+                "peso/und": "unidade",
+                "Created Date": "2024-07-16T01:23:10.104Z",
+                "desconto": 0,
+                "demanda": 4,
+                "visivel": true,
+                "ean": "7891097106118",
+                "categorias_produto": [
+                    "Bebidas"
+                ],
+                "tipo_unidade": "UN",
+                "qtd por unidade": "250g",
+                "preço novo": 8.99,
+                "Modified Date": "2025-10-25T17:10:15.886Z",
+                "_id": "1721092990104x878930195235609200",
+                "estoque": 99993
+            },
+            {
+                "visivel": false,
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1721214128755x599626515143574300/XAROPE%20DA%20VOVO%20CO%20OLEO%20DE%20BURITI.jfif"
+                ],
+                "estoque": 99998,
+                "ean": "7898332112019",
+                "tipo_unidade": "UN",
+                "como armazenar": "Temperatura Ambiente (entre 18ºC e 25ºC), em local fresco e escuro (vide embalagem). Agitar antes de usar.",
+                "peso por unidade": 200,
+                "descriçao": "Xarope para tosse com óleo de buriti e extrato de zimbro, tradicionalmente utilizado para aliviar o desconforto na garganta. Usos: Consumir conforme orientação da embalagem.",
+                "Modified Date": "2025-11-26T19:48:05.829Z",
+                "desconto": 0,
+                "cod": "002603",
+                "categorias_produto": [
+                    "Chás"
+                ],
+                "Created Date": "2024-07-16T01:23:10.106Z",
+                "preço novo": 16.99,
+                "peso/und": "unidade",
+                "_id": "1721092990106x805946285449906200",
+                "demanda": 1,
+                "preço antigo": 16.99,
+                "nome": "Xarope Da Vovo Co Óleo De Buriti 200g",
+                "Created By": "admin_user_levee-delivery_test",
+                "relacionados": [
+                    "1721092727398x673145232708538800",
+                    "1721092987994x728629767221276000",
+                    "1721092989295x291908363892057660"
+                ]
+            },
+            {
+                "tipo_unidade": "KG",
+                "ean": "0000000000218",
+                "demanda": 14,
+                "preço antigo": 14.99,
+                "estoque": -77004,
+                "categorias_produto": [
+                    "Frutas"
+                ],
+                "peso por unidade": 360,
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1724116839970x232433960584030880/Atemoia.jpeg"
+                ],
+                "descriçao": "Atemoia é um fruto híbrido resultante do cruzamento entre a cherimoia e a pinha. Possui uma casca verde escamosa e polpa branca cremosa, doce e ligeiramente ácida. É rica em vitaminas C e B6, fibras e potássio. Originária das regiões tropicais, é consumida fresca ou em sobremesas como sorvetes e sucos.",
+                "como armazenar": "Deve ser armazenada em temperatura ambiente até amadurecer. Após amadurecimento, refrigerar entre 8°C e 10°C.",
+                "nome": "Atemoia",
+                "visivel": false,
+                "peso/und": "peso",
+                "preço por kg": 19.99,
+                "Created By": "admin_user_levee-delivery_live",
+                "Modified Date": "2026-02-11T16:16:06.591Z",
+                "em oferta": false,
+                "desconto": -100.06671114076,
+                "_id": "1722862365704x614270136460451700",
+                "cod": "000227",
+                "Created Date": "2024-08-05T12:52:45.704Z",
+                "preço novo": 29.99,
+                "info nutricional": "Valor Nutricional (por 100g): Calorias: 80 kcal, Carboidratos: 20g, Proteínas: 2g, Gorduras: 0.2g, Fibras: 4g, Vitamina C: 44.5mg, Vitamina B6: 0.2mg, Potássio: 250mg."
+            },
+            {
+                "nome": "Caju Bandeja",
+                "categorias_produto": [
+                    "Frutas"
+                ],
+                "info nutricional": "Valor Nutricional (por 100g): Calorias: 43 kcal, Carboidratos: 10g, Proteínas: 1g, Gorduras: 0.2g, Fibras: 2g, Vitamina C: 219mg, Ferro: 0.6mg, Cálcio: 10mg.",
+                "Created By": "admin_user_levee-delivery_live",
+                "tipo_unidade": "KG",
+                "demanda": 1,
+                "em oferta": true,
+                "cod": "000232",
+                "desconto": 43.3477825941981,
+                "Modified Date": "2025-12-19T18:13:05.585Z",
+                "Created Date": "2024-08-05T12:52:45.706Z",
+                "estoque": -88888,
+                "preço antigo": 29.99,
+                "_id": "1722862365706x289145959865800400",
+                "como armazenar": "Armazenar em local fresco e seco. Após colheita, consumir em até 3 dias ou refrigerar a 5°C por até 1 semana.",
+                "ean": "0000000000223",
+                "visivel": false,
+                "descriçao": "Caju é o fruto do cajueiro, nativo do Brasil. Possui uma polpa suculenta e adocicada, rica em vitamina C, ferro e cálcio. O caju pode ser consumido in natura, em sucos, doces e licores. A castanha de caju, encontrada na extremidade do fruto, é muito apreciada após torrada. Curiosidade: O caju é uma pseudofruto, e a castanha é a verdadeira fruta.",
+                "peso por unidade": 200,
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1761211654642x185661447213018020/3522e2b2-652e-498b-b3e8-88b2af15d095.png"
+                ],
+                "preço novo": 16.99,
+                "peso/und": "unidade"
+            },
+            {
+                "Modified Date": "2025-05-21T17:13:03.162Z",
+                "Created By": "admin_user_levee-delivery_live",
+                "nome": "Laranja Bahia Nacional",
+                "info nutricional": "Valor Nutricional (por 100g): Calorias: 47 kcal, Carboidratos: 12g, Proteínas: 1g, Gorduras: 0.1g, Fibras: 2.4g, Vitamina C: 53.2mg, Folato: 30µg, Potássio: 181mg.",
+                "demanda": 0,
+                "peso/und": "peso",
+                "preço antigo": 7.99,
+                "_id": "1722862365707x398509704161186240",
+                "visivel": false,
+                "preço novo": 14.99,
+                "Created Date": "2024-08-05T12:52:45.707Z",
+                "descriçao": "Laranja Bahia é uma variedade de laranja sem sementes, conhecida pela casca grossa e fácil de descascar. Tem sabor doce e é rica em vitamina C, fibras e antioxidantes. Originária da Bahia, é consumida fresca, em sucos ou como ingrediente de pratos doces e salgados.",
+                "estoque": 100000,
+                "cod": "000258",
+                "preço por kg": 8,
+                "desconto": -87.61,
+                "ean": "0000000000240",
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1724116882153x911809259256783200/Laraja%20Bahia%20Nacional.jpeg"
+                ],
+                "tipo_unidade": "KG",
+                "como armazenar": "Armazenar em local fresco e seco, ou refrigerar a 7°C por até 2 semanas."
+            },
+            {
+                "cod": "001915",
+                "tipo_unidade": "KG",
+                "Created By": "admin_user_levee-delivery_live",
+                "desconto": 0,
+                "descriçao": "Manga Espadinha é uma variedade de manga com formato alongado e casca amarela. Possui polpa doce e fibrosa, rica em vitamina A, C e fibras. Muito consumida fresca, em saladas, sucos e sobremesas. É cultivada principalmente no Norte e Nordeste do Brasil.",
+                "nome": "Manga Espadinha",
+                "visivel": false,
+                "info nutricional": "Valor Nutricional (por 100g): Calorias: 60 kcal, Carboidratos: 15g, Proteínas: 0.8g, Gorduras: 0.4g, Fibras: 1.6g, Vitamina A: 54µg, Vitamina C: 36.4mg, Folato: 43µg, Potássio: 168mg.",
+                "preço novo": 5.99,
+                "_id": "1722862365708x883278346677477400",
+                "como armazenar": "Armazenar em temperatura ambiente até amadurecer. Após amadurecimento, refrigerar entre 10°C e 13°C.",
+                "estoque": 99265,
+                "preço antigo": 12.99,
+                "Modified Date": "2025-10-20T14:32:01.167Z",
+                "ean": "0000000007429",
+                "demanda": 0,
+                "Created Date": "2024-08-05T12:52:45.708Z",
+                "preço por kg": 7.99,
+                "peso/und": "peso"
+            },
+            {
+                "tipo_unidade": "KG",
+                "descriçao": "Manga Espada é uma das variedades mais populares do Brasil, conhecida pelo sabor adocicado e polpa suculenta. Tem casca verde-amarelada e é rica em vitaminas A e C. Muito utilizada em sucos, sobremesas e saladas.",
+                "demanda": 0,
+                "Modified Date": "2026-02-27T18:26:18.164Z",
+                "nome": "Manga Espada",
+                "estoque": 82696,
+                "cod": "000289",
+                "info nutricional": "Valor Nutricional (por 100g): Calorias: 60 kcal, Carboidratos: 15g, Proteínas: 0.8g, Gorduras: 0.4g, Fibras: 1.6g, Vitamina A: 54µg, Vitamina C: 36.4mg, Folato: 43µg, Potássio: 168mg.",
+                "preço por kg": 12.9,
+                "peso por unidade": 150,
+                "Created Date": "2024-08-05T12:52:45.715Z",
+                "como armazenar": "Armazenar em temperatura ambiente até amadurecer. Após amadurecimento, refrigerar entre 10°C e 13°C.",
+                "preço novo": 7.99,
+                "Created By": "admin_user_levee-delivery_live",
+                "peso/und": "peso",
+                "visivel": true,
+                "ean": "0000000000268",
+                "desconto": 0,
+                "_id": "1722862365715x514952186396092400",
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1729256378856x326487166473728600/manga%20espada.jpeg"
+                ]
+            },
+            {
+                "Modified Date": "2026-02-23T13:24:59.671Z",
+                "Created By": "admin_user_levee-delivery_live",
+                "categorias_produto": [
+                    "Frutas"
+                ],
+                "demanda": 0,
+                "tipo_unidade": "KG",
+                "relacionados": [
+                    "1722862365715x514952186396092400",
+                    "1722862365708x883278346677477400",
+                    "1721092987994x728629767221276000"
+                ],
+                "peso por unidade": 200,
+                "nome": "Manga Uba",
+                "info nutricional": "Valor Nutricional (por 100g): Calorias: 60 kcal, Carboidratos: 15g, Proteínas: 0.8g, Gorduras: 0.4g, Fibras: 1.6g, Vitamina A: 54µg, Vitamina C: 36.4mg, Folato: 43µg, Potássio: 168mg.",
+                "descriçao": "Manga Ubá é uma variedade típica da região de Ubá, Minas Gerais. Possui casca amarela, polpa fibrosa e sabor doce. Rica em vitaminas A, C e fibras, é muito consumida fresca, em sucos e doces.",
+                "preço por kg": 19.99,
+                "peso/und": "peso",
+                "preço novo": 8.99,
+                "ordem_prateleira": 1,
+                "estoque": 28050,
+                "visivel": false,
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1760526524449x116359563804860240/muda_de_manga_uba_60cm_feita_de_semente_7649_1_20220211124453.webp"
+                ],
+                "ean": "0000000000273",
+                "Created Date": "2024-08-05T12:52:45.716Z",
+                "_id": "1722862365716x968848419279626500",
+                "como armazenar": "Armazenar em temperatura ambiente até amadurecer. Após amadurecimento, refrigerar entre 10°C e 13°C.",
+                "preço antigo": 7.99,
+                "cod": "000295",
+                "desconto": -12.5156445556946
+            },
+            {
+                "preço por kg": 5.99,
+                "Created By": "admin_user_levee-delivery_live",
+                "preço antigo": 5.99,
+                "desconto": 0,
+                "Created Date": "2024-08-05T12:52:45.718Z",
+                "nome": "Nectarina",
+                "ean": "0000000000300",
+                "peso por unidade": 85,
+                "info nutricional": "Valor Nutricional (por 100g): Calorias: 44 kcal, Carboidratos: 10g, Proteínas: 1g, Gorduras: 0.3g, Fibras: 1.7g, Vitamina A: 332µg, Vitamina C: 5.4mg, Potássio: 201mg.",
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1724117010370x216204496110914180/Nectarina.jpeg"
+                ],
+                "demanda": 11,
+                "preço novo": 24.99,
+                "_id": "1722862365718x465075022007219260",
+                "estoque": 98910,
+                "tipo_unidade": "KG",
+                "visivel": false,
+                "cod": "000325",
+                "Modified Date": "2026-02-27T15:55:40.441Z",
+                "descriçao": "Nectarina é uma fruta de caroço semelhante ao pêssego, mas com casca lisa. Tem sabor doce e suculento, rica em vitaminas A e C, fibras e antioxidantes. É consumida fresca, em sobremesas, saladas e sucos.",
+                "ordem_prateleira": 59,
+                "peso/und": "peso",
+                "como armazenar": "Armazenar em local fresco e seco. Refrigerar a 1°C a 5°C para prolongar a conservação por até 2 semanas."
+            },
+            {
+                "peso/und": "peso",
+                "_id": "1722862365719x443343638660588200",
+                "info nutricional": "Valor Nutricional (por 100g): Calorias: 57 kcal, Carboidratos: 15g, Proteínas: 0.4g, Gorduras: 0.1g, Fibras: 3.1g, Vitamina C: 4.3mg, Potássio: 116mg.",
+                "preço por kg": 6.99,
+                "Created Date": "2024-08-05T12:52:45.719Z",
+                "descriçao": "Pera Foreli é uma variedade de pera com casca amarela e polpa suculenta, doce e ligeiramente ácida. Rica em fibras, vitamina C e potássio. Muito consumida fresca, em saladas e sobremesas.",
+                "nome": "Pera Foreli",
+                "preço antigo": 6.99,
+                "estoque": 100000,
+                "como armazenar": "Armazenar em local fresco e seco. Refrigerar a 1°C a 5°C para prolongar a conservação por até 2 semanas.",
+                "preço novo": 23.99,
+                "tipo_unidade": "KG",
+                "Modified Date": "2025-05-21T17:13:03.242Z",
+                "desconto": 0,
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1724117068085x230812642621182940/Pera%20Foreli.webp"
+                ],
+                "demanda": 0,
+                "Created By": "admin_user_levee-delivery_live",
+                "visivel": true,
+                "ean": "0000000000304",
+                "cod": "000329"
+            },
+            {
+                "como armazenar": "Armazenar em local fresco e seco. Refrigerar a 1°C a 5°C para prolongar a conservação por até 2 semanas.",
+                "tipo_unidade": "KG",
+                "preço novo": 14.99,
+                "_id": "1722862365720x981835840808878600",
+                "ean": "0000000000331",
+                "preço antigo": 14.99,
+                "info nutricional": "Valor Nutricional (por 100g): Calorias: 57 kcal, Carboidratos: 15g, Proteínas: 0.4g, Gorduras: 0.1g, Fibras: 3.1g, Vitamina C: 4.3mg, Potássio: 116mg.",
+                "Created By": "admin_user_levee-delivery_live",
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1724117096119x646989397439545800/Pera%20Red.png"
+                ],
+                "visivel": false,
+                "cod": "000359",
+                "desconto": 0,
+                "Modified Date": "2025-05-21T17:13:03.274Z",
+                "descriçao": "Pera Red é uma variedade de pera com casca vermelha e polpa branca, suculenta e doce. Rica em fibras, vitamina C e antioxidantes. É consumida fresca, em saladas e sobremesas.",
+                "estoque": 100000,
+                "peso/und": "unidade",
+                "nome": "Pera Red",
+                "demanda": 0,
+                "Created Date": "2024-08-05T12:52:45.720Z",
+                "preço por kg": 14.99
+            },
+            {
+                "Modified Date": "2026-02-27T15:55:40.456Z",
+                "descriçao": "Pêssego Importado é uma fruta de casca aveludada, polpa suculenta e sabor doce. Rico em vitaminas A, C, fibras e antioxidantes. É consumido fresco, em sobremesas, sucos e compotas. Importado de países como Chile e Espanha.",
+                "Created Date": "2024-08-05T12:52:45.721Z",
+                "visivel": false,
+                "demanda": 220,
+                "info nutricional": "Valor Nutricional (por 100g): Calorias: 39 kcal, Carboidratos: 10g, Proteínas: 0.9g, Gorduras: 0.3g, Fibras: 1.5g, Vitamina A: 326µg, Vitamina C: 6.6mg, Potássio: 190mg.",
+                "categorias_produto": [
+                    "Frutas"
+                ],
+                "ordem_prateleira": 60,
+                "desconto": -50.0500500500501,
+                "preço por kg": 4.99,
+                "Created By": "admin_user_levee-delivery_live",
+                "tipo_unidade": "UN",
+                "nome": "Pessego Importado",
+                "como armazenar": "Armazenar em temperatura ambiente até amadurecer. Após amadurecimento, refrigerar entre 0°C e 4°C.",
+                "preço antigo": 9.99,
+                "peso por unidade": 129,
+                "estoque": 45823,
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1724117139424x344871225218596160/Pessego%20Importado.webp"
+                ],
+                "_id": "1722862365721x144847713039044640",
+                "peso/und": "peso",
+                "cod": "002639",
+                "preço novo": 14.99,
+                "ean": "0000000013574"
+            },
+            {
+                "em oferta": true,
+                "desconto": 53.351117039013,
+                "Modified Date": "2026-03-03T14:00:50.084Z",
+                "ean": "0000000000310",
+                "como armazenar": "Armazenar em temperatura ambiente até amadurecer. Após amadurecimento, refrigerar entre 0°C e 4°C.",
+                "Created Date": "2024-08-05T12:52:45.724Z",
+                "tipo_unidade": "KG",
+                "demanda": 30,
+                "Created By": "admin_user_levee-delivery_live",
+                "visivel": true,
+                "descriçao": "Pêssego Nacional é uma fruta de casca aveludada, polpa suculenta e sabor doce, rica em vitaminas A, C, fibras e antioxidantes. Consumido fresco, em sobremesas, sucos e compotas. É cultivado principalmente no Sul e Sudeste do Brasil.",
+                "peso por unidade": 125,
+                "nome": "Pessego Nacional",
+                "estoque": -334,
+                "preço antigo": 29.99,
+                "info nutricional": "Valor Nutricional (por 100g): Calorias: 39 kcal, Carboidratos: 10g, Proteínas: 0.9g, Gorduras: 0.3g, Fibras: 1.5g, Vitamina A: 326µg, Vitamina C: 6.6mg, Potássio: 190mg.",
+                "categorias_produto": [
+                    "Frutas"
+                ],
+                "peso/und": "peso",
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1724117166017x945092460372831600/Pessego%20Nacional.jpeg"
+                ],
+                "_id": "1722862365724x173016804079028540",
+                "cod": "000336",
+                "preço por kg": 8.99,
+                "preço novo": 13.99
+            },
+            {
+                "nome": "Pinha (Fruta do Conde)",
+                "ean": "0000000000313",
+                "como armazenar": "Armazenar em temperatura ambiente até amadurecer. Após amadurecimento, refrigerar entre 8°C e 10°C.",
+                "categorias_produto": [
+                    "Frutas"
+                ],
+                "Modified Date": "2026-03-04T12:59:54.192Z",
+                "preço por kg": 12.99,
+                "visivel": false,
+                "Created By": "admin_user_levee-delivery_live",
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1724117230794x629492132655062400/Pinha.webp"
+                ],
+                "estoque": 99871,
+                "cod": "000340",
+                "_id": "1722862365726x607146708893450600",
+                "desconto": 69.284064665127,
+                "descriçao": "Pinha, também conhecida como fruta-do-conde, é um fruto tropical com casca escamosa verde e polpa branca doce e cremosa. Rica em vitamina C, fibras e potássio. Consumida fresca, em sucos e sobremesas.",
+                "demanda": 12,
+                "em oferta": false,
+                "info nutricional": "Valor Nutricional (por 100g): Calorias: 94 kcal, Carboidratos: 23.6g, Proteínas: 2.1g, Gorduras: 0.4g, Fibras: 4.4g, Vitamina C: 19.2mg, Potássio: 382mg.",
+                "peso/und": "unidade",
+                "peso por unidade": 100,
+                "Created Date": "2024-08-05T12:52:45.726Z",
+                "tipo_unidade": "UN",
+                "preço novo": 3.99,
+                "preço antigo": 12.99
+            },
+            {
+                "peso/und": "unidade",
+                "demanda": 0,
+                "desconto": 0,
+                "estoque": 100000,
+                "nome": "Uva Italia",
+                "_id": "1722862365727x912994428824221600",
+                "visivel": false,
+                "como armazenar": "Armazenar em local fresco e seco. Refrigerar a 0°C a 2°C para prolongar a conservação por até 2 semanas.",
+                "Created By": "admin_user_levee-delivery_live",
+                "ean": "0000000000323",
+                "preço antigo": 24.99,
+                "Modified Date": "2025-05-21T17:13:03.329Z",
+                "cod": "000350",
+                "info nutricional": "Valor Nutricional (por 100g): Calorias: 69 kcal, Carboidratos: 18g, Proteínas: 0.7g, Gorduras: 0.2g, Fibras: 0.9g, Vitamina C: 10.8mg, Vitamina K: 22µg, Potássio: 191mg.",
+                "descriçao": "Uva Itália é uma variedade de uva de mesa com bagos grandes e sabor doce. Rica em vitamina C, K e antioxidantes. Consumida fresca, em saladas de frutas e sucos. Cultivada principalmente na Itália e no Brasil.",
+                "preço novo": 24.99,
+                "Created Date": "2024-08-05T12:52:45.727Z",
+                "tipo_unidade": "UN"
+            },
+            {
+                "como armazenar": "Armazenar em local fresco e seco. Refrigerar a 0°C a 2°C para prolongar a conservação por até 2 semanas.",
+                "cod": "000356",
+                "visivel": false,
+                "Created By": "admin_user_levee-delivery_live",
+                "Created Date": "2024-08-05T12:52:45.729Z",
+                "ean": "0000000000328",
+                "info nutricional": "Valor Nutricional (por 100g): Calorias: 69 kcal, Carboidratos: 18g, Proteínas: 0.7g, Gorduras: 0.2g, Fibras: 0.9g, Vitamina C: 10.8mg, Vitamina K: 22µg, Potássio: 191mg.",
+                "preço novo": 11.99,
+                "demanda": 0,
+                "descriçao": "Uva Jubelee é uma variedade de uva com bagos grandes e sabor doce e levemente ácido. Rica em vitaminas C, K e antioxidantes. Consumida fresca, em saladas de frutas e sucos.",
+                "preço antigo": 11.99,
+                "Modified Date": "2025-05-21T17:13:03.383Z",
+                "estoque": 100000,
+                "peso/und": "unidade",
+                "desconto": 0,
+                "_id": "1722862365729x213408502033858080",
+                "nome": "Uva Jubelee",
+                "tipo_unidade": "KG"
+            },
+            {
+                "demanda": 0,
+                "Created Date": "2024-08-05T12:52:45.729Z",
+                "visivel": true,
+                "descriçao": "mamao fatiado na bandeja ",
+                "desconto": 49.8997493734336,
+                "estoque": 66512587,
+                "ean": "0000000000326",
+                "preço novo": 19.99,
+                "peso por unidade": 500,
+                "nome": "mamao picado na bandeja",
+                "tipo_unidade": "KG",
+                "Created By": "admin_user_levee-delivery_live",
+                "Modified Date": "2026-03-04T16:22:14.299Z",
+                "preço antigo": 39.9,
+                "_id": "1722862365729x660141643086869100",
+                "peso/und": "peso",
+                "info nutricional": "Valor Nutricional (por 100g): Calorias: 69 kcal, Carboidratos: 18g, Proteínas: 0.7g, Gorduras: 0.2g, Fibras: 0.9g, Vitamina C: 10.8mg, Vitamina K: 22µg, Potássio: 191mg.",
+                "cod": "000353",
+                "como armazenar": "Armazenar em local fresco e seco. Refrigerar a 0°C a 2°C para prolongar a conservação por até 2 semanas.",
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1752932804685x641054834078865200/Mamao-Fatiado.webp"
+                ]
+            },
+            {
+                "cod": "000160",
+                "descriçao": "Sweet Grape é uma variedade de uva pequena e doce, ideal para consumo in natura, em saladas e sobremesas. Rica em vitaminas C, K e antioxidantes.",
+                "estoque": 193,
+                "tipo_unidade": "UN",
+                "em oferta": false,
+                "info nutricional": "Valor Nutricional (por 100g): Calorias: 69 kcal, Carboidratos: 18g, Proteínas: 0.7g, Gorduras: 0.2g, Fibras: 0.9g, Vitamina C: 10.8mg, Vitamina K: 22µg, Potássio: 191mg.",
+                "preço novo": 7.99,
+                "visivel": true,
+                "desconto": -14.306151645207438,
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1742739848865x664609187921409500/images%20%2812%29.jpeg"
+                ],
+                "nome": "Tomate Sweet Grape",
+                "peso por unidade": 180,
+                "_id": "1722862365731x421328062894776640",
+                "preço antigo": 6.99,
+                "demanda": 55,
+                "Created By": "admin_user_levee-delivery_live",
+                "peso/und": "unidade",
+                "como armazenar": "Armazenar em local fresco e seco. Refrigerar a 0°C a 2°C para prolongar a conservação por até 2 semanas.",
+                "preço por kg": 6.99,
+                "categorias_produto": [
+                    "Legumes"
+                ],
+                "Created Date": "2024-08-05T12:52:45.731Z",
+                "ean": "0000000000141",
+                "Modified Date": "2026-03-04T16:50:32.741Z"
+            },
+            {
+                "ean": "0000000006613",
+                "Created By": "admin_user_levee-delivery_live",
+                "cod": "001807",
+                "nome": "Batata Marquesa",
+                "peso por unidade": 100,
+                "estoque": -99984,
+                "peso/und": "unidade",
+                "visivel": false,
+                "desconto": -25.03,
+                "_id": "1722862365733x876635329463857500",
+                "descriçao": "Batata Marquesa é uma variedade de batata com casca roxa e polpa amarela, conhecida por seu sabor suave e textura cremosa. Rica em carboidratos, vitamina C e potássio. Utilizada em purês, sopas e assados.",
+                "preço antigo": 7.99,
+                "Created Date": "2024-08-05T12:52:45.733Z",
+                "Modified Date": "2025-10-23T14:59:55.390Z",
+                "preço novo": 5.99,
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1724117273587x635623053353461900/Batata%20Marquesa.jpg"
+                ],
+                "como armazenar": "Armazenar em local fresco, seco e escuro. Manter entre 7°C e 10°C para evitar brotamento.",
+                "preço por kg": 6.99,
+                "demanda": 6,
+                "info nutricional": "Valor Nutricional (por 100g): Calorias: 77 kcal, Carboidratos: 17g, Proteínas: 2g, Gorduras: 0.1g, Fibras: 2.2g, Vitamina C: 19.7mg, Potássio: 425mg.",
+                "tipo_unidade": "KG"
+            },
+            {
+                "peso por unidade": 100,
+                "_id": "1722862365735x554428699586909000",
+                "como armazenar": "Armazenar em local fresco e seco. Refrigerar a 2°C a 4°C para prolongar a conservação por até 2 semanas.",
+                "desconto": 0,
+                "Created Date": "2024-08-05T12:52:45.735Z",
+                "preço antigo": 12.99,
+                "demanda": 0,
+                "tipo_unidade": "KG",
+                "Created By": "admin_user_levee-delivery_live",
+                "descriçao": "Batata Yacon é um tubérculo de sabor adocicado, semelhante à pera. Rica em fibras, potássio e antioxidantes. Consumida crua, em saladas, sucos ou cozida. Originária dos Andes.",
+                "preço por kg": 125,
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1724116787180x221780539826383000/Batata%20Yacon.jpeg"
+                ],
+                "cod": "000096",
+                "Modified Date": "2025-10-23T15:00:11.928Z",
+                "info nutricional": "Valor Nutricional (por 100g): Calorias: 54 kcal, Carboidratos: 12g, Proteínas: 0.8g, Gorduras: 0.1g, Fibras: 3.5g, Potássio: 370mg, Fósforo: 27mg, Cálcio: 10mg.",
+                "nome": "Batata Yacon",
+                "peso/und": "peso",
+                "preço novo": 12.99,
+                "estoque": -100000,
+                "ean": "0000000000087",
+                "visivel": false
+            },
+            {
+                "tipo_unidade": "KG",
+                "ean": "0000000000092",
+                "como armazenar": "Armazenar em local fresco e seco. Refrigerar a 4°C a 7°C para prolongar a conservação por até 2 semanas.",
+                "peso/und": "peso",
+                "nome": "Cará Cabeça",
+                "desconto": 0,
+                "preço antigo": 0,
+                "Created Date": "2024-08-05T12:52:45.736Z",
+                "cod": "000102",
+                "descriçao": "Cara Cabeça é uma variedade de mandioca conhecida pelo sabor e textura. Rica em carboidratos, vitamina C e cálcio. Utilizada em diversos pratos como purês, sopas e frituras.",
+                "estoque": 100000,
+                "visivel": false,
+                "preço novo": 0,
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1724117331017x396119611271398900/Cara%20Cabe%C3%A7a.webp"
+                ],
+                "Created By": "admin_user_levee-delivery_live",
+                "Modified Date": "2025-05-21T17:13:03.439Z",
+                "info nutricional": "Valor Nutricional (por 100g): Calorias: 160 kcal, Carboidratos: 38g, Proteínas: 1.4g, Gorduras: 0.3g, Fibras: 1.8g, Vitamina C: 20.6mg, Cálcio: 16mg.",
+                "preço por kg": 0,
+                "_id": "1722862365736x716182691430156300",
+                "demanda": 0
+            },
+            {
+                "cod": "000121",
+                "estoque": 100000,
+                "como armazenar": "Armazenar em local fresco e seco. Refrigerar a 7°C a 10°C para prolongar a conservação por até 1 semana.",
+                "peso/und": "peso",
+                "demanda": 0,
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1724117376310x728404903720758000/maxixe.webp"
+                ],
+                "Modified Date": "2025-12-19T18:40:08.388Z",
+                "ean": "0000000000109",
+                "Created By": "admin_user_levee-delivery_live",
+                "descriçao": "Maxixe é um legume comum no Brasil, semelhante a um pequeno pepino com espinhos. Rico em fibras, vitaminas C e K. Consumido cru, em saladas, cozido ou em conserva.",
+                "preço novo": 9.99,
+                "preço por kg": 8.99,
+                "tipo_unidade": "KG",
+                "desconto": 0,
+                "peso por unidade": 200,
+                "visivel": true,
+                "nome": "Maxixe",
+                "Created Date": "2024-08-05T12:52:45.737Z",
+                "info nutricional": "Valor Nutricional (por 100g): Calorias: 14 kcal, Carboidratos: 3.3g, Proteínas: 0.8g, Gorduras: 0.1g, Fibras: 1g, Vitamina C: 6.3mg, Vitamina K: 16.4µg, Potássio: 161mg.",
+                "_id": "1722862365737x989421773355057000",
+                "preço antigo": 9.99
+            },
+            {
+                "Modified Date": "2025-05-21T17:13:03.483Z",
+                "como armazenar": "Armazenar em local fresco e seco. Refrigerar a 10°C a 12°C para prolongar a conservação por até 2 semanas.",
+                "info nutricional": "Valor Nutricional (por 100g): Calorias: 180 kcal, Carboidratos: 22g, Proteínas: 2g, Gorduras: 8g, Fibras: 5g, Vitamina A: 1100µg, Vitamina C: 20mg, Potássio: 140mg.",
+                "nome": "Pequi",
+                "ean": "0000000000302",
+                "descriçao": "Pequi é um fruto típico do cerrado brasileiro, com polpa amarela e sabor único. Rico em fibras, vitaminas A e C, antioxidantes. Utilizado em pratos típicos como arroz com pequi e licores.",
+                "visivel": true,
+                "tipo_unidade": "BJ",
+                "_id": "1722862365739x736559786506485900",
+                "cod": "000327",
+                "peso/und": "unidade",
+                "preço por kg": 3.99,
+                "estoque": 100000,
+                "Created By": "admin_user_levee-delivery_live",
+                "preço novo": 7.99,
+                "desconto": 0,
+                "preço antigo": 7.99,
+                "demanda": 0,
+                "Created Date": "2024-08-05T12:52:45.739Z"
+            },
+            {
+                "Modified Date": "2025-05-21T17:13:03.527Z",
+                "preço novo": 9.99,
+                "Created By": "admin_user_levee-delivery_live",
+                "descriçao": "Tomate Grappe Amarelo é uma variedade de tomate cereja de coloração amarela. Rico em vitaminas A, C, K e antioxidantes. Consumido fresco, em saladas e pratos decorativos.",
+                "cod": "002620",
+                "desconto": 0,
+                "Created Date": "2024-08-05T12:52:45.740Z",
+                "visivel": false,
+                "info nutricional": "Valor Nutricional (por 100g): Calorias: 18 kcal, Carboidratos: 3.9g, Proteínas: 0.9g, Gorduras: 0.2g, Fibras: 1.2g, Vitamina A: 42µg, Vitamina C: 13.7mg, Vitamina K: 7.9µg, Potássio: 237mg.",
+                "preço antigo": 9.99,
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1724117471032x837756453248132400/Tomate%20Grappe%20Amarelo.png"
+                ],
+                "_id": "1722862365740x544417395172985800",
+                "peso/und": "unidade",
+                "estoque": 100000,
+                "nome": "Tomate Grappe Amarelo",
+                "tipo_unidade": "KG",
+                "demanda": 0,
+                "ean": "0000000013505",
+                "como armazenar": "Armazenar em local fresco e seco. Refrigerar a 10°C a 12°C para prolongar a conservação por até 1 semana."
+            },
+            {
+                "nome": "Vagem Rasteira Bdj",
+                "Created Date": "2024-08-05T12:52:45.741Z",
+                "tipo_unidade": "BJ",
+                "preço novo": 5.99,
+                "como armazenar": "Armazenar em local fresco e seco. Refrigerar a 4°C a 7°C para prolongar a conservação por até 1 semana.",
+                "cod": "000200",
+                "visivel": true,
+                "info nutricional": "Valor Nutricional (por 100g): Calorias: 31 kcal, Carboidratos: 7g, Proteínas: 1.8g, Gorduras: 0.2g, Fibras: 2.7g, Vitamina A: 35µg, Vitamina C: 12.2mg, Vitamina K: 14.4µg, Potássio: 211mg.",
+                "descriçao": "Vagem Rasteira BDJ é um tipo de feijão-vagem, com vagens longas e suculentas. Rica em fibras, vitaminas A, C e K. Consumida cozida, em saladas e acompanhamentos.",
+                "ean": "0000000000171",
+                "peso por unidade": 250,
+                "_id": "1722862365741x288983880620645950",
+                "peso/und": "unidade",
+                "Modified Date": "2026-02-27T19:47:55.267Z",
+                "estoque": 99962,
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1724116748925x744911120428080800/Vagem%20Rasteira%20Bdj.jpeg"
+                ],
+                "demanda": 3,
+                "desconto": 25.03128911138924,
+                "preço antigo": 7.99,
+                "Created By": "admin_user_levee-delivery_live",
+                "preço por kg": 3.99
+            },
+            {
+                "peso/und": "unidade",
+                "Created Date": "2024-08-05T12:52:45.744Z",
+                "como armazenar": "Armazenar em local fresco e seco, em recipiente fechado para evitar umidade.",
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1724108261510x270176711827220260/39.jpg"
+                ],
+                "info nutricional": "Valor Nutricional (por 100g): Calorias: 350 kcal, Carboidratos: 90g, Proteínas: 0g, Gorduras: 0g, Fibras: 0g, Cálcio: 80mg, Ferro: 5mg.",
+                "ean": "0000000000033",
+                "_id": "1722862365744x731383225851432800",
+                "Created By": "admin_user_levee-delivery_live",
+                "preço antigo": 12.99,
+                "cod": "000039",
+                "estoque": 99997,
+                "descriçao": "Rapadura Comum é um doce típico brasileiro feito de caldo de cana-de-açúcar evaporado até formar uma massa sólida. Rico em carboidratos e minerais como cálcio e ferro. Consumida pura ou em receitas de doces e sobremesas.",
+                "visivel": true,
+                "Modified Date": "2026-01-07T16:28:21.598Z",
+                "preço novo": 9.99,
+                "demanda": 0,
+                "tipo_unidade": "BJ",
+                "desconto": 0,
+                "nome": "Rapadura Comum Sítio Caiena"
+            },
+            {
+                "desconto": 0,
+                "demanda": 2,
+                "info nutricional": "Valor Nutricional (por 100g): Calorias: 350 kcal, Carboidratos: 90g, Proteínas: 0g, Gorduras: 0g, Fibras: 0g, Cálcio: 80mg, Ferro: 5mg.",
+                "Created Date": "2024-08-05T12:52:45.745Z",
+                "como armazenar": "Armazenar em local fresco e seco, em recipiente fechado para evitar umidade.",
+                "_id": "1722862365745x584555518343089700",
+                "ean": "0000000001071",
+                "descriçao": "Rapadura Batida é uma variação da rapadura comum, batida até formar uma textura mais aerada e macia. Rica em carboidratos e minerais como cálcio e ferro. Consumida pura ou em receitas de doces e sobremesas.",
+                "Modified Date": "2025-12-03T18:30:31.435Z",
+                "peso/und": "unidade",
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1724108271996x783685279164575600/808.jpg"
+                ],
+                "cod": "000808",
+                "Created By": "admin_user_levee-delivery_live",
+                "tipo_unidade": "UN",
+                "preço antigo": 12.99,
+                "estoque": 99996,
+                "visivel": true,
+                "preço novo": 9.99,
+                "nome": "Rapadura Batida Sítio Caiena"
+            },
+            {
+                "nome": "Rapadura (Pé De Moleque) Caiena",
+                "info nutricional": "Valor Nutricional (por 100g): Calorias: 400 kcal, Carboidratos: 70g, Proteínas: 10g, Gorduras: 10g, Fibras: 4g, Cálcio: 100mg, Ferro: 7mg.",
+                "Created By": "admin_user_levee-delivery_live",
+                "ean": "0000000001070",
+                "peso/und": "unidade",
+                "_id": "1722862365746x770453205162971400",
+                "cod": "000805",
+                "descriçao": "Rapadura (Pé de Moleque) é uma variação da rapadura comum, adicionada de amendoins torrados. Rico em carboidratos, proteínas e minerais como cálcio e ferro. Consumida pura ou em receitas de doces e sobremesas.",
+                "Modified Date": "2025-12-30T17:04:20.480Z",
+                "Created Date": "2024-08-05T12:52:45.746Z",
+                "demanda": 0,
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1724108271804x718536864354823600/805.jpg"
+                ],
+                "desconto": 0,
+                "preço antigo": 12.99,
+                "como armazenar": "Armazenar em local fresco e seco, em recipiente fechado para evitar umidade.",
+                "visivel": true,
+                "tipo_unidade": "UN",
+                "preço novo": 9.99,
+                "estoque": 99996
+            },
+            {
+                "ean": "0000000000301",
+                "info nutricional": "Por 100g (polpa):\n- Calorias: 30kcal\n- Carboidratos: 8g\n- Açúcar: 6g\n- Fibra: 0.4g\n- Proteína: 0.6g\n- Gordura: 0.2g\nVitaminas:\n- Vitamina C: 8mg (9% VD)",
+                "preço antigo": 3.99,
+                "desconto": 0,
+                "categorias_produto": [
+                    "Frutas"
+                ],
+                "peso por unidade": 4500,
+                "preço novo": 3.99,
+                "Created By": "admin_user_levee-delivery_live",
+                "tipo_unidade": "KG",
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1728946818884x864992037728123500/melancia%201-2.webp"
+                ],
+                "peso/und": "peso",
+                "preço por kg": 4.774918318,
+                "visivel": true,
+                "nome": "Melancia Comum 1/2",
+                "relacionados": [
+                    "1721092988147x642570780903657300",
+                    "1721092988149x334457194575314300",
+                    "1721092988150x854112049226549800",
+                    "1721092988154x660284600867688600"
+                ],
+                "cod": "120326",
+                "como armazenar": "Temperatura ambiente em local fresco e arejado ou refrigerado entre 0ºC e 10ºC após cortada. Validade média: 1 semana (inteira), 3 dias (cortada).",
+                "_id": "1728945608387x987799086250156400",
+                "Created Date": "2024-10-14T22:40:08.388Z",
+                "Modified Date": "2026-03-02T20:11:13.263Z",
+                "demanda": 22,
+                "descriçao": "Fruto grande e refrescante, com polpa vermelha e suculenta. Usos: Consumir fresca, em saladas de frutas ou sucos.",
+                "estoque": 9999570626
+            },
+            {
+                "como armazenar": "Temperatura ambiente em local fresco e arejado ou refrigerado entre 0ºC e 10ºC após cortada. Validade média: 1 semana (inteira), 3 dias (cortada).",
+                "Modified Date": "2026-03-04T16:52:16.832Z",
+                "preço por kg": 4.774918318,
+                "preço novo": 3.99,
+                "desconto": 0,
+                "Created By": "admin_user_levee-delivery_live",
+                "demanda": 3274,
+                "tipo_unidade": "KG",
+                "estoque": 9999112891,
+                "peso por unidade": 3210,
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1736176364012x344092360283068120/20241205_105659.JPG"
+                ],
+                "descriçao": "Fruto grande e refrescante, com polpa vermelha e suculenta. Usos: Consumir fresca, em saladas de frutas ou sucos.",
+                "ean": "301",
+                "preço antigo": 3.99,
+                "nome": "Melancia Comum 1/4",
+                "visivel": true,
+                "categorias_produto": [
+                    "Frutas"
+                ],
+                "cod": "140326",
+                "peso/und": "peso",
+                "info nutricional": "Por 100g (polpa):\n- Calorias: 30kcal\n- Carboidratos: 8g\n- Açúcar: 6g\n- Fibra: 0.4g\n- Proteína: 0.6g\n- Gordura: 0.2g\nVitaminas:\n- Vitamina C: 8mg (9% VD)",
+                "_id": "1728946411400x592497026912298500",
+                "Created Date": "2024-10-14T22:53:31.400Z"
+            },
+            {
+                "tipo_unidade": "KG",
+                "preço por kg": 4.774918318,
+                "nome": "Melancia Comum 1/8",
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1736176485248x696936631818335600/20241205_105419.JPG"
+                ],
+                "Created By": "admin_user_levee-delivery_live",
+                "categorias_produto": [
+                    "Frutas"
+                ],
+                "desconto": 0,
+                "ean": "301",
+                "visivel": true,
+                "estoque": 9999765647,
+                "_id": "1728946411402x448798004778569800",
+                "Modified Date": "2026-03-04T14:44:48.795Z",
+                "descriçao": "Fruto grande e refrescante, com polpa vermelha e suculenta. Usos: Consumir fresca, em saladas de frutas ou sucos.",
+                "cod": "180326",
+                "preço antigo": 3.99,
+                "peso/und": "peso",
+                "demanda": 56,
+                "como armazenar": "Temperatura ambiente em local fresco e arejado ou refrigerado entre 0ºC e 10ºC após cortada. Validade média: 1 semana (inteira), 3 dias (cortada).",
+                "Created Date": "2024-10-14T22:53:31.402Z",
+                "preço novo": 3.99,
+                "info nutricional": "Por 100g (polpa):\n- Calorias: 30kcal\n- Carboidratos: 8g\n- Açúcar: 6g\n- Fibra: 0.4g\n- Proteína: 0.6g\n- Gordura: 0.2g\nVitaminas:\n- Vitamina C: 8mg (9% VD)",
+                "peso por unidade": 1901
+            },
+            {
+                "como armazenar": "Ambiente fresco e arejado (13ºC - 18ºC) por até 7 dias. Geladeira (7ºC - 10ºC): Por até 15 dias.",
+                "preço novo": 6.99,
+                "peso por unidade": 3660,
+                "Created By": "admin_user_levee-delivery_live",
+                "cod": "120329",
+                "preço antigo": 6.99,
+                "Created Date": "2024-10-14T22:53:31.404Z",
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1728946807397x779784877335966100/8187d6e8b2bb73881497f0d3086bff9f1e064b28_melanciapingodoce.jpg"
+                ],
+                "Modified Date": "2026-02-28T18:37:19.132Z",
+                "desconto": 0,
+                "descriçao": "Variedade de melancia pequena, com poucas sementes e sabor doce. Usos: Consumir fresca ou em saladas de frutas.",
+                "peso/und": "peso",
+                "categorias_produto": [
+                    "Frutas"
+                ],
+                "visivel": true,
+                "demanda": 29,
+                "tipo_unidade": "KG",
+                "preço por kg": 6.989879518,
+                "_id": "1728946411404x535247972380602050",
+                "nome": "Melancia Pingo Doce 1/2",
+                "ean": "304",
+                "estoque": 4637
+            },
+            {
+                "preço antigo": 6.99,
+                "peso por unidade": 875,
+                "cod": "140329",
+                "preço por kg": 6.989879518,
+                "_id": "1728946411405x264571275723734850",
+                "preço novo": 7.99,
+                "visivel": false,
+                "peso/und": "peso",
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1761925003345x378803749910707500/vermelinha-min.png"
+                ],
+                "nome": "Melancia Pingo Doce 1/4",
+                "tipo_unidade": "KG",
+                "Modified Date": "2026-02-23T19:56:45.021Z",
+                "desconto": -14.3061516452074,
+                "demanda": 0,
+                "Created By": "admin_user_levee-delivery_live",
+                "Created Date": "2024-10-14T22:53:31.405Z",
+                "estoque": -8399,
+                "ean": "304",
+                "descriçao": "Variedade de melancia pequena, com poucas sementes e sabor doce. Usos: Consumir fresca ou em saladas de frutas.",
+                "categorias_produto": [
+                    "Frutas"
+                ],
+                "como armazenar": "Ambiente fresco e arejado (13ºC - 18ºC) por até 7 dias. Geladeira (7ºC - 10ºC): Por até 15 dias."
+            },
+            {
+                "preço antigo": 2.99,
+                "nome": "Abóbora Moranga 1/2",
+                "visivel": true,
+                "Created By": "admin_user_levee-delivery_live",
+                "info nutricional": "Por 100g:\n- Calorias: 44kcal\n- Carboidratos: 11g\n- Açúcar: 5g\n- Fibra: 1g\n- Proteína: 1g\n- Gordura: 0.2g\nVitaminas:\n- Vitamina A: 20000 UI (400% VD)\n- Vitamina C: 9mg (10% VD)\n- Potássio: 340mg (10% VD)\nMinerais:\n- Manganês: 0.1mg (5% VD)",
+                "categorias_produto": [
+                    "Legumes"
+                ],
+                "Created Date": "2024-10-14T22:53:31.407Z",
+                "cod": "120077",
+                "demanda": 1173,
+                "preço novo": 4.99,
+                "peso/und": "peso",
+                "desconto": -66.8896321070234,
+                "estoque": 754539,
+                "Modified Date": "2026-03-04T12:51:52.698Z",
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1728946830029x239889180018405540/abobora.jpeg"
+                ],
+                "descriçao": "Abóbora de formato arredondado e achatado, com casca alaranjada e polpa firme. Originária da América Central, é rica em vitamina A e fibras. Receitas: Sopa, purê, bolo, recheada. Usos: Cozinhar, assar, refogar.",
+                "preço por kg": 4.990046173,
+                "ean": "74",
+                "peso por unidade": 924,
+                "tipo_unidade": "KG",
+                "_id": "1728946411407x244562977996303000",
+                "como armazenar": "Temperatura ambiente: Local fresco e seco. Durabilidade: Meses"
+            },
+            {
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1741736726843x485499639452558600/img_1200_1.webp"
+                ],
+                "ean": "74",
+                "nome": "Abóbora Moranga 1/4",
+                "estoque": 12854,
+                "peso por unidade": 250,
+                "descriçao": "Abóbora de formato arredondado e achatado, com casca alaranjada e polpa firme. Originária da América Central, é rica em vitamina A e fibras. Receitas: Sopa, purê, bolo, recheada. Usos: Cozinhar, assar, refogar.",
+                "cod": "140077",
+                "categorias_produto": [
+                    "Legumes"
+                ],
+                "_id": "1728946411408x433827289464120200",
+                "visivel": true,
+                "preço antigo": 2.99,
+                "Created By": "admin_user_levee-delivery_live",
+                "peso/und": "peso",
+                "tipo_unidade": "KG",
+                "demanda": 41,
+                "info nutricional": "Por 100g:\n- Calorias: 44kcal\n- Carboidratos: 11g\n- Açúcar: 5g\n- Fibra: 1g\n- Proteína: 1g\n- Gordura: 0.2g\nVitaminas:\n- Vitamina A: 20000 UI (400% VD)\n- Vitamina C: 9mg (10% VD)\n- Potássio: 340mg (10% VD)\nMinerais:\n- Manganês: 0.1mg (5% VD)",
+                "como armazenar": "Temperatura ambiente: Local fresco e seco. Durabilidade: Meses",
+                "desconto": -66.8896321070234,
+                "Created Date": "2024-10-14T22:53:31.408Z",
+                "preço novo": 4.99,
+                "Modified Date": "2026-02-28T16:02:12.598Z",
+                "preço por kg": 4.990046173
+            },
+            {
+                "_id": "1728946411410x114222681458112880",
+                "nome": "Melão Amarelo 1/2",
+                "como armazenar": "Ambiente fresco e arejado (13ºC - 18ºC): Até estar maduro. Geladeira (7ºC - 10ºC): Por até 10 dias após o amadurecimento.",
+                "descriçao": "Variedade de melão com casca e polpa amarelas, doce e aromático. Usos: Consumir fresco.",
+                "Created Date": "2024-10-14T22:53:31.410Z",
+                "peso/und": "peso",
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1728946848992x566586067335620030/Captura%20de%20tela%202024-10-14%20195614.png"
+                ],
+                "demanda": 64,
+                "visivel": false,
+                "peso por unidade": 1055,
+                "desconto": -30.03003003003,
+                "Created By": "admin_user_levee-delivery_live",
+                "tipo_unidade": "KG",
+                "cod": "120332",
+                "Modified Date": "2025-07-10T11:09:04.851Z",
+                "categorias_produto": [
+                    "Frutas"
+                ],
+                "estoque": -3946,
+                "ean": "306",
+                "info nutricional": "Por 100g (polpa):\n- Calorias: 34kcal\n- Carboidratos: 8g\n- Açúcar: 8g\n- Fibra: 1g\n- Proteína: 0.8g\n- Gordura: 0.2g\nVitaminas:\n- Vitamina C: 37mg (41% VD)\n- Vitamina A: 168 UI (3% VD)",
+                "preço novo": 12.99,
+                "preço antigo": 9.99,
+                "preço por kg": 9.99
+            },
+            {
+                "como armazenar": "Ambiente fresco e arejado (13ºC - 18ºC): Até estar maduro. Geladeira (7ºC - 10ºC): Por até 10 dias após o amadurecimento.",
+                "peso por unidade": 1000,
+                "peso/und": "peso",
+                "nome": "Melão Dino 1/2",
+                "preço antigo": 14.99,
+                "categorias_produto": [
+                    "Frutas"
+                ],
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1728946860708x674805551843464300/melao-dino-1-unidade-3kg.webp"
+                ],
+                "cod": "120337",
+                "visivel": true,
+                "descriçao": "Variedade de melão com casca verde escura e polpa alaranjada, doce e suculenta. Usos: Consumir fresco.",
+                "desconto": 0,
+                "preço novo": 14.99,
+                "Created By": "admin_user_levee-delivery_live",
+                "_id": "1728946411411x242154039353488450",
+                "demanda": 1,
+                "Created Date": "2024-10-14T22:53:31.411Z",
+                "preço por kg": 14.99310345,
+                "ean": "311",
+                "tipo_unidade": "KG",
+                "Modified Date": "2026-03-03T21:52:02.796Z",
+                "estoque": 96860
+            },
+            {
+                "nome": "Melão Amarelo (Cepi) 1/2",
+                "tipo_unidade": "KG",
+                "_id": "1728946411412x567916714416363100",
+                "estoque": 27075,
+                "Created By": "admin_user_levee-delivery_live",
+                "cod": "120338",
+                "demanda": 0,
+                "visivel": true,
+                "peso/und": "peso",
+                "preço antigo": 12.99,
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1752332142013x367703478492142660/Captura%20de%20tela%202024-10-14%20195614.avif"
+                ],
+                "preço por kg": 12.57260525,
+                "Created Date": "2024-10-14T22:53:31.412Z",
+                "descriçao": "Variedade de melão amarelo com formato ovalado. Usos: Consumir fresco.",
+                "peso por unidade": 1250,
+                "Modified Date": "2026-02-28T12:31:56.729Z",
+                "ean": "312",
+                "como armazenar": "Ambiente fresco e arejado (13ºC - 18ºC): Até estar maduro. Geladeira (7ºC - 10ºC): Por até 7 dias após o amadurecimento.",
+                "categorias_produto": [
+                    "Frutas"
+                ],
+                "preço novo": 16.99,
+                "desconto": -30.7929176289453
+            },
+            {
+                "tipo_unidade": "KG",
+                "ean": "5630",
+                "preço novo": 17.99,
+                "peso/und": "peso",
+                "preço por kg": 17.99272727,
+                "peso por unidade": 1000,
+                "nome": "Melão Orange 1/2",
+                "Modified Date": "2025-05-21T17:13:04.681Z",
+                "cod": "121702",
+                "categorias_produto": [
+                    "Frutas"
+                ],
+                "Created Date": "2024-10-14T22:53:31.414Z",
+                "estoque": 100000,
+                "desconto": 0,
+                "_id": "1728946411414x297443732957847230",
+                "Created By": "admin_user_levee-delivery_live",
+                "preço antigo": 17.99,
+                "descriçao": "Variedade de melão com casca alaranjada e polpa salmão, doce e suculenta. Usos: Consumir fresco.",
+                "como armazenar": "Ambiente fresco e arejado (13ºC - 18ºC): Até estar maduro. Geladeira (7ºC - 10ºC): Por até 7 dias após o amadurecimento.",
+                "visivel": true,
+                "demanda": 0
+            },
+            {
+                "info nutricional": "Por 100g (polpa):\n- Calorias: 36kcal\n- Carboidratos: 9g\n- Açúcar: 8g\n- Fibra: 1g\n- Proteína: 1g\n- Gordura: 0.2g\nVitaminas:\n- Vitamina C: 37mg (41% VD)",
+                "categorias_produto": [
+                    "Frutas"
+                ],
+                "ean": "314",
+                "_id": "1728946411417x136640012725456110",
+                "visivel": true,
+                "Created By": "admin_user_levee-delivery_live",
+                "descriçao": "Variedade de melão com casca verde-escura e manchas amarelas, polpa branca e sabor suave. Usos: Consumir fresco.",
+                "tipo_unidade": "KG",
+                "preço antigo": 10.99,
+                "Modified Date": "2025-05-21T17:13:04.692Z",
+                "nome": "Melão Pele De Sapo 1/2",
+                "peso/und": "peso",
+                "cod": "120341",
+                "estoque": 100000,
+                "peso por unidade": 1250,
+                "desconto": 0,
+                "demanda": 0,
+                "preço por kg": 9.988505747,
+                "Created Date": "2024-10-14T22:53:31.417Z",
+                "como armazenar": "Ambiente fresco e arejado (13ºC - 18ºC): Até estar maduro. Geladeira (7ºC - 10ºC): Por até 10 dias após o amadurecimento.",
+                "preço novo": 10.99
+            },
+            {
+                "Modified Date": "2025-05-21T17:13:04.705Z",
+                "preço antigo": 18.99,
+                "descriçao": "Variedade de melão com casca verde clara e polpa verde clara, doce e suculenta. Usos: Consumir fresco.",
+                "peso/und": "peso",
+                "cod": "120334",
+                "nome": "Melão Rei 1/2",
+                "peso por unidade": 1250,
+                "preço por kg": 19.09266816,
+                "_id": "1728946411418x309364347070580700",
+                "categorias_produto": [
+                    "Frutas"
+                ],
+                "desconto": 10.53,
+                "demanda": 0,
+                "ean": "308",
+                "estoque": 100000,
+                "Created Date": "2024-10-14T22:53:31.418Z",
+                "como armazenar": "Ambiente fresco e arejado (13ºC - 18ºC): Até estar maduro. Geladeira (7ºC - 10ºC): Por até 7 dias após o amadurecimento.",
+                "Created By": "admin_user_levee-delivery_live",
+                "tipo_unidade": "KG",
+                "preço novo": 16.99,
+                "visivel": true
+            },
+            {
+                "cod": "100478",
+                "desconto": -15.3076923076923,
+                "tipo_unidade": "BJ",
+                "preço antigo": 13,
+                "preço novo": 14.99,
+                "Created Date": "2024-11-18T18:58:00.770Z",
+                "como armazenar": "Geladeira (4ºC - 8ºC): Na embalagem original por até 3 semanas.",
+                "ean": "0000000000585",
+                "nome": "Ovos Brancos (Dúzia)",
+                "peso por unidade": 600,
+                "relacionados": [
+                    "1721092988354x502143205530342700",
+                    "1721092988358x114885269626814340",
+                    "1721092988359x397540177067443400",
+                    "1721092988922x203270330440782800"
+                ],
+                "Modified Date": "2026-03-04T12:59:52.466Z",
+                "categorias_produto": [
+                    "Outros"
+                ],
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1731956247579x957573040497964900/ovos_extra_branco_d_zia_b0e13a36-0a40-488c-b07a-6ce9125ad951.jpg"
+                ],
+                "Created By": "admin_user_levee-delivery_live",
+                "estoque": 99926,
+                "_id": "1731956280769x444206687047967740",
+                "visivel": true,
+                "demanda": 18,
+                "peso/und": "unidade",
+                "descriçao": "Ovos de galinha de casca branca, comercializados em caixa com 20 unidades. Receitas: Culinária em geral: bolos, tortas, ovos fritos, omeletes, etc."
+            },
+            {
+                "peso por unidade": 400,
+                "relacionados": [
+                    "1721092987366x833508953746742800",
+                    "1721092987002x531252174896769340",
+                    "1721092987003x525677327461880000"
+                ],
+                "cod": "895475",
+                "Created Date": "2025-01-06T15:23:55.445Z",
+                "_id": "1736177037001x137735002794754050",
+                "visivel": true,
+                "tipo_unidade": "UN",
+                "demanda": 2,
+                "peso/und": "unidade",
+                "Created By": "1685486814495x592895131987515800",
+                "descriçao": "Cenoura em Cubos á Vácuo 400g",
+                "preço antigo": 6.99,
+                "estoque": 99965,
+                "Modified Date": "2026-03-03T13:07:12.973Z",
+                "nome": "Cenoura em Cubos á Vácuo 400g",
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1736177259740x842139822052818200/20241205_104331.JPG"
+                ],
+                "preço novo": 6.99,
+                "desconto": 0
+            },
+            {
+                "desconto": 0,
+                "peso/und": "unidade",
+                "_id": "1736419390410x263815901510369300",
+                "cod": "059639",
+                "preço novo": 9.99,
+                "Created By": "1727110501245x441012663483715000",
+                "Modified Date": "2025-08-12T02:06:06.143Z",
+                "visivel": false,
+                "demanda": 3,
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1737128176640x666653965066720500/tempero%20ana%20maria%20carnes.jpg"
+                ],
+                "estoque": 9987,
+                "Created Date": "2025-01-09T10:43:12.704Z",
+                "tipo_unidade": "PC",
+                "descriçao": "Tempero Ana Maria Carnes - 100g",
+                "relacionados": [
+                    "1721092989856x700577105709887500",
+                    "1721092989858x744801220127189400",
+                    "1721092989871x627019346259319700"
+                ],
+                "preço antigo": 9.99,
+                "peso por unidade": 100,
+                "categorias_produto": [
+                    "Temperos e Condimentos"
+                ],
+                "nome": "Tempero Ana Maria"
+            },
+            {
+                "Created Date": "2025-01-21T01:25:15.139Z",
+                "estoque": 9658,
+                "visivel": true,
+                "preço novo": 19.99,
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1770667029175x897821600407427100/26.png"
+                ],
+                "preço antigo": 19,
+                "tipo_unidade": "UN",
+                "demanda": 67,
+                "desconto": -5.21052631578947,
+                "peso por unidade": 1000,
+                "em oferta": true,
+                "relacionados": [
+                    "1722862365708x883278346677477400",
+                    "1722862365715x514952186396092400",
+                    "1721092987994x728629767221276000",
+                    "1721092987997x130074901691759950",
+                    "1721092989506x830283852341406800",
+                    "1721092989500x258625631654315400",
+                    "1721092989827x178644173411120400"
+                ],
+                "peso/und": "unidade",
+                "_id": "1737422715523x870905380124229600",
+                "descriçao": "Ingredientes: 100% Fruta. Sem lactose, sem açúcar.\nRico em fibras que auxiliam a digestão e Vitamina A, essencial para a saúde da pele e dos olhos, além de fornecer energia de rápida absorção.\n",
+                "Created By": "1685486814495x592895131987515800",
+                "categorias_produto": [
+                    "Bebidas",
+                    "Sucos"
+                ],
+                "nome": "Suco de Manga Levee 1L",
+                "cod": "100001",
+                "Modified Date": "2026-02-28T21:45:02.183Z"
+            },
+            {
+                "_id": "1737461183234x995167662751612900",
+                "Modified Date": "2025-08-03T22:09:58.673Z",
+                "peso por unidade": 1,
+                "peso/und": "unidade",
+                "tipo_unidade": "UN",
+                "categorias_produto": [
+                    "Bebidas"
+                ],
+                "visivel": true,
+                "Created Date": "2025-01-21T12:06:23.537Z",
+                "estoque": 9993,
+                "preço novo": 14.99,
+                "desconto": 0,
+                "nome": "Suco Fruitz 900 ml",
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1737464088698x550143457565781500/Suco%20integral%20Prats%20Uva%20300%20ml.webp"
+                ],
+                "preço antigo": 14.99,
+                "Created By": "1691143865250x481074744108582500",
+                "em oferta": false,
+                "demanda": 6
+            },
+            {
+                "categorias_produto": [
+                    "Bebidas"
+                ],
+                "_id": "1737461184697x400040275519733760",
+                "peso por unidade": 1,
+                "Modified Date": "2025-11-25T18:20:23.329Z",
+                "nome": "Suco Fruitz 900 ml",
+                "preço antigo": 14.99,
+                "Created Date": "2025-01-21T12:06:24.993Z",
+                "visivel": true,
+                "estoque": 9995,
+                "em oferta": false,
+                "peso/und": "unidade",
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1737462857347x959821373455732400/Suco%20Fruitz%20900%20ml.png"
+                ],
+                "preço novo": 14.99,
+                "tipo_unidade": "UN",
+                "cod": "7898953148831",
+                "Created By": "1691143865250x481074744108582500",
+                "desconto": 0,
+                "demanda": 6
+            },
+            {
+                "_id": "1737461189406x711941357145686000",
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1737463461996x768966340027735600/Suco%20integral%20Prats%20Laranja%20300%20ml.avif"
+                ],
+                "cod": "7898953148831",
+                "peso/und": "unidade",
+                "preço novo": 14.99,
+                "desconto": 0,
+                "em oferta": false,
+                "demanda": 6,
+                "Modified Date": "2025-05-21T17:12:55.536Z",
+                "preço antigo": 14.99,
+                "peso por unidade": 1,
+                "visivel": true,
+                "estoque": 9994,
+                "Created Date": "2025-01-21T12:06:29.997Z",
+                "Created By": "1691143865250x481074744108582500",
+                "tipo_unidade": "UN",
+                "categorias_produto": [
+                    "Bebidas"
+                ],
+                "nome": "Suco Fruitz 900 ml"
+            },
+            {
+                "peso/und": "unidade",
+                "em oferta": false,
+                "_id": "1737461207481x944769940985479200",
+                "Created By": "1691143865250x481074744108582500",
+                "preço antigo": 8.49,
+                "preço novo": 8.49,
+                "desconto": 0,
+                "estoque": 10000,
+                "cod": "7898953148701",
+                "Created Date": "2025-01-21T12:06:47.757Z",
+                "demanda": 0,
+                "nome": "Suco integral Prats Laranja 300 ml",
+                "Modified Date": "2025-05-21T17:13:04.729Z",
+                "tipo_unidade": "UN",
+                "visivel": true
+            },
+            {
+                "desconto": 0,
+                "demanda": 0,
+                "categorias_produto": [
+                    "Bebidas"
+                ],
+                "tipo_unidade": "UN",
+                "_id": "1737461211930x757198863186002000",
+                "preço novo": 9.99,
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1737463709723x898475432944866000/Suco%20integral%20Prats%20Uva%20300%20ml.webp"
+                ],
+                "preço antigo": 9.99,
+                "estoque": 9996,
+                "cod": "7898953148718",
+                "Created Date": "2025-01-21T12:06:52.149Z",
+                "Modified Date": "2026-02-20T19:16:38.693Z",
+                "peso/und": "unidade",
+                "visivel": true,
+                "Created By": "1691143865250x481074744108582500",
+                "em oferta": false,
+                "nome": "Suco integral Prats Uva 300 ml"
+            },
+            {
+                "estoque": 10000,
+                "Created Date": "2025-01-21T12:45:17.619Z",
+                "peso/und": "unidade",
+                "visivel": true,
+                "desconto": 0,
+                "_id": "1737463569799x105480684629655550",
+                "tipo_unidade": "UN",
+                "preço antigo": 9.99,
+                "Modified Date": "2025-05-21T17:13:04.760Z",
+                "cod": "7898953148718",
+                "Created By": "1691143865250x481074744108582500",
+                "em oferta": false,
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1737464144636x232765325165736670/Suco%20Fruitz%20900%20ml.png"
+                ],
+                "preço novo": 9.99,
+                "nome": "Suco integral Prats Uva 300 ml",
+                "demanda": 0
+            },
+            {
+                "_id": "1737464163351x330757190804308000",
+                "preço novo": 14.99,
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1737464158934x892863854722556500/Suco%20integral%20Prats%20Laranja%20300%20ml.avif"
+                ],
+                "estoque": 10000,
+                "tipo_unidade": "UN",
+                "demanda": 6,
+                "nome": "Suco Fruitz 900 ml",
+                "Created Date": "2025-01-21T12:55:11.223Z",
+                "cod": "7898953148831",
+                "desconto": 0,
+                "em oferta": false,
+                "Created By": "1691143865250x481074744108582500",
+                "visivel": true,
+                "Modified Date": "2025-05-21T17:12:55.547Z",
+                "peso/und": "unidade"
+            },
+            {
+                "preço novo": 5.99,
+                "Created Date": "2025-01-21T12:56:40.635Z",
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1737464432142x153040661092476380/Suco%20integral%20Prats%20Limonada%20300%20ml.webp"
+                ],
+                "em oferta": false,
+                "nome": "Suco integral Prats Limonada 300 ml",
+                "tipo_unidade": "UN",
+                "desconto": 0,
+                "preço antigo": 5.99,
+                "cod": "7898953148725",
+                "estoque": 9995,
+                "peso/und": "unidade",
+                "Modified Date": "2026-02-09T18:15:43.902Z",
+                "demanda": 0,
+                "Created By": "1691143865250x481074744108582500",
+                "categorias_produto": [
+                    "Bebidas"
+                ],
+                "visivel": true,
+                "_id": "1737464252303x721825911774380000"
+            },
+            {
+                "Modified Date": "2026-02-20T19:16:38.595Z",
+                "visivel": true,
+                "_id": "1737464496531x367482040261804000",
+                "cod": "7898953148732",
+                "desconto": 0,
+                "em oferta": false,
+                "Created By": "1691143865250x481074744108582500",
+                "peso/und": "unidade",
+                "categorias_produto": [
+                    "Bebidas"
+                ],
+                "preço antigo": 7.99,
+                "estoque": 9992,
+                "demanda": 1,
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1737464682933x964951184031689600/Suco%20integral%20Prats%20Laranja%20com%20Acerola%20300%20ml.avif"
+                ],
+                "preço novo": 7.99,
+                "Created Date": "2025-01-21T13:00:44.397Z",
+                "tipo_unidade": "UN",
+                "nome": "Suco integral Prats Laranja c/ Acerola 300 ml"
+            },
+            {
+                "Modified Date": "2026-02-24T14:24:31.213Z",
+                "Created By": "1691143865250x481074744108582500",
+                "estoque": 9992,
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1737464899062x200328217733059650/Suco%20integral%20Prats%20Goiaba%20300%20ml.jpeg"
+                ],
+                "Created Date": "2025-01-21T13:04:53.993Z",
+                "_id": "1737464746107x300732539049607200",
+                "preço antigo": 7.99,
+                "em oferta": false,
+                "demanda": 0,
+                "tipo_unidade": "UN",
+                "visivel": true,
+                "cod": "7898953148749",
+                "preço novo": 7.99,
+                "desconto": 0,
+                "categorias_produto": [
+                    "Bebidas"
+                ],
+                "nome": "Suco integral Prats Goiaba  300 ml",
+                "peso/und": "unidade"
+            },
+            {
+                "cod": "7898953148619",
+                "Modified Date": "2026-02-21T13:53:31.817Z",
+                "nome": "Suco integral Prats Laranja c/ Acerola 900 ml",
+                "demanda": 0,
+                "em oferta": false,
+                "preço antigo": 18.99,
+                "tipo_unidade": "UN",
+                "peso/und": "unidade",
+                "Created Date": "2025-01-21T13:08:29.380Z",
+                "categorias_produto": [
+                    "Bebidas"
+                ],
+                "Created By": "1691143865250x481074744108582500",
+                "preço novo": 18.99,
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1737465071716x535210127385994600/Suco%20integral%20Prats%20Laranja%20com%20Acerola%20900%20ml.webp"
+                ],
+                "desconto": 0,
+                "estoque": 9977,
+                "visivel": true,
+                "_id": "1737464961451x389543908976361500"
+            },
+            {
+                "em oferta": false,
+                "tipo_unidade": "UN",
+                "categorias_produto": [
+                    "Bebidas"
+                ],
+                "peso/und": "unidade",
+                "desconto": 0,
+                "Modified Date": "2025-11-27T19:59:12.776Z",
+                "estoque": 9999,
+                "nome": "Suco integral Prats Laranja 300 ml",
+                "visivel": true,
+                "Created By": "1691143865250x481074744108582500",
+                "demanda": 0,
+                "preço novo": 18.99,
+                "_id": "1737465139798x543494229933948900",
+                "Created Date": "2025-01-21T13:11:27.649Z",
+                "preço antigo": 18.99,
+                "cod": "0000000005401",
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1737465463211x788162062063921400/Suco%20integral%20Prats%20Laranja%20900%20ml.webp"
+                ]
+            },
+            {
+                "demanda": 0,
+                "estoque": 9991,
+                "cod": "7898953148275",
+                "_id": "1737465526144x784802798973222900",
+                "Created Date": "2025-01-21T13:17:54.029Z",
+                "tipo_unidade": "UN",
+                "em oferta": false,
+                "Created By": "1691143865250x481074744108582500",
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1737465617369x721267201361381900/Suco%20integral%20Prats%20Limonada%20900%20ml.jpeg"
+                ],
+                "visivel": true,
+                "nome": "Suco integral Prats Limonada 900 ml",
+                "desconto": 0,
+                "preço novo": 14.99,
+                "preço antigo": 14.99,
+                "peso/und": "unidade",
+                "Modified Date": "2026-01-03T14:59:14.200Z",
+                "categorias_produto": [
+                    "Bebidas"
+                ]
+            },
+            {
+                "nome": "Suco integral Prats Uva 900ml",
+                "em oferta": false,
+                "estoque": 9999,
+                "categorias_produto": [
+                    "Bebidas"
+                ],
+                "tipo_unidade": "UN",
+                "preço antigo": 19.99,
+                "cod": "7898953148220",
+                "demanda": 0,
+                "Modified Date": "2025-08-05T16:41:27.921Z",
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1737465758973x988097367280362100/Suco%20integral%20Prats%20Uva%20900%20ml.webp"
+                ],
+                "desconto": 0,
+                "_id": "1737465679324x433350101101969400",
+                "Created Date": "2025-01-21T13:20:27.346Z",
+                "Created By": "1691143865250x481074744108582500",
+                "peso/und": "unidade",
+                "preço novo": 19.99,
+                "visivel": true
+            },
+            {
+                "preço antigo": 14.99,
+                "Created Date": "2025-01-21T13:22:53.279Z",
+                "nome": "Suco Panizzon Manga 1,4 L",
+                "demanda": 2,
+                "peso por unidade": 1,
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1737465946799x136404917711100640/Suco%20Panizzon%20Manga.png"
+                ],
+                "Modified Date": "2026-01-09T16:31:38.217Z",
+                "preço novo": 9.99,
+                "cod": "789626",
+                "visivel": true,
+                "Created By": "1691143865250x481074744108582500",
+                "_id": "1737465825402x102221919491194880",
+                "peso/und": "unidade",
+                "categorias_produto": [
+                    "Bebidas"
+                ],
+                "em oferta": false,
+                "desconto": 33.3555703802535,
+                "estoque": 9992,
+                "tipo_unidade": "UN"
+            },
+            {
+                "visivel": false,
+                "peso/und": "unidade",
+                "em oferta": false,
+                "demanda": 0,
+                "_id": "1737466341225x214546865573068800",
+                "Modified Date": "2025-05-21T17:13:04.861Z",
+                "nome": "Lacfree Vede",
+                "cod": "7898205924480",
+                "tipo_unidade": "UN",
+                "Created Date": "2025-01-21T13:32:21.678Z",
+                "Created By": "1691143865250x481074744108582500",
+                "estoque": 10000
+            },
+            {
+                "categorias_produto": [
+                    "Bebidas"
+                ],
+                "preço novo": 4.99,
+                "Modified Date": "2025-05-21T17:12:59.110Z",
+                "preço antigo": 4.99,
+                "tipo_unidade": "UN",
+                "desconto": 0,
+                "_id": "1737467049070x611621850023985200",
+                "cod": "789820592480",
+                "em oferta": false,
+                "peso/und": "unidade",
+                "estoque": 9996,
+                "Created Date": "2025-01-21T13:44:09.599Z",
+                "demanda": 1,
+                "Created By": "1691143865250x481074744108582500",
+                "nome": "Lacfree Verde Campo Morango 170 g",
+                "visivel": true,
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1737467249199x813061313175394000/Lacfree%20Verde%20Campo%20Morango%20170%20g.jpg"
+                ]
+            },
+            {
+                "nome": "Lacfree Verde Campo Leite 170 g",
+                "visivel": true,
+                "peso/und": "unidade",
+                "Created Date": "2025-01-21T13:47:43.682Z",
+                "tipo_unidade": "UN",
+                "categorias_produto": [
+                    "Bebidas"
+                ],
+                "Modified Date": "2025-10-23T13:10:37.027Z",
+                "cod": "7898205924497",
+                "preço novo": 4.99,
+                "Created By": "1691143865250x481074744108582500",
+                "em oferta": false,
+                "desconto": 0,
+                "_id": "1737467263487x278985985539178500",
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1737467381250x757311621115427300/Lacfree%20Verde%20Campo%20%20Leite%20170%20g.png"
+                ],
+                "demanda": 0,
+                "preço antigo": 4.99,
+                "estoque": 9996
+            },
+            {
+                "visivel": true,
+                "demanda": 4,
+                "Created By": "1691143865250x481074744108582500",
+                "cod": "7898205924466",
+                "em oferta": false,
+                "desconto": 0,
+                "categorias_produto": [
+                    "Bebidas"
+                ],
+                "estoque": 9995,
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1737467609759x390972012094654460/Lacfree%20Verde%20Campo%20Misto%20de%20Frutas%20170%20g.png"
+                ],
+                "Modified Date": "2026-01-25T21:47:52.142Z",
+                "Created Date": "2025-01-21T13:49:50.257Z",
+                "peso/und": "unidade",
+                "preço novo": 4.99,
+                "_id": "1737467389680x642957978713456600",
+                "nome": "Lacfree Verde Campo Salada de Frutas 170 g",
+                "preço antigo": 4.99,
+                "tipo_unidade": "UN"
+            },
+            {
+                "preço novo": 8.99,
+                "nome": "Wheyfit Parmalat 250 ml milho",
+                "estoque": 9996,
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1737467771092x357147609278118100/Wheyfit%20Parmalat%20250%20ml%20milho.webp"
+                ],
+                "demanda": 2,
+                "Modified Date": "2025-10-25T17:10:16.383Z",
+                "cod": "7891097106132",
+                "categorias_produto": [
+                    "Bebidas"
+                ],
+                "_id": "1737467618875x726674028101632000",
+                "Created By": "1691143865250x481074744108582500",
+                "em oferta": false,
+                "visivel": true,
+                "preço antigo": 8.99,
+                "Created Date": "2025-01-21T13:53:39.072Z",
+                "peso/und": "unidade",
+                "desconto": 0,
+                "tipo_unidade": "UN"
+            },
+            {
+                "Created By": "1691143865250x481074744108582500",
+                "estoque": 9999,
+                "_id": "1737467779937x384551178940973060",
+                "nome": "Wheyfit Parmalat 250 ml Chocolate",
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1737467884763x446158546804085200/Wheyfit%20Parmalat%20250%20ml%20chocolate.webp"
+                ],
+                "visivel": true,
+                "peso/und": "unidade",
+                "Created Date": "2025-01-21T13:56:20.578Z",
+                "em oferta": false,
+                "preço novo": 8.99,
+                "Modified Date": "2025-05-21T17:12:59.121Z",
+                "tipo_unidade": "UN",
+                "desconto": 0,
+                "categorias_produto": [
+                    "Bebidas"
+                ],
+                "cod": "7891097104343",
+                "demanda": 1,
+                "preço antigo": 8.99
+            },
+            {
+                "Created By": "1691143865250x481074744108582500",
+                "preço novo": 8.99,
+                "desconto": 0,
+                "demanda": 0,
+                "preço antigo": 8.99,
+                "visivel": true,
+                "tipo_unidade": "UN",
+                "Modified Date": "2025-05-21T17:13:04.946Z",
+                "categorias_produto": [
+                    "Bebidas"
+                ],
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1737467980624x276970321487099330/Wheyfit%20Parmalat%20250%20ml%20abacate.webp"
+                ],
+                "cod": "7891097106125",
+                "nome": "Wheyfit Parmalat 250 ml Abacate",
+                "estoque": 9997,
+                "Created Date": "2025-01-21T13:58:13.513Z",
+                "_id": "1737467893289x603528513178828800",
+                "em oferta": false,
+                "peso/und": "unidade"
+            },
+            {
+                "Modified Date": "2025-05-21T17:13:04.976Z",
+                "Created Date": "2025-01-21T13:59:51.114Z",
+                "visivel": true,
+                "cod": "7896045110407",
+                "peso/und": "unidade",
+                "categorias_produto": [
+                    "Bebidas"
+                ],
+                "_id": "1737467990897x889454700443730000",
+                "nome": "Power Whey 3 Corações Clássico 250 ml",
+                "em oferta": false,
+                "preço antigo": 9.99,
+                "tipo_unidade": "UN",
+                "estoque": 10000,
+                "desconto": 0,
+                "Created By": "1691143865250x481074744108582500",
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1737468139403x917855769234936000/Power%20Whey%203%20Cora%C3%A7%C3%B5es%20Cl%C3%A1ssico%20250%20ml.webp"
+                ],
+                "preço novo": 9.99,
+                "demanda": 0
+            },
+            {
+                "preço antigo": 9.99,
+                "visivel": true,
+                "Created By": "1691143865250x481074744108582500",
+                "peso/und": "unidade",
+                "Modified Date": "2025-05-21T17:13:04.987Z",
+                "nome": "Power Whey 3 Corações Doce de Leite 250 ml",
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1737468274815x199215004807389100/Power%20Whey%203%20Cora%C3%A7%C3%B5es%20Doce%20de%20Leite%20250%20ml.webp"
+                ],
+                "demanda": 0,
+                "preço novo": 9.99,
+                "estoque": 10000,
+                "Created Date": "2025-01-21T14:02:38.002Z",
+                "cod": "7896045110636",
+                "em oferta": false,
+                "categorias_produto": [
+                    "Bebidas"
+                ],
+                "desconto": 0,
+                "tipo_unidade": "UN",
+                "_id": "1737468157696x960961081392758800"
+            },
+            {
+                "Modified Date": "2025-05-21T17:12:57.443Z",
+                "peso/und": "unidade",
+                "tipo_unidade": "UN",
+                "preço novo": 9.99,
+                "desconto": 0,
+                "Created Date": "2025-01-21T14:04:46.386Z",
+                "Created By": "1691143865250x481074744108582500",
+                "nome": "Power Whey 3 Corações Chocolate 250 ml",
+                "estoque": 10000,
+                "preço antigo": 9.99,
+                "visivel": false,
+                "categorias_produto": [
+                    "Bebidas"
+                ],
+                "_id": "1737468286028x461512357771214850",
+                "cod": "000000",
+                "demanda": 2,
+                "em oferta": false
+            },
+            {
+                "estoque": 9998,
+                "peso/und": "unidade",
+                "cod": "7896045110667",
+                "preço novo": 9.99,
+                "preço antigo": 9.99,
+                "visivel": true,
+                "tipo_unidade": "UN",
+                "em oferta": false,
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1737468499776x268414266327535740/Power%20Whey%203%20Cora%C3%A7%C3%B5es%20Chocolate%20250%20ml.png"
+                ],
+                "categorias_produto": [
+                    "Bebidas"
+                ],
+                "nome": "Power Whey 3 Corações Chocolate 250 ml",
+                "Created By": "1691143865250x481074744108582500",
+                "_id": "1737468375267x882800118318760000",
+                "demanda": 2,
+                "desconto": 0,
+                "Modified Date": "2025-05-21T17:12:57.454Z",
+                "Created Date": "2025-01-21T14:06:15.500Z"
+            },
+            {
+                "Created By": "1691143865250x481074744108582500",
+                "em oferta": false,
+                "Created Date": "2025-01-21T14:08:29.045Z",
+                "_id": "1737468508824x356077907544637440",
+                "demanda": 1,
+                "cod": "7898205925340",
+                "preço antigo": 8.99,
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1737469050979x770673946852884900/Verde%20Campo%20NaturalWhey%20Caramelo%20250%20ml.png"
+                ],
+                "nome": "Verde Campo NaturalWhey Caramelo 250 ml",
+                "categorias_produto": [
+                    "Bebidas"
+                ],
+                "desconto": 0,
+                "Modified Date": "2025-05-21T17:12:59.135Z",
+                "tipo_unidade": "UN",
+                "preço novo": 8.99,
+                "visivel": true,
+                "estoque": 9999,
+                "peso/und": "unidade"
+            },
+            {
+                "tipo_unidade": "UN",
+                "visivel": true,
+                "estoque": 10000,
+                "em oferta": false,
+                "categorias_produto": [
+                    "Bebidas"
+                ],
+                "cod": "7898205924398",
+                "demanda": 0,
+                "desconto": 0,
+                "nome": "Verde Campo NaturalWhey Baunilha250 ml",
+                "preço novo": 8.99,
+                "preço antigo": 8.99,
+                "_id": "1737468771825x583674316010029000",
+                "Created By": "1691143865250x481074744108582500",
+                "Modified Date": "2025-05-21T17:13:05.000Z",
+                "peso/und": "unidade",
+                "Created Date": "2025-01-21T14:12:52.172Z",
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1737469163190x301057192692999040/Verde%20Campo%20NaturalWhey%20Baunilha250%20ml.png"
+                ]
+            },
+            {
+                "nome": "Verde Campo NaturalWhey Cappucino 250 ml",
+                "cod": "7898205925364",
+                "peso/und": "unidade",
+                "em oferta": false,
+                "preço novo": 8.99,
+                "Created By": "1691143865250x481074744108582500",
+                "tipo_unidade": "UN",
+                "visivel": true,
+                "desconto": 0,
+                "Modified Date": "2025-05-21T17:13:05.020Z",
+                "_id": "1737469058866x650745547484823600",
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1737469296824x910584293387769900/Verde%20Campo%20NaturalWhey%20Cappucino%20250%20ml.png"
+                ],
+                "demanda": 0,
+                "preço antigo": 8.99,
+                "categorias_produto": [
+                    "Bebidas"
+                ],
+                "estoque": 10000,
+                "Created Date": "2025-01-21T14:17:39.089Z"
+            },
+            {
+                "Created By": "1691143865250x481074744108582500",
+                "tipo_unidade": "UN",
+                "em oferta": false,
+                "desconto": 0,
+                "Created Date": "2025-01-21T14:19:41.584Z",
+                "peso/und": "unidade",
+                "demanda": 0,
+                "preço novo": 29.9,
+                "nome": "Verde Campo NaturalWhey Chocolate 250 ml",
+                "visivel": true,
+                "categorias_produto": [
+                    "Bebidas",
+                    "Laticíneos"
+                ],
+                "Modified Date": "2025-05-21T17:13:05.031Z",
+                "cod": "7898907194082",
+                "preço antigo": 29.9,
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1737469430217x442950636478926660/Verde%20Campo%20NaturalWhey%20Chocolate%20250%20ml.png"
+                ],
+                "estoque": 10000,
+                "_id": "1737469181340x746709142621651000"
+            },
+            {
+                "nome": "Doniro Frut Figo Pré Cozido1,15 k",
+                "peso/und": "unidade",
+                "preço novo": 39.99,
+                "categorias_produto": [
+                    "Laticíneos"
+                ],
+                "Created By": "1691143865250x481074744108582500",
+                "desconto": 0,
+                "tipo_unidade": "UN",
+                "em oferta": false,
+                "demanda": 0,
+                "preço antigo": 39.99,
+                "_id": "1737469309919x597704602721189900",
+                "Created Date": "2025-01-21T14:21:50.151Z",
+                "cod": "7898907194013",
+                "visivel": true,
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1737469774552x388283986643244350/Doniro%20Frut%20Figo%20Pr%C3%A9%20Cozido1%2C15%20k.webp"
+                ],
+                "estoque": 9999,
+                "Modified Date": "2025-05-21T17:13:05.042Z"
+            },
+            {
+                "preço novo": 18.99,
+                "_id": "1737469462243x926746306706669600",
+                "cod": "789899",
+                "peso por unidade": 2000,
+                "preço antigo": 12.99,
+                "categorias_produto": [
+                    "Frutas"
+                ],
+                "desconto": -46.189376443418,
+                "Modified Date": "2025-08-21T12:01:19.519Z",
+                "Created Date": "2025-01-21T14:24:22.510Z",
+                "em oferta": false,
+                "Created By": "1691143865250x481074744108582500",
+                "visivel": false,
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1737469915904x314244036515502600/Mirtilos%20Terra%20Azul%20125%20g.webp"
+                ],
+                "nome": "Mirtilos Terra Azul 125 g",
+                "estoque": 9975,
+                "demanda": 18,
+                "tipo_unidade": "UN",
+                "peso/und": "unidade"
+            },
+            {
+                "tipo_unidade": "UN",
+                "Created By": "1691143865250x481074744108582500",
+                "cod": "789659",
+                "Modified Date": "2025-07-22T17:05:50.899Z",
+                "estoque": 9988,
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1737470816597x763582205791833100/Cemil%20morango%20200%20ml.png"
+                ],
+                "peso por unidade": 30,
+                "Created Date": "2025-01-21T14:24:24.715Z",
+                "em oferta": false,
+                "peso/und": "unidade",
+                "preço novo": 2.99,
+                "desconto": -76.92307692307693,
+                "visivel": true,
+                "_id": "1737469464462x528017531329576960",
+                "preço antigo": 1.69,
+                "categorias_produto": [
+                    "Bebidas"
+                ],
+                "demanda": 0,
+                "nome": "Cemil morango 200 ml "
+            },
+            {
+                "tipo_unidade": "UN",
+                "cod": "789659",
+                "peso/und": "unidade",
+                "demanda": 10,
+                "nome": "Chocomil cemil 200 ml ",
+                "categorias_produto": [
+                    "Bebidas"
+                ],
+                "Created By": "1691143865250x481074744108582500",
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1737470919114x851794966558488300/Chocomil%20cemil%20200%20ml.jpg"
+                ],
+                "_id": "1737469650861x868526138300563500",
+                "visivel": true,
+                "Created Date": "2025-01-21T14:27:31.098Z",
+                "estoque": 9944,
+                "em oferta": false,
+                "desconto": 43.47826086956522,
+                "preço novo": 1.69,
+                "Modified Date": "2026-03-03T15:48:26.276Z",
+                "peso por unidade": 60,
+                "preço antigo": 2.99
+            },
+            {
+                "em oferta": false,
+                "visivel": true,
+                "preço novo": 2.99,
+                "desconto": -76.92307692307693,
+                "preço antigo": 1.69,
+                "cod": "789659",
+                "_id": "1737469784720x608664612187668500",
+                "tipo_unidade": "UN",
+                "Modified Date": "2025-08-03T00:42:56.992Z",
+                "peso/und": "unidade",
+                "categorias_produto": [
+                    "Bebidas"
+                ],
+                "peso por unidade": 50,
+                "demanda": 12,
+                "estoque": 9976,
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1737471015866x576788763247601900/Vitamil%20cemil%20200%20ml.jpeg"
+                ],
+                "Created Date": "2025-01-21T14:29:45.050Z",
+                "nome": "Vitamil cemil 200 ml ",
+                "Created By": "1691143865250x481074744108582500"
+            },
+            {
+                "visivel": true,
+                "em oferta": false,
+                "Modified Date": "2026-01-09T12:09:51.191Z",
+                "estoque": 9996,
+                "tipo_unidade": "UN",
+                "desconto": 0,
+                "nome": "A tal da castanha Caju e Coco 1L ",
+                "Created Date": "2025-01-21T14:47:09.305Z",
+                "cod": "7898955705186",
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1737471297079x955411090717296500/A%20tal%20da%20castanha%20Caju%20e%20Coco%201L.png"
+                ],
+                "categorias_produto": [
+                    "Bebidas"
+                ],
+                "preço novo": 21.99,
+                "preço antigo": 21.99,
+                "Created By": "1691143865250x481074744108582500",
+                "_id": "1737470828486x132687095760420860",
+                "demanda": 1,
+                "peso/und": "unidade"
+            },
+            {
+                "nome": "A tal da Castanha Amendoa 1 L",
+                "preço novo": 21.99,
+                "tipo_unidade": "UN",
+                "visivel": true,
+                "Modified Date": "2025-09-25T13:31:18.398Z",
+                "Created Date": "2025-01-21T14:48:47.620Z",
+                "em oferta": false,
+                "demanda": 1,
+                "desconto": 0,
+                "categorias_produto": [
+                    "Bebidas"
+                ],
+                "cod": "7898955705490",
+                "estoque": 9998,
+                "_id": "1737470927300x764276109295484900",
+                "Created By": "1691143865250x481074744108582500",
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1737471494656x725882503706924800/A%20tal%20da%20Castanha%20Amendoa%201%20L.png"
+                ],
+                "preço antigo": 21.99,
+                "peso/und": "unidade"
+            },
+            {
+                "tipo_unidade": "UN",
+                "demanda": 0,
+                "categorias_produto": [
+                    "Laticíneos"
+                ],
+                "Created By": "1691143865250x481074744108582500",
+                "visivel": true,
+                "preço novo": 18.99,
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1737471623823x263841179513241380/Organicos%20Raiar%20Clara%20de%20ovo%20pasteurizada.png"
+                ],
+                "estoque": 9995,
+                "cod": "7898725610177",
+                "peso/und": "unidade",
+                "em oferta": false,
+                "_id": "1737471023592x785800897485340700",
+                "desconto": 0,
+                "Modified Date": "2026-02-13T16:59:54.575Z",
+                "nome": "Organicos Raiar Clara de ovo pasteurizada ",
+                "Created Date": "2025-01-21T14:50:23.883Z",
+                "preço antigo": 18.99
+            },
+            {
+                "tipo_unidade": "UN",
+                "cod": "7898955705049",
+                "Modified Date": "2025-12-20T00:35:03.440Z",
+                "categorias_produto": [
+                    "Bebidas"
+                ],
+                "em oferta": false,
+                "desconto": 0,
+                "_id": "1737471323459x915959556579524600",
+                "Created By": "1691143865250x481074744108582500",
+                "preço novo": 21.99,
+                "demanda": 0,
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1737472032340x732826356519824500/A%20tal%20da%20Castanha%20original%201%20L.webp"
+                ],
+                "visivel": true,
+                "peso/und": "unidade",
+                "preço antigo": 21.99,
+                "Created Date": "2025-01-21T14:55:23.736Z",
+                "nome": "A tal da Castanha original 1 L ",
+                "estoque": 9999
+            },
+            {
+                "estoque": 10000,
+                "Created By": "1691143865250x481074744108582500",
+                "Modified Date": "2025-05-21T17:13:05.086Z",
+                "visivel": true,
+                "em oferta": false,
+                "_id": "1737471503745x372268623365668860",
+                "demanda": 0,
+                "nome": "A tal da Castanha original 1 L ",
+                "cod": "7898955705049",
+                "preço novo": 21.99,
+                "desconto": 0,
+                "preço antigo": 21.99,
+                "peso/und": "unidade",
+                "tipo_unidade": "UN",
+                "Created Date": "2025-01-21T14:58:24.020Z"
+            },
+            {
+                "Created By": "1691143865250x481074744108582500",
+                "desconto": 0,
+                "Modified Date": "2025-06-02T17:42:19.443Z",
+                "_id": "1737471633951x401220821033156600",
+                "em oferta": false,
+                "preço antigo": 21.99,
+                "Created Date": "2025-01-21T15:00:34.986Z",
+                "cod": "7898955705179",
+                "demanda": 1,
+                "estoque": 9997,
+                "tipo_unidade": "UN",
+                "visivel": true,
+                "peso/und": "unidade",
+                "nome": "A tal da Castanha Choconuts 1 L ",
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1737472175444x642268181649961000/A%20tal%20da%20Castanha%20Choconuts%201%20L.webp"
+                ],
+                "categorias_produto": [
+                    "Bebidas"
+                ],
+                "preço novo": 21.99
+            },
+            {
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1737472307851x180538503081273180/3%20cora%C3%A7%C3%B5es%20caf%C3%A9%20com%20leite%20260%20ml.webp"
+                ],
+                "preço antigo": 11.9,
+                "preço novo": 11.9,
+                "tipo_unidade": "UN",
+                "demanda": 3,
+                "nome": "Queijo tipo cottage Entre Rios 250 g ",
+                "categorias_produto": [
+                    "Bebidas"
+                ],
+                "visivel": true,
+                "Created By": "1691143865250x481074744108582500",
+                "estoque": 10000,
+                "em oferta": false,
+                "peso/und": "unidade",
+                "cod": "7896651000451",
+                "Created Date": "2025-01-21T15:07:36.788Z",
+                "desconto": 0,
+                "_id": "1737472056504x603679199262408700",
+                "Modified Date": "2025-05-21T17:12:56.819Z"
+            },
+            {
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1737472428673x603122918485783200/3%20cora%C3%A7%C3%B5es%20cappuccino%20260%20ml.png"
+                ],
+                "Created By": "1691143865250x481074744108582500",
+                "em oferta": false,
+                "tipo_unidade": "UN",
+                "cod": "0192505300805",
+                "peso/und": "unidade",
+                "preço novo": 6.99,
+                "Created Date": "2025-01-21T15:09:45.920Z",
+                "estoque": 10000,
+                "visivel": true,
+                "demanda": 0,
+                "nome": "Limão desidratado Saúde Plena 20 g",
+                "categorias_produto": [
+                    "Bebidas"
+                ],
+                "preço antigo": 6.99,
+                "Modified Date": "2025-05-21T17:13:05.096Z",
+                "desconto": 0,
+                "_id": "1737472185614x923785597107568600"
+            },
+            {
+                "tipo_unidade": "UN",
+                "preço novo": 8.99,
+                "Created Date": "2025-01-21T15:12:02.861Z",
+                "desconto": 0,
+                "Created By": "1691143865250x481074744108582500",
+                "cod": "019250",
+                "demanda": 0,
+                "em oferta": false,
+                "peso por unidade": 80,
+                "estoque": 9998,
+                "_id": "1737472322496x474542756920557600",
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1741795116755x222305796629848060/PIMENTA%20CALABRESA%20EM%20P%C3%93%2080G.JPG"
+                ],
+                "Modified Date": "2026-01-07T16:28:22.408Z",
+                "preço antigo": 8.99,
+                "nome": "Pimenta Calabresa 80 g Saúde Plena ",
+                "categorias_produto": [
+                    "Bebidas"
+                ],
+                "visivel": true,
+                "peso/und": "unidade"
+            },
+            {
+                "categorias_produto": [
+                    "Bebidas"
+                ],
+                "nome": "Erva doce Jhocan 10g",
+                "peso/und": "unidade",
+                "Created Date": "2025-01-21T15:13:56.576Z",
+                "demanda": 0,
+                "Modified Date": "2025-07-19T16:52:55.120Z",
+                "preço novo": 3.99,
+                "_id": "1737472435843x957629311501467600",
+                "cod": "7898567050384",
+                "tipo_unidade": "UN",
+                "Created By": "1691143865250x481074744108582500",
+                "desconto": 0,
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1737484660346x691864203558832900/66749ee3794b28e6f2772081_66561ea63dffcb8b817dc8ce_Sach25AA_-_Especiaria_-_erva_doce_10.png"
+                ],
+                "visivel": true,
+                "estoque": 9999,
+                "em oferta": false,
+                "preço antigo": 3.99
+            }
+        ],
+        "count": 100,
+        "remaining": 409
+    }
+}

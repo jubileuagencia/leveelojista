@@ -1,6 +1,6 @@
 "use client";
 
-import { useEffect, useRef, useState } from "react";
+import { useRef } from "react";
 import Image from "next/image";
 import { motion, useInView } from "framer-motion";
 import CostarSection from "@/components/ui/CostarSection";
@@ -48,40 +48,27 @@ const GLYPHS = ["☉", "☽", "☿", "♀", "♂", "♃", "♄", "♅", "♆", "
 function AnimatedChart() {
   const chartRef = useRef(null);
   const isInView = useInView(chartRef, { once: true, amount: 0.3 });
-  const [activeLayer, setActiveLayer] = useState(0);
-
-  useEffect(() => {
-    if (!isInView) return;
-    const interval = setInterval(() => {
-      setActiveLayer((prev) => (prev + 1) % 5);
-    }, 3000);
-    return () => clearInterval(interval);
-  }, [isInView]);
 
   return (
     <div ref={chartRef} className="relative w-full max-w-[380px] mx-auto aspect-square">
       <svg viewBox="0 0 400 400" className="w-full h-full">
-        {/* Layer 1: Outer ring - Signs */}
+        {/* Outer rings */}
         <motion.circle
           cx="200" cy="200" r="185"
-          fill="none" stroke="white"
-          strokeWidth={activeLayer === 0 ? 1.5 : 0.5}
-          opacity={activeLayer === 0 ? 0.5 : 0.15}
+          fill="none" stroke="white" strokeWidth="0.8" opacity="0.3"
           initial={{ pathLength: 0 }}
           animate={isInView ? { pathLength: 1 } : {}}
           transition={{ duration: 2, ease: "easeInOut" }}
         />
         <motion.circle
           cx="200" cy="200" r="165"
-          fill="none" stroke="white"
-          strokeWidth={activeLayer === 0 ? 1 : 0.3}
-          opacity={activeLayer === 0 ? 0.4 : 0.1}
+          fill="none" stroke="white" strokeWidth="0.5" opacity="0.2"
           initial={{ pathLength: 0 }}
           animate={isInView ? { pathLength: 1 } : {}}
           transition={{ duration: 2, delay: 0.3, ease: "easeInOut" }}
         />
 
-        {/* Layer 3: House divisions - 12 lines */}
+        {/* House divisions - 12 lines */}
         {[0, 30, 60, 90, 120, 150, 180, 210, 240, 270, 300, 330].map((angle, i) => {
           const rad = (angle * Math.PI) / 180;
           const x1 = 200 + Math.cos(rad) * 145;
@@ -91,9 +78,7 @@ function AnimatedChart() {
           return (
             <motion.line
               key={angle} x1={x1} y1={y1} x2={x2} y2={y2}
-              stroke="white"
-              strokeWidth={activeLayer === 2 ? 1 : 0.4}
-              opacity={activeLayer === 2 ? 0.5 : 0.15}
+              stroke="white" strokeWidth="0.5" opacity="0.2"
               initial={{ pathLength: 0 }}
               animate={isInView ? { pathLength: 1 } : {}}
               transition={{ duration: 0.5, delay: 0.8 + i * 0.08 }}
@@ -104,15 +89,13 @@ function AnimatedChart() {
         {/* Inner house ring */}
         <motion.circle
           cx="200" cy="200" r="145"
-          fill="none" stroke="white"
-          strokeWidth={activeLayer === 2 ? 1 : 0.3}
-          opacity={activeLayer === 2 ? 0.4 : 0.1}
+          fill="none" stroke="white" strokeWidth="0.4" opacity="0.15"
           initial={{ pathLength: 0 }}
           animate={isInView ? { pathLength: 1 } : {}}
           transition={{ duration: 1.5, delay: 0.5 }}
         />
 
-        {/* Layer 2: Planet glyphs */}
+        {/* Planet glyphs */}
         {GLYPHS.map((glyph, i) => {
           const angle = (i * 30 + 15) * Math.PI / 180;
           const r = 115;
@@ -121,12 +104,9 @@ function AnimatedChart() {
           return (
             <motion.text
               key={i} x={x} y={y + 4}
-              fill="white"
-              fontSize="14"
-              textAnchor="middle"
-              opacity={activeLayer === 1 ? 0.7 : 0.25}
+              fill="white" fontSize="14" textAnchor="middle"
               initial={{ opacity: 0 }}
-              animate={isInView ? { opacity: activeLayer === 1 ? 0.7 : 0.25 } : {}}
+              animate={isInView ? { opacity: 0.35 } : {}}
               transition={{ duration: 0.6, delay: 1.5 + i * 0.1 }}
             >
               {glyph}
@@ -134,20 +114,18 @@ function AnimatedChart() {
           );
         })}
 
-        {/* Layer 4: Aspect lines */}
+        {/* Aspect lines */}
         {[
-          { x1: 140, y1: 120, x2: 280, y2: 260, color: "white" },
-          { x1: 120, y1: 240, x2: 300, y2: 180, color: "white" },
-          { x1: 200, y1: 100, x2: 160, y2: 290, color: "white" },
-          { x1: 260, y1: 120, x2: 140, y2: 280, color: "white" },
-          { x1: 150, y1: 160, x2: 270, y2: 230, color: "white" },
+          { x1: 140, y1: 120, x2: 280, y2: 260 },
+          { x1: 120, y1: 240, x2: 300, y2: 180 },
+          { x1: 200, y1: 100, x2: 160, y2: 290 },
+          { x1: 260, y1: 120, x2: 140, y2: 280 },
+          { x1: 150, y1: 160, x2: 270, y2: 230 },
         ].map((line, i) => (
           <motion.line
             key={`aspect-${i}`}
             x1={line.x1} y1={line.y1} x2={line.x2} y2={line.y2}
-            stroke={line.color}
-            strokeWidth={activeLayer === 3 ? 1 : 0.4}
-            opacity={activeLayer === 3 ? 0.4 : 0.08}
+            stroke="white" strokeWidth="0.5" opacity="0.12"
             strokeDasharray={i === 2 ? "4 4" : "none"}
             initial={{ pathLength: 0 }}
             animate={isInView ? { pathLength: 1 } : {}}
@@ -164,15 +142,14 @@ function AnimatedChart() {
           <motion.circle
             key={`dot-${i}`}
             cx={p.x} cy={p.y} r="3"
-            fill="white"
-            opacity={activeLayer === 1 ? 0.6 : 0.3}
+            fill="white" opacity="0.35"
             initial={{ scale: 0 }}
             animate={isInView ? { scale: 1 } : {}}
             transition={{ duration: 0.3, delay: 2.5 + i * 0.08 }}
           />
         ))}
 
-        {/* Layer 5: Cardinal labels */}
+        {/* Cardinal labels */}
         {[
           { x: 28, y: 204, label: "AC" },
           { x: 358, y: 204, label: "DC" },
@@ -182,9 +159,8 @@ function AnimatedChart() {
           <motion.text
             key={lbl.label} x={lbl.x} y={lbl.y}
             fill="white" fontSize="9" fontFamily="monospace"
-            opacity={activeLayer === 4 ? 0.5 : 0.2}
             initial={{ opacity: 0 }}
-            animate={isInView ? { opacity: activeLayer === 4 ? 0.5 : 0.2 } : {}}
+            animate={isInView ? { opacity: 0.3 } : {}}
             transition={{ duration: 0.5, delay: 3 }}
           >
             {lbl.label}
@@ -200,19 +176,6 @@ function AnimatedChart() {
           <circle cx="200" cy="200" r="195" fill="none" stroke="white" strokeWidth="0.2" opacity="0.08" strokeDasharray="2 8" />
         </motion.g>
       </svg>
-
-      {/* Layer indicator */}
-      <div className="absolute bottom-0 left-0 right-0 flex justify-center gap-2">
-        {LAYERS.map((_, i) => (
-          <button
-            key={i}
-            onClick={() => setActiveLayer(i)}
-            className={`w-1.5 h-1.5 transition-all duration-300 ${
-              activeLayer === i ? "bg-white scale-150" : "bg-white/20"
-            }`}
-          />
-        ))}
-      </div>
     </div>
   );
 }

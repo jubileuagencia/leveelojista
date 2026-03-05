@@ -1,4 +1,3 @@
-import Image from "next/image";
 import CostarSection from "@/components/ui/CostarSection";
 import CostarButton from "@/components/ui/CostarButton";
 import { CHECKOUT_URLS } from "@/lib/constants";
@@ -63,19 +62,6 @@ export default function CostarDifferentiator() {
         </span>
         &rdquo;
       </blockquote>
-
-      {/* Victor image */}
-      <div className="fade-in flex justify-center mb-12">
-        <div className="relative w-52 h-64 border border-white/10 overflow-hidden">
-          <Image
-            src="/assets/victor-curvado.jpeg"
-            alt="Victor"
-            fill
-            className="object-cover grayscale"
-            sizes="208px"
-          />
-        </div>
-      </div>
 
       <div className="fade-in text-center">
         <CostarButton href={CHECKOUT_URLS.curso} variant="ghost">

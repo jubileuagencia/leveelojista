@@ -35,9 +35,12 @@ interface ResultData {
 interface ResultStepProps {
   data: ResultData;
   onReset: () => void;
+  userName?: string;
+  manychatId?: string;
+  cached?: boolean;
 }
 
-export default function ResultStep({ data, onReset }: ResultStepProps) {
+export default function ResultStep({ data, onReset, userName, manychatId, cached }: ResultStepProps) {
   const containerRef = useRef<HTMLDivElement>(null);
 
   useEffect(() => {
@@ -62,9 +65,23 @@ export default function ResultStep({ data, onReset }: ResultStepProps) {
 
   return (
     <div ref={containerRef} className="max-w-lg mx-auto space-y-12">
+      {/* Cached notice */}
+      {cached && (
+        <div className="fade-in text-center border border-white/10 bg-white/[0.03] px-6 py-4">
+          <span className="font-mono text-[0.55rem] tracking-[3px] uppercase text-white/60">
+            Mapa recuperado
+          </span>
+          <p className="text-white/50 text-sm font-body mt-1">
+            {userName
+              ? `${userName}, já tínhamos seu mapa astral salvo!`
+              : "Já encontramos seu mapa astral no nosso banco de dados!"}
+          </p>
+        </div>
+      )}
+
       {/* Ascendant Hero */}
       <div className="fade-in text-center">
-        <span className="font-mono text-[0.55rem] tracking-[5px] uppercase text-white/30">
+        <span className="font-mono text-[0.55rem] tracking-[5px] uppercase text-white/50">
           Seu ascendente
         </span>
         <div className="mt-4 mb-2">
@@ -73,15 +90,17 @@ export default function ResultStep({ data, onReset }: ResultStepProps) {
         <h2 className="font-display text-3xl md:text-4xl text-white/90">
           {data.ascendant.sign}
         </h2>
-        <p className="text-white/40 text-sm font-body mt-2">
-          A lente através da qual o mundo te vê
+        <p className="text-white/60 text-sm font-body mt-2">
+          {userName
+            ? `Seu ascendente é ${data.ascendant.sign}, ${userName}!`
+            : "A lente através da qual o mundo te vê"}
         </p>
       </div>
 
       {/* Planet Positions */}
       <div className="fade-in">
         <div className="text-center mb-6">
-          <span className="font-mono text-[0.55rem] tracking-[5px] uppercase text-white/30">
+          <span className="font-mono text-[0.55rem] tracking-[5px] uppercase text-white/50">
             Posições planetárias
           </span>
         </div>
@@ -103,7 +122,7 @@ export default function ResultStep({ data, onReset }: ResultStepProps) {
       {/* Eclipse Card */}
       <div className="fade-in">
         <div className="text-center mb-6">
-          <span className="font-mono text-[0.55rem] tracking-[5px] uppercase text-white/30">
+          <span className="font-mono text-[0.55rem] tracking-[5px] uppercase text-white/50">
             Eclipse lunar no seu mapa
           </span>
         </div>
@@ -111,6 +130,7 @@ export default function ResultStep({ data, onReset }: ResultStepProps) {
           house={data.eclipse.house}
           theme={data.eclipse.theme}
           substackUrl={data.eclipse.meta.substackUrl}
+          manychatId={manychatId}
         />
       </div>
 
@@ -119,7 +139,7 @@ export default function ResultStep({ data, onReset }: ResultStepProps) {
         <button
           type="button"
           onClick={onReset}
-          className="font-mono text-[0.65rem] tracking-[2px] uppercase text-white/30 hover:text-white/60 transition-colors border-b border-white/10 hover:border-white/30 pb-0.5"
+          className="font-mono text-[0.65rem] tracking-[2px] uppercase text-white/50 hover:text-white/80 transition-colors border-b border-white/15 hover:border-white/40 pb-0.5"
         >
           Calcular outro mapa
         </button>

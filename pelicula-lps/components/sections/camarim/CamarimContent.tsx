@@ -29,7 +29,7 @@ const WEEKS = [
   },
   {
     badge: "SEX",
-    title: "Conteúdo complementar",
+    title: "Mergulho temático",
     items: [
       "Mini-interpretações temáticas (ex: Eclipse em cada signo)",
       "Glossários e materiais de apoio",
@@ -62,7 +62,7 @@ export default function CamarimContent() {
           Calendário semanal
         </span>
         <h2 className="fade-in font-display text-3xl md:text-5xl font-bold mb-4">
-          O que acontece a cada semana
+          Sua semana no Camarim
         </h2>
         <p className="fade-in text-text-soft text-lg max-w-[700px] mx-auto">
           Uma estrutura consistente que transforma astrologia em prática

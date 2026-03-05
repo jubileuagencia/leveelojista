@@ -1,6 +1,6 @@
 "use client";
 
-import { useState, useRef, useEffect, useCallback } from "react";
+import { useState } from "react";
 import Image from "next/image";
 import CostarSection from "@/components/ui/CostarSection";
 import CostarButton from "@/components/ui/CostarButton";
@@ -38,19 +38,6 @@ const FAQS = [
 ];
 
 function FAQItem({ faq, isOpen, onToggle }: { faq: typeof FAQS[0]; isOpen: boolean; onToggle: () => void }) {
-  const contentRef = useRef<HTMLDivElement>(null);
-  const [height, setHeight] = useState(0);
-
-  const updateHeight = useCallback(() => {
-    if (contentRef.current) {
-      setHeight(contentRef.current.scrollHeight);
-    }
-  }, []);
-
-  useEffect(() => {
-    updateHeight();
-  }, [isOpen, updateHeight]);
-
   return (
     <div
       className={`fade-in border-b transition-colors duration-300 ${
@@ -82,12 +69,10 @@ function FAQItem({ faq, isOpen, onToggle }: { faq: typeof FAQS[0]; isOpen: boole
       </button>
 
       <div
-        className="overflow-hidden transition-[max-height] duration-500 ease-in-out"
-        style={{
-          maxHeight: isOpen ? `${height}px` : "0px",
-        }}
+        className="grid transition-[grid-template-rows] duration-500 ease-in-out"
+        style={{ gridTemplateRows: isOpen ? "1fr" : "0fr" }}
       >
-        <div ref={contentRef}>
+        <div className="overflow-hidden">
           <p className="pb-5 text-white/40 text-sm leading-relaxed">
             {faq.a}
           </p>

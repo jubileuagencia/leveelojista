@@ -1,0 +1,50 @@
+{
+  "version": 1,
+  "skills": {
+    "anthropics-campaign-planning": {
+      "source": "smithery.ai",
+      "sourceType": "well-known",
+      "computedHash": "6e038e3b37b5cc1392aaf15aa6fb70d077af1a8c4527e25b25f66363982faf46"
+    },
+    "composiohq-content-research-writer": {
+      "source": "smithery.ai",
+      "sourceType": "well-known",
+      "computedHash": "30df436f274e8bdd584b5ebe25153684a8f8f7d755b0b7518d9a216f9e6f0d4a"
+    },
+    "davila7-content-creator": {
+      "source": "smithery.ai",
+      "sourceType": "well-known",
+      "computedHash": "2a0609d7e7aa5215046be9eb25261168f4d2832f0ab36b964146b88fcce43da8"
+    },
+    "davila7-copywriting": {
+      "source": "smithery.ai",
+      "sourceType": "well-known",
+      "computedHash": "8cd44f5c4573b0780e50ccde113488dd3f647f5eacee275a130d5db8e5bde062"
+    },
+    "davila7-social-content": {
+      "source": "smithery.ai",
+      "sourceType": "well-known",
+      "computedHash": "dcad125865b3614dfe0b46876b31c61eef201e84b649178252591f5324614a2b"
+    },
+    "feiskyer-deep-research": {
+      "source": "smithery.ai",
+      "sourceType": "well-known",
+      "computedHash": "e8957eaf5d30416d1a51d4f67d3d1cd33adfdebf82e8b019268d202849e4ab8c"
+    },
+    "gtmagents-brand-narrative-playbook": {
+      "source": "smithery.ai",
+      "sourceType": "well-known",
+      "computedHash": "412b078f6104acb543d13c5c6314dfa54c1c579bd58f1fc91603d5d7dc2cd0bb"
+    },
+    "gtmagents-social-calendar-system": {
+      "source": "smithery.ai",
+      "sourceType": "well-known",
+      "computedHash": "c987342ced36d0ac29cf50966c4d5f1888c6c2bfb4073a45ff6467aa98dfe71c"
+    },
+    "smithery-ai-cli": {
+      "source": "smithery.ai",
+      "sourceType": "well-known",
+      "computedHash": "edf3c62fee13c4ba6702f9f3341c584397e4a3eac25b1cdf08f91836a45adbfe"
+    }
+  }
+}

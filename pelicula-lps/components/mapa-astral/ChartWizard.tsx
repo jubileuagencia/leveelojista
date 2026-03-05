@@ -1,6 +1,7 @@
 "use client";
 
 import { useState } from "react";
+import { useSearchParams } from "next/navigation";
 import FormStep from "./FormStep";
 import LoadingStep from "./LoadingStep";
 import ResultStep from "./ResultStep";
@@ -34,12 +35,20 @@ interface ChartResult {
       substackUrl: string;
     };
   };
+  cached?: boolean;
 }
 
 export default function ChartWizard() {
+  const searchParams = useSearchParams();
+  const mcId = searchParams.get("mc_id") ?? "";
+  const urlName = searchParams.get("name") ?? "";
+  const urlIg = searchParams.get("ig") ?? "";
+
   const [step, setStep] = useState<Step>("form");
   const [result, setResult] = useState<ChartResult | null>(null);
   const [error, setError] = useState<string | null>(null);
+  const [userName, setUserName] = useState(urlName);
+  const [manychatId, setManychatId] = useState(mcId);
 
   async function handleSubmit(formData: {
     name: string;
@@ -50,9 +59,13 @@ export default function ChartWizard() {
     hour: string;
     minute: string;
     citySlug: string;
+    instagram: string;
+    manychatId: string;
   }) {
     setStep("loading");
     setError(null);
+    setUserName(formData.name);
+    setManychatId(formData.manychatId);
 
     try {
       const res = await fetch("/api/chart", {
@@ -67,6 +80,8 @@ export default function ChartWizard() {
           hour: Number(formData.hour),
           minute: Number(formData.minute),
           citySlug: formData.citySlug,
+          instagram: formData.instagram,
+          manychatId: formData.manychatId,
         }),
       });
 
@@ -78,6 +93,17 @@ export default function ChartWizard() {
 
       setResult(data);
       setStep("result");
+
+      // Pixel X — evento de conversão (mapa calculado)
+      try {
+        const pxUrl = `${window.location.href}${window.location.search ? "&" : "?"}px_event=mapa_calculado`;
+        const s = document.createElement("script");
+        s.src = `https://pxa.peliculasideral.com.br/remote?url=${encodeURIComponent(pxUrl)}&title=${encodeURIComponent(document.title + " [CONVERSAO]")}&time=${Date.now()}`;
+        s.async = true;
+        document.head.appendChild(s);
+      } catch {
+        // silently ignore tracking errors
+      }
     } catch (err) {
       setError(err instanceof Error ? err.message : "Erro inesperado");
       setStep("form");
@@ -99,13 +125,21 @@ export default function ChartWizard() {
       )}
 
       {step === "form" && (
-        <FormStep onSubmit={handleSubmit} isSubmitting={false} />
+        <FormStep
+          onSubmit={handleSubmit}
+          isSubmitting={false}
+          initialData={{
+            name: urlName,
+            instagram: urlIg,
+            manychatId: mcId,
+          }}
+        />
       )}
 
       {step === "loading" && <LoadingStep />}
 
       {step === "result" && result && (
-        <ResultStep data={result} onReset={handleReset} />
+        <ResultStep data={result} onReset={handleReset} userName={userName} manychatId={manychatId} cached={result.cached} />
       )}
     </div>
   );

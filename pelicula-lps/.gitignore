@@ -1,1 +1,4 @@
 .vercel
+
+# Generated city data (source: data/cities15000.csv, run: node scripts/process-cities.js)
+data/cities15000.csv

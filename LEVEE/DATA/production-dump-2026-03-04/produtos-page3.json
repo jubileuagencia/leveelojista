@@ -1,0 +1,3274 @@
+{
+    "response": {
+        "cursor": 200,
+        "results": [
+            {
+                "peso por unidade": 250,
+                "categorias_produto": [
+                    "Outros"
+                ],
+                "preço novo": 29.99,
+                "nome": "Doce De Leite",
+                "_id": "1721092987345x176714068006462500",
+                "Modified Date": "2025-06-14T14:11:45.677Z",
+                "Created Date": "2024-07-16T01:23:07.345Z",
+                "descriçao": "Doce de leite tradicional cremoso, vendido a quilo. Usos: Consumir como doce, recheio para bolos e tortas ou ingrediente em receitas.",
+                "visivel": false,
+                "peso/und": "peso",
+                "desconto": 0,
+                "estoque": 95256,
+                "tipo_unidade": "KG",
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1719860952641x438360084437647900/doce%20de%20leite.jpg"
+                ],
+                "ean": "0000000000758",
+                "relacionados": [
+                    "1721092987209x787733313800576000",
+                    "1721092987211x348097966177807400"
+                ],
+                "Created By": "admin_user_levee-delivery_test",
+                "demanda": 14,
+                "como armazenar": "Refrigerado entre 0ºC e 10ºC, em embalagem fechada ou coberta. Validade média: 5 dias.",
+                "cod": "000610",
+                "preço antigo": 29.99,
+                "preço por kg": 30
+            },
+            {
+                "tipo_unidade": "UN",
+                "peso/und": "unidade",
+                "visivel": true,
+                "categorias_produto": [
+                    "Chás"
+                ],
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1741796886591x466057788139661950/ERVA%20BALEEIRA%2030G.JPG"
+                ],
+                "nome": "Erva Baleeira 30g Saúde Plena",
+                "estoque": 99997,
+                "Modified Date": "2026-01-23T19:10:18.662Z",
+                "cod": "002329",
+                "como armazenar": "Temperatura ambiente em local fresco, seco e protegido da luz. Validade média: 1 ano.",
+                "demanda": 0,
+                "qtd por unidade": "30g",
+                "descriçao": "Planta medicinal com propriedades digestivas e calmantes. Usos: Preparar chá.",
+                "peso por unidade": 30,
+                "preço antigo": 5.99,
+                "Created Date": "2024-07-16T01:23:07.348Z",
+                "_id": "1721092987348x955627093437218200",
+                "ean": "0192505114310",
+                "Created By": "admin_user_levee-delivery_test",
+                "desconto": -33.3889816360601,
+                "preço novo": 7.99
+            },
+            {
+                "demanda": 0,
+                "cod": "002330",
+                "qtd por unidade": "20g",
+                "desconto": 0,
+                "descriçao": "Planta medicinal conhecida por suas propriedades antidepressivas e ansiolíticas. Usos: Preparar chá.",
+                "Modified Date": "2025-05-21T17:13:00.919Z",
+                "estoque": 100000,
+                "ean": "0192505114792",
+                "categorias_produto": [
+                    "Chás"
+                ],
+                "peso por unidade": 20,
+                "nome": "Erva De São João 20g",
+                "Created Date": "2024-07-16T01:23:07.355Z",
+                "preço antigo": 4.99,
+                "peso/und": "unidade",
+                "tipo_unidade": "UN",
+                "_id": "1721092987355x538229916303096600",
+                "como armazenar": "Temperatura ambiente em local fresco, seco e protegido da luz. Validade média: 1 ano.",
+                "Created By": "admin_user_levee-delivery_test",
+                "visivel": false,
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1720747532275x927412266883069800/ERVA%20DE%20SAO%20JOAO.jpg"
+                ],
+                "preço novo": 4.99
+            },
+            {
+                "qtd por unidade": "80g",
+                "estoque": 99992,
+                "peso/und": "unidade",
+                "Created Date": "2024-07-16T01:23:07.365Z",
+                "preço antigo": 18.99,
+                "como armazenar": "Informação pendente. Favor informar o produto para detalhes de armazenamento.",
+                "cod": "019250",
+                "desconto": 26.3296471827277,
+                "preço novo": 13.99,
+                "nome": "Edu Guedes 80g Saúde Plena",
+                "Created By": "admin_user_levee-delivery_test",
+                "Modified Date": "2026-03-04T01:59:40.789Z",
+                "demanda": 2,
+                "visivel": true,
+                "categorias_produto": [
+                    "Temperos e Condimentos"
+                ],
+                "descriçao": "Mistura para bolo integral com ingredientes funcionais, da linha do apresentador Edu Guedes. Usos: Preparar bolos com baixo teor de carboidratos.",
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1741795537176x388298672546670850/EDU%20GUEDES%2080G.JPG"
+                ],
+                "peso por unidade": 80,
+                "tipo_unidade": "UN",
+                "ean": "0192505115218",
+                "_id": "1721092987365x433752578777917060"
+            },
+            {
+                "como armazenar": "Refrigerado entre 0ºC e 10ºC, em embalagem fechada ou coberta. Validade média: 5 dias.",
+                "_id": "1721092987366x833508953746742800",
+                "Created Date": "2024-07-16T01:23:07.366Z",
+                "ean": "0000000010610",
+                "nome": "Espaguete Cenoura 200g",
+                "desconto": 0,
+                "preço antigo": 6.99,
+                "estoque": 99145,
+                "peso/und": "unidade",
+                "demanda": 88,
+                "categorias_produto": [
+                    "Legumes",
+                    "Higienizados",
+                    "Kit Processados"
+                ],
+                "peso por unidade": 200,
+                "tipo_unidade": "UN",
+                "Created By": "admin_user_levee-delivery_test",
+                "preço novo": 6.99,
+                "Modified Date": "2026-03-04T16:50:33.269Z",
+                "cod": "002252",
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1736175603436x184270404259216260/20241205_102902.JPG"
+                ],
+                "visivel": true,
+                "descriçao": "Macarrão tipo espaguete feito com farinha de cenoura, opção saudável e saborosa. Receitas: Preparar como o macarrão tradicional, com diferentes molhos."
+            },
+            {
+                "ean": "0000000000118",
+                "preço novo": 17.99,
+                "peso por unidade": 120,
+                "Modified Date": "2026-03-03T02:34:07.744Z",
+                "desconto": -200.333889816361,
+                "categorias_produto": [
+                    "Legumes",
+                    "Higienizados",
+                    "Kit Processados"
+                ],
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1719347606700x794310001161438100/Ervilha%20Bandeja%20Unidade.jpg"
+                ],
+                "visivel": true,
+                "cod": "000131",
+                "_id": "1721092987367x994431408576794000",
+                "descriçao": "Ervilha fresca comercializada em bandeja, garantindo praticidade e frescor. Receitas: Sopas, saladas, risotos, acompanhamentos. Usos: Consumir cozida.",
+                "nome": "Ervilha Bandeja 120g",
+                "estoque": 99773,
+                "info nutricional": "Por 100g (cozido):\n- Calorias: 81kcal\n- Carboidratos: 14g\n- Açúcar: 6g\n- Fibra: 5g\n- Proteína: 5g\n- Gordura: 0.4g\nVitaminas:\n- Vitamina C: 14mg (16% VD)\n- Vitamina K: 24mcg (20% VD)\n- Folato: 65mcg (16% VD)",
+                "como armazenar": "Refrigerado entre 0ºC e 10ºC, em embalagem fechada ou coberta. Validade média: 5 dias.",
+                "Created By": "admin_user_levee-delivery_test",
+                "Created Date": "2024-07-16T01:23:07.367Z",
+                "preço antigo": 5.99,
+                "peso/und": "unidade",
+                "tipo_unidade": "BJ",
+                "demanda": 10
+            },
+            {
+                "preço antigo": 9.99,
+                "demanda": 3,
+                "desconto": 0,
+                "ean": "0192505114754",
+                "visivel": true,
+                "peso por unidade": 90,
+                "tipo_unidade": "UN",
+                "estoque": 99994,
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1720747579078x570858143366993900/ERVA%20DOCE.jpg"
+                ],
+                "qtd por unidade": "90g",
+                "Modified Date": "2025-09-23T15:05:04.150Z",
+                "Created By": "admin_user_levee-delivery_test",
+                "descriçao": "Sementes aromáticas com sabor adocicado, originárias da região do Mediterrâneo. Usos: Preparar chá, aromatizar biscoitos e pães, utilizar em infusões.",
+                "peso/und": "unidade",
+                "como armazenar": "Temperatura ambiente em local fresco, seco e protegido da luz. Validade média: 1 ano.",
+                "categorias_produto": [
+                    "Chás"
+                ],
+                "Created Date": "2024-07-16T01:23:07.369Z",
+                "nome": "Erva Doce 90g",
+                "_id": "1721092987369x254206510930951500",
+                "cod": "001467",
+                "preço novo": 9.99
+            },
+            {
+                "demanda": 135,
+                "categorias_produto": [
+                    "Outros",
+                    "Higienizados",
+                    "Kit Processados"
+                ],
+                "Created Date": "2024-07-16T01:23:07.371Z",
+                "nome": "Espaguete De Abobrinha 200g",
+                "como armazenar": "Refrigerado entre 0ºC e 10ºC, em embalagem fechada ou coberta. Validade média: 5 dias.",
+                "visivel": true,
+                "cod": "001919",
+                "preço novo": 6.99,
+                "Modified Date": "2026-03-04T16:50:33.376Z",
+                "relacionados": [
+                    "1721092727088x241572234065111870",
+                    "1721092987376x598806793797273000"
+                ],
+                "_id": "1721092987371x134349213958622430",
+                "peso por unidade": 200,
+                "descriçao": "Abobrinha cortada em formato de espaguete, opção leve e low carb. Receitas: Preparar como o macarrão tradicional, com diferentes molhos, salteada ou gratinada.",
+                "peso/und": "unidade",
+                "estoque": 98882,
+                "ean": "0000000007467",
+                "preço antigo": 6.99,
+                "desconto": 0,
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1736175584733x381448389976041500/20241205_102831.JPG"
+                ],
+                "Created By": "admin_user_levee-delivery_test",
+                "tipo_unidade": "UN"
+            },
+            {
+                "nome": "Espinafre 100g",
+                "categorias_produto": [
+                    "Verduras"
+                ],
+                "estoque": 99827,
+                "como armazenar": "Refrigerado entre 0ºC e 10ºC, em embalagem fechada ou coberta. Validade média: 5 dias.",
+                "_id": "1721092987372x861247270858445800",
+                "demanda": 30,
+                "Modified Date": "2026-03-04T12:59:54.902Z",
+                "peso/und": "unidade",
+                "tipo_unidade": "UN",
+                "info nutricional": "Por 100g (cozido):\n- Calorias: 23kcal\n- Carboidratos: 4g\n- Açúcar: 0g\n- Fibra: 3g\n- Proteína: 3g\n- Gordura: 0.4g\nVitaminas:\n- Vitamina K: 483mcg (402% VD)\n- Vitamina A: 9377 UI (188% VD)\n- Folato: 194mcg (49% VD)\n- Vitamina C: 28mg (31% VD)",
+                "descriçao": "Vegetal folhoso rico em ferro e vitaminas A, C e K. Receitas: Saladas, sucos, tortas, recheios, acompanhamentos. Usos: Consumir cru, cozido ou refogado.",
+                "Created Date": "2024-07-16T01:23:07.372Z",
+                "peso por unidade": 100,
+                "Created By": "admin_user_levee-delivery_test",
+                "visivel": true,
+                "cod": "000047",
+                "preço novo": 4.99,
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1719861237493x914931935204639900/ESPINAFRE.jpg"
+                ],
+                "preço antigo": 4.99,
+                "ordem_prateleira": 129,
+                "desconto": 0,
+                "ean": "0000000000039"
+            },
+            {
+                "Modified Date": "2025-05-21T17:12:58.603Z",
+                "desconto": 0,
+                "Created Date": "2024-07-16T01:23:07.373Z",
+                "peso/und": "unidade",
+                "qtd por unidade": "20ml",
+                "estoque": 99999,
+                "visivel": true,
+                "tipo_unidade": "UN",
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1724108268489x839932209788240000/548.jpg"
+                ],
+                "demanda": 1,
+                "categorias_produto": [
+                    "Outros"
+                ],
+                "preço antigo": 13.7,
+                "como armazenar": "Temperatura ambiente em local fresco, seco e protegido da luz. Validade média: 2 anos.",
+                "Created By": "admin_user_levee-delivery_test",
+                "cod": "000548",
+                "nome": "Extrato De Propolis Verde Alecrim 20ml",
+                "preço novo": 13.7,
+                "_id": "1721092987373x311794252577788360",
+                "ean": "7898955008188",
+                "descriçao": "Extrato de própolis com extrato de alecrim, combinando suas propriedades medicinais. Usos: Consumir puro ou diluído em água."
+            },
+            {
+                "relacionados": [
+                    "1721092987379x236255417265220930"
+                ],
+                "ean": "0000000002806",
+                "demanda": 4,
+                "como armazenar": "Temperatura ambiente em local fresco, seco e protegido da luz. Validade média: 2 anos.",
+                "Created By": "admin_user_levee-delivery_test",
+                "desconto": 0,
+                "nome": "Extrato De Propolis Aquoso Gota 20g",
+                "categorias_produto": [
+                    "Outros"
+                ],
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1719861444774x171435492267830270/EXTRATO%20DE%20PROPOLIS%20AQUOSO%20VERDE%20ALECRIN.jpg"
+                ],
+                "preço antigo": 13.7,
+                "cod": "001401",
+                "qtd por unidade": "20g",
+                "descriçao": "Extrato de própolis diluído em água, com propriedades antibacterianas e anti-inflamatórias. Usos: Consumir puro ou diluído em água.",
+                "Modified Date": "2025-08-03T22:09:58.851Z",
+                "visivel": true,
+                "_id": "1721092987374x399063437086654400",
+                "preço novo": 13.7,
+                "peso/und": "unidade",
+                "tipo_unidade": "UN",
+                "Created Date": "2024-07-16T01:23:07.374Z",
+                "peso por unidade": 50,
+                "estoque": 99994
+            },
+            {
+                "peso por unidade": 200,
+                "estoque": 99693,
+                "preço antigo": 6.99,
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1736175177329x746303247553892000/20241205_102425.JPG"
+                ],
+                "ean": "0000000008525",
+                "visivel": true,
+                "_id": "1721092987376x598806793797273000",
+                "relacionados": [
+                    "1721092727088x241572234065111870",
+                    "1721092987371x134349213958622430"
+                ],
+                "Created By": "admin_user_levee-delivery_test",
+                "nome": "Espaguete De Moranga 200g",
+                "peso/und": "unidade",
+                "Modified Date": "2026-03-04T16:50:33.300Z",
+                "demanda": 28,
+                "preço novo": 6.99,
+                "desconto": 0,
+                "cod": "002028",
+                "como armazenar": "Refrigerado entre 0ºC e 10ºC, em embalagem fechada ou coberta. Validade média: 5 dias.",
+                "descriçao": "Macarrão tipo espaguete feito com purê de abóbora, opção saudável e saborosa. Receitas: Preparar como o macarrão tradicional, com diferentes molhos.",
+                "tipo_unidade": "UN",
+                "categorias_produto": [
+                    "Legumes",
+                    "Higienizados",
+                    "Kit Processados"
+                ],
+                "Created Date": "2024-07-16T01:23:07.376Z"
+            },
+            {
+                "Created Date": "2024-07-16T01:23:07.379Z",
+                "desconto": 0,
+                "peso/und": "unidade",
+                "Modified Date": "2025-05-21T17:13:00.929Z",
+                "relacionados": [
+                    "1721092987374x399063437086654400"
+                ],
+                "demanda": 0,
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1719861327627x157874925688970200/EXTRATO%20DE%20PROPOLIS%20%20GOTA%2020%20G.jpg"
+                ],
+                "como armazenar": "Temperatura ambiente em local fresco, seco e protegido da luz. Validade média: 2 anos.",
+                "categorias_produto": [
+                    "Outros"
+                ],
+                "tipo_unidade": "UN",
+                "preço novo": 13.7,
+                "estoque": 100000,
+                "qtd por unidade": "20g",
+                "nome": "Extrato De Propolis Gota 20g",
+                "Created By": "admin_user_levee-delivery_test",
+                "descriçao": "Extrato concentrado de própolis, com propriedades antibacterianas e anti-inflamatórias. Usos: Consumir puro ou diluído em água.",
+                "ean": "7898955008089",
+                "_id": "1721092987379x236255417265220930",
+                "cod": "000554",
+                "preço antigo": 13.7,
+                "peso por unidade": 50,
+                "visivel": true
+            },
+            {
+                "descriçao": "Planta medicinal conhecida por suas propriedades digestivas. Usos: Preparar chá.",
+                "visivel": false,
+                "demanda": 0,
+                "_id": "1721092987380x715921543981317100",
+                "qtd por unidade": "30g",
+                "preço novo": 9.99,
+                "preço antigo": 9.99,
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1719861281368x839180102846092200/ESPINHEIRA%20SANTA.jpg"
+                ],
+                "peso/und": "unidade",
+                "cod": "001455",
+                "Created Date": "2024-07-16T01:23:07.380Z",
+                "categorias_produto": [
+                    "Chás"
+                ],
+                "Modified Date": "2025-05-21T17:13:00.938Z",
+                "nome": "Espinheira Santa 30g",
+                "ean": "0192505114112",
+                "desconto": 0,
+                "peso por unidade": 30,
+                "estoque": 100000,
+                "tipo_unidade": "UN",
+                "como armazenar": "Temperatura ambiente em local fresco, seco e protegido da luz. Validade média: 1 ano.",
+                "Created By": "admin_user_levee-delivery_test"
+            },
+            {
+                "peso/und": "unidade",
+                "ean": "0618341937628",
+                "demanda": 0,
+                "estoque": 100000,
+                "categorias_produto": [
+                    "Outros"
+                ],
+                "_id": "1721092987382x978953698977900800",
+                "cod": "002566",
+                "tipo_unidade": "UN",
+                "peso por unidade": 500,
+                "Modified Date": "2025-12-26T19:26:34.602Z",
+                "relacionados": [
+                    "1721092727092x644772838952127200",
+                    "1721092727093x387892992635338500",
+                    "1721092987386x277736369616445000",
+                    "1721092987388x841517693788260600",
+                    "1721092987389x294460442282179500",
+                    "1721092987392x118781159926576000"
+                ],
+                "Created Date": "2024-07-16T01:23:07.382Z",
+                "qtd por unidade": "500g",
+                "Created By": "admin_user_levee-delivery_test",
+                "visivel": true,
+                "preço antigo": 9.99,
+                "descriçao": "Farinha de mandioca tradicional, com adição de açafrão, que confere cor e sabor. Receitas: Farofa, cuscuz, pirão. Usos: Utilizar em receitas típicas brasileiras.",
+                "desconto": -20.02002002002,
+                "nome": "Farinha De Mandioca Amarela C/Açafrão 500g",
+                "como armazenar": "Temperatura ambiente em local fresco, seco e hermeticamente fechado. Validade média: 6 meses.",
+                "preço novo": 11.99,
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1766777178188x264971332060726080/farinha-mandioca-amarela-a17bf0c9e1b2483c8f17508700803471-640-0.webp"
+                ]
+            },
+            {
+                "descriçao": "Farinha obtida a partir da banana verde, rica em amido resistente e fibras. Receitas: Bolos, pães, tortas, vitaminas. Usos: Adicionar em receitas para aumentar o valor nutricional.",
+                "preço novo": 9.99,
+                "ean": "0192505114037",
+                "Modified Date": "2025-05-21T17:13:00.948Z",
+                "preço antigo": 9.99,
+                "desconto": 0,
+                "demanda": 0,
+                "Created By": "admin_user_levee-delivery_test",
+                "estoque": 100000,
+                "como armazenar": "Temperatura ambiente em local fresco, seco e hermeticamente fechado. Validade média: 6 meses.",
+                "tipo_unidade": "UN",
+                "info nutricional": "Por 2 colheres de sopa (20g):\n- Calorias: 60kcal\n- Carboidratos: 15g\n- Fibra: 2g\n- Proteína: 1g\n- Potássio: 110mg (3% VD)",
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1719862023975x684110992159073800/FARINHA%20DE%20BANANA%20VERDE%20200GR.jpg"
+                ],
+                "cod": "002600",
+                "_id": "1721092987385x727672707892371500",
+                "categorias_produto": [
+                    "Outros"
+                ],
+                "Created Date": "2024-07-16T01:23:07.385Z",
+                "nome": "Farinha De Banana Verde 200g",
+                "peso/und": "unidade",
+                "visivel": false,
+                "qtd por unidade": "200g"
+            },
+            {
+                "_id": "1721092987386x277736369616445000",
+                "tipo_unidade": "UN",
+                "visivel": true,
+                "relacionados": [
+                    "1721092987382x978953698977900800",
+                    "1721092987388x841517693788260600",
+                    "1721092987389x294460442282179500",
+                    "1721092987392x118781159926576000"
+                ],
+                "Created Date": "2024-07-16T01:23:07.386Z",
+                "demanda": 0,
+                "estoque": 99999,
+                "nome": "Farinha De Mandioca Bahia 500g",
+                "ean": "0618341937635",
+                "cod": "002567",
+                "preço antigo": 9.99,
+                "preço novo": 11.99,
+                "descriçao": "Farinha de mandioca fina e branca, tradicional da culinária baiana. Receitas: Farofa, acarajé, moqueca. Usos: Utilizar em receitas típicas brasileiras.",
+                "peso por unidade": 300,
+                "qtd por unidade": "500g",
+                "peso/und": "unidade",
+                "Modified Date": "2025-12-26T19:26:47.906Z",
+                "Created By": "admin_user_levee-delivery_test",
+                "categorias_produto": [
+                    "Outros"
+                ],
+                "como armazenar": "Temperatura ambiente em local fresco, seco e hermeticamente fechado. Validade média: 6 meses.",
+                "desconto": -20.02002002002,
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1724108290770x463044379711627700/2567.jpg"
+                ]
+            },
+            {
+                "desconto": -18.8986232790989,
+                "peso por unidade": 500,
+                "Created By": "admin_user_levee-delivery_test",
+                "nome": "Farofa Morea Galinha Caipira 350g",
+                "descriçao": "Farofa pronta com pedaços de frango caipira, da marca Morea. Usos: Consumir como acompanhamento para carnes, aves e peixes.",
+                "relacionados": [
+                    "1721092987398x209349986922760420",
+                    "1721092987400x432420237642295230",
+                    "1721092987407x387049497550983040",
+                    "1721092987410x811749825580490500"
+                ],
+                "demanda": 0,
+                "peso/und": "unidade",
+                "Created Date": "2024-07-16T01:23:07.387Z",
+                "estoque": 99999,
+                "qtd por unidade": "350g",
+                "ean": "0000000004534",
+                "como armazenar": "Temperatura ambiente em local fresco, seco e hermeticamente fechado após aberto. Validade média: 6 meses.",
+                "preço antigo": 7.99,
+                "categorias_produto": [
+                    "Outros"
+                ],
+                "Modified Date": "2025-12-26T18:21:14.239Z",
+                "_id": "1721092987387x398981762792890430",
+                "visivel": true,
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1719862347463x523324481748193660/FAROFA%20MOREAR%20%20GALINHA%20CAIPIRA%20350G.jpg"
+                ],
+                "tipo_unidade": "UN",
+                "preço novo": 9.5,
+                "cod": "001583"
+            },
+            {
+                "cod": "000517",
+                "_id": "1721092987388x841517693788260600",
+                "nome": "Farofa De Mandioca Alho Sem Pimenta 500g",
+                "peso por unidade": 500,
+                "estoque": 99993,
+                "Modified Date": "2026-01-23T15:47:38.853Z",
+                "categorias_produto": [
+                    "Outros"
+                ],
+                "ean": "7898538550363",
+                "preço novo": 9.5,
+                "Created Date": "2024-07-16T01:23:07.388Z",
+                "relacionados": [
+                    "1721092987382x978953698977900800",
+                    "1721092987386x277736369616445000",
+                    "1721092987389x294460442282179500",
+                    "1721092987392x118781159926576000"
+                ],
+                "como armazenar": "Temperatura ambiente em local fresco, seco e hermeticamente fechado após aberto. Validade média: 6 meses.",
+                "visivel": true,
+                "tipo_unidade": "UN",
+                "demanda": 3,
+                "Created By": "admin_user_levee-delivery_test",
+                "desconto": 0,
+                "descriçao": "Farofa pronta à base de farinha de mandioca, temperada com alho e sem pimenta. Usos: Consumir como acompanhamento para carnes, aves e peixes.",
+                "peso/und": "unidade",
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1719862308220x812237218924483600/FAROFA%20DE%20MANDIOCA%20ALHO%20SEM%20PIMENTA.jpg"
+                ]
+            },
+            {
+                "qtd por unidade": "500g",
+                "categorias_produto": [
+                    "Outros"
+                ],
+                "estoque": 99999,
+                "nome": "Farinha De Mandioca Biju Torrada 500g",
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1719862128698x810983439979331400/FARINHA%20DE%20MANDIOCA%20BIJU%20TORRADA%20500%20GR.jpg"
+                ],
+                "_id": "1721092987389x294460442282179500",
+                "ean": "7898538550035",
+                "cod": "000522",
+                "tipo_unidade": "UN",
+                "peso por unidade": 500,
+                "descriçao": "Farinha de mandioca biju, pré-torrada e temperada, da marca Morea. Receitas: Acompanhamento para feijoada, petiscos. Usos: Consumir pura ou como ingrediente em receitas.",
+                "como armazenar": "Temperatura ambiente em local fresco, seco e hermeticamente fechado. Validade média: 6 meses.",
+                "desconto": 0,
+                "peso/und": "unidade",
+                "visivel": true,
+                "relacionados": [
+                    "1721092987382x978953698977900800",
+                    "1721092987386x277736369616445000",
+                    "1721092987388x841517693788260600",
+                    "1721092987392x118781159926576000"
+                ],
+                "demanda": 0,
+                "preço novo": 9.99,
+                "Modified Date": "2025-12-26T19:46:44.800Z",
+                "Created Date": "2024-07-16T01:23:07.389Z",
+                "Created By": "admin_user_levee-delivery_test"
+            },
+            {
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1724108277612x224953520073351680/1432.jpg"
+                ],
+                "descriçao": "Farinha de rosca temperada, da marca Morea, ideal para empanar carnes, legumes e salgados. Usos: Empanar alimentos antes de fritar ou assar.",
+                "estoque": 99999,
+                "qtd por unidade": "250g",
+                "_id": "1721092987392x118781159926576000",
+                "visivel": false,
+                "relacionados": [
+                    "1721092987382x978953698977900800",
+                    "1721092987386x277736369616445000",
+                    "1721092987388x841517693788260600",
+                    "1721092987389x294460442282179500"
+                ],
+                "nome": "Farinha Temperada De Empanar 250g",
+                "preço antigo": 8.99,
+                "preço novo": 8.99,
+                "Created Date": "2024-07-16T01:23:07.392Z",
+                "peso por unidade": 500,
+                "demanda": 0,
+                "Modified Date": "2025-05-28T16:45:57.751Z",
+                "ean": "0192505114990",
+                "categorias_produto": [
+                    "Outros"
+                ],
+                "Created By": "admin_user_levee-delivery_test",
+                "cod": "001432",
+                "peso/und": "unidade",
+                "como armazenar": "Temperatura ambiente em local fresco, seco e hermeticamente fechado. Validade média: 6 meses.",
+                "desconto": 0,
+                "tipo_unidade": "UN"
+            },
+            {
+                "tipo_unidade": "UN",
+                "peso/und": "unidade",
+                "Created Date": "2024-07-16T01:23:07.393Z",
+                "cod": "001590",
+                "demanda": 0,
+                "visivel": true,
+                "Created By": "admin_user_levee-delivery_test",
+                "como armazenar": "Temperatura ambiente em local fresco, seco e hermeticamente fechado após aberto. Validade média: 6 meses.",
+                "relacionados": [
+                    "1721092987398x209349986922760420",
+                    "1721092987399x524445844779662700",
+                    "1721092987400x432420237642295230",
+                    "1721092987407x387049497550983040",
+                    "1721092987410x811749825580490500"
+                ],
+                "qtd por unidade": "300g",
+                "categorias_produto": [
+                    "Outros"
+                ],
+                "descriçao": "Farofa pronta à base de farinha de mandioca branca, temperada com pimenta, da marca Morea. Usos: Consumir como acompanhamento para carnes, aves e peixes.",
+                "peso por unidade": 500,
+                "desconto": -18.8986232790989,
+                "preço antigo": 7.99,
+                "nome": "Farofa Morear Branca Picante 300g",
+                "estoque": 100000,
+                "ean": "0000000004602",
+                "_id": "1721092987393x646606744292660200",
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1719862392332x824242322696646700/FAROFA%20MOREAR%20BRANCA%20PICANTE%20300G.jpg"
+                ],
+                "preço novo": 9.5,
+                "Modified Date": "2025-12-26T18:22:36.287Z"
+            },
+            {
+                "relacionados": [
+                    "1721092987387x398981762792890430",
+                    "1721092987393x646606744292660200",
+                    "1721092987399x524445844779662700",
+                    "1721092987400x432420237642295230",
+                    "1721092987407x387049497550983040",
+                    "1721092987410x811749825580490500"
+                ],
+                "_id": "1721092987398x209349986922760420",
+                "peso/und": "unidade",
+                "peso por unidade": 350,
+                "Created Date": "2024-07-16T01:23:07.398Z",
+                "categorias_produto": [
+                    "Outros"
+                ],
+                "cod": "001393",
+                "Created By": "admin_user_levee-delivery_test",
+                "ean": "7898953855593",
+                "preço antigo": 7.99,
+                "nome": "Farofa Morea Caseira 350g",
+                "estoque": -100000,
+                "descriçao": "Farofa pronta com tempero caseiro, da marca Morea. Usos: Consumir como acompanhamento para carnes, aves e peixes.",
+                "visivel": false,
+                "Modified Date": "2025-12-26T18:23:33.537Z",
+                "como armazenar": "Temperatura ambiente em local fresco, seco e hermeticamente fechado após aberto. Validade média: 6 meses.",
+                "preço novo": 9.5,
+                "qtd por unidade": "350g",
+                "desconto": -18.8986232790989,
+                "tipo_unidade": "UN",
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1719862480954x488422978347729000/FAROFA%20MOREA%20CASEIRA%20350.jpg"
+                ],
+                "demanda": 0
+            },
+            {
+                "demanda": 0,
+                "_id": "1721092987399x524445844779662700",
+                "estoque": -99998,
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1724108276507x361946810532145700/1396.jpg"
+                ],
+                "descriçao": "Farofa pronta à base de farinha de mandioca, com tempero caseiro picante, da marca Morea. Usos: Consumir como acompanhamento para carnes, aves e peixes.",
+                "categorias_produto": [
+                    "Outros"
+                ],
+                "como armazenar": "Temperatura ambiente em local fresco, seco e hermeticamente fechado após aberto. Validade média: 6 meses.",
+                "nome": "Farofa Morear Caseira Mand Picante 350g",
+                "tipo_unidade": "UN",
+                "qtd por unidade": "350g",
+                "preço novo": 9.5,
+                "Created By": "admin_user_levee-delivery_test",
+                "relacionados": [
+                    "1721092987393x646606744292660200",
+                    "1721092987398x209349986922760420",
+                    "1721092987400x432420237642295230",
+                    "1721092987407x387049497550983040",
+                    "1721092987410x811749825580490500"
+                ],
+                "desconto": -18.8986232790989,
+                "peso/und": "unidade",
+                "Modified Date": "2025-12-26T18:33:19.091Z",
+                "visivel": false,
+                "preço antigo": 7.99,
+                "ean": "7898953855609",
+                "cod": "001396",
+                "peso por unidade": 300,
+                "Created Date": "2024-07-16T01:23:07.399Z"
+            },
+            {
+                "estoque": 99997,
+                "categorias_produto": [
+                    "Outros"
+                ],
+                "preço antigo": 7.99,
+                "nome": "Farofa Morea Churrasco 300g",
+                "Created By": "admin_user_levee-delivery_test",
+                "descriçao": "Farofa pronta com tempero de churrasco, da marca Morea. Usos: Consumir como acompanhamento para carnes, aves e peixes.",
+                "tipo_unidade": "UN",
+                "peso/und": "unidade",
+                "em oferta": false,
+                "desconto": -18.8986232790989,
+                "visivel": true,
+                "relacionados": [
+                    "1721092987387x398981762792890430",
+                    "1721092987393x646606744292660200",
+                    "1721092987398x209349986922760420",
+                    "1721092987399x524445844779662700",
+                    "1721092987407x387049497550983040",
+                    "1721092987410x811749825580490500"
+                ],
+                "ean": "7898953855265",
+                "qtd por unidade": "300g",
+                "como armazenar": "Temperatura ambiente em local fresco, seco e hermeticamente fechado após aberto. Validade média: 6 meses.",
+                "Created Date": "2024-07-16T01:23:07.400Z",
+                "_id": "1721092987400x432420237642295230",
+                "cod": "001587",
+                "peso por unidade": 300,
+                "Modified Date": "2026-01-23T15:47:38.834Z",
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1720035860205x435904336121737600/FAROFA%20MOREAR%20CHURRASCO%20300G.jpg"
+                ],
+                "preço novo": 9.5,
+                "demanda": 0
+            },
+            {
+                "visivel": true,
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1724114627420x665812306576601500/Feij%C3%A3o%20Fradinho%20500g.jpeg"
+                ],
+                "Modified Date": "2026-02-22T21:27:57.355Z",
+                "descriçao": "Grãos de feijão fradinho da marca Saúde Plena, ideal para o preparo de feijoada, baião de dois e outras receitas. Usos: Deixar de molho e cozinhar até ficar macio.",
+                "categorias_produto": [
+                    "Empório"
+                ],
+                "preço antigo": 10.99,
+                "preço novo": 10.99,
+                "peso por unidade": 500,
+                "relacionados": [
+                    "1721092987404x810817494998833200"
+                ],
+                "qtd por unidade": "500g",
+                "ean": "0192505115157",
+                "Created Date": "2024-07-16T01:23:07.401Z",
+                "estoque": 99998,
+                "peso/und": "unidade",
+                "nome": "Feijão Fradinho 500g",
+                "desconto": 0,
+                "como armazenar": "Temperatura ambiente em local fresco, seco e hermeticamente fechado. Validade média: 1 ano.",
+                "_id": "1721092987401x529480270803917000",
+                "Created By": "admin_user_levee-delivery_test",
+                "cod": "002515",
+                "tipo_unidade": "UN",
+                "demanda": 0
+            },
+            {
+                "peso/und": "peso",
+                "Created By": "admin_user_levee-delivery_test",
+                "_id": "1721092987404x810817494998833200",
+                "estoque": 65584,
+                "demanda": 9,
+                "preço por kg": 14.99140116,
+                "visivel": true,
+                "relacionados": [
+                    "1721092987401x529480270803917000"
+                ],
+                "tipo_unidade": "KG",
+                "nome": "Feijão Vermelho",
+                "cod": "001002",
+                "Created Date": "2024-07-16T01:23:07.404Z",
+                "categorias_produto": [
+                    "Empório"
+                ],
+                "desconto": -112.64080100125153,
+                "preço novo": 16.99,
+                "info nutricional": "Por 100g (cozido):\n- Calorias: 127kcal\n- Carboidratos: 23g\n- Fibra: 8g\n- Proteína: 9g\n- Gordura: 0.5g\nVitaminas:\n- Folato: 257mcg (64% VD)\n- Tiamina: 0.2mg (15% VD)\nMinerais:\n- Ferro: 2.7mg (15% VD)\n- Potássio: 406mg (12% VD)",
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1720035963930x524275875100899300/FEIJAO%20VERMELHO.jpg"
+                ],
+                "peso por unidade": 1000,
+                "preço antigo": 7.99,
+                "ean": "0000000000664",
+                "descriçao": "Grãos de feijão vermelho, ricos em ferro e proteínas. Receitas: Feijão tropeiro, salada, sopa. Usos: Deixar de molho e cozinhar até ficar macio.",
+                "Modified Date": "2026-02-22T21:27:57.020Z",
+                "como armazenar": "Temperatura ambiente em local fresco, seco e hermeticamente fechado. Validade média: 1 ano."
+            },
+            {
+                "descriçao": "Farofa pronta com bacon, da marca Morea. Usos: Consumir como acompanhamento para carnes, aves e peixes.",
+                "categorias_produto": [
+                    "Outros"
+                ],
+                "desconto": -18.8986232790989,
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1766773473034x412284095389055400/t_pica_mineira_bacon_3_.jpg"
+                ],
+                "relacionados": [
+                    "1721092727405x133907188701375860",
+                    "1721092987406x211127541234366720",
+                    "1721092987407x387049497550983040",
+                    "1721092987410x811749825580490500"
+                ],
+                "Created Date": "2024-07-16T01:23:07.405Z",
+                "Modified Date": "2026-02-12T03:10:37.870Z",
+                "demanda": 0,
+                "peso/und": "unidade",
+                "preço antigo": 7.99,
+                "nome": "Farofa Morear Temperada C/Bacon",
+                "estoque": 99998,
+                "cod": "001584",
+                "visivel": true,
+                "qtd por unidade": "350g",
+                "Created By": "admin_user_levee-delivery_test",
+                "_id": "1721092987405x843456070046389100",
+                "ean": "0000000004541",
+                "como armazenar": "Temperatura ambiente em local fresco, seco e hermeticamente fechado após aberto. Validade média: 6 meses.",
+                "peso por unidade": 300,
+                "preço novo": 9.5,
+                "tipo_unidade": "UN"
+            },
+            {
+                "desconto": 0,
+                "nome": "Farofa Morear Torresmo Limão 300g",
+                "como armazenar": "Temperatura ambiente em local fresco, seco e hermeticamente fechado após aberto. Validade média: 6 meses.",
+                "estoque": -99998,
+                "peso por unidade": 300,
+                "_id": "1721092987406x211127541234366720",
+                "visivel": false,
+                "peso/und": "unidade",
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1724114773785x906464579816132400/Farofa%20Morear%20Torresmo%20Lim%C3%A3o%20300g.png"
+                ],
+                "Modified Date": "2025-12-26T18:34:45.305Z",
+                "descriçao": "Farofa pronta com torresmo e limão, da marca Morea. Usos: Consumir como acompanhamento para carnes, aves e peixes.",
+                "tipo_unidade": "UN",
+                "qtd por unidade": "300g",
+                "Created By": "admin_user_levee-delivery_test",
+                "ean": "0000000002745",
+                "preço novo": 9.99,
+                "Created Date": "2024-07-16T01:23:07.406Z",
+                "categorias_produto": [
+                    "Outros"
+                ],
+                "preço antigo": 9.99,
+                "cod": "001392",
+                "relacionados": [
+                    "1721092987405x843456070046389100",
+                    "1721092987407x387049497550983040",
+                    "1721092987410x811749825580490500"
+                ],
+                "demanda": 2
+            },
+            {
+                "ean": "7898953855098",
+                "Modified Date": "2025-05-21T17:12:57.269Z",
+                "estoque": 100000,
+                "preço novo": 7.99,
+                "Created Date": "2024-07-16T01:23:07.407Z",
+                "peso/und": "unidade",
+                "descriçao": "Farofa pronta tradicional, da marca Morea. Usos: Consumir como acompanhamento para carnes, aves e peixes.",
+                "tipo_unidade": "UN",
+                "qtd por unidade": "300g",
+                "categorias_produto": [
+                    "Outros"
+                ],
+                "preço antigo": 7.99,
+                "como armazenar": "Temperatura ambiente em local fresco, seco e hermeticamente fechado após aberto. Validade média: 6 meses.",
+                "Created By": "admin_user_levee-delivery_test",
+                "visivel": false,
+                "relacionados": [
+                    "1721092987387x398981762792890430",
+                    "1721092987393x646606744292660200",
+                    "1721092987398x209349986922760420",
+                    "1721092987399x524445844779662700",
+                    "1721092987400x432420237642295230",
+                    "1721092987405x843456070046389100",
+                    "1721092987406x211127541234366720",
+                    "1721092987410x811749825580490500"
+                ],
+                "nome": "Farofa Morear Torresmo Limão 300g",
+                "demanda": 2,
+                "cod": "001589",
+                "desconto": 0,
+                "_id": "1721092987407x387049497550983040"
+            },
+            {
+                "estoque": 100000,
+                "categorias_produto": [
+                    "Outros"
+                ],
+                "descriçao": "farinha de mandioca, óleo de soja, cebola,alho, sal, pimenta e corante tartrazina ",
+                "tipo_unidade": "UN",
+                "cod": "002127",
+                "relacionados": [
+                    "1721092987387x398981762792890430",
+                    "1721092987393x646606744292660200",
+                    "1721092987398x209349986922760420",
+                    "1721092987399x524445844779662700",
+                    "1721092987400x432420237642295230",
+                    "1721092987405x843456070046389100",
+                    "1721092987406x211127541234366720",
+                    "1721092987407x387049497550983040"
+                ],
+                "demanda": 0,
+                "nome": "Farofa Morear Tradicional 300g",
+                "visivel": true,
+                "como armazenar": "Temperatura ambiente em local fresco, seco e hermeticamente fechado após aberto. Validade média: 6 meses.",
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1766776017342x328175875186464960/img_5302_1.png"
+                ],
+                "peso por unidade": 300,
+                "peso/und": "unidade",
+                "preço antigo": 7.99,
+                "Modified Date": "2025-12-26T19:07:04.549Z",
+                "ean": "7898953855258",
+                "qtd por unidade": "300g",
+                "Created By": "admin_user_levee-delivery_test",
+                "preço novo": 9.5,
+                "_id": "1721092987410x811749825580490500",
+                "desconto": -18.8986232790989,
+                "Created Date": "2024-07-16T01:23:07.410Z"
+            },
+            {
+                "categorias_produto": [
+                    "Frutas"
+                ],
+                "peso/und": "unidade",
+                "estoque": 99986,
+                "preço novo": 12.99,
+                "descriçao": "Fruta originária da região do Mediterrâneo, rica em fibras e minerais. Receitas: Doces, compotas, geleias. Usos: Consumir fresca, seca ou como ingrediente em receitas.",
+                "Modified Date": "2026-03-04T15:21:21.599Z",
+                "_id": "1721092987411x875180254866971100",
+                "visivel": true,
+                "nome": "Figo Bandeja 250g",
+                "info nutricional": "Por 100g:\n- Calorias: 74kcal\n- Carboidratos: 19g\n- Açúcar: 16g\n- Fibra: 3g\n- Proteína: 1g\n- Gordura: 0.3g\nVitaminas:\n- Vitamina K: 4mcg (3% VD)\n- Manganês: 0.4mg (17% VD)",
+                "ean": "0000000000244",
+                "demanda": 7,
+                "preço antigo": 29.99,
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1719347606958x221654110288669760/Figo%20Roxo%20Bandeja.jpg"
+                ],
+                "cod": "000263",
+                "como armazenar": "Refrigerado entre 0ºC e 10ºC, em embalagem fechada ou coberta. Validade média: 5 dias.",
+                "tipo_unidade": "BJ",
+                "peso por unidade": 250,
+                "Created Date": "2024-07-16T01:23:07.411Z",
+                "desconto": 56.6855618539513,
+                "em oferta": true,
+                "Created By": "admin_user_levee-delivery_test",
+                "relacionados": [
+                    "1721092987722x515256593105768900"
+                ]
+            },
+            {
+                "demanda": 0,
+                "como armazenar": "Refrigerado entre 0ºC e 10ºC, em embalagem fechada ou coberta. Após aberto, consumir em até 2 dias. Validade média: 6 meses (fechado).",
+                "descriçao": "Figo cozido em calda de açúcar, ideal para consumir com iogurte, granola ou como ingrediente em receitas. Usos: Consumir como sobremesa ou ingrediente em receitas.",
+                "Modified Date": "2026-02-21T23:02:47.946Z",
+                "desconto": 0,
+                "cod": "000629",
+                "categorias_produto": [
+                    "Frutas",
+                    "Higienizados"
+                ],
+                "Created Date": "2024-07-16T01:23:07.722Z",
+                "preço novo": 29.99,
+                "Created By": "admin_user_levee-delivery_test",
+                "estoque": 99991,
+                "nome": "Figo Em Calda",
+                "_id": "1721092987722x515256593105768900",
+                "visivel": true,
+                "preço antigo": 29.99,
+                "ean": "0000000000777",
+                "relacionados": [
+                    "1721092987411x875180254866971100"
+                ],
+                "tipo_unidade": "KG",
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1724108269748x196540493988947000/629.jpg"
+                ],
+                "peso/und": "unidade"
+            },
+            {
+                "tipo_unidade": "UN",
+                "ean": "7898567150480",
+                "_id": "1721092987723x563202174954494200",
+                "Created By": "admin_user_levee-delivery_test",
+                "preço antigo": 7.99,
+                "estoque": 99991,
+                "visivel": true,
+                "descriçao": "Flores de hibisco desidratadas, com sabor levemente azedo. Usos: Preparar chá gelado ou quente, aromatizar bebidas e sobremesas.",
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1720036037678x670274138892969000/FLOR%20DE%20HIBISCO%2050G.jpg"
+                ],
+                "Created Date": "2024-07-16T01:23:07.723Z",
+                "categorias_produto": [
+                    "Chás"
+                ],
+                "Modified Date": "2026-02-12T17:03:50.157Z",
+                "demanda": 1,
+                "como armazenar": "Temperatura ambiente em local fresco, seco e protegido da luz. Validade média: 1 ano.",
+                "cod": "001530",
+                "peso/und": "unidade",
+                "qtd por unidade": "50g",
+                "preço novo": 7.99,
+                "peso por unidade": 50,
+                "nome": "Flor De Hibisco 50g",
+                "desconto": 0
+            },
+            {
+                "Created By": "admin_user_levee-delivery_test",
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1724108288134x246897789543117470/2298.jpg"
+                ],
+                "cod": "002298",
+                "nome": "Frutas Cristalizadas 100g",
+                "preço novo": 5.99,
+                "como armazenar": "Temperatura ambiente em local fresco e seco. Validade média: 6 meses.",
+                "estoque": 99999,
+                "demanda": 0,
+                "visivel": true,
+                "ean": "0192505299543",
+                "desconto": 0,
+                "Modified Date": "2026-02-24T16:50:21.287Z",
+                "peso/und": "unidade",
+                "tipo_unidade": "UN",
+                "qtd por unidade": "100g",
+                "descriçao": "Mix de frutas cristalizadas, da marca Saúde Plena, ideal para o consumo como sobremesa ou ingrediente em receitas. Usos: Consumir como doce, decorar bolos e doces ou ingrediente em receitas.",
+                "_id": "1721092987724x386582546515942460",
+                "Created Date": "2024-07-16T01:23:07.724Z"
+            },
+            {
+                "descriçao": "Doce de leite zero açúcar, com sabor suave e delicado, da marca Fornada de Minas. Usos: Consumir com pães, biscoitos, torradas ou como ingrediente em receitas.",
+                "preço novo": 10.99,
+                "ean": "7898929337276",
+                "preço antigo": 10.99,
+                "peso/und": "unidade",
+                "Created By": "admin_user_levee-delivery_test",
+                "Modified Date": "2025-05-21T17:13:01.118Z",
+                "estoque": 100000,
+                "visivel": false,
+                "demanda": 0,
+                "nome": "Fornada De Minas Nata Zero Açúcar 400g",
+                "tipo_unidade": "PC",
+                "como armazenar": "Temperatura ambiente em local fresco e seco, após aberto manter refrigerado entre 0ºC e 10ºC. Validade média: 6 meses (fechado), 5 dias (aberto).",
+                "categorias_produto": [
+                    "Outros"
+                ],
+                "cod": "001872",
+                "desconto": 0,
+                "qtd por unidade": "400g",
+                "_id": "1721092987725x338948683864546100",
+                "Created Date": "2024-07-16T01:23:07.725Z"
+            },
+            {
+                "Created Date": "2024-07-16T01:23:07.737Z",
+                "descriçao": "Folhas de oliveira conservadas em salmoura, muito utilizadas na culinária mediterrânea. Usos: Utilizar em pizzas, pães, antepastos e aperitivos.",
+                "visivel": false,
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1720036117046x349178290692470340/FOLHA%20DE%20OLIVEIRA%2040G.jpg"
+                ],
+                "desconto": 0,
+                "estoque": 100000,
+                "Created By": "admin_user_levee-delivery_test",
+                "ean": "0192505114464",
+                "como armazenar": "Temperatura ambiente em local fresco, seco e protegido da luz. Validade média: 1 ano.",
+                "_id": "1721092987737x395694647529851760",
+                "peso por unidade": 40,
+                "Modified Date": "2025-05-21T17:13:01.133Z",
+                "peso/und": "unidade",
+                "preço novo": 5.99,
+                "demanda": 0,
+                "tipo_unidade": "UN",
+                "qtd por unidade": "40g",
+                "cod": "001462",
+                "preço antigo": 5.99,
+                "categorias_produto": [
+                    "Temperos e Condimentos"
+                ],
+                "nome": "Folha De Oliveira 40g"
+            },
+            {
+                "ean": "0602883497405",
+                "visivel": true,
+                "nome": "Fuba Moinho Dagua Fazenda Candao 1Kg",
+                "Created By": "admin_user_levee-delivery_test",
+                "descriçao": "Fubá de milho moído em moinho d'água, da Fazenda Candão, com textura mais grossa, ideal para o preparo de polenta, bolos e outras receitas. Usos: Utilizar em receitas que necessitem de fubá.",
+                "como armazenar": "Temperatura ambiente em local fresco, seco e hermeticamente fechado. Validade média: 6 meses.",
+                "tipo_unidade": "UN",
+                "_id": "1721092987739x336981052798822200",
+                "peso/und": "unidade",
+                "preço novo": 9.99,
+                "desconto": 0,
+                "relacionados": [
+                    "1721092987741x236237158073355100"
+                ],
+                "estoque": 99991,
+                "Created Date": "2024-07-16T01:23:07.739Z",
+                "demanda": 1,
+                "cod": "002290",
+                "peso por unidade": 1000,
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1720036175836x799271479284889600/FUBA%20MOINHO%20DAGUA%20FAZENDA%20CANDAO%201KG.jpg"
+                ],
+                "Modified Date": "2026-02-21T14:48:44.544Z",
+                "categorias_produto": [
+                    "Outros"
+                ],
+                "preço antigo": 9.99
+            },
+            {
+                "Created Date": "2024-07-16T01:23:07.740Z",
+                "nome": "Geleia De Mocoto Dona Elza 50g",
+                "categorias_produto": [
+                    "Empório"
+                ],
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1720743786847x964811711326828000/GELEIA%20DE%20MOCOTO%20CASEIRA%20DONA%20ELZA%2050%20GR.jpg"
+                ],
+                "preço antigo": 2.5,
+                "cod": "002172",
+                "Modified Date": "2026-03-04T17:08:29.481Z",
+                "descriçao": "Geleia artesanal feita com mocotó, da Dona Elza, com sabor agridoce, em embalagem tradicional. Usos: Consumir com torradas, pães, biscoitos ou como recheio de bolos e tortas.",
+                "Created By": "admin_user_levee-delivery_test",
+                "peso por unidade": 50,
+                "preço novo": 2.99,
+                "relacionados": [
+                    "1721092987749x546524138467534800"
+                ],
+                "visivel": true,
+                "tipo_unidade": "UN",
+                "ean": "7891322288350",
+                "_id": "1721092987740x500933988180356900",
+                "estoque": 99901,
+                "como armazenar": "Temperatura ambiente em local fresco e seco, após aberto manter refrigerado entre 0ºC e 10ºC. Validade média: 1 ano (fechado), 15 dias (aberto).",
+                "peso/und": "unidade",
+                "demanda": 18,
+                "desconto": -19.60000000000001
+            },
+            {
+                "relacionados": [
+                    "1721092987739x336981052798822200"
+                ],
+                "peso/und": "unidade",
+                "qtd por unidade": "300g",
+                "Modified Date": "2025-05-21T17:13:01.145Z",
+                "cod": "002149",
+                "Created Date": "2024-07-16T01:23:07.741Z",
+                "estoque": 100000,
+                "como armazenar": "Temperatura ambiente em local fresco e seco. Validade média: 5 dias.",
+                "desconto": 0,
+                "ean": "7898929337351",
+                "categorias_produto": [
+                    "Outros"
+                ],
+                "Created By": "admin_user_levee-delivery_test",
+                "nome": "Fubazinho Fornada De Minas 300g",
+                "demanda": 0,
+                "visivel": true,
+                "descriçao": "Bolo de fubá tradicional da culinária mineira, da marca Fornada de Minas. Usos: Consumir como lanche ou café da tarde.",
+                "_id": "1721092987741x236237158073355100",
+                "tipo_unidade": "UN",
+                "peso por unidade": 150,
+                "preço antigo": 9.99,
+                "preço novo": 9.99
+            },
+            {
+                "demanda": 34,
+                "desconto": 0,
+                "como armazenar": "Refrigerado entre 0ºC e 10ºC, em local seco. Para maior durabilidade, congelar. Validade média: 1 semana (refrigerado), 3 meses (congelado).",
+                "preço antigo": 12.99,
+                "estoque": 76881,
+                "peso por unidade": 80,
+                "info nutricional": "Por 100g (raiz crua):\n- Calorias: 80kcal\n- Carboidratos: 18g\n- Açúcar: 2g\n- Fibra: 2g\n- Proteína: 2g\n- Gordura: 0.8g\nVitaminas:\n- Vitamina C: 5mg (6% VD)\n- Vitamina B6: 0.2mg (8% VD)",
+                "Created By": "admin_user_levee-delivery_test",
+                "cod": "000132",
+                "visivel": true,
+                "categorias_produto": [
+                    "Legumes"
+                ],
+                "preço novo": 12.99,
+                "descriçao": "Raiz tuberosa com sabor picante e aroma marcante, originária da Ásia. Receitas: Chás, sucos, molhos, doces, pratos salgados. Usos: Utilizar fresco, em pó ou cristalizado como tempero ou ingrediente em receitas.",
+                "tipo_unidade": "KG",
+                "relacionados": [
+                    "1721092727400x867734492243341800"
+                ],
+                "preço por kg": 12.9815333,
+                "Modified Date": "2026-03-04T12:13:34.884Z",
+                "nome": "Gengibre",
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1719347607614x278531988180423800/Gengibre.jpg"
+                ],
+                "ordem_prateleira": 21,
+                "peso/und": "peso",
+                "ean": "0000000000119",
+                "_id": "1721092987748x463140800408333950",
+                "Created Date": "2024-07-16T01:23:07.748Z"
+            },
+            {
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1720743599453x795699803447103900/GELEIA%20DE%20MOCOTO%20CASEIRA%20DONA%20ELZA%20600%20GR.jpg"
+                ],
+                "nome": "Geleia De Mocoto Caseira Dona Elza 600g",
+                "desconto": -21.44388849177983,
+                "descriçao": "Geleia artesanal feita com mocotó, da Dona Elza, com sabor agridoce. Usos: Consumir com torradas, pães, biscoitos ou como recheio de bolos e tortas.",
+                "cod": "000633",
+                "preço antigo": 13.99,
+                "visivel": true,
+                "Modified Date": "2026-02-20T18:05:29.421Z",
+                "estoque": 99953,
+                "demanda": 10,
+                "tipo_unidade": "UN",
+                "relacionados": [
+                    "1721092987740x500933988180356900"
+                ],
+                "qtd por unidade": "600g",
+                "categorias_produto": [
+                    "Empório"
+                ],
+                "preço novo": 16.99,
+                "_id": "1721092987749x546524138467534800",
+                "ean": "0000000000781",
+                "peso/und": "unidade",
+                "peso por unidade": 600,
+                "como armazenar": "Temperatura ambiente em local fresco e seco, após aberto manter refrigerado entre 0ºC e 10ºC. Validade média: 1 ano (fechado), 15 dias (aberto).",
+                "Created Date": "2024-07-16T01:23:07.749Z",
+                "Created By": "admin_user_levee-delivery_test"
+            },
+            {
+                "Created By": "admin_user_levee-delivery_test",
+                "cod": "002348",
+                "categorias_produto": [
+                    "Chás"
+                ],
+                "descriçao": "Planta medicinal utilizada para melhorar a memória e a concentração. Usos: Preparar chá.",
+                "desconto": 0,
+                "demanda": 0,
+                "tipo_unidade": "UN",
+                "preço antigo": 6.99,
+                "preço novo": 6.99,
+                "Created Date": "2024-07-16T01:23:07.753Z",
+                "ean": "0192505114631",
+                "nome": "Ginko-Biloba 20g",
+                "estoque": 99999,
+                "Modified Date": "2025-05-21T17:13:01.154Z",
+                "visivel": true,
+                "peso/und": "unidade",
+                "como armazenar": "Temperatura ambiente em local fresco, seco e protegido da luz. Validade média: 1 ano.",
+                "peso por unidade": 20,
+                "_id": "1721092987753x663122607653594100",
+                "qtd por unidade": "20g",
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1720743962569x221340307948507000/GINKO-BILOBA%2020G%20SAUDE%20PLENA.jpg"
+                ]
+            },
+            {
+                "Created Date": "2024-07-16T01:23:07.754Z",
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1720743889457x611414803740377200/GERGELIM%20BRANCO%20200GR.jpg"
+                ],
+                "desconto": 0,
+                "cod": "001439",
+                "info nutricional": "Por 100g:\n- Calorias: 573kcal\n- Gordura Total: 49g\n- Gordura Saturada: 7g\n- Gordura Monoinsaturada: 18g\n- Gordura Poli-insaturada: 24g\n- Colesterol: 0mg (0% VD)\n- Sódio: 11mg (0% VD)\n- Carboidratos: 23g\n- Fibra Alimentar: 12g\n- Açúcar: 0.3g\n- Proteína: 18g\nVitaminas e Minerais:\n- Cálcio: 989mg (99% VD)\n- Ferro: 14.6mg (81% VD)\n- Magnésio: 351mg (88% VD)",
+                "visivel": true,
+                "descriçao": "Sementes de gergelim branco, ricas em cálcio e ferro. Receitas: Saladas, pães, bolos, tortas. Usos: Consumir cru, torrado ou como ingrediente em receitas.",
+                "estoque": 99992,
+                "demanda": 0,
+                "preço antigo": 14.99,
+                "nome": "Gergelim Branco 200g",
+                "peso/und": "unidade",
+                "como armazenar": "Temperatura ambiente em local fresco, seco e hermeticamente fechado. Validade média: 6 meses.",
+                "preço novo": 14.99,
+                "Created By": "admin_user_levee-delivery_test",
+                "qtd por unidade": "200g",
+                "ean": "0192505114457",
+                "_id": "1721092987754x196778552328990880",
+                "tipo_unidade": "UN",
+                "peso por unidade": 200,
+                "Modified Date": "2026-02-27T15:04:00.521Z",
+                "categorias_produto": [
+                    "Empório"
+                ]
+            },
+            {
+                "categorias_produto": [
+                    "Frutas"
+                ],
+                "visivel": true,
+                "demanda": 1107,
+                "desconto": 0,
+                "nome": "Goiaba Vermelha",
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1719347608291x495597189518862900/Goiaba%20Vermelha.jpg"
+                ],
+                "preço por kg": 9.990710991,
+                "como armazenar": "Refrigerado entre 0ºC e 10ºC, em embalagem fechada ou coberta. Validade média: 5 dias.",
+                "preço novo": 17.99,
+                "info nutricional": "Por 100g:\n- Calorias: 68kcal\n- Carboidratos: 14g\n- Açúcar: 9g\n- Fibra: 5g\n- Proteína: 1g\n- Gordura: 0.6g\nVitaminas:\n- Vitamina C: 228mg (253% VD)\n- Vitamina A: 257 UI (5% VD)",
+                "tipo_unidade": "KG",
+                "Modified Date": "2026-03-04T16:20:15.653Z",
+                "Created Date": "2024-07-16T01:23:07.755Z",
+                "descriçao": "Variedade de goiaba com polpa vermelha, doce e suculenta. Receitas: Doces, geleias, sucos. Usos: Consumir fresca.",
+                "peso/und": "peso",
+                "cod": "000265",
+                "_id": "1721092987755x170954071162865900",
+                "peso por unidade": 154,
+                "ordem_prateleira": 77,
+                "relacionados": [
+                    "1721092987756x134174255644236460"
+                ],
+                "estoque": 99658846,
+                "ean": "0000000000246",
+                "Created By": "admin_user_levee-delivery_test"
+            },
+            {
+                "como armazenar": "Refrigerado entre 0ºC e 10ºC, em embalagem fechada ou coberta. Validade média: 5 dias.",
+                "Modified Date": "2026-02-26T15:08:36.881Z",
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1724108293309x233080770749030340/2610.png"
+                ],
+                "_id": "1721092987756x134174255644236460",
+                "Created Date": "2024-07-16T01:23:07.756Z",
+                "visivel": true,
+                "ean": "0000000013468",
+                "descriçao": "Goiaba comercializada em bandeja, garantindo frescor e praticidade. Receitas: Doces, geleias, sucos. Usos: Consumir fresca.",
+                "cod": "002610",
+                "Created By": "admin_user_levee-delivery_test",
+                "preço por kg": 6.99,
+                "categorias_produto": [
+                    "Frutas"
+                ],
+                "preço antigo": 4.99,
+                "demanda": 4,
+                "preço novo": 29.99,
+                "relacionados": [
+                    "1721092987755x170954071162865900"
+                ],
+                "tipo_unidade": "BJ",
+                "desconto": 0,
+                "nome": "Goiabada Bandeja",
+                "peso por unidade": 200,
+                "peso/und": "peso",
+                "estoque": 93077
+            },
+            {
+                "ean": "0000000003216",
+                "como armazenar": "Temperatura ambiente em local fresco e seco. Validade média: 5 dias.",
+                "cod": "001445",
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1720744140385x280133917258114100/GOIABADA%20BARRA%20VOVO%20OLAVO%20500G%202.jpg"
+                ],
+                "categorias_produto": [
+                    "Empório"
+                ],
+                "preço novo": 29.99,
+                "desconto": 0,
+                "preço por kg": 30,
+                "Modified Date": "2026-03-02T13:29:16.928Z",
+                "relacionados": [
+                    "1721092987764x158580252307596320",
+                    "1721092987765x906177538412833400",
+                    "1721092987766x916601178053797800",
+                    "1721092987770x856660429504168400",
+                    "1721092987772x303151922779627970"
+                ],
+                "peso por unidade": 384,
+                "Created Date": "2024-07-16T01:23:07.757Z",
+                "estoque": 83981,
+                "peso/und": "peso",
+                "tipo_unidade": "KG",
+                "nome": "Goiabada Cascao Artesanal",
+                "descriçao": "Goiabada tradicional em formato de cascão, produzida artesanalmente, com pedaços de goiaba. Usos: Consumir com queijo, em receitas de doces e sobremesas.",
+                "demanda": 5,
+                "visivel": true,
+                "Created By": "admin_user_levee-delivery_test",
+                "_id": "1721092987757x493176754495459700",
+                "preço antigo": 29.99
+            },
+            {
+                "desconto": 0,
+                "preço antigo": 18.99,
+                "relacionados": [
+                    "1721092987764x158580252307596320",
+                    "1721092987765x906177538412833400",
+                    "1721092987766x916601178053797800",
+                    "1721092987770x856660429504168400",
+                    "1721092987772x303151922779627970"
+                ],
+                "ean": "7908105007661",
+                "como armazenar": "Temperatura ambiente em local fresco e seco, após aberto manter refrigerado entre 0ºC e 10ºC. Validade média: 6 meses (fechado), 5 dias (aberto).",
+                "peso/und": "unidade",
+                "categorias_produto": [
+                    "Empório"
+                ],
+                "estoque": 100000,
+                "descriçao": "Goiabada cremosa com redução de calorias, da marca Vovó Olavo, ideal para dietas com restrição calórica. Usos: Consumir com pães, biscoitos, torradas ou como ingrediente em receitas.",
+                "preço novo": 18.99,
+                "Created Date": "2024-07-16T01:23:07.763Z",
+                "peso por unidade": 400,
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1720744239780x753875182743076500/GOIABADA%20CREMOSA%20%20LIGHT%20VOVO%20OLAVO%20400G.jpg"
+                ],
+                "_id": "1721092987763x764315153273325400",
+                "Modified Date": "2025-05-21T17:13:01.181Z",
+                "cod": "001092",
+                "tipo_unidade": "UN",
+                "nome": "Goiabada Cremosa Light Vovo Olavo 400g",
+                "qtd por unidade": "400g",
+                "demanda": 0,
+                "Created By": "admin_user_levee-delivery_test",
+                "visivel": false
+            },
+            {
+                "cod": "001097",
+                "tipo_unidade": "UN",
+                "peso/und": "unidade",
+                "ean": "7908105000020",
+                "categorias_produto": [
+                    "Empório"
+                ],
+                "preço novo": 11.99,
+                "desconto": 0,
+                "como armazenar": "Temperatura ambiente em local fresco e seco. Validade média: 6 meses.",
+                "descriçao": "Goiabada tradicional em barra, da marca Vovó Olavo, com sabor agridoce. Usos: Consumir com queijo, em receitas de doces e sobremesas.",
+                "nome": "Goiabada Barra Vovo Olavo 300g",
+                "Modified Date": "2026-01-31T10:08:16.867Z",
+                "peso por unidade": 500,
+                "qtd por unidade": "500g",
+                "estoque": 99984,
+                "demanda": 5,
+                "Created Date": "2024-07-16T01:23:07.764Z",
+                "_id": "1721092987764x158580252307596320",
+                "visivel": true,
+                "Created By": "admin_user_levee-delivery_test",
+                "preço antigo": 11.99,
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1720744022010x319520036821670200/GOIABADA%20BARRA%20VOVO%20OLAVO%20500G.jpg"
+                ],
+                "relacionados": [
+                    "1721092987757x493176754495459700",
+                    "1721092987763x764315153273325400",
+                    "1721092987765x906177538412833400",
+                    "1721092987766x916601178053797800",
+                    "1721092987770x856660429504168400",
+                    "1721092987772x303151922779627970"
+                ]
+            },
+            {
+                "Created By": "admin_user_levee-delivery_test",
+                "tipo_unidade": "UN",
+                "demanda": 0,
+                "qtd por unidade": "300g",
+                "preço antigo": 11.99,
+                "visivel": true,
+                "ean": "7908105000068",
+                "relacionados": [
+                    "1721092987757x493176754495459700",
+                    "1721092987763x764315153273325400",
+                    "1721092987764x158580252307596320",
+                    "1721092987766x916601178053797800",
+                    "1721092987770x856660429504168400",
+                    "1721092987772x303151922779627970"
+                ],
+                "nome": "Goiabada Pote Vovo Olavo 300g",
+                "descriçao": "Goiabada cremosa em pote, da marca Vovó Olavo, prática para o consumo. Usos: Consumir com queijo, pães, biscoitos ou como ingrediente em receitas.",
+                "como armazenar": "Temperatura ambiente em local fresco e seco, após aberto manter refrigerado entre 0ºC e 10ºC. Validade média: 6 meses (fechado), 5 dias (aberto).",
+                "desconto": 0,
+                "_id": "1721092987765x906177538412833400",
+                "peso/und": "unidade",
+                "categorias_produto": [
+                    "Outros"
+                ],
+                "Modified Date": "2025-06-14T14:17:45.362Z",
+                "cod": "001095",
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1724108272723x994293283951521500/1095.jpg"
+                ],
+                "preço novo": 11.99,
+                "Created Date": "2024-07-16T01:23:07.765Z",
+                "estoque": 100000,
+                "peso por unidade": 300
+            },
+            {
+                "Created Date": "2024-07-16T01:23:07.766Z",
+                "relacionados": [
+                    "1721092987757x493176754495459700",
+                    "1721092987763x764315153273325400",
+                    "1721092987764x158580252307596320",
+                    "1721092987765x906177538412833400",
+                    "1721092987770x856660429504168400",
+                    "1721092987772x303151922779627970"
+                ],
+                "ean": "7908105000013",
+                "estoque": 97660,
+                "nome": "Goiabada Vovo Olavo 250g",
+                "preço por kg": 6.99,
+                "peso/und": "peso",
+                "demanda": 0,
+                "Created By": "admin_user_levee-delivery_test",
+                "preço antigo": 7.99,
+                "preço novo": 7.99,
+                "desconto": 0,
+                "_id": "1721092987766x916601178053797800",
+                "visivel": true,
+                "peso por unidade": 180,
+                "Modified Date": "2025-05-21T17:13:01.204Z",
+                "tipo_unidade": "UN",
+                "categorias_produto": [
+                    "Outros"
+                ],
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1724114843449x264908004859020670/Goiabada%20Vovo%20Olavo%20250g.jpeg"
+                ],
+                "cod": "001498",
+                "qtd por unidade": "250g",
+                "descriçao": "Goiabada tradicional em pedaços, da marca Vovó Olavo, com sabor agridoce. Usos: Consumir com queijo, em receitas de doces e sobremesas.",
+                "como armazenar": "Temperatura ambiente em local fresco e seco. Validade média: 6 meses."
+            },
+            {
+                "visivel": true,
+                "demanda": 0,
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1749910862777x158673528923420670/1095.avif"
+                ],
+                "cod": "001094",
+                "desconto": 0,
+                "preço novo": 18.99,
+                "relacionados": [
+                    "1721092987757x493176754495459700",
+                    "1721092987763x764315153273325400",
+                    "1721092987764x158580252307596320",
+                    "1721092987765x906177538412833400",
+                    "1721092987766x916601178053797800",
+                    "1721092987772x303151922779627970"
+                ],
+                "Modified Date": "2025-07-11T18:43:26.451Z",
+                "nome": "Goiabada Vovo Olavo 600g",
+                "peso por unidade": 600,
+                "Created Date": "2024-07-16T01:23:07.770Z",
+                "preço por kg": 7,
+                "qtd por unidade": "600g",
+                "estoque": 99999,
+                "categorias_produto": [
+                    "Outros"
+                ],
+                "_id": "1721092987770x856660429504168400",
+                "preço antigo": 18.99,
+                "Created By": "admin_user_levee-delivery_test",
+                "como armazenar": "Temperatura ambiente em local fresco e seco, após aberto manter refrigerado entre 0ºC e 10ºC. Validade média: 6 meses (fechado), 5 dias (aberto).",
+                "tipo_unidade": "UN",
+                "descriçao": "Goiabada cremosa em pote, da marca Vovó Olavo, em tamanho família. Usos: Consumir com queijo, pães, biscoitos ou como ingrediente em receitas.",
+                "peso/und": "unidade",
+                "ean": "7908105000075"
+            },
+            {
+                "tipo_unidade": "UN",
+                "relacionados": [
+                    "1721092987757x493176754495459700",
+                    "1721092987763x764315153273325400",
+                    "1721092987764x158580252307596320",
+                    "1721092987765x906177538412833400",
+                    "1721092987766x916601178053797800",
+                    "1721092987770x856660429504168400"
+                ],
+                "_id": "1721092987772x303151922779627970",
+                "peso por unidade": 30,
+                "qtd por unidade": "30g",
+                "peso/und": "unidade",
+                "como armazenar": "Temperatura ambiente em local fresco e seco. Validade média: 6 meses.",
+                "preço antigo": 1.5,
+                "ean": "7898058981845",
+                "visivel": true,
+                "estoque": 99991,
+                "desconto": 0,
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1720744191035x834113812269252400/GOIABADA%20CASCAO%20DIET%2030G.jpg"
+                ],
+                "Modified Date": "2026-02-26T00:49:53.056Z",
+                "Created Date": "2024-07-16T01:23:07.772Z",
+                "descriçao": "Goiabada em formato de cascão, com redução de açúcar, ideal para dietas com restrição de açúcar. Usos: Consumir com queijo ou como doce.",
+                "preço novo": 1.5,
+                "Created By": "admin_user_levee-delivery_test",
+                "categorias_produto": [
+                    "Empório"
+                ],
+                "demanda": 0,
+                "nome": "Goiabada Cascao Diet 30g",
+                "cod": "001797"
+            },
+            {
+                "info nutricional": "Por 100g (cozido):\n- Calorias: 164kcal\n- Carboidratos: 27g\n- Fibra: 8g\n- Proteína: 9g\n- Gordura: 3g\nVitaminas:\n- Folato: 141mcg (35% VD)\n- Manganês: 0.9mg (41% VD)",
+                "qtd por unidade": "200g",
+                "preço antigo": 9.99,
+                "descriçao": "Grãos de grão de bico, ricos em proteínas e fibras. Receitas: Saladas, sopas, pastas. Usos: Deixar de molho e cozinhar até ficar macio.",
+                "Created By": "admin_user_levee-delivery_test",
+                "categorias_produto": [
+                    "Empório"
+                ],
+                "demanda": 1,
+                "ean": "0192505115461",
+                "cod": "001509",
+                "Modified Date": "2026-01-18T12:13:29.341Z",
+                "visivel": true,
+                "peso/und": "unidade",
+                "como armazenar": "Temperatura ambiente em local fresco, seco e hermeticamente fechado. Validade média: 1 ano.",
+                "Created Date": "2024-07-16T01:23:07.773Z",
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1720744321632x614692634538920600/GRAO%20DE%20BICO%20200G.jpg"
+                ],
+                "tipo_unidade": "UN",
+                "nome": "Grão De Bico 200g",
+                "desconto": 0,
+                "peso por unidade": 200,
+                "_id": "1721092987773x587587503999400300",
+                "preço novo": 9.99,
+                "estoque": 99998
+            },
+            {
+                "peso por unidade": 3000,
+                "como armazenar": "Refrigerado entre 0ºC e 10ºC. Validade média: 3 dias.",
+                "relacionados": [
+                    "1721092987796x394916839940184300"
+                ],
+                "nome": "Graviola",
+                "peso/und": "peso",
+                "visivel": true,
+                "desconto": -17.6574455562095,
+                "preço antigo": 16.99,
+                "ean": "0000000000370",
+                "Modified Date": "2026-03-03T14:01:56.277Z",
+                "Created By": "admin_user_levee-delivery_test",
+                "info nutricional": "Por 100g (polpa):\n- Calorias: 60kcal\n- Carboidratos: 15g\n- Fibra: 3g\n- Proteína: 1g\n- Gordura: 0.3g\nVitaminas:\n- Vitamina C: 20mg (22% VD)",
+                "categorias_produto": [
+                    "Frutas"
+                ],
+                "Created Date": "2024-07-16T01:23:07.774Z",
+                "demanda": 6,
+                "preço novo": 19.99,
+                "_id": "1721092987774x351888359470265100",
+                "descriçao": "Fruto originário da América Central, com polpa branca e sabor agridoce. Receitas: Sucos, sorvetes, mousses. Usos: Consumir a polpa in natura ou como ingrediente em receitas.",
+                "cod": "001010",
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1720744365286x768291923683461800/GRAVIOLA.jpg"
+                ],
+                "preço por kg": 14.99115044,
+                "estoque": 53601,
+                "tipo_unidade": "KG"
+            },
+            {
+                "cod": "000048",
+                "nome": "Hortela 50g",
+                "peso por unidade": 50,
+                "preço novo": 2.99,
+                "Created Date": "2024-07-16T01:23:07.775Z",
+                "preço antigo": 2.99,
+                "peso/und": "unidade",
+                "categorias_produto": [
+                    "Verduras"
+                ],
+                "Modified Date": "2026-03-03T19:01:51.638Z",
+                "ean": "0000000000040",
+                "_id": "1721092987775x816393984725759500",
+                "estoque": 99809,
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1720748055839x892691614806815600/HORTELA.jpg"
+                ],
+                "descriçao": "Planta aromática com sabor refrescante, originária da região do Mediterrâneo. Receitas: Chás, sucos, molhos, sobremesas. Usos: Utilizar as folhas frescas para aromatizar bebidas e alimentos.",
+                "desconto": 0,
+                "ordem_prateleira": 126,
+                "visivel": true,
+                "demanda": 33,
+                "Created By": "admin_user_levee-delivery_test",
+                "tipo_unidade": "UN",
+                "como armazenar": "Refrigerado entre 0ºC e 10ºC, em embalagem fechada ou coberta. Validade média: 5 dias.",
+                "info nutricional": "Por 100g:\n- Calorias: 70kcal\n- Carboidratos: 15g\n- Fibra: 8g\n- Proteína: 4g\n- Gordura: 1g\nVitaminas:\n- Vitamina A: 10458 UI (209% VD)\n- Vitamina C: 30mg (33% VD)\n- Ferro: 4mg (22% VD)"
+            },
+            {
+                "cod": "002359",
+                "Created Date": "2024-07-16T01:23:07.796Z",
+                "ean": "0192505114648",
+                "nome": "Graviola Folhas 25g",
+                "qtd por unidade": "25g",
+                "categorias_produto": [
+                    "Chás"
+                ],
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1720747940645x537876653187185900/GRAVIOLA%20FOLHAS.jpg"
+                ],
+                "peso por unidade": 25,
+                "relacionados": [
+                    "1721092987774x351888359470265100"
+                ],
+                "desconto": 0,
+                "preço antigo": 4.99,
+                "demanda": 0,
+                "preço novo": 4.99,
+                "descriçao": "Folhas de graviola desidratadas, da marca Saúde Plena, conhecidas por suas propriedades medicinais. Usos: Preparar chá.",
+                "estoque": -100000,
+                "Created By": "admin_user_levee-delivery_test",
+                "visivel": false,
+                "peso/und": "unidade",
+                "tipo_unidade": "UN",
+                "_id": "1721092987796x394916839940184300",
+                "como armazenar": "Temperatura ambiente em local fresco, seco e protegido da luz. Validade média: 1 ano.",
+                "Modified Date": "2025-10-23T14:09:51.968Z"
+            },
+            {
+                "nome": "Jilo",
+                "categorias_produto": [
+                    "Legumes"
+                ],
+                "preço antigo": 9.99,
+                "descriçao": "Fruto originário da África, com sabor amargo característico. Receitas: Refogados, conservas. Usos: Consumir cozido.",
+                "visivel": true,
+                "ean": "0000000000124",
+                "demanda": 183,
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1720748201229x978689480168772600/JILO.jpg"
+                ],
+                "peso por unidade": 40,
+                "tipo_unidade": "KG",
+                "info nutricional": "Por 100g:\n- Calorias: 32kcal\n- Carboidratos: 7g\n- Fibra: 3g\n- Proteína: 1g\n- Gordura: 0.2g\nVitaminas:\n- Vitamina C: 13mg (14% VD)",
+                "preço por kg": 9.327640794,
+                "como armazenar": "Refrigerado entre 0ºC e 10ºC, em embalagem fechada ou coberta. Validade média: 5 dias.",
+                "Modified Date": "2026-02-27T12:43:43.469Z",
+                "cod": "138",
+                "relacionados": [
+                    "1721092987813x568280416035416260"
+                ],
+                "preço novo": 15.99,
+                "estoque": 58995,
+                "Created Date": "2024-07-16T01:23:07.806Z",
+                "Created By": "admin_user_levee-delivery_test",
+                "peso/und": "peso",
+                "desconto": -60.0600600600601,
+                "_id": "1721092987806x251575813551121470"
+            },
+            {
+                "Modified Date": "2025-09-29T20:39:31.910Z",
+                "qtd por unidade": "30g",
+                "Created Date": "2024-07-16T01:23:07.807Z",
+                "Created By": "admin_user_levee-delivery_test",
+                "demanda": 0,
+                "desconto": 0,
+                "ean": "0000000003537",
+                "visivel": true,
+                "categorias_produto": [
+                    "Chás"
+                ],
+                "peso/und": "unidade",
+                "nome": "Guaco Folhas 30g Saúde Plena",
+                "estoque": 99999,
+                "_id": "1721092987807x810414570559480300",
+                "cod": "019250",
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1739900176861x141751395342413220/download.png"
+                ],
+                "peso por unidade": 30,
+                "preço antigo": 4.99,
+                "preço novo": 4.99,
+                "como armazenar": "Temperatura ambiente em local fresco, seco e protegido da luz. Validade média: 1 ano.",
+                "descriçao": "Planta medicinal conhecida por suas propriedades expectorantes e broncodilatadoras. Usos: Preparar chá.",
+                "tipo_unidade": "UN"
+            },
+            {
+                "_id": "1721092987808x317573293279888900",
+                "descriçao": "Raiz tuberosa rica em carboidratos, originária da África. Receitas: Purês, sopas, caldos, acompanhamentos. Usos: Consumir cozido, assado ou frito.",
+                "como armazenar": "Temperatura ambiente em local fresco, seco e arejado. Validade média: 15 dias.",
+                "Created Date": "2024-07-16T01:23:07.808Z",
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1719347609194x390265811649741250/Inhame%20kgs.jpg"
+                ],
+                "desconto": -57.2246065808298,
+                "preço antigo": 6.99,
+                "estoque": 941567,
+                "ean": "0000000000121",
+                "demanda": 3363,
+                "visivel": true,
+                "preço novo": 10.99,
+                "relacionados": [
+                    "1721092987809x175920689104285060"
+                ],
+                "peso por unidade": 165,
+                "Created By": "admin_user_levee-delivery_test",
+                "ordem_prateleira": 36,
+                "info nutricional": "Por 100g (cozido):\n- Calorias: 118kcal\n- Carboidratos: 28g\n- Fibra: 4g\n- Proteína: 2g\n- Gordura: 0.2g\nVitaminas:\n- Vitamina C: 17mg (19% VD)\n- Manganês: 0.5mg (23% VD)",
+                "nome": "Inhame",
+                "preço por kg": 7.672710475,
+                "cod": "258749",
+                "peso/und": "peso",
+                "Modified Date": "2026-03-04T13:13:57.562Z",
+                "tipo_unidade": "KG",
+                "categorias_produto": [
+                    "Legumes"
+                ]
+            },
+            {
+                "categorias_produto": [
+                    "Legumes"
+                ],
+                "_id": "1721092987809x175920689104285060",
+                "demanda": 64,
+                "peso por unidade": 400,
+                "Modified Date": "2026-03-04T16:50:32.569Z",
+                "relacionados": [
+                    "1721092987808x317573293279888900"
+                ],
+                "estoque": 99715,
+                "visivel": true,
+                "Created By": "admin_user_levee-delivery_test",
+                "em oferta": false,
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1720748157816x870326370586842800/INHAME%20DESCASCADO.jpg"
+                ],
+                "ean": "0000000010764",
+                "preço antigo": 9.99,
+                "como armazenar": "Refrigerado entre 0ºC e 10ºC, em recipiente fechado. Validade média: 3 dias.",
+                "preço novo": 9.99,
+                "descriçao": "Inhame já descascado e embalado, proporcionando praticidade no preparo das receitas. Receitas: Purês, sopas, caldos, acompanhamentos. Usos: Consumir cozido, assado ou frito.",
+                "nome": "Inhame Descascado 400g",
+                "desconto": 0,
+                "cod": "002272",
+                "peso/und": "unidade",
+                "Created Date": "2024-07-16T01:23:07.809Z",
+                "tipo_unidade": "KG"
+            },
+            {
+                "Created Date": "2024-07-16T01:23:07.810Z",
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1736181107976x697876610810443300/20241205_104941.JPG"
+                ],
+                "ean": "0000000006989",
+                "_id": "1721092987810x366784111423773760",
+                "nome": "Kit Maionese Seleta 400g",
+                "peso por unidade": 350,
+                "descriçao": "Kit com variedade de legumes frescos e selecionados.",
+                "visivel": true,
+                "preço novo": 7.99,
+                "cod": "001860",
+                "estoque": 98618,
+                "Modified Date": "2026-03-04T17:08:30.341Z",
+                "desconto": 0,
+                "categorias_produto": [
+                    "Legumes",
+                    "Higienizados",
+                    "Kit Processados"
+                ],
+                "como armazenar": "Refrigerado entre 0ºC e 10ºC. Validade média: 3 dias.",
+                "Created By": "admin_user_levee-delivery_test",
+                "tipo_unidade": "UN",
+                "demanda": 195,
+                "peso/und": "unidade"
+            },
+            {
+                "Created Date": "2024-07-16T01:23:07.813Z",
+                "tipo_unidade": "BJ",
+                "nome": "Jilo Bandeja 200g",
+                "relacionados": [
+                    "1721092987806x251575813551121470"
+                ],
+                "_id": "1721092987813x568280416035416260",
+                "descriçao": "Jiló comercializado em bandeja, garantindo frescor e praticidade. Receitas: Refogados, conservas. Usos: Consumir cozido.",
+                "Created By": "admin_user_levee-delivery_test",
+                "peso/und": "unidade",
+                "preço novo": 5.99,
+                "demanda": 32,
+                "desconto": -20.040080160320638,
+                "categorias_produto": [
+                    "Legumes"
+                ],
+                "cod": "000140",
+                "estoque": 99877,
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1720748264518x439423923657852100/JILO%20BANDEJA.jpg"
+                ],
+                "ean": "0000000000125",
+                "preço antigo": 4.99,
+                "visivel": true,
+                "como armazenar": "Refrigerado entre 0ºC e 10ºC, em embalagem fechada ou coberta. Validade média: 5 dias.",
+                "Modified Date": "2026-02-27T18:57:28.344Z",
+                "peso por unidade": 200,
+                "ordem_prateleira": 22
+            },
+            {
+                "nome": "Kit Sopa Pronta 400g",
+                "Modified Date": "2026-03-04T17:08:30.228Z",
+                "descriçao": "Kit com ingredientes pré-prontos para preparar sopa.",
+                "categorias_produto": [
+                    "Legumes",
+                    "Higienizados",
+                    "Kit Processados"
+                ],
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1736176164149x480805271306397500/20241205_104023.JPG"
+                ],
+                "estoque": 98871,
+                "demanda": 164,
+                "preço antigo": 7.99,
+                "preço novo": 7.99,
+                "desconto": 0,
+                "Created Date": "2024-07-16T01:23:07.814Z",
+                "Created By": "admin_user_levee-delivery_test",
+                "ean": "0000000010542",
+                "cod": "002244",
+                "tipo_unidade": "UN",
+                "peso/und": "unidade",
+                "visivel": true,
+                "como armazenar": "Informação pendente. Favor informar os ingredientes do kit para detalhes de armazenamento.",
+                "peso por unidade": 350,
+                "_id": "1721092987814x151237980810620350"
+            },
+            {
+                "descriçao": "Kit com ingredientes pré-prontos para preparar yakisoba low carb.",
+                "nome": "Kit Low Carb (Yakissoba) 250g",
+                "Modified Date": "2026-03-04T16:50:31.052Z",
+                "ean": "0000000001700",
+                "_id": "1721092987814x583771417101006200",
+                "como armazenar": "Informação pendente. Favor informar os ingredientes do kit para detalhes de armazenamento.",
+                "cod": "001232",
+                "tipo_unidade": "UN",
+                "peso por unidade": 250,
+                "estoque": 98894,
+                "preço novo": 7.99,
+                "visivel": true,
+                "Created By": "admin_user_levee-delivery_test",
+                "desconto": 0,
+                "preço antigo": 7.99,
+                "demanda": 154,
+                "peso/und": "unidade",
+                "Created Date": "2024-07-16T01:23:07.814Z",
+                "categorias_produto": [
+                    "Legumes",
+                    "Higienizados",
+                    "Kit Processados"
+                ],
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1736175284290x785743590134483600/20241205_102645.JPG"
+                ]
+            },
+            {
+                "desconto": 0,
+                "categorias_produto": [
+                    "Frutas"
+                ],
+                "preço novo": 15.99,
+                "preço por kg": 12.98982554,
+                "Created By": "admin_user_levee-delivery_test",
+                "descriçao": "Variedade de laranja doce e suculenta, importada. Receitas: Sucos, vitaminas, doces, molhos. Usos: Consumir fresca ou como ingrediente em receitas.",
+                "como armazenar": "Temperatura ambiente em local fresco e arejado ou refrigerado entre 0ºC e 10ºC para maior durabilidade. Validade média: 1 semana (ambiente), 2 semanas (refrigerado).",
+                "Modified Date": "2026-02-27T15:55:40.560Z",
+                "ean": "0000000000255",
+                "demanda": 1588,
+                "nome": "Laranja Bahia Importada",
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1720745213236x252924109569130370/LARANJA%20BAHIA%20IMPORTADA.jpg"
+                ],
+                "_id": "1721092987816x589131952241444600",
+                "preço antigo": 0,
+                "cod": "000275",
+                "peso por unidade": 246,
+                "Created Date": "2024-07-16T01:23:07.816Z",
+                "tipo_unidade": "KG",
+                "ordem_prateleira": 82,
+                "peso/und": "peso",
+                "visivel": false,
+                "estoque": -2746,
+                "relacionados": [
+                    "1721092987816x693686605577855900",
+                    "1721092987820x563079321516814600",
+                    "1721092987821x958973366618376000",
+                    "1721092987822x574124213139493440",
+                    "1721092987823x991350961062525700",
+                    "1721092987949x106342697256816000",
+                    "1721092987950x739237564803018800",
+                    "1721092987951x136681033988863780",
+                    "1721092989488x469293642996159170",
+                    "1721092989492x819804324903324200",
+                    "1721092989495x313504204646375200",
+                    "1721092989497x256648918386721760",
+                    "1721092989500x258625631654315400",
+                    "1721092989502x154192903386114460",
+                    "1721092989504x757744697077282700",
+                    "1721092989506x830283852341406800",
+                    "1721092989508x824185400007115800"
+                ]
+            },
+            {
+                "visivel": false,
+                "preço antigo": 5.99,
+                "estoque": 100000,
+                "peso/und": "unidade",
+                "descriçao": "Variedade de laranja menor e mais ácida que a laranja pera, ideal para o preparo de sucos. Receitas: Sucos, vitaminas. Usos: Consumir fresca ou como ingrediente em receitas.",
+                "preço novo": 5.99,
+                "tipo_unidade": "KG",
+                "demanda": 0,
+                "Created By": "admin_user_levee-delivery_test",
+                "cod": "002607",
+                "_id": "1721092987816x693686605577855900",
+                "Modified Date": "2025-05-21T17:13:01.493Z",
+                "ean": "0000000013444",
+                "como armazenar": "Temperatura ambiente em local fresco e arejado ou refrigerado entre 0ºC e 10ºC para maior durabilidade. Validade média: 1 semana (ambiente), 2 semanas (refrigerado).",
+                "Created Date": "2024-07-16T01:23:07.816Z",
+                "relacionados": [
+                    "1721092987816x589131952241444600",
+                    "1721092987820x563079321516814600",
+                    "1721092987821x958973366618376000",
+                    "1721092987822x574124213139493440",
+                    "1721092987823x991350961062525700",
+                    "1721092987949x106342697256816000",
+                    "1721092987950x739237564803018800",
+                    "1721092987951x136681033988863780",
+                    "1721092989488x469293642996159170",
+                    "1721092989492x819804324903324200",
+                    "1721092989495x313504204646375200",
+                    "1721092989497x256648918386721760",
+                    "1721092989500x258625631654315400",
+                    "1721092989502x154192903386114460",
+                    "1721092989504x757744697077282700",
+                    "1721092989506x830283852341406800",
+                    "1721092989508x824185400007115800"
+                ],
+                "peso por unidade": 250,
+                "categorias_produto": [
+                    "Frutas"
+                ],
+                "desconto": 0,
+                "nome": "Laranja Campestre 250g"
+            },
+            {
+                "peso por unidade": 20,
+                "estoque": 99973,
+                "relacionados": [
+                    "1721092987816x589131952241444600",
+                    "1721092987816x693686605577855900",
+                    "1721092987821x958973366618376000",
+                    "1721092987822x574124213139493440",
+                    "1721092987823x991350961062525700",
+                    "1721092987949x106342697256816000",
+                    "1721092987950x739237564803018800",
+                    "1721092987951x136681033988863780",
+                    "1721092989488x469293642996159170",
+                    "1721092989492x819804324903324200",
+                    "1721092989495x313504204646375200",
+                    "1721092989497x256648918386721760",
+                    "1721092989500x258625631654315400",
+                    "1721092989502x154192903386114460",
+                    "1721092989504x757744697077282700",
+                    "1721092989506x830283852341406800",
+                    "1721092989508x824185400007115800"
+                ],
+                "descriçao": "Laranja fatiada e desidratada, preservando o sabor e os nutrientes da fruta fresca. Usos: Consumir como snack, adicionar em chás ou utilizar em receitas.",
+                "ean": "0192505300980",
+                "categorias_produto": [
+                    "Empório"
+                ],
+                "Created By": "admin_user_levee-delivery_test",
+                "demanda": 9,
+                "peso/und": "unidade",
+                "desconto": -100.2004008016032,
+                "preço novo": 9.99,
+                "cod": "002273",
+                "como armazenar": "Temperatura ambiente em local fresco, seco e hermeticamente fechado. Validade média: 6 meses.",
+                "_id": "1721092987820x563079321516814600",
+                "visivel": true,
+                "Created Date": "2024-07-16T01:23:07.820Z",
+                "nome": "Laranja Desidratada 20g",
+                "tipo_unidade": "UN",
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1720748698757x820181986746447100/LARANJA.webp"
+                ],
+                "Modified Date": "2026-02-13T20:43:30.368Z",
+                "preço antigo": 4.99,
+                "qtd por unidade": "20g"
+            },
+            {
+                "Modified Date": "2026-03-04T17:29:41.484Z",
+                "ean": "0000000000260",
+                "desconto": 50.0500500500501,
+                "peso/und": "peso",
+                "preço por kg": 5.606921664,
+                "visivel": true,
+                "peso por unidade": 202,
+                "Created Date": "2024-07-16T01:23:07.821Z",
+                "relacionados": [
+                    "1721092987816x589131952241444600",
+                    "1721092987816x693686605577855900",
+                    "1721092987820x563079321516814600",
+                    "1721092987822x574124213139493440",
+                    "1721092987823x991350961062525700",
+                    "1721092987949x106342697256816000",
+                    "1721092987950x739237564803018800",
+                    "1721092987951x136681033988863780",
+                    "1721092989488x469293642996159170",
+                    "1721092989492x819804324903324200",
+                    "1721092989495x313504204646375200",
+                    "1721092989497x256648918386721760",
+                    "1721092989500x258625631654315400",
+                    "1721092989502x154192903386114460",
+                    "1721092989504x757744697077282700",
+                    "1721092989506x830283852341406800",
+                    "1721092989508x824185400007115800"
+                ],
+                "tipo_unidade": "KG",
+                "preço novo": 4.99,
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1719347611041x175867417848117900/Laranja%20Pera%20Kg.jpg"
+                ],
+                "demanda": 10601,
+                "como armazenar": "Temperatura ambiente em local fresco e arejado ou refrigerado entre 0ºC e 10ºC para maior durabilidade. Validade média: 1 semana (ambiente), 2 semanas (refrigerado).",
+                "info nutricional": "Por 100g:\n- Calorias: 47kcal\n- Carboidratos: 12g\n- Açúcar: 9g\n- Fibra: 2g\n- Proteína: 1g\n- Gordura: 0.2g\nVitaminas:\n- Vitamina C: 53mg (59% VD)",
+                "estoque": 8632453,
+                "descriçao": "Variedade de laranja doce e suculenta, muito popular no Brasil. Receitas: Sucos, vitaminas, doces. Usos: Consumir fresca ou como ingrediente em receitas.",
+                "Created By": "admin_user_levee-delivery_test",
+                "preço antigo": 9.99,
+                "cod": "000280",
+                "_id": "1721092987821x958973366618376000",
+                "categorias_produto": [
+                    "Frutas"
+                ],
+                "ordem_prateleira": 38,
+                "nome": "Laranja Pera Rio"
+            },
+            {
+                "Created Date": "2024-07-16T01:23:07.822Z",
+                "preço novo": 37.99,
+                "_id": "1721092987822x574124213139493440",
+                "preço antigo": 34.99,
+                "visivel": true,
+                "info nutricional": "Por 100g:\n- Calorias: 61kcal\n- Carboidratos: 15g\n- Açúcar: 9g\n- Fibra: 3g\n- Proteína: 1g\n- Gordura: 0.5g\nVitaminas:\n- Vitamina C: 93mg (103% VD)\n- Vitamina K: 40mcg (33% VD)",
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1719347610120x837131332734821800/Kiwi%20Importado.jpg"
+                ],
+                "peso por unidade": 121,
+                "descriçao": "Fruta originária da China, com casca marrom e polpa verde, rica em vitamina C. Receitas: Saladas de frutas, sucos, geleias. Usos: Consumir fresca.",
+                "estoque": 42851,
+                "como armazenar": "Refrigerado entre 0ºC e 10ºC, em local seco. Validade média: 1 semana.",
+                "ordem_prateleira": 58,
+                "Modified Date": "2026-03-04T14:04:17.422Z",
+                "ean": "0000000000252",
+                "demanda": 292,
+                "Created By": "admin_user_levee-delivery_test",
+                "desconto": -8.57387825092884,
+                "relacionados": [
+                    "1721092987816x589131952241444600",
+                    "1721092987816x693686605577855900",
+                    "1721092987820x563079321516814600",
+                    "1721092987821x958973366618376000",
+                    "1721092987823x991350961062525700",
+                    "1721092987949x106342697256816000",
+                    "1721092987950x739237564803018800",
+                    "1721092987951x136681033988863780",
+                    "1721092989488x469293642996159170",
+                    "1721092989492x819804324903324200",
+                    "1721092989495x313504204646375200",
+                    "1721092989497x256648918386721760",
+                    "1721092989500x258625631654315400",
+                    "1721092989502x154192903386114460",
+                    "1721092989504x757744697077282700",
+                    "1721092989506x830283852341406800",
+                    "1721092989508x824185400007115800"
+                ],
+                "categorias_produto": [
+                    "Frutas"
+                ],
+                "peso/und": "peso",
+                "cod": "000271",
+                "nome": "Kiwi",
+                "preço por kg": 34.99033721,
+                "tipo_unidade": "KG"
+            },
+            {
+                "tipo_unidade": "UN",
+                "demanda": 4,
+                "Modified Date": "2026-03-03T13:07:13.850Z",
+                "relacionados": [
+                    "1721092987816x589131952241444600",
+                    "1721092987816x693686605577855900",
+                    "1721092987820x563079321516814600",
+                    "1721092987821x958973366618376000",
+                    "1721092987822x574124213139493440",
+                    "1721092987949x106342697256816000",
+                    "1721092987950x739237564803018800",
+                    "1721092987951x136681033988863780",
+                    "1721092989488x469293642996159170",
+                    "1721092989492x819804324903324200",
+                    "1721092989495x313504204646375200",
+                    "1721092989497x256648918386721760",
+                    "1721092989500x258625631654315400",
+                    "1721092989502x154192903386114460",
+                    "1721092989504x757744697077282700",
+                    "1721092989506x830283852341406800",
+                    "1721092989508x824185400007115800"
+                ],
+                "preço antigo": 24.99,
+                "cod": "001704",
+                "descriçao": "Variedade de kiwi com casca e polpa amarelas, mais doce que o kiwi verde. Receitas: Saladas de frutas, sucos, geleias. Usos: Consumir fresca.",
+                "ean": "0000000005654",
+                "nome": "Kiwi Sangold 400g",
+                "estoque": 99897,
+                "Created By": "admin_user_levee-delivery_test",
+                "visivel": true,
+                "como armazenar": "Refrigerado entre 0ºC e 10ºC, em local seco. Validade média: 1 semana.",
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1719347610538x151227249078062850/Kiwi%20Sungold.jpg"
+                ],
+                "categorias_produto": [
+                    "Frutas"
+                ],
+                "preço novo": 25.99,
+                "peso/und": "unidade",
+                "desconto": -4.0016006402561,
+                "peso por unidade": 400,
+                "Created Date": "2024-07-16T01:23:07.823Z",
+                "_id": "1721092987823x991350961062525700"
+            },
+            {
+                "peso por unidade": 500,
+                "preço novo": 9.99,
+                "_id": "1721092987824x345949418476840800",
+                "nome": "Kiwi Bandeja 500g",
+                "como armazenar": "Refrigerado entre 0ºC e 10ºC, em local seco. Validade média: 1 semana.",
+                "visivel": false,
+                "peso/und": "unidade",
+                "estoque": 100000,
+                "categorias_produto": [
+                    "Frutas"
+                ],
+                "cod": "000273",
+                "demanda": 0,
+                "tipo_unidade": "BJ",
+                "descriçao": "Kiwi comercializado em bandeja, garantindo frescor e praticidade. Receitas: Saladas de frutas, sucos, geleias. Usos: Consumir fresca.",
+                "Created Date": "2024-07-16T01:23:07.824Z",
+                "ean": "0000000000253",
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1719436932576x749911493919853400/KIWI%20PERBONI%20BRASIL%20BAND%20600G.jpg"
+                ],
+                "Modified Date": "2025-05-21T17:13:01.502Z",
+                "preço antigo": 9.99,
+                "desconto": 0,
+                "Created By": "admin_user_levee-delivery_test"
+            },
+            {
+                "desconto": 10.01001001001001,
+                "Created Date": "2024-07-16T01:23:07.949Z",
+                "relacionados": [
+                    "1721092987816x589131952241444600",
+                    "1721092987816x693686605577855900",
+                    "1721092987820x563079321516814600",
+                    "1721092987821x958973366618376000",
+                    "1721092987822x574124213139493440",
+                    "1721092987823x991350961062525700",
+                    "1721092987950x739237564803018800",
+                    "1721092987951x136681033988863780",
+                    "1721092989488x469293642996159170",
+                    "1721092989492x819804324903324200",
+                    "1721092989495x313504204646375200",
+                    "1721092989497x256648918386721760",
+                    "1721092989500x258625631654315400",
+                    "1721092989502x154192903386114460",
+                    "1721092989504x757744697077282700",
+                    "1721092989506x830283852341406800",
+                    "1721092989508x824185400007115800"
+                ],
+                "preço por kg": 6.988439306,
+                "preço antigo": 9.99,
+                "categorias_produto": [
+                    "Frutas"
+                ],
+                "tipo_unidade": "KG",
+                "Modified Date": "2026-02-27T15:55:40.579Z",
+                "nome": "Laranja Selecta",
+                "visivel": false,
+                "estoque": -4079,
+                "cod": "000284",
+                "Created By": "admin_user_levee-delivery_test",
+                "demanda": 661,
+                "ordem_prateleira": 83,
+                "como armazenar": "Temperatura ambiente em local fresco e arejado ou refrigerado entre 0ºC e 10ºC para maior durabilidade. Validade média: 1 semana (ambiente), 2 semanas (refrigerado).",
+                "descriçao": "Seleção de laranjas frescas e suculentas, ideais para consumo in natura. Usos: Consumir fresca ou como ingrediente em receitas.",
+                "ean": "0000000000263",
+                "preço novo": 8.99,
+                "_id": "1721092987949x106342697256816000",
+                "peso por unidade": 214,
+                "peso/und": "peso",
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1719347663363x459608047593744500/Laranja%20Selecta%20Kg.jpg"
+                ]
+            },
+            {
+                "estoque": 100000,
+                "peso/und": "unidade",
+                "Created By": "admin_user_levee-delivery_test",
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1724114880680x513666213728089600/Kiwi%20Bandeja%20500g.jpeg"
+                ],
+                "relacionados": [
+                    "1721092987816x589131952241444600",
+                    "1721092987816x693686605577855900",
+                    "1721092987820x563079321516814600",
+                    "1721092987821x958973366618376000",
+                    "1721092987822x574124213139493440",
+                    "1721092987823x991350961062525700",
+                    "1721092987949x106342697256816000",
+                    "1721092987951x136681033988863780",
+                    "1721092989488x469293642996159170",
+                    "1721092989492x819804324903324200",
+                    "1721092989495x313504204646375200",
+                    "1721092989497x256648918386721760",
+                    "1721092989500x258625631654315400",
+                    "1721092989502x154192903386114460",
+                    "1721092989504x757744697077282700",
+                    "1721092989506x830283852341406800",
+                    "1721092989508x824185400007115800"
+                ],
+                "demanda": 0,
+                "Modified Date": "2025-05-21T17:13:01.640Z",
+                "visivel": false,
+                "categorias_produto": [
+                    "Frutas"
+                ],
+                "preço novo": 85,
+                "_id": "1721092987950x739237564803018800",
+                "tipo_unidade": "CX",
+                "nome": "Kiwi Bandeja 500g",
+                "como armazenar": "Temperatura ambiente em local fresco e arejado ou refrigerado entre 0ºC e 10ºC para maior durabilidade. Validade média: 1 semana (ambiente), 2 semanas (refrigerado).",
+                "preço antigo": 85,
+                "descriçao": "Laranja pera rio comercializada em caixa, ideal para famílias. Receitas: Sucos, vitaminas, doces. Usos: Consumir fresca ou como ingrediente em receitas.",
+                "cod": "000283",
+                "Created Date": "2024-07-16T01:23:07.950Z",
+                "ean": "0000000000262",
+                "desconto": 0
+            },
+            {
+                "desconto": 0,
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1719347611933x535092504413614340/Laranja%20Serra%20D_%C3%A1gua.jpg"
+                ],
+                "ean": "0000000000264",
+                "preço por kg": 7.98966094,
+                "nome": "Laranja Serra D'agua",
+                "visivel": true,
+                "descriçao": "Variedade de laranja doce e suculenta, cultivada em regiões serranas. Receitas: Sucos, vitaminas, doces. Usos: Consumir fresca ou como ingrediente em receitas.",
+                "Created Date": "2024-07-16T01:23:07.951Z",
+                "tipo_unidade": "KG",
+                "estoque": 196431,
+                "relacionados": [
+                    "1721092987816x589131952241444600",
+                    "1721092987816x693686605577855900",
+                    "1721092987820x563079321516814600",
+                    "1721092987821x958973366618376000",
+                    "1721092987822x574124213139493440",
+                    "1721092987823x991350961062525700",
+                    "1721092987949x106342697256816000",
+                    "1721092987950x739237564803018800",
+                    "1721092989488x469293642996159170",
+                    "1721092989492x819804324903324200",
+                    "1721092989495x313504204646375200",
+                    "1721092989497x256648918386721760",
+                    "1721092989500x258625631654315400",
+                    "1721092989502x154192903386114460",
+                    "1721092989504x757744697077282700",
+                    "1721092989506x830283852341406800",
+                    "1721092989508x824185400007115800"
+                ],
+                "categorias_produto": [
+                    "Frutas"
+                ],
+                "peso/und": "peso",
+                "peso por unidade": 208,
+                "Created By": "admin_user_levee-delivery_test",
+                "como armazenar": "Temperatura ambiente em local fresco e arejado ou refrigerado entre 0ºC e 10ºC para maior durabilidade. Validade média: 1 semana (ambiente), 2 semanas (refrigerado).",
+                "demanda": 136,
+                "Modified Date": "2026-03-04T16:22:13.926Z",
+                "preço novo": 13.99,
+                "ordem_prateleira": 85,
+                "_id": "1721092987951x136681033988863780",
+                "cod": "000285"
+            },
+            {
+                "Created By": "admin_user_levee-delivery_test",
+                "peso/und": "unidade",
+                "qtd por unidade": "1L",
+                "Modified Date": "2026-02-04T13:45:32.302Z",
+                "_id": "1721092987952x256247981615296700",
+                "demanda": 3,
+                "nome": "Leite Integral Itambe 1L",
+                "info nutricional": "Por 200ml (1 copo):\n- Calorias: 118kcal\n- Gordura Total: 7g\n- Gordura Saturada: 4.5g\n- Carboidratos: 10g\n- Açúcar: 10g\n- Proteína: 6g\n- Cálcio: 240mg (24% VD)",
+                "categorias_produto": [
+                    "Laticíneos"
+                ],
+                "Created Date": "2024-07-16T01:23:07.952Z",
+                "ean": "7896051111016",
+                "preço antigo": 7.49,
+                "preço novo": 8.49,
+                "cod": "001126",
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1720748880319x988636468035187000/LEITE%20INTEGRAL%20ITAMBE%201%20LITRO.jpg"
+                ],
+                "como armazenar": "Refrigerado entre 0ºC e 10ºC. Após aberto, consumir em até 3 dias. Validade média: Verificar embalagem.",
+                "descriçao": "Leite de vaca integral, da marca Itambé. Usos: Consumir puro, com café ou como ingrediente em receitas.",
+                "tipo_unidade": "UN",
+                "relacionados": [
+                    "1721092987954x732133425237286400",
+                    "1721092987955x685771409316394500",
+                    "1721092987956x476195624571695000",
+                    "1721092987957x969415805423598600",
+                    "1721092987958x508688809330979140",
+                    "1721092987959x518600304281136000",
+                    "1721092987967x417527244953811000"
+                ],
+                "estoque": 99911,
+                "desconto": -13.3511348464619,
+                "peso por unidade": 1000,
+                "visivel": true
+            },
+            {
+                "peso/und": "unidade",
+                "ean": "7896034680010",
+                "categorias_produto": [
+                    "Laticíneos"
+                ],
+                "qtd por unidade": "395g",
+                "estoque": 99958,
+                "cod": "002088",
+                "como armazenar": "Temperatura ambiente em local fresco e seco, após aberto manter refrigerado entre 0ºC e 10ºC e consumir em até 5 dias. Validade média: 6 meses (fechado).",
+                "Modified Date": "2026-02-12T19:52:08.691Z",
+                "peso por unidade": 395,
+                "tipo_unidade": "UN",
+                "descriçao": "Leite condensado tradicional, da marca Parmalat. Receitas: Doces, sobremesas, bebidas. Usos: Utilizar em receitas doces.",
+                "preço antigo": 6.99,
+                "desconto": 0,
+                "info nutricional": "Por 2 colheres de sopa (40g):\n- Calorias: 130kcal\n- Gordura Total: 2g\n- Gordura Saturada: 1.5g\n- Carboidratos: 23g\n- Açúcar: 22g\n- Proteína: 2g\n- Cálcio: 60mg (6% VD)",
+                "visivel": false,
+                "preço novo": 6.99,
+                "relacionados": [
+                    "1721092987952x256247981615296700",
+                    "1721092987955x685771409316394500",
+                    "1721092987956x476195624571695000",
+                    "1721092987957x969415805423598600",
+                    "1721092987958x508688809330979140",
+                    "1721092987959x518600304281136000",
+                    "1721092987967x417527244953811000"
+                ],
+                "demanda": 3,
+                "Created Date": "2024-07-16T01:23:07.954Z",
+                "Created By": "admin_user_levee-delivery_test",
+                "_id": "1721092987954x732133425237286400",
+                "nome": "Leite Condensado Parmalat 395g",
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1720748755325x649320251612812700/LEITE%20CONDENSADO%20PARMALAT%20395G.jpg"
+                ]
+            },
+            {
+                "tipo_unidade": "UN",
+                "peso/und": "unidade",
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1720748928137x235559496019822180/LEITE%20INTEGRAL%20SAQUINHO.jpg"
+                ],
+                "_id": "1721092987955x685771409316394500",
+                "visivel": true,
+                "estoque": 99933,
+                "como armazenar": "Temperatura ambiente em local fresco e seco até a data de validade, após aberto, refrigerado entre 0ºC e 10ºC e consumir em até 3 dias. Validade média: Verificar embalagem.",
+                "categorias_produto": [
+                    "Laticíneos"
+                ],
+                "nome": "Leite Integral Saquinho 1Kg",
+                "demanda": 11,
+                "relacionados": [
+                    "1721092987952x256247981615296700",
+                    "1721092987954x732133425237286400",
+                    "1721092987956x476195624571695000",
+                    "1721092987957x969415805423598600",
+                    "1721092987958x508688809330979140",
+                    "1721092987959x518600304281136000",
+                    "1721092987967x417527244953811000"
+                ],
+                "Created By": "admin_user_levee-delivery_test",
+                "preço antigo": 5.99,
+                "cod": "000507",
+                "Modified Date": "2026-02-18T17:39:04.588Z",
+                "preço novo": 6.99,
+                "descriçao": "Leite de vaca integral em embalagem prática de saquinho. Usos: Consumir puro, com café ou como ingrediente em receitas.",
+                "peso por unidade": 1000,
+                "desconto": -16.69449081803005,
+                "Created Date": "2024-07-16T01:23:07.955Z",
+                "ean": "0000000000630"
+            },
+            {
+                "cod": "002491",
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1720748957870x377546890939312960/LEITE%20NATURAL%20MILK%20%20ITAMBE%201%20LITRO.jpg"
+                ],
+                "relacionados": [
+                    "1721092987952x256247981615296700",
+                    "1721092987954x732133425237286400",
+                    "1721092987955x685771409316394500",
+                    "1721092987957x969415805423598600",
+                    "1721092987958x508688809330979140",
+                    "1721092987959x518600304281136000",
+                    "1721092987967x417527244953811000"
+                ],
+                "como armazenar": "Refrigerado entre 0ºC e 10ºC. Após aberto, consumir em até 3 dias. Validade média: Verificar embalagem.",
+                "Modified Date": "2026-02-27T12:18:28.321Z",
+                "peso/und": "unidade",
+                "categorias_produto": [
+                    "Laticíneos"
+                ],
+                "nome": "Leite Natural Milk Itambe 1L",
+                "descriçao": "Leite integral da marca Itambé, sem adição de conservantes. Usos: Consumir puro, com café ou como ingrediente em receitas.",
+                "ean": "7896051111030",
+                "visivel": true,
+                "tipo_unidade": "UN",
+                "Created Date": "2024-07-16T01:23:07.956Z",
+                "preço antigo": 8.49,
+                "estoque": 99961,
+                "preço novo": 8.49,
+                "Created By": "admin_user_levee-delivery_test",
+                "desconto": 0,
+                "peso por unidade": 1000,
+                "qtd por unidade": "1L",
+                "demanda": 8,
+                "_id": "1721092987956x476195624571695000"
+            },
+            {
+                "descriçao": "Leite de vaca com baixo teor de gordura, da marca Itambé. Usos: Consumir puro, com café ou como ingrediente em receitas.",
+                "peso por unidade": 1000,
+                "cod": "002490",
+                "estoque": 99989,
+                "nome": "Leite Desnatado Itambe 1L",
+                "relacionados": [
+                    "1721092987952x256247981615296700",
+                    "1721092987954x732133425237286400",
+                    "1721092987955x685771409316394500",
+                    "1721092987956x476195624571695000",
+                    "1721092987958x508688809330979140",
+                    "1721092987959x518600304281136000",
+                    "1721092987967x417527244953811000"
+                ],
+                "tipo_unidade": "UN",
+                "como armazenar": "Refrigerado entre 0ºC e 10ºC. Após aberto, consumir em até 3 dias. Validade média: Verificar embalagem.",
+                "categorias_produto": [
+                    "Laticíneos"
+                ],
+                "Created By": "admin_user_levee-delivery_test",
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1720748820194x118406947550240720/LEITE%20DESNATADO%20ITAMBE%201%20LITRO.jpg"
+                ],
+                "qtd por unidade": "1L",
+                "desconto": 0,
+                "peso/und": "unidade",
+                "Modified Date": "2026-01-26T15:34:26.188Z",
+                "demanda": 1,
+                "Created Date": "2024-07-16T01:23:07.957Z",
+                "info nutricional": "Por 200ml (1 copo):\n- Calorias: 66kcal\n- Gordura Total: 0.8g\n- Carboidratos: 10g\n- Açúcar: 10g\n- Proteína: 7g\n- Cálcio: 240mg (24% VD)",
+                "_id": "1721092987957x969415805423598600",
+                "visivel": true,
+                "ean": "7896051111702",
+                "preço novo": 7.99,
+                "preço antigo": 7.99
+            },
+            {
+                "ean": "7898905356161",
+                "descriçao": "Bebida vegetal extraída da polpa do coco maduro, com sabor suave e adocicado. Receitas: Doces, molhos, bebidas. Usos: Consumir puro, como ingrediente em receitas doces ou salgadas.",
+                "como armazenar": "Temperatura ambiente em local fresco e seco, após aberto manter refrigerado entre 0ºC e 10ºC e consumir em até 3 dias. Validade média: 6 meses (fechado).",
+                "Created By": "admin_user_levee-delivery_test",
+                "qtd por unidade": "200ml",
+                "preço antigo": 5.99,
+                "estoque": 99989,
+                "peso/und": "unidade",
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1720748791061x759076399933683600/LEITE%20DE%20COCO%20200ML.jpg"
+                ],
+                "desconto": 0,
+                "demanda": 6,
+                "peso por unidade": 200,
+                "categorias_produto": [
+                    "Laticíneos"
+                ],
+                "visivel": true,
+                "_id": "1721092987958x508688809330979140",
+                "Created Date": "2024-07-16T01:23:07.958Z",
+                "info nutricional": "Por 100ml:\n- Calorias: 230kcal\n- Gordura Total: 24g\n- Gordura Saturada: 21g\n- Carboidratos: 6g\n- Açúcar: 5g\n- Proteína: 2g",
+                "relacionados": [
+                    "1721092987952x256247981615296700",
+                    "1721092987954x732133425237286400",
+                    "1721092987955x685771409316394500",
+                    "1721092987956x476195624571695000",
+                    "1721092987957x969415805423598600",
+                    "1721092987959x518600304281136000",
+                    "1721092987967x417527244953811000"
+                ],
+                "Modified Date": "2026-03-02T17:36:34.277Z",
+                "tipo_unidade": "UN",
+                "preço novo": 5.99,
+                "nome": "Leite De Coco 200ml",
+                "cod": "001687"
+            },
+            {
+                "_id": "1721092987959x518600304281136000",
+                "peso/und": "unidade",
+                "Created Date": "2024-07-16T01:23:07.959Z",
+                "info nutricional": "Por 200ml (1 copo):\n- Calorias: 112kcal\n- Gordura Total: 6g\n- Gordura Saturada: 4g\n- Carboidratos: 10g\n- Açúcar: 10g\n- Proteína: 6g\n- Cálcio: 240mg (24% VD)",
+                "desconto": 0,
+                "visivel": true,
+                "estoque": 99990,
+                "nome": "Leite Zero Lactose Integral Itambe 1L",
+                "relacionados": [
+                    "1721092987952x256247981615296700",
+                    "1721092987954x732133425237286400",
+                    "1721092987955x685771409316394500",
+                    "1721092987956x476195624571695000",
+                    "1721092987957x969415805423598600",
+                    "1721092987958x508688809330979140",
+                    "1721092987967x417527244953811000"
+                ],
+                "demanda": 1,
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1720748991802x283084902911361360/LEITE%20ZERO%20LACTOSE%20INTEGRAL%20ITAMBE%201%20LITRO.jpg"
+                ],
+                "cod": "002493",
+                "preço antigo": 8.99,
+                "tipo_unidade": "UN",
+                "ean": "7896051128069",
+                "Modified Date": "2026-02-05T17:13:45.932Z",
+                "categorias_produto": [
+                    "Laticíneos"
+                ],
+                "descriçao": "Leite integral sem lactose, da marca Itambé, ideal para pessoas com intolerância à lactose. Usos: Consumir puro, com café ou como ingrediente em receitas.",
+                "preço novo": 8.99,
+                "como armazenar": "Refrigerado entre 0ºC e 10ºC. Após aberto, consumir em até 3 dias. Validade média: Verificar embalagem.",
+                "Created By": "admin_user_levee-delivery_test",
+                "qtd por unidade": "1L",
+                "peso por unidade": 1000
+            },
+            {
+                "nome": "Lemon Pepper 100g",
+                "peso/und": "unidade",
+                "preço novo": 9.99,
+                "Created By": "admin_user_levee-delivery_test",
+                "demanda": 14,
+                "como armazenar": "Temperatura ambiente em local fresco, seco e hermeticamente fechado. Validade média: 1 ano.",
+                "visivel": true,
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1720749047387x862128136083366600/LEMON%20PEPPER.jpg"
+                ],
+                "preço antigo": 6.99,
+                "estoque": 99941,
+                "_id": "1721092987966x637969411714466000",
+                "ean": "0192505260642",
+                "Created Date": "2024-07-16T01:23:07.966Z",
+                "descriçao": "Tempero pronto que combina o sabor cítrico do limão com a picância da pimenta preta. Receitas: Carnes, aves, peixes, saladas. Usos: Temperar carnes, aves, peixes, saladas, legumes e molhos.",
+                "peso por unidade": 100,
+                "categorias_produto": [
+                    "Temperos e Condimentos"
+                ],
+                "Modified Date": "2026-03-02T16:08:31.915Z",
+                "info nutricional": "Por 1 colher de chá (2g):\n- Calorias: 5kcal\n- Gordura Total: 0g\n- Sódio: 110mg (5% VD)\n- Carboidratos: 1g",
+                "desconto": -42.9184549356223,
+                "tipo_unidade": "UN",
+                "qtd por unidade": "100g",
+                "cod": "001473"
+            },
+            {
+                "preço antigo": 8.99,
+                "como armazenar": "Refrigerado entre 0ºC e 10ºC. Após aberto, consumir em até 3 dias. Validade média: Verificar embalagem.",
+                "Created Date": "2024-07-16T01:23:07.967Z",
+                "preço novo": 8.99,
+                "desconto": 0,
+                "peso/und": "unidade",
+                "estoque": 99994,
+                "ean": "7896051128076",
+                "demanda": 0,
+                "relacionados": [
+                    "1721092987952x256247981615296700",
+                    "1721092987954x732133425237286400",
+                    "1721092987955x685771409316394500",
+                    "1721092987956x476195624571695000",
+                    "1721092987957x969415805423598600",
+                    "1721092987958x508688809330979140",
+                    "1721092987959x518600304281136000"
+                ],
+                "_id": "1721092987967x417527244953811000",
+                "cod": "002492",
+                "visivel": true,
+                "descriçao": "Leite desnatado sem lactose, da marca Itambé, ideal para pessoas com intolerância à lactose. Usos: Consumir puro, com café ou como ingrediente em receitas.",
+                "Modified Date": "2026-02-10T12:59:23.019Z",
+                "info nutricional": "Por 200ml (1 copo):\n- Calorias: 68kcal\n- Gordura Total: 0.7g\n- Carboidratos: 10g\n- Açúcar: 10g\n- Proteína: 7g\n- Cálcio: 240mg (24% VD)",
+                "tipo_unidade": "UN",
+                "peso por unidade": 1000,
+                "nome": "Leitezero Lactose Desnatado Itambe 1L",
+                "Created By": "admin_user_levee-delivery_test",
+                "qtd por unidade": "1L",
+                "categorias_produto": [
+                    "Laticíneos"
+                ],
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1720749019690x845069011989503500/LEITEZERO%20LACTOSE%20DESNATADO%20%20ITAMBE%201%20LITRO.jpg"
+                ]
+            },
+            {
+                "Created Date": "2024-07-16T01:23:07.968Z",
+                "em oferta": true,
+                "categorias_produto": [
+                    "Frutas"
+                ],
+                "demanda": 6885,
+                "ordem_prateleira": 44,
+                "tipo_unidade": "KG",
+                "preço novo": 8.99,
+                "desconto": -30.2898550724638,
+                "estoque": 8891643,
+                "Created By": "admin_user_levee-delivery_test",
+                "peso por unidade": 77,
+                "peso/und": "peso",
+                "Modified Date": "2026-03-04T17:28:46.349Z",
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1719347665646x573467223253255200/Lim%C3%A3o%20Taiti.jpg"
+                ],
+                "cod": "000291",
+                "visivel": true,
+                "nome": "Limão Taiti",
+                "descriçao": "Variedade de limão com suco ácido, muito utilizado na culinária brasileira. Receitas: Sucos, molhos, doces, caipirinhas. Usos: Utilizar o suco para temperar saladas, peixes e frutos do mar, ou como ingrediente em receitas.",
+                "ean": "0000000000270",
+                "preço por kg": 5.355589948,
+                "_id": "1721092987968x374046634160604350",
+                "como armazenar": "Temperatura ambiente em local fresco e arejado ou refrigerado entre 0ºC e 10ºC para maior durabilidade. Validade média: 1 semana (ambiente), 2 semanas (refrigerado).",
+                "info nutricional": "Por 100g:\n- Calorias: 29kcal\n- Carboidratos: 9g\n- Açúcar: 2g\n- Fibra: 2g\n- Proteína: 1g\n- Gordura: 0.3g\nVitaminas:\n- Vitamina C: 53mg (59% VD)",
+                "preço antigo": 6.9,
+                "relacionados": [
+                    "1721092987969x119741221667618580",
+                    "1721092987973x215483350793709280",
+                    "1721092987974x456246290126925500",
+                    "1721092989461x919973487323764600"
+                ]
+            },
+            {
+                "relacionados": [
+                    "1721092987968x374046634160604350",
+                    "1721092987973x215483350793709280",
+                    "1721092987974x456246290126925500",
+                    "1721092989461x919973487323764600"
+                ],
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1720749105346x930195925261805400/LIMAO%20VERMELHO.jpg"
+                ],
+                "peso/und": "peso",
+                "Modified Date": "2026-02-25T14:48:41.947Z",
+                "cod": "000290",
+                "visivel": false,
+                "Created Date": "2024-07-16T01:23:07.969Z",
+                "demanda": 3065,
+                "nome": "Limão Vermelho",
+                "_id": "1721092987969x119741221667618580",
+                "tipo_unidade": "KG",
+                "peso por unidade": 82,
+                "estoque": 0,
+                "descriçao": "Variedade de limão com casca avermelhada e suco ácido, ideal para o preparo de sucos e drinks. Receitas: Sucos, drinks, molhos. Usos: Utilizar o suco ou as raspas da casca para aromatizar e realçar o sabor de pratos.",
+                "preço antigo": 7.99,
+                "como armazenar": "Temperatura ambiente em local fresco e arejado ou refrigerado entre 0ºC e 10ºC para maior durabilidade. Validade média: 1 semana (ambiente), 2 semanas (refrigerado).",
+                "preço por kg": 2.989888238,
+                "Created By": "admin_user_levee-delivery_test",
+                "ean": "0000000000269",
+                "desconto": 25.03128911138924,
+                "categorias_produto": [
+                    "Frutas"
+                ],
+                "preço novo": 5.99
+            },
+            {
+                "tipo_unidade": "UN",
+                "visivel": false,
+                "cod": "000678",
+                "descriçao": "Linguiça artesanal com sabor defumado, ideal para churrasco e petiscos. Usos: Consumir assada, frita ou grelhada.",
+                "preço por kg": 9.99,
+                "peso por unidade": 180,
+                "como armazenar": "Refrigerado entre 0ºC e 10ºC. Validade média: Verificar embalagem.",
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1724108270997x514846448949544770/678.jpg"
+                ],
+                "ean": "0000000000857",
+                "Created By": "admin_user_levee-delivery_test",
+                "categorias_produto": [
+                    "Outros"
+                ],
+                "estoque": 100000,
+                "peso/und": "peso",
+                "_id": "1721092987972x172027545797812660",
+                "nome": "Linguiça Defumada 800g",
+                "qtd por unidade": "800g",
+                "preço novo": 19.99,
+                "Modified Date": "2025-05-21T17:13:01.664Z",
+                "desconto": 0,
+                "demanda": 0,
+                "Created Date": "2024-07-16T01:23:07.972Z",
+                "preço antigo": 19.99
+            },
+            {
+                "desconto": -6.6711140760507,
+                "relacionados": [
+                    "1721092987968x374046634160604350",
+                    "1721092987969x119741221667618580",
+                    "1721092987974x456246290126925500",
+                    "1721092989461x919973487323764600"
+                ],
+                "Created Date": "2024-07-16T01:23:07.973Z",
+                "_id": "1721092987973x215483350793709280",
+                "Modified Date": "2026-02-26T20:05:43.750Z",
+                "preço novo": 15.99,
+                "peso/und": "peso",
+                "preço antigo": 14.99,
+                "info nutricional": "Por 100g:\n- Calorias: 30kcal\n- Carboidratos: 7g\n- Açúcar: 1g\n- Fibra: 2g\n- Proteína: 1g\n- Gordura: 0.3g\nVitaminas:\n- Vitamina C: 30mg (33% VD)",
+                "nome": "Lima",
+                "visivel": true,
+                "ean": "0000000000268",
+                "categorias_produto": [
+                    "Frutas"
+                ],
+                "preço por kg": 12.99070632,
+                "como armazenar": "Temperatura ambiente em local fresco e arejado ou refrigerado entre 0ºC e 10ºC para maior durabilidade. Validade média: 1 semana (ambiente), 2 semanas (refrigerado).",
+                "descriçao": "Fruta cítrica originária da Ásia, com sabor azedo e aroma marcante. Receitas: Sucos, molhos, doces, coquetéis. Usos: Utilizar o suco ou as raspas da casca para aromatizar e realçar o sabor de pratos doces e salgados.",
+                "cod": "000289",
+                "tipo_unidade": "KG",
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1719347663596x949068462569838500/Lima.jpg"
+                ],
+                "peso por unidade": 150,
+                "demanda": 10,
+                "Created By": "admin_user_levee-delivery_test",
+                "estoque": 88390
+            },
+            {
+                "como armazenar": "Temperatura ambiente em local fresco e arejado ou refrigerado entre 0ºC e 10ºC para maior durabilidade. Validade média: 1 semana (ambiente), 2 semanas (refrigerado).",
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1719347664410x310787084282912600/Lim%C3%A3o%20%20Siciliano%20por%20kg.jpg"
+                ],
+                "cod": "000293",
+                "categorias_produto": [
+                    "Frutas"
+                ],
+                "Created Date": "2024-07-16T01:23:07.974Z",
+                "Modified Date": "2026-03-04T12:59:54.430Z",
+                "preço por kg": 14.99040512,
+                "peso/und": "peso",
+                "preço antigo": 14.99,
+                "tipo_unidade": "KG",
+                "descriçao": "Variedade de limão com casca mais grossa e sabor menos ácido que o limão taiti. Receitas: Sucos, molhos, doces, risotos. Usos: Utilizar o suco ou as raspas da casca para aromatizar e realçar o sabor de pratos doces e salgados.",
+                "_id": "1721092987974x456246290126925500",
+                "estoque": 35472,
+                "Created By": "admin_user_levee-delivery_test",
+                "peso por unidade": 160,
+                "visivel": true,
+                "preço novo": 14.99,
+                "relacionados": [
+                    "1721092987968x374046634160604350",
+                    "1721092987969x119741221667618580",
+                    "1721092987973x215483350793709280",
+                    "1721092989461x919973487323764600"
+                ],
+                "info nutricional": "Por 100g:\n- Calorias: 29kcal\n- Carboidratos: 9g\n- Açúcar: 2g\n- Fibra: 2g\n- Proteína: 1g\n- Gordura: 0.3g\nVitaminas:\n- Vitamina C: 53mg (59% VD)",
+                "ean": "0000000000271",
+                "desconto": 0,
+                "demanda": 482,
+                "nome": "Limão Siciliano"
+            },
+            {
+                "peso/und": "peso",
+                "preço novo": 16.99,
+                "_id": "1721092987975x881032065688633200",
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1719347666496x832563246031401900/Ma%C3%A7%C3%A3%20Argentina.jpg"
+                ],
+                "descriçao": "Variedade de maçã importada da Argentina, com sabor doce e suculenta. Usos: Consumir fresca, em saladas de frutas ou sucos.",
+                "peso por unidade": 220,
+                "cod": "000295",
+                "categorias_produto": [
+                    "Frutas"
+                ],
+                "nome": "Maçã Argentina",
+                "estoque": 49469,
+                "desconto": 15.0075037518759,
+                "preço antigo": 19.99,
+                "Created By": "admin_user_levee-delivery_test",
+                "info nutricional": "Por 100g:\n- Calorias: 52kcal\n- Carboidratos: 14g\n- Açúcar: 10g\n- Fibra: 2g\n- Proteína: 0.3g\n- Gordura: 0.2g\nVitaminas:\n- Vitamina C: 4mg (4% VD)\n- Potássio: 107mg (3% VD)",
+                "Modified Date": "2026-03-02T19:06:52.354Z",
+                "Created Date": "2024-07-16T01:23:07.975Z",
+                "preço por kg": 19.9910617,
+                "relacionados": [
+                    "1721092987976x649571165134429300",
+                    "1721092987976x688760985255599400",
+                    "1721092987981x484453099412546400",
+                    "1721092989508x824185400007115800"
+                ],
+                "ean": "0000000000273",
+                "como armazenar": "Refrigerado entre 0ºC e 10ºC. Validade média: 2 semanas.",
+                "demanda": 153,
+                "visivel": true,
+                "tipo_unidade": "KG",
+                "ordem_prateleira": 66
+            },
+            {
+                "info nutricional": "Por 100g:\n- Calorias: 52kcal\n- Carboidratos: 14g\n- Açúcar: 10g\n- Fibra: 2g\n- Proteína: 0.3g\n- Gordura: 0.2g\nVitaminas:\n- Vitamina C: 4mg (4% VD)\n- Potássio: 107mg (3% VD)",
+                "categorias_produto": [
+                    "Frutas"
+                ],
+                "descriçao": "Variedade de maçã com casca e polpa amareladas, doce e suculenta. Usos: Consumir fresca, em saladas de frutas ou sucos.",
+                "peso por unidade": 186,
+                "estoque": -313,
+                "desconto": -5.00250125062531,
+                "Modified Date": "2026-02-27T15:55:40.490Z",
+                "preço por kg": 19.9939958,
+                "preço novo": 20.99,
+                "como armazenar": "Refrigerado entre 0ºC e 10ºC. Validade média: 2 semanas.",
+                "_id": "1721092987976x649571165134429300",
+                "relacionados": [
+                    "1721092987975x881032065688633200",
+                    "1721092987976x688760985255599400",
+                    "1721092987981x484453099412546400",
+                    "1721092989508x824185400007115800"
+                ],
+                "peso/und": "peso",
+                "tipo_unidade": "KG",
+                "preço antigo": 19.99,
+                "Created By": "admin_user_levee-delivery_test",
+                "nome": "Maçã Amarela (Golden)",
+                "demanda": 32,
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1720749192103x385325217966127040/MACA%20GOLDEN%20AMARELA%20KG.jpg"
+                ],
+                "cod": "001766",
+                "ean": "0000000006224",
+                "ordem_prateleira": 65,
+                "visivel": false,
+                "Created Date": "2024-07-16T01:23:07.977Z"
+            },
+            {
+                "preço por kg": 14.57599834,
+                "peso/und": "peso",
+                "preço antigo": 18.99,
+                "estoque": 9716633,
+                "relacionados": [
+                    "1721092987975x881032065688633200",
+                    "1721092987976x649571165134429300",
+                    "1721092987981x484453099412546400",
+                    "1721092989508x824185400007115800"
+                ],
+                "visivel": true,
+                "desconto": 5.26592943654555,
+                "Created By": "admin_user_levee-delivery_test",
+                "peso por unidade": 134,
+                "descriçao": "Variedade de maçã doce e aromática, originária da Nova Zelândia. Usos: Consumir fresca, em saladas de frutas ou sucos.",
+                "ean": "0000000001939",
+                "Modified Date": "2026-03-04T17:33:39.631Z",
+                "ordem_prateleira": 64,
+                "tipo_unidade": "KG",
+                "_id": "1721092987976x688760985255599400",
+                "info nutricional": "Por 100g:\n- Calorias: 52kcal\n- Carboidratos: 14g\n- Açúcar: 10g\n- Fibra: 2g\n- Proteína: 0.4g\n- Gordura: 0.2g\nVitaminas:\n- Vitamina C: 8mg (9% VD)\n- Potássio: 107mg (3% VD)",
+                "nome": "Maçã Gala",
+                "demanda": 732,
+                "Created Date": "2024-07-16T01:23:07.976Z",
+                "categorias_produto": [
+                    "Frutas"
+                ],
+                "preço novo": 17.99,
+                "cod": "001261",
+                "como armazenar": "Refrigerado entre 0ºC e 10ºC. Validade média: 2 semanas.",
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1719347613870x443040375228065400/Ma%C3%A7%C3%A3%20Gala.jpg"
+                ]
+            },
+            {
+                "Modified Date": "2026-03-04T16:19:44.723Z",
+                "descriçao": "Variedade de maçã crocante e doce, originária do Japão. Usos: Consumir fresca, em saladas de frutas ou sucos.",
+                "preço por kg": 14.70140833,
+                "demanda": 300000,
+                "categorias_produto": [
+                    "Frutas"
+                ],
+                "Created By": "admin_user_levee-delivery_test",
+                "nome": "Maçã Fuji",
+                "estoque": 22315,
+                "preço antigo": 19.99,
+                "peso/und": "peso",
+                "ean": "0000000000275",
+                "Created Date": "2024-07-16T01:23:07.981Z",
+                "como armazenar": "Refrigerado entre 0ºC e 10ºC. Validade média: 2 semanas.",
+                "visivel": true,
+                "ordem_prateleira": 63,
+                "desconto": 0,
+                "info nutricional": "Por 100g:\n- Calorias: 57kcal\n- Carboidratos: 15g\n- Açúcar: 10g\n- Fibra: 3g\n- Proteína: 0.3g\n- Gordura: 0.2g\nVitaminas:\n- Vitamina C: 4mg (4% VD)\n- Potássio: 114mg (3% VD)",
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1719347665910x548824285163051400/Ma%C3%A7%C3%A3%20%20%20%20Fuji.jpg"
+                ],
+                "_id": "1721092987981x484453099412546400",
+                "preço novo": 19.99,
+                "relacionados": [
+                    "1721092987975x881032065688633200",
+                    "1721092987976x649571165134429300",
+                    "1721092987976x688760985255599400",
+                    "1721092989508x824185400007115800"
+                ],
+                "peso por unidade": 129,
+                "cod": "000297",
+                "tipo_unidade": "KG"
+            },
+            {
+                "Created Date": "2024-07-16T01:23:07.981Z",
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1719347612876x277450805833260540/Louro%20Folha%2015%20G.jpg"
+                ],
+                "demanda": 21,
+                "estoque": 99866,
+                "tipo_unidade": "UN",
+                "como armazenar": "Temperatura ambiente em local fresco, seco e protegido da luz. Validade média: 1 ano.",
+                "peso/und": "unidade",
+                "descriçao": "Folhas de louro desidratadas, com aroma marcante. Originárias da região do Mediterrâneo. Receitas: Carnes, feijão, molhos, sopas. Usos: Adicionar durante o cozimento para aromatizar.",
+                "visivel": true,
+                "cod": "001425",
+                "nome": "Louro Folhas 15g",
+                "qtd por unidade": "15g",
+                "preço novo": 2.99,
+                "preço antigo": 2.99,
+                "_id": "1721092987981x533085579204832800",
+                "peso por unidade": 15,
+                "Created By": "admin_user_levee-delivery_test",
+                "desconto": 0,
+                "categorias_produto": [
+                    "Temperos e Condimentos"
+                ],
+                "Modified Date": "2026-03-03T14:44:02.131Z",
+                "ean": "0000000003018"
+            },
+            {
+                "Created By": "admin_user_levee-delivery_test",
+                "peso/und": "peso",
+                "_id": "1721092987982x921337261624882700",
+                "ean": "0000000000192",
+                "info nutricional": "Por 100g:\n- Calorias: 52kcal\n- Carboidratos: 14g\n- Açúcar: 10g\n- Fibra: 2g\n- Proteína: 0.3g\n- Gordura: 0.2g\nVitaminas:\n- Vitamina C: 4mg (4% VD)\n- Potássio: 107mg (3% VD)",
+                "nome": "Maçã Verde",
+                "ordem_prateleira": 67,
+                "relacionados": [
+                    "1721092987975x881032065688633200",
+                    "1721092987976x649571165134429300",
+                    "1721092987976x688760985255599400",
+                    "1721092989508x824185400007115800"
+                ],
+                "preço novo": 19.99,
+                "peso por unidade": 159,
+                "tipo_unidade": "KG",
+                "demanda": 120,
+                "visivel": true,
+                "como armazenar": "Refrigerado entre 0ºC e 10ºC. Validade média: 2 semanas.",
+                "estoque": 7714,
+                "Created Date": "2024-07-16T01:23:07.982Z",
+                "descriçao": "Variedade de maçã com sabor ácido e refrescante. Usos: Consumir fresca, em saladas de frutas, sucos ou receitas.",
+                "preço antigo": 19.99,
+                "cod": "000998",
+                "preço por kg": 19.99204093,
+                "desconto": 0,
+                "Modified Date": "2026-03-04T13:55:20.426Z",
+                "categorias_produto": [
+                    "Frutas"
+                ],
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1720749220634x604537889782010000/MACA%20VERDE.jpg"
+                ]
+            },
+            {
+                "Created Date": "2024-07-16T01:23:07.983Z",
+                "preço por kg": 6.017472739,
+                "categorias_produto": [
+                    "Frutas"
+                ],
+                "ordem_prateleira": 55,
+                "peso/und": "peso",
+                "preço novo": 9.99,
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1719347667348x145612144423080450/Mam%C3%A3o%20Formoso.jpg"
+                ],
+                "visivel": true,
+                "descriçao": "Variedade de mamão com formato arredondado e polpa vermelha, doce e suculenta. Usos: Consumir fresco ou em vitaminas.",
+                "nome": "Mamão Formoso",
+                "desconto": 23.094688221709,
+                "Modified Date": "2026-03-04T13:55:08.292Z",
+                "relacionados": [
+                    "1721092987984x995142120091013800",
+                    "1721092987986x254157580557606400"
+                ],
+                "_id": "1721092987983x200345115998565200",
+                "demanda": 149,
+                "cod": "000309",
+                "ean": "0000000000285",
+                "preço antigo": 12.99,
+                "info nutricional": "Por 100g (polpa):\n- Calorias: 43kcal\n- Carboidratos: 11g\n- Açúcar: 8g\n- Fibra: 2g\n- Proteína: 0.5g\n- Gordura: 0.2g\nVitaminas:\n- Vitamina C: 62mg (69% VD)\n- Vitamina A: 1094 UI (22% VD)",
+                "peso por unidade": 1154,
+                "como armazenar": "Temperatura ambiente em local fresco e arejado ou refrigerado entre 0ºC e 10ºC para maior durabilidade. Validade média: 5 dias (ambiente), 1 semana (refrigerado).",
+                "em oferta": false,
+                "Created By": "admin_user_levee-delivery_test",
+                "estoque": 932634,
+                "tipo_unidade": "KG"
+            },
+            {
+                "preço por kg": 25.99018646,
+                "peso por unidade": 500,
+                "preço novo": 29.99,
+                "demanda": 444,
+                "Modified Date": "2026-02-02T14:59:29.600Z",
+                "categorias_produto": [
+                    "Frutas",
+                    "Higienizados"
+                ],
+                "ean": "0000000009522",
+                "relacionados": [
+                    "1721092987983x200345115998565200",
+                    "1721092987986x254157580557606400"
+                ],
+                "Created Date": "2024-07-16T01:23:07.984Z",
+                "Created By": "admin_user_levee-delivery_test",
+                "descriçao": "Mamão já picado e comercializado em bandeja, proporcionando praticidade. Usos: Consumir fresco ou em vitaminas.",
+                "cod": "002140",
+                "peso/und": "peso",
+                "tipo_unidade": "KG",
+                "_id": "1721092987984x995142120091013800",
+                "como armazenar": "Refrigerado entre 0ºC e 10ºC, em embalagem fechada ou coberta. Validade média: 3 dias.",
+                "estoque": -1525,
+                "nome": "Mamão Picado para salada",
+                "preço antigo": 19.99,
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1720749320573x276223820972732350/MAMAO%20PICADO.jpg"
+                ],
+                "visivel": false,
+                "desconto": -50.0250125062531
+            },
+            {
+                "nome": "Mamão Havaí",
+                "demanda": 1779,
+                "tipo_unidade": "KG",
+                "peso por unidade": 589,
+                "preço novo": 14.99,
+                "_id": "1721092987986x254157580557606400",
+                "ordem_prateleira": 54,
+                "descriçao": "Variedade de mamão com formato alongado e polpa vermelha, doce e menos suculenta que o mamão formoso. Usos: Consumir fresco ou em vitaminas.",
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1719347614787x996879037460076600/Mam%C3%A3o%20%20%20Hawai.jpg"
+                ],
+                "como armazenar": "Temperatura ambiente em local fresco e arejado ou refrigerado entre 0ºC e 10ºC para maior durabilidade. Validade média: 5 dias (ambiente), 1 semana (refrigerado).",
+                "categorias_produto": [
+                    "Frutas"
+                ],
+                "Modified Date": "2026-02-27T19:40:09.730Z",
+                "Created By": "admin_user_levee-delivery_test",
+                "peso/und": "peso",
+                "preço por kg": 6.99,
+                "relacionados": [
+                    "1721092987983x200345115998565200",
+                    "1721092987984x995142120091013800"
+                ],
+                "Created Date": "2024-07-16T01:23:07.986Z",
+                "estoque": -4683,
+                "cod": "396058",
+                "ean": "0000000000287",
+                "em oferta": false,
+                "preço antigo": 14.99,
+                "desconto": 0,
+                "visivel": false
+            },
+            {
+                "descriçao": "Macarrão tipo espaguete, da marca Bell Bocato. Receitas: Preparar com diferentes tipos de molho.",
+                "estoque": 99998,
+                "peso/und": "unidade",
+                "como armazenar": "Temperatura ambiente em local fresco e seco. Validade média: 1 ano.",
+                "ean": "7898913771659",
+                "visivel": false,
+                "Created By": "admin_user_levee-delivery_test",
+                "Created Date": "2024-07-16T01:23:07.987Z",
+                "Modified Date": "2026-02-12T19:52:48.377Z",
+                "tipo_unidade": "PC",
+                "preço novo": 9.99,
+                "categorias_produto": [
+                    "Outros"
+                ],
+                "qtd por unidade": "400g",
+                "desconto": 0,
+                "peso por unidade": 400,
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1720749260138x116637213863567840/MACARRAO%20BELL%20BOCATO%20400G.jpg"
+                ],
+                "nome": "Macarrão Bell Bocato 400g",
+                "demanda": 1,
+                "cod": "002587",
+                "_id": "1721092987987x425372619071486400",
+                "preço antigo": 9.99
+            },
+            {
+                "preço novo": 8.99,
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1736181040158x808183972784668700/20241205_104641.JPG"
+                ],
+                "ean": "0000000005753",
+                "desconto": 0,
+                "tipo_unidade": "PC",
+                "cod": "000141",
+                "Created By": "admin_user_levee-delivery_test",
+                "visivel": true,
+                "_id": "1721092987988x980168827281060500",
+                "preço por kg": 6.99,
+                "demanda": 187,
+                "nome": "Mandioca Branca Descascada",
+                "relacionados": [
+                    "1721092987989x496536617603217540",
+                    "1721092987990x200099746324069250",
+                    "1721092987995x505886556325933800"
+                ],
+                "Modified Date": "2026-03-04T17:08:29.469Z",
+                "peso/und": "unidade",
+                "peso por unidade": 600,
+                "em oferta": false,
+                "como armazenar": "Refrigerado entre 0ºC e 10ºC. Validade média: Verificar embalagem.",
+                "categorias_produto": [
+                    "Legumes",
+                    "Higienizados",
+                    "Kit Processados"
+                ],
+                "preço antigo": 8.99,
+                "Created Date": "2024-07-16T01:23:07.988Z",
+                "descriçao": "Mandioca descascada e embalada a vácuo, o que garante maior durabilidade. Receitas: Aipim frito, purê de mandioca, sopa. Usos: Consumir cozida, frita ou como ingrediente em receitas.",
+                "estoque": 98950
+            }
+        ],
+        "count": 100,
+        "remaining": 709
+    }
+}

@@ -1,31 +1,60 @@
 "use client";
 
-import { useState, useRef, useEffect } from "react";
-import { CITIES, type City } from "@/lib/cities";
+import { useState, useRef, useEffect, useCallback } from "react";
+
+interface CityResult {
+  id: number;
+  name: string;
+  asciiName: string;
+  latitude: number;
+  longitude: number;
+  timezone: string;
+  population: number;
+  countryCode: string;
+  state: string;
+}
+
+function cityLabel(city: CityResult): string {
+  const parts = [city.name];
+  if (city.state) parts.push(city.state);
+  if (city.countryCode) parts.push(city.countryCode);
+  return parts.join(", ");
+}
 
 interface CitySelectProps {
   value: string;
-  onChange: (slug: string) => void;
+  onChange: (id: string) => void;
   error?: string;
 }
 
 export default function CitySelect({ value, onChange, error }: CitySelectProps) {
   const [query, setQuery] = useState("");
   const [open, setOpen] = useState(false);
+  const [results, setResults] = useState<CityResult[]>([]);
+  const [selectedName, setSelectedName] = useState("");
+  const [loading, setLoading] = useState(false);
   const containerRef = useRef<HTMLDivElement>(null);
+  const debounceRef = useRef<ReturnType<typeof setTimeout> | null>(null);
 
-  const selectedCity = CITIES.find((c) => c.slug === value);
-
-  const filtered = query.length >= 2
-    ? CITIES.filter((c) => {
-        const q = query.toLowerCase();
-        return (
-          c.name.toLowerCase().includes(q) ||
-          c.state.toLowerCase().includes(q) ||
-          `${c.name} ${c.state}`.toLowerCase().includes(q)
-        );
-      }).slice(0, 12)
-    : [];
+  const fetchCities = useCallback(async (q: string) => {
+    if (q.length < 2) {
+      setResults([]);
+      return;
+    }
+    setLoading(true);
+    try {
+      const res = await fetch(`/api/cities?q=${encodeURIComponent(q)}`);
+      if (res.ok) {
+        const data = await res.json();
+        setResults(data);
+        setOpen(data.length > 0);
+      }
+    } catch {
+      // Silently fail — user can retry
+    } finally {
+      setLoading(false);
+    }
+  }, []);
 
   useEffect(() => {
     function handleClickOutside(e: MouseEvent) {
@@ -37,69 +66,87 @@ export default function CitySelect({ value, onChange, error }: CitySelectProps) 
     return () => document.removeEventListener("mousedown", handleClickOutside);
   }, []);
 
-  function handleSelect(city: City) {
-    onChange(city.slug);
+  function handleSelect(city: CityResult) {
+    onChange(String(city.id));
+    setSelectedName(cityLabel(city));
     setQuery("");
     setOpen(false);
+    setResults([]);
   }
 
   function handleInputChange(val: string) {
     setQuery(val);
-    setOpen(val.length >= 2);
-    if (value) onChange("");
+    if (value) {
+      onChange("");
+      setSelectedName("");
+    }
+
+    // Debounce API calls (300ms)
+    if (debounceRef.current) clearTimeout(debounceRef.current);
+    debounceRef.current = setTimeout(() => fetchCities(val), 300);
+  }
+
+  function handleClear() {
+    onChange("");
+    setSelectedName("");
+    setQuery("");
+    setOpen(false);
+    setResults([]);
   }
 
   return (
     <div ref={containerRef} className="relative">
-      <label className="block font-mono text-[0.6rem] tracking-[4px] uppercase text-white/30 mb-2">
+      <label className="block font-mono text-[0.6rem] tracking-[4px] uppercase text-white/50 mb-2">
         Cidade de nascimento
       </label>
 
-      {selectedCity ? (
+      {value && selectedName ? (
         <button
           type="button"
-          onClick={() => {
-            onChange("");
-            setQuery("");
-            setOpen(false);
-          }}
+          onClick={handleClear}
           className="w-full text-left bg-transparent border border-white/20 px-4 py-3 text-white/90 font-body text-sm focus:outline-none focus:border-white/60 transition-colors"
         >
-          {selectedCity.name}, {selectedCity.state}
+          {selectedName}
         </button>
       ) : (
         <input
           type="text"
           value={query}
           onChange={(e) => handleInputChange(e.target.value)}
-          onFocus={() => query.length >= 2 && setOpen(true)}
+          onFocus={() => results.length > 0 && setOpen(true)}
           placeholder="Digite sua cidade..."
           autoComplete="off"
-          className="w-full bg-transparent border border-white/20 px-4 py-3 text-white/90 font-body text-sm placeholder:text-white/20 focus:outline-none focus:border-white/60 transition-colors"
+          className="w-full bg-transparent border border-white/20 px-4 py-3 text-white/90 font-body text-sm placeholder:text-white/35 focus:outline-none focus:border-white/60 transition-colors"
         />
       )}
 
       {error && <p className="text-red-400/80 text-xs mt-1 font-body">{error}</p>}
 
-      {open && filtered.length > 0 && (
+      {open && results.length > 0 && (
         <ul className="absolute z-50 w-full mt-1 bg-[#0a0a0a] border border-white/20 max-h-48 overflow-y-auto">
-          {filtered.map((city) => (
-            <li key={city.slug}>
+          {results.map((city) => (
+            <li key={city.id}>
               <button
                 type="button"
                 onClick={() => handleSelect(city)}
                 className="w-full text-left px-4 py-2.5 text-sm text-white/80 hover:bg-white/5 hover:text-white transition-colors font-body"
               >
-                {city.name}, {city.state}
+                {cityLabel(city)}
               </button>
             </li>
           ))}
         </ul>
       )}
 
-      {open && query.length >= 2 && filtered.length === 0 && (
-        <div className="absolute z-50 w-full mt-1 bg-[#0a0a0a] border border-white/20 px-4 py-3 text-white/30 text-sm font-body">
+      {open && query.length >= 2 && results.length === 0 && !loading && (
+        <div className="absolute z-50 w-full mt-1 bg-[#0a0a0a] border border-white/20 px-4 py-3 text-white/50 text-sm font-body">
           Nenhuma cidade encontrada
+        </div>
+      )}
+
+      {loading && query.length >= 2 && (
+        <div className="absolute z-50 w-full mt-1 bg-[#0a0a0a] border border-white/20 px-4 py-3 text-white/40 text-sm font-body">
+          Buscando...
         </div>
       )}
     </div>

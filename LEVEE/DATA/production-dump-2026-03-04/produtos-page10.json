@@ -1,0 +1,2627 @@
+{
+    "response": {
+        "cursor": 900,
+        "results": [
+            {
+                "estoque": 99990,
+                "Created Date": "2025-02-24T18:49:15.499Z",
+                "visivel": true,
+                "Created By": "1691143865250x481074744108582500",
+                "Modified Date": "2026-02-28T11:58:06.873Z",
+                "demanda": 2,
+                "nome": "Ovos Caipiras Organicos Raiar com 30",
+                "peso por unidade": 6,
+                "tipo_unidade": "UN",
+                "categorias_produto": [
+                    "Outros"
+                ],
+                "desconto": 0,
+                "_id": "1740422958317x763789587233898500",
+                "cod": "78897",
+                "preço novo": 39.99,
+                "peso/und": "unidade",
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1740422908827x702557985763648600/download%20%2887%29.jpg"
+                ]
+            },
+            {
+                "preço antigo": 19.99,
+                "peso/und": "unidade",
+                "Created Date": "2025-02-24T18:50:36.202Z",
+                "estoque": 99963,
+                "demanda": 18,
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1740423015187x973507231792141400/download%20%2888%29.jpg"
+                ],
+                "preço novo": 16.99,
+                "desconto": 15.007503751875939,
+                "peso por unidade": 6,
+                "Modified Date": "2026-02-19T17:27:22.443Z",
+                "tipo_unidade": "UN",
+                "nome": "Ovos Caipiras Orgânicos Raiar com 10 ",
+                "cod": "789870",
+                "categorias_produto": [
+                    "Outros"
+                ],
+                "em oferta": false,
+                "Created By": "1691143865250x481074744108582500",
+                "visivel": true,
+                "_id": "1740423039015x840469451999281200"
+            },
+            {
+                "cod": "898916",
+                "desconto": 0,
+                "Modified Date": "2025-05-21T17:13:08.967Z",
+                "Created By": "1691143865250x481074744108582500",
+                "preço novo": 18.99,
+                "tipo_unidade": "PC",
+                "Created Date": "2025-02-28T20:55:29.229Z",
+                "peso/und": "unidade",
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1740775983106x491851168872895700/download.png"
+                ],
+                "estoque": 100000,
+                "peso por unidade": 450,
+                "visivel": true,
+                "demanda": 0,
+                "categorias_produto": [
+                    "Empório"
+                ],
+                "nome": "Roscas da Lu(Rosca de Mandioca)450 g",
+                "_id": "1740776126054x955719086898151400"
+            },
+            {
+                "peso por unidade": 450,
+                "_id": "1740776229700x837547906241396700",
+                "demanda": 0,
+                "tipo_unidade": "PC",
+                "estoque": 100000,
+                "Created By": "1691143865250x481074744108582500",
+                "Modified Date": "2025-05-21T17:13:08.985Z",
+                "desconto": 0,
+                "Created Date": "2025-02-28T20:57:08.668Z",
+                "preço novo": 18.99,
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1740776201542x146426773034943550/download.png"
+                ],
+                "nome": "Rosca da Lu (Rosca de Batata)450 g",
+                "peso/und": "unidade",
+                "categorias_produto": [
+                    "Empório"
+                ],
+                "cod": "898916"
+            },
+            {
+                "demanda": 0,
+                "peso/und": "unidade",
+                "preço novo": 18.99,
+                "estoque": 100000,
+                "nome": "Rosca da Lu(Rosca de Canela )450 g",
+                "categorias_produto": [
+                    "Empório"
+                ],
+                "peso por unidade": 450,
+                "Created By": "1691143865250x481074744108582500",
+                "Modified Date": "2025-05-21T17:13:08.998Z",
+                "desconto": 0,
+                "tipo_unidade": "PC",
+                "_id": "1740776330468x775787458695004200",
+                "Created Date": "2025-02-28T20:58:49.457Z",
+                "cod": "898916",
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1740776309445x896108897926021600/download.png"
+                ]
+            },
+            {
+                "categorias_produto": [
+                    "Empório"
+                ],
+                "tipo_unidade": "PC",
+                "demanda": 0,
+                "Created By": "1691143865250x481074744108582500",
+                "nome": "Rosca da Lu (Rosca de abobora com cococ)450g",
+                "peso por unidade": 450,
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1740776389023x830371418429644400/download.png"
+                ],
+                "Modified Date": "2025-05-21T17:13:09.010Z",
+                "Created Date": "2025-02-28T21:00:05.021Z",
+                "peso/und": "unidade",
+                "preço novo": 18.99,
+                "estoque": 100000,
+                "cod": "898916",
+                "_id": "1740776406018x284590124326191100",
+                "desconto": 0
+            },
+            {
+                "Created Date": "2025-02-28T21:02:53.427Z",
+                "Created By": "1691143865250x481074744108582500",
+                "cod": "898916",
+                "peso/und": "unidade",
+                "tipo_unidade": "PC",
+                "preço novo": 18.99,
+                "estoque": 100000,
+                "_id": "1740776574178x727764624848715800",
+                "demanda": 0,
+                "Modified Date": "2025-05-21T17:13:09.026Z",
+                "desconto": 0,
+                "peso por unidade": 450,
+                "nome": "Rosca da Lu (Rosca Caseira)450 g",
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1740776544977x993332306906860000/download.png"
+                ],
+                "categorias_produto": [
+                    "Empório"
+                ]
+            },
+            {
+                "em oferta": true,
+                "info nutricional": "Vitaminas \nVitamina A\nVitamina B1\nVitamina B2 (riboflavina)\nVitamina B3 (niacina)\nVitamina C\nVitamina K\nMinerais \nCálcio, Ferro, Fósforo, Magnésio, Potássio, Selênio.\nFibras \nFibras solúveis, como a pectina\nFibras insolúveis\nAntioxidantes Polifenois, Antocianidinas. \nOutros nutrientes \nAçúcares naturais, como frutose e glicose\nManganésio\nÁcido málico, tartárico e elágico\nTaninos\nCalorias\n100g de mirtilos contêm cerca de 57 kcal. ",
+                "ordem_prateleira": 0,
+                "como armazenar": "Para armazenar mirtilos, pode guardá-los no frigorífico ou congelá-los. \nNo frigorífico\nColoque-os nas prateleiras do meio ou de baixo do frigorífico \nEvite a gaveta de legumes, que é úmida e não tem circulação de ar \nGuarde-os num recipiente seco e com ventilação \nColoque papel absorvente no fundo do recipiente para absorver a humidade \nOs mirtilos frescos podem durar de cinco a dez dias \nCongelados Disponha-os numa bandeja para congelarem individualmente, Transfira-os para um saco hermético, Podem durar até 6 meses. \nÀ temperatura ambiente \nO prazo de validade dos mirtilos é drasticamente reduzido para apenas 1 ou 2 dias\nLavagem\nLave-os somente antes de consumir para preservar a sua frescura \nNão deve ser lavado antes de ser congelado, para evitar que se grudem uns aos outros ",
+                "visivel": true,
+                "_id": "1741701024757x188027999110037500",
+                "descriçao": "*APENAS 1 UNIDADE POR PEDIDO\nO mirtilo é uma fruta rica em vitaminas, minerais, fibras e antioxidantes. \n\nBenefícios \nAjuda a reduzir os níveis de colesterol LDL e triglicerídeos no sangue\nReduz o risco de doenças cardiovasculares, como aterosclerose e infarto do miocárdio\nMelhora o trânsito intestinal e promove a sensação de saciedade\nTem propriedades anti-inflamatórias\nPossui propriedades laxativas",
+                "Created By": "1741688448978x719554204811707000",
+                "peso por unidade": 125,
+                "Modified Date": "2026-03-03T15:50:57.419Z",
+                "categorias_produto": [
+                    "Frutas"
+                ],
+                "tipo_unidade": "BJ",
+                "demanda": 75,
+                "Created Date": "2025-03-11T13:50:25.255Z",
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1741700908593x635421399355540000/mirtilo-importado-125-g-1.webp"
+                ],
+                "relacionados": [
+                    "1721092988179x181873964623091140",
+                    "1737469462243x926746306706669600"
+                ],
+                "peso/und": "unidade",
+                "desconto": 15.3968253968254,
+                "nome": "Mirtilos 125g (Blueberry)",
+                "preço antigo": 18.9,
+                "estoque": 99756,
+                "preço novo": 15.99,
+                "cod": "099999"
+            },
+            {
+                "_id": "1743090663904x714060812381061100",
+                "Created By": "1685486814495x592895131987515800",
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1743090450922x990236427392424100/Meia%20duzia%20ovo%20caipira.jpeg"
+                ],
+                "peso/und": "unidade",
+                "em oferta": true,
+                "peso por unidade": 100,
+                "Modified Date": "2025-10-21T17:18:09.610Z",
+                "estoque": 99752,
+                "nome": "Ovos Caipira Meia Dúzia",
+                "Created Date": "2025-03-27T15:51:01.436Z",
+                "descriçao": "*Oferta válida para pedidos acima de R$ 120, no máximo 1 item por pedido.\nOvos de galinhas criadas soltas, de tamanho maior, comercializados em caixa com 6 unidades. Receitas: Culinária em geral: bolos, tortas, ovos fritos, omeletes, etc.",
+                "cod": "999901",
+                "desconto": -38.75,
+                "como armazenar": "Geladeira (4ºC - 8ºC): Na embalagem original por até 3 semanas.",
+                "preço antigo": 7.2,
+                "visivel": false,
+                "categorias_produto": [
+                    "Empório",
+                    "Mercearia"
+                ],
+                "tipo_unidade": "BJ",
+                "demanda": 145,
+                "relacionados": [
+                    "1721092988357x822652130253197000",
+                    "1721092988918x559660464106713340",
+                    "1721092988919x925988835066751000",
+                    "1721092988946x738113194261922800",
+                    "1721092988942x870929751872144800",
+                    "1721092988944x550432121656392300",
+                    "1721092988945x554429839226766600",
+                    "1721092988358x114885269626814340",
+                    "1721092988359x397540177067443400"
+                ],
+                "preço novo": 9.99
+            },
+            {
+                "tipo_unidade": "UN",
+                "como armazenar": "Refrigerado a menos que 6º",
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1743177608140x530434131250060200/suco%20de%20manga.jpeg"
+                ],
+                "Created Date": "2025-03-28T16:01:24.117Z",
+                "estoque": 99959,
+                "preço novo": 6.99,
+                "peso por unidade": 300,
+                "Modified Date": "2026-02-09T19:59:42.021Z",
+                "_id": "1743177682545x247817465833979900",
+                "nome": "Suco de Manga 300 ml",
+                "Created By": "1691143865250x481074744108582500",
+                "preço antigo": 6.99,
+                "visivel": false,
+                "cod": "254896",
+                "categorias_produto": [
+                    "Frutas"
+                ],
+                "peso/und": "unidade",
+                "demanda": 7,
+                "relacionados": [
+                    "1737422715523x870905380124229600"
+                ],
+                "desconto": 0
+            },
+            {
+                "desconto": 0,
+                "demanda": 2,
+                "estoque": 99997,
+                "Created By": "1691143865250x481074744108582500",
+                "cod": "009348",
+                "Modified Date": "2025-07-19T13:20:16.679Z",
+                "peso/und": "unidade",
+                "Created Date": "2025-03-28T17:23:25.259Z",
+                "tipo_unidade": "BJ",
+                "visivel": false,
+                "preço novo": 16.99,
+                "_id": "1743182596046x856239812603805700",
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1743182571319x538142947578646140/goiaba.png"
+                ],
+                "peso por unidade": 600,
+                "nome": "Goiaba romeu e julieta bdj"
+            },
+            {
+                "tipo_unidade": "KG",
+                "estoque": 91315,
+                "info nutricional": "Por 100g (polpa):\n- Calorias: 60kcal\n- Carboidratos: 13g\n- Fibra: 1g\n- Proteína: 1g\n- Gordura: 0.4g\nVitaminas:\n- Vitamina C: 9mg (10% VD)",
+                "peso por unidade": 580,
+                "Created Date": "2025-04-01T11:42:30.882Z",
+                "descriçao": "Fruta exótica originária da América Central, com casca rosa e polpa branca com sementes pretas. Usos: Consumir fresca, em saladas de frutas, sucos ou sobremesas.",
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1743507686051x984981588653752700/pitaya%20roxa.avif"
+                ],
+                "categorias_produto": [
+                    "Radicaliza"
+                ],
+                "nome": "Pitaya branca",
+                "Created By": "1685486814495x592895131987515800",
+                "cod": "100371",
+                "_id": "1743507750484x953705572303896600",
+                "preço novo": 19.99,
+                "preço antigo": 24.99,
+                "visivel": false,
+                "desconto": 20.0080032012805,
+                "Modified Date": "2026-01-09T11:27:32.967Z",
+                "demanda": 451,
+                "como armazenar": "Ambiente fresco e arejado (13ºC - 18ºC): Até estar madura. Geladeira (7ºC - 10ºC): Por até 5 dias após o amadurecimento.",
+                "peso/und": "peso"
+            },
+            {
+                "Created Date": "2025-04-01T11:48:59.899Z",
+                "peso por unidade": 30,
+                "Created By": "1685486814495x592895131987515800",
+                "estoque": 0,
+                "tipo_unidade": "BJ",
+                "cod": "100480",
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1743507870423x514605894392974800/Ovos%20Brancos%20%28Pente%20Com%2020%29.avif"
+                ],
+                "categorias_produto": [
+                    "Radicaliza"
+                ],
+                "nome": "Ovos Brancos (Pente Com 30)",
+                "_id": "1743508139998x499153485553729540",
+                "demanda": 111,
+                "Modified Date": "2025-11-26T19:47:55.410Z",
+                "descriçao": "Ovos de galinha de casca branca, comercializados em caixa com 30 unidades. Receitas: Culinária em geral: bolos, tortas, ovos fritos, omeletes, etc.",
+                "peso/und": "unidade",
+                "como armazenar": "Geladeira (4ºC - 8ºC): Na embalagem original por até 3 semanas.",
+                "preço antigo": 29.99,
+                "visivel": false,
+                "preço novo": 29.99,
+                "desconto": 0
+            },
+            {
+                "desconto": 0,
+                "demanda": 14,
+                "peso/und": "unidade",
+                "cod": "101752",
+                "Created Date": "2025-04-01T11:50:46.176Z",
+                "tipo_unidade": "UN",
+                "descriçao": "Abóbora moranga já descascada e limpa, pronta para o preparo de receitas. Receitas: Sopas, purês, bolos, tortas salgadas, acompanhamentos. Usos: Consumir cozida, assada ou como ingrediente em receitas doces ou salgadas.",
+                "peso por unidade": 400,
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1743508180026x650810901005205000/20241205_103903.avif"
+                ],
+                "categorias_produto": [
+                    "Radicaliza"
+                ],
+                "como armazenar": "Geladeira (4ºC - 8ºC): Em recipiente fechado por até 5 dias.",
+                "preço novo": 6.99,
+                "Created By": "1685486814495x592895131987515800",
+                "Modified Date": "2026-02-16T19:17:30.015Z",
+                "visivel": true,
+                "estoque": 99965,
+                "_id": "1743508246262x638978970272399400",
+                "preço antigo": 6.99,
+                "nome": "Abóbora Moranga Descascada 400g"
+            },
+            {
+                "estoque": 99703,
+                "visivel": true,
+                "desconto": 33.3555703802535,
+                "cod": "234657",
+                "categorias_produto": [
+                    "Bebidas"
+                ],
+                "Modified Date": "2026-03-02T17:45:45.269Z",
+                "demanda": 38,
+                "Created By": "1691143865250x481074744108582500",
+                "como armazenar": "Manter refrigerado a pelo menos 5ª",
+                "Created Date": "2025-04-07T17:12:11.476Z",
+                "em oferta": true,
+                "preço novo": 9.99,
+                "preço antigo": 14.99,
+                "_id": "1744045931335x627196694524067800",
+                "nome": "Suco de Graviola 1 litro",
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1744045856839x128027141697622190/graviola.jpg"
+                ],
+                "tipo_unidade": "UN",
+                "descriçao": "Suco natural de Graviola a base de água adoçado",
+                "peso por unidade": 1000,
+                "peso/und": "unidade"
+            },
+            {
+                "estoque": 100,
+                "categorias_produto": [
+                    "Dia das Mães",
+                    "Biscoitos"
+                ],
+                "Created By": "1746900900505x735602539181347800",
+                "preço novo": 199.9,
+                "Modified Date": "2025-05-21T17:13:09.039Z",
+                "nome": "Cesta de Dia das Mães - Premium",
+                "Created Date": "2025-05-10T18:22:03.414Z",
+                "preço antigo": 270,
+                "demanda": 0,
+                "em oferta": true,
+                "peso/und": "unidade",
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1746901207137x991919725246188000/Cesta.jpg"
+                ],
+                "_id": "1746901326122x325019478653665300",
+                "visivel": false,
+                "desconto": 25.96296296296296,
+                "peso por unidade": 2800,
+                "tipo_unidade": "UN",
+                "descriçao": "Um ótimo presente de dia das mães, uma cesta de produtos saudáveis com todas as delícias do Levee Hortplus\n\nLista de Produtos que vão na cesta: 👇\n1 cartela de morango premium\n1 bandeja de tamara jumbo premium\n1 doce de leite de cabra Doces de Belem 250 gramas\n1 Creme de Chocolate com Café Coffelo 230 gramas\n1 Geleia 100% fruta\n1 Wafers 250 gramas\n1 Biscoito Palito de Parmesão Sô Mineiro 100 gramas\n1 Biscoito Florzinha de goiabada Fornada de Minas 200 gramas\n1 Torrada Integral Granfino 230 gramas\n1 Cacho de uva Redglobe premium\n1 Maçã Verde\n1 Maçã Argentina \n1 Maçã Amarela\n1 Pitaya\n1 Caqui Fuiu\n1 Abacaxi\n1 Pera Willians\n1 Tangerina Verona Importada\n1 Laranja Bahia Importada\n2 Geleinha Dona Elza\n1 Goiaba vermelha\n1 Abacate Avocado\n1 Kiwi importado\n1 Ameixa Importada\n3 Bananinha artesanal\n3 Bala de mel\n1 Agua de Côco 300 ml\n1 Suco Natural 300 ml",
+                "cod": "999991"
+            },
+            {
+                "Created By": "1746900900505x735602539181347800",
+                "preço antigo": 210,
+                "descriçao": "Um ótimo presente de dia das mães, uma cesta de produtos saudáveis com todas as delícias do Levee Hortplus\n\nLista de Produtos que vão na cesta: 👇\n1 Goiabada Cremosa 300 gramas \n1 Creme de Chocolate com Café Coffelo 230 gramas\n1 Geleia 100% fruta\n1 Wafers 250 gramas\n1 Biscoito Palito de Parmesão Sô Mineiro 100 gramas\n1 Torrada Integral Granfino 230 gramas\n1 Cacho de uva Redglobe premium\n1 Maçã Verde\n1 Maçã Gala \n1 Pitaya\n1 Abacaxi\n1 Pera Willians\n1 Tangerina Verona Importada\n1 Laranja Bahia Importada\n2 Geleinha Dona Elza\n1 Goiaba vermelha\n1 Abacate Avocado\n1 Kiwi importado\n1 Ameixa Importada\n3 Bananinha artesanal\n3 Bala de mel\n1 Agua de Côco 300 ml\n1 Suco Natural 300 ml",
+                "_id": "1746901405712x962290987473567700",
+                "Created Date": "2025-05-10T18:23:22.682Z",
+                "relacionados": [
+                    "1746901326122x325019478653665300"
+                ],
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1746901365284x568867785344937340/Cesta.jpg"
+                ],
+                "visivel": false,
+                "peso por unidade": 2200,
+                "tipo_unidade": "UN",
+                "em oferta": true,
+                "demanda": 0,
+                "nome": "Cesta de Dia das Mães - Ouro",
+                "categorias_produto": [
+                    "Dia das Mães",
+                    "Biscoitos"
+                ],
+                "preço novo": 149.9,
+                "Modified Date": "2025-05-21T17:13:09.054Z",
+                "estoque": 100000,
+                "cod": "999992",
+                "desconto": 28.619047619047617,
+                "peso/und": "unidade"
+            },
+            {
+                "categorias_produto": [
+                    "Frutas"
+                ],
+                "descriçao": "Bandeja com 800 G contendo morangos altamente selecionados, naturalmente doce",
+                "peso por unidade": 800,
+                "visivel": false,
+                "Created Date": "2025-07-30T18:43:02.327Z",
+                "estoque": 0,
+                "em oferta": true,
+                "preço antigo": 79.9,
+                "desconto": 43.6921151439299,
+                "_id": "1753900981501x770205114265763800",
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1753900896693x487729200481121340/images%20%2816%29.jpeg"
+                ],
+                "cod": "125886",
+                "nome": "Morango Americano (Premium)",
+                "peso/und": "unidade",
+                "Modified Date": "2025-09-17T19:30:39.761Z",
+                "Created By": "1691143865250x481074744108582500",
+                "tipo_unidade": "BJ",
+                "preço novo": 44.99
+            },
+            {
+                "cod": "587469",
+                "peso/und": "peso",
+                "tipo_unidade": "KG",
+                "peso por unidade": 1000,
+                "preço antigo": 24.99,
+                "Created By": "1691143865250x481074744108582500",
+                "nome": "Jabuticaba (1 kg)",
+                "Created Date": "2025-10-20T11:06:06.857Z",
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1760958292891x447764684025659100/images%20%2819%29.jpeg"
+                ],
+                "preço novo": 12.99,
+                "Modified Date": "2025-11-13T10:21:45.831Z",
+                "visivel": false,
+                "categorias_produto": [
+                    "Frutas"
+                ],
+                "em oferta": true,
+                "estoque": -743,
+                "desconto": 48.0192076830732,
+                "_id": "1760958365911x357252490984161300"
+            },
+            {
+                "nome": "Cereja Fresca (100 gramas)",
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1761382814770x115392528711210980/cherries-withebackground-sweet-heart-1.jpg"
+                ],
+                "tipo_unidade": "UN",
+                "desconto": 70.0233411137046,
+                "estoque": -99867,
+                "peso por unidade": 100,
+                "Created By": "1691143865250x481074744108582500",
+                "preço antigo": 29.99,
+                "_id": "1761382887486x868010615381426200",
+                "Created Date": "2025-10-25T09:01:28.152Z",
+                "em oferta": true,
+                "categorias_produto": [
+                    "Frutas"
+                ],
+                "peso/und": "unidade",
+                "preço novo": 8.99,
+                "cod": "325689",
+                "visivel": false,
+                "Modified Date": "2026-02-19T21:53:01.501Z"
+            },
+            {
+                "visivel": false,
+                "peso/und": "unidade",
+                "_id": "1764234166519x156811859536379900",
+                "descriçao": "A lichia é uma fruta tropical de origem chinesa, conhecida por sua casca avermelhada e polpa branca e suculenta, com sabor doce. É rica em vitamina C, antioxidantes e outros nutrientes, o que a torna benéfica para o sistema imunológico e a saúde cardiovascular. No Brasil, foi introduzida em 1810 e a produção comercial começou nos anos 1970, principalmente em São Paulo. ",
+                "estoque": 99871,
+                "em oferta": true,
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1764234123624x784506805810847100/images%20%2820%29.jpeg"
+                ],
+                "preço antigo": 29.99,
+                "nome": "Lichia (bandeja)",
+                "categorias_produto": [
+                    "Frutas"
+                ],
+                "desconto": 33.3444481493831,
+                "Modified Date": "2026-02-21T13:46:11.552Z",
+                "tipo_unidade": "BJ",
+                "Created Date": "2025-11-27T09:02:47.504Z",
+                "cod": "288996",
+                "preço novo": 19.99,
+                "Created By": "1691143865250x481074744108582500",
+                "peso por unidade": 200
+            },
+            {
+                "info nutricional": "porção por embalagem: cerca de 19\nporção: 13ml (1 colher de sopa)\n.Valor energético ( kcal): 100 ml ( 139); 13 ml (18);percentuais de valores diários fornecidos pela porção %VD (1)\n.Carboidratos (g):100 ml (16); 13 ml (2,1); %VD (1)\n.Açucares totais (g): 100 ml (13); 13 ml (1,7)\n.Açucares adicionais (g): 100 ml (0); 13 ml (0); %VD (0)\nProteínas (g): 100 ml (0); 13 ml (0); %VD (0)\n.Gorduras totais (g): 100 ml(9); 13 ml (1,2); %VD (2)\n.Gorduras saturadas (g): 100 ml(1,5); 13 ml(0,2); %VD: (1)\n.Gorduras trans (g) ; 100 ml (0); 13 ml (0); %VD (0)\n.Fibras alimentares (g): 100 ml (1,4); 13 ml (0,2); %VD (1)\n.Sódio (mg): 100ml (398); 13 ml(52); %VD (3)\nALÉRGICOS: NÃO CONÉM GLÚTEN. PODE CONTER DERIVADOS DE SOJA E CASTANHA DE CAJU.",
+                "cod": "002930",
+                "visivel": true,
+                "peso/und": "unidade",
+                "Created Date": "2025-12-20T11:21:11.998Z",
+                "peso por unidade": 250,
+                "nome": "molho para salada puro e leve balsâmico com tâmara 250ml ",
+                "relacionados": [
+                    "1721092990084x334601127843647170",
+                    "1739897911058x231333198969962500"
+                ],
+                "preço novo": 32.99,
+                "estoque": 100000,
+                "Created By": "1727112260037x946019616244544300",
+                "Modified Date": "2025-12-20T11:24:08.889Z",
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1766227793407x846321130332741100/Balsamico-foto-copiar-247x296.jpg"
+                ],
+                "ordem_prateleira": 1,
+                "tipo_unidade": "UN",
+                "como armazenar": "Manter em local fresco e arejado. Após aberto, conserve o produto refrigerado e consuma em até 20 dias .",
+                "_id": "1766229671011x677037340096462800",
+                "desconto": 0
+            },
+            {
+                "Created By": "1727112260037x946019616244544300",
+                "ordem_prateleira": 1,
+                "Created Date": "2025-12-20T11:31:06.942Z",
+                "tipo_unidade": "UN",
+                "info nutricional": "porção por embalagem: cerca de 19\nporção: 13ml (1 colher de sopa)\n.Valor energético ( kcal): 100 ml ( 141); 13 ml (18);percentuais de valores diários fornecidos pela porção %VD (1)\n.Carboidratos (g):100 ml (4,7); 13 ml (0,6); %VD (0)\n.Açucares totais (g): 100 ml (0,7); 13 ml (0,1)\n.Açucares adicionais (g): 100 ml (0); 13 ml (0); %VD (0)\nProteínas (g): 100 ml (2,4); 13 ml (0,3); %VD (1)\n.Gorduras totais (g): 100 ml(14); 13 ml (1,8); %VD (3)\n.Gorduras saturadas (g): 100 ml(2,2); 13 ml(0,3); %VD: (1)\n.Gorduras trans (g) ; 100 ml (0); 13 ml (0); %VD (0)\n.Fibras alimentares (g): 100 ml (1,5); 13 ml (0,2); %VD (1)\n.Sódio (mg): 100ml (430); 13 ml(56); %VD (3)\nALÉRGICOS: NÃO CONÉM GLÚTEN. PODE CONTER DERIVADOS DE SOJA E CASTANHA DE CAJU.",
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1766229942059x162246728838383330/Tahine-e-limao-copiar.jpg"
+                ],
+                "preço novo": 32.99,
+                "desconto": 0,
+                "peso por unidade": 250,
+                "nome": "molho para salada puro e leve tahine com limão ",
+                "estoque": 100000,
+                "visivel": true,
+                "Modified Date": "2025-12-20T11:31:08.022Z",
+                "descriçao": "molho pronto de tahine com limão e hortelã ",
+                "como armazenar": "Manter em local fresco e arejado. Após aberto, conserve o produto refrigerado e consuma em até 20 dias ",
+                "relacionados": [
+                    "1739897911058x231333198969962500"
+                ],
+                "_id": "1766230266107x476628145896161300",
+                "cod": "002928",
+                "peso/und": "unidade"
+            },
+            {
+                "Created By": "1727112260037x946019616244544300",
+                "descriçao": "coco natural, sorbitol, maltodextrina, goma acácia e glicosídeos.",
+                "nome": "cocada artesanal celebrê 24g",
+                "visivel": true,
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1766237352996x395292833129625300/cocada_artesanal_zero_acucar_celebre_72g_61_1_ef7c6260c47fb48355531f13a5f2dd5e.webp"
+                ],
+                "estoque": 100000,
+                "como armazenar": "manter em local fresco e arejado",
+                "peso/und": "unidade",
+                "_id": "1766237383106x406819038447534100",
+                "desconto": 0,
+                "peso por unidade": 24,
+                "cod": "001696",
+                "preço novo": 4.99,
+                "Modified Date": "2025-12-20T13:29:44.167Z",
+                "tipo_unidade": "UN",
+                "relacionados": [
+                    "1740422134769x476425965788987400",
+                    "1740422246718x562868496181493760",
+                    "1740408794128x791258558397153300"
+                ],
+                "Created Date": "2025-12-20T13:29:43.890Z",
+                "info nutricional": "Porção 24g ( 1 unidade)\n.Valor energético: 96 kcal (5% VD);\n.Carboidratos: 11,5g (4% VD);\n.Proteínas: 1g (2% VD);\n.Gorduras totais: 6,5g (10% VD);\n.Gorduras saturadas: 3,5g (16% VD);\n.Gorduras trans: 0g (0% VD);\nFibra alimentar: 3,5g (12% VD);\nSódio: 7 mg(0%VD)"
+            },
+            {
+                "tipo_unidade": "UN",
+                "Modified Date": "2026-02-04T08:21:06.627Z",
+                "peso/und": "unidade",
+                "peso por unidade": 200,
+                "Created Date": "2025-12-20T13:48:21.404Z",
+                "visivel": true,
+                "info nutricional": "Porção por embalagem: 8 porções - Porção: 25g ( 3 unidades)\nvalor energético 397 kcal (99kcal, 5%);\nCarboidratos 74g (19g 6%);\nAçúcar totais 74g (19g);\nAçúcar adicionado 63g (1,6g, 3%)\nProteínas 9,5g (2,4g , 5%);\nGorduras totais 6,5g (1,6g, 3%);\nGorduras saturadas 4,7g (1,2g, 6%)\nGorduras trans 0,2g ( 0,1g, 5%)\nFibras alimentares  0,8g (0,2g, 1%)\nSódio 110 mg (28g, 1%)",
+                "Created By": "1727112260037x946019616244544300",
+                "estoque": 99999,
+                "descriçao": "leite, açúcar, coco, glicose, sorbato de potássio (INS202), citrato de sódio (INS331iii) e bicarbonato de sódio (INS500oo). Não contem glutén. ALERGICOS : contem leite, pode conter amendoim, e contem lactose ",
+                "como armazenar": "manter em locais frescos e arejados ",
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1766237551801x507376822080859460/br-11134207-7qukw-ljbk91ejcbhx3d.jpg"
+                ],
+                "relacionados": [
+                    "1740061491353x927843712224723000"
+                ],
+                "_id": "1766238500583x777178943994986500",
+                "categorias_produto": [
+                    "Empório"
+                ],
+                "preço novo": 15.99,
+                "cod": "002970",
+                "desconto": 0,
+                "nome": "cocada doce de leite com coco doçura da fazenda 200gr"
+            },
+            {
+                "tipo_unidade": "UN",
+                "cod": "002969",
+                "preço novo": 15.99,
+                "Created Date": "2025-12-20T14:12:25.835Z",
+                "relacionados": [
+                    "1766238500583x777178943994986500",
+                    "1740060127453x738250575742238700"
+                ],
+                "estoque": 100000,
+                "desconto": 0,
+                "visivel": true,
+                "como armazenar": "manter em local fresco e arejado ",
+                "Modified Date": "2025-12-20T14:12:26.495Z",
+                "peso por unidade": 200,
+                "_id": "1766239944930x838093286236487700",
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1766239601234x682505585327203300/948c2df2f4.webp"
+                ],
+                "nome": "casadinho doce de leite com chocolate doçura da fazenda 200g",
+                "descriçao": "leite açúcar, chocolate, glicose, bicarbonato de sódio e conservador sorbato de potássio, não contem glúten. Alérgicos: contem leite e lactose e pode conter amendoim ",
+                "info nutricional": "Porção por embalagem: 8 porções - Porção: 25g ( 3 unidades)\nvalor energético 394 kcal (99kcal, 5%);\nCarboidratos 73g (18g 6%);\nAçúcar totais 73g (18g);\nAçúcar adicionado 64g (16g, 32%)\nProteínas 7,9g (2,0g , 4%);\nGorduras totais 6,1g (1,5g, 2%);\nGorduras saturadas 4,1g (1,0g, 5%)\nGorduras trans 0,2g ( 0,1g, 5%)\nFibras alimentares  0g (0,0g, 0%)\nSódio 125 mg (31g, 2%)",
+                "Created By": "1727112260037x946019616244544300",
+                "peso/und": "unidade"
+            },
+            {
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1766241088572x433026388807311170/D_NQ_NP_614473-MLB89982694667_082025-O.webp"
+                ],
+                "relacionados": [
+                    "1737553262806x693487013679857700",
+                    "1740416330521x101423176142553090"
+                ],
+                "estoque": 100000,
+                "visivel": true,
+                "desconto": 0,
+                "tipo_unidade": "PC",
+                "Modified Date": "2025-12-20T14:31:37.420Z",
+                "info nutricional": "Porção por embalagem:25 porções - Porção: 40g ( 1/2 xícara de chá)\nvalor energético: 100g 367 kcal;40 g 149 kcal (%VD7%);\nCarboidratos: 100g - 68g; 40 g - 27 (%VD 9%);\nAçúcar totais:100g -68; 40g - 27 \nAçúcar adicionado: 100g - 24; 40g - 9,7; (%VD 20%)\nProteínas: 100g - 12 ; 40g - 4,6;(%VD 9%);\nGorduras totais: 100g - 5,5; 40g - 2,2 (1,6g, 3%);\nGorduras saturadas 100g - 1,5; 40g - 0,5;(%VD,3%)\nGorduras trans 100g - 0; 40g - 0;( %VD, 0%)\nFibras alimentares: 100g - 7;40g - 2,8;(%VD, 11%)\nSódio: 100g - 14; 40g - 5,5; (%VD, 0%)",
+                "preço novo": 18.99,
+                "peso/und": "unidade",
+                "Created Date": "2025-12-20T14:31:37.158Z",
+                "Created By": "1727112260037x946019616244544300",
+                "cod": "000741",
+                "peso por unidade": 1000,
+                "descriçao": "aveia em flocos, açúcar mascavo, flocos de milho, coco ralado adoçicado, uvas passas e castanha do Pará . ALERGICOS : contem castanha do Para, derivados de aveia e derivados de soja,pode conter trigo, não contem lactose, contem glúten ",
+                "nome": "granola tradicional Gran+ natural ",
+                "_id": "1766241096376x755437720861933600",
+                "como armazenar": "conservar em local fresco, seco e inodoro. Após aberta a embalagem, mantê-la bem vedada e consumir em ate 30 dias "
+            },
+            {
+                "_id": "1766241571283x318145430306947100",
+                "preço novo": 18.99,
+                "Created Date": "2025-12-20T14:39:32.101Z",
+                "info nutricional": "Porção por embalagem:25 porções - Porção: 40g ( 1/2 xícara de chá)\nvalor energético: 100g 395 kcal;40 g 120 kcal (%VD, 6%);\nCarboidratos: 100g - 66; 40 g - 20 (%VD, 7%);\nAçúcar totais:100g -1,5; 40g - 0 \nAçúcar adicionado: 100g - 0; 40g - 0; (%VD, 0%)\nProteínas: 100g - 17 ; 40g - 5,2;(%VD 10%);\nGorduras totais: 100g - 7; 40g - 2,1 (%VD, 3%);\nGorduras saturadas 100g - 1,5; 40g - 0,5;(%VD,3%)\nGorduras trans 100g - 0; 40g - 0;( %VD, 0%)\nFibras alimentares: 100g - 15;40g - 4,6;(%VD, 18%)\nSódio: 100g - 0; 40g - 0; (%VD, 0%)",
+                "nome": "aveia flocos medios gran + natural 1kg",
+                "cod": "000574",
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1766241187663x679630664361109400/D_NQ_NP_745645-MLA99891914419_112025-O.webp"
+                ],
+                "desconto": 0,
+                "visivel": true,
+                "Modified Date": "2025-12-20T14:39:32.254Z",
+                "como armazenar": "conservar em local fresco, seco e inodoro. Após aberta a embalagem, mantê-la bem vedada e consumir em ate 30dias ",
+                "descriçao": "avia 100% integral. ALERGICOS :  contem derivados de aveia e soja, pode conter trigo, cevada e centeio, não contem lactose, contem gluten ",
+                "tipo_unidade": "PC",
+                "Created By": "1727112260037x946019616244544300",
+                "peso por unidade": 1000,
+                "peso/und": "unidade",
+                "relacionados": [
+                    "1739887867823x830351183964274700",
+                    "1766241096376x755437720861933600"
+                ],
+                "estoque": 100000
+            },
+            {
+                "descriçao": "banana, ameixa e conservantes sorbato de potássio. não contem gluten e não contem lactose ",
+                "visivel": true,
+                "peso por unidade": 250,
+                "Modified Date": "2025-12-20T14:56:53.161Z",
+                "Created Date": "2025-12-20T14:56:52.229Z",
+                "peso/und": "unidade",
+                "preço novo": 18.99,
+                "Created By": "1727112260037x946019616244544300",
+                "como armazenar": "manter em local fresco e arejado",
+                "relacionados": [
+                    "1740416465977x609912539709177900"
+                ],
+                "desconto": 0,
+                "info nutricional": "Porção por embalagem:10 porções - Porção: 25g ( 1 unidade)\nvalor energético: 100g 294 kcal;25g 74 kcal (%VD, 4%);\nCarboidratos: 100g - 78; 25 g - 20 (%VD 7%);\nAçúcar totais:100g -72; 25g - 18 \nAçúcar adicionado: 100g - 0; 25g - 0; (%VD 0%)\nProteínas: 100g - 3,8 ; 25g - 1,0;(%VD 2%);\nGorduras totais: 100g - 0,3; 25g - 0,1 (%VD, 0%);\nGorduras saturadas 100g - 0; 25g - 0;(%VD,0%)\nGorduras trans 100g - 0; 25g - 0;( %VD, 0%)\nFibras alimentares: 100g - 6,1;25g - 1,5;(%VD, 6%)\nSódio: 100g - 0; 25g - 0; (%VD, 0%)\nPotássio: 100g - 1063 mg; 25g - 266mg; (%VD, 8%)",
+                "nome": "bananada com ameixa bananafruit 250g",
+                "cod": "002881",
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1766242183296x566397709371667900/sg-11134201-7raub-maskl2miiki840.jpg"
+                ],
+                "estoque": 100000,
+                "_id": "1766242611352x555825544628797400",
+                "tipo_unidade": "PC"
+            },
+            {
+                "preço novo": 15.99,
+                "visivel": true,
+                "como armazenar": "manter a embalagem fechada e em local fresco ",
+                "peso por unidade": 290,
+                "cod": "002842",
+                "peso/und": "unidade",
+                "Created Date": "2025-12-24T17:35:03.513Z",
+                "tipo_unidade": "UN",
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1766596856304x418827585553808200/images%20%281%29.jpg"
+                ],
+                "Modified Date": "2026-02-07T13:35:24.593Z",
+                "descriçao": "farinha de mandioca, óleo de soja, cubos de soja, cebola, bacon e sal. ",
+                "_id": "1766597702595x511322254919073800",
+                "desconto": 0,
+                "Created By": "1727112260037x946019616244544300",
+                "relacionados": [
+                    "1721092987387x398981762792890430",
+                    "1721092987388x841517693788260600",
+                    "1721092987393x646606744292660200",
+                    "1721092987398x209349986922760420",
+                    "1721092987399x524445844779662700",
+                    "1721092987400x432420237642295230",
+                    "1721092987405x843456070046389100",
+                    "1721092987406x211127541234366720",
+                    "1721092987407x387049497550983040",
+                    "1721092987410x811749825580490500",
+                    "1740063507674x806687372062228500",
+                    "1740064293989x978776478332485600",
+                    "1740064407756x716011951883026400",
+                    "1740064476887x584948101462622200",
+                    "1740064656157x292520256712474600",
+                    "1740064853549x783760345280282600"
+                ],
+                "nome": "farofa caseira crocante bacon",
+                "info nutricional": "porção de 23 g ( 2 colheres)\ncarboidratos: 118 kcal 280k - 12,9g; 5,6% - 6,7%;\nProteínas : 118 kcal 280k - 2,7g; 5,6% - 1,9%;\ngorduras totais : 118kcal 280k - 5,8g; 5,6% - 28%;\ngorduras saturadas: 118kcal 280 k - 0,9g; 5,6% - 6%;\nfibra alimentar : 118kcal 280k - 1,7g; 5,6 % - 9%;\nsódio: 118 kcal 280k - 175 mg; 5,6% - 8 %\n",
+                "estoque": 99998
+            },
+            {
+                "Modified Date": "2025-12-24T17:44:34.186Z",
+                "estoque": 100000,
+                "nome": "Farofa caseira crocante tradicional ",
+                "relacionados": [
+                    "1721092987387x398981762792890430",
+                    "1721092987388x841517693788260600",
+                    "1721092987393x646606744292660200",
+                    "1721092987398x209349986922760420",
+                    "1721092987399x524445844779662700",
+                    "1721092987400x432420237642295230",
+                    "1721092987405x843456070046389100",
+                    "1721092987406x211127541234366720",
+                    "1721092987407x387049497550983040",
+                    "1721092987410x811749825580490500",
+                    "1740063507674x806687372062228500",
+                    "1740064293989x978776478332485600",
+                    "1740064407756x716011951883026400",
+                    "1740064476887x584948101462622200",
+                    "1740064656157x292520256712474600",
+                    "1740064853549x783760345280282600",
+                    "1766597702595x511322254919073800"
+                ],
+                "Created By": "1727112260037x946019616244544300",
+                "descriçao": "farinha de mandioca, óleo de soja, cubos de soja, cebola e sal.",
+                "info nutricional": "porção de 23 g ( 2 colheres)\ncarboidratos: 118 kcal 280k - 12,8g; 5,6% - 6,9%;\nProteínas : 118 kcal 280k - 2,6g; 5,6% - 1,7%;\ngorduras totais : 118kcal 280k - 5,7g; 5,6% - 27%;\ngorduras saturadas: 118kcal 280 k - 0,8g; 5,6% - 4%;\nfibra alimentar : 118kcal 280k - 1,8g; 5,6 % - 8%;\nsódio: 118 kcal 280k - 177 mg; 5,6% - 7%\n",
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1766598001808x665606484212006400/images%20%281%29.jpg"
+                ],
+                "cod": "003015",
+                "Created Date": "2025-12-24T17:44:33.926Z",
+                "desconto": 0,
+                "peso/und": "unidade",
+                "como armazenar": "manter a embalagem fechada e em local fresco ",
+                "preço novo": 15.99,
+                "visivel": true,
+                "peso por unidade": 290,
+                "tipo_unidade": "UN",
+                "_id": "1766598273031x410532038256885800"
+            },
+            {
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1766598320570x928625145102949500/images%20%281%29.jpg"
+                ],
+                "como armazenar": "manter a embalagem fechada e em local fresco ",
+                "peso/und": "unidade",
+                "tipo_unidade": "UN",
+                "Created Date": "2025-12-24T17:46:03.571Z",
+                "relacionados": [
+                    "1766598273031x410532038256885800",
+                    "1766597702595x511322254919073800"
+                ],
+                "Modified Date": "2025-12-24T17:46:04.249Z",
+                "nome": "farofa caseira crocante bacon com pimenta ",
+                "info nutricional": "porção de 23 g ( 2 colheres)\ncarboidratos: 118 kcal 280k - 12,9g; 5,6% - 6,7%;\nProteínas : 118 kcal 280k - 2,7g; 5,6% - 1,9%;\ngorduras totais : 118kcal 280k - 5,8g; 5,6% - 28%;\ngorduras saturadas: 118kcal 280 k - 0,9g; 5,6% - 6%;\nfibra alimentar : 118kcal 280k - 1,7g; 5,6 % - 9%;\nsódio: 118 kcal 280k - 175 mg; 5,6% - 8 %\n",
+                "cod": "002843",
+                "_id": "1766598362647x886299355129315300",
+                "preço novo": 15.99,
+                "desconto": 0,
+                "Created By": "1727112260037x946019616244544300",
+                "estoque": 100000,
+                "peso por unidade": 290
+            },
+            {
+                "relacionados": [
+                    "1766242611352x555825544628797400",
+                    "1740416465977x609912539709177900"
+                ],
+                "Created By": "1727112260037x946019616244544300",
+                "tipo_unidade": "PC",
+                "visivel": true,
+                "cod": "001936",
+                "info nutricional": "Porção por embalagem:10 porções - Porção: 25g ( 1 unidade)\nvalor energético: 100g 302 kcal;25g 76 kcal (%VD, 4%);\nCarboidratos: 100g - 80g; 25 g - 20g (%VD 7%);\nAçúcar totais:100g -74g; 25g - 18 g\nAçúcar adicionado: 100g - 0; 25g - 0; (%VD 0%)\nProteínas: 100g - 3,9g ; 25g - 1,0g;(%VD 2%);\nGorduras totais: 100g - 0,3g; 25g - 0,1g (%VD, 0%);\nGorduras saturadas 100g - 0; 25g - 0;(%VD,0%)\nGorduras trans 100g - 0; 25g - 0;( %VD, 0%)\nFibras alimentares: 100g - 5,9g;25g - 1,5g;(%VD, 6%)\nSódio: 100g - 0; 25g - 0; (%VD, 0%)\nPotássio: 100g - 1070 mg; 25g - 268mg; (%VD, 8%)",
+                "descriçao": "banana, uvas passas e conservante sorbato de potássio. Não contem glúten, não contem lactose.",
+                "preço novo": 19.99,
+                "_id": "1766598967927x541203392509771800",
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1766598580028x774078060108812800/180_bananada_com_acai_bananafruti_25g_8un_1081_1_8a92d56b2c1f208aea2b114069f5f050.webp"
+                ],
+                "Created Date": "2025-12-24T17:56:08.812Z",
+                "Modified Date": "2025-12-24T17:56:08.926Z",
+                "nome": "Bananada com uva passas bananafruit",
+                "peso/und": "unidade",
+                "peso por unidade": 250,
+                "estoque": 100000,
+                "como armazenar": "manter em local fresco e arejado .",
+                "desconto": 0
+            },
+            {
+                "Modified Date": "2026-01-14T16:30:15.714Z",
+                "peso por unidade": 250,
+                "_id": "1766599256894x765142828213600300",
+                "tipo_unidade": "PC",
+                "descriçao": "banana e conservante sorbato de potássio. Não contem gluten, não contem lactose ",
+                "estoque": 99999,
+                "desconto": 0,
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1766599056582x958856574739892500/bananada_natural_250g_naturafruti_39f2b7f7-1016-4a81-9983-f2c57147b8cf.png"
+                ],
+                "visivel": true,
+                "cod": "002880",
+                "relacionados": [
+                    "1740416465977x609912539709177900",
+                    "1766598967927x541203392509771800",
+                    "1766242611352x555825544628797400"
+                ],
+                "como armazenar": "manter em local fresco e arejado",
+                "nome": "bananada natural bananafruit",
+                "Created By": "1727112260037x946019616244544300",
+                "Created Date": "2025-12-24T18:00:57.802Z",
+                "peso/und": "unidade",
+                "info nutricional": "Porção por embalagem:10 porções - Porção: 25g ( 1 unidade)\nvalor energético: 100g 285kcal;25g 71 kcal (%VD, 4%);\nCarboidratos: 100g - 76g; 25 g - 19g (%VD 6%);\nAçúcar totais:100g -70g; 25g - 17 g\nAçúcar adicionado: 100g - 0; 25g - 0; (%VD 0%)\nProteínas: 100g - 3,8g ; 25g - 0,9g;(%VD 2%);\nGorduras totais: 100g - 0,3g; 25g - 0,1g (%VD, 0%);\nGorduras saturadas 100g - 0; 25g - 0;(%VD,0%)\nGorduras trans 100g - 0; 25g - 0;( %VD, 0%)\nFibras alimentares: 100g - 5,8g;25g - 1,5g;(%VD, 6%)\nSódio: 100g - 0; 25g - 0; (%VD, 0%)\nPotássio: 100g - 1040 mg; 25g - 260mg; (%VD, 7%)",
+                "preço novo": 19.99
+            },
+            {
+                "visivel": true,
+                "Created Date": "2025-12-24T18:06:38.392Z",
+                "desconto": 0,
+                "cod": "002934",
+                "info nutricional": "porções por embalagem : 2000\nporção : 00,5ml (1 gota)\nvalor energético (kcal) 100ml - 8; 0,05 ml - 0; %VD - 0;\ncarboidratos: 100ml - 3; 0,05ml - 0; %VD - 0;\naçucares totais : 100ml - 0; 0,05 ml - 0; %¨VD - 0",
+                "estoque": 99999,
+                "tipo_unidade": "UN",
+                "preço novo": 13.99,
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1766599303764x264040667915122370/images%20%282%29.jpg"
+                ],
+                "descriçao": "adocante dietetico liquido",
+                "nome": "adoçante assugrin tradicional",
+                "peso/und": "unidade",
+                "_id": "1766599597447x296212680062533600",
+                "Modified Date": "2026-02-05T01:51:40.171Z",
+                "peso por unidade": 100,
+                "Created By": "1727112260037x946019616244544300"
+            },
+            {
+                "Created By": "1691143865250x481074744108582500",
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1766773714081x536772788212442700/t_pica_mineira_picante_3_.jpg"
+                ],
+                "estoque": 100000,
+                "tipo_unidade": "UN",
+                "relacionados": [
+                    "1721092987387x398981762792890430",
+                    "1721092987388x841517693788260600",
+                    "1721092987393x646606744292660200",
+                    "1721092987398x209349986922760420",
+                    "1721092987399x524445844779662700",
+                    "1721092987400x432420237642295230",
+                    "1721092987405x843456070046389100",
+                    "1721092987406x211127541234366720",
+                    "1721092987407x387049497550983040",
+                    "1721092987410x811749825580490500",
+                    "1740063507674x806687372062228500",
+                    "1740064293989x978776478332485600",
+                    "1740064407756x716011951883026400",
+                    "1740064476887x584948101462622200",
+                    "1740064656157x292520256712474600",
+                    "1740064853549x783760345280282600",
+                    "1766597702595x511322254919073800",
+                    "1766598273031x410532038256885800",
+                    "1766598362647x886299355129315300"
+                ],
+                "info nutricional": "Informação Nutricional\n\nPorção de 35g (1 colher de sopa)\n\nQUANTIDADE POR PORÇÃO\t%VD(*)\nValor Energético\t150 kcal\t7%\nCarboidratos\t25 g\t9%\nProteínas\t0 g\t0%\nGorduras Totais\t4 g\t7%\nGorduras Saturadas\t1 g\t4%\nGorduras Trans\t0 g\t---\nColesterol\t0 mg\t0%\nFibra Alimentar\t1 g\t4%\nCálcio\t15 mg\t1%\nFerro\t0 mg\t7%\nSódio\t122 mg\t5%",
+                "visivel": true,
+                "preço novo": 9.5,
+                "Modified Date": "2025-12-26T18:32:59.644Z",
+                "descriçao": "farinha de milho caseira, cebola, alho, ervas finas, sal, óleo de soja e pimenta. ALERGICOS : contem derivados de soja, não contem glúten.",
+                "peso/und": "unidade",
+                "cod": "003025",
+                "_id": "1766773977529x924955000459755500",
+                "peso por unidade": 300,
+                "como armazenar": "manter em local seco e arejado ",
+                "nome": "farofa de milho picante morea ",
+                "Created Date": "2025-12-26T18:32:59.511Z",
+                "desconto": 0
+            },
+            {
+                "Modified Date": "2025-12-26T18:41:33.945Z",
+                "desconto": 0,
+                "preço novo": 9.5,
+                "Created Date": "2025-12-26T18:41:33.749Z",
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1766774320496x124180568874122660/farofa_caseira_milho_sem_pimenta_1_%20%281%29.jpg"
+                ],
+                "tipo_unidade": "UN",
+                "Created By": "1691143865250x481074744108582500",
+                "estoque": 100000,
+                "visivel": true,
+                "nome": "farofa de milho sem pimenta ",
+                "_id": "1766774491409x342462389943795700",
+                "relacionados": [
+                    "1721092987387x398981762792890430",
+                    "1721092987388x841517693788260600",
+                    "1721092987393x646606744292660200",
+                    "1721092987398x209349986922760420",
+                    "1721092987399x524445844779662700",
+                    "1721092987400x432420237642295230",
+                    "1721092987406x211127541234366720",
+                    "1721092987407x387049497550983040"
+                ],
+                "peso/und": "unidade",
+                "descriçao": "farinha de milho caseira, cebola, olha, ervas finas, sal e óleo de soja",
+                "info nutricional": "Informação Nutricional\n\nPorção de 35g (1 colher de sopa)\n\nQUANTIDADE POR PORÇÃO\t%VD(*)\nValor Energético\t150 kcal\t7%\nCarboidratos\t25 g\t9%\nProteínas\t0 g\t0%\nGorduras Totais\t4 g\t7%\nGorduras Saturadas\t1 g\t4%\nGorduras Trans\t0 g\t---\nColesterol\t0 mg\t0%\nFibra Alimentar\t1 g\t4%\nCálcio\t15 mg\t1%\nFerro\t0 mg\t7%\nSódio\t122 mg\t5%",
+                "peso por unidade": 300,
+                "cod": "001393"
+            },
+            {
+                "peso/und": "unidade",
+                "estoque": 100000,
+                "Created Date": "2025-12-26T18:47:34.977Z",
+                "cod": "000528",
+                "desconto": 0,
+                "visivel": true,
+                "Created By": "1691143865250x481074744108582500",
+                "peso por unidade": 300,
+                "info nutricional": "Informação Nutricional\n\nPorção de 35g (1 colher de sopa)\n\nQUANTIDADE POR PORÇÃO\t%VD(*)\nValor Energético\t348 kcal\t6%\nCarboidratos\t87 g\t10%",
+                "_id": "1766774852874x581310408308817900",
+                "Modified Date": "2025-12-26T18:47:35.156Z",
+                "preço novo": 9.5,
+                "relacionados": [
+                    "1721092987399x524445844779662700",
+                    "1721092987405x843456070046389100"
+                ],
+                "descriçao": "farinha de mandioca, óleo de soja, cebola, alho,sal e corante tartrazina. ALERGICOS : Contem derivado ",
+                "nome": "farofa de mandioca temperada sem pimenta ",
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1766774830591x833278913235417200/farofa_morea_milho_s_pimenta_350g_9c082fe0-3f3e-472b-b4d6-12653039cfc8.png"
+                ],
+                "tipo_unidade": "UN"
+            },
+            {
+                "_id": "1766775356040x188417715166248960",
+                "preço novo": 9.5,
+                "info nutricional": "Informação Nutricional\n\nPorção de 35g (1 colher de sopa)\n\nQUANTIDADE POR PORÇÃO\t%VD(*)\nValor Energético\t150 kcal\t7%\nCarboidratos\t25 g\t9%\nProteínas\t0 g\t0%\nGorduras Totais\t4 g\t7%\nGorduras Saturadas\t1 g\t4%\nGorduras Trans\t0 g\t---\nColesterol\t0 mg\t0%\nFibra Alimentar\t1 g\t4%\nCálcio\t15 mg\t1%\nFerro\t0 mg\t7%\nSódio\t122 mg\t5%",
+                "desconto": 0,
+                "peso por unidade": 300,
+                "cod": "002127",
+                "Modified Date": "2026-01-07T12:28:54.292Z",
+                "estoque": 99999,
+                "nome": "farofa de mandioca temperada costela ",
+                "relacionados": [
+                    "1721092987400x432420237642295230",
+                    "1740063507674x806687372062228500",
+                    "1740064293989x978776478332485600",
+                    "1740064476887x584948101462622200"
+                ],
+                "Created Date": "2025-12-26T18:55:58.268Z",
+                "peso/und": "unidade",
+                "Created By": "1727112260037x946019616244544300",
+                "visivel": true,
+                "tipo_unidade": "UN",
+                "descriçao": "farinha de mandioca, óleo de soja, pimenta, cebola, alho, sal, caldo de carne sabor costela e corante tartrazina.",
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1766775203654x245594352424785900/img_5283_1.png"
+                ]
+            },
+            {
+                "tipo_unidade": "UN",
+                "info nutricional": "Informação Nutricional\n\nPorção de 35g (1 colher de sopa)\n\nQUANTIDADE POR PORÇÃO\t%VD(*)\nValor Energético\t150 kcal\t7%\nCarboidratos\t25 g\t9%\nProteínas\t0 g\t0%\nGorduras Totais\t4 g\t7%\nGorduras Saturadas\t1 g\t4%\nGorduras Trans\t0 g\t---\nColesterol\t0 mg\t0%\nFibra Alimentar\t1 g\t4%\nCálcio\t15 mg\t1%\nFerro\t0 mg\t7%\nSódio\t122 mg\t5%",
+                "relacionados": [
+                    "1721092987399x524445844779662700",
+                    "1721092987398x209349986922760420",
+                    "1740064656157x292520256712474600"
+                ],
+                "estoque": 100000,
+                "_id": "1766775531294x728240228288692200",
+                "Created Date": "2025-12-26T18:58:53.332Z",
+                "cod": "003029",
+                "preço novo": 9.5,
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1766775453592x777534843234060200/img_5286_1.png"
+                ],
+                "nome": "farofa de mandioca temperada com pequi",
+                "peso/und": "unidade",
+                "Modified Date": "2025-12-26T18:58:54.538Z",
+                "peso por unidade": 300,
+                "visivel": true,
+                "desconto": 0,
+                "Created By": "1727112260037x946019616244544300"
+            },
+            {
+                "nome": "amendoim torrado D'izabel",
+                "preço novo": 5.6,
+                "cod": "003021",
+                "estoque": 100000,
+                "Created By": "1727112260037x946019616244544300",
+                "visivel": true,
+                "Created Date": "2025-12-26T19:12:04.781Z",
+                "como armazenar": "apos aberto conservar em ambiente fechado e consumir em 15 dias",
+                "desconto": 0,
+                "tipo_unidade": "UN",
+                "relacionados": [
+                    "1721092727389x744715915317755400",
+                    "1721092727390x783101169221158000",
+                    "1721092987343x624712590422379600",
+                    "1737482025592x992051017604137000",
+                    "1737482469493x494545982441652200",
+                    "1737482595002x340524243059998700",
+                    "1739883435148x623984481739997200",
+                    "1739883521933x381635556500570100",
+                    "1740152509955x439839728720412700"
+                ],
+                "descriçao": "amendoim torrado",
+                "_id": "1766776322649x834289490579947500",
+                "peso por unidade": 500,
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1766776233628x141674646572906620/D_NQ_NP_779897-MLB95829664247_102025-O-1-kg-amendoim-branco-com-casca-d-izabel.webp"
+                ],
+                "Modified Date": "2025-12-26T19:12:05.019Z",
+                "peso/und": "unidade"
+            },
+            {
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1766776404476x731324736243815800/1635907565ce0936a58.webp"
+                ],
+                "_id": "1766776467232x534271765643001860",
+                "Modified Date": "2025-12-26T19:14:29.843Z",
+                "estoque": 100000,
+                "peso/und": "unidade",
+                "nome": "Amendoim torrado moido d'izabel",
+                "peso por unidade": 500,
+                "Created By": "1727112260037x946019616244544300",
+                "Created Date": "2025-12-26T19:14:29.304Z",
+                "cod": "003020",
+                "relacionados": [
+                    "1721092727389x744715915317755400",
+                    "1766776322649x834289490579947500"
+                ],
+                "desconto": 0,
+                "tipo_unidade": "UN",
+                "preço novo": 13.99,
+                "visivel": true
+            },
+            {
+                "Created Date": "2025-12-26T19:18:27.480Z",
+                "Modified Date": "2025-12-26T19:18:27.720Z",
+                "_id": "1766776705371x877810662289965000",
+                "relacionados": [
+                    "1721092727092x644772838952127200",
+                    "1721092727093x387892992635338500",
+                    "1737552033871x456115447259725800",
+                    "1740066070236x471789106935889900"
+                ],
+                "nome": "açafrão da terra",
+                "peso/und": "unidade",
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1766776670133x266158714788536260/images%20%283%29.jpg"
+                ],
+                "estoque": 100000,
+                "peso por unidade": 200,
+                "visivel": true,
+                "desconto": 0,
+                "preço novo": 6.99,
+                "tipo_unidade": "UN",
+                "Created By": "1727112260037x946019616244544300",
+                "cod": "000783"
+            },
+            {
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1766776780212x246058038063243780/fazer-colorau-em-casa-e-facil-quer-ver-cpt.jpg"
+                ],
+                "Modified Date": "2025-12-26T19:20:08.054Z",
+                "estoque": 100000,
+                "tipo_unidade": "UN",
+                "cod": "00819",
+                "desconto": 0,
+                "_id": "1766776805868x518923111046840300",
+                "Created By": "1727112260037x946019616244544300",
+                "nome": "colorau morea ",
+                "preço novo": 6.99,
+                "peso por unidade": 210,
+                "visivel": true,
+                "Created Date": "2025-12-26T19:20:07.906Z",
+                "relacionados": [
+                    "1721092987196x599070184305605200",
+                    "1737551452054x518774637321519100"
+                ],
+                "peso/und": "unidade"
+            },
+            {
+                "relacionados": [
+                    "1737541569553x332324072122220540"
+                ],
+                "_id": "1766777002735x628570236597829600",
+                "Modified Date": "2026-02-26T11:48:05.780Z",
+                "Created By": "1727112260037x946019616244544300",
+                "cod": "003016",
+                "tipo_unidade": "UN",
+                "nome": "tempero pega marido sem pimenta morea",
+                "Created Date": "2025-12-26T19:23:24.785Z",
+                "peso/und": "unidade",
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1766776939188x888198237479325800/KG-01000-ProEmbImagem-4504.webp"
+                ],
+                "desconto": 0,
+                "peso por unidade": 90,
+                "visivel": true,
+                "estoque": 99998,
+                "preço novo": 6.99
+            },
+            {
+                "peso por unidade": 500,
+                "peso/und": "unidade",
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1766777565228x371149207742320200/358789.webp"
+                ],
+                "Created Date": "2025-12-26T19:33:16.724Z",
+                "Modified Date": "2025-12-26T19:33:17.774Z",
+                "desconto": 0,
+                "tipo_unidade": "UN",
+                "preço novo": 4.99,
+                "estoque": 100000,
+                "visivel": true,
+                "_id": "1766777594664x628359805697785900",
+                "Created By": "1727112260037x946019616244544300",
+                "nome": "canjiquinha moinha d' agua ",
+                "cod": "001301"
+            },
+            {
+                "estoque": 100000,
+                "preço novo": 9.99,
+                "_id": "1766777956012x137024089117163520",
+                "Modified Date": "2025-12-26T19:40:25.338Z",
+                "Created By": "1727112260037x946019616244544300",
+                "tipo_unidade": "UN",
+                "peso por unidade": 500,
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1766777894339x199341777199222750/17091451176316129067598132555564-scaled-1.webp"
+                ],
+                "Created Date": "2025-12-26T19:39:18.065Z",
+                "nome": "farinha de polvilho doce ",
+                "peso/und": "unidade",
+                "cod": "003030",
+                "desconto": 0,
+                "visivel": true
+            },
+            {
+                "_id": "1766778014991x657915640849367000",
+                "relacionados": [
+                    "1766777956012x137024089117163520"
+                ],
+                "estoque": 100000,
+                "Created Date": "2025-12-26T19:40:16.986Z",
+                "peso/und": "unidade",
+                "nome": "farinha de polvilho azedo morea",
+                "peso por unidade": 500,
+                "Modified Date": "2025-12-26T19:40:17.236Z",
+                "desconto": 0,
+                "preço novo": 9.99,
+                "cod": "002858",
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1766777990998x713662289799010300/1709145457192814476184503661060-scaled-1.webp"
+                ],
+                "tipo_unidade": "UN",
+                "Created By": "1727112260037x946019616244544300",
+                "visivel": true
+            },
+            {
+                "tipo_unidade": "UN",
+                "nome": "chimichurri sem pimenta morea",
+                "Created By": "1727112260037x946019616244544300",
+                "peso por unidade": 90,
+                "preço antigo": 6.99,
+                "desconto": -28.6123032904149,
+                "visivel": true,
+                "peso/und": "unidade",
+                "Created Date": "2025-12-26T19:49:46.030Z",
+                "relacionados": [
+                    "1737561636400x861622238539677700",
+                    "1721092987164x110590622942560380",
+                    "1721092987166x473627086278893800"
+                ],
+                "preço novo": 8.99,
+                "cod": "003017",
+                "estoque": 99991,
+                "categorias_produto": [
+                    "Temperos e Condimentos"
+                ],
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1766778582314x856044517930690300/Chimichurri-768x768.png.webp"
+                ],
+                "Modified Date": "2026-03-03T21:26:50.100Z",
+                "_id": "1766778583932x377133364585693200"
+            },
+            {
+                "Modified Date": "2026-01-14T14:04:20.001Z",
+                "tipo_unidade": "UN",
+                "estoque": 100000,
+                "_id": "1766778808937x116173416229502980",
+                "relacionados": [
+                    "1740776126054x955719086898151400",
+                    "1740776229700x837547906241396700",
+                    "1740776330468x775787458695004200",
+                    "1740776406018x284590124326191100",
+                    "1740776574178x727764624848715800"
+                ],
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1766778768281x554286999168331900/rosca-da-rainha-500g-tumiatti_2024-06-13_17-30-27_0_370_min.png"
+                ],
+                "preço novo": 17.99,
+                "peso/und": "unidade",
+                "Created Date": "2025-12-26T19:53:30.954Z",
+                "peso por unidade": 500,
+                "Created By": "1727112260037x946019616244544300",
+                "visivel": true,
+                "desconto": 0,
+                "nome": "rosca da rainha tumiatti massas",
+                "cod": "002973"
+            },
+            {
+                "visivel": true,
+                "peso/und": "unidade",
+                "preço novo": 16.99,
+                "Created Date": "2025-12-27T11:47:10.972Z",
+                "Modified Date": "2026-01-09T16:31:38.365Z",
+                "nome": "biscoito canela zero açúcar fornada de minas ",
+                "tipo_unidade": "UN",
+                "cod": "00410",
+                "desconto": 0,
+                "relacionados": [
+                    "1721092986739x792678547515966000"
+                ],
+                "_id": "1766836029640x695631142224920600",
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1766836002934x729006902003679100/download%20%281%29.jpg"
+                ],
+                "Created By": "1691143865250x481074744108582500",
+                "estoque": 99997,
+                "peso por unidade": 300
+            },
+            {
+                "nome": "abobrinha picada a vacuo ",
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1767007780458x859469884936222700/abobrinha_italiana_picada_255bae47-c1d8-4012-9041-e745603ee4b9.jpg"
+                ],
+                "Created Date": "2025-12-29T11:30:20.151Z",
+                "relacionados": [
+                    "1721092987000x690516760918444500",
+                    "1721092987003x525677327461880000",
+                    "1736177037001x137735002794754050"
+                ],
+                "desconto": 0,
+                "estoque": 99985,
+                "visivel": true,
+                "preço novo": 4.99,
+                "peso por unidade": 400,
+                "_id": "1767007818529x268898611612352500",
+                "peso/und": "unidade",
+                "Created By": "1691143865250x481074744108582500",
+                "tipo_unidade": "UN",
+                "Modified Date": "2026-02-27T21:57:52.956Z",
+                "cod": "002833"
+            },
+            {
+                "peso/und": "unidade",
+                "visivel": true,
+                "Created By": "1691143865250x481074744108582500",
+                "nome": "Torrada integral granfinno ",
+                "cod": "001758",
+                "Created Date": "2025-12-29T16:23:30.659Z",
+                "peso por unidade": 180,
+                "relacionados": [
+                    "1721092988984x676026351069958700",
+                    "1721092988995x722403384194389800",
+                    "1721092988997x234766081486253980",
+                    "1721092988996x148167132389160220",
+                    "1740405194059x168697072125476860",
+                    "1740405372858x719473435951759400",
+                    "1740405461852x421531078224248800"
+                ],
+                "Modified Date": "2025-12-29T16:23:31.186Z",
+                "estoque": 100000,
+                "preço novo": 12.99,
+                "tipo_unidade": "UN",
+                "desconto": 0,
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1767025350411x131469048620667100/_mg_0625-roqcbs.webp"
+                ],
+                "_id": "1767025409292x344469346724085760"
+            },
+            {
+                "_id": "1767025619788x372984648798830600",
+                "cod": "003009",
+                "desconto": 0,
+                "nome": "broinha de maracujá com chocolate",
+                "Created Date": "2025-12-29T16:27:01.125Z",
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1767025560829x547154800346807600/WhatsApp%20Image%202025-12-29%20at%2013.25.29.jpeg"
+                ],
+                "estoque": 99994,
+                "tipo_unidade": "UN",
+                "relacionados": [
+                    "1721092987741x236237158073355100",
+                    "1721092989218x742878752795561600",
+                    "1721092987725x338948683864546100"
+                ],
+                "Modified Date": "2026-02-23T13:21:20.922Z",
+                "categorias_produto": [
+                    "Biscoitos"
+                ],
+                "Created By": "1691143865250x481074744108582500",
+                "peso por unidade": 300,
+                "peso/und": "unidade",
+                "preço novo": 15.4,
+                "visivel": true
+            },
+            {
+                "Created By": "1691143865250x481074744108582500",
+                "relacionados": [
+                    "1721092987195x688729056455264400",
+                    "1721092987197x830263851909155800"
+                ],
+                "estoque": 100000,
+                "_id": "1767026090556x645131309818839000",
+                "desconto": 0,
+                "Modified Date": "2025-12-29T16:35:10.840Z",
+                "nome": "biscoito cajuzinho fornada de minas ",
+                "peso/und": "unidade",
+                "cod": "002957",
+                "peso por unidade": 300,
+                "tipo_unidade": "UN",
+                "visivel": true,
+                "preço novo": 15.39,
+                "Created Date": "2025-12-29T16:34:51.821Z",
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1767026086778x105257345288687140/WhatsApp%20Image%202025-12-29%20at%2013.34.26.jpeg"
+                ]
+            },
+            {
+                "preço novo": 14.99,
+                "Created By": "1691143865250x481074744108582500",
+                "cod": "000429",
+                "peso/und": "unidade",
+                "visivel": true,
+                "desconto": 0,
+                "relacionados": [
+                    "1721092986707x368366521634559740",
+                    "1721092986732x237889664254192540",
+                    "1740146197668x252924355042607100"
+                ],
+                "peso por unidade": 300,
+                "Modified Date": "2026-02-24T21:08:02.947Z",
+                "nome": "biscoito quebra com goiaba fornada de minas ",
+                "estoque": 99999,
+                "_id": "1767026314014x175876332034457600",
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1767026224056x260602983847278300/images%20%284%29.jpg"
+                ],
+                "tipo_unidade": "UN",
+                "Created Date": "2025-12-29T16:38:35.433Z"
+            },
+            {
+                "Modified Date": "2025-12-29T16:41:55.546Z",
+                "Created Date": "2025-12-29T16:41:55.177Z",
+                "estoque": 100000,
+                "visivel": true,
+                "Created By": "1691143865250x481074744108582500",
+                "relacionados": [
+                    "1740417236595x719471768062656500",
+                    "1721092727816x749719476830190700",
+                    "1740418708584x771038336303497200",
+                    "1740419037869x744336796673900500"
+                ],
+                "preço novo": 3.5,
+                "_id": "1767026513865x666979334103498800",
+                "peso/und": "unidade",
+                "tipo_unidade": "UN",
+                "desconto": 0,
+                "cod": "002718",
+                "nome": "bananinha com canela tachao",
+                "peso por unidade": 20,
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1767026454337x460488599874205630/mockup4_1.webp"
+                ]
+            },
+            {
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1767026576274x863283753132848600/mockup3_1.webp"
+                ],
+                "cod": "002719",
+                "preço novo": 3.99,
+                "desconto": 0,
+                "Created Date": "2025-12-29T16:43:21.390Z",
+                "relacionados": [
+                    "1767026513865x666979334103498800",
+                    "1740417236595x719471768062656500",
+                    "1740418708584x771038336303497200",
+                    "1740419037869x744336796673900500",
+                    "1721092727816x749719476830190700"
+                ],
+                "peso/und": "unidade",
+                "_id": "1767026600131x940066970013270000",
+                "visivel": true,
+                "Modified Date": "2025-12-29T16:43:21.849Z",
+                "peso por unidade": 20,
+                "nome": "bananinha sem açucar tachao ",
+                "Created By": "1691143865250x481074744108582500",
+                "estoque": 100000,
+                "tipo_unidade": "UN"
+            },
+            {
+                "visivel": true,
+                "tipo_unidade": "UN",
+                "Created Date": "2025-12-29T16:44:36.406Z",
+                "cod": "002583",
+                "Modified Date": "2025-12-29T16:44:36.567Z",
+                "peso por unidade": 20,
+                "nome": "bananinha coberta com chocolate tachao",
+                "relacionados": [
+                    "1767026600131x940066970013270000",
+                    "1767026513865x666979334103498800",
+                    "1740417236595x719471768062656500"
+                ],
+                "peso/und": "unidade",
+                "_id": "1767026674985x367463963557888000",
+                "Created By": "1691143865250x481074744108582500",
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1767026646514x113953863010726190/mockup.2_1.webp"
+                ],
+                "estoque": 100000,
+                "desconto": 0,
+                "preço novo": 3.5
+            },
+            {
+                "Created By": "1691143865250x481074744108582500",
+                "Modified Date": "2025-12-29T16:47:07.325Z",
+                "tipo_unidade": "UN",
+                "_id": "1767026825858x571096542260756500",
+                "Created Date": "2025-12-29T16:47:07.148Z",
+                "peso por unidade": 10,
+                "cod": "003006",
+                "preço novo": 13.99,
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1767026775288x559088371925848800/15319847.webp"
+                ],
+                "nome": "bold tube suplemento alimentar ",
+                "relacionados": [
+                    "1721092990104x878930195235609200",
+                    "1721092990098x892775991751185300",
+                    "1721092990099x313669879306650800"
+                ],
+                "visivel": true,
+                "estoque": 100000,
+                "desconto": 0,
+                "peso/und": "unidade"
+            },
+            {
+                "Created Date": "2025-12-30T12:28:35.444Z",
+                "peso/und": "peso",
+                "preço antigo": 24.99,
+                "cod": "000217",
+                "Created By": "1727112260037x946019616244544300",
+                "_id": "1767097715147x366551393194737660",
+                "estoque": 10930,
+                "peso por unidade": 150,
+                "tipo_unidade": "KG",
+                "desconto": 40.016006402561,
+                "em oferta": true,
+                "nome": "ameixa nacional ",
+                "relacionados": [
+                    "1721092727391x415581120526211200"
+                ],
+                "preço novo": 14.99,
+                "Modified Date": "2026-03-04T03:40:40.563Z",
+                "visivel": true,
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1767097686054x852318915860596200/ameixa_fresca_nacional_kg_e0d3197a-d1c6-4503-9fab-6eca5855d47c.jpg"
+                ]
+            },
+            {
+                "estoque": 99977,
+                "Created Date": "2026-01-10T12:20:52.152Z",
+                "nome": "Suco de Goiaba Vermelha Levee 1L",
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1770666930940x684022152700354000/24.png"
+                ],
+                "categorias_produto": [
+                    "Sucos"
+                ],
+                "tipo_unidade": "UN",
+                "_id": "1768047650935x773052550066208800",
+                "cod": "3037",
+                "desconto": 0,
+                "peso/und": "unidade",
+                "descriçao": "Ingredientes: 100% Fruta. Sem lactose, sem açúcar.\nUma das maiores fontes de licopeno e Vitamina C, excelente para a saúde da pele e para manter o sistema imunológico sempre protegido.\n",
+                "visivel": true,
+                "peso por unidade": 1000,
+                "em oferta": true,
+                "Created By": "1727112260037x946019616244544300",
+                "Modified Date": "2026-02-25T16:35:11.472Z",
+                "preço novo": 19.99,
+                "relacionados": [
+                    "1744045931335x627196694524067800",
+                    "1721092989488x469293642996159170",
+                    "1721092989490x717641124741684700",
+                    "1721092989495x313504204646375200",
+                    "1721092989497x256648918386721760",
+                    "1721092989835x677056781616101900",
+                    "1721092989837x843592770268047700",
+                    "1737422715523x870905380124229600",
+                    "1721092727095x943009161125656300"
+                ]
+            },
+            {
+                "Modified Date": "2026-03-03T11:43:41.015Z",
+                "desconto": 0,
+                "descriçao": "Ingredientes: 100% Fruta. Sem lactose, sem açúcar.\nUma poderosa combinação antioxidante que combate o envelhecimento celular. A pitaya auxilia no funcionamento do intestino, enquanto o morango reforça a imunidade com alta carga de Vitamina C.\n",
+                "visivel": true,
+                "tipo_unidade": "UN",
+                "preço novo": 19.99,
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1770667054381x570672252346499100/27.png"
+                ],
+                "relacionados": [
+                    "1721092727095x943009161125656300",
+                    "1744045931335x627196694524067800",
+                    "1737422715523x870905380124229600",
+                    "1721092989837x843592770268047700",
+                    "1721092989835x677056781616101900",
+                    "1721092989497x256648918386721760",
+                    "1721092989495x313504204646375200",
+                    "1721092989490x717641124741684700",
+                    "1721092989488x469293642996159170",
+                    "1768047650935x773052550066208800"
+                ],
+                "em oferta": true,
+                "estoque": 99968,
+                "Created Date": "2026-01-10T12:23:06.913Z",
+                "nome": "Suco de Pitaya com Morango Levee 1L",
+                "_id": "1768047785666x707245881145163800",
+                "peso/und": "unidade",
+                "categorias_produto": [
+                    "Sucos"
+                ],
+                "peso por unidade": 1000,
+                "cod": "003036",
+                "Created By": "1727112260037x946019616244544300"
+            },
+            {
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1770645795070x185411637337461020/Captura%20de%20tela%202026-02-07%20175754.png"
+                ],
+                "peso por unidade": 300,
+                "Modified Date": "2026-03-01T21:07:34.179Z",
+                "_id": "1770645853213x528845671144357900",
+                "categorias_produto": [
+                    "Sucos"
+                ],
+                "Created Date": "2026-02-09T14:04:16.215Z",
+                "descriçao": "Ingredientes: 100% Goma de Mandioca e Fruta. Sem lactose, sem açúcar.\nUma opção leve que une a energia da mandioca com a bromelina do abacaxi. Auxilia na digestão, reduz a sensação de inchaço e fornece disposição sem pesar no estômago.\n",
+                "preço novo": 7.99,
+                "peso/und": "unidade",
+                "relacionados": [
+                    "1743177682545x247817465833979900",
+                    "1770645853213x528845671144357900"
+                ],
+                "em oferta": true,
+                "cod": "741920",
+                "desconto": 0,
+                "Created By": "1691143865250x481074744108582500",
+                "tipo_unidade": "UN",
+                "nome": "Suco de Tapioca com Abacaxi Levee 300 ml",
+                "visivel": true,
+                "estoque": 99996
+            },
+            {
+                "cod": "134612",
+                "_id": "1770653496766x556500060219899900",
+                "preço novo": 7.99,
+                "peso por unidade": 300,
+                "Created Date": "2026-02-09T16:11:40.687Z",
+                "estoque": 99996,
+                "tipo_unidade": "UN",
+                "peso/und": "unidade",
+                "desconto": 0,
+                "relacionados": [
+                    "1770645853213x528845671144357900"
+                ],
+                "visivel": true,
+                "categorias_produto": [
+                    "Sucos"
+                ],
+                "Created By": "1691143865250x481074744108582500",
+                "nome": "Suco de Tapioca com Banana Levee 300 ml",
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1770653396377x275118362918004960/2.png"
+                ],
+                "Modified Date": "2026-02-28T11:50:37.481Z",
+                "descriçao": "Ingredientes: 100% Goma de Mandioca e Fruta. Sem lactose, sem açúcar.\nCombina a energia rápida da tapioca com o potássio da banana. Excelente para prevenir cãibras musculares e garantir saciedade prolongada com sabor naturalmente doce.\n"
+            },
+            {
+                "preço novo": 7.99,
+                "categorias_produto": [
+                    "Sucos"
+                ],
+                "relacionados": [
+                    "1770645853213x528845671144357900",
+                    "1770653496766x556500060219899900"
+                ],
+                "nome": "Suco de Tapioca Levee 300 ml",
+                "desconto": 0,
+                "descriçao": "Ingredientes: 100% Goma de Mandioca. Sem lactose, sem açúcar.\nFonte de carboidrato complexo de fácil digestão e livre de glúten. Fornece energia rápida e limpa para o corpo, ideal para começar o dia ou como pré-treino imediato.\n",
+                "Modified Date": "2026-02-28T11:50:37.417Z",
+                "peso por unidade": 300,
+                "visivel": true,
+                "cod": "151262",
+                "peso/und": "unidade",
+                "Created Date": "2026-02-09T16:13:07.997Z",
+                "tipo_unidade": "UN",
+                "estoque": 99999,
+                "_id": "1770653584636x385414371589226500",
+                "Created By": "1691143865250x481074744108582500",
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1770653537031x588912452626266800/3.png"
+                ]
+            },
+            {
+                "preço novo": 7.99,
+                "descriçao": "Ingredientes: 100% Fruta. Sem lactose, sem açúcar.\nSuperalimento rico em antioxidantes que protegem o corpo contra o envelhecimento celular, além de auxiliar na memória e na saúde cerebral.\n",
+                "Created By": "1691143865250x481074744108582500",
+                "Modified Date": "2026-03-04T13:19:02.002Z",
+                "visivel": true,
+                "tipo_unidade": "UN",
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1770653745809x113010178527873200/4.png"
+                ],
+                "nome": "Suco Frutas Vermelhas Levee 300 ml",
+                "relacionados": [
+                    "1770645853213x528845671144357900",
+                    "1770653496766x556500060219899900",
+                    "1770653584636x385414371589226500"
+                ],
+                "estoque": 99993,
+                "peso/und": "unidade",
+                "cod": "754123",
+                "desconto": 0,
+                "categorias_produto": [
+                    "Sucos"
+                ],
+                "peso por unidade": 300,
+                "Created Date": "2026-02-09T16:16:23.097Z",
+                "_id": "1770653780226x867230688864108500"
+            },
+            {
+                "Modified Date": "2026-03-04T13:19:01.954Z",
+                "tipo_unidade": "UN",
+                "peso por unidade": 300,
+                "categorias_produto": [
+                    "Sucos"
+                ],
+                "descriçao": "Ingredientes: 100% Fruta. Sem lactose, sem açúcar.\nPotencializa a absorção de ferro e antioxidantes, fortalecendo o sistema de defesa do corpo enquanto garante saciedade e energia.\n",
+                "preço novo": 7.99,
+                "Created Date": "2026-02-09T16:18:57.763Z",
+                "_id": "1770653934940x908183991798464500",
+                "Created By": "1691143865250x481074744108582500",
+                "visivel": true,
+                "desconto": 0,
+                "estoque": 99994,
+                "cod": "745345",
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1770653868334x679973289468753400/5.png"
+                ],
+                "relacionados": [
+                    "1770645853213x528845671144357900",
+                    "1770653496766x556500060219899900",
+                    "1770653584636x385414371589226500",
+                    "1770653780226x867230688864108500"
+                ],
+                "nome": "Suco Açaí com Morango Levee 300 ml",
+                "peso/und": "unidade"
+            },
+            {
+                "_id": "1770653995990x608408771126886400",
+                "nome": "Suco Açaí com Banana Levee 300 ml",
+                "relacionados": [
+                    "1770645853213x528845671144357900",
+                    "1770653496766x556500060219899900",
+                    "1770653584636x385414371589226500",
+                    "1770653780226x867230688864108500",
+                    "1770653934940x908183991798464500"
+                ],
+                "Modified Date": "2026-02-27T15:33:30.770Z",
+                "categorias_produto": [
+                    "Sucos"
+                ],
+                "peso por unidade": 300,
+                "tipo_unidade": "UN",
+                "Created By": "1691143865250x481074744108582500",
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1770653964730x665636315086262900/6.png"
+                ],
+                "estoque": 99996,
+                "desconto": 0,
+                "Created Date": "2026-02-09T16:19:58.787Z",
+                "cod": "123463",
+                "visivel": true,
+                "peso/und": "unidade",
+                "descriçao": "Ingredientes: 100% Fruta. Sem lactose, sem açúcar.\nCombinação energética rica em potássio, que previne cãibras musculares e fornece combustível duradouro para atividades físicas intensas.\n",
+                "preço novo": 7.99
+            },
+            {
+                "desconto": 0,
+                "visivel": true,
+                "peso por unidade": 300,
+                "preço novo": 7.99,
+                "_id": "1770654112240x626542988938969100",
+                "descriçao": "Ingredientes: 100% Fruta. Sem lactose, sem açúcar.\nFonte extraordinária de energia e antioxidantes. Combate a fadiga física e mental, sendo ideal para repor as forças de forma natural.\n",
+                "cod": "982689",
+                "Created Date": "2026-02-09T16:21:55.231Z",
+                "Modified Date": "2026-03-02T12:26:44.628Z",
+                "relacionados": [
+                    "1770645853213x528845671144357900",
+                    "1770653496766x556500060219899900",
+                    "1770653584636x385414371589226500",
+                    "1770653780226x867230688864108500"
+                ],
+                "estoque": 99999,
+                "peso/und": "unidade",
+                "nome": "Suco Açaí Puro  Levee 300 ml",
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1770654052508x735623301512412700/7.png"
+                ],
+                "categorias_produto": [
+                    "Sucos"
+                ],
+                "tipo_unidade": "UN",
+                "Created By": "1691143865250x481074744108582500"
+            },
+            {
+                "descriçao": "Ingredientes: 100% Fruta. Sem lactose, sem açúcar.\nUma poderosa combinação antioxidante que combate o envelhecimento celular. A pitaya auxilia no funcionamento do intestino, enquanto o morango reforça a imunidade com alta carga de Vitamina C.\n",
+                "_id": "1770654230557x352348031351521300",
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1770654176694x578860336795334700/8.png"
+                ],
+                "tipo_unidade": "UN",
+                "relacionados": [
+                    "1770645853213x528845671144357900",
+                    "1770653496766x556500060219899900",
+                    "1770653584636x385414371589226500",
+                    "1770653780226x867230688864108500",
+                    "1770653934940x908183991798464500",
+                    "1770653995990x608408771126886400",
+                    "1770654112240x626542988938969100"
+                ],
+                "categorias_produto": [
+                    "Sucos"
+                ],
+                "nome": "Suco de Pitaya com Morango Levee 300 ml",
+                "estoque": 99995,
+                "peso/und": "unidade",
+                "Modified Date": "2026-02-28T11:50:37.511Z",
+                "Created By": "1691143865250x481074744108582500",
+                "preço novo": 7.99,
+                "visivel": true,
+                "cod": "982364",
+                "desconto": 0,
+                "peso por unidade": 300,
+                "Created Date": "2026-02-09T16:23:53.458Z"
+            },
+            {
+                "visivel": true,
+                "nome": "Suco de Laranja Levee 300 ml",
+                "tipo_unidade": "UN",
+                "desconto": 0,
+                "Created By": "1691143865250x481074744108582500",
+                "relacionados": [
+                    "1770653780226x867230688864108500",
+                    "1770654230557x352348031351521300",
+                    "1770645853213x528845671144357900"
+                ],
+                "Modified Date": "2026-03-03T11:43:37.289Z",
+                "_id": "1770654300310x425720742688325600",
+                "Created Date": "2026-02-09T16:25:03.112Z",
+                "descriçao": "Ingredientes: 100% Fruta. Sem lactose, sem açúcar.\nExcelente fonte de Vitamina C, este suco é um poderoso aliado para fortalecer sua imunidade e dar energia natural para o dia a dia.\n",
+                "estoque": 99997,
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1770654260100x870440995214239400/9.png"
+                ],
+                "preço novo": 7.99,
+                "peso/und": "unidade",
+                "peso por unidade": 300,
+                "cod": "892346",
+                "categorias_produto": [
+                    "Sucos"
+                ]
+            },
+            {
+                "Created Date": "2026-02-09T16:26:28.336Z",
+                "relacionados": [
+                    "1770653780226x867230688864108500",
+                    "1770653496766x556500060219899900"
+                ],
+                "peso por unidade": 300,
+                "peso/und": "unidade",
+                "desconto": 0,
+                "Created By": "1691143865250x481074744108582500",
+                "descriçao": "Ingredientes: 100% Fruta. Sem lactose, sem açúcar.\nCom propriedades anti-inflamatórias e antioxidantes, auxilia no fortalecimento da imunidade e na proteção do sistema gástrico.\n",
+                "tipo_unidade": "UN",
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1770654330921x325896054244416680/10.png"
+                ],
+                "cod": "278936",
+                "visivel": true,
+                "nome": "Suco de Graviola Levee 300 ml",
+                "Modified Date": "2026-03-02T12:26:44.638Z",
+                "preço novo": 7.99,
+                "categorias_produto": [
+                    "Sucos"
+                ],
+                "_id": "1770654385464x881439869989027800",
+                "estoque": 99996
+            },
+            {
+                "cod": "918634",
+                "Created By": "1691143865250x481074744108582500",
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1770654433748x344202854127725300/11.png"
+                ],
+                "preço novo": 7.99,
+                "tipo_unidade": "UN",
+                "peso/und": "unidade",
+                "desconto": 0,
+                "relacionados": [
+                    "1770653780226x867230688864108500",
+                    "1770654300310x425720742688325600",
+                    "1770645853213x528845671144357900",
+                    "1770654230557x352348031351521300",
+                    "1770653934940x908183991798464500"
+                ],
+                "_id": "1770654477427x782180587075010600",
+                "visivel": false,
+                "categorias_produto": [
+                    "Sucos"
+                ],
+                "descriçao": "Ingredientes: 100% Fruta. Sem lactose, sem açúcar.\nRefrescante e diurético, auxilia na hidratação do corpo e fornece vitaminas essenciais que ajudam a prevenir gripes e resfriados.\n",
+                "Created Date": "2026-02-09T16:28:00.311Z",
+                "estoque": -99997,
+                "nome": "Suco de Tangerina (Mexerica) Levee 300 ml",
+                "Modified Date": "2026-02-20T17:03:15.406Z",
+                "peso por unidade": 300
+            },
+            {
+                "visivel": true,
+                "peso por unidade": 300,
+                "cod": "542378",
+                "_id": "1770654556633x841862996771471400",
+                "descriçao": "Ingredientes: 100% Fruta. Sem lactose, sem açúcar.\nRepleto de resveratrol, um antioxidante que protege o coração, melhora a circulação sanguínea e combate o envelhecimento precoce das células.\n",
+                "nome": "Suco de Uva Integral Levee 300 ml",
+                "desconto": 0,
+                "Created Date": "2026-02-09T16:29:19.430Z",
+                "tipo_unidade": "UN",
+                "peso/und": "unidade",
+                "relacionados": [
+                    "1770654112240x626542988938969100",
+                    "1770653780226x867230688864108500",
+                    "1770654300310x425720742688325600",
+                    "1770654477427x782180587075010600"
+                ],
+                "estoque": 99998,
+                "preço novo": 7.99,
+                "Created By": "1691143865250x481074744108582500",
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1770654527705x785293028964104600/12.png"
+                ],
+                "Modified Date": "2026-02-23T09:19:43.102Z",
+                "categorias_produto": [
+                    "Sucos"
+                ]
+            },
+            {
+                "tipo_unidade": "UN",
+                "Created Date": "2026-02-09T16:30:44.381Z",
+                "peso por unidade": 300,
+                "estoque": 99997,
+                "descriçao": "Ingredientes: 100% Fruta. Sem lactose, sem açúcar.\nUma das maiores fontes de licopeno e Vitamina C, excelente para a saúde da pele e para manter o sistema imunológico sempre protegido.\n",
+                "desconto": 0,
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1770654589969x105079246542183470/13.png"
+                ],
+                "cod": "167823",
+                "peso/und": "unidade",
+                "categorias_produto": [
+                    "Sucos"
+                ],
+                "_id": "1770654641304x101487923513262080",
+                "nome": "Suco de Goiaba Vermelha Levee 300 ml",
+                "visivel": true,
+                "relacionados": [
+                    "1770654300310x425720742688325600",
+                    "1770654230557x352348031351521300",
+                    "1770654477427x782180587075010600",
+                    "1770653780226x867230688864108500"
+                ],
+                "Created By": "1691143865250x481074744108582500",
+                "Modified Date": "2026-02-26T19:07:33.287Z",
+                "preço novo": 7.99
+            },
+            {
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1770654678971x801779791490327600/14.png"
+                ],
+                "estoque": 99998,
+                "_id": "1770654710692x783265458758615000",
+                "descriçao": "Ingredientes: 100% Fruta. Sem lactose, sem açúcar.\nPoderoso digestivo natural rico em bromelina, enzima que facilita a digestão, além de ter efeito diurético que ajuda a reduzir o inchaço.\n",
+                "tipo_unidade": "UN",
+                "relacionados": [
+                    "1770653780226x867230688864108500",
+                    "1770645853213x528845671144357900",
+                    "1770654300310x425720742688325600",
+                    "1770654477427x782180587075010600"
+                ],
+                "preço novo": 7.99,
+                "peso/und": "unidade",
+                "Modified Date": "2026-03-03T11:43:37.438Z",
+                "visivel": true,
+                "categorias_produto": [
+                    "Sucos"
+                ],
+                "desconto": 0,
+                "Created Date": "2026-02-09T16:31:53.630Z",
+                "nome": "Suco de Abacaxi Levee 300 ml",
+                "Created By": "1691143865250x481074744108582500",
+                "cod": "674157",
+                "peso por unidade": 300
+            },
+            {
+                "desconto": 0,
+                "_id": "1770654782394x180278286478213100",
+                "estoque": 99996,
+                "preço novo": 7.99,
+                "categorias_produto": [
+                    "Sucos"
+                ],
+                "nome": "Suco de Abacaxi com Hortelã Levee 300 ml",
+                "relacionados": [
+                    "1770654385464x881439869989027800",
+                    "1770654710692x783265458758615000",
+                    "1770645853213x528845671144357900",
+                    "1770654300310x425720742688325600",
+                    "1770654477427x782180587075010600"
+                ],
+                "tipo_unidade": "UN",
+                "cod": "256342",
+                "peso/und": "unidade",
+                "Created Date": "2026-02-09T16:33:05.618Z",
+                "Modified Date": "2026-03-03T02:34:07.922Z",
+                "descriçao": "Ingredientes: 100% Fruta e Hortelã. Sem lactose, sem açúcar.\nAção detox potente. A hortelã potencializa a digestão e alivia desconfortos estomacais, enquanto o abacaxi elimina toxinas do organismo.\n",
+                "visivel": true,
+                "Created By": "1691143865250x481074744108582500",
+                "peso por unidade": 300,
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1770654743919x211328680143612060/15.png"
+                ]
+            },
+            {
+                "descriçao": "Ingredientes: 100% Fruta. Sem lactose, sem açúcar.\nConhecido por suas propriedades calmantes naturais, ajuda a reduzir a ansiedade, melhora a qualidade do sono e auxilia no relaxamento.\n",
+                "nome": "Suco de Maracujá Levee 300 ml",
+                "desconto": 0,
+                "tipo_unidade": "UN",
+                "estoque": 99997,
+                "preço novo": 7.99,
+                "peso por unidade": 300,
+                "Created By": "1691143865250x481074744108582500",
+                "categorias_produto": [
+                    "Sucos"
+                ],
+                "_id": "1770654896223x791753528237621200",
+                "peso/und": "unidade",
+                "Modified Date": "2026-02-21T01:03:57.231Z",
+                "Created Date": "2026-02-09T16:34:59.499Z",
+                "relacionados": [
+                    "1770654300310x425720742688325600",
+                    "1770654710692x783265458758615000",
+                    "1770654782394x180278286478213100",
+                    "1770654556633x841862996771471400",
+                    "1770654477427x782180587075010600",
+                    "1770653934940x908183991798464500",
+                    "1770653780226x867230688864108500"
+                ],
+                "visivel": true,
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1770654849664x550241250133536500/16.png"
+                ],
+                "cod": "313541"
+            },
+            {
+                "relacionados": [
+                    "1770654230557x352348031351521300",
+                    "1770654300310x425720742688325600",
+                    "1770645853213x528845671144357900",
+                    "1770654477427x782180587075010600",
+                    "1770654782394x180278286478213100",
+                    "1770654896223x791753528237621200"
+                ],
+                "Modified Date": "2026-02-18T19:25:48.219Z",
+                "tipo_unidade": "UN",
+                "preço novo": 7.99,
+                "Created By": "1691143865250x481074744108582500",
+                "descriçao": "Ingredientes: 100% Fruta. Sem lactose, sem açúcar.\nUne o poder energético e digestivo da manga com as propriedades calmantes do maracujá, perfeito para reduzir o estresse sem perder o ânimo.\n",
+                "peso por unidade": 300,
+                "peso/und": "unidade",
+                "_id": "1770654962195x602148570747109400",
+                "estoque": 99999,
+                "cod": "923864",
+                "Created Date": "2026-02-09T16:36:05.268Z",
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1770654923119x166703530116286700/17.png"
+                ],
+                "visivel": true,
+                "categorias_produto": [
+                    "Sucos"
+                ],
+                "nome": "Suco de Manga com Maracujá Levee 300 ml",
+                "desconto": 0
+            },
+            {
+                "desconto": 0,
+                "_id": "1770655021059x286394652398977020",
+                "categorias_produto": [
+                    "Sucos"
+                ],
+                "descriçao": "Ingredientes: 100% Fruta. Sem lactose, sem açúcar.\nRico em fibras que auxiliam a digestão e Vitamina A, essencial para a saúde da pele e dos olhos, além de fornecer energia de rápida absorção.\n",
+                "peso por unidade": 300,
+                "Created By": "1691143865250x481074744108582500",
+                "visivel": true,
+                "peso/und": "unidade",
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1770654986330x696093202800385700/18.png"
+                ],
+                "estoque": 100000,
+                "nome": "Suco de Manga Levee 300 ml",
+                "Modified Date": "2026-02-09T16:59:37.240Z",
+                "tipo_unidade": "UN",
+                "cod": "023972",
+                "preço novo": 7.99,
+                "relacionados": [
+                    "1770654782394x180278286478213100",
+                    "1770654896223x791753528237621200",
+                    "1770654962195x602148570747109400",
+                    "1770654556633x841862996771471400",
+                    "1770654641304x101487923513262080"
+                ],
+                "Created Date": "2026-02-09T16:37:03.864Z"
+            },
+            {
+                "peso/und": "unidade",
+                "desconto": 0,
+                "Modified Date": "2026-03-03T11:43:37.464Z",
+                "descriçao": "Ingredientes: 100% Fruta. Sem lactose, sem açúcar.\nCombina a Vitamina C da laranja com os antioxidantes do morango, ajudando no combate aos radicais livres e na renovação celular.\n",
+                "categorias_produto": [
+                    "Sucos"
+                ],
+                "visivel": true,
+                "estoque": 99996,
+                "Created Date": "2026-02-09T16:38:35.847Z",
+                "Created By": "1691143865250x481074744108582500",
+                "relacionados": [
+                    "1770654477427x782180587075010600",
+                    "1770654556633x841862996771471400",
+                    "1770654896223x791753528237621200",
+                    "1770654962195x602148570747109400",
+                    "1770655021059x286394652398977020",
+                    "1770654230557x352348031351521300"
+                ],
+                "peso por unidade": 300,
+                "preço novo": 7.99,
+                "tipo_unidade": "UN",
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1770655082946x663453296374012500/19.png"
+                ],
+                "nome": "Suco de Laranja com Morango Levee 300 ml",
+                "_id": "1770655112246x577959809421148200",
+                "cod": "287465"
+            },
+            {
+                "Created Date": "2026-02-09T16:39:37.186Z",
+                "visivel": true,
+                "Created By": "1691143865250x481074744108582500",
+                "peso/und": "unidade",
+                "_id": "1770655174320x575069035385323500",
+                "categorias_produto": [
+                    "Sucos"
+                ],
+                "estoque": 99998,
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1770655139778x197829508736938800/20.png"
+                ],
+                "tipo_unidade": "UN",
+                "nome": "Suco de Laranja, Beterraba e Cenoura Levee 300 ml",
+                "relacionados": [
+                    "1770654556633x841862996771471400",
+                    "1770654896223x791753528237621200",
+                    "1770654962195x602148570747109400",
+                    "1770655021059x286394652398977020",
+                    "1770655112246x577959809421148200"
+                ],
+                "desconto": 0,
+                "peso por unidade": 300,
+                "preço novo": 7.99,
+                "Modified Date": "2026-02-19T11:13:21.509Z",
+                "descriçao": "Ingredientes: 100% Fruta e Vegetais. Sem lactose, sem açúcar.\nUm multivitamínico natural completo. Fortalece o sistema imunológico, melhora a disposição física e contribui para a saúde cardiovascular.\n",
+                "cod": "623948"
+            },
+            {
+                "categorias_produto": [
+                    "Sucos"
+                ],
+                "peso por unidade": 300,
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1770655200842x903428911966320600/21.png"
+                ],
+                "_id": "1770655240593x272857323990417400",
+                "visivel": true,
+                "desconto": 0,
+                "tipo_unidade": "UN",
+                "Created By": "1691143865250x481074744108582500",
+                "estoque": 100000,
+                "cod": "619378",
+                "peso/und": "unidade",
+                "descriçao": "Ingredientes: 100% Fruta e Vegetais. Sem lactose, sem açúcar.\nIdeal para o pré-treino, a beterraba auxilia na circulação e oxigenação muscular, enquanto a laranja potencializa a absorção de nutrientes.\n",
+                "relacionados": [
+                    "1770655112246x577959809421148200",
+                    "1770655174320x575069035385323500",
+                    "1770655021059x286394652398977020",
+                    "1770654962195x602148570747109400",
+                    "1770653780226x867230688864108500"
+                ],
+                "preço novo": 7.99,
+                "Created Date": "2026-02-09T16:40:43.446Z",
+                "Modified Date": "2026-02-09T16:59:02.833Z",
+                "nome": "Suco de Laranja com Beterraba Levee 300 ml"
+            },
+            {
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1770655467624x711071131829579300/22.png"
+                ],
+                "estoque": 99997,
+                "peso por unidade": 300,
+                "Created Date": "2026-02-09T16:45:12.155Z",
+                "visivel": true,
+                "nome": "Suco de Laranja com Cenoura Levee 300 ml",
+                "Modified Date": "2026-02-24T22:50:42.551Z",
+                "desconto": 0,
+                "cod": "867125",
+                "descriçao": "Ingredientes: 100% Fruta e Vegetais. Sem lactose, sem açúcar.\nRico em betacaroteno e antioxidantes, esta combinação ajuda na saúde da pele, protege a visão e favorece um bronzeado natural e saudável.\n",
+                "Created By": "1691143865250x481074744108582500",
+                "_id": "1770655509222x133012001993785340",
+                "categorias_produto": [
+                    "Sucos"
+                ],
+                "preço novo": 7.99,
+                "relacionados": [
+                    "1770645853213x528845671144357900",
+                    "1770653496766x556500060219899900",
+                    "1770653995990x608408771126886400",
+                    "1770654477427x782180587075010600",
+                    "1770654641304x101487923513262080",
+                    "1770654962195x602148570747109400",
+                    "1770655174320x575069035385323500"
+                ],
+                "peso/und": "unidade",
+                "tipo_unidade": "UN"
+            },
+            {
+                "descriçao": "Ingredientes: 100% Goma de Mandioca. Sem lactose, sem açúcar.\nFonte de carboidrato complexo de fácil digestão e livre de glúten. Fornece energia rápida e limpa para o corpo, ideal para começar o dia ou como pré-treino imediato.\n",
+                "tipo_unidade": "UN",
+                "desconto": 0,
+                "categorias_produto": [
+                    "Sucos"
+                ],
+                "preço novo": 19.9,
+                "peso por unidade": 1000,
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1770735792606x550948872067082750/29.png"
+                ],
+                "nome": "Suco de Tapioca Levee 1L",
+                "Created By": "1691143865250x481074744108582500",
+                "cod": "928357",
+                "relacionados": [
+                    "1737422715523x870905380124229600",
+                    "1768047650935x773052550066208800",
+                    "1768047785666x707245881145163800"
+                ],
+                "_id": "1770735840081x175801956017897470",
+                "peso/und": "unidade",
+                "estoque": 100000,
+                "Created Date": "2026-02-10T15:04:02.177Z",
+                "Modified Date": "2026-02-10T15:04:02.942Z",
+                "visivel": true
+            },
+            {
+                "estoque": 100000,
+                "peso/und": "unidade",
+                "tipo_unidade": "UN",
+                "cod": "108947",
+                "preço novo": 19.99,
+                "_id": "1770735927802x993692921078743000",
+                "desconto": 0,
+                "Modified Date": "2026-02-10T15:05:30.267Z",
+                "Created Date": "2026-02-10T15:05:29.741Z",
+                "visivel": true,
+                "Created By": "1691143865250x481074744108582500",
+                "categorias_produto": [
+                    "Sucos"
+                ],
+                "nome": "Suco de Tapioca com Abacaxi Levee 1L",
+                "relacionados": [
+                    "1768047650935x773052550066208800",
+                    "1768047785666x707245881145163800"
+                ],
+                "peso por unidade": 1000,
+                "descriçao": "Ingredientes: 100% Goma de Mandioca e Fruta. Sem lactose, sem açúcar.\nUma opção leve que une a energia da mandioca com a bromelina do abacaxi. Auxilia na digestão, reduz a sensação de inchaço e fornece disposição sem pesar no estômago.\n",
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1770735883230x226764817706779800/30.png"
+                ]
+            },
+            {
+                "Created By": "1691143865250x481074744108582500",
+                "tipo_unidade": "UN",
+                "visivel": true,
+                "_id": "1770736009287x964513594951598100",
+                "relacionados": [
+                    "1768047650935x773052550066208800",
+                    "1768047785666x707245881145163800"
+                ],
+                "estoque": 100000,
+                "peso/und": "unidade",
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1770735958009x891667823735113600/Daqui.png"
+                ],
+                "categorias_produto": [
+                    "Sucos"
+                ],
+                "cod": "293862",
+                "Modified Date": "2026-02-10T15:06:51.405Z",
+                "Created Date": "2026-02-10T15:06:50.928Z",
+                "peso por unidade": 1000,
+                "preço novo": 19.99,
+                "desconto": 0,
+                "nome": "Suco de Tapioca com Banana Levee 1L",
+                "descriçao": "Ingredientes: 100% Goma de Mandioca e Fruta. Sem lactose, sem açúcar.\nCombina a energia rápida da tapioca com o potássio da banana. Excelente para prevenir cãibras musculares e garantir saciedade prolongada com sabor naturalmente doce.\n"
+            },
+            {
+                "desconto": 0,
+                "tipo_unidade": "UN",
+                "_id": "1770736102842x463250481369055200",
+                "relacionados": [
+                    "1768047650935x773052550066208800",
+                    "1768047785666x707245881145163800"
+                ],
+                "visivel": true,
+                "preço novo": 19.99,
+                "Created By": "1691143865250x481074744108582500",
+                "nome": "Suco de Frutas Vermelhas Levee 1L",
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1770736072716x589147585988549800/31.png"
+                ],
+                "descriçao": "Ingredientes: 100% Fruta. Sem lactose, sem açúcar.\nSuperalimento rico em antioxidantes que protegem o corpo contra o envelhecimento celular, além de auxiliar na memória e na saúde cerebral.\n",
+                "peso/und": "unidade",
+                "categorias_produto": [
+                    "Sucos"
+                ],
+                "peso por unidade": 1000,
+                "estoque": 99993,
+                "Modified Date": "2026-02-28T20:32:29.589Z",
+                "Created Date": "2026-02-10T15:08:24.374Z",
+                "cod": "872583"
+            },
+            {
+                "desconto": 0,
+                "preço novo": 19.99,
+                "tipo_unidade": "UN",
+                "relacionados": [
+                    "1721092989490x717641124741684700",
+                    "1737422715523x870905380124229600",
+                    "1770736102842x463250481369055200"
+                ],
+                "Modified Date": "2026-02-25T21:43:09.233Z",
+                "Created Date": "2026-02-10T15:12:14.224Z",
+                "descriçao": "Ingredientes: 100% Fruta. Sem lactose, sem açúcar.\nPotencializa a absorção de ferro e antioxidantes, fortalecendo o sistema de defesa do corpo enquanto garante saciedade e energia.\n",
+                "cod": "871684",
+                "peso/und": "unidade",
+                "Created By": "1691143865250x481074744108582500",
+                "nome": "Suco de Açaí com Morango Levee 1L",
+                "categorias_produto": [
+                    "Sucos"
+                ],
+                "peso por unidade": 1000,
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1770736233083x865435054681689100/32.png"
+                ],
+                "estoque": 99995,
+                "visivel": true,
+                "_id": "1770736332634x443459154471288800"
+            },
+            {
+                "desconto": 0,
+                "peso/und": "unidade",
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1770736362231x622961225582971900/33.png"
+                ],
+                "visivel": true,
+                "nome": "Suco de Açaí com Banana Levee 1L",
+                "peso por unidade": 1000,
+                "Created Date": "2026-02-10T15:13:22.580Z",
+                "Created By": "1691143865250x481074744108582500",
+                "_id": "1770736400908x101415402829512700",
+                "categorias_produto": [
+                    "Sucos"
+                ],
+                "descriçao": "Ingredientes: 100% Fruta. Sem lactose, sem açúcar.\nCombinação energética rica em potássio, que previne cãibras musculares e fornece combustível duradouro para atividades físicas intensas.\n",
+                "tipo_unidade": "UN",
+                "Modified Date": "2026-02-22T15:20:13.036Z",
+                "preço novo": 19.99,
+                "estoque": 99999,
+                "relacionados": [
+                    "1770736102842x463250481369055200",
+                    "1770736009287x964513594951598100",
+                    "1770735927802x993692921078743000"
+                ],
+                "cod": "913856"
+            },
+            {
+                "estoque": 100000,
+                "relacionados": [
+                    "1770736332634x443459154471288800",
+                    "1770736400908x101415402829512700"
+                ],
+                "peso por unidade": 1000,
+                "cod": "198736",
+                "Created By": "1691143865250x481074744108582500",
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1770736474833x324734833649169560/34.png"
+                ],
+                "_id": "1770736514362x972293779332792300",
+                "tipo_unidade": "UN",
+                "Modified Date": "2026-02-10T15:15:16.246Z",
+                "Created Date": "2026-02-10T15:15:15.896Z",
+                "nome": "Suco de Açaí Puro Levee 1L",
+                "desconto": 0,
+                "peso/und": "unidade",
+                "categorias_produto": [
+                    "Sucos"
+                ],
+                "preço novo": 19.99,
+                "descriçao": "Ingredientes: 100% Fruta. Sem lactose, sem açúcar.\nFonte extraordinária de energia e antioxidantes. Combate a fadiga física e mental, sendo ideal para repor as forças de forma natural.\n",
+                "visivel": true
+            },
+            {
+                "nome": "Suco de Laranja com Beterraba Levee 1L",
+                "relacionados": [
+                    "1770736102842x463250481369055200",
+                    "1770735840081x175801956017897470",
+                    "1770736332634x443459154471288800"
+                ],
+                "_id": "1770736652920x860051037660381200",
+                "cod": "641923",
+                "categorias_produto": [
+                    "Sucos"
+                ],
+                "descriçao": "Ingredientes: 100% Fruta e Vegetais. Sem lactose, sem açúcar.\nIdeal para o pré-treino, a beterraba auxilia na circulação e oxigenação muscular, enquanto a laranja potencializa a absorção de nutrientes.\n",
+                "Created By": "1691143865250x481074744108582500",
+                "Modified Date": "2026-02-24T17:08:45.843Z",
+                "peso/und": "unidade",
+                "preço novo": 19.99,
+                "tipo_unidade": "UN",
+                "desconto": 0,
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1770736603211x134188246752735330/35.png"
+                ],
+                "peso por unidade": 1000,
+                "Created Date": "2026-02-10T15:17:34.466Z",
+                "visivel": true,
+                "estoque": 99998
+            },
+            {
+                "peso/und": "unidade",
+                "tipo_unidade": "UN",
+                "preço novo": 19.99,
+                "visivel": true,
+                "relacionados": [
+                    "1770736332634x443459154471288800",
+                    "1770736652920x860051037660381200"
+                ],
+                "Created By": "1691143865250x481074744108582500",
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1770736683807x638213688683613400/36.png"
+                ],
+                "Created Date": "2026-02-10T15:19:27.111Z",
+                "peso por unidade": 1000,
+                "estoque": 99999,
+                "nome": "Suco de Laranja, Beterraba e Cenoura Levee 1L",
+                "cod": "918470",
+                "_id": "1770736765508x110729660374974460",
+                "categorias_produto": [
+                    "Sucos"
+                ],
+                "Modified Date": "2026-02-14T20:07:05.638Z",
+                "desconto": 0,
+                "descriçao": "Ingredientes: 100% Fruta e Vegetais. Sem lactose, sem açúcar.\nUm multivitamínico natural completo. Fortalece o sistema imunológico, melhora a disposição física e contribui para a saúde cardiovascular.\n"
+            },
+            {
+                "nome": "Suco de Laranja com Morango Levee 1L",
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1770736848713x756871444407199700/37.png"
+                ],
+                "descriçao": "Ingredientes: 100% Fruta. Sem lactose, sem açúcar.\nCombina a Vitamina C da laranja com os antioxidantes do morango, ajudando no combate aos radicais livres e na renovação celular.\n",
+                "estoque": 100000,
+                "peso/und": "unidade",
+                "preço novo": 19.99,
+                "Created Date": "2026-02-10T15:21:22.827Z",
+                "Created By": "1691143865250x481074744108582500",
+                "relacionados": [
+                    "1770736400908x101415402829512700",
+                    "1770736514362x972293779332792300"
+                ],
+                "peso por unidade": 1000,
+                "visivel": true,
+                "tipo_unidade": "UN",
+                "categorias_produto": [
+                    "Sucos"
+                ],
+                "Modified Date": "2026-02-10T15:21:23.232Z",
+                "desconto": 0,
+                "_id": "1770736881142x345102253448757250",
+                "cod": "918724"
+            },
+            {
+                "Created By": "1691143865250x481074744108582500",
+                "estoque": 100000,
+                "tipo_unidade": "UN",
+                "peso/und": "unidade",
+                "nome": "Suco de Manga com Maracujá Levee 1L",
+                "peso por unidade": 1000,
+                "cod": "185017",
+                "descriçao": "Ingredientes: 100% Fruta. Sem lactose, sem açúcar.\nUne o poder energético e digestivo da manga com as propriedades calmantes do maracujá, perfeito para reduzir o estresse sem perder o ânimo.\n",
+                "relacionados": [
+                    "1770736332634x443459154471288800",
+                    "1770736514362x972293779332792300"
+                ],
+                "preço novo": 19.99,
+                "Modified Date": "2026-02-10T15:22:23.910Z",
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1770736908051x455309543287860000/38.png"
+                ],
+                "Created Date": "2026-02-10T15:22:22.974Z",
+                "visivel": true,
+                "categorias_produto": [
+                    "Sucos"
+                ],
+                "_id": "1770736941416x547895672718753800",
+                "desconto": 0
+            },
+            {
+                "nome": "Suco de Maracujá  Levee 1L",
+                "_id": "1770736996355x492062235206090750",
+                "desconto": 0,
+                "peso por unidade": 1000,
+                "estoque": 99999,
+                "visivel": true,
+                "descriçao": "Ingredientes: 100% Fruta. Sem lactose, sem açúcar.\nConhecido por suas propriedades calmantes naturais, ajuda a reduzir a ansiedade, melhora a qualidade do sono e auxilia no relaxamento.\n",
+                "preço novo": 19.99,
+                "Created Date": "2026-02-10T15:23:17.857Z",
+                "cod": "103897",
+                "tipo_unidade": "UN",
+                "categorias_produto": [
+                    "Sucos"
+                ],
+                "Modified Date": "2026-02-14T15:56:32.774Z",
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1770736972437x494700276825288400/39.png"
+                ],
+                "Created By": "1691143865250x481074744108582500",
+                "peso/und": "unidade",
+                "relacionados": [
+                    "1770736881142x345102253448757250",
+                    "1770736941416x547895672718753800"
+                ]
+            },
+            {
+                "tipo_unidade": "UN",
+                "relacionados": [
+                    "1770736881142x345102253448757250",
+                    "1770736941416x547895672718753800"
+                ],
+                "peso/und": "unidade",
+                "categorias_produto": [
+                    "Sucos"
+                ],
+                "visivel": true,
+                "Created By": "1691143865250x481074744108582500",
+                "desconto": 0,
+                "nome": "Suco de Abacaxi com Hortelã Levee 1L ",
+                "Created Date": "2026-02-10T15:24:17.949Z",
+                "peso por unidade": 1000,
+                "_id": "1770737056019x983614915752493000",
+                "preço novo": 19.99,
+                "cod": "187461",
+                "Modified Date": "2026-02-18T21:59:55.659Z",
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1770737020650x966952589109733000/40.png"
+                ],
+                "descriçao": "Ingredientes: 100% Fruta e Hortelã. Sem lactose, sem açúcar.\nAção detox potente. A hortelã potencializa a digestão e alivia desconfortos estomacais, enquanto o abacaxi elimina toxinas do organismo.\n",
+                "estoque": 99999
+            },
+            {
+                "Modified Date": "2026-02-10T15:25:48.924Z",
+                "nome": "Suco de Laranja com Cenoura Levee 1L",
+                "desconto": 0,
+                "tipo_unidade": "UN",
+                "preço novo": 19.99,
+                "_id": "1770737147214x214700307652280300",
+                "descriçao": "Ingredientes: 100% Fruta e Vegetais. Sem lactose, sem açúcar.\nRico em betacaroteno e antioxidantes, esta combinação ajuda na saúde da pele, protege a visão e favorece um bronzeado natural e saudável.\n",
+                "peso/und": "unidade",
+                "categorias_produto": [
+                    "Sucos"
+                ],
+                "Created Date": "2026-02-10T15:25:48.748Z",
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1770737119464x560431972459930050/41.png"
+                ],
+                "estoque": 100000,
+                "relacionados": [
+                    "1770736881142x345102253448757250",
+                    "1770736652920x860051037660381200",
+                    "1770736941416x547895672718753800"
+                ],
+                "cod": "827145",
+                "visivel": true,
+                "Created By": "1691143865250x481074744108582500",
+                "peso por unidade": 1000
+            },
+            {
+                "preço novo": 19.99,
+                "visivel": true,
+                "Created Date": "2026-02-10T15:26:44.097Z",
+                "cod": "187234",
+                "estoque": 100000,
+                "peso/und": "unidade",
+                "desconto": 0,
+                "peso por unidade": 1000,
+                "foto": [
+                    "//304e8a62407c91dba8a0aac7cfeb2aa2.cdn.bubble.io/f1770737175208x400565619780449900/42.png"
+                ],
+                "_id": "1770737202582x196132102141116400",
+                "Created By": "1691143865250x481074744108582500",
+                "tipo_unidade": "UN",
+                "Modified Date": "2026-02-10T15:26:44.455Z",
+                "categorias_produto": [
+                    "Sucos"
+                ],
+                "descriçao": "Ingredientes: 100% Fruta. Sem lactose, sem açúcar.\nRepleto de resveratrol, um antioxidante que protege o coração, melhora a circulação sanguínea e combate o envelhecimento precoce das células.\n",
+                "relacionados": [
+                    "1770736941416x547895672718753800",
+                    "1770736996355x492062235206090750"
+                ],
+                "nome": "Suco de Uva Integral Levee 1L"
+            }
+        ],
+        "count": 100,
+        "remaining": 9
+    }
+}

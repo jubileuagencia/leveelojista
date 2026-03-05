@@ -12,16 +12,23 @@ interface FormData {
   hour: string;
   minute: string;
   citySlug: string;
+  instagram: string;
+  manychatId: string;
 }
 
 interface FormStepProps {
   onSubmit: (data: FormData) => void;
   isSubmitting: boolean;
+  initialData?: {
+    name?: string;
+    instagram?: string;
+    manychatId?: string;
+  };
 }
 
-export default function FormStep({ onSubmit, isSubmitting }: FormStepProps) {
+export default function FormStep({ onSubmit, isSubmitting, initialData }: FormStepProps) {
   const [form, setForm] = useState<FormData>({
-    name: "",
+    name: initialData?.name ?? "",
     email: "",
     day: "",
     month: "",
@@ -29,11 +36,18 @@ export default function FormStep({ onSubmit, isSubmitting }: FormStepProps) {
     hour: "",
     minute: "",
     citySlug: "",
+    instagram: initialData?.instagram ?? "",
+    manychatId: initialData?.manychatId ?? "",
   });
 
   const [errors, setErrors] = useState<Partial<Record<keyof FormData, string>>>({});
 
   function update(key: keyof FormData, value: string) {
+    // For numeric fields, filter non-digits and enforce maxLength
+    const numericFields: Record<string, number> = { day: 2, month: 2, year: 4, hour: 2, minute: 2 };
+    if (key in numericFields) {
+      value = value.replace(/\D/g, "").slice(0, numericFields[key]);
+    }
     setForm((prev) => ({ ...prev, [key]: value }));
     if (errors[key]) setErrors((prev) => ({ ...prev, [key]: undefined }));
   }
@@ -51,7 +65,7 @@ export default function FormStep({ onSubmit, isSubmitting }: FormStepProps) {
     const day = Number(form.day);
 
     if (!form.month || month < 1 || month > 12) errs.month = "Mês inválido";
-    if (!form.year || year < 1900 || year > 2025) errs.year = "Ano inválido";
+    if (!form.year || year < 1900 || year > 2026) errs.year = "Ano inválido";
     if (!form.day || day < 1 || day > 31) errs.day = "Dia inválido";
 
     if (!errs.day && !errs.month && !errs.year) {
@@ -75,25 +89,25 @@ export default function FormStep({ onSubmit, isSubmitting }: FormStepProps) {
   }
 
   const inputClass =
-    "w-full bg-transparent border border-white/20 px-4 py-3 text-white/90 font-body text-sm placeholder:text-white/20 focus:outline-none focus:border-white/60 transition-colors";
+    "w-full bg-transparent border border-white/20 px-4 py-3 text-white/90 font-body text-sm placeholder:text-white/35 focus:outline-none focus:border-white/60 transition-colors";
 
   return (
     <form onSubmit={handleSubmit} className="space-y-6 max-w-md mx-auto">
       <div className="text-center mb-10">
-        <span className="font-mono text-[0.55rem] tracking-[5px] uppercase text-white/30">
+        <span className="font-mono text-[0.55rem] tracking-[5px] uppercase text-white/50">
           Ferramenta gratuita
         </span>
         <h1 className="font-display text-3xl md:text-4xl text-white/90 mt-3">
           Descubra seu ascendente
         </h1>
-        <p className="text-white/40 text-sm font-body mt-3 leading-relaxed">
+        <p className="text-white/60 text-sm font-body mt-3 leading-relaxed">
           Preencha seus dados de nascimento e veja onde o Eclipse Lunar de 03/03 cai no seu mapa.
         </p>
       </div>
 
       {/* Nome */}
       <div>
-        <label className="block font-mono text-[0.6rem] tracking-[4px] uppercase text-white/30 mb-2">
+        <label className="block font-mono text-[0.6rem] tracking-[4px] uppercase text-white/50 mb-2">
           Nome
         </label>
         <input
@@ -108,7 +122,7 @@ export default function FormStep({ onSubmit, isSubmitting }: FormStepProps) {
 
       {/* Email */}
       <div>
-        <label className="block font-mono text-[0.6rem] tracking-[4px] uppercase text-white/30 mb-2">
+        <label className="block font-mono text-[0.6rem] tracking-[4px] uppercase text-white/50 mb-2">
           Email
         </label>
         <input
@@ -121,44 +135,61 @@ export default function FormStep({ onSubmit, isSubmitting }: FormStepProps) {
         {errors.email && <p className="text-red-400/80 text-xs mt-1 font-body">{errors.email}</p>}
       </div>
 
+      {/* Instagram */}
+      <div>
+        <label className="block font-mono text-[0.6rem] tracking-[4px] uppercase text-white/50 mb-2">
+          Instagram <span className="text-white/30">(opcional)</span>
+        </label>
+        <div className="relative">
+          <span className="absolute left-4 top-1/2 -translate-y-1/2 text-white/35 font-body text-sm">@</span>
+          <input
+            type="text"
+            value={form.instagram}
+            onChange={(e) => update("instagram", e.target.value.replace(/^@/, ""))}
+            placeholder="seu_usuario"
+            className={`${inputClass} pl-8`}
+          />
+        </div>
+      </div>
+
       {/* Data de nascimento */}
       <div>
-        <label className="block font-mono text-[0.6rem] tracking-[4px] uppercase text-white/30 mb-2">
+        <label className="block font-mono text-[0.6rem] tracking-[4px] uppercase text-white/50 mb-2">
           Data de nascimento
         </label>
         <div className="grid grid-cols-3 gap-3">
           <div>
             <input
-              type="number"
+              type="text"
+              inputMode="numeric"
               value={form.day}
               onChange={(e) => update("day", e.target.value)}
               placeholder="Dia"
-              min={1}
-              max={31}
+              maxLength={2}
               className={inputClass}
             />
             {errors.day && <p className="text-red-400/80 text-xs mt-1 font-body">{errors.day}</p>}
           </div>
           <div>
             <input
-              type="number"
+              type="text"
+              inputMode="numeric"
               value={form.month}
               onChange={(e) => update("month", e.target.value)}
               placeholder="Mês"
-              min={1}
-              max={12}
+              maxLength={2}
               className={inputClass}
             />
             {errors.month && <p className="text-red-400/80 text-xs mt-1 font-body">{errors.month}</p>}
           </div>
           <div>
             <input
-              type="number"
+              type="text"
+              inputMode="numeric"
               value={form.year}
               onChange={(e) => update("year", e.target.value)}
               placeholder="Ano"
-              min={1900}
-              max={2025}
+              maxLength={4}
               className={inputClass}
             />
             {errors.year && <p className="text-red-400/80 text-xs mt-1 font-body">{errors.year}</p>}
@@ -168,30 +199,30 @@ export default function FormStep({ onSubmit, isSubmitting }: FormStepProps) {
 
       {/* Horário */}
       <div>
-        <label className="block font-mono text-[0.6rem] tracking-[4px] uppercase text-white/30 mb-2">
+        <label className="block font-mono text-[0.6rem] tracking-[4px] uppercase text-white/50 mb-2">
           Horário de nascimento
         </label>
         <div className="grid grid-cols-2 gap-3">
           <div>
             <input
-              type="number"
+              type="text"
+              inputMode="numeric"
               value={form.hour}
               onChange={(e) => update("hour", e.target.value)}
               placeholder="Hora"
-              min={0}
-              max={23}
+              maxLength={2}
               className={inputClass}
             />
             {errors.hour && <p className="text-red-400/80 text-xs mt-1 font-body">{errors.hour}</p>}
           </div>
           <div>
             <input
-              type="number"
+              type="text"
+              inputMode="numeric"
               value={form.minute}
               onChange={(e) => update("minute", e.target.value)}
               placeholder="Minuto"
-              min={0}
-              max={59}
+              maxLength={2}
               className={inputClass}
             />
             {errors.minute && <p className="text-red-400/80 text-xs mt-1 font-body">{errors.minute}</p>}
@@ -208,6 +239,7 @@ export default function FormStep({ onSubmit, isSubmitting }: FormStepProps) {
 
       {/* Submit */}
       <button
+        id="zzlstteqajgfneyydwtj"
         type="submit"
         disabled={isSubmitting}
         className="w-full font-mono text-center tracking-[2px] uppercase transition-all duration-300 px-12 py-4 text-xs md:text-sm bg-white text-black hover:bg-gray-200 active:bg-gray-300 disabled:opacity-40 disabled:cursor-not-allowed"

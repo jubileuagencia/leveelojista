@@ -3,19 +3,19 @@ import Button from "@/components/ui/Button";
 import { CAMARIM_CHECKOUT_URLS, CAMARIM_PRICING } from "@/lib/constants";
 
 const MENSAL_ITEMS = [
-  "Acesso a todas as lives semanais (Spoiler da Semana)",
-  "Conteúdo exclusivo no Substack",
-  "Comunidade de membros",
-  "Arquivo completo de lives anteriores",
-  "Interpretações personalizadas periódicas",
+  "Spoiler da Semana — live semanal com Victor",
+  "Conteúdo exclusivo no Substack (3x por semana)",
+  "Comunidade ativa de estudo",
+  "Arquivo completo de lives e publicações anteriores",
   "Cancele quando quiser, sem burocracia",
 ];
 
-const ANUAL_EXTRAS = [
-  { text: "Tudo do plano mensal", bonus: false },
-  { text: "Economia de R$69 em relação ao mensal (3+ meses grátis)", bonus: true },
-  { text: "Acesso garantido por 12 meses completos", bonus: true },
-  { text: "Prioridade em interpretações personalizadas", bonus: true },
+const PACOTE_ITEMS = [
+  { text: "Tudo do Camarim (lives, Substack, comunidade, arquivo)", bonus: false },
+  { text: "Curso completo Decifrando o Mapa Astral (23 aulas)", bonus: true },
+  { text: "Interpretações personalizadas com prioridade", bonus: true },
+  { text: "12 meses de acesso garantido", bonus: true },
+  { text: "Garantia incondicional de 7 dias", bonus: false },
 ];
 
 type PricingItem = string | { text: string; bonus: boolean };
@@ -46,22 +46,28 @@ export default function CamarimPricing() {
     <SectionWrapper id="investimento">
       <div className="text-center mb-14">
         <span className="fade-in font-mono text-[0.7rem] font-bold tracking-[4px] uppercase text-gold mb-4 inline-block relative after:content-[''] after:block after:w-8 after:h-px after:bg-gold after:mt-2 after:mx-auto">
-          Investimento
+          Escolha sua entrada
         </span>
-        <h2 className="fade-in font-display text-3xl md:text-5xl font-bold">
-          Entre no Camarim Sideral
+        <h2 className="fade-in font-display text-3xl md:text-5xl font-bold mb-4">
+          Duas formas de entrar no Camarim
         </h2>
+        <p className="fade-in text-text-soft text-lg max-w-[650px] mx-auto">
+          Comece pela comunidade ou garanta o pacote completo com os cursos.
+        </p>
       </div>
 
       <div className="grid md:grid-cols-2 gap-6 max-w-[900px] mx-auto items-start">
-        {/* Card 1 - Mensal */}
+        {/* Card 1 - Mensal (Comunidade) */}
         <div className="fade-in bg-white rounded-2xl border border-black/8 p-6 md:p-8 shadow-sm">
           <span className="font-mono text-[0.6rem] font-bold tracking-[3px] uppercase text-text-muted mb-1 block">
-            MENSAL
+            COMUNIDADE
           </span>
-          <h3 className="font-display text-xl md:text-2xl font-bold mb-6">
+          <h3 className="font-display text-xl md:text-2xl font-bold mb-2">
             Camarim Sideral
           </h3>
+          <p className="text-text-muted text-xs mb-6">
+            A prática semanal de astrologia com Victor e a comunidade.
+          </p>
 
           <ItemList items={MENSAL_ITEMS} />
 
@@ -74,7 +80,7 @@ export default function CamarimPricing() {
 
           <div className="mt-6 text-center">
             <Button href={CAMARIM_CHECKOUT_URLS.mensal} variant="ghost-light" size="md">
-              Assinar mensal
+              Começar com o mensal
             </Button>
           </div>
 
@@ -83,28 +89,27 @@ export default function CamarimPricing() {
           </p>
         </div>
 
-        {/* Card 2 - Anual */}
+        {/* Card 2 - Pacote Completo (Comunidade + Cursos) */}
         <div className="fade-in relative bg-white rounded-2xl border border-gold/30 p-6 md:p-8 gold-glow shadow-sm md:scale-[1.03]">
           <div className="absolute -top-3 left-1/2 -translate-x-1/2 bg-gradient-to-r from-[#7c5cbf] to-[#9b7fd4] text-white font-mono text-[0.6rem] font-bold tracking-[2px] uppercase px-4 py-1 rounded-full">
-            Melhor oferta
+            Pacote completo
           </div>
 
           <span className="font-mono text-[0.6rem] font-bold tracking-[3px] uppercase text-gold mb-1 block">
-            ANUAL
+            COMUNIDADE + CURSOS
           </span>
           <h3 className="font-display text-xl md:text-2xl font-bold mb-2">
-            Camarim Sideral
+            Camarim + Decifrando
           </h3>
           <p className="text-text-muted text-xs mb-6">
-            12 meses de acesso com economia. O compromisso que acelera sua jornada.
+            O Camarim inteiro mais o curso que ensina a ler qualquer mapa astral.
           </p>
 
-          <ItemList items={ANUAL_EXTRAS} />
+          <ItemList items={PACOTE_ITEMS} />
 
           <div className="mt-8 text-center">
             <div className="font-display text-4xl md:text-5xl font-bold text-gold">
               R$ {CAMARIM_PRICING.anual.price}
-              <span className="text-lg text-text-muted font-normal">/ano</span>
             </div>
             <p className="text-text-muted text-sm mt-1">
               ou {CAMARIM_PRICING.anual.installments}x de R$ {CAMARIM_PRICING.anual.installmentValue}
@@ -113,7 +118,7 @@ export default function CamarimPricing() {
 
           <div className="mt-6 text-center">
             <Button href={CAMARIM_CHECKOUT_URLS.anual} variant="purple">
-              Quero o plano anual
+              Garantir o pacote completo
             </Button>
           </div>
 
