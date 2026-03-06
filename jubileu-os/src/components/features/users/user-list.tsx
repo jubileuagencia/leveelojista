@@ -1,8 +1,9 @@
 'use client';
 
-import { useState } from 'react';
+import { useState, useMemo } from 'react';
 import { Badge } from '@/components/ui/badge';
 import { Button } from '@/components/ui/button';
+import { Input } from '@/components/ui/input';
 import { Avatar, AvatarFallback } from '@/components/ui/avatar';
 import {
   Dialog,
@@ -12,9 +13,23 @@ import {
   DialogHeader,
   DialogTitle,
 } from '@/components/ui/dialog';
+import {
+  Select,
+  SelectContent,
+  SelectItem,
+  SelectTrigger,
+  SelectValue,
+} from '@/components/ui/select';
 import { InviteUserDialog } from './invite-user-dialog';
 import { EditUserDialog } from './edit-user-dialog';
-import { UserPlus, MoreHorizontal, Shield, ShieldAlert, User } from 'lucide-react';
+import {
+  UserPlus,
+  MoreHorizontal,
+  Shield,
+  ShieldAlert,
+  User,
+  Search,
+} from 'lucide-react';
 import {
   DropdownMenu,
   DropdownMenuContent,
@@ -24,7 +39,7 @@ import {
 import { toast } from 'sonner';
 import { api } from '@/lib/api/client';
 import { formatRelativeTime } from '@/lib/utils';
-import type { Profile } from '@/types';
+import type { Profile, UserRole } from '@/types';
 
 const roleBadge = {
   admin: { label: 'Admin', variant: 'default' as const, icon: ShieldAlert },
@@ -43,6 +58,30 @@ export function UserList({ initialUsers, currentUserId }: UserListProps) {
   const [editUser, setEditUser] = useState<Profile | null>(null);
   const [confirmDeactivate, setConfirmDeactivate] = useState<Profile | null>(null);
   const [loading, setLoading] = useState(false);
+
+  // Filters
+  const [search, setSearch] = useState('');
+  const [roleFilter, setRoleFilter] = useState<string>('all');
+  const [statusFilter, setStatusFilter] = useState<string>('all');
+
+  const filteredUsers = useMemo(() => {
+    return users.filter((u) => {
+      // Search
+      if (search) {
+        const q = search.toLowerCase();
+        const match =
+          u.full_name.toLowerCase().includes(q) ||
+          u.email.toLowerCase().includes(q);
+        if (!match) return false;
+      }
+      // Role
+      if (roleFilter !== 'all' && u.role !== roleFilter) return false;
+      // Status
+      if (statusFilter === 'active' && !u.is_active) return false;
+      if (statusFilter === 'inactive' && u.is_active) return false;
+      return true;
+    });
+  }, [users, search, roleFilter, statusFilter]);
 
   async function handleToggleActive(user: Profile) {
     if (!user.is_active) {
@@ -78,7 +117,6 @@ export function UserList({ initialUsers, currentUserId }: UserListProps) {
   }
 
   function handleInviteSent() {
-    // Refresh users list
     api.get<Profile[]>('/users').then(setUsers).catch(() => {});
     setInviteOpen(false);
     toast.success('Convite enviado');
@@ -86,11 +124,12 @@ export function UserList({ initialUsers, currentUserId }: UserListProps) {
 
   return (
     <div className="space-y-4">
+      {/* Header */}
       <div className="flex items-center justify-between">
         <div>
-          <h1 className="text-2xl font-bold">Usuarios</h1>
+          <h2 className="text-lg font-semibold">Usuarios</h2>
           <p className="text-sm text-muted-foreground">
-            {users.length} usuario{users.length !== 1 && 's'}
+            {filteredUsers.length} de {users.length} usuario{users.length !== 1 && 's'}
           </p>
         </div>
         <Button onClick={() => setInviteOpen(true)}>
@@ -99,6 +138,41 @@ export function UserList({ initialUsers, currentUserId }: UserListProps) {
         </Button>
       </div>
 
+      {/* Filters */}
+      <div className="flex flex-col gap-2 sm:flex-row">
+        <div className="relative flex-1">
+          <Search className="absolute left-3 top-1/2 size-4 -translate-y-1/2 text-muted-foreground" />
+          <Input
+            placeholder="Buscar por nome ou email..."
+            value={search}
+            onChange={(e) => setSearch(e.target.value)}
+            className="pl-9"
+          />
+        </div>
+        <Select value={roleFilter} onValueChange={setRoleFilter}>
+          <SelectTrigger className="w-full sm:w-36">
+            <SelectValue placeholder="Role" />
+          </SelectTrigger>
+          <SelectContent>
+            <SelectItem value="all">Todos roles</SelectItem>
+            <SelectItem value="admin">Admin</SelectItem>
+            <SelectItem value="member">Membro</SelectItem>
+            <SelectItem value="client">Cliente</SelectItem>
+          </SelectContent>
+        </Select>
+        <Select value={statusFilter} onValueChange={setStatusFilter}>
+          <SelectTrigger className="w-full sm:w-36">
+            <SelectValue placeholder="Status" />
+          </SelectTrigger>
+          <SelectContent>
+            <SelectItem value="all">Todos</SelectItem>
+            <SelectItem value="active">Ativos</SelectItem>
+            <SelectItem value="inactive">Inativos</SelectItem>
+          </SelectContent>
+        </Select>
+      </div>
+
+      {/* User Table */}
       <div className="rounded-lg border">
         <div className="hidden grid-cols-[1fr_100px_80px_120px_40px] items-center gap-4 border-b px-4 py-2 text-xs font-medium text-muted-foreground md:grid">
           <span>Usuario</span>
@@ -108,7 +182,7 @@ export function UserList({ initialUsers, currentUserId }: UserListProps) {
           <span />
         </div>
 
-        {users.map((user) => {
+        {filteredUsers.map((user) => {
           const role = roleBadge[user.role];
           const RoleIcon = role.icon;
           return (
@@ -173,7 +247,7 @@ export function UserList({ initialUsers, currentUserId }: UserListProps) {
           );
         })}
 
-        {users.length === 0 && (
+        {filteredUsers.length === 0 && (
           <div className="py-8 text-center text-sm text-muted-foreground">
             Nenhum usuario encontrado.
           </div>

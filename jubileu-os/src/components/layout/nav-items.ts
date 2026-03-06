@@ -6,6 +6,14 @@ import {
   Settings,
   Bot,
   Zap,
+  Package,
+  Activity,
+  FileCheck,
+  LayoutGrid,
+  Bell,
+  Calendar,
+  HardDrive,
+  MessageSquare,
   type LucideIcon,
 } from 'lucide-react';
 import type { UserRole } from '@/types';
@@ -39,31 +47,83 @@ export const navItems: NavItemConfig[] = [
     roles: ['admin', 'member'],
   },
   {
+    title: 'Produtos',
+    href: '/products',
+    icon: Package,
+    roles: ['admin', 'member'],
+  },
+  {
+    title: 'Entregas',
+    href: '/deliverables',
+    icon: FileCheck,
+    roles: ['admin', 'member'],
+  },
+  {
     title: 'Documentos',
     href: '/docs',
     icon: FileText,
     roles: ['admin', 'member', 'client'],
   },
   {
+    title: 'Drive',
+    href: '/drive',
+    icon: HardDrive,
+    roles: ['admin', 'member'],
+  },
+  {
+    title: 'Mensagens',
+    href: '/messages',
+    icon: MessageSquare,
+    roles: ['admin', 'member'],
+  },
+  {
+    title: 'Inbox',
+    href: '/inbox',
+    icon: Bell,
+    roles: ['admin', 'member'],
+  },
+  {
+    title: 'Calendario',
+    href: '/calendar',
+    icon: Calendar,
+    roles: ['admin', 'member', 'client'],
+  },
+  {
+    title: 'Atividade',
+    href: '/activity',
+    icon: Activity,
+    roles: ['admin', 'member'],
+  },
+  {
+    title: 'Portal',
+    href: '/portal',
+    icon: LayoutGrid,
+    roles: ['client'],
+  },
+  {
+    title: 'Entregas',
+    href: '/portal/deliverables',
+    icon: FileCheck,
+    roles: ['client'],
+  },
+  {
     title: 'Agentes',
     href: '/agents',
     icon: Bot,
     roles: ['admin'],
-    phase: 2,
   },
   {
     title: 'Workflows',
     href: '/workflows',
     icon: Zap,
     roles: ['admin'],
-    phase: 2,
   },
 ];
 
 export const bottomNavItems: NavItemConfig[] = [
   {
     title: 'Configuracoes',
-    href: '/settings/users',
+    href: '/settings',
     icon: Settings,
     roles: ['admin'],
   },

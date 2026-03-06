@@ -90,7 +90,7 @@ export function Header({ user }: HeaderProps) {
                 <p className="text-xs text-muted-foreground">{user.email}</p>
               </div>
               <DropdownMenuSeparator />
-              <DropdownMenuItem onClick={() => router.push('/settings/users')}>
+              <DropdownMenuItem onClick={() => router.push('/settings/profile')}>
                 <User className="mr-2 size-4" />
                 Perfil
               </DropdownMenuItem>
