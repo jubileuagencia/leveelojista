@@ -15,6 +15,7 @@ import {
 } from '@/components/ui/dropdown-menu';
 import { MobileSidebar } from './mobile-sidebar';
 import { Breadcrumbs } from './breadcrumbs';
+import { ClientSelector } from './client-selector';
 import { Menu, Moon, Sun, LogOut, User } from 'lucide-react';
 import type { Profile } from '@/types';
 
@@ -57,6 +58,9 @@ export function Header({ user }: HeaderProps) {
 
         {/* Breadcrumbs */}
         <Breadcrumbs />
+
+        {/* Client selector */}
+        {(user.role === 'admin' || user.role === 'member') && <ClientSelector />}
 
         {/* Right side */}
         <div className="ml-auto flex items-center gap-2">
