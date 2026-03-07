@@ -13,6 +13,7 @@ interface ChartResult {
     sign: string;
     signKey: string;
     emoji: string;
+    degree?: number;
   };
   planets: Array<{
     key: string;
@@ -22,8 +23,12 @@ interface ChartResult {
     signEmoji: string;
     signKey: string;
     degree: number;
+    absDegree?: number;
     house: string;
+    retrograde?: boolean;
   }>;
+  houseCusps?: number[];
+  svg?: string | null;
   eclipse: {
     house: number;
     theme: {
@@ -68,7 +73,7 @@ export default function ChartWizard() {
     setManychatId(formData.manychatId);
 
     try {
-      const res = await fetch("/api/chart", {
+      const res = await fetch("/api/chart/birth-chart", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({

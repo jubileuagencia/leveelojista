@@ -3,6 +3,8 @@ import { createClient } from "@/lib/supabase/server";
 import PlatformShell from "@/components/platform/PlatformShell";
 import { ToastProvider } from "@/components/ui/Toast";
 
+const isDevBypass = process.env.NODE_ENV === "development" && process.env.DEV_ADMIN_BYPASS === "true";
+
 export default async function PlatformLayout({
   children,
 }: {
@@ -13,25 +15,34 @@ export default async function PlatformLayout({
     data: { user },
   } = await supabase.auth.getUser();
 
-  if (!user) {
+  if (!user && !isDevBypass) {
     redirect("/login");
   }
 
-  const { data: profile } = await supabase
-    .from("user_profiles")
-    .select("full_name")
-    .eq("id", user.id)
-    .single();
+  let userName = "Dev Admin";
+  let userRole: "member" | "admin" | "moderator" = "admin";
 
-  const userName =
-    profile?.full_name ||
-    user.user_metadata?.full_name ||
-    user.email?.split("@")[0] ||
-    "Usuário";
+  if (user) {
+    const { data: profile } = await supabase
+      .from("user_profiles")
+      .select("full_name, role")
+      .eq("id", user.id)
+      .single();
+
+    userName =
+      profile?.full_name ||
+      user.user_metadata?.full_name ||
+      user.email?.split("@")[0] ||
+      "Usuário";
+
+    userRole = (profile?.role as "member" | "admin" | "moderator") || "member";
+
+    if (isDevBypass) userRole = "admin";
+  }
 
   return (
     <ToastProvider>
-      <PlatformShell userName={userName}>{children}</PlatformShell>
+      <PlatformShell userName={userName} userRole={userRole}>{children}</PlatformShell>
     </ToastProvider>
   );
 }

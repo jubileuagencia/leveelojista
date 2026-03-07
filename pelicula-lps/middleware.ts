@@ -2,7 +2,8 @@ import { NextRequest, NextResponse } from "next/server";
 import { updateSession } from "@/lib/supabase/middleware";
 
 // Routes that require authentication
-const protectedPaths = ["/catalogo", "/curso", "/checkout", "/minha-conta"];
+// Note: /admin is NOT here because requireAdmin() handles its own auth check + admin role check
+const protectedPaths = ["/catalogo", "/curso", "/checkout", "/minha-conta", "/comunidade"];
 
 // Routes that should redirect to /catalogo if already logged in
 const authPaths = ["/login", "/signup", "/forgot-password", "/reset-password"];

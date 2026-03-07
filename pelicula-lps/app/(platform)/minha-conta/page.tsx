@@ -15,16 +15,15 @@ export default async function MinhaContaPage() {
     data: { user },
   } = await supabase.auth.getUser();
 
+  if (!user) return null;
+
   const { data: profile } = await supabase
     .from("user_profiles")
     .select("*")
-    .eq("id", user!.id)
+    .eq("id", user.id)
     .single();
 
-  // Get accessible courses
-  const accessibleCourseIds = await getUserAccess(supabase, user!.id);
-
-  // Get course details with progress
+  // Get accessible courses with error handling
   let coursesWithProgress: {
     id: string;
     slug: string;
@@ -33,57 +32,84 @@ export default async function MinhaContaPage() {
     completed_lessons: number;
   }[] = [];
 
-  if (accessibleCourseIds.length > 0) {
-    const { data: courses } = await supabase
-      .from("courses")
-      .select("id, slug, title, total_lessons")
-      .in("id", accessibleCourseIds);
+  try {
+    const accessibleCourseIds = await getUserAccess(supabase, user.id);
 
-    if (courses) {
-      // Get completed lesson counts per course
-      for (const course of courses) {
-        const { data: lessons } = await supabase
-          .from("lessons")
-          .select("id, modules!inner(course_id)")
-          .eq("modules.course_id", course.id);
+    if (accessibleCourseIds.length > 0) {
+      const { data: courses } = await supabase
+        .from("courses")
+        .select("id, slug, title, total_lessons")
+        .in("id", accessibleCourseIds);
 
-        const lessonIds = (lessons || []).map((l) => l.id);
-        let completed = 0;
+      if (courses) {
+        for (const course of courses) {
+          const { data: lessons } = await supabase
+            .from("lessons")
+            .select("id, modules!inner(course_id)")
+            .eq("modules.course_id", course.id);
 
-        if (lessonIds.length > 0) {
-          const { count } = await supabase
-            .from("lesson_progress")
-            .select("id", { count: "exact", head: true })
-            .eq("user_id", user!.id)
-            .in("lesson_id", lessonIds)
-            .eq("completed", true);
+          const lessonIds = (lessons || []).map((l) => l.id);
+          let completed = 0;
 
-          completed = count || 0;
+          if (lessonIds.length > 0) {
+            const { count } = await supabase
+              .from("lesson_progress")
+              .select("id", { count: "exact", head: true })
+              .eq("user_id", user.id)
+              .in("lesson_id", lessonIds)
+              .eq("completed", true);
+
+            completed = count || 0;
+          }
+
+          coursesWithProgress.push({
+            ...course,
+            total_lessons: lessonIds.length || course.total_lessons,
+            completed_lessons: completed,
+          });
         }
-
-        coursesWithProgress.push({
-          ...course,
-          total_lessons: lessonIds.length || course.total_lessons,
-          completed_lessons: completed,
-        });
       }
     }
+  } catch {
+    // Supabase query error — show empty state gracefully
   }
 
   // Get active subscriptions
-  const { data: subscriptions } = await supabase
-    .from("subscriptions")
-    .select("*, plans(name, price_cents, billing_period)")
-    .eq("user_id", user!.id)
-    .in("status", ["authorized", "pending"]);
+  let subscriptions: Array<{
+    id: string;
+    status: string;
+    plans: unknown;
+  }> = [];
+  try {
+    const { data } = await supabase
+      .from("subscriptions")
+      .select("*, plans(name, price_cents, billing_period)")
+      .eq("user_id", user.id)
+      .in("status", ["authorized", "pending"]);
+    subscriptions = data || [];
+  } catch {
+    // graceful fallback
+  }
 
   // Get recent payments
-  const { data: payments } = await supabase
-    .from("payments")
-    .select("*, plans(name)")
-    .eq("user_id", user!.id)
-    .order("created_at", { ascending: false })
-    .limit(5);
+  let payments: Array<{
+    id: string;
+    amount_cents: number;
+    status: string;
+    created_at: string;
+    plans: unknown;
+  }> = [];
+  try {
+    const { data } = await supabase
+      .from("payments")
+      .select("*, plans(name)")
+      .eq("user_id", user.id)
+      .order("created_at", { ascending: false })
+      .limit(5);
+    payments = data || [];
+  } catch {
+    // graceful fallback
+  }
 
   function formatPrice(cents: number) {
     return (cents / 100).toLocaleString("pt-BR", {
@@ -129,20 +155,32 @@ export default async function MinhaContaPage() {
         </div>
         <div>
           <label className="block text-sm text-text-muted mb-1">Email</label>
-          <p className="text-text">{user!.email}</p>
+          <p className="text-text">{user.email}</p>
         </div>
         <div>
           <label className="block text-sm text-text-muted mb-1">
             Membro desde
           </label>
           <p className="text-text">
-            {new Date(user!.created_at).toLocaleDateString("pt-BR", {
+            {new Date(user.created_at).toLocaleDateString("pt-BR", {
               day: "2-digit",
               month: "long",
               year: "numeric",
             })}
           </p>
         </div>
+        {profile?.zodiac_sign && (
+          <div>
+            <label className="block text-sm text-text-muted mb-1">Signo</label>
+            <p className="text-text">{profile.zodiac_sign}</p>
+          </div>
+        )}
+        {profile?.bio && (
+          <div>
+            <label className="block text-sm text-text-muted mb-1">Bio</label>
+            <p className="text-text-soft text-sm">{profile.bio}</p>
+          </div>
+        )}
       </section>
 
       {/* Courses & Progress */}
@@ -193,7 +231,7 @@ export default async function MinhaContaPage() {
       </section>
 
       {/* Subscriptions */}
-      {subscriptions && subscriptions.length > 0 && (
+      {subscriptions.length > 0 && (
         <section className="bg-card border border-white/5 rounded-xl p-6">
           <h2 className="font-[family-name:var(--font-display)] text-lg font-semibold text-text mb-4">
             Assinaturas
@@ -230,7 +268,7 @@ export default async function MinhaContaPage() {
       )}
 
       {/* Payment history */}
-      {payments && payments.length > 0 && (
+      {payments.length > 0 && (
         <section className="bg-card border border-white/5 rounded-xl p-6">
           <h2 className="font-[family-name:var(--font-display)] text-lg font-semibold text-text mb-4">
             Histórico de pagamentos

@@ -1,8 +1,10 @@
 "use client";
 
-import { useEffect, useRef } from "react";
+import { useEffect, useRef, useState } from "react";
 import PlanetRow from "./PlanetRow";
 import EclipseCard from "./EclipseCard";
+import ChartSVGEmbed from "./ChartSVGEmbed";
+import NatalChart from "./NatalChart";
 import type { HouseTheme } from "@/lib/eclipse-data";
 
 interface PlanetData {
@@ -13,7 +15,9 @@ interface PlanetData {
   signEmoji: string;
   signKey: string;
   degree: number;
+  absDegree?: number;
   house: string;
+  retrograde?: boolean;
 }
 
 interface ResultData {
@@ -21,8 +25,11 @@ interface ResultData {
     sign: string;
     signKey: string;
     emoji: string;
+    degree?: number;
   };
   planets: PlanetData[];
+  houseCusps?: number[];
+  svg?: string | null;
   eclipse: {
     house: number;
     theme: HouseTheme;
@@ -40,8 +47,17 @@ interface ResultStepProps {
   cached?: boolean;
 }
 
+type ViewMode = "mandala" | "interativa" | "tabela";
+
+const hasPlanetData = (planets: PlanetData[]) =>
+  planets.some((p) => p.absDegree !== undefined && p.absDegree > 0);
+
 export default function ResultStep({ data, onReset, userName, manychatId, cached }: ResultStepProps) {
   const containerRef = useRef<HTMLDivElement>(null);
+  const hasInteractive = hasPlanetData(data.planets);
+  const [viewMode, setViewMode] = useState<ViewMode>(
+    hasInteractive ? "interativa" : data.svg ? "mandala" : "tabela"
+  );
 
   useEffect(() => {
     const el = containerRef.current;
@@ -97,26 +113,105 @@ export default function ResultStep({ data, onReset, userName, manychatId, cached
         </p>
       </div>
 
-      {/* Planet Positions */}
+      {/* Mandala SVG / Planet Positions with Toggle */}
       <div className="fade-in">
-        <div className="text-center mb-6">
-          <span className="font-mono text-[0.55rem] tracking-[5px] uppercase text-white/50">
-            Posições planetárias
-          </span>
-        </div>
-        <div className="border border-white/[0.06] bg-white/[0.01] p-4 md:p-6">
-          {data.planets.map((planet) => (
-            <PlanetRow
-              key={planet.key}
-              symbol={planet.symbol}
-              name={planet.name}
-              sign={planet.sign}
-              signEmoji={planet.signEmoji}
-              degree={planet.degree}
-              house={planet.house}
+        {/* View mode toggle */}
+        {(data.svg || hasInteractive) && (
+          <div className="flex justify-center gap-1 mb-6">
+            {hasInteractive && (
+              <button
+                type="button"
+                onClick={() => setViewMode("interativa")}
+                className={`font-mono text-[0.6rem] tracking-[2px] uppercase px-4 py-2 transition-colors border ${
+                  viewMode === "interativa"
+                    ? "text-white/90 border-white/20 bg-white/[0.06]"
+                    : "text-white/40 border-white/[0.06] hover:text-white/60 hover:border-white/10"
+                }`}
+              >
+                Mandala
+              </button>
+            )}
+            {data.svg && (
+              <button
+                type="button"
+                onClick={() => setViewMode("mandala")}
+                className={`font-mono text-[0.6rem] tracking-[2px] uppercase px-4 py-2 transition-colors border ${
+                  viewMode === "mandala"
+                    ? "text-white/90 border-white/20 bg-white/[0.06]"
+                    : "text-white/40 border-white/[0.06] hover:text-white/60 hover:border-white/10"
+                }`}
+              >
+                {hasInteractive ? "Clássica" : "Mandala"}
+              </button>
+            )}
+            <button
+              type="button"
+              onClick={() => setViewMode("tabela")}
+              className={`font-mono text-[0.6rem] tracking-[2px] uppercase px-4 py-2 transition-colors border ${
+                viewMode === "tabela"
+                  ? "text-white/90 border-white/20 bg-white/[0.06]"
+                  : "text-white/40 border-white/[0.06] hover:text-white/60 hover:border-white/10"
+              }`}
+            >
+              Tabela
+            </button>
+          </div>
+        )}
+
+        {/* Interactive NatalChart View */}
+        {viewMode === "interativa" && hasInteractive && (
+          <div>
+            <div className="text-center mb-6">
+              <span className="font-mono text-[0.55rem] tracking-[5px] uppercase text-white/50">
+                Mapa natal
+              </span>
+            </div>
+            <NatalChart
+              planets={data.planets}
+              houseCusps={data.houseCusps}
+              ascendantDegree={data.ascendant.degree}
+              size={420}
+              interactive
+              showAspects
             />
-          ))}
-        </div>
+          </div>
+        )}
+
+        {/* API SVG View */}
+        {viewMode === "mandala" && data.svg && (
+          <div>
+            <div className="text-center mb-6">
+              <span className="font-mono text-[0.55rem] tracking-[5px] uppercase text-white/50">
+                Mapa natal — visualização clássica
+              </span>
+            </div>
+            <ChartSVGEmbed svg={data.svg} />
+          </div>
+        )}
+
+        {/* Table View */}
+        {viewMode === "tabela" && (
+          <div>
+            <div className="text-center mb-6">
+              <span className="font-mono text-[0.55rem] tracking-[5px] uppercase text-white/50">
+                Posições planetárias
+              </span>
+            </div>
+            <div className="border border-white/[0.06] bg-white/[0.01] p-4 md:p-6">
+              {data.planets.map((planet) => (
+                <PlanetRow
+                  key={planet.key}
+                  symbol={planet.symbol}
+                  name={planet.name}
+                  sign={planet.sign}
+                  signEmoji={planet.signEmoji}
+                  degree={planet.degree}
+                  house={planet.house}
+                />
+              ))}
+            </div>
+          </div>
+        )}
       </div>
 
       {/* Eclipse Card */}

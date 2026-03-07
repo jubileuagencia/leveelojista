@@ -1,7 +1,14 @@
+export type UserRole = "member" | "admin" | "moderator";
+
 export type UserProfile = {
   id: string;
   full_name: string;
   avatar_url: string | null;
+  role: UserRole;
+  bio: string | null;
+  zodiac_sign: string | null;
+  interests: string[] | null;
+  avatar_emoji: string | null;
   created_at: string;
   updated_at: string;
 };
@@ -104,6 +111,63 @@ export type LessonProgress = {
   completed: boolean;
   completed_at: string | null;
   updated_at: string;
+};
+
+// Community types
+export type CommunityCategory = {
+  id: string;
+  slug: string;
+  name: string;
+  description: string | null;
+  emoji: string | null;
+  sort_order: number;
+  created_at: string;
+};
+
+export type CommunityPost = {
+  id: string;
+  author_id: string;
+  category_id: string;
+  title: string;
+  body: string;
+  is_pinned: boolean;
+  is_locked: boolean;
+  reaction_count: number;
+  comment_count: number;
+  created_at: string;
+  updated_at: string;
+};
+
+export type CommunityComment = {
+  id: string;
+  post_id: string;
+  author_id: string;
+  parent_id: string | null;
+  body: string;
+  reaction_count: number;
+  created_at: string;
+  updated_at: string;
+};
+
+export type CommunityReaction = {
+  id: string;
+  user_id: string;
+  post_id: string | null;
+  comment_id: string | null;
+  reaction_type: string;
+  created_at: string;
+};
+
+export type PostWithAuthor = CommunityPost & {
+  author: Pick<UserProfile, "id" | "full_name" | "avatar_emoji" | "zodiac_sign" | "role">;
+  category: Pick<CommunityCategory, "slug" | "name" | "emoji">;
+  user_has_reacted?: boolean;
+};
+
+export type CommentWithAuthor = CommunityComment & {
+  author: Pick<UserProfile, "id" | "full_name" | "avatar_emoji" | "zodiac_sign" | "role">;
+  user_has_reacted?: boolean;
+  replies?: CommentWithAuthor[];
 };
 
 // Composite types for queries
