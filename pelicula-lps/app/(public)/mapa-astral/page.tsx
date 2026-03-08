@@ -4,13 +4,13 @@ import { Suspense } from "react";
 import ChartWizard from "@/components/mapa-astral/ChartWizard";
 
 export const metadata: Metadata = {
-  title: "Mapa Astral — Descubra seu Ascendente | Película Sideral",
+  title: "Mapa Astral — Descubra em qual casa do seu mapa o evento vai passar | Película Sideral",
   description:
-    "Calcule seu mapa astral gratuitamente e descubra seu ascendente. Veja onde o Eclipse Lunar de 03/03/2026 cai no seu mapa.",
+    "Calcule seu mapa astral gratuitamente e descubra onde a pérola da semana aterrissa no seu mapa. Ferramenta gratuita da Película Sideral.",
   openGraph: {
-    title: "Descubra seu Ascendente | Película Sideral",
+    title: "Descubra onde o evento da semana cai no seu mapa | Película Sideral",
     description:
-      "Calcule seu mapa astral e veja onde o Eclipse Lunar cai nas suas casas. Ferramenta gratuita da Película Sideral.",
+      "Calcule seu mapa astral e veja em qual casa da sua vida o cazimi Mercúrio-Sol traz clareza. Ferramenta gratuita da Película Sideral.",
     type: "website",
   },
 };

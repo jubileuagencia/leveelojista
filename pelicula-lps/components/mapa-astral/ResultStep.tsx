@@ -218,7 +218,7 @@ export default function ResultStep({ data, onReset, userName, manychatId, cached
       <div className="fade-in">
         <div className="text-center mb-6">
           <span className="font-mono text-[0.55rem] tracking-[5px] uppercase text-white/50">
-            Eclipse lunar no seu mapa
+            Evento da semana no seu mapa
           </span>
         </div>
         <EclipseCard

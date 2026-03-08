@@ -47,7 +47,7 @@ export default function EclipseCard({ house, theme, substackUrl, manychatId }: E
     <div className="border border-white/[0.08] bg-white/[0.02] p-6 md:p-8">
       <div className="text-center mb-6">
         <span className="font-mono text-[0.55rem] tracking-[5px] uppercase text-white/50">
-          Eclipse Lunar 03/03/2026
+          Cazimi Mercúrio-Sol · 08/03/2026
         </span>
         <h3 className="font-display text-xl md:text-2xl text-white/90 mt-2">
           Casa {house} — {theme.title}
@@ -63,7 +63,7 @@ export default function EclipseCard({ house, theme, substackUrl, manychatId }: E
 
       <div className="text-center">
         <p className="font-mono text-[0.6rem] tracking-[3px] uppercase text-white/60 mb-4">
-          Quer a análise completa do eclipse no seu mapa?
+          Quer saber o que essa pérola revela no seu mapa?
         </p>
         <a
           id="qjmvqdrucuskfuwxegfc"

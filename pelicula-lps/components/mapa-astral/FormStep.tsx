@@ -97,11 +97,11 @@ export default function FormStep({ onSubmit, isSubmitting, initialData }: FormSt
         <span className="font-mono text-[0.55rem] tracking-[5px] uppercase text-white/50">
           Ferramenta gratuita
         </span>
-        <h1 className="font-display text-3xl md:text-4xl text-white/90 mt-3">
-          Descubra seu ascendente
+        <h1 className="font-display text-2xl md:text-3xl text-white/90 mt-3 leading-tight">
+          Descubra em qual casa do seu mapa o evento vai passar
         </h1>
         <p className="text-white/60 text-sm font-body mt-3 leading-relaxed">
-          Preencha seus dados de nascimento e veja onde o Eclipse Lunar de 03/03 cai no seu mapa.
+          Preencha seus dados de nascimento e veja onde a pérola da semana aterrissa no seu mapa.
         </p>
       </div>
 
