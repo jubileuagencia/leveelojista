@@ -105,7 +105,6 @@ async function callBirthChartAPI(data: ChartRequest) {
     theme: "dark",
     language: "PT",
     split_chart: true,
-    wheel_only: true,
     transparent_background: true,
   };
 
