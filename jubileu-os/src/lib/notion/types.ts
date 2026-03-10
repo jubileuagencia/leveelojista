@@ -69,6 +69,7 @@ export type NotionBlockType =
   | 'quote'
   | 'code'
   | 'image'
+  | 'video'
   | 'divider'
   | 'table'
   | 'table_row'

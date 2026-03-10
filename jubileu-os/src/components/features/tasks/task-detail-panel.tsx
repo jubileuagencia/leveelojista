@@ -9,7 +9,13 @@ import { Input } from '@/components/ui/input';
 import { Skeleton } from '@/components/ui/skeleton';
 import { Separator } from '@/components/ui/separator';
 import { ScrollArea } from '@/components/ui/scroll-area';
-import { useTask, useTaskComments, useAddComment } from '@/hooks/use-clickup';
+import {
+  DropdownMenu,
+  DropdownMenuContent,
+  DropdownMenuItem,
+  DropdownMenuTrigger,
+} from '@/components/ui/dropdown-menu';
+import { useTask, useTaskComments, useAddComment, useUpdateTask } from '@/hooks/use-clickup';
 import { getStatusColor, getPriorityInfo, formatDueDate } from './task-utils';
 import {
   Flag,
@@ -19,6 +25,8 @@ import {
   Send,
   CheckSquare,
   Loader2,
+  ChevronDown,
+  Circle,
 } from 'lucide-react';
 import { cn } from '@/lib/utils';
 import { toast } from 'sonner';
@@ -28,10 +36,18 @@ interface TaskDetailPanelProps {
   onClose: () => void;
 }
 
+const PRIORITY_OPTIONS = [
+  { id: 1, name: 'Urgente', color: 'text-red-500' },
+  { id: 2, name: 'Alta', color: 'text-amber-500' },
+  { id: 3, name: 'Normal', color: 'text-blue-500' },
+  { id: 4, name: 'Baixa', color: 'text-zinc-400' },
+];
+
 export function TaskDetailPanel({ taskId, onClose }: TaskDetailPanelProps) {
   const { data: task, isLoading } = useTask(taskId);
   const { data: comments, isLoading: commentsLoading } = useTaskComments(taskId);
   const addComment = useAddComment();
+  const updateTask = useUpdateTask();
   const [commentText, setCommentText] = useState('');
 
   async function handleAddComment(e: React.FormEvent) {
@@ -46,6 +62,42 @@ export function TaskDetailPanel({ taskId, onClose }: TaskDetailPanelProps) {
       toast.error('Erro ao adicionar comentario');
     }
   }
+
+  async function handleStatusChange(newStatus: string) {
+    if (!taskId) return;
+    try {
+      await updateTask.mutateAsync({ taskId, body: { status: newStatus } });
+      toast.success(`Status alterado para "${newStatus}"`);
+    } catch {
+      toast.error('Erro ao alterar status');
+    }
+  }
+
+  async function handlePriorityChange(priorityId: number) {
+    if (!taskId) return;
+    try {
+      await updateTask.mutateAsync({ taskId, body: { priority: priorityId } });
+      toast.success('Prioridade atualizada');
+    } catch {
+      toast.error('Erro ao alterar prioridade');
+    }
+  }
+
+  async function handleDueDateChange(dateStr: string) {
+    if (!taskId || !dateStr) return;
+    try {
+      const dueMs = new Date(dateStr).getTime();
+      await updateTask.mutateAsync({ taskId, body: { due_date: dueMs } });
+      toast.success('Prazo atualizado');
+    } catch {
+      toast.error('Erro ao alterar prazo');
+    }
+  }
+
+  // Extract available statuses from the task's list
+  const availableStatuses = task
+    ? ['to do', 'a fazer', 'em progresso', 'in progress', 'em revisao', 'review', 'concluido', 'complete', 'done']
+    : [];
 
   return (
     <Sheet open={!!taskId} onOpenChange={(open) => !open && onClose()}>
@@ -69,24 +121,82 @@ export function TaskDetailPanel({ taskId, onClose }: TaskDetailPanelProps) {
                 <h2 className="text-lg font-semibold leading-snug pr-8">
                   {task.name}
                 </h2>
+
+                {/* Editable Status & Priority */}
                 <div className="flex flex-wrap items-center gap-2">
-                  <Badge variant="secondary" className="gap-1.5">
-                    <span className={cn('size-2 rounded-full', getStatusColor(task.status.status))} />
-                    {task.status.status}
-                  </Badge>
-                  {task.priority && (
-                    <Badge variant="outline" className="gap-1">
-                      <Flag className={cn('size-3', getPriorityInfo(task.priority).color)} />
-                      {getPriorityInfo(task.priority).label}
-                    </Badge>
-                  )}
-                  {task.due_date && (
-                    <Badge variant="outline" className="gap-1">
-                      <Calendar className="size-3" />
-                      {formatDueDate(task.due_date)}
-                    </Badge>
-                  )}
+                  {/* Status Dropdown */}
+                  <DropdownMenu>
+                    <DropdownMenuTrigger asChild>
+                      <Button variant="ghost" size="sm" className="h-auto gap-1.5 px-2 py-1">
+                        <span className={cn('size-2 rounded-full', getStatusColor(task.status.status))} />
+                        <span className="text-xs">{task.status.status}</span>
+                        <ChevronDown className="size-3 text-muted-foreground" />
+                      </Button>
+                    </DropdownMenuTrigger>
+                    <DropdownMenuContent align="start">
+                      {availableStatuses.map((status) => (
+                        <DropdownMenuItem
+                          key={status}
+                          onClick={() => handleStatusChange(status)}
+                          className="gap-2"
+                        >
+                          <Circle className={cn('size-2 fill-current', getStatusColor(status))} />
+                          <span className="capitalize">{status}</span>
+                        </DropdownMenuItem>
+                      ))}
+                    </DropdownMenuContent>
+                  </DropdownMenu>
+
+                  {/* Priority Dropdown */}
+                  <DropdownMenu>
+                    <DropdownMenuTrigger asChild>
+                      <Button variant="ghost" size="sm" className="h-auto gap-1 px-2 py-1">
+                        <Flag className={cn('size-3', getPriorityInfo(task.priority).color)} />
+                        <span className="text-xs">{getPriorityInfo(task.priority).label}</span>
+                        <ChevronDown className="size-3 text-muted-foreground" />
+                      </Button>
+                    </DropdownMenuTrigger>
+                    <DropdownMenuContent align="start">
+                      {PRIORITY_OPTIONS.map((p) => (
+                        <DropdownMenuItem
+                          key={p.id}
+                          onClick={() => handlePriorityChange(p.id)}
+                          className="gap-2"
+                        >
+                          <Flag className={cn('size-3', p.color)} />
+                          {p.name}
+                        </DropdownMenuItem>
+                      ))}
+                    </DropdownMenuContent>
+                  </DropdownMenu>
+
+                  {/* Due Date Picker */}
+                  <div className="flex items-center gap-1">
+                    <Calendar className="size-3 text-muted-foreground" />
+                    <input
+                      type="date"
+                      className="h-7 rounded-md border bg-transparent px-2 text-xs focus:outline-none focus:ring-1 focus:ring-ring"
+                      defaultValue={
+                        task.due_date
+                          ? new Date(parseInt(task.due_date, 10)).toISOString().split('T')[0]
+                          : ''
+                      }
+                      onChange={(e) => handleDueDateChange(e.target.value)}
+                    />
+                    {task.due_date && (
+                      <span className="text-xs text-muted-foreground">
+                        {formatDueDate(task.due_date)}
+                      </span>
+                    )}
+                  </div>
                 </div>
+
+                {updateTask.isPending && (
+                  <div className="flex items-center gap-1.5 text-xs text-muted-foreground">
+                    <Loader2 className="size-3 animate-spin" />
+                    Salvando...
+                  </div>
+                )}
               </div>
 
               {/* Assignees */}
@@ -161,6 +271,23 @@ export function TaskDetailPanel({ taskId, onClose }: TaskDetailPanelProps) {
                 </div>
               )}
 
+              {/* Custom Fields */}
+              {task.custom_fields && task.custom_fields.length > 0 && (
+                <div className="space-y-2">
+                  <p className="text-xs font-medium text-muted-foreground">Campos Personalizados</p>
+                  <div className="space-y-1.5">
+                    {task.custom_fields.map((field) => (
+                      <div key={field.id} className="flex items-center justify-between text-sm">
+                        <span className="text-muted-foreground">{field.name}</span>
+                        <span className="font-medium">
+                          {field.value != null ? String(field.value) : '—'}
+                        </span>
+                      </div>
+                    ))}
+                  </div>
+                </div>
+              )}
+
               {/* ClickUp link */}
               <a
                 href={task.url}
@@ -190,6 +317,11 @@ export function TaskDetailPanel({ taskId, onClose }: TaskDetailPanelProps) {
                   </div>
                 ) : (
                   <div className="space-y-3">
+                    {comments?.length === 0 && (
+                      <p className="text-sm text-muted-foreground text-center py-2">
+                        Nenhum comentario
+                      </p>
+                    )}
                     {comments?.map((comment) => (
                       <div key={comment.id} className="flex gap-2">
                         <Avatar className="size-6 shrink-0">

@@ -244,6 +244,128 @@ function NotionBlockComponent({ block }: { block: NotionBlock }) {
         </div>
       );
 
+    // === NEW BLOCK TYPES ===
+
+    case 'embed': {
+      // Access embed data via type assertion through unknown
+      const embedBlock = block as unknown as {
+        embed?: { url?: string; caption?: NotionRichText[] };
+      };
+      const embedUrl = embedBlock.embed?.url;
+      if (!embedUrl) return null;
+
+      // YouTube/Vimeo get iframe treatment
+      const isVideo = /youtube\.com|youtu\.be|vimeo\.com/.test(embedUrl);
+      if (isVideo) {
+        const videoSrc = embedUrl
+          .replace('watch?v=', 'embed/')
+          .replace('youtu.be/', 'youtube.com/embed/');
+        return (
+          <div className="mb-3">
+            <div className="relative aspect-video overflow-hidden rounded-md">
+              <iframe
+                src={videoSrc}
+                className="absolute inset-0 size-full"
+                allowFullScreen
+                loading="lazy"
+                title="Embedded video"
+              />
+            </div>
+            {embedBlock.embed?.caption && embedBlock.embed.caption.length > 0 && (
+              <p className="mt-1 text-xs text-muted-foreground">
+                <RichText text={embedBlock.embed.caption} />
+              </p>
+            )}
+          </div>
+        );
+      }
+
+      return (
+        <a
+          href={embedUrl}
+          target="_blank"
+          rel="noopener noreferrer"
+          className="mb-2 flex items-center gap-2 rounded-md border p-3 text-sm hover:bg-muted/50 transition-colors"
+        >
+          <span className="text-lg">🔗</span>
+          <span className="text-primary truncate">{embedUrl}</span>
+        </a>
+      );
+    }
+
+    case 'video': {
+      const videoBlock = block as unknown as {
+        video?: { type?: string; external?: { url: string }; file?: { url: string }; caption?: NotionRichText[] };
+      };
+      const videoUrl =
+        videoBlock.video?.type === 'external'
+          ? videoBlock.video.external?.url
+          : videoBlock.video?.file?.url;
+
+      if (!videoUrl) return null;
+
+      // YouTube/Vimeo embeds
+      if (/youtube\.com|youtu\.be|vimeo\.com/.test(videoUrl)) {
+        const src = videoUrl
+          .replace('watch?v=', 'embed/')
+          .replace('youtu.be/', 'youtube.com/embed/');
+        return (
+          <div className="mb-3">
+            <div className="relative aspect-video overflow-hidden rounded-md">
+              <iframe
+                src={src}
+                className="absolute inset-0 size-full"
+                allowFullScreen
+                loading="lazy"
+                title="Video"
+              />
+            </div>
+            {videoBlock.video?.caption && videoBlock.video.caption.length > 0 && (
+              <p className="mt-1 text-xs text-muted-foreground">
+                <RichText text={videoBlock.video.caption} />
+              </p>
+            )}
+          </div>
+        );
+      }
+
+      // Direct video files
+      return (
+        <div className="mb-3">
+          <video
+            src={videoUrl}
+            controls
+            className="max-w-full rounded-md"
+            preload="metadata"
+          />
+          {videoBlock.video?.caption && videoBlock.video.caption.length > 0 && (
+            <p className="mt-1 text-xs text-muted-foreground">
+              <RichText text={videoBlock.video.caption} />
+            </p>
+          )}
+        </div>
+      );
+    }
+
+    case 'column_list':
+      return (
+        <div className="mb-3 grid gap-4" style={{
+          gridTemplateColumns: `repeat(${block.children?.length || 1}, 1fr)`,
+        }}>
+          {block.children?.map((col) => (
+            <div key={col.id} className="min-w-0">
+              <BlockChildren blocks={col.children} />
+            </div>
+          ))}
+        </div>
+      );
+
+    case 'column':
+      return <BlockChildren blocks={block.children} />;
+
+    case 'synced_block':
+      return <BlockChildren blocks={block.children} />;
+
     default:
       return null;
   }
