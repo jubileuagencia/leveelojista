@@ -78,6 +78,7 @@ export async function GET(request: Request) {
   const entityType = searchParams.get('entityType');
   const action = searchParams.get('action');
   const userId = searchParams.get('userId');
+  const clientId = searchParams.get('clientId');
 
   if (isDevMode()) {
     let data = MOCK_ACTIVITIES;
@@ -102,6 +103,7 @@ export async function GET(request: Request) {
   if (entityType) query = query.eq('entity_type', entityType);
   if (action) query = query.eq('action', action);
   if (userId) query = query.eq('user_id', userId);
+  if (clientId) query = query.eq('client_id', clientId);
 
   const { data, error } = await query;
 

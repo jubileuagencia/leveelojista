@@ -11,6 +11,7 @@ import {
 import { Skeleton } from '@/components/ui/skeleton';
 import { Badge } from '@/components/ui/badge';
 import { useActivity } from '@/hooks/use-activity';
+import { useAppStore } from '@/stores/app-store';
 import { Activity } from 'lucide-react';
 
 const ACTION_LABELS: Record<string, string> = {
@@ -61,9 +62,11 @@ function formatDateTime(date: string): string {
 
 export default function ActivityPage() {
   const [entityType, setEntityType] = useState<string>('_all');
+  const { activeClientId } = useAppStore();
   const { data: activities, isLoading } = useActivity({
     limit: 50,
     entityType: entityType === '_all' ? undefined : entityType,
+    clientId: activeClientId ?? undefined,
   });
 
   return (

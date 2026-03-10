@@ -31,6 +31,17 @@ export function useCreateChatSession() {
   });
 }
 
+export function useUpdateChatSession() {
+  const qc = useQueryClient();
+  return useMutation({
+    mutationFn: ({ sessionId, body }: { sessionId: string; body: Record<string, unknown> }) =>
+      api.patch<ChatSession>(`/chat/sessions/${sessionId}`, body),
+    onSuccess: (data) => {
+      qc.setQueryData(['chat-session', data.id], data);
+    },
+  });
+}
+
 export function useDeleteChatSession() {
   const qc = useQueryClient();
   return useMutation({

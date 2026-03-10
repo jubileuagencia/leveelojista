@@ -1,5 +1,6 @@
 import { NextResponse } from 'next/server';
 import { createClient } from '@/lib/supabase/server';
+import { sendNotification } from '@/lib/notification-sender';
 
 function isDevMode(): boolean {
   const url = process.env.NEXT_PUBLIC_SUPABASE_URL ?? '';
@@ -111,5 +112,37 @@ export async function PATCH(
     .single();
 
   if (error) return NextResponse.json({ error: error.message }, { status: 500 });
+
+  // Auto-generate notifications on status changes
+  if (body.status && data) {
+    const title = data.title ?? 'Entrega';
+    if (body.status === 'pending_review') {
+      // Notify the deliverable creator that it's pending review
+      sendNotification({
+        userId: data.created_by,
+        title: 'Entrega enviada para revisao',
+        body: `"${title}" foi enviada para aprovacao.`,
+        module: 'deliverable',
+        actionUrl: `/deliverables`,
+      });
+    } else if (body.status === 'approved') {
+      sendNotification({
+        userId: data.created_by,
+        title: 'Entrega aprovada',
+        body: `"${title}" foi aprovada pelo cliente.`,
+        module: 'deliverable',
+        actionUrl: `/deliverables`,
+      });
+    } else if (body.status === 'revision_requested') {
+      sendNotification({
+        userId: data.created_by,
+        title: 'Revisao solicitada',
+        body: `Cliente solicitou revisao em "${title}".`,
+        module: 'deliverable',
+        actionUrl: `/deliverables`,
+      });
+    }
+  }
+
   return NextResponse.json(data);
 }

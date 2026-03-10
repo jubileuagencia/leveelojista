@@ -5,6 +5,7 @@ import { useSearchParams, useRouter } from 'next/navigation';
 import { Button } from '@/components/ui/button';
 import { useAppStore } from '@/stores/app-store';
 import { useTasks, useUpdateTask } from '@/hooks/use-clickup';
+import { useClients } from '@/hooks/use-clients';
 import { TaskListView } from '@/components/features/tasks/task-list-view';
 import { TaskKanbanView } from '@/components/features/tasks/task-kanban-view';
 import { TaskDetailPanel } from '@/components/features/tasks/task-detail-panel';
@@ -27,7 +28,8 @@ const LISTS = [
 export default function TasksPage() {
   const router = useRouter();
   const searchParams = useSearchParams();
-  const { taskViewMode, setTaskViewMode } = useAppStore();
+  const { taskViewMode, setTaskViewMode, activeClientId } = useAppStore();
+  const { data: clients } = useClients();
 
   const [selectedListId, setSelectedListId] = useState(LISTS[0].id);
   const [search, setSearch] = useState('');
@@ -35,7 +37,12 @@ export default function TasksPage() {
   const [createOpen, setCreateOpen] = useState(false);
 
   const activeTaskId = searchParams.get('task');
-  const { data, isLoading } = useTasks(selectedListId);
+  const activeClient = clients?.find((c) => c.id === activeClientId);
+
+  // Pass client's clickup_tag as filter when a client is selected
+  const { data, isLoading } = useTasks(selectedListId, {
+    tags: activeClient?.clickup_tag ? [activeClient.clickup_tag] : undefined,
+  });
   const updateTask = useUpdateTask();
 
   const allTasks = data?.tasks ?? [];

@@ -22,6 +22,7 @@ interface UseActivityParams {
   entityType?: string;
   action?: string;
   userId?: string;
+  clientId?: string;
 }
 
 export function useActivity(params?: UseActivityParams) {
@@ -30,6 +31,7 @@ export function useActivity(params?: UseActivityParams) {
   if (params?.entityType) searchParams.set('entityType', params.entityType);
   if (params?.action) searchParams.set('action', params.action);
   if (params?.userId) searchParams.set('userId', params.userId);
+  if (params?.clientId) searchParams.set('clientId', params.clientId);
 
   const qs = searchParams.toString();
 

@@ -24,7 +24,7 @@ interface CalendarDay {
 const DAYS_PT = ['Dom', 'Seg', 'Ter', 'Qua', 'Qui', 'Sex', 'Sab'];
 
 export function WidgetCalendar() {
-  const today = new Date();
+  const today = useMemo(() => new Date(), []);
   const from = today.toISOString().split('T')[0];
   const toDate = new Date(today);
   toDate.setDate(today.getDate() + 6);
@@ -78,7 +78,7 @@ export function WidgetCalendar() {
     }
 
     return result;
-  }, [events, stats, today.toDateString()]);
+  }, [events, stats, today]);
 
   return (
     <Card>

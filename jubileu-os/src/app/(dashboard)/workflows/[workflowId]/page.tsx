@@ -1,12 +1,18 @@
 'use client';
 
-import { use, useState } from 'react';
-import { useRouter } from 'next/navigation';
+import { use, useEffect, useRef } from 'react';
+import { useRouter, useSearchParams } from 'next/navigation';
 import { Button } from '@/components/ui/button';
 import { Badge } from '@/components/ui/badge';
 import { Card, CardContent } from '@/components/ui/card';
+import { Skeleton } from '@/components/ui/skeleton';
 import { getWorkflowById } from '@/lib/workflows/config';
 import type { StepStatus } from '@/lib/workflows/config';
+import {
+  useWorkflowExecutions,
+  useCreateWorkflowExecution,
+  useUpdateWorkflowExecution,
+} from '@/hooks/use-workflow-executions';
 import {
   ArrowLeft,
   CheckCircle2,
@@ -31,10 +37,58 @@ export default function WorkflowExecutionPage({
 }) {
   const { workflowId } = use(params);
   const router = useRouter();
+  const searchParams = useSearchParams();
+  const executionIdParam = searchParams.get('execution');
   const workflow = getWorkflowById(workflowId);
 
-  const [stepStatuses, setStepStatuses] = useState<Record<string, StepStatus>>({});
-  const [startedAt, setStartedAt] = useState<string | null>(null);
+  // Fetch existing running execution for this workflow
+  const { data: executions, isLoading: loadingExecs } = useWorkflowExecutions(
+    workflowId,
+    'running'
+  );
+  const createExecution = useCreateWorkflowExecution();
+  const updateExecution = useUpdateWorkflowExecution();
+  const savingRef = useRef(false);
+
+  // Find active execution: either from URL param or most recent running one
+  const activeExecution = executionIdParam
+    ? executions?.find((e) => e.id === executionIdParam)
+    : executions?.[0] ?? null;
+
+  const stepStatuses: Record<string, StepStatus> = activeExecution?.step_statuses ?? {};
+  const isStarted = !!activeExecution;
+
+  // Persist step status changes to API
+  function persistStepUpdate(
+    newStatuses: Record<string, StepStatus>,
+    nextStepId: string | null,
+    completed: boolean
+  ) {
+    if (!activeExecution || savingRef.current) return;
+    savingRef.current = true;
+    updateExecution.mutate(
+      {
+        executionId: activeExecution.id,
+        body: {
+          step_statuses: newStatuses,
+          current_step_id: nextStepId,
+          ...(completed
+            ? { status: 'completed' as const, completed_at: new Date().toISOString() }
+            : {}),
+        },
+      },
+      { onSettled: () => { savingRef.current = false; } }
+    );
+  }
+
+  // Redirect to include execution param after creation
+  useEffect(() => {
+    if (activeExecution && !executionIdParam) {
+      router.replace(`/workflows/${workflowId}?execution=${activeExecution.id}`, {
+        scroll: false,
+      });
+    }
+  }, [activeExecution, executionIdParam, router, workflowId]);
 
   if (!workflow) {
     return (
@@ -48,7 +102,18 @@ export default function WorkflowExecutionPage({
     );
   }
 
-  const isStarted = !!startedAt;
+  if (loadingExecs) {
+    return (
+      <div className="space-y-4">
+        <Skeleton className="h-12 w-full" />
+        <Skeleton className="h-8 w-full" />
+        {Array.from({ length: 4 }).map((_, i) => (
+          <Skeleton key={i} className="h-24 w-full rounded-lg" />
+        ))}
+      </div>
+    );
+  }
+
   const completedCount = Object.values(stepStatuses).filter(
     (s) => s === 'completed' || s === 'skipped'
   ).length;
@@ -57,10 +122,24 @@ export default function WorkflowExecutionPage({
     ? Math.round((completedCount / workflow.steps.length) * 100)
     : 0;
 
-  function handleStart() {
-    setStartedAt(new Date().toISOString());
-    if (workflow && workflow.steps.length > 0) {
-      setStepStatuses({ [workflow.steps[0].id]: 'in_progress' });
+  async function handleStart() {
+    if (!workflow) return;
+    const firstStepId = workflow.steps[0]?.id;
+    try {
+      const exec = await createExecution.mutateAsync({ workflowId });
+      // Set first step as in_progress
+      if (firstStepId) {
+        updateExecution.mutate({
+          executionId: exec.id,
+          body: {
+            step_statuses: { [firstStepId]: 'in_progress' },
+            current_step_id: firstStepId,
+          },
+        });
+      }
+      router.replace(`/workflows/${workflowId}?execution=${exec.id}`, { scroll: false });
+    } catch {
+      // handled by mutation error state
     }
   }
 
@@ -68,14 +147,19 @@ export default function WorkflowExecutionPage({
     if (!workflow) return;
     const newStatuses = { ...stepStatuses, [stepId]: 'completed' as StepStatus };
 
-    // Find next pending step
     const currentIndex = workflow.steps.findIndex((s) => s.id === stepId);
     const nextStep = workflow.steps[currentIndex + 1];
+    let nextStepId: string | null = null;
     if (nextStep && !newStatuses[nextStep.id]) {
       newStatuses[nextStep.id] = 'in_progress';
+      nextStepId = nextStep.id;
     }
 
-    setStepStatuses(newStatuses);
+    const allDone = Object.values(newStatuses).filter(
+      (s) => s === 'completed' || s === 'skipped'
+    ).length === workflow.steps.length;
+
+    persistStepUpdate(newStatuses, nextStepId, allDone);
   }
 
   function handleSkipStep(stepId: string) {
@@ -84,11 +168,17 @@ export default function WorkflowExecutionPage({
 
     const currentIndex = workflow.steps.findIndex((s) => s.id === stepId);
     const nextStep = workflow.steps[currentIndex + 1];
+    let nextStepId: string | null = null;
     if (nextStep && !newStatuses[nextStep.id]) {
       newStatuses[nextStep.id] = 'in_progress';
+      nextStepId = nextStep.id;
     }
 
-    setStepStatuses(newStatuses);
+    const allDone = Object.values(newStatuses).filter(
+      (s) => s === 'completed' || s === 'skipped'
+    ).length === workflow.steps.length;
+
+    persistStepUpdate(newStatuses, nextStepId, allDone);
   }
 
   function getStepStatus(stepId: string): StepStatus {
@@ -117,8 +207,12 @@ export default function WorkflowExecutionPage({
           </div>
         </div>
         {!isStarted && (
-          <Button onClick={handleStart}>
-            <Zap className="size-4" />
+          <Button onClick={handleStart} disabled={createExecution.isPending}>
+            {createExecution.isPending ? (
+              <Loader2 className="size-4 animate-spin" />
+            ) : (
+              <Zap className="size-4" />
+            )}
             Iniciar
           </Button>
         )}
