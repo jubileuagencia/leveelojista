@@ -110,13 +110,13 @@ export const navItems: NavItemConfig[] = [
     title: 'Agentes',
     href: '/agents',
     icon: Bot,
-    roles: ['admin'],
+    roles: ['admin', 'member'],
   },
   {
     title: 'Workflows',
     href: '/workflows',
     icon: Zap,
-    roles: ['admin'],
+    roles: ['admin', 'member'],
   },
 ];
 

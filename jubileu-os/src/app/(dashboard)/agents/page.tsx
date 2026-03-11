@@ -3,26 +3,31 @@
 import { useState, useMemo } from 'react';
 import { Input } from '@/components/ui/input';
 import { Button } from '@/components/ui/button';
+import { Tabs, TabsContent, TabsList, TabsTrigger } from '@/components/ui/tabs';
 import { AgentCard } from '@/components/features/agents/agent-card';
-import { AgentDetailModal } from '@/components/features/agents/agent-detail-modal';
-import { agents, AGENT_CATEGORY_LABELS } from '@/lib/agents/config';
-import type { AgentConfig, AgentCategory } from '@/lib/agents/config';
-import { Search, Bot } from 'lucide-react';
+import { SkillCard } from '@/components/features/agents/skill-card';
+import {
+  agents,
+  skills,
+  AGENT_CATEGORY_LABELS,
+  SKILL_CATEGORY_LABELS,
+} from '@/lib/agents/config';
+import type { AgentCategory, SkillCategory } from '@/lib/agents/config';
+import { Search, Bot, Sparkles } from 'lucide-react';
 
-const categories = Object.keys(AGENT_CATEGORY_LABELS) as AgentCategory[];
+const agentCategories = Object.keys(AGENT_CATEGORY_LABELS) as AgentCategory[];
+const skillCategories = Object.keys(SKILL_CATEGORY_LABELS) as SkillCategory[];
 
 export default function AgentsPage() {
   const [search, setSearch] = useState('');
-  const [activeCategory, setActiveCategory] = useState<AgentCategory | 'all'>('all');
-  const [selectedAgent, setSelectedAgent] = useState<AgentConfig | null>(null);
+  const [agentCategory, setAgentCategory] = useState<AgentCategory | 'all'>('all');
+  const [skillCategory, setSkillCategory] = useState<SkillCategory | 'all'>('all');
 
-  const filtered = useMemo(() => {
+  const filteredAgents = useMemo(() => {
     let list = agents;
-
-    if (activeCategory !== 'all') {
-      list = list.filter((a) => a.category === activeCategory);
+    if (agentCategory !== 'all') {
+      list = list.filter((a) => a.category === agentCategory);
     }
-
     if (search) {
       const q = search.toLowerCase();
       list = list.filter(
@@ -33,76 +38,149 @@ export default function AgentsPage() {
           a.whenToUse.toLowerCase().includes(q)
       );
     }
-
     return list;
-  }, [search, activeCategory]);
+  }, [search, agentCategory]);
+
+  const filteredSkills = useMemo(() => {
+    let list = skills;
+    if (skillCategory !== 'all') {
+      list = list.filter((s) => s.category === skillCategory);
+    }
+    if (search) {
+      const q = search.toLowerCase();
+      list = list.filter(
+        (s) =>
+          s.name.toLowerCase().includes(q) ||
+          s.id.toLowerCase().includes(q) ||
+          s.description.toLowerCase().includes(q)
+      );
+    }
+    return list;
+  }, [search, skillCategory]);
 
   return (
     <div className="space-y-4">
       {/* Header */}
       <div className="flex flex-col gap-1">
-        <h1 className="text-2xl font-bold">Agentes IA</h1>
+        <h1 className="text-2xl font-bold">Agentes & Skills</h1>
         <p className="text-sm text-muted-foreground">
-          {agents.length} agentes especializados do sistema AIOS
+          {agents.length} agentes e {skills.length} skills disponiveis
         </p>
       </div>
 
-      {/* Search + Filters */}
-      <div className="flex flex-col gap-3 sm:flex-row sm:items-center">
-        <div className="relative flex-1">
-          <Search className="absolute left-2.5 top-2.5 size-4 text-muted-foreground" />
-          <Input
-            placeholder="Buscar agentes..."
-            value={search}
-            onChange={(e) => setSearch(e.target.value)}
-            className="pl-8"
-          />
-        </div>
-        <div className="flex flex-wrap gap-1.5">
-          <Button
-            size="sm"
-            variant={activeCategory === 'all' ? 'default' : 'outline'}
-            onClick={() => setActiveCategory('all')}
-          >
-            Todos
-          </Button>
-          {categories.map((cat) => (
-            <Button
-              key={cat}
-              size="sm"
-              variant={activeCategory === cat ? 'default' : 'outline'}
-              onClick={() => setActiveCategory(cat)}
-            >
-              {AGENT_CATEGORY_LABELS[cat]}
-            </Button>
-          ))}
-        </div>
+      {/* Search */}
+      <div className="relative">
+        <Search className="absolute left-3 top-1/2 -translate-y-1/2 size-4 text-muted-foreground" />
+        <Input
+          placeholder="Buscar agentes e skills..."
+          value={search}
+          onChange={(e) => setSearch(e.target.value)}
+          className="pl-9"
+        />
       </div>
 
-      {/* Grid */}
-      {filtered.length === 0 ? (
-        <div className="flex flex-col items-center justify-center py-16 text-center">
-          <Bot className="mb-3 size-12 text-muted-foreground/50" />
-          <p className="text-muted-foreground">Nenhum agente encontrado.</p>
-        </div>
-      ) : (
-        <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
-          {filtered.map((agent) => (
-            <AgentCard
-              key={agent.id}
-              agent={agent}
-              onClick={setSelectedAgent}
-            />
-          ))}
-        </div>
-      )}
+      {/* Tabs */}
+      <Tabs defaultValue="agents" className="space-y-4">
+        <TabsList className="w-full grid grid-cols-2">
+          <TabsTrigger value="agents" className="gap-1.5">
+            <Bot className="size-4" />
+            Agentes
+            <span className="ml-1 text-xs text-muted-foreground">
+              {filteredAgents.length}
+            </span>
+          </TabsTrigger>
+          <TabsTrigger value="skills" className="gap-1.5">
+            <Sparkles className="size-4" />
+            Skills
+            <span className="ml-1 text-xs text-muted-foreground">
+              {filteredSkills.length}
+            </span>
+          </TabsTrigger>
+        </TabsList>
 
-      {/* Detail Modal */}
-      <AgentDetailModal
-        agent={selectedAgent}
-        open={!!selectedAgent}
-        onOpenChange={(open) => !open && setSelectedAgent(null)}
-      />
+        {/* Agents Tab */}
+        <TabsContent value="agents" className="space-y-4 mt-0">
+          {/* Category filter pills */}
+          <div className="flex flex-wrap gap-1.5 -mt-1">
+            <Button
+              size="sm"
+              variant={agentCategory === 'all' ? 'default' : 'outline'}
+              onClick={() => setAgentCategory('all')}
+              className="h-7 text-xs"
+            >
+              Todos
+            </Button>
+            {agentCategories.map((cat) => (
+              <Button
+                key={cat}
+                size="sm"
+                variant={agentCategory === cat ? 'default' : 'outline'}
+                onClick={() => setAgentCategory(cat)}
+                className="h-7 text-xs"
+              >
+                {AGENT_CATEGORY_LABELS[cat]}
+              </Button>
+            ))}
+          </div>
+
+          {/* Grid */}
+          {filteredAgents.length === 0 ? (
+            <EmptyState icon={<Bot className="size-12" />} text="Nenhum agente encontrado." />
+          ) : (
+            <div className="grid gap-3 sm:grid-cols-2 lg:grid-cols-3">
+              {filteredAgents.map((agent) => (
+                <AgentCard key={agent.id} agent={agent} />
+              ))}
+            </div>
+          )}
+        </TabsContent>
+
+        {/* Skills Tab */}
+        <TabsContent value="skills" className="space-y-4 mt-0">
+          {/* Category filter pills */}
+          <div className="flex flex-wrap gap-1.5 -mt-1">
+            <Button
+              size="sm"
+              variant={skillCategory === 'all' ? 'default' : 'outline'}
+              onClick={() => setSkillCategory('all')}
+              className="h-7 text-xs"
+            >
+              Todos
+            </Button>
+            {skillCategories.map((cat) => (
+              <Button
+                key={cat}
+                size="sm"
+                variant={skillCategory === cat ? 'default' : 'outline'}
+                onClick={() => setSkillCategory(cat)}
+                className="h-7 text-xs"
+              >
+                {SKILL_CATEGORY_LABELS[cat]}
+              </Button>
+            ))}
+          </div>
+
+          {/* Grid */}
+          {filteredSkills.length === 0 ? (
+            <EmptyState icon={<Sparkles className="size-12" />} text="Nenhum skill encontrado." />
+          ) : (
+            <div className="grid gap-3 sm:grid-cols-2 lg:grid-cols-3">
+              {filteredSkills.map((skill) => (
+                <SkillCard key={skill.id} skill={skill} />
+              ))}
+            </div>
+          )}
+        </TabsContent>
+      </Tabs>
+    </div>
+  );
+}
+
+function EmptyState({ icon, text }: { icon: React.ReactNode; text: string }) {
+  return (
+    <div className="flex flex-col items-center justify-center py-16 text-center">
+      <div className="mb-3 text-muted-foreground/50">{icon}</div>
+      <p className="text-muted-foreground">{text}</p>
     </div>
   );
 }

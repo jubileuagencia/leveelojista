@@ -1,11 +1,13 @@
 'use client';
 
-import { use, useEffect, useRef } from 'react';
+import { use, useEffect, useMemo, useRef } from 'react';
 import { useRouter, useSearchParams } from 'next/navigation';
 import { Button } from '@/components/ui/button';
 import { Badge } from '@/components/ui/badge';
 import { Card, CardContent } from '@/components/ui/card';
 import { Skeleton } from '@/components/ui/skeleton';
+import { useWorkflow } from '@/hooks/use-workflows';
+import type { WorkflowStepDef } from '@/hooks/use-workflows';
 import { getWorkflowById } from '@/lib/workflows/config';
 import type { StepStatus } from '@/lib/workflows/config';
 import {
@@ -24,10 +26,12 @@ import {
   User,
 } from 'lucide-react';
 
-const STEP_TYPE_LABELS = {
+const STEP_TYPE_LABELS: Record<string, string> = {
   manual: 'Manual',
   automated: 'Automatico',
   mixed: 'Misto',
+  approval: 'Aprovacao',
+  agent: 'Agente IA',
 };
 
 export default function WorkflowExecutionPage({
@@ -39,7 +43,40 @@ export default function WorkflowExecutionPage({
   const router = useRouter();
   const searchParams = useSearchParams();
   const executionIdParam = searchParams.get('execution');
-  const workflow = getWorkflowById(workflowId);
+
+  // Fetch workflow definition from DB
+  const { data: dbWorkflow, isLoading: loadingDef } = useWorkflow(workflowId);
+
+  // Fallback to legacy config
+  const legacyWorkflow = getWorkflowById(workflowId);
+
+  // Merge: prefer DB, fallback to legacy
+  const workflow = useMemo(() => {
+    if (dbWorkflow) {
+      return {
+        id: dbWorkflow.id,
+        name: dbWorkflow.name,
+        description: dbWorkflow.description ?? '',
+        icon: dbWorkflow.icon,
+        category: dbWorkflow.category,
+        steps: dbWorkflow.steps,
+      };
+    }
+    if (legacyWorkflow) {
+      return {
+        id: legacyWorkflow.id,
+        name: legacyWorkflow.name,
+        description: legacyWorkflow.description,
+        icon: legacyWorkflow.icon,
+        category: legacyWorkflow.category,
+        steps: legacyWorkflow.steps.map((s) => ({
+          ...s,
+          type: s.type as WorkflowStepDef['type'],
+        })),
+      };
+    }
+    return null;
+  }, [dbWorkflow, legacyWorkflow]);
 
   // Fetch existing running execution for this workflow
   const { data: executions, isLoading: loadingExecs } = useWorkflowExecutions(
@@ -90,6 +127,20 @@ export default function WorkflowExecutionPage({
     }
   }, [activeExecution, executionIdParam, router, workflowId]);
 
+  const isLoading = loadingDef || loadingExecs;
+
+  if (isLoading) {
+    return (
+      <div className="space-y-4">
+        <Skeleton className="h-12 w-full" />
+        <Skeleton className="h-8 w-full" />
+        {Array.from({ length: 4 }).map((_, i) => (
+          <Skeleton key={i} className="h-24 w-full rounded-lg" />
+        ))}
+      </div>
+    );
+  }
+
   if (!workflow) {
     return (
       <div className="flex flex-col items-center justify-center py-16">
@@ -98,18 +149,6 @@ export default function WorkflowExecutionPage({
         <Button variant="outline" className="mt-4" onClick={() => router.push('/workflows')}>
           Voltar
         </Button>
-      </div>
-    );
-  }
-
-  if (loadingExecs) {
-    return (
-      <div className="space-y-4">
-        <Skeleton className="h-12 w-full" />
-        <Skeleton className="h-8 w-full" />
-        {Array.from({ length: 4 }).map((_, i) => (
-          <Skeleton key={i} className="h-24 w-full rounded-lg" />
-        ))}
       </div>
     );
   }
@@ -127,7 +166,6 @@ export default function WorkflowExecutionPage({
     const firstStepId = workflow.steps[0]?.id;
     try {
       const exec = await createExecution.mutateAsync({ workflowId });
-      // Set first step as in_progress
       if (firstStepId) {
         updateExecution.mutate({
           executionId: exec.id,
@@ -278,7 +316,7 @@ export default function WorkflowExecutionPage({
                       Step {index + 1}
                     </span>
                     <Badge variant="outline" className="text-[10px]">
-                      {STEP_TYPE_LABELS[step.type]}
+                      {STEP_TYPE_LABELS[step.type] ?? step.type}
                     </Badge>
                   </div>
                   <h3 className="mt-0.5 font-medium">{step.title}</h3>
