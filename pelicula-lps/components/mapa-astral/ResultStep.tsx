@@ -5,7 +5,7 @@ import PlanetRow from "./PlanetRow";
 import EclipseCard from "./EclipseCard";
 import ChartSVGEmbed from "./ChartSVGEmbed";
 import NatalChart from "./NatalChart";
-import type { HouseTheme } from "@/lib/eclipse-data";
+import type { HouseTheme } from "@/lib/evento";
 
 interface PlanetData {
   key: string;
@@ -35,6 +35,9 @@ interface ResultData {
     theme: HouseTheme;
     meta: {
       substackUrl: string;
+      ctaTexto?: string;
+      ctaPergunta?: string;
+      headerLabel?: string;
     };
   };
 }
@@ -226,6 +229,9 @@ export default function ResultStep({ data, onReset, userName, manychatId, cached
           theme={data.eclipse.theme}
           substackUrl={data.eclipse.meta.substackUrl}
           manychatId={manychatId}
+          headerLabel={data.eclipse.meta.headerLabel}
+          ctaTexto={data.eclipse.meta.ctaTexto}
+          ctaPergunta={data.eclipse.meta.ctaPergunta}
         />
       </div>
 

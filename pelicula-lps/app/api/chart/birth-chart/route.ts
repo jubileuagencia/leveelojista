@@ -9,7 +9,7 @@ import {
   DISPLAY_PLANETS,
   type SignKey,
 } from "@/lib/astro-constants";
-import { ECLIPSE_HOUSE_MAP, HOUSE_THEMES, ECLIPSE_META } from "@/lib/eclipse-data";
+import { getEventoParaAscendente, type Evento } from "@/lib/evento";
 import { createServiceClient } from "@/lib/supabase";
 
 const API_HOST = "astrologer.p.rapidapi.com";
@@ -28,6 +28,7 @@ interface ChartRequest {
   citySlug: string;
   instagram: string;
   manychatId: string;
+  eventoSlug: string;
 }
 
 interface PlanetPosition {
@@ -79,8 +80,42 @@ function validate(body: unknown): { data: ChartRequest; error?: string } {
 
   const instagram = String(b.instagram ?? "").trim().replace(/^@/, "");
   const manychatId = String(b.manychatId ?? "").trim();
+  const eventoSlug = String(b.eventoSlug ?? "").trim();
 
-  return { data: { name, email, day, month, year, hour, minute, citySlug, instagram, manychatId } };
+  return { data: { name, email, day, month, year, hour, minute, citySlug, instagram, manychatId, eventoSlug } };
+}
+
+async function fetchEvento(slug: string): Promise<Evento | null> {
+  try {
+    const supabase = createServiceClient();
+    // eslint-disable-next-line @typescript-eslint/no-explicit-any
+    const sb = supabase as any;
+
+    let query;
+    if (slug) {
+      query = sb.from("eventos").select("*").eq("slug", slug).maybeSingle();
+    } else {
+      query = sb.from("eventos").select("*").eq("is_active", true).order("data_evento", { ascending: false }).limit(1).maybeSingle();
+    }
+
+    const { data } = await query;
+    return data as Evento | null;
+  } catch (err) {
+    console.error("fetchEvento error:", err);
+    return null;
+  }
+}
+
+function buildEclipseResponse(evento: Evento | null, ascSignKey: SignKey) {
+  if (!evento) {
+    // Fallback — sem evento no banco
+    return {
+      house: 1,
+      theme: { title: "Evento da semana", keywords: "", description: "Nenhum evento configurado." },
+      meta: { substackUrl: "", ctaTexto: "", ctaPergunta: "", headerLabel: "" },
+    };
+  }
+  return getEventoParaAscendente(evento, ascSignKey);
 }
 
 async function callBirthChartAPI(data: ChartRequest) {
@@ -206,7 +241,7 @@ async function tagManychatSubscriber(subscriberId: string) {
   }
 }
 
-async function findExistingChart(data: ChartRequest) {
+async function findExistingChart(data: ChartRequest, evento: Evento | null) {
   try {
     const supabase = createServiceClient();
     // eslint-disable-next-line @typescript-eslint/no-explicit-any
@@ -249,7 +284,6 @@ async function findExistingChart(data: ChartRequest) {
       svg?: string;
     };
     const ascSignKey = (stored.ascendant?.signKey ?? chart.ascendant_sign ?? "Ari") as SignKey;
-    const eclipseHouse = ECLIPSE_HOUSE_MAP[ascSignKey] ?? 1;
 
     const updates: Record<string, string> = {};
     if (data.manychatId) updates.manychat_id = data.manychatId;
@@ -270,11 +304,7 @@ async function findExistingChart(data: ChartRequest) {
       planets: stored.planets ?? [],
       houseCusps: stored.houseCusps ?? [],
       svg: stored.svg ?? null,
-      eclipse: {
-        house: eclipseHouse,
-        theme: HOUSE_THEMES[eclipseHouse],
-        meta: ECLIPSE_META,
-      },
+      eclipse: buildEclipseResponse(evento, ascSignKey),
       cached: true,
     };
   } catch (err) {
@@ -361,8 +391,11 @@ export async function POST(request: Request) {
       return NextResponse.json({ error }, { status: 400 });
     }
 
+    // Buscar evento do banco
+    const evento = await fetchEvento(data.eventoSlug);
+
     // Check cache
-    const existing = await findExistingChart(data);
+    const existing = await findExistingChart(data, evento);
     if (existing) {
       if (data.manychatId && MANYCHAT_API_TOKEN) {
         tagManychatSubscriber(data.manychatId).catch(() => {});
@@ -387,9 +420,6 @@ export async function POST(request: Request) {
     const sunSign = planets.find((p) => p.key === "sun")?.signKey ?? "Ari";
     const moonSign = planets.find((p) => p.key === "moon")?.signKey ?? "Ari";
 
-    const eclipseHouse = ECLIPSE_HOUSE_MAP[ascendant.signKey] ?? 1;
-    const eclipseTheme = HOUSE_THEMES[eclipseHouse];
-
     // Save with SVG and extra data
     await saveToSupabase(data, ascendant.signKey, sunSign, moonSign, {
       planets,
@@ -407,11 +437,7 @@ export async function POST(request: Request) {
       planets,
       houseCusps,
       svg,
-      eclipse: {
-        house: eclipseHouse,
-        theme: eclipseTheme,
-        meta: ECLIPSE_META,
-      },
+      eclipse: buildEclipseResponse(evento, ascendant.signKey),
       cached: false,
     });
   } catch (err) {

@@ -1,10 +1,11 @@
 "use client";
 
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import { useSearchParams } from "next/navigation";
 import FormStep from "./FormStep";
 import LoadingStep from "./LoadingStep";
 import ResultStep from "./ResultStep";
+import type { Evento } from "@/lib/evento";
 
 type Step = "form" | "loading" | "result";
 
@@ -38,6 +39,9 @@ interface ChartResult {
     };
     meta: {
       substackUrl: string;
+      ctaTexto?: string;
+      ctaPergunta?: string;
+      headerLabel?: string;
     };
   };
   cached?: boolean;
@@ -48,12 +52,36 @@ export default function ChartWizard() {
   const mcId = searchParams.get("mc_id") ?? "";
   const urlName = searchParams.get("name") ?? "";
   const urlIg = searchParams.get("ig") ?? "";
+  const eventoSlug = searchParams.get("evento") ?? "";
 
   const [step, setStep] = useState<Step>("form");
   const [result, setResult] = useState<ChartResult | null>(null);
   const [error, setError] = useState<string | null>(null);
   const [userName, setUserName] = useState(urlName);
   const [manychatId, setManychatId] = useState(mcId);
+  const [evento, setEvento] = useState<Evento | null>(null);
+  const [eventoLoading, setEventoLoading] = useState(true);
+
+  // Buscar evento ao montar o componente
+  useEffect(() => {
+    async function fetchEvento() {
+      try {
+        const url = eventoSlug
+          ? `/api/eventos?slug=${encodeURIComponent(eventoSlug)}`
+          : "/api/eventos";
+        const res = await fetch(url);
+        if (res.ok) {
+          const data = await res.json();
+          setEvento(data);
+        }
+      } catch {
+        // Silently fail — fallback to no evento
+      } finally {
+        setEventoLoading(false);
+      }
+    }
+    fetchEvento();
+  }, [eventoSlug]);
 
   async function handleSubmit(formData: {
     name: string;
@@ -87,6 +115,7 @@ export default function ChartWizard() {
           citySlug: formData.citySlug,
           instagram: formData.instagram,
           manychatId: formData.manychatId,
+          eventoSlug: evento?.slug ?? "",
         }),
       });
 
@@ -119,6 +148,19 @@ export default function ChartWizard() {
     setResult(null);
     setError(null);
     setStep("form");
+  }
+
+  if (eventoLoading) {
+    return (
+      <div className="py-16 md:py-24 px-6">
+        <div className="max-w-md mx-auto text-center">
+          <div className="animate-pulse">
+            <div className="h-4 bg-white/10 rounded w-48 mx-auto mb-4" />
+            <div className="h-8 bg-white/10 rounded w-64 mx-auto" />
+          </div>
+        </div>
+      </div>
+    );
   }
 
   return (
