@@ -10,7 +10,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Descubra onde o evento da semana cai no seu mapa | Película Sideral",
     description:
-      "Calcule seu mapa astral e veja em qual casa da sua vida o cazimi Mercúrio-Sol traz clareza. Ferramenta gratuita da Película Sideral.",
+      "Calcule seu mapa astral e veja em qual casa da sua vida o evento astrológico da semana aterrissa. Ferramenta gratuita da Película Sideral.",
     type: "website",
   },
 };

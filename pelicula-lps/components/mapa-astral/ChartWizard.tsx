@@ -180,6 +180,7 @@ export default function ChartWizard() {
             instagram: urlIg,
             manychatId: mcId,
           }}
+          evento={evento ? { titulo: evento.titulo, tipo: evento.tipo, signo: evento.signo } : null}
         />
       )}
 
