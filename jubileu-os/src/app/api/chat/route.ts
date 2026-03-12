@@ -115,7 +115,7 @@ export async function POST(request: Request) {
     const modelId =
       requestedModel ||
       process.env.DEFAULT_MODEL ||
-      'anthropic/claude-sonnet-4';
+      'anthropic/claude-sonnet-4.5';
 
     try {
       console.log('[chat] calling OpenRouter model=%s', modelId);
