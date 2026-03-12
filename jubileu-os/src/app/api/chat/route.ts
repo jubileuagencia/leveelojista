@@ -1,4 +1,4 @@
-import { createOpenRouter } from '@openrouter/ai-sdk-provider';
+import { createOpenAI } from '@ai-sdk/openai';
 import {
   streamText,
   convertToModelMessages,
@@ -45,6 +45,19 @@ function createErrorStream(message: string) {
   });
 }
 
+// Use OpenAI-compatible provider pointing to OpenRouter API
+function getOpenRouterProvider() {
+  return createOpenAI({
+    apiKey: process.env.OPENROUTER_API_KEY,
+    baseURL: 'https://openrouter.ai/api/v1',
+    headers: {
+      'X-Title': 'Jubileu OS',
+      'HTTP-Referer':
+        process.env.NEXT_PUBLIC_APP_URL || 'http://localhost:3000',
+    },
+  });
+}
+
 export async function POST(request: Request) {
   try {
     const supabase = await createClient();
@@ -65,7 +78,6 @@ export async function POST(request: Request) {
       );
     }
 
-    // Convert UI messages (parts format) to model messages (content format)
     const messages = await convertToModelMessages(rawMessages as UIMessage[]);
 
     const agent = getAgentById(agentId);
@@ -76,7 +88,6 @@ export async function POST(request: Request) {
     console.log('[chat] agent=%s, devMode=%s, llmConfigured=%s, user=%s',
       agentId, isDevMode(), isLLMConfigured(), user?.id ?? 'none');
 
-    // Mock response when no API key configured
     if (!isLLMConfigured()) {
       const lastUserMsg = rawMessages.findLast(
         (m: { role: string }) => m.role === 'user',
@@ -103,15 +114,7 @@ export async function POST(request: Request) {
       return createErrorStream(mockContent);
     }
 
-    const openrouter = createOpenRouter({
-      apiKey: process.env.OPENROUTER_API_KEY,
-      headers: {
-        'X-Title': 'Jubileu OS',
-        'HTTP-Referer':
-          process.env.NEXT_PUBLIC_APP_URL || 'http://localhost:3000',
-      },
-    });
-
+    const openrouter = getOpenRouterProvider();
     const modelId =
       requestedModel ||
       process.env.DEFAULT_MODEL ||
