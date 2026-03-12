@@ -1,9 +1,11 @@
 import { createOpenRouter } from '@openrouter/ai-sdk-provider';
 import {
   streamText,
+  convertToModelMessages,
   createUIMessageStreamResponse,
   createUIMessageStream,
 } from 'ai';
+import type { UIMessage } from 'ai';
 import { NextResponse } from 'next/server';
 import { createClient } from '@/lib/supabase/server';
 import { getAgentById } from '@/lib/agents/config';
@@ -54,14 +56,17 @@ export async function POST(request: Request) {
       return NextResponse.json({ error: 'Unauthorized' }, { status: 401 });
     }
 
-    const { messages, agentId, model: requestedModel } = await request.json();
+    const { messages: rawMessages, agentId, model: requestedModel } = await request.json();
 
-    if (!agentId || !Array.isArray(messages)) {
+    if (!agentId || !Array.isArray(rawMessages)) {
       return NextResponse.json(
         { error: 'agentId and messages required' },
         { status: 400 },
       );
     }
+
+    // Convert UI messages (parts format) to model messages (content format)
+    const messages = await convertToModelMessages(rawMessages as UIMessage[]);
 
     const agent = getAgentById(agentId);
     if (!agent) {
@@ -73,7 +78,7 @@ export async function POST(request: Request) {
 
     // Mock response when no API key configured
     if (!isLLMConfigured()) {
-      const lastUserMsg = messages.findLast(
+      const lastUserMsg = rawMessages.findLast(
         (m: { role: string }) => m.role === 'user',
       );
       const lastText =
