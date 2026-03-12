@@ -17,6 +17,8 @@ export function useChatSession(sessionId: string | null) {
     queryKey: ['chat-session', sessionId],
     queryFn: () => api.get(`/chat/sessions/${sessionId}`),
     enabled: !!sessionId,
+    retry: 1,
+    refetchOnWindowFocus: false,
   });
 }
 

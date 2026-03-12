@@ -14,7 +14,17 @@ export async function GET(
   const { sessionId } = await params;
 
   if (isDevMode()) {
-    return NextResponse.json({ error: 'Not found in dev mode' }, { status: 404 });
+    // Return a valid empty session so the frontend doesn't 404-loop
+    return NextResponse.json({
+      id: sessionId,
+      user_id: 'dev-user-001',
+      agent_id: 'unknown',
+      title: 'Nova conversa',
+      messages: [],
+      context_refs: [],
+      created_at: new Date().toISOString(),
+      updated_at: new Date().toISOString(),
+    });
   }
 
   const supabase = await createClient();

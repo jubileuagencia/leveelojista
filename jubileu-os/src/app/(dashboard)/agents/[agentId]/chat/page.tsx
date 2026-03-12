@@ -58,6 +58,7 @@ export default function AgentChatPage({
     status,
     setMessages,
     stop,
+    error,
   } = useChat({
     transport: new DefaultChatTransport({
       api: '/api/chat',
@@ -308,6 +309,14 @@ export default function AgentChatPage({
           ))}
           <div ref={messagesEndRef} />
         </div>
+
+        {/* Error banner */}
+        {error && (
+          <div className="shrink-0 mx-3 mb-1 rounded-lg border border-destructive/30 bg-destructive/10 px-3 py-2 text-sm text-destructive">
+            <span className="font-medium">Erro: </span>
+            {error.message || 'Falha ao obter resposta do agente.'}
+          </div>
+        )}
 
         {/* Input */}
         <div className="shrink-0 px-3 py-3 pb-[calc(0.75rem+env(safe-area-inset-bottom))]">
