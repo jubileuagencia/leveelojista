@@ -1,5 +1,5 @@
 import { redirect } from 'next/navigation';
-import { createClient } from '@/lib/supabase/server';
+import { createClient, createServiceClient } from '@/lib/supabase/server';
 import type { Profile, UserRole } from '@/types';
 
 // Dev mode mock user (when Supabase is not configured)
@@ -32,7 +32,9 @@ export async function getUser(): Promise<Profile | null> {
 
   if (!user) return null;
 
-  const { data: profile } = await supabase
+  // Use service role to bypass RLS (avoids recursive policy on profiles table)
+  const serviceClient = await createServiceClient();
+  const { data: profile } = await serviceClient
     .from('profiles')
     .select('*')
     .eq('id', user.id)
