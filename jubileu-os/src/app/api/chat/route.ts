@@ -124,7 +124,7 @@ export async function POST(request: Request) {
     try {
       console.log('[chat] calling OpenRouter model=%s', modelId);
       const result = streamText({
-        model: openrouter(modelId),
+        model: openrouter.chat(modelId),
         system: buildSystemPrompt(agentId),
         messages,
         maxOutputTokens: 4096,
