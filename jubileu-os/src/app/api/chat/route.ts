@@ -48,7 +48,7 @@ function createErrorStream(message: string) {
 // Use OpenAI-compatible provider pointing to OpenRouter API
 function getOpenRouterProvider() {
   return createOpenAI({
-    apiKey: process.env.OPENROUTER_API_KEY,
+    apiKey: process.env.OPENROUTER_API_KEY?.trim(),
     baseURL: 'https://openrouter.ai/api/v1',
     headers: {
       'X-Title': 'Jubileu OS',
@@ -115,10 +115,11 @@ export async function POST(request: Request) {
     }
 
     const openrouter = getOpenRouterProvider();
-    const modelId =
+    const modelId = (
       requestedModel ||
       process.env.DEFAULT_MODEL ||
-      'anthropic/claude-sonnet-4.5';
+      'anthropic/claude-sonnet-4.5'
+    ).trim();
 
     try {
       console.log('[chat] calling OpenRouter model=%s', modelId);
