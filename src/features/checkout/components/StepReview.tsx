@@ -4,6 +4,7 @@ import { Button } from '@/components/ui/button'
 import { Badge } from '@/components/ui/badge'
 import { Separator } from '@/components/ui/separator'
 import { formatCurrency, formatCEP } from '@/lib/format'
+import { getUnitShort } from '@/lib/unit-labels'
 import { useCheckoutStore } from '@/features/checkout/stores/checkout-store'
 import { useCartStore } from '@/stores/cart-store'
 import { useAuthStore } from '@/stores/auth-store'
@@ -30,12 +31,12 @@ export function StepReview() {
 
   const selectedAddress = addresses.find((a) => a.id === selectedAddressId)
 
-  const tier = profile?.tier ?? 'bronze'
-  const discountRate = tier === 'bronze' ? 0 : (tierDiscounts[tier] ?? 0)
+  const tier = profile?.tier ?? 'ouro'
+  const discountRate = tier === 'ouro' ? 0 : (tierDiscounts[tier as keyof typeof tierDiscounts] ?? 0)
 
   // Calculate totals
   const subtotal = items.reduce((sum, item) => {
-    const price = item.product?.price ?? 0
+    const price = item.variant?.unit_price ?? item.product?.price ?? 0
     return sum + price * item.quantity
   }, 0)
   const discountAmount = subtotal * discountRate
@@ -105,10 +106,12 @@ export function StepReview() {
         </h3>
         <div className="space-y-3">
           {items.map((item) => {
-            const basePrice = item.product?.price ?? 0
+            const basePrice = item.variant?.unit_price ?? item.product?.price ?? 0
             const itemDiscount = basePrice * discountRate
             const finalPrice = basePrice - itemDiscount
             const lineTotal = finalPrice * item.quantity
+            const unitType = item.variant?.unit_type ?? item.product?.unit ?? 'un'
+            const unitLabel = item.variant?.unit_label ?? getUnitShort(unitType)
 
             return (
               <div
@@ -136,6 +139,9 @@ export function StepReview() {
                     {item.product?.name ?? 'Produto'}
                   </h4>
                   <div className="flex items-center gap-2 mt-0.5">
+                    <Badge variant="secondary" className="text-[10px] px-1.5 py-0 h-4">
+                      {unitLabel}
+                    </Badge>
                     <span className="text-xs text-muted-foreground">
                       {item.quantity}x{' '}
                       {discountRate > 0 ? (

@@ -16,6 +16,7 @@ import { Skeleton } from '@/components/ui/skeleton'
 import { Badge } from '@/components/ui/badge'
 import { cn } from '@/lib/utils'
 import { formatCurrency, formatDateTime, formatOrderNumber } from '@/lib/format'
+import { getUnitShort } from '@/lib/unit-labels'
 import { getOrderById } from '@/features/orders/services/orders'
 import { OrderStatusBadge } from '@/features/orders/components/OrderStatusBadge'
 import { OrderTimeline } from '@/features/orders/components/OrderTimeline'
@@ -127,7 +128,9 @@ export default function OrderDetailsPage() {
                     {item.product?.name ?? 'Produto'}
                   </p>
                   <p className="text-xs text-muted-foreground">
-                    {item.quantity}x {formatCurrency(item.unit_price)}
+                    {item.quantity}
+                    {item.unit_type ? ` ${getUnitShort(item.unit_type)}` : ''} x{' '}
+                    {formatCurrency(item.unit_price)}
                   </p>
                 </div>
                 <div className="shrink-0 text-right">

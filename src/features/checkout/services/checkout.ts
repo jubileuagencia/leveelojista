@@ -37,7 +37,7 @@ export async function setMainAddress(addressId: string): Promise<void> {
 export async function createOrder(params: {
   addressId: string
   paymentMethod: PaymentMethod
-  items: { product_id: string; quantity: number; unit_price: number }[]
+  items: { product_id: string; quantity: number; unit_price: number; variant_id?: string | null }[]
 }): Promise<string> {
   const rpcParams = {
     p_address_id: params.addressId,

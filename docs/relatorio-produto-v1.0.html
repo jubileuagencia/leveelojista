@@ -1,0 +1,792 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Levee Lojista - Relatorio de Produto v1.0</title>
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap');
+
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+
+  body {
+    font-family: 'Inter', -apple-system, sans-serif;
+    color: #1e293b;
+    background: #fff;
+    -webkit-print-color-adjust: exact;
+    print-color-adjust: exact;
+  }
+
+  @page {
+    size: A4 landscape;
+    margin: 0;
+  }
+
+  .page {
+    width: 1280px;
+    height: 720px;
+    position: relative;
+    overflow: hidden;
+    page-break-after: always;
+    display: flex;
+    background: #fff;
+  }
+
+  /* === COVER PAGE === */
+  .cover {
+    background: linear-gradient(135deg, #22c55e 0%, #16a34a 50%, #15803d 100%);
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: #fff;
+    text-align: center;
+  }
+  .cover .logo {
+    width: 100px;
+    height: 100px;
+    background: rgba(255,255,255,0.15);
+    border-radius: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 56px;
+    margin-bottom: 24px;
+  }
+  .cover .version-badge {
+    background: rgba(255,255,255,0.2);
+    padding: 6px 20px;
+    border-radius: 20px;
+    font-size: 14px;
+    font-weight: 500;
+    margin-bottom: 20px;
+    letter-spacing: 0.5px;
+  }
+  .cover h1 {
+    font-size: 72px;
+    font-weight: 800;
+    letter-spacing: -2px;
+    margin-bottom: 12px;
+  }
+  .cover .subtitle {
+    font-size: 22px;
+    font-weight: 300;
+    opacity: 0.9;
+    margin-bottom: 32px;
+  }
+  .cover .date {
+    font-size: 16px;
+    opacity: 0.7;
+    margin-bottom: 24px;
+  }
+  .cover .cta {
+    background: rgba(255,255,255,0.2);
+    border: 1px solid rgba(255,255,255,0.3);
+    padding: 12px 32px;
+    border-radius: 12px;
+    font-size: 16px;
+    font-weight: 500;
+    color: #fff;
+    text-decoration: none;
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+  }
+
+  /* === STEP PAGES === */
+  .step-page {
+    display: flex;
+    align-items: center;
+    padding: 60px 80px;
+    gap: 60px;
+  }
+
+  .phone-mockup {
+    flex-shrink: 0;
+    width: 280px;
+    height: 580px;
+    background: #111;
+    border-radius: 40px;
+    padding: 12px;
+    box-shadow: 0 25px 60px rgba(0,0,0,0.15), inset 0 0 0 2px #333;
+    position: relative;
+  }
+  .phone-mockup::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 120px;
+    height: 28px;
+    background: #111;
+    border-radius: 0 0 16px 16px;
+    z-index: 2;
+  }
+  .phone-mockup img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: top;
+    border-radius: 28px;
+    display: block;
+  }
+
+  .step-content {
+    flex: 1;
+    max-width: 660px;
+  }
+
+  .step-tag {
+    display: inline-block;
+    background: #f0fdf4;
+    color: #16a34a;
+    font-size: 13px;
+    font-weight: 600;
+    padding: 6px 16px;
+    border-radius: 8px;
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+  }
+
+  .step-content h2 {
+    font-size: 40px;
+    font-weight: 700;
+    letter-spacing: -1px;
+    margin-bottom: 16px;
+    color: #0f172a;
+  }
+
+  .step-content .description {
+    font-size: 17px;
+    line-height: 1.6;
+    color: #475569;
+    margin-bottom: 32px;
+  }
+
+  .feature-list {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+  }
+
+  .feature-item {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+  }
+
+  .feature-icon {
+    width: 44px;
+    height: 44px;
+    background: #f0fdf4;
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+    flex-shrink: 0;
+  }
+
+  .feature-text {
+    font-size: 16px;
+    color: #334155;
+    line-height: 1.4;
+  }
+
+  .feature-text strong {
+    color: #0f172a;
+  }
+
+  /* === SUMMARY PAGE === */
+  .summary-page {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 60px 80px;
+  }
+
+  .summary-page h2 {
+    font-size: 44px;
+    font-weight: 700;
+    margin-bottom: 48px;
+    color: #0f172a;
+  }
+
+  .metrics-row {
+    display: flex;
+    gap: 40px;
+    margin-bottom: 48px;
+  }
+
+  .metric-card {
+    width: 200px;
+    height: 160px;
+    background: #fff;
+    border: 1px solid #e2e8f0;
+    border-radius: 16px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.04);
+  }
+
+  .metric-value {
+    font-size: 52px;
+    font-weight: 700;
+    color: #22c55e;
+    letter-spacing: -2px;
+  }
+
+  .metric-label {
+    font-size: 15px;
+    color: #64748b;
+    margin-top: 4px;
+  }
+
+  .tech-tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+    justify-content: center;
+  }
+
+  .tech-tag {
+    padding: 8px 20px;
+    background: #fff;
+    border: 1px solid #e2e8f0;
+    border-radius: 24px;
+    font-size: 14px;
+    font-weight: 500;
+    color: #475569;
+  }
+
+  /* === PRINT === */
+  @media print {
+    .page { page-break-after: always; }
+    body { background: #fff; }
+  }
+</style>
+</head>
+<body>
+
+<!-- PAGE 1: COVER -->
+<div class="page cover">
+  <div class="logo">&#127822;</div>
+  <div class="version-badge">v1.0</div>
+  <h1>Levee Lojista</h1>
+  <div class="subtitle">Plataforma de Vendas B2B para Hortifruti</div>
+  <div class="date">Fevereiro 2026</div>
+  <a class="cta" href="https://leveelojista.vercel.app/login" target="_blank">&#127760; Acessar Versao Web</a>
+</div>
+
+<!-- PAGE 2: PASSO 1 - Login -->
+<div class="page step-page">
+  <div class="phone-mockup">
+    <img src="report-screenshots/01-login.png" alt="Tela de Login">
+  </div>
+  <div class="step-content">
+    <div class="step-tag">PASSO 1</div>
+    <h2>Acesso Seguro</h2>
+    <p class="description">O lojista acessa a plataforma com e-mail e senha. Interface limpa com split-screen no desktop e formulario otimizado para mobile.</p>
+    <ul class="feature-list">
+      <li class="feature-item">
+        <div class="feature-icon">&#128274;</div>
+        <span class="feature-text">Login com credenciais seguras</span>
+      </li>
+      <li class="feature-item">
+        <div class="feature-icon">&#128221;</div>
+        <span class="feature-text">Cadastro self-service para novos clientes</span>
+      </li>
+      <li class="feature-item">
+        <div class="feature-icon">&#127970;</div>
+        <span class="feature-text">Dados comerciais: Razao Social, CNPJ, Telefone</span>
+      </li>
+      <li class="feature-item">
+        <div class="feature-icon">&#128241;</div>
+        <span class="feature-text">Layout split-screen (branding + formulario)</span>
+      </li>
+    </ul>
+  </div>
+</div>
+
+<!-- PAGE 3: PASSO 2 - Cadastro -->
+<div class="page step-page">
+  <div class="phone-mockup">
+    <img src="report-screenshots/02-cadastro.png" alt="Tela de Cadastro">
+  </div>
+  <div class="step-content">
+    <div class="step-tag">PASSO 2</div>
+    <h2>Cadastro Completo</h2>
+    <p class="description">Novos clientes se cadastram de forma autonoma em um fluxo multi-step. Dados comerciais, endereco com preenchimento automatico por CEP, e ativacao imediata.</p>
+    <ul class="feature-list">
+      <li class="feature-item">
+        <div class="feature-icon">&#127970;</div>
+        <span class="feature-text">Razao Social e CNPJ</span>
+      </li>
+      <li class="feature-item">
+        <div class="feature-icon">&#128241;</div>
+        <span class="feature-text">Telefone de contato</span>
+      </li>
+      <li class="feature-item">
+        <div class="feature-icon">&#128231;</div>
+        <span class="feature-text">E-mail e senha seguros</span>
+      </li>
+      <li class="feature-item">
+        <div class="feature-icon">&#128205;</div>
+        <span class="feature-text">Endereco com auto-preenchimento via CEP</span>
+      </li>
+    </ul>
+  </div>
+</div>
+
+<!-- PAGE 4: PASSO 3 - Catalogo -->
+<div class="page step-page">
+  <div class="phone-mockup">
+    <img src="report-screenshots/03-catalogo-home.png" alt="Catalogo Home">
+  </div>
+  <div class="step-content">
+    <div class="step-tag">PASSO 3</div>
+    <h2>Catalogo Completo</h2>
+    <p class="description">Apos o login, o cliente tem acesso imediato ao catalogo organizado por categorias, com precos personalizados pelo seu nivel de desconto.</p>
+    <ul class="feature-list">
+      <li class="feature-item">
+        <div class="feature-icon">&#128075;</div>
+        <span class="feature-text">Saudacao personalizada com badge de nivel (Bronze/Prata/Ouro)</span>
+      </li>
+      <li class="feature-item">
+        <div class="feature-icon">&#128269;</div>
+        <span class="feature-text">Barra de busca sempre visivel</span>
+      </li>
+      <li class="feature-item">
+        <div class="feature-icon">&#129382;</div>
+        <span class="feature-text">Categorias visuais (Frutas, Legumes, Verduras, Raizes...)</span>
+      </li>
+      <li class="feature-item">
+        <div class="feature-icon">&#9889;</div>
+        <span class="feature-text">Secao "Recompra Rapida" com itens do ultimo pedido</span>
+      </li>
+    </ul>
+  </div>
+</div>
+
+<!-- PAGE 5: PASSO 4 - Grid de Produtos -->
+<div class="page step-page">
+  <div class="phone-mockup">
+    <img src="report-screenshots/04-catalogo-produtos.png" alt="Grid de Produtos">
+  </div>
+  <div class="step-content">
+    <div class="step-tag">PASSO 4</div>
+    <h2>Navegacao por Categorias</h2>
+    <p class="description">O catalogo e dividido em secoes claras. O lojista encontra qualquer produto em segundos, mesmo com centenas de itens.</p>
+    <ul class="feature-list">
+      <li class="feature-item">
+        <div class="feature-icon">&#128194;</div>
+        <span class="feature-text">Filtro por categoria (Frutas, Verduras, Legumes, Organicos...)</span>
+      </li>
+      <li class="feature-item">
+        <div class="feature-icon">&#128269;</div>
+        <span class="feature-text">Busca rapida por nome</span>
+      </li>
+      <li class="feature-item">
+        <div class="feature-icon">&#10084;&#65039;</div>
+        <span class="feature-text">Marcar favoritos para recompra</span>
+      </li>
+      <li class="feature-item">
+        <div class="feature-icon">&#128176;</div>
+        <span class="feature-text">Preco com desconto do nivel calculado automaticamente</span>
+      </li>
+    </ul>
+  </div>
+</div>
+
+<!-- PAGE 6: PASSO 5 - Busca -->
+<div class="page step-page">
+  <div class="phone-mockup">
+    <img src="report-screenshots/05-busca.png" alt="Busca Inteligente">
+  </div>
+  <div class="step-content">
+    <div class="step-tag">PASSO 5</div>
+    <h2>Busca Inteligente</h2>
+    <p class="description">O lojista encontra qualquer produto rapidamente digitando o nome. Resultados aparecem em tempo real com debounce inteligente, sem precisar apertar "Enter".</p>
+    <ul class="feature-list">
+      <li class="feature-item">
+        <div class="feature-icon">&#128269;</div>
+        <span class="feature-text">Busca por nome em tempo real (debounced)</span>
+      </li>
+      <li class="feature-item">
+        <div class="feature-icon">&#9889;</div>
+        <span class="feature-text">Resultados instantaneos com contagem</span>
+      </li>
+      <li class="feature-item">
+        <div class="feature-icon">&#128722;</div>
+        <span class="feature-text">Adicionar ao carrinho direto dos resultados</span>
+      </li>
+      <li class="feature-item">
+        <div class="feature-icon">&#128338;</div>
+        <span class="feature-text">Buscas recentes salvas localmente</span>
+      </li>
+    </ul>
+  </div>
+</div>
+
+<!-- PAGE 7: PASSO 6 - Detalhe Produto -->
+<div class="page step-page">
+  <div class="phone-mockup">
+    <img src="report-screenshots/06-detalhe-produto.png" alt="Detalhe do Produto">
+  </div>
+  <div class="step-content">
+    <div class="step-tag">PASSO 6</div>
+    <h2>Detalhe do Produto</h2>
+    <p class="description">Ao tocar em qualquer produto, uma pagina de detalhes exibe informacoes completas com foto ampliada, precos por nivel, e acao direta de compra.</p>
+    <ul class="feature-list">
+      <li class="feature-item">
+        <div class="feature-icon">&#128247;</div>
+        <span class="feature-text">Foto ampliada do produto</span>
+      </li>
+      <li class="feature-item">
+        <div class="feature-icon">&#128203;</div>
+        <span class="feature-text">Descricao, preco e unidade</span>
+      </li>
+      <li class="feature-item">
+        <div class="feature-icon">&#128722;</div>
+        <span class="feature-text">Adicionar ao carrinho com seletor de quantidade</span>
+      </li>
+      <li class="feature-item">
+        <div class="feature-icon">&#10084;&#65039;</div>
+        <span class="feature-text">Favoritar com um toque</span>
+      </li>
+    </ul>
+  </div>
+</div>
+
+<!-- PAGE 8: PASSO 7 - Favoritos -->
+<div class="page step-page">
+  <div class="phone-mockup">
+    <img src="report-screenshots/07-favoritos.png" alt="Favoritos">
+  </div>
+  <div class="step-content">
+    <div class="step-tag">PASSO 7</div>
+    <h2>Favoritos &amp; Recompra</h2>
+    <p class="description">Itens comprados com frequencia podem ser salvos nos favoritos. Ideal para restaurantes e lojistas que pedem os mesmos ingredientes toda semana.</p>
+    <ul class="feature-list">
+      <li class="feature-item">
+        <div class="feature-icon">&#11088;</div>
+        <span class="feature-text">Lista personalizada por cliente</span>
+      </li>
+      <li class="feature-item">
+        <div class="feature-icon">&#128260;</div>
+        <span class="feature-text">Acesso rapido para pedidos recorrentes</span>
+      </li>
+      <li class="feature-item">
+        <div class="feature-icon">&#128722;</div>
+        <span class="feature-text">Adicionar ao carrinho direto dos favoritos</span>
+      </li>
+      <li class="feature-item">
+        <div class="feature-icon">&#9729;&#65039;</div>
+        <span class="feature-text">Sincronizado na nuvem (multi-dispositivo)</span>
+      </li>
+    </ul>
+  </div>
+</div>
+
+<!-- PAGE 9: PASSO 8 - Carrinho -->
+<div class="page step-page">
+  <div class="phone-mockup">
+    <img src="report-screenshots/08-carrinho.png" alt="Carrinho">
+  </div>
+  <div class="step-content">
+    <div class="step-tag">PASSO 8</div>
+    <h2>Carrinho Inteligente</h2>
+    <p class="description">O carrinho persiste entre sessoes e sincroniza na nuvem. O lojista pode montar pedidos ao longo do dia e finalizar quando quiser, de qualquer dispositivo.</p>
+    <ul class="feature-list">
+      <li class="feature-item">
+        <div class="feature-icon">&#10133;</div>
+        <span class="feature-text">Ajustar quantidades com botoes + / &minus;</span>
+      </li>
+      <li class="feature-item">
+        <div class="feature-icon">&#128184;</div>
+        <span class="feature-text">Desconto do nivel calculado automaticamente</span>
+      </li>
+      <li class="feature-item">
+        <div class="feature-icon">&#128203;</div>
+        <span class="feature-text">Resumo: Subtotal, Desconto, Taxa, Total</span>
+      </li>
+      <li class="feature-item">
+        <div class="feature-icon">&#9729;&#65039;</div>
+        <span class="feature-text">Sincronizado na nuvem (multi-dispositivo)</span>
+      </li>
+    </ul>
+  </div>
+</div>
+
+<!-- PAGE 10: PASSO 9 - Checkout -->
+<div class="page step-page">
+  <div class="phone-mockup">
+    <img src="report-screenshots/09-checkout.png" alt="Checkout">
+  </div>
+  <div class="step-content">
+    <div class="step-tag">PASSO 9</div>
+    <h2>Checkout Guiado</h2>
+    <p class="description">O processo de compra e guiado com um wizard de 4 etapas visuais. Simples, sem confusao, sem formularios gigantes.</p>
+    <ul class="feature-list">
+      <li class="feature-item">
+        <div class="feature-icon">&#128205;</div>
+        <span class="feature-text"><strong>Etapa 1:</strong> Escolher endereco de entrega</span>
+      </li>
+      <li class="feature-item">
+        <div class="feature-icon">&#128179;</div>
+        <span class="feature-text"><strong>Etapa 2:</strong> Forma de pagamento (PIX ou Boleto)</span>
+      </li>
+      <li class="feature-item">
+        <div class="feature-icon">&#128203;</div>
+        <span class="feature-text"><strong>Etapa 3:</strong> Revisao completa do pedido</span>
+      </li>
+      <li class="feature-item">
+        <div class="feature-icon">&#127881;</div>
+        <span class="feature-text"><strong>Etapa 4:</strong> Confirmacao e numero do pedido</span>
+      </li>
+    </ul>
+  </div>
+</div>
+
+<!-- PAGE 11: PASSO 10 - Pedidos -->
+<div class="page step-page">
+  <div class="phone-mockup">
+    <img src="report-screenshots/10-pedidos.png" alt="Meus Pedidos">
+  </div>
+  <div class="step-content">
+    <div class="step-tag">PASSO 10</div>
+    <h2>Acompanhamento de Pedidos</h2>
+    <p class="description">Historico completo de compras com status em tempo real. O lojista sabe exatamente onde esta cada pedido.</p>
+    <ul class="feature-list">
+      <li class="feature-item">
+        <div class="feature-icon">&#128203;</div>
+        <span class="feature-text">Historico completo com filtros (Todos / Em andamento / Entregues)</span>
+      </li>
+      <li class="feature-item">
+        <div class="feature-icon">&#128994;</div>
+        <span class="feature-text">Status visual: Pendente &rarr; Aprovado &rarr; Preparando &rarr; Entregue</span>
+      </li>
+      <li class="feature-item">
+        <div class="feature-icon">&#128230;</div>
+        <span class="feature-text">Detalhes de cada pedido (itens, precos, endereco)</span>
+      </li>
+    </ul>
+  </div>
+</div>
+
+<!-- PAGE 12: PASSO 11 - Detalhe Pedido -->
+<div class="page step-page">
+  <div class="phone-mockup">
+    <img src="report-screenshots/11-pedido-detalhe.png" alt="Detalhe do Pedido">
+  </div>
+  <div class="step-content">
+    <div class="step-tag">PASSO 11</div>
+    <h2>Detalhes do Pedido</h2>
+    <p class="description">Cada pedido tem uma pagina dedicada com timeline de status, lista de itens, endereco de entrega, metodo de pagamento e resumo financeiro.</p>
+    <ul class="feature-list">
+      <li class="feature-item">
+        <div class="feature-icon">&#128200;</div>
+        <span class="feature-text">Timeline visual com 5 etapas e timestamps</span>
+      </li>
+      <li class="feature-item">
+        <div class="feature-icon">&#128230;</div>
+        <span class="feature-text">Lista completa de itens com quantidades e precos</span>
+      </li>
+      <li class="feature-item">
+        <div class="feature-icon">&#128205;</div>
+        <span class="feature-text">Endereco de entrega e forma de pagamento</span>
+      </li>
+      <li class="feature-item">
+        <div class="feature-icon">&#128176;</div>
+        <span class="feature-text">Resumo financeiro (subtotal, desconto, total)</span>
+      </li>
+    </ul>
+  </div>
+</div>
+
+<!-- PAGE 13: GESTAO - Dashboard -->
+<div class="page step-page">
+  <div class="phone-mockup">
+    <img src="report-screenshots/12-admin-dashboard.png" alt="Admin Dashboard">
+  </div>
+  <div class="step-content">
+    <div class="step-tag" style="background:#fef3c7;color:#d97706;">GESTAO</div>
+    <h2>Painel Administrativo</h2>
+    <p class="description">Dashboard exclusivo para gestores com visao 360&deg; do negocio. Metricas em tempo real, graficos de performance e pedidos recentes.</p>
+    <ul class="feature-list">
+      <li class="feature-item">
+        <div class="feature-icon" style="background:#fef3c7;">&#128200;</div>
+        <span class="feature-text">4 cards de metricas: Pedidos, Pedidos Hoje, Clientes, Receita</span>
+      </li>
+      <li class="feature-item">
+        <div class="feature-icon" style="background:#fef3c7;">&#128202;</div>
+        <span class="feature-text">Grafico de pedidos por status (barras)</span>
+      </li>
+      <li class="feature-item">
+        <div class="feature-icon" style="background:#fef3c7;">&#128221;</div>
+        <span class="feature-text">Tabela de pedidos recentes</span>
+      </li>
+      <li class="feature-item">
+        <div class="feature-icon" style="background:#fef3c7;">&#128274;</div>
+        <span class="feature-text">Acesso restrito (apenas administradores)</span>
+      </li>
+    </ul>
+  </div>
+</div>
+
+<!-- PAGE 14: GESTAO - Produtos -->
+<div class="page step-page">
+  <div class="phone-mockup">
+    <img src="report-screenshots/13-admin-produtos.png" alt="Admin Produtos">
+  </div>
+  <div class="step-content">
+    <div class="step-tag" style="background:#fef3c7;color:#d97706;">GESTAO</div>
+    <h2>Gestao de Produtos</h2>
+    <p class="description">Interface completa para gerenciar o catalogo. Busca, filtros, edicao em massa e upload de imagens &mdash; tudo funciona 100% no celular.</p>
+    <ul class="feature-list">
+      <li class="feature-item">
+        <div class="feature-icon" style="background:#fef3c7;">&#128221;</div>
+        <span class="feature-text">Criar, editar e excluir produtos (soft-delete)</span>
+      </li>
+      <li class="feature-item">
+        <div class="feature-icon" style="background:#fef3c7;">&#128260;</div>
+        <span class="feature-text">Ativar / Desativar itens</span>
+      </li>
+      <li class="feature-item">
+        <div class="feature-icon" style="background:#fef3c7;">&#128248;</div>
+        <span class="feature-text">Upload de imagem (Supabase Storage)</span>
+      </li>
+      <li class="feature-item">
+        <div class="feature-icon" style="background:#fef3c7;">&#128241;</div>
+        <span class="feature-text">Acoes em massa: ativar, desativar ou excluir varios</span>
+      </li>
+    </ul>
+  </div>
+</div>
+
+<!-- PAGE 15: GESTAO - Pedidos -->
+<div class="page step-page">
+  <div class="phone-mockup">
+    <img src="report-screenshots/14-admin-pedidos.png" alt="Admin Pedidos">
+  </div>
+  <div class="step-content">
+    <div class="step-tag" style="background:#fef3c7;color:#d97706;">GESTAO</div>
+    <h2>Gestao de Pedidos</h2>
+    <p class="description">Controle total dos pedidos recebidos. Busca avancada por numero, empresa ou CNPJ, com atualizacao de status individual ou em massa.</p>
+    <ul class="feature-list">
+      <li class="feature-item">
+        <div class="feature-icon" style="background:#fef3c7;">&#128269;</div>
+        <span class="feature-text">Busca avancada (numero do pedido, nome, CNPJ)</span>
+      </li>
+      <li class="feature-item">
+        <div class="feature-icon" style="background:#fef3c7;">&#127991;&#65039;</div>
+        <span class="feature-text">Filtro por status com chips visuais (multi-selecao)</span>
+      </li>
+      <li class="feature-item">
+        <div class="feature-icon" style="background:#fef3c7;">&#128260;</div>
+        <span class="feature-text">Alterar status individual ou em massa</span>
+      </li>
+      <li class="feature-item">
+        <div class="feature-icon" style="background:#fef3c7;">&#128203;</div>
+        <span class="feature-text">Modal de detalhes com timeline completa</span>
+      </li>
+    </ul>
+  </div>
+</div>
+
+<!-- PAGE 16: GESTAO - Clientes -->
+<div class="page step-page">
+  <div class="phone-mockup">
+    <img src="report-screenshots/15-admin-clientes.png" alt="Admin Clientes">
+  </div>
+  <div class="step-content">
+    <div class="step-tag" style="background:#fef3c7;color:#d97706;">GESTAO</div>
+    <h2>Gestao de Clientes</h2>
+    <p class="description">Visao completa de todos os clientes cadastrados. Gerencie niveis de desconto, papeis de acesso e dados cadastrais com interface responsiva.</p>
+    <ul class="feature-list">
+      <li class="feature-item">
+        <div class="feature-icon" style="background:#fef3c7;">&#128269;</div>
+        <span class="feature-text">Busca por nome, email ou CNPJ</span>
+      </li>
+      <li class="feature-item">
+        <div class="feature-icon" style="background:#fef3c7;">&#127991;&#65039;</div>
+        <span class="feature-text">Filtros por nivel (Bronze/Prata/Ouro) e papel (Cliente/Admin)</span>
+      </li>
+      <li class="feature-item">
+        <div class="feature-icon" style="background:#fef3c7;">&#128221;</div>
+        <span class="feature-text">Editar nivel de desconto e papel de acesso</span>
+      </li>
+      <li class="feature-item">
+        <div class="feature-icon" style="background:#fef3c7;">&#128205;</div>
+        <span class="feature-text">Gestao de enderecos do cliente</span>
+      </li>
+    </ul>
+  </div>
+</div>
+
+<!-- PAGE 17: GESTAO - Categorias & Config -->
+<div class="page step-page">
+  <div class="phone-mockup">
+    <img src="report-screenshots/16-admin-categorias.png" alt="Admin Categorias">
+  </div>
+  <div class="step-content">
+    <div class="step-tag" style="background:#fef3c7;color:#d97706;">GESTAO</div>
+    <h2>Categorias &amp; Configuracoes</h2>
+    <p class="description">Organize o catalogo com categorias personalizaveis e configure os descontos por nivel de cliente. Tudo em interfaces simples e diretas.</p>
+    <ul class="feature-list">
+      <li class="feature-item">
+        <div class="feature-icon" style="background:#fef3c7;">&#128194;</div>
+        <span class="feature-text">Criar, editar e excluir categorias</span>
+      </li>
+      <li class="feature-item">
+        <div class="feature-icon" style="background:#fef3c7;">&#8593;&#8595;</div>
+        <span class="feature-text">Reordenar com setas — cor e emoji personalizaveis</span>
+      </li>
+      <li class="feature-item">
+        <div class="feature-icon" style="background:#fef3c7;">&#128176;</div>
+        <span class="feature-text">Definir % de desconto por nivel (Bronze, Prata, Ouro)</span>
+      </li>
+      <li class="feature-item">
+        <div class="feature-icon" style="background:#fef3c7;">&#128190;</div>
+        <span class="feature-text">Salvar com validacao e feedback visual</span>
+      </li>
+    </ul>
+  </div>
+</div>
+
+<!-- PAGE 18: SUMMARY -->
+<div class="page summary-page">
+  <h2>Resumo do Produto</h2>
+  <div class="metrics-row">
+    <div class="metric-card">
+      <div class="metric-value">22</div>
+      <div class="metric-label">Telas Funcionais</div>
+    </div>
+    <div class="metric-card">
+      <div class="metric-value">6</div>
+      <div class="metric-label">Telas Admin</div>
+    </div>
+    <div class="metric-card">
+      <div class="metric-value">3</div>
+      <div class="metric-label">Niveis de Preco</div>
+    </div>
+  </div>
+  <div class="tech-tags">
+    <span class="tech-tag">React 19</span>
+    <span class="tech-tag">TypeScript</span>
+    <span class="tech-tag">Supabase</span>
+    <span class="tech-tag">100% Responsivo</span>
+    <span class="tech-tag">Seguranca Server-Side</span>
+    <span class="tech-tag">Vite 7</span>
+    <span class="tech-tag">Tailwind 4</span>
+    <span class="tech-tag">shadcn/ui</span>
+    <span class="tech-tag">Deploy Vercel</span>
+  </div>
+</div>
+
+</body>
+</html>

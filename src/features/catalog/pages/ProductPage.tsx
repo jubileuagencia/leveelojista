@@ -1,4 +1,4 @@
-import { useState, useEffect } from 'react'
+import { useState, useEffect, useMemo } from 'react'
 import { useParams, useNavigate } from 'react-router-dom'
 import {
   ArrowLeft,
@@ -8,6 +8,7 @@ import {
   Package,
   Heart,
   Tag,
+  AlertTriangle,
 } from 'lucide-react'
 import { Button } from '@/components/ui/button'
 import { Badge } from '@/components/ui/badge'
@@ -16,20 +17,13 @@ import { Skeleton } from '@/components/ui/skeleton'
 import { toast } from 'sonner'
 import { cn } from '@/lib/utils'
 import { formatCurrency } from '@/lib/format'
+import { getUnitLabel, getUnitShort } from '@/lib/unit-labels'
 import { useTierPrice } from '@/hooks/use-tier-price'
 import { useAuthStore } from '@/stores/auth-store'
 import { useCartStore } from '@/stores/cart-store'
 import { useFavoritesStore } from '@/features/favorites/stores/favorites-store'
 import { getProductById } from '@/features/catalog/services/products'
-import type { Product } from '@/types/database'
-
-const UNIT_LABELS: Record<string, string> = {
-  un: 'Unidade',
-  kg: 'Quilograma',
-  cx: 'Caixa',
-  maco: 'Maço',
-  dz: 'Dúzia',
-}
+import type { Product, ProductVariant } from '@/types/database'
 
 export default function ProductPage() {
   const { id } = useParams<{ id: string }>()
@@ -37,6 +31,7 @@ export default function ProductPage() {
 
   const [product, setProduct] = useState<Product | null>(null)
   const [loading, setLoading] = useState(true)
+  const [selectedVariant, setSelectedVariant] = useState<ProductVariant | null>(null)
   const [quantity, setQuantity] = useState(1)
   const [isAdding, setIsAdding] = useState(false)
   const [imageLoaded, setImageLoaded] = useState(false)
@@ -47,6 +42,11 @@ export default function ProductPage() {
   const addItem = useCartStore((s) => s.addItem)
   const { toggleFavorite, isFavorite } = useFavoritesStore()
 
+  const variants = useMemo(() => {
+    const v = product?.variants ?? []
+    return v.sort((a, b) => a.sort_order - b.sort_order)
+  }, [product?.variants])
+
   useEffect(() => {
     async function load() {
       if (!id) return
@@ -54,6 +54,12 @@ export default function ProductPage() {
       try {
         const data = await getProductById(id)
         setProduct(data)
+        if (data?.variants?.length) {
+          const sorted = [...data.variants].sort((a, b) => a.sort_order - b.sort_order)
+          const def = sorted.find((v) => v.is_default) ?? sorted[0]
+          setSelectedVariant(def)
+          if (def.allows_fractional) setQuantity(0.5)
+        }
       } catch (error) {
         console.error('Error loading product:', error)
       } finally {
@@ -63,13 +69,17 @@ export default function ProductPage() {
     load()
   }, [id])
 
+  const activePrice = selectedVariant?.unit_price ?? product?.price ?? 0
+  const activeUnit = selectedVariant?.unit_type ?? product?.unit ?? 'un'
+  const isFractional = selectedVariant?.allows_fractional ?? activeUnit === 'kg'
+
   const {
     finalPrice,
     originalPrice,
     hasDiscount,
     discountRate,
     tier,
-  } = useTierPrice(product?.price ?? 0)
+  } = useTierPrice(activePrice)
 
   const isFav = product ? isFavorite(product.id) : false
 
@@ -77,10 +87,10 @@ export default function ProductPage() {
     if (!user || !product) return
     setIsAdding(true)
     try {
-      await addItem(user.id, product, quantity)
+      await addItem(user.id, product, quantity, selectedVariant ?? undefined)
       toast.success(`${product.name} adicionado ao carrinho`)
-      setQuantity(1)
-    } catch (error) {
+      setQuantity(isFractional ? 0.5 : 1)
+    } catch {
       toast.error('Erro ao adicionar ao carrinho')
     } finally {
       setIsAdding(false)
@@ -90,6 +100,32 @@ export default function ProductPage() {
   const handleToggleFavorite = async () => {
     if (!user || !product) return
     await toggleFavorite(user.id, product.id)
+  }
+
+  const handleVariantSelect = (variant: ProductVariant) => {
+    setSelectedVariant(variant)
+    if (variant.allows_fractional && quantity === Math.floor(quantity) && quantity <= 1) {
+      setQuantity(0.5)
+    } else if (!variant.allows_fractional && quantity < 1) {
+      setQuantity(1)
+    } else if (!variant.allows_fractional) {
+      setQuantity(Math.max(1, Math.round(quantity)))
+    }
+  }
+
+  const handleQuantityDelta = (delta: number) => {
+    const step = isFractional ? 0.1 : 1
+    const min = isFractional ? 0.1 : 1
+    const d = delta > 0 ? step : -step
+    setQuantity((prev) => {
+      const next = Math.round((prev + d) * 10) / 10
+      return Math.max(min, next)
+    })
+  }
+
+  const formatQty = (q: number) => {
+    if (isFractional) return q.toFixed(1).replace('.', ',')
+    return String(q)
   }
 
   if (loading) {
@@ -179,8 +215,13 @@ export default function ProductPage() {
             </Badge>
           )}
           <Badge variant="outline" className="text-xs">
-            {UNIT_LABELS[product.unit] ?? product.unit}
+            {getUnitLabel(activeUnit)}
           </Badge>
+          {product.sku && (
+            <span className="text-xs text-muted-foreground">
+              SKU {product.sku}
+            </span>
+          )}
           <span className="text-xs text-muted-foreground">
             Cod. {product.display_id}
           </span>
@@ -196,6 +237,41 @@ export default function ProductPage() {
           <p className="text-sm text-muted-foreground leading-relaxed">
             {product.description}
           </p>
+        )}
+
+        {/* Variant selector */}
+        {variants.length > 1 && (
+          <>
+            <Separator />
+            <div className="space-y-2">
+              <span className="text-sm font-medium text-muted-foreground">
+                Tipo de venda
+              </span>
+              <div className="flex flex-wrap gap-2">
+                {variants.map((v) => (
+                  <button
+                    key={v.id}
+                    onClick={() => handleVariantSelect(v)}
+                    className={cn(
+                      'rounded-lg border-2 px-3 py-2 text-sm font-medium transition-all',
+                      selectedVariant?.id === v.id
+                        ? 'border-primary bg-primary/10 text-primary'
+                        : 'border-muted-foreground/20 text-muted-foreground hover:border-muted-foreground/40'
+                    )}
+                  >
+                    <div className="text-left">
+                      <span className="block">
+                        {v.unit_label ?? getUnitLabel(v.unit_type)}
+                      </span>
+                      <span className="text-xs opacity-70">
+                        {formatCurrency(v.unit_price)}/{getUnitShort(v.unit_type)}
+                      </span>
+                    </div>
+                  </button>
+                ))}
+              </div>
+            </div>
+          </>
         )}
 
         <Separator />
@@ -216,7 +292,7 @@ export default function ProductPage() {
                   {formatCurrency(finalPrice)}
                 </span>
                 <span className="text-sm text-muted-foreground">
-                  / {product.unit}
+                  / {getUnitShort(activeUnit)}
                 </span>
               </div>
               <div className="flex items-center gap-2">
@@ -228,7 +304,7 @@ export default function ProductPage() {
                 </Badge>
               </div>
               <p className="text-xs text-emerald-700 dark:text-emerald-400">
-                Voce economiza {formatCurrency(originalPrice - finalPrice)} por {product.unit}
+                Voce economiza {formatCurrency(originalPrice - finalPrice)} por {getUnitShort(activeUnit)}
               </p>
             </div>
           ) : (
@@ -237,18 +313,28 @@ export default function ProductPage() {
                 {formatCurrency(originalPrice)}
               </span>
               <span className="text-sm text-muted-foreground">
-                / {product.unit}
+                / {getUnitShort(activeUnit)}
               </span>
             </div>
           )}
         </div>
+
+        {/* Fractional weight alert */}
+        {isFractional && (
+          <div className="flex items-center gap-2 rounded-lg border border-amber-200 bg-amber-50 dark:bg-amber-950/30 dark:border-amber-900 p-3">
+            <AlertTriangle className="size-4 text-amber-600 shrink-0" />
+            <p className="text-xs text-amber-700 dark:text-amber-400">
+              O peso pode variar alguns gramas. O valor final sera ajustado conforme o peso real.
+            </p>
+          </div>
+        )}
 
         <Separator />
 
         {/* Quantity selector */}
         <div className="space-y-3">
           <span className="text-sm font-medium text-muted-foreground">
-            Quantidade
+            Quantidade {isFractional && <span className="text-xs">(em {getUnitShort(activeUnit)})</span>}
           </span>
           <div className="flex items-center gap-3">
             <div className="flex items-center rounded-xl border bg-muted/30">
@@ -256,19 +342,19 @@ export default function ProductPage() {
                 variant="ghost"
                 size="icon"
                 className="rounded-r-none h-10 w-10"
-                onClick={() => setQuantity((q) => Math.max(1, q - 1))}
-                disabled={quantity <= 1}
+                onClick={() => handleQuantityDelta(-1)}
+                disabled={quantity <= (isFractional ? 0.1 : 1)}
               >
                 <Minus className="size-4" />
               </Button>
               <span className="min-w-[3rem] text-center text-lg font-semibold tabular-nums">
-                {quantity}
+                {formatQty(quantity)}
               </span>
               <Button
                 variant="ghost"
                 size="icon"
                 className="rounded-l-none h-10 w-10"
-                onClick={() => setQuantity((q) => q + 1)}
+                onClick={() => handleQuantityDelta(1)}
               >
                 <Plus className="size-4" />
               </Button>
@@ -282,6 +368,27 @@ export default function ProductPage() {
             </div>
           </div>
         </div>
+
+        {/* Storage/nutritional info */}
+        {(product.storage_instructions || product.nutritional_info) && (
+          <>
+            <Separator />
+            <div className="space-y-3">
+              {product.storage_instructions && (
+                <div>
+                  <h3 className="text-sm font-medium mb-1">Como armazenar</h3>
+                  <p className="text-xs text-muted-foreground">{product.storage_instructions}</p>
+                </div>
+              )}
+              {product.nutritional_info && (
+                <div>
+                  <h3 className="text-sm font-medium mb-1">Informacao nutricional</h3>
+                  <p className="text-xs text-muted-foreground whitespace-pre-line">{product.nutritional_info}</p>
+                </div>
+              )}
+            </div>
+          </>
+        )}
       </div>
       </div>
 

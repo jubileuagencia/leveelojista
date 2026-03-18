@@ -43,17 +43,17 @@ import type { UserTier } from '@/types/database'
 import { cn } from '@/lib/utils'
 
 const TIER_CONFIG: Record<UserTier, { label: string; className: string }> = {
-  bronze: {
-    label: 'Bronze',
+  ouro: {
+    label: 'Ouro',
     className: 'bg-amber-700/10 text-amber-700 border-amber-700/20',
   },
-  silver: {
-    label: 'Prata',
+  platina: {
+    label: 'Platina',
     className: 'bg-slate-400/10 text-slate-500 border-slate-400/20',
   },
-  gold: {
-    label: 'Ouro',
-    className: 'bg-yellow-500/10 text-yellow-600 border-yellow-500/20',
+  diamante: {
+    label: 'Diamante',
+    className: 'bg-blue-500/10 text-blue-600 border-blue-500/20',
   },
 }
 
