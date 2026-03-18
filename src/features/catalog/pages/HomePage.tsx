@@ -134,9 +134,9 @@ export default function HomePage() {
     [navigate]
   )
 
-  const tierKey = profile?.tier ?? 'ouro'
-  const tierInfo = TIER_CONFIG[tierKey as keyof typeof TIER_CONFIG] ?? TIER_CONFIG.ouro
-  const TierIcon = tierInfo.icon
+  const tierKey = (profile?.tier as keyof typeof TIER_CONFIG) ?? 'ouro'
+  const tierInfo = TIER_CONFIG[tierKey] ?? TIER_CONFIG.ouro
+  const TierIcon = tierInfo?.icon ?? TrendingUp
 
   const greetingName = profile?.company_name ?? 'Lojista'
   const hour = new Date().getHours()

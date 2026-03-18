@@ -43,6 +43,7 @@ export interface OrderDetail {
   subtotal: number
   discount: number
   total: number
+  estimated_delivery_date: string | null
   created_at: string
   profile: { company_name: string | null; cnpj: string | null; phone: string | null } | null
   address: {
@@ -96,7 +97,7 @@ export async function fetchOrderDetail(id: string): Promise<OrderDetail> {
     .from('orders')
     .select(`
       id, order_number, user_id, status, payment_method,
-      subtotal, discount, total, created_at,
+      subtotal, discount, total, estimated_delivery_date, created_at,
       profile:profiles(company_name, cnpj, phone),
       address:user_addresses(street, number, district, city, state, zip_code),
       items:order_items(
