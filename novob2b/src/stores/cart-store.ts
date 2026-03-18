@@ -1,5 +1,5 @@
 import { create } from 'zustand'
-import type { CartItem, Product } from '@/types/database'
+import type { CartItem, Product, ProductVariant } from '@/types/database'
 import { supabase } from '@/lib/supabase'
 
 interface CartState {
@@ -7,7 +7,7 @@ interface CartState {
   loading: boolean
 
   fetchCart: (userId: string) => Promise<void>
-  addItem: (userId: string, product: Product, quantity?: number) => Promise<void>
+  addItem: (userId: string, product: Product, quantity?: number, variant?: ProductVariant) => Promise<void>
   updateQuantity: (itemId: string, quantity: number) => Promise<void>
   removeItem: (itemId: string) => Promise<void>
   clearCart: (userId: string) => Promise<void>
@@ -23,14 +23,19 @@ export const useCartStore = create<CartState>((set, get) => ({
     set({ loading: true })
     const { data } = await supabase
       .from('cart_items')
-      .select('*, product:products(*)')
+      .select('*, product:products(*, categories(*), variants:product_variants(*)), variant:product_variants(*)')
       .eq('user_id', userId)
 
     set({ items: (data as CartItem[]) ?? [], loading: false })
   },
 
-  addItem: async (userId, product, quantity = 1) => {
-    const existing = get().items.find(i => i.product_id === product.id)
+  addItem: async (userId, product, quantity = 1, variant) => {
+    const variantId = variant?.id ?? null
+
+    // Find existing item with same product + variant
+    const existing = get().items.find(
+      i => i.product_id === product.id && i.variant_id === variantId
+    )
 
     if (existing) {
       await get().updateQuantity(existing.id, existing.quantity + quantity)
@@ -42,16 +47,27 @@ export const useCartStore = create<CartState>((set, get) => ({
       id: crypto.randomUUID(),
       user_id: userId,
       product_id: product.id,
+      variant_id: variantId,
       quantity,
       created_at: new Date().toISOString(),
       product,
+      variant: variant ?? undefined,
     }
     set(s => ({ items: [...s.items, tempItem] }))
 
+    const insertData: Record<string, unknown> = {
+      user_id: userId,
+      product_id: product.id,
+      quantity,
+    }
+    if (variantId) {
+      insertData.variant_id = variantId
+    }
+
     const { data, error } = await supabase
       .from('cart_items')
-      .insert({ user_id: userId, product_id: product.id, quantity })
-      .select('*, product:products(*)')
+      .insert(insertData)
+      .select('*, product:products(*, categories(*), variants:product_variants(*)), variant:product_variants(*)')
       .single()
 
     if (error) {
@@ -65,7 +81,7 @@ export const useCartStore = create<CartState>((set, get) => ({
   },
 
   updateQuantity: async (itemId, quantity) => {
-    if (quantity < 1) {
+    if (quantity <= 0) {
       await get().removeItem(itemId)
       return
     }
@@ -104,7 +120,7 @@ export const useCartStore = create<CartState>((set, get) => ({
 
   getTotal: () => {
     return get().items.reduce((sum, item) => {
-      const price = item.product?.price ?? 0
+      const price = item.variant?.unit_price ?? item.product?.price ?? 0
       return sum + price * item.quantity
     }, 0)
   },

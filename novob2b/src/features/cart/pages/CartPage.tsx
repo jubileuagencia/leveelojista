@@ -15,6 +15,7 @@ import { Badge } from '@/components/ui/badge'
 import { Separator } from '@/components/ui/separator'
 import { cn } from '@/lib/utils'
 import { formatCurrency } from '@/lib/format'
+import { getUnitShort } from '@/lib/unit-labels'
 import { useTierPrice } from '@/hooks/use-tier-price'
 import { useCartStore } from '@/stores/cart-store'
 import { useAuthStore } from '@/stores/auth-store'
@@ -32,8 +33,8 @@ export default function CartPage() {
   const itemCount = getItemCount()
   const rawTotal = getTotal()
 
-  const tier = profile?.tier ?? 'bronze'
-  const discountRate = tier === 'bronze' ? 0 : (tierDiscounts[tier] ?? 0)
+  const tier = profile?.tier ?? 'ouro'
+  const discountRate = tier === 'ouro' ? 0 : (tierDiscounts[tier as keyof typeof tierDiscounts] ?? 0)
   const discountAmount = rawTotal * discountRate
   const finalTotal = rawTotal - discountAmount
 
@@ -102,7 +103,7 @@ export default function CartPage() {
 
               <div className="space-y-2">
                 <div className="flex items-center justify-between text-sm">
-                  <span className="text-muted-foreground">Subtotal ({itemCount} itens)</span>
+                  <span className="text-muted-foreground">Subtotal ({items.length} itens)</span>
                   <span className="font-medium">{formatCurrency(rawTotal)}</span>
                 </div>
 
@@ -170,10 +171,25 @@ function CartItemRow({ item }: { item: CartItem }) {
   const updateQuantity = useCartStore((s) => s.updateQuantity)
   const removeItem = useCartStore((s) => s.removeItem)
 
-  const { finalPrice, originalPrice, hasDiscount } = useTierPrice(
-    item.product?.price ?? 0
-  )
+  const variantPrice = item.variant?.unit_price ?? item.product?.price ?? 0
+  const isFractional = item.variant?.allows_fractional ?? false
+  const unitType = item.variant?.unit_type ?? item.product?.unit ?? 'un'
+  const unitLabel = item.variant?.unit_label ?? getUnitShort(unitType)
+
+  const { finalPrice, originalPrice, hasDiscount } = useTierPrice(variantPrice)
   const lineTotal = finalPrice * item.quantity
+
+  const handleDelta = (delta: number) => {
+    const step = isFractional ? 0.1 : 1
+    const d = delta > 0 ? step : -step
+    const next = Math.round((item.quantity + d) * 10) / 10
+    updateQuantity(item.id, next)
+  }
+
+  const formatQty = (q: number) => {
+    if (isFractional) return q.toFixed(1).replace('.', ',')
+    return String(q)
+  }
 
   return (
     <>
@@ -201,7 +217,7 @@ function CartItemRow({ item }: { item: CartItem }) {
               </h4>
               <div className="flex items-center gap-1 mt-0.5">
                 <Badge variant="secondary" className="text-[10px] px-1.5 py-0 h-4">
-                  {item.product?.unit}
+                  {unitLabel}
                 </Badge>
                 {hasDiscount && (
                   <Badge
@@ -250,18 +266,18 @@ function CartItemRow({ item }: { item: CartItem }) {
                 variant="ghost"
                 size="icon-xs"
                 className="rounded-r-none h-7 w-7"
-                onClick={() => updateQuantity(item.id, item.quantity - 1)}
+                onClick={() => handleDelta(-1)}
               >
                 <Minus className="size-3" />
               </Button>
               <span className="min-w-[1.75rem] text-center text-sm font-medium tabular-nums">
-                {item.quantity}
+                {formatQty(item.quantity)}
               </span>
               <Button
                 variant="ghost"
                 size="icon-xs"
                 className="rounded-l-none h-7 w-7"
-                onClick={() => updateQuantity(item.id, item.quantity + 1)}
+                onClick={() => handleDelta(1)}
               >
                 <Plus className="size-3" />
               </Button>
@@ -299,7 +315,7 @@ function CartItemRow({ item }: { item: CartItem }) {
             </h4>
             <div className="flex items-center gap-1 mt-0.5">
               <Badge variant="secondary" className="text-[10px] px-1.5 py-0 h-4">
-                {item.product?.unit}
+                {unitLabel}
               </Badge>
             </div>
           </div>
@@ -330,18 +346,18 @@ function CartItemRow({ item }: { item: CartItem }) {
               variant="ghost"
               size="icon-xs"
               className="rounded-r-none h-8 w-8"
-              onClick={() => updateQuantity(item.id, item.quantity - 1)}
+              onClick={() => handleDelta(-1)}
             >
               <Minus className="size-3.5" />
             </Button>
             <span className="min-w-[2rem] text-center text-sm font-medium tabular-nums">
-              {item.quantity}
+              {formatQty(item.quantity)}
             </span>
             <Button
               variant="ghost"
               size="icon-xs"
               className="rounded-l-none h-8 w-8"
-              onClick={() => updateQuantity(item.id, item.quantity + 1)}
+              onClick={() => handleDelta(1)}
             >
               <Plus className="size-3.5" />
             </Button>

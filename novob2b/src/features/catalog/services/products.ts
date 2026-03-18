@@ -10,7 +10,7 @@ interface ProductFilters {
 export async function getProducts(filters?: ProductFilters): Promise<Product[]> {
   let query = supabase
     .from('products')
-    .select('*, categories(*)')
+    .select('*, categories(*), variants:product_variants(*)')
     .is('deleted_at', null)
     .order('name', { ascending: true })
 
@@ -39,7 +39,7 @@ export async function getProducts(filters?: ProductFilters): Promise<Product[]> 
 export async function getProductById(id: string): Promise<Product | null> {
   const { data, error } = await supabase
     .from('products')
-    .select('*, categories(*)')
+    .select('*, categories(*), variants:product_variants(*)')
     .eq('id', id)
     .is('deleted_at', null)
     .single()
@@ -72,7 +72,7 @@ export async function searchProducts(query: string): Promise<Product[]> {
 
   const { data, error } = await supabase
     .from('products')
-    .select('*, categories(*)')
+    .select('*, categories(*), variants:product_variants(*)')
     .is('deleted_at', null)
     .eq('is_active', true)
     .ilike('name', `%${query.trim()}%`)
@@ -100,7 +100,7 @@ export async function getLastOrderItems(userId: string): Promise<Product[]> {
 
   const { data: orderItems, error } = await supabase
     .from('order_items')
-    .select('product:products(*, categories(*))')
+    .select('product:products(*, categories(*), variants:product_variants(*))')
     .eq('order_id', lastOrder.id)
 
   if (error) {
