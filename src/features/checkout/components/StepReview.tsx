@@ -1,4 +1,4 @@
-import { MapPin, CreditCard, Package, Percent, Loader2 } from 'lucide-react'
+import { MapPin, CreditCard, Package, Percent, Loader2, CalendarDays } from 'lucide-react'
 import { toast } from 'sonner'
 import { Button } from '@/components/ui/button'
 import { Badge } from '@/components/ui/badge'
@@ -9,6 +9,7 @@ import { useCheckoutStore } from '@/features/checkout/stores/checkout-store'
 import { useCartStore } from '@/stores/cart-store'
 import { useAuthStore } from '@/stores/auth-store'
 import { useConfigStore } from '@/stores/config-store'
+import { useEstimatedDelivery } from '@/lib/delivery'
 
 const paymentLabels: Record<string, string> = {
   pix: 'PIX',
@@ -28,6 +29,7 @@ export function StepReview() {
   const user = useAuthStore((s) => s.user)
   const profile = useAuthStore((s) => s.profile)
   const tierDiscounts = useConfigStore((s) => s.tierDiscounts)
+  const estimatedDelivery = useEstimatedDelivery()
 
   const selectedAddress = addresses.find((a) => a.id === selectedAddressId)
 
@@ -95,6 +97,19 @@ export function StepReview() {
         <Badge variant="secondary" className="text-xs px-3 py-1">
           {paymentMethod ? paymentLabels[paymentMethod] : ''}
         </Badge>
+      </div>
+
+      {/* Estimated delivery */}
+      <div className="px-4">
+        <div className="flex items-center gap-2 mb-2">
+          <CalendarDays className="size-4 text-muted-foreground" />
+          <h3 className="text-sm font-medium">Previsao de entrega</h3>
+        </div>
+        <div className="rounded-xl border bg-emerald-50 dark:bg-emerald-950/30 border-emerald-200 dark:border-emerald-900 px-3 py-2.5">
+          <p className="text-sm font-medium text-emerald-700 dark:text-emerald-400 capitalize">
+            {estimatedDelivery.formatted}
+          </p>
+        </div>
       </div>
 
       <Separator className="mx-4" />

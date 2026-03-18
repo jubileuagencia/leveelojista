@@ -87,6 +87,7 @@ export interface Order {
   subtotal: number
   discount: number
   total: number
+  estimated_delivery_date: string | null
   created_at: string
   profile?: Profile
   address?: UserAddress

@@ -8,6 +8,7 @@ import {
   QrCode,
   Barcode,
   Receipt,
+  CalendarDays,
 } from 'lucide-react'
 import { toast } from 'sonner'
 import { Button } from '@/components/ui/button'
@@ -16,6 +17,7 @@ import { Skeleton } from '@/components/ui/skeleton'
 import { Badge } from '@/components/ui/badge'
 import { cn } from '@/lib/utils'
 import { formatCurrency, formatDateTime, formatOrderNumber } from '@/lib/format'
+import { formatDeliveryDate } from '@/lib/delivery'
 import { getUnitShort } from '@/lib/unit-labels'
 import { getOrderById } from '@/features/orders/services/orders'
 import { OrderStatusBadge } from '@/features/orders/components/OrderStatusBadge'
@@ -100,6 +102,19 @@ export default function OrderDetailsPage() {
           </h2>
           <OrderTimeline status={order.status} createdAt={order.created_at} />
         </div>
+
+        {/* Estimated delivery */}
+        {order.estimated_delivery_date && (
+          <div className="rounded-xl border bg-card p-4">
+            <h2 className="text-sm font-semibold text-foreground mb-2 flex items-center gap-2">
+              <CalendarDays className="size-4 text-muted-foreground" />
+              Previsao de Entrega
+            </h2>
+            <p className="text-sm font-medium capitalize">
+              {formatDeliveryDate(order.estimated_delivery_date)}
+            </p>
+          </div>
+        )}
 
         {/* Items */}
         <div className="rounded-xl border bg-card p-4">
