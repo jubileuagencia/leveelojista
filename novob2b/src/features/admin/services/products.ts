@@ -1,5 +1,5 @@
 import { supabase } from '@/lib/supabase'
-import type { Product, ProductUnit } from '@/types/database'
+import type { Product, ProductUnit, ProductVariant } from '@/types/database'
 
 // ── Types ──────────────────────────────────────────────
 
@@ -45,7 +45,7 @@ export async function fetchProducts(filters: ProductFilters = {}): Promise<Produ
 
   let query = supabase
     .from('products')
-    .select('*, categories(id, name)', { count: 'exact' })
+    .select('*, categories(id, name), variants:product_variants(*)', { count: 'exact' })
     .is('deleted_at', null)
     .order('display_id', { ascending: false })
 
@@ -84,7 +84,7 @@ export async function fetchProducts(filters: ProductFilters = {}): Promise<Produ
 export async function fetchProduct(id: string): Promise<Product> {
   const { data, error } = await supabase
     .from('products')
-    .select('*, categories(id, name)')
+    .select('*, categories(id, name), variants:product_variants(*)')
     .eq('id', id)
     .single()
 
@@ -109,7 +109,7 @@ export async function createProduct(input: CreateProductInput): Promise<Product>
       image_url: input.image_url ?? null,
       is_active: input.is_active ?? true,
     })
-    .select('*, categories(id, name)')
+    .select('*, categories(id, name), variants:product_variants(*)')
     .single()
 
   if (error) {
@@ -126,7 +126,7 @@ export async function updateProduct(id: string, input: UpdateProductInput): Prom
     .from('products')
     .update(input)
     .eq('id', id)
-    .select('*, categories(id, name)')
+    .select('*, categories(id, name), variants:product_variants(*)')
     .single()
 
   if (error) {
@@ -215,5 +215,75 @@ export async function deleteProductImage(imageUrl: string): Promise<void> {
 
   if (error) {
     console.error('Falha ao deletar imagem:', error)
+  }
+}
+
+// ── Variants ──────────────────────────────────────────
+
+export interface VariantInput {
+  id?: string
+  unit_type: string
+  unit_label?: string | null
+  unit_price: number
+  weight_grams?: number | null
+  allows_fractional: boolean
+  is_default: boolean
+  sort_order: number
+}
+
+export async function fetchVariants(productId: string): Promise<ProductVariant[]> {
+  const { data, error } = await supabase
+    .from('product_variants')
+    .select('*')
+    .eq('product_id', productId)
+    .order('sort_order')
+
+  if (error) {
+    throw new Error(`Falha ao buscar variantes: ${error.message}`)
+  }
+
+  return data as ProductVariant[]
+}
+
+export async function saveVariants(
+  productId: string,
+  variants: VariantInput[]
+): Promise<void> {
+  const existing = await fetchVariants(productId)
+  const existingIds = existing.map((v) => v.id)
+  const inputIds = variants.filter((v) => v.id).map((v) => v.id!)
+
+  // Delete removed variants
+  const toDelete = existingIds.filter((id) => !inputIds.includes(id))
+  if (toDelete.length > 0) {
+    const { error } = await supabase
+      .from('product_variants')
+      .delete()
+      .in('id', toDelete)
+
+    if (error) {
+      throw new Error(`Falha ao remover variantes: ${error.message}`)
+    }
+  }
+
+  // Upsert remaining
+  const rows = variants.map((v) => ({
+    ...(v.id ? { id: v.id } : {}),
+    product_id: productId,
+    unit_type: v.unit_type,
+    unit_label: v.unit_label ?? null,
+    unit_price: v.unit_price,
+    weight_grams: v.weight_grams ?? null,
+    allows_fractional: v.allows_fractional,
+    is_default: v.is_default,
+    sort_order: v.sort_order,
+  }))
+
+  const { error } = await supabase
+    .from('product_variants')
+    .upsert(rows, { onConflict: 'id' })
+
+  if (error) {
+    throw new Error(`Falha ao salvar variantes: ${error.message}`)
   }
 }

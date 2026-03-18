@@ -13,6 +13,8 @@ import {
   type ProductFilters,
   type CreateProductInput,
   type UpdateProductInput,
+  saveVariants,
+  type VariantInput,
 } from '../services/products'
 import { fetchAllCategories } from '../services/categories'
 
@@ -137,5 +139,20 @@ export function useUploadProductImage() {
 export function useDeleteProductImage() {
   return useMutation({
     mutationFn: (imageUrl: string) => deleteProductImage(imageUrl),
+  })
+}
+
+export function useSaveVariants() {
+  const qc = useQueryClient()
+
+  return useMutation({
+    mutationFn: ({ productId, variants }: { productId: string; variants: VariantInput[] }) =>
+      saveVariants(productId, variants),
+    onSuccess: () => {
+      qc.invalidateQueries({ queryKey: ['admin', 'products'] })
+    },
+    onError: (err: Error) => {
+      toast.error(err.message)
+    },
   })
 }
