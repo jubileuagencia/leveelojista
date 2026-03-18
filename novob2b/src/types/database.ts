@@ -1,12 +1,17 @@
 export type UserRole = 'customer' | 'admin' | 'super_admin'
-export type UserTier = 'bronze' | 'silver' | 'gold'
+export type UserTier = 'ouro' | 'platina' | 'diamante'
 export type PaymentMethod = 'pix' | 'boleto'
 export type OrderStatus = 'pending' | 'approved' | 'preparing' | 'shipped' | 'delivered' | 'rejected' | 'cancelled'
-export type ProductUnit = 'un' | 'kg' | 'cx' | 'maco' | 'dz'
+export type ProductUnit = 'un' | 'kg' | 'cx' | 'maco' | 'dz' | 'bj' | 'pc'
+
+export type DocumentType = 'cpf' | 'cnpj'
 
 export interface Profile {
   id: string
   company_name: string | null
+  trade_name: string | null
+  document_type: DocumentType
+  document_number: string | null
   cnpj: string | null
   phone: string | null
   tier: UserTier
@@ -22,6 +27,19 @@ export interface Category {
   created_at: string
 }
 
+export interface ProductVariant {
+  id: string
+  product_id: string
+  unit_type: string
+  unit_label: string | null
+  unit_price: number
+  weight_grams: number | null
+  allows_fractional: boolean
+  is_default: boolean
+  sort_order: number
+  created_at: string
+}
+
 export interface Product {
   id: string
   name: string
@@ -34,7 +52,16 @@ export interface Product {
   deleted_at: string | null
   display_id: number
   created_at: string
+  sku: string | null
+  ean: string | null
+  original_price: number | null
+  nutritional_info: string | null
+  storage_instructions: string | null
+  on_sale: boolean
+  sale_discount_pct: number | null
+  sort_order: number | null
   categories?: Category
+  variants?: ProductVariant[]
 }
 
 export interface UserAddress {
@@ -70,9 +97,11 @@ export interface OrderItem {
   id: string
   order_id: string
   product_id: string
+  variant_id: string | null
   quantity: number
   unit_price: number
   total_price: number
+  unit_type: string | null
   created_at: string
   product?: Product
 }
@@ -81,9 +110,11 @@ export interface CartItem {
   id: string
   user_id: string
   product_id: string
+  variant_id: string | null
   quantity: number
   created_at: string
   product?: Product
+  variant?: ProductVariant
 }
 
 export interface Favorite {
@@ -102,8 +133,8 @@ export interface AppConfig {
 }
 
 export interface TierDiscounts {
-  silver: number
-  gold: number
+  platina: number
+  diamante: number
 }
 
 // Supabase Database type for typed client
