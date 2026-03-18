@@ -27,19 +27,19 @@ import { useFavoritesStore } from '@/features/favorites/stores/favorites-store'
 import type { Product, Category } from '@/types/database'
 
 const TIER_CONFIG = {
-  bronze: {
-    label: 'Bronze',
+  ouro: {
+    label: 'Ouro',
     color: 'bg-amber-700/10 text-amber-700 border-amber-700/20',
     icon: TrendingUp,
   },
-  silver: {
-    label: 'Silver',
+  platina: {
+    label: 'Platina',
     color: 'bg-slate-400/10 text-slate-600 border-slate-400/30',
     icon: TrendingUp,
   },
-  gold: {
-    label: 'Gold',
-    color: 'bg-yellow-500/10 text-yellow-600 border-yellow-500/30',
+  diamante: {
+    label: 'Diamante',
+    color: 'bg-blue-500/10 text-blue-600 border-blue-500/30',
     icon: TrendingUp,
   },
 }
@@ -134,7 +134,8 @@ export default function HomePage() {
     [navigate]
   )
 
-  const tierInfo = TIER_CONFIG[profile?.tier ?? 'bronze']
+  const tierKey = profile?.tier ?? 'ouro'
+  const tierInfo = TIER_CONFIG[tierKey as keyof typeof TIER_CONFIG] ?? TIER_CONFIG.ouro
   const TierIcon = tierInfo.icon
 
   const greetingName = profile?.company_name ?? 'Lojista'

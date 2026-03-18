@@ -7,8 +7,8 @@ export function useTierPrice(basePrice: number) {
   const tierDiscounts = useConfigStore(s => s.tierDiscounts)
 
   return useMemo(() => {
-    const tier = profile?.tier ?? 'bronze'
-    const discountRate = tier === 'bronze' ? 0 : (tierDiscounts[tier] ?? 0)
+    const tier = profile?.tier ?? 'ouro'
+    const discountRate = tier === 'ouro' ? 0 : (tierDiscounts[tier as keyof typeof tierDiscounts] ?? 0)
     const discountAmount = basePrice * discountRate
     const finalPrice = basePrice - discountAmount
 
