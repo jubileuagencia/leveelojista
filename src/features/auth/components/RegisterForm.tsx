@@ -13,6 +13,7 @@ import {
   ArrowRight,
   Check,
   Hash,
+  User,
 } from 'lucide-react'
 
 import { Button } from '@/components/ui/button'
@@ -29,7 +30,7 @@ import {
 import { useAuthStore } from '@/stores/auth-store'
 
 // ---------------------------------------------------------------------------
-// CNPJ Validation Algorithm
+// Document Validation
 // ---------------------------------------------------------------------------
 function isValidCNPJ(cnpj: string): boolean {
   const digits = cnpj.replace(/\D/g, '')
@@ -55,6 +56,28 @@ function isValidCNPJ(cnpj: string): boolean {
   return Number(digits[12]) === d1 && Number(digits[13]) === d2
 }
 
+function isValidCPF(cpf: string): boolean {
+  const digits = cpf.replace(/\D/g, '')
+  if (digits.length !== 11) return false
+
+  // Reject all same-digit CPFs
+  if (/^(\d)\1{10}$/.test(digits)) return false
+
+  const calc = (base: number): number => {
+    let sum = 0
+    for (let i = 0; i < base; i++) {
+      sum += Number(digits[i]) * (base + 1 - i)
+    }
+    const remainder = sum % 11
+    return remainder < 2 ? 0 : 11 - remainder
+  }
+
+  const d1 = calc(9)
+  const d2 = calc(10)
+
+  return Number(digits[9]) === d1 && Number(digits[10]) === d2
+}
+
 // ---------------------------------------------------------------------------
 // Masks
 // ---------------------------------------------------------------------------
@@ -65,6 +88,14 @@ function applyCNPJMask(value: string): string {
     .replace(/^(\d{2})\.(\d{3})(\d)/, '$1.$2.$3')
     .replace(/\.(\d{3})(\d)/, '.$1/$2')
     .replace(/(\d{4})(\d)/, '$1-$2')
+}
+
+function applyCPFMask(value: string): string {
+  const digits = value.replace(/\D/g, '').slice(0, 11)
+  return digits
+    .replace(/^(\d{3})(\d)/, '$1.$2')
+    .replace(/^(\d{3})\.(\d{3})(\d)/, '$1.$2.$3')
+    .replace(/\.(\d{3})(\d)/, '.$1-$2')
 }
 
 function applyPhoneMask(value: string): string {
@@ -101,9 +132,29 @@ const step1Schema = z
     path: ['confirmPassword'],
   })
 
-const step2Schema = z.object({
+const step2PFSchema = z.object({
+  fullName: z.string().min(1, 'O nome e obrigatorio'),
+  documentNumber: z
+    .string()
+    .min(1, 'O CPF e obrigatorio')
+    .refine((val) => val.replace(/\D/g, '').length === 11, {
+      message: 'CPF deve ter 11 digitos',
+    })
+    .refine((val) => isValidCPF(val), {
+      message: 'CPF invalido',
+    }),
+  phone: z
+    .string()
+    .min(1, 'O telefone e obrigatorio')
+    .refine((val) => val.replace(/\D/g, '').length >= 10, {
+      message: 'Telefone deve ter pelo menos 10 digitos',
+    }),
+})
+
+const step2PJSchema = z.object({
   companyName: z.string().min(1, 'A razao social e obrigatoria'),
-  cnpj: z
+  tradeName: z.string().optional(),
+  documentNumber: z
     .string()
     .min(1, 'O CNPJ e obrigatorio')
     .refine((val) => val.replace(/\D/g, '').length === 14, {
@@ -137,14 +188,19 @@ const step3Schema = z.object({
 // ---------------------------------------------------------------------------
 // Types
 // ---------------------------------------------------------------------------
+type DocumentType = 'cpf' | 'cnpj'
+
 interface FormData {
   // Step 1
   email: string
   password: string
   confirmPassword: string
   // Step 2
+  documentType: DocumentType
+  fullName: string
   companyName: string
-  cnpj: string
+  tradeName: string
+  documentNumber: string
   phone: string
   // Step 3
   cep: string
@@ -161,13 +217,13 @@ const TOTAL_STEPS = 3
 
 const STEP_TITLES = [
   'Dados de acesso',
-  'Dados da empresa',
+  'Seus dados',
   'Endereco',
 ] as const
 
 const STEP_DESCRIPTIONS = [
   'Informe seu e-mail e crie uma senha segura',
-  'Preencha os dados da sua empresa',
+  'Preencha seus dados pessoais ou da empresa',
   'Informe o endereco de entrega',
 ] as const
 
@@ -262,6 +318,53 @@ function FormField({
 }
 
 // ---------------------------------------------------------------------------
+// Document Type Toggle
+// ---------------------------------------------------------------------------
+function DocumentTypeToggle({
+  value,
+  onChange,
+  disabled,
+}: {
+  value: DocumentType
+  onChange: (type: DocumentType) => void
+  disabled?: boolean
+}) {
+  return (
+    <div className="space-y-2">
+      <Label>Tipo de cadastro</Label>
+      <div className="grid grid-cols-2 gap-2">
+        <button
+          type="button"
+          disabled={disabled}
+          onClick={() => onChange('cpf')}
+          className={`flex items-center justify-center gap-2 rounded-lg border-2 px-3 py-2.5 text-sm font-medium transition-all ${
+            value === 'cpf'
+              ? 'border-primary bg-primary/10 text-primary'
+              : 'border-muted-foreground/20 text-muted-foreground hover:border-muted-foreground/40'
+          }`}
+        >
+          <User className="size-4" />
+          Pessoa Fisica
+        </button>
+        <button
+          type="button"
+          disabled={disabled}
+          onClick={() => onChange('cnpj')}
+          className={`flex items-center justify-center gap-2 rounded-lg border-2 px-3 py-2.5 text-sm font-medium transition-all ${
+            value === 'cnpj'
+              ? 'border-primary bg-primary/10 text-primary'
+              : 'border-muted-foreground/20 text-muted-foreground hover:border-muted-foreground/40'
+          }`}
+        >
+          <Building2 className="size-4" />
+          Pessoa Juridica
+        </button>
+      </div>
+    </div>
+  )
+}
+
+// ---------------------------------------------------------------------------
 // Component
 // ---------------------------------------------------------------------------
 export function RegisterForm() {
@@ -273,8 +376,11 @@ export function RegisterForm() {
     email: '',
     password: '',
     confirmPassword: '',
+    documentType: 'cnpj',
+    fullName: '',
     companyName: '',
-    cnpj: '',
+    tradeName: '',
+    documentNumber: '',
     phone: '',
     cep: '',
     street: '',
@@ -290,7 +396,11 @@ export function RegisterForm() {
   function handleChange(field: keyof FormData, value: string) {
     let masked = value
 
-    if (field === 'cnpj') masked = applyCNPJMask(value)
+    if (field === 'documentNumber') {
+      masked = formData.documentType === 'cpf'
+        ? applyCPFMask(value)
+        : applyCNPJMask(value)
+    }
     if (field === 'phone') masked = applyPhoneMask(value)
     if (field === 'cep') masked = applyCEPMask(value)
 
@@ -299,6 +409,18 @@ export function RegisterForm() {
     if (errors[field]) {
       setErrors((prev) => ({ ...prev, [field]: undefined }))
     }
+  }
+
+  function handleDocumentTypeChange(type: DocumentType) {
+    setFormData((prev) => ({
+      ...prev,
+      documentType: type,
+      documentNumber: '',
+      fullName: '',
+      companyName: '',
+      tradeName: '',
+    }))
+    setErrors({})
   }
 
   const fetchCep = useCallback(
@@ -359,7 +481,9 @@ export function RegisterForm() {
         result = step1Schema.safeParse(formData)
         break
       case 2:
-        result = step2Schema.safeParse(formData)
+        result = formData.documentType === 'cpf'
+          ? step2PFSchema.safeParse(formData)
+          : step2PJSchema.safeParse(formData)
         break
       case 3:
         result = step3Schema.safeParse(formData)
@@ -402,9 +526,13 @@ export function RegisterForm() {
 
     setIsLoading(true)
     try {
+      const isPF = formData.documentType === 'cpf'
+
       await signup(formData.email, formData.password, {
-        company_name: formData.companyName,
-        cnpj: formData.cnpj.replace(/\D/g, ''),
+        document_type: formData.documentType,
+        document_number: formData.documentNumber.replace(/\D/g, ''),
+        company_name: isPF ? formData.fullName : formData.companyName,
+        trade_name: isPF ? '' : formData.tradeName,
         phone: formData.phone.replace(/\D/g, ''),
         cep: formData.cep.replace(/\D/g, ''),
         street: formData.street,
@@ -426,6 +554,8 @@ export function RegisterForm() {
       if (message.includes('already registered')) {
         toast.error('Este e-mail ja esta cadastrado')
         setStep(1)
+      } else if (message.includes('rate limit') || message.includes('429') || message.includes('Too Many')) {
+        toast.error('Muitas tentativas. Aguarde alguns minutos e tente novamente.')
       } else {
         toast.error(message)
       }
@@ -448,7 +578,7 @@ export function RegisterForm() {
               icon={Mail}
               field="email"
               type="email"
-              placeholder="seu@empresa.com"
+              placeholder="seu@email.com"
               value={formData.email}
               error={errors.email}
               onChange={handleChange}
@@ -487,28 +617,75 @@ export function RegisterForm() {
       case 2:
         return (
           <div className="space-y-4">
-            <FormField
-              id="companyName"
-              label="Razao Social"
-              icon={Building2}
-              field="companyName"
-              placeholder="Nome da empresa"
-              value={formData.companyName}
-              error={errors.companyName}
-              onChange={handleChange}
+            <DocumentTypeToggle
+              value={formData.documentType}
+              onChange={handleDocumentTypeChange}
               disabled={isLoading}
             />
-            <FormField
-              id="cnpj"
-              label="CNPJ"
-              icon={Hash}
-              field="cnpj"
-              placeholder="XX.XXX.XXX/XXXX-XX"
-              value={formData.cnpj}
-              error={errors.cnpj}
-              onChange={handleChange}
-              disabled={isLoading}
-            />
+
+            {formData.documentType === 'cpf' ? (
+              <>
+                <FormField
+                  id="fullName"
+                  label="Nome completo"
+                  icon={User}
+                  field="fullName"
+                  placeholder="Seu nome completo"
+                  value={formData.fullName}
+                  error={errors.fullName}
+                  onChange={handleChange}
+                  disabled={isLoading}
+                />
+                <FormField
+                  id="documentNumber"
+                  label="CPF"
+                  icon={Hash}
+                  field="documentNumber"
+                  placeholder="XXX.XXX.XXX-XX"
+                  value={formData.documentNumber}
+                  error={errors.documentNumber}
+                  onChange={handleChange}
+                  disabled={isLoading}
+                />
+              </>
+            ) : (
+              <>
+                <FormField
+                  id="companyName"
+                  label="Razao Social"
+                  icon={Building2}
+                  field="companyName"
+                  placeholder="Nome da empresa"
+                  value={formData.companyName}
+                  error={errors.companyName}
+                  onChange={handleChange}
+                  disabled={isLoading}
+                />
+                <FormField
+                  id="tradeName"
+                  label="Nome Fantasia (opcional)"
+                  icon={Building2}
+                  field="tradeName"
+                  placeholder="Nome fantasia da empresa"
+                  value={formData.tradeName}
+                  error={errors.tradeName}
+                  onChange={handleChange}
+                  disabled={isLoading}
+                />
+                <FormField
+                  id="documentNumber"
+                  label="CNPJ"
+                  icon={Hash}
+                  field="documentNumber"
+                  placeholder="XX.XXX.XXX/XXXX-XX"
+                  value={formData.documentNumber}
+                  error={errors.documentNumber}
+                  onChange={handleChange}
+                  disabled={isLoading}
+                />
+              </>
+            )}
+
             <FormField
               id="phone"
               label="Telefone"

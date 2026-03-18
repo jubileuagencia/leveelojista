@@ -137,7 +137,7 @@ function CartSheetItem({ item }: { item: CartItem }) {
   const removeItem = useCartStore((s) => s.removeItem)
   const profile = useAuthStore((s) => s.profile)
 
-  const { finalPrice, hasDiscount } = useTierPrice(item.product?.price ?? 0)
+  const { finalPrice, hasDiscount } = useTierPrice(item.variant?.unit_price ?? item.product?.price ?? 0)
   const lineTotal = finalPrice * item.quantity
 
   return (

@@ -1,7 +1,9 @@
-import { useEffect } from 'react'
+import { useEffect, useState } from 'react'
 import { useForm } from 'react-hook-form'
 import { zodResolver } from '@hookform/resolvers/zod'
 import { z } from 'zod'
+import { Plus, Trash2 } from 'lucide-react'
+import { toast } from 'sonner'
 import {
   Dialog,
   DialogContent,
@@ -21,6 +23,7 @@ import { Input } from '@/components/ui/input'
 import { Textarea } from '@/components/ui/textarea'
 import { Label } from '@/components/ui/label'
 import { Switch } from '@/components/ui/switch'
+import { Separator } from '@/components/ui/separator'
 import {
   Select,
   SelectContent,
@@ -29,29 +32,77 @@ import {
   SelectValue,
 } from '@/components/ui/select'
 import { ImageUpload } from './ImageUpload'
-import { useCategories, useCreateProduct, useUpdateProduct, useUploadProductImage } from '../hooks/useProducts'
+import {
+  useCategories,
+  useCreateProduct,
+  useUpdateProduct,
+  useUploadProductImage,
+  useSaveVariants,
+} from '../hooks/useProducts'
 import { useIsMobile } from '@/hooks/use-mobile'
+import { UNIT_LABELS } from '@/lib/unit-labels'
 import type { Product, ProductUnit } from '@/types/database'
 
 const UNITS: { value: ProductUnit; label: string }[] = [
   { value: 'un', label: 'Unidade' },
   { value: 'kg', label: 'Quilograma' },
   { value: 'cx', label: 'Caixa' },
-  { value: 'maco', label: 'Maço' },
-  { value: 'dz', label: 'Dúzia' },
+  { value: 'maco', label: 'Maco' },
+  { value: 'dz', label: 'Duzia' },
+  { value: 'bj', label: 'Bandeja' },
+  { value: 'pc', label: 'Pacote' },
 ]
 
 const productSchema = z.object({
   name: z.string().min(2, 'Nome deve ter pelo menos 2 caracteres'),
   description: z.string().optional(),
-  price: z.number().positive('Preço deve ser maior que zero'),
-  unit: z.enum(['un', 'kg', 'cx', 'maco', 'dz'] as const),
+  price: z.number().positive('Preco deve ser maior que zero'),
+  unit: z.enum(['un', 'kg', 'cx', 'maco', 'dz', 'bj', 'pc'] as const),
   category_id: z.string().optional(),
   image_url: z.string().nullable().optional(),
   is_active: z.boolean(),
 })
 
 type ProductFormData = z.infer<typeof productSchema>
+
+interface VariantRow {
+  id?: string
+  unit_type: string
+  unit_label: string
+  unit_price: number
+  weight_grams: number | null
+  allows_fractional: boolean
+  is_default: boolean
+}
+
+function createEmptyVariant(isDefault = false): VariantRow {
+  return {
+    unit_type: 'un',
+    unit_label: '',
+    unit_price: 0,
+    weight_grams: null,
+    allows_fractional: false,
+    is_default: isDefault,
+  }
+}
+
+function variantsFromProduct(product: Product): VariantRow[] {
+  const variants = product.variants
+  if (!variants || variants.length === 0) {
+    return [createEmptyVariant(true)]
+  }
+  return variants
+    .sort((a, b) => a.sort_order - b.sort_order)
+    .map((v) => ({
+      id: v.id,
+      unit_type: v.unit_type,
+      unit_label: v.unit_label ?? '',
+      unit_price: v.unit_price,
+      weight_grams: v.weight_grams,
+      allows_fractional: v.allows_fractional,
+      is_default: v.is_default,
+    }))
+}
 
 interface ProductFormModalProps {
   open: boolean
@@ -66,6 +117,9 @@ export function ProductFormModal({ open, onOpenChange, product }: ProductFormMod
   const createMutation = useCreateProduct()
   const updateMutation = useUpdateProduct()
   const uploadMutation = useUploadProductImage()
+  const variantsMutation = useSaveVariants()
+
+  const [variants, setVariants] = useState<VariantRow[]>([createEmptyVariant(true)])
 
   const {
     register,
@@ -104,6 +158,7 @@ export function ProductFormModal({ open, onOpenChange, product }: ProductFormMod
           image_url: product.image_url ?? null,
           is_active: product.is_active,
         })
+        setVariants(variantsFromProduct(product))
       } else {
         reset({
           name: '',
@@ -114,27 +169,87 @@ export function ProductFormModal({ open, onOpenChange, product }: ProductFormMod
           image_url: null,
           is_active: true,
         })
+        setVariants([createEmptyVariant(true)])
       }
     }
   }, [open, product, reset])
 
+  // ── Variant helpers ──
+  const addVariant = () => {
+    setVariants((prev) => [...prev, createEmptyVariant(false)])
+  }
+
+  const removeVariant = (index: number) => {
+    if (variants.length <= 1) return
+    setVariants((prev) => {
+      const next = prev.filter((_, i) => i !== index)
+      // Ensure at least one is default
+      if (!next.some((v) => v.is_default) && next.length > 0) {
+        next[0].is_default = true
+      }
+      return next
+    })
+  }
+
+  const updateVariant = (index: number, field: keyof VariantRow, value: unknown) => {
+    setVariants((prev) =>
+      prev.map((v, i) => {
+        if (i !== index) {
+          // If setting default, unset others
+          if (field === 'is_default' && value === true) {
+            return { ...v, is_default: false }
+          }
+          return v
+        }
+        return { ...v, [field]: value }
+      })
+    )
+  }
+
   const onSubmit = async (data: ProductFormData) => {
+    // Validate variants
+    const invalidVariant = variants.find((v) => v.unit_price <= 0)
+    if (invalidVariant) {
+      toast.error('Todas as variantes devem ter preco maior que zero')
+      return
+    }
+
     const input = {
       ...data,
       category_id: data.category_id || undefined,
       image_url: data.image_url || undefined,
     }
 
+    let productId: string
+
     if (isEditing) {
-      await updateMutation.mutateAsync({ id: product.id, input })
+      const result = await updateMutation.mutateAsync({ id: product.id, input })
+      productId = result.id
     } else {
-      await createMutation.mutateAsync(input)
+      const result = await createMutation.mutateAsync(input)
+      productId = result.id
     }
+
+    // Save variants
+    await variantsMutation.mutateAsync({
+      productId,
+      variants: variants.map((v, i) => ({
+        id: v.id,
+        unit_type: v.unit_type,
+        unit_label: v.unit_label || null,
+        unit_price: v.unit_price,
+        weight_grams: v.weight_grams,
+        allows_fractional: v.allows_fractional,
+        is_default: v.is_default,
+        sort_order: i,
+      })),
+    })
 
     onOpenChange(false)
   }
 
-  const isPending = createMutation.isPending || updateMutation.isPending
+  const isPending =
+    createMutation.isPending || updateMutation.isPending || variantsMutation.isPending
 
   const title = isEditing ? 'Editar Produto' : 'Novo Produto'
   const description = isEditing
@@ -171,7 +286,7 @@ export function ProductFormModal({ open, onOpenChange, product }: ProductFormMod
       {/* Price + Unit row */}
       <div className="grid grid-cols-2 gap-3">
         <div className="space-y-2">
-          <Label htmlFor="price">Preço *</Label>
+          <Label htmlFor="price">Preco base *</Label>
           <Input
             id="price"
             type="number"
@@ -186,7 +301,7 @@ export function ProductFormModal({ open, onOpenChange, product }: ProductFormMod
           )}
         </div>
         <div className="space-y-2">
-          <Label>Unidade *</Label>
+          <Label>Unidade principal *</Label>
           <Select value={unit} onValueChange={(v) => setValue('unit', v as ProductUnit)}>
             <SelectTrigger>
               <SelectValue />
@@ -222,10 +337,10 @@ export function ProductFormModal({ open, onOpenChange, product }: ProductFormMod
 
       {/* Description */}
       <div className="space-y-2">
-        <Label htmlFor="description">Descrição</Label>
+        <Label htmlFor="description">Descricao</Label>
         <Textarea
           id="description"
-          placeholder="Descrição do produto (opcional)"
+          placeholder="Descricao do produto (opcional)"
           rows={3}
           {...register('description')}
         />
@@ -236,13 +351,143 @@ export function ProductFormModal({ open, onOpenChange, product }: ProductFormMod
         <div>
           <Label className="text-sm font-medium">Produto ativo</Label>
           <p className="text-xs text-muted-foreground">
-            Produtos inativos não aparecem no catálogo
+            Produtos inativos nao aparecem no catalogo
           </p>
         </div>
         <Switch
           checked={isActive}
           onCheckedChange={(v) => setValue('is_active', v)}
         />
+      </div>
+
+      <Separator />
+
+      {/* ── Variantes de Venda ── */}
+      <div className="space-y-3">
+        <div className="flex items-center justify-between">
+          <div>
+            <Label className="text-sm font-semibold">Variantes de Venda</Label>
+            <p className="text-xs text-muted-foreground">
+              Defina as opcoes de compra (ex: unidade, kg, caixa)
+            </p>
+          </div>
+          <Button
+            type="button"
+            variant="outline"
+            size="sm"
+            className="gap-1 text-xs"
+            onClick={addVariant}
+          >
+            <Plus className="size-3.5" />
+            Adicionar
+          </Button>
+        </div>
+
+        {variants.map((variant, index) => (
+          <div
+            key={index}
+            className="rounded-lg border bg-muted/30 p-3 space-y-3"
+          >
+            {/* Row 1: Unit type + Label + Remove */}
+            <div className="flex items-start gap-2">
+              <div className="flex-1 space-y-1">
+                <Label className="text-xs">Tipo de unidade</Label>
+                <Select
+                  value={variant.unit_type}
+                  onValueChange={(v) => updateVariant(index, 'unit_type', v)}
+                >
+                  <SelectTrigger className="h-9">
+                    <SelectValue />
+                  </SelectTrigger>
+                  <SelectContent>
+                    {UNITS.map((u) => (
+                      <SelectItem key={u.value} value={u.value}>
+                        {u.label}
+                      </SelectItem>
+                    ))}
+                  </SelectContent>
+                </Select>
+              </div>
+              <div className="flex-1 space-y-1">
+                <Label className="text-xs">Rotulo (opcional)</Label>
+                <Input
+                  className="h-9"
+                  placeholder={UNIT_LABELS[variant.unit_type] ?? ''}
+                  value={variant.unit_label}
+                  onChange={(e) => updateVariant(index, 'unit_label', e.target.value)}
+                />
+              </div>
+              {variants.length > 1 && (
+                <Button
+                  type="button"
+                  variant="ghost"
+                  size="icon"
+                  className="mt-5 size-9 shrink-0 text-muted-foreground hover:text-destructive"
+                  onClick={() => removeVariant(index)}
+                >
+                  <Trash2 className="size-4" />
+                </Button>
+              )}
+            </div>
+
+            {/* Row 2: Price + Weight */}
+            <div className="grid grid-cols-2 gap-2">
+              <div className="space-y-1">
+                <Label className="text-xs">Preco (R$) *</Label>
+                <Input
+                  className="h-9"
+                  type="number"
+                  step="0.01"
+                  min="0.01"
+                  placeholder="0,00"
+                  value={variant.unit_price || ''}
+                  onChange={(e) =>
+                    updateVariant(index, 'unit_price', parseFloat(e.target.value) || 0)
+                  }
+                />
+              </div>
+              <div className="space-y-1">
+                <Label className="text-xs">Peso (g)</Label>
+                <Input
+                  className="h-9"
+                  type="number"
+                  min="0"
+                  placeholder="Opcional"
+                  value={variant.weight_grams ?? ''}
+                  onChange={(e) =>
+                    updateVariant(
+                      index,
+                      'weight_grams',
+                      e.target.value ? parseInt(e.target.value) : null
+                    )
+                  }
+                />
+              </div>
+            </div>
+
+            {/* Row 3: Switches */}
+            <div className="flex items-center gap-4">
+              <label className="flex items-center gap-2 text-xs cursor-pointer">
+                <Switch
+                  checked={variant.allows_fractional}
+                  onCheckedChange={(v) => updateVariant(index, 'allows_fractional', v)}
+                  className="scale-75"
+                />
+                Permite fracionado
+              </label>
+              <label className="flex items-center gap-2 text-xs cursor-pointer">
+                <Switch
+                  checked={variant.is_default}
+                  onCheckedChange={(v) => {
+                    if (v) updateVariant(index, 'is_default', true)
+                  }}
+                  className="scale-75"
+                />
+                Padrao
+              </label>
+            </div>
+          </div>
+        ))}
       </div>
     </>
   )
@@ -282,7 +527,7 @@ export function ProductFormModal({ open, onOpenChange, product }: ProductFormMod
             <SheetDescription>{description}</SheetDescription>
           </SheetHeader>
 
-          {/* Scrollable form — usa overflow nativo, não ScrollArea */}
+          {/* Scrollable form — usa overflow nativo, nao ScrollArea */}
           <form
             onSubmit={handleSubmit(onSubmit)}
             className="flex min-h-0 flex-1 flex-col"

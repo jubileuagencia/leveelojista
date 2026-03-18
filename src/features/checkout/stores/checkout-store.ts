@@ -71,12 +71,13 @@ export const useCheckoutStore = create<CheckoutState>((set, get) => ({
     set({ loading: true })
     try {
       const items = cartItems.map((item) => {
-        const basePrice = item.product?.price ?? 0
+        const basePrice = item.variant?.unit_price ?? item.product?.price ?? 0
         const unitPrice = basePrice - basePrice * tierDiscountRate
         return {
           product_id: item.product_id,
           quantity: item.quantity,
           unit_price: unitPrice,
+          variant_id: item.variant_id ?? undefined,
         }
       })
 

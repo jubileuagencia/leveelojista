@@ -80,6 +80,8 @@ export function LoginForm() {
         toast.error('E-mail ou senha incorretos')
       } else if (message.includes('Email not confirmed')) {
         toast.error('Confirme seu e-mail antes de fazer login')
+      } else if (message.includes('rate limit') || message.includes('429') || message.includes('Too Many')) {
+        toast.error('Muitas tentativas. Aguarde alguns minutos e tente novamente.')
       } else {
         toast.error(message)
       }

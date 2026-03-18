@@ -1,8 +1,9 @@
 import { useNavigate } from 'react-router-dom'
-import { ShoppingBag, FileText } from 'lucide-react'
+import { ShoppingBag, FileText, CalendarDays } from 'lucide-react'
 import { Button } from '@/components/ui/button'
 import { useCheckoutStore } from '@/features/checkout/stores/checkout-store'
 import { formatOrderNumber } from '@/lib/format'
+import { formatDeliveryDate } from '@/lib/delivery'
 
 export function StepSuccess() {
   const navigate = useNavigate()
@@ -56,13 +57,26 @@ export function StepSuccess() {
         </p>
       </div>
 
-      {/* Order number */}
+      {/* Order number + delivery date */}
       {orderResult?.order_number && (
-        <div className="rounded-xl border bg-card px-6 py-4 text-center">
-          <p className="text-xs text-muted-foreground mb-1">Numero do pedido</p>
-          <p className="text-2xl font-bold text-primary tabular-nums">
-            {formatOrderNumber(orderResult.order_number)}
-          </p>
+        <div className="rounded-xl border bg-card px-6 py-4 text-center space-y-3">
+          <div>
+            <p className="text-xs text-muted-foreground mb-1">Numero do pedido</p>
+            <p className="text-2xl font-bold text-primary tabular-nums">
+              {formatOrderNumber(orderResult.order_number)}
+            </p>
+          </div>
+          {orderResult.estimated_delivery_date && (
+            <div className="border-t pt-3">
+              <p className="text-xs text-muted-foreground mb-1 flex items-center justify-center gap-1">
+                <CalendarDays className="size-3" />
+                Previsao de entrega
+              </p>
+              <p className="text-sm font-semibold capitalize">
+                {formatDeliveryDate(orderResult.estimated_delivery_date)}
+              </p>
+            </div>
+          )}
         </div>
       )}
 

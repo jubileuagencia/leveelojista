@@ -1,16 +1,17 @@
-import { useState } from 'react'
-import { Heart, Minus, Plus, ShoppingCart, Package } from 'lucide-react'
+import { useState, useMemo } from 'react'
+import { Heart, Minus, Plus, ShoppingCart, Package, AlertTriangle } from 'lucide-react'
 import { toast } from 'sonner'
 import { Button } from '@/components/ui/button'
 import { Badge } from '@/components/ui/badge'
 import { Skeleton } from '@/components/ui/skeleton'
 import { cn } from '@/lib/utils'
 import { formatCurrency } from '@/lib/format'
+import { getUnitShort } from '@/lib/unit-labels'
 import { useTierPrice } from '@/hooks/use-tier-price'
 import { useAuthStore } from '@/stores/auth-store'
 import { useCartStore } from '@/stores/cart-store'
 import { useFavoritesStore } from '@/features/favorites/stores/favorites-store'
-import type { Product } from '@/types/database'
+import type { Product, ProductVariant } from '@/types/database'
 
 interface ProductCardProps {
   product: Product
@@ -18,6 +19,17 @@ interface ProductCardProps {
 }
 
 export function ProductCard({ product, onNavigate }: ProductCardProps) {
+  const variants = useMemo(() => {
+    const v = product.variants ?? []
+    return v.sort((a, b) => a.sort_order - b.sort_order)
+  }, [product.variants])
+
+  const defaultVariant = useMemo(
+    () => variants.find((v) => v.is_default) ?? variants[0] ?? null,
+    [variants]
+  )
+
+  const [selectedVariant, setSelectedVariant] = useState<ProductVariant | null>(defaultVariant)
   const [quantity, setQuantity] = useState(1)
   const [imageLoaded, setImageLoaded] = useState(false)
   const [imageError, setImageError] = useState(false)
@@ -27,12 +39,16 @@ export function ProductCard({ product, onNavigate }: ProductCardProps) {
   const addItem = useCartStore((s) => s.addItem)
   const { toggleFavorite, isFavorite } = useFavoritesStore()
 
+  const activePrice = selectedVariant?.unit_price ?? product.price
+  const activeUnit = selectedVariant?.unit_type ?? product.unit
+  const isFractional = selectedVariant?.allows_fractional ?? activeUnit === 'kg'
+
   const {
     finalPrice,
     originalPrice,
     hasDiscount,
     discountRate,
-  } = useTierPrice(product.price)
+  } = useTierPrice(activePrice)
 
   const isFav = isFavorite(product.id)
 
@@ -41,10 +57,10 @@ export function ProductCard({ product, onNavigate }: ProductCardProps) {
     if (!user) return
     setIsAdding(true)
     try {
-      await addItem(user.id, product, quantity)
+      await addItem(user.id, product, quantity, selectedVariant ?? undefined)
       toast.success(`${product.name} adicionado ao carrinho`)
-      setQuantity(1)
-    } catch (error) {
+      setQuantity(isFractional ? 0.5 : 1)
+    } catch {
       toast.error('Erro ao adicionar ao carrinho')
     } finally {
       setIsAdding(false)
@@ -59,7 +75,32 @@ export function ProductCard({ product, onNavigate }: ProductCardProps) {
 
   const handleQuantityChange = (e: React.MouseEvent, delta: number) => {
     e.stopPropagation()
-    setQuantity((prev) => Math.max(1, prev + delta))
+    const step = isFractional ? 0.1 : 1
+    const min = isFractional ? 0.1 : 1
+    const newDelta = delta > 0 ? step : -step
+    setQuantity((prev) => {
+      const next = Math.round((prev + newDelta) * 10) / 10
+      return Math.max(min, next)
+    })
+  }
+
+  const handleVariantSelect = (e: React.MouseEvent, variant: ProductVariant) => {
+    e.stopPropagation()
+    setSelectedVariant(variant)
+    // Reset quantity when switching to/from fractional
+    const nowFractional = variant.allows_fractional
+    if (nowFractional && quantity === Math.floor(quantity) && quantity <= 1) {
+      setQuantity(0.5)
+    } else if (!nowFractional && quantity < 1) {
+      setQuantity(1)
+    } else if (!nowFractional) {
+      setQuantity(Math.max(1, Math.round(quantity)))
+    }
+  }
+
+  const formatQty = (q: number) => {
+    if (isFractional) return q.toFixed(1).replace('.', ',')
+    return String(q)
   }
 
   return (
@@ -129,7 +170,7 @@ export function ProductCard({ product, onNavigate }: ProductCardProps) {
           )}
           <span className="shrink-0 text-muted-foreground/30">|</span>
           <Badge variant="secondary" className="shrink-0 text-[9px] px-1 py-0 h-3.5 sm:text-[10px] sm:px-1.5 sm:h-4">
-            {product.unit}
+            {getUnitShort(activeUnit)}
           </Badge>
         </div>
 
@@ -137,6 +178,26 @@ export function ProductCard({ product, onNavigate }: ProductCardProps) {
         <h3 className="text-xs font-semibold leading-tight line-clamp-2 text-foreground sm:text-sm">
           {product.name}
         </h3>
+
+        {/* Variant selector */}
+        {variants.length > 1 && (
+          <div className="flex flex-wrap gap-1" onClick={(e) => e.stopPropagation()}>
+            {variants.map((v) => (
+              <button
+                key={v.id}
+                onClick={(e) => handleVariantSelect(e, v)}
+                className={cn(
+                  'rounded-md border px-1.5 py-0.5 text-[9px] font-medium transition-all sm:text-[10px]',
+                  selectedVariant?.id === v.id
+                    ? 'border-primary bg-primary/10 text-primary'
+                    : 'border-muted-foreground/20 text-muted-foreground hover:border-muted-foreground/40'
+                )}
+              >
+                {v.unit_label ?? getUnitShort(v.unit_type)}
+              </button>
+            ))}
+          </div>
+        )}
 
         {/* Pricing */}
         <div className="mt-auto pt-0.5">
@@ -154,7 +215,20 @@ export function ProductCard({ product, onNavigate }: ProductCardProps) {
               {formatCurrency(originalPrice)}
             </span>
           )}
+          {selectedVariant?.unit_label && (
+            <span className="text-[9px] text-muted-foreground sm:text-[10px]">
+              / {selectedVariant.unit_label}
+            </span>
+          )}
         </div>
+
+        {/* Fractional weight alert */}
+        {isFractional && (
+          <div className="flex items-center gap-1 text-[9px] text-amber-600 sm:text-[10px]">
+            <AlertTriangle className="size-3 shrink-0" />
+            <span>Peso pode variar</span>
+          </div>
+        )}
 
         {/* Quantity + Add to cart */}
         <div className="flex flex-col gap-1.5 pt-0.5 sm:flex-row sm:items-center sm:gap-2 sm:pt-1">
@@ -164,12 +238,12 @@ export function ProductCard({ product, onNavigate }: ProductCardProps) {
               size="icon-xs"
               className="rounded-r-none h-7 w-7"
               onClick={(e) => handleQuantityChange(e, -1)}
-              disabled={quantity <= 1}
+              disabled={quantity <= (isFractional ? 0.1 : 1)}
             >
               <Minus className="size-3" />
             </Button>
-            <span className="min-w-[1.5rem] text-center text-xs font-medium tabular-nums sm:min-w-[2rem] sm:text-sm">
-              {quantity}
+            <span className="min-w-[1.75rem] text-center text-xs font-medium tabular-nums sm:min-w-[2rem] sm:text-sm">
+              {formatQty(quantity)}
             </span>
             <Button
               variant="ghost"

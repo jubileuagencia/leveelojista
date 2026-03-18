@@ -2,21 +2,21 @@ import { cn } from '@/lib/utils'
 import type { UserTier } from '@/types/database'
 
 const TIER_CONFIG: Record<UserTier, { label: string; className: string }> = {
-  bronze: {
-    label: 'Bronze',
+  ouro: {
+    label: 'Ouro',
     className: 'bg-amber-100 text-amber-800 border-amber-200',
   },
-  silver: {
-    label: 'Silver',
+  platina: {
+    label: 'Platina',
     className: 'bg-slate-100 text-slate-700 border-slate-200',
   },
-  gold: {
-    label: 'Gold',
-    className: 'bg-yellow-100 text-yellow-800 border-yellow-200',
+  diamante: {
+    label: 'Diamante',
+    className: 'bg-blue-100 text-blue-800 border-blue-200',
   },
 }
 
-export const ALL_TIERS: UserTier[] = ['bronze', 'silver', 'gold']
+export const ALL_TIERS: UserTier[] = ['ouro', 'platina', 'diamante']
 
 export function getTierLabel(tier: UserTier): string {
   return TIER_CONFIG[tier]?.label ?? tier
