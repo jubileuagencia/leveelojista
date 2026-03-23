@@ -13,7 +13,6 @@ import { ScrollArea } from '@/components/ui/scroll-area'
 import {
   Tooltip,
   TooltipContent,
-  TooltipProvider,
   TooltipTrigger,
 } from '@/components/ui/tooltip'
 import { cn } from '@/lib/utils'
@@ -41,7 +40,6 @@ export function Sidebar() {
   }
 
   return (
-    <TooltipProvider delayDuration={0}>
       <aside
         className={cn(
           'bg-background relative hidden h-[calc(100vh-4rem)] sticky top-[4rem] flex-col border-r transition-all duration-300 md:flex',
@@ -115,6 +113,5 @@ export function Sidebar() {
           </div>
         )}
       </aside>
-    </TooltipProvider>
   )
 }

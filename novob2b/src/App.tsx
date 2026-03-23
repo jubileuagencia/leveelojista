@@ -38,7 +38,7 @@ const PageFallback = () => (
 export default function App() {
   return (
     <BrowserRouter>
-      <TooltipProvider>
+      <TooltipProvider delayDuration={0}>
         <Suspense fallback={<PageFallback />}>
           <Routes>
             {/* Auth routes */}
