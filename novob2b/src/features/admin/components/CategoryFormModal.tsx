@@ -21,7 +21,7 @@ const schema = z.object({
   name: z.string().min(1, 'Nome é obrigatório'),
   icon: z.string().optional(),
   color: z.string().optional(),
-  is_featured: z.boolean().default(false),
+  is_featured: z.boolean(),
 })
 
 type FormValues = z.infer<typeof schema>

@@ -96,7 +96,7 @@ export default function ProfilePage() {
           <ProfileField
             icon={FileText}
             label={profile?.document_type === 'cpf' ? 'CPF' : 'CNPJ'}
-            value={formatDocument(profile?.document_type ?? 'cnpj', profile?.document_number, profile?.cnpj)}
+            value={formatDocument(profile?.document_type ?? 'cnpj', profile?.document_number ?? null, profile?.cnpj ?? null)}
           />
           <Separator />
           <ProfileField icon={Phone} label="Telefone" value={profile?.phone} />
