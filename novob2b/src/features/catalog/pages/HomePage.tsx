@@ -1,5 +1,5 @@
 import { useState, useEffect, useCallback } from 'react'
-import { useNavigate } from 'react-router-dom'
+import { Link, useNavigate, useSearchParams } from 'react-router-dom'
 import {
   Package,
   Zap,
@@ -20,7 +20,7 @@ import { CategoryFilter } from '@/features/catalog/components/CategoryFilter'
 import { SearchBar } from '@/features/catalog/components/SearchBar'
 import {
   getProducts,
-  getCategories,
+  getFeaturedCategories,
   getLastOrderItems,
 } from '@/features/catalog/services/products'
 import { useFavoritesStore } from '@/features/favorites/stores/favorites-store'
@@ -46,6 +46,7 @@ const TIER_CONFIG = {
 
 export default function HomePage() {
   const navigate = useNavigate()
+  const [searchParams, setSearchParams] = useSearchParams()
   const user = useAuthStore((s) => s.user)
   const profile = useAuthStore((s) => s.profile)
   const fetchFavorites = useFavoritesStore((s) => s.fetchFavorites)
@@ -53,7 +54,9 @@ export default function HomePage() {
   const [products, setProducts] = useState<Product[]>([])
   const [categories, setCategories] = useState<Category[]>([])
   const [lastOrderItems, setLastOrderItems] = useState<Product[]>([])
-  const [selectedCategory, setSelectedCategory] = useState<string | null>(null)
+  const [selectedCategory, setSelectedCategory] = useState<string | null>(
+    searchParams.get('categoria')
+  )
   const [searchQuery, setSearchQuery] = useState('')
   const [loading, setLoading] = useState(true)
   const [categoriesLoading, setCategoriesLoading] = useState(true)
@@ -64,7 +67,7 @@ export default function HomePage() {
     async function loadCategories() {
       setCategoriesLoading(true)
       try {
-        const data = await getCategories()
+        const data = await getFeaturedCategories()
         setCategories(data)
       } catch (error) {
         console.error('Error loading categories:', error)
@@ -125,7 +128,12 @@ export default function HomePage() {
 
   const handleCategorySelect = useCallback((categoryId: string | null) => {
     setSelectedCategory(categoryId)
-  }, [])
+    if (categoryId) {
+      setSearchParams({ categoria: categoryId }, { replace: true })
+    } else {
+      setSearchParams({}, { replace: true })
+    }
+  }, [setSearchParams])
 
   const handleNavigateToProduct = useCallback(
     (productId: string) => {
@@ -134,9 +142,9 @@ export default function HomePage() {
     [navigate]
   )
 
-  const tierKey = profile?.tier ?? 'ouro'
-  const tierInfo = TIER_CONFIG[tierKey as keyof typeof TIER_CONFIG] ?? TIER_CONFIG.ouro
-  const TierIcon = tierInfo.icon
+  const tierKey = (profile?.tier as keyof typeof TIER_CONFIG) ?? 'ouro'
+  const tierInfo = TIER_CONFIG[tierKey] ?? TIER_CONFIG.ouro
+  const TierIcon = tierInfo?.icon ?? TrendingUp
 
   const greetingName = profile?.company_name ?? 'Lojista'
   const hour = new Date().getHours()
@@ -172,12 +180,22 @@ export default function HomePage() {
 
       {/* Category filter */}
       <div className="mx-auto max-w-7xl px-4 md:px-6 py-3">
-        <CategoryFilter
-          categories={categories}
-          selectedCategoryId={selectedCategory}
-          onSelect={handleCategorySelect}
-          loading={categoriesLoading}
-        />
+        <div className="flex items-center gap-2">
+          <div className="min-w-0 flex-1">
+            <CategoryFilter
+              categories={categories}
+              selectedCategoryId={selectedCategory}
+              onSelect={handleCategorySelect}
+              loading={categoriesLoading}
+            />
+          </div>
+          <Link
+            to="/categorias"
+            className="shrink-0 text-xs text-primary hover:underline whitespace-nowrap"
+          >
+            Ver todas &rarr;
+          </Link>
+        </div>
       </div>
 
       {/* Quick reorder section */}

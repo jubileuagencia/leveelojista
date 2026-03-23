@@ -1,5 +1,5 @@
 import { useState } from 'react'
-import { Package } from 'lucide-react'
+import { Package, CalendarDays } from 'lucide-react'
 import {
   Sheet,
   SheetContent,
@@ -27,6 +27,7 @@ import {
 import { Skeleton } from '@/components/ui/skeleton'
 import { Separator } from '@/components/ui/separator'
 import { formatCurrency, formatDateTime, formatCNPJ, formatPhone } from '@/lib/format'
+import { formatDeliveryDate } from '@/lib/delivery'
 import { OrderStatusBadge, ALL_STATUSES, getStatusLabel } from './OrderStatusBadge'
 import { useOrderDetail, useUpdateOrderStatus } from '../hooks/useOrders'
 import type { OrderStatus } from '@/types/database'
@@ -131,6 +132,19 @@ export function OrderDetailsModal({ orderId, open, onOpenChange }: OrderDetailsM
                     </p>
                     {order.address.zip_code && <p>CEP: {order.address.zip_code}</p>}
                   </div>
+                </div>
+              )}
+
+              {/* Estimated delivery */}
+              {order.estimated_delivery_date && (
+                <div className="space-y-1.5">
+                  <h4 className="text-sm font-medium flex items-center gap-1.5">
+                    <CalendarDays className="size-3.5 text-muted-foreground" />
+                    Previsao de entrega
+                  </h4>
+                  <p className="text-sm text-muted-foreground capitalize">
+                    {formatDeliveryDate(order.estimated_delivery_date)}
+                  </p>
                 </div>
               )}
 

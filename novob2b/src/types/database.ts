@@ -24,6 +24,8 @@ export interface Category {
   name: string
   icon: string | null
   color: string | null
+  sort_order: number
+  is_featured: boolean
   created_at: string
 }
 
@@ -87,6 +89,7 @@ export interface Order {
   subtotal: number
   discount: number
   total: number
+  estimated_delivery_date: string | null
   created_at: string
   profile?: Profile
   address?: UserAddress

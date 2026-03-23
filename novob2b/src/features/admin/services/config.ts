@@ -22,7 +22,7 @@ async function getConfigValue<T>(key: string, fallback: T): Promise<T> {
     .from('app_config')
     .select('value')
     .eq('key', key)
-    .single()
+    .maybeSingle()
 
   if (error) {
     throw new Error(`Falha ao buscar configuracao "${key}": ${error.message}`)

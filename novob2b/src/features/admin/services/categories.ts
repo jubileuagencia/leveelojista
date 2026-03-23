@@ -23,6 +23,7 @@ export interface CreateCategoryData {
   name: string
   icon?: string
   color?: string
+  is_featured?: boolean
 }
 
 export async function createCategory(data: CreateCategoryData): Promise<void> {
@@ -49,6 +50,7 @@ export interface UpdateCategoryData {
   name?: string
   icon?: string
   color?: string
+  is_featured?: boolean
 }
 
 export async function updateCategory(id: string, data: UpdateCategoryData): Promise<void> {

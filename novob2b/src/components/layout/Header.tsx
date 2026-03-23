@@ -14,7 +14,6 @@ import {
   Home,
   Grid3X3,
   ClipboardList,
-  Star,
 } from 'lucide-react'
 import { Button } from '@/components/ui/button'
 import { Input } from '@/components/ui/input'
@@ -68,7 +67,6 @@ const MOBILE_NAV_ITEMS: MobileNavItem[] = [
   { label: 'Categorias', href: '/categorias', icon: <Grid3X3 className="size-5" /> },
   { label: 'Pedidos', href: '/pedidos', icon: <ClipboardList className="size-5" /> },
   { label: 'Favoritos', href: '/favoritos', icon: <Heart className="size-5" /> },
-  { label: 'Destaques', href: '/destaques', icon: <Star className="size-5" /> },
 ]
 
 export function Header() {
@@ -234,10 +232,6 @@ export function Header() {
                     <Heart className="size-4" />
                     Favoritos
                   </DropdownMenuItem>
-                  <DropdownMenuItem onClick={() => navigate('/configuracoes')}>
-                    <Settings className="size-4" />
-                    Configurações
-                  </DropdownMenuItem>
                 </DropdownMenuGroup>
                 <DropdownMenuSeparator />
                 <DropdownMenuItem
@@ -361,7 +355,7 @@ export function Header() {
                 )}
               </Link>
               <Link
-                to="/configuracoes"
+                to="/perfil"
                 onClick={() => setMobileMenuOpen(false)}
                 className="hover:bg-accent flex items-center gap-3 rounded-lg px-3 py-2.5 text-sm font-medium transition-colors"
               >

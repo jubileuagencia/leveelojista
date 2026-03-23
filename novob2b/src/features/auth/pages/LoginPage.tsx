@@ -31,7 +31,7 @@ const FEATURES = [
 
 export function LoginPage() {
   const navigate = useNavigate()
-  const { user, loading, initialized, initialize } = useAuthStore()
+  const { user, profile, loading, initialized, initialize } = useAuthStore()
 
   useEffect(() => {
     if (!initialized) {
@@ -39,11 +39,13 @@ export function LoginPage() {
     }
   }, [initialized, initialize])
 
+  // Redirect se já está logado (ex: volta ao /login estando autenticado)
   useEffect(() => {
-    if (!loading && initialized && user) {
-      navigate('/', { replace: true })
+    if (!loading && initialized && user && profile) {
+      const isAdmin = profile.role === 'admin' || profile.role === 'super_admin'
+      navigate(isAdmin ? '/admin' : '/', { replace: true })
     }
-  }, [user, loading, initialized, navigate])
+  }, [user, profile, loading, initialized, navigate])
 
   return (
     <>

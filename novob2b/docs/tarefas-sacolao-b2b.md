@@ -325,7 +325,7 @@ Schema redesenhado com base nos dados reais (5 tipos: KG, UN, BJ, PC, CX):
 
 ## FASE 7 — Entrega e Frete
 
-### T7.1 — Backend: Logica de Data de Entrega
+### ~~T7.1 — Backend: Logica de Data de Entrega~~ ✅ CONCLUIDA (2026-03-18)
 **Agente:** @dev
 **Dependencia:** T5.6 (config dinamica)
 **Descricao:**
@@ -335,6 +335,15 @@ Schema redesenhado com base nos dados reais (5 tipos: KG, UN, BJ, PC, CX):
   - Se depois do corte → daqui a 2 dias
 - Exibir data estimada no checkout antes de finalizar
 - Salvar `estimated_delivery_date` no pedido
+
+**Resultado (2026-03-18):**
+- Migration 015: coluna `estimated_delivery_date` em orders + calculo no RPC `create_order_validated` usando `delivery_config.order_cutoff_time`
+- `src/lib/delivery.ts`: funcoes `getEstimatedDeliveryDate()`, `formatDeliveryDate()`, hook `useEstimatedDelivery()`
+- StepReview: exibe previsao de entrega antes de finalizar
+- StepSuccess: exibe data na confirmacao do pedido
+- OrderDetailsPage (customer): secao "Previsao de Entrega"
+- OrderDetailsModal (admin): exibe data estimada
+- Backfill: pedidos existentes recebem created_at + 1 dia
 
 **Entregavel:** Funcao de calculo + campo no pedido + exibicao no checkout
 

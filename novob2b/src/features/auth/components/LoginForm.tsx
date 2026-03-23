@@ -16,6 +16,7 @@ import {
   CardTitle,
 } from '@/components/ui/card'
 import { useAuthStore } from '@/stores/auth-store'
+import { supabase } from '@/lib/supabase'
 
 const loginSchema = z.object({
   email: z
@@ -35,6 +36,7 @@ type FieldErrors = Partial<Record<keyof LoginFormData, string>>
 export function LoginForm() {
   const navigate = useNavigate()
   const login = useAuthStore((s) => s.login)
+  const fetchProfile = useAuthStore((s) => s.fetchProfile)
 
   const [formData, setFormData] = useState<LoginFormData>({
     email: '',
@@ -70,8 +72,18 @@ export function LoginForm() {
     setIsLoading(true)
     try {
       await login(result.data.email, result.data.password)
+      // Aguardar user do Supabase e carregar profile para decidir rota
+      const { data: { user } } = await supabase.auth.getUser()
+      let targetRoute = '/'
+      if (user) {
+        await fetchProfile(user.id)
+        const profile = useAuthStore.getState().profile
+        if (profile?.role === 'admin' || profile?.role === 'super_admin') {
+          targetRoute = '/admin'
+        }
+      }
       toast.success('Login realizado com sucesso!')
-      navigate('/', { replace: true })
+      navigate(targetRoute, { replace: true })
     } catch (error) {
       const message =
         error instanceof Error ? error.message : 'Erro ao fazer login'
