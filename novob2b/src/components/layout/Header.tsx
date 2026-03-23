@@ -39,6 +39,7 @@ import {
 import { useAuthStore } from '@/stores/auth-store'
 import { useCartStore } from '@/stores/cart-store'
 import type { UserTier } from '@/types/database'
+import { Logo } from '@/components/ui/Logo'
 import { cn } from '@/lib/utils'
 
 const TIER_CONFIG: Record<UserTier, { label: string; className: string }> = {
@@ -125,9 +126,8 @@ export function Header() {
             to="/"
             className="flex items-center gap-2 transition-opacity hover:opacity-80"
           >
-            <span className="text-xl font-bold tracking-tight text-emerald-600 md:text-2xl">
-              Levee
-            </span>
+            <Logo size="sm" withText className="hidden md:inline-flex" />
+            <Logo size="xs" withText className="md:hidden" />
           </Link>
 
           {/* Desktop Search */}
@@ -284,9 +284,7 @@ export function Header() {
         <SheetContent side="left" className="w-[280px] p-0">
           <SheetHeader className="border-b px-4 py-4">
             <SheetTitle className="text-left">
-              <span className="text-xl font-bold tracking-tight text-emerald-600">
-                Levee
-              </span>
+              <Logo size="sm" withText />
             </SheetTitle>
           </SheetHeader>
 

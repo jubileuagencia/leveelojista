@@ -107,7 +107,8 @@ export function Sidebar() {
         {/* Footer - Version */}
         {!collapsed && (
           <div className="border-t px-4 py-3">
-            <p className="text-muted-foreground text-[11px]">
+            <p className="text-muted-foreground flex items-center gap-1.5 text-[11px]">
+              <img src="/logo.png" alt="" className="size-4" />
               Levee B2B v1.0
             </p>
           </div>

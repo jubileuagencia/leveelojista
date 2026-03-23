@@ -31,6 +31,7 @@ import {
   TooltipTrigger,
 } from '@/components/ui/tooltip'
 import { useAuthStore } from '@/stores/auth-store'
+import { Logo } from '@/components/ui/Logo'
 import { cn } from '@/lib/utils'
 
 interface AdminNavItem {
@@ -133,9 +134,7 @@ export function AdminLayout() {
     return (
       <div className="flex h-screen items-center justify-center">
         <div className="flex flex-col items-center gap-4">
-          <span className="text-2xl font-bold tracking-tight text-emerald-600">
-            Levee
-          </span>
+          <Logo size="lg" />
           <span className="text-muted-foreground text-sm">
             Carregando painel administrativo...
           </span>
@@ -253,9 +252,7 @@ export function AdminLayout() {
             <SheetTitle className="sr-only">Menu de navegação</SheetTitle>
             {/* Header */}
             <div className="flex h-16 items-center gap-3 border-b px-4">
-              <span className="text-xl font-bold tracking-tight text-emerald-600">
-                Levee
-              </span>
+              <Logo size="sm" withText />
               <Badge
                 variant="secondary"
                 className="text-[10px] font-semibold uppercase"
@@ -303,9 +300,7 @@ export function AdminLayout() {
           >
             {!collapsed && (
               <div className="flex items-center gap-2">
-                <span className="text-xl font-bold tracking-tight text-emerald-600">
-                  Levee
-                </span>
+                <Logo size="sm" withText />
                 <Badge
                   variant="secondary"
                   className="text-[10px] font-semibold uppercase"
@@ -315,7 +310,7 @@ export function AdminLayout() {
               </div>
             )}
             {collapsed && (
-              <span className="text-lg font-bold text-emerald-600">L</span>
+              <Logo size="sm" />
             )}
           </div>
 
