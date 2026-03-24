@@ -57,11 +57,28 @@ export async function getCategories(): Promise<Category[]> {
   const { data, error } = await supabase
     .from('categories')
     .select('*')
+    .order('sort_order', { ascending: true })
     .order('name', { ascending: true })
 
   if (error) {
     console.error('Error fetching categories:', error)
     throw new Error(`Falha ao buscar categorias: ${error.message}`)
+  }
+
+  return data ?? []
+}
+
+export async function getFeaturedCategories(): Promise<Category[]> {
+  const { data, error } = await supabase
+    .from('categories')
+    .select('*')
+    .eq('is_featured', true)
+    .order('sort_order', { ascending: true })
+    .order('name', { ascending: true })
+
+  if (error) {
+    console.error('Error fetching featured categories:', error)
+    throw new Error(`Falha ao buscar categorias destaque: ${error.message}`)
   }
 
   return data ?? []
@@ -88,19 +105,19 @@ export async function searchProducts(query: string): Promise<Product[]> {
 }
 
 export async function getLastOrderItems(userId: string): Promise<Product[]> {
-  const { data: lastOrder } = await supabase
+  const { data: lastOrder, error: orderError } = await supabase
     .from('orders')
     .select('id')
     .eq('user_id', userId)
     .order('created_at', { ascending: false })
     .limit(1)
-    .single()
+    .maybeSingle()
 
-  if (!lastOrder) return []
+  if (orderError || !lastOrder) return []
 
   const { data: orderItems, error } = await supabase
     .from('order_items')
-    .select('product:products(*, categories(*), variants:product_variants(*))')
+    .select('product:products!inner(*, categories(*), variants:product_variants(*))')
     .eq('order_id', lastOrder.id)
 
   if (error) {
@@ -110,5 +127,5 @@ export async function getLastOrderItems(userId: string): Promise<Product[]> {
 
   return (orderItems
     ?.map((item) => (item as unknown as { product: Product }).product)
-    .filter(Boolean) ?? []) as Product[]
+    .filter((p): p is Product => !!p && p.is_active && p.deleted_at === null) ?? []) as Product[]
 }

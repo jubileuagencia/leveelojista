@@ -16,7 +16,7 @@ export async function getUserOrders(
 
   const { data, error, count } = await supabase
     .from('orders')
-    .select('*, order_items:order_items(*, product:products(*))', { count: 'exact' })
+    .select('*, items:order_items(*, product:products(*))', { count: 'exact' })
     .eq('user_id', userId)
     .order('created_at', { ascending: false })
     .range(from, to)
@@ -35,7 +35,7 @@ export async function getUserOrders(
 export async function getOrderById(orderId: string): Promise<Order | null> {
   const { data, error } = await supabase
     .from('orders')
-    .select('*, address:user_addresses(*), order_items:order_items(*, product:products(*))')
+    .select('*, address:user_addresses(*), items:order_items(*, product:products(*))')
     .eq('id', orderId)
     .single()
 
