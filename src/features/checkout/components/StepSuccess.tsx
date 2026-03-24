@@ -8,15 +8,12 @@ import { formatDeliveryDate } from '@/lib/delivery'
 export function StepSuccess() {
   const navigate = useNavigate()
   const orderResult = useCheckoutStore((s) => s.orderResult)
-  const reset = useCheckoutStore((s) => s.reset)
 
   const handleViewOrders = () => {
-    reset()
     navigate('/pedidos')
   }
 
   const handleContinueShopping = () => {
-    reset()
     navigate('/')
   }
 

@@ -30,7 +30,7 @@ export async function fetchDashboardMetrics(): Promise<DashboardMetrics> {
   const [ordersRes, todayRes, clientsRes, revenueRes] = await Promise.all([
     supabase.from('orders').select('*', { count: 'exact', head: true }),
     supabase.from('orders').select('*', { count: 'exact', head: true }).gte('created_at', todayStart),
-    supabase.from('profiles').select('*', { count: 'exact', head: true }).eq('role', 'customer'),
+    supabase.from('profiles').select('*', { count: 'exact', head: true }).not('role', 'in', '("admin","super_admin")'),
     supabase
       .from('orders')
       .select('total')
