@@ -1,10 +1,16 @@
 import { supabase } from '@/lib/supabase'
+import { normalizeProduct } from '@/lib/product-utils'
 import type { Favorite } from '@/types/database'
+
+function normalizeFavorite(f: Favorite): Favorite {
+  if (!f.product) return f
+  return { ...f, product: normalizeProduct(f.product as never) }
+}
 
 export async function getFavorites(userId: string): Promise<Favorite[]> {
   const { data, error } = await supabase
     .from('favorites')
-    .select('*, product:products(*, categories(*))')
+    .select('*, product:products(*, category_links:product_categories(is_primary, category:categories(*)))')
     .eq('user_id', userId)
     .order('created_at', { ascending: false })
 
@@ -13,7 +19,7 @@ export async function getFavorites(userId: string): Promise<Favorite[]> {
     throw new Error(`Falha ao buscar favoritos: ${error.message}`)
   }
 
-  return (data as Favorite[]) ?? []
+  return ((data as Favorite[]) ?? []).map(normalizeFavorite)
 }
 
 export async function addFavorite(
@@ -23,7 +29,7 @@ export async function addFavorite(
   const { data, error } = await supabase
     .from('favorites')
     .insert({ user_id: userId, product_id: productId })
-    .select('*, product:products(*, categories(*))')
+    .select('*, product:products(*, category_links:product_categories(is_primary, category:categories(*)))')
     .single()
 
   if (error) {
@@ -31,7 +37,7 @@ export async function addFavorite(
     throw new Error(`Falha ao adicionar favorito: ${error.message}`)
   }
 
-  return data as Favorite
+  return normalizeFavorite(data as Favorite)
 }
 
 export async function removeFavorite(

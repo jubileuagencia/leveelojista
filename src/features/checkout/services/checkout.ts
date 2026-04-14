@@ -44,17 +44,9 @@ export async function createOrder(params: {
     p_payment_method: params.paymentMethod,
     p_items: params.items,
   }
-  console.log('[createOrder] RPC params:', JSON.stringify(rpcParams, null, 2))
-
   const { data, error } = await supabase.rpc('create_order_validated', rpcParams)
 
   if (error) {
-    console.error('[createOrder] RPC error:', {
-      message: error.message,
-      details: error.details,
-      hint: error.hint,
-      code: error.code,
-    })
     throw error
   }
   return data as string

@@ -9,6 +9,7 @@ import {
   ChevronLeft,
   ChevronRight,
   Tag,
+  BarChart3,
   LogOut,
   ArrowLeft,
   Menu,
@@ -65,6 +66,11 @@ const ADMIN_NAV_ITEMS: AdminNavItem[] = [
     label: 'Categorias',
     href: '/admin/categorias',
     icon: <Tag className="size-5" />,
+  },
+  {
+    label: 'Relatórios',
+    href: '/admin/relatorios',
+    icon: <BarChart3 className="size-5" />,
   },
   {
     label: 'Configurações',
@@ -417,6 +423,7 @@ function getPageTitle(pathname: string): string {
     '/admin/pedidos': 'Pedidos',
     '/admin/clientes': 'Clientes',
     '/admin/categorias': 'Categorias',
+    '/admin/relatorios': 'Relatórios',
     '/admin/configuracoes': 'Configurações',
   }
 

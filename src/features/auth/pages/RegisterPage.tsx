@@ -5,6 +5,7 @@ import { Toaster } from 'sonner'
 
 import { RegisterForm } from '@/features/auth/components/RegisterForm'
 import { useAuthStore } from '@/stores/auth-store'
+import { Logo } from '@/components/ui/Logo'
 
 const FEATURES = [
   {
@@ -52,7 +53,7 @@ export function RegisterPage() {
         {/* Left side - Branding (hidden on mobile) */}
         <div className="hidden flex-1 flex-col justify-between bg-primary p-12 text-primary-foreground lg:flex">
           <div>
-            <h1 className="text-4xl font-bold tracking-tighter">Levee</h1>
+            <Logo size="xl" withText textClassName="text-4xl text-primary-foreground" />
             <p className="mt-1 text-lg text-primary-foreground/70">
               Sua plataforma B2B de entregas
             </p>
@@ -96,11 +97,9 @@ export function RegisterPage() {
         {/* Right side - Form */}
         <div className="flex flex-1 flex-col items-center justify-center px-4 py-12 sm:px-8">
           {/* Mobile logo */}
-          <div className="mb-8 text-center lg:hidden">
-            <h1 className="text-3xl font-bold tracking-tighter text-primary">
-              Levee
-            </h1>
-            <p className="mt-1 text-sm text-muted-foreground">
+          <div className="mb-8 flex flex-col items-center gap-1 lg:hidden">
+            <Logo size="lg" withText />
+            <p className="text-sm text-muted-foreground">
               Sua plataforma B2B de entregas
             </p>
           </div>

@@ -18,6 +18,8 @@ const SearchPage = lazy(() => import('@/features/search/pages/SearchPage'))
 const OrdersPage = lazy(() => import('@/features/orders/pages/OrdersPage'))
 const OrderDetailsPage = lazy(() => import('@/features/orders/pages/OrderDetailsPage'))
 const CheckoutPage = lazy(() => import('@/features/checkout/pages/CheckoutPage'))
+const ProfilePage = lazy(() => import('@/features/account/pages/ProfilePage'))
+const CategoriesPage = lazy(() => import('@/features/catalog/pages/CategoriesPage'))
 
 // Admin pages
 const DashboardPage = lazy(() => import('@/features/admin/pages/DashboardPage'))
@@ -36,7 +38,7 @@ const PageFallback = () => (
 export default function App() {
   return (
     <BrowserRouter>
-      <TooltipProvider>
+      <TooltipProvider delayDuration={0}>
         <Suspense fallback={<PageFallback />}>
           <Routes>
             {/* Auth routes */}
@@ -53,6 +55,8 @@ export default function App() {
               <Route path="/checkout" element={<CheckoutPage />} />
               <Route path="/pedidos" element={<OrdersPage />} />
               <Route path="/pedido/:id" element={<OrderDetailsPage />} />
+              <Route path="/perfil" element={<ProfilePage />} />
+              <Route path="/categorias" element={<CategoriesPage />} />
             </Route>
 
             {/* Admin routes */}

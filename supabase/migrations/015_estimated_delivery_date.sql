@@ -142,7 +142,7 @@ BEGIN
   v_total := v_subtotal - v_discount;
 
   INSERT INTO orders (user_id, address_id, status, payment_method, subtotal, discount, total, estimated_delivery_date)
-  VALUES (v_user_id, p_address_id, 'pending', p_payment_method, v_subtotal, v_discount, v_total, v_estimated_date)
+  VALUES (v_user_id, p_address_id, 'pending', p_payment_method::payment_method, v_subtotal, v_discount, v_total, v_estimated_date)
   RETURNING id INTO v_order_id;
 
   -- Segunda passada: inserir order_items

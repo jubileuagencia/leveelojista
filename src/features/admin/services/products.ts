@@ -1,5 +1,12 @@
 import { supabase } from '@/lib/supabase'
+import { normalizeProduct, normalizeProducts } from '@/lib/product-utils'
 import type { Product, ProductUnit, ProductVariant } from '@/types/database'
+
+const PRODUCT_SELECT = `
+  *,
+  category_links:product_categories(is_primary, category:categories(id, name)),
+  variants:product_variants(*)
+`
 
 // ── Types ──────────────────────────────────────────────
 
@@ -23,7 +30,9 @@ export interface CreateProductInput {
   description?: string
   price: number
   unit: ProductUnit
-  category_id?: string
+  /** IDs das categorias (N-N). Primeira = primária por default se primaryCategoryId não for informado. */
+  categoryIds?: string[]
+  primaryCategoryId?: string
   image_url?: string
   is_active?: boolean
 }
@@ -33,7 +42,9 @@ export interface UpdateProductInput {
   description?: string
   price?: number
   unit?: ProductUnit
-  category_id?: string | null
+  /** Se definido, substitui TODAS as categorias do produto. */
+  categoryIds?: string[]
+  primaryCategoryId?: string
   image_url?: string | null
   is_active?: boolean
 }
@@ -43,9 +54,24 @@ export interface UpdateProductInput {
 export async function fetchProducts(filters: ProductFilters = {}): Promise<ProductsResponse> {
   const { search, categoryId, isActive, page = 1, pageSize = 20 } = filters
 
+  let filteredIds: string[] | null = null
+  if (categoryId) {
+    const { data: links, error: linkError } = await supabase
+      .from('product_categories')
+      .select('product_id')
+      .eq('category_id', categoryId)
+    if (linkError) {
+      throw new Error(`Falha ao filtrar por categoria: ${linkError.message}`)
+    }
+    filteredIds = (links ?? []).map((l) => l.product_id)
+    if (filteredIds.length === 0) {
+      return { data: [], total: 0, page, pageSize }
+    }
+  }
+
   let query = supabase
     .from('products')
-    .select('*, categories(id, name), variants:product_variants(*)', { count: 'exact' })
+    .select(PRODUCT_SELECT, { count: 'exact' })
     .is('deleted_at', null)
     .order('display_id', { ascending: false })
 
@@ -53,8 +79,8 @@ export async function fetchProducts(filters: ProductFilters = {}): Promise<Produ
     query = query.or(`name.ilike.%${search}%,display_id.eq.${parseInt(search) || 0}`)
   }
 
-  if (categoryId) {
-    query = query.eq('category_id', categoryId)
+  if (filteredIds) {
+    query = query.in('id', filteredIds)
   }
 
   if (isActive !== undefined) {
@@ -72,7 +98,7 @@ export async function fetchProducts(filters: ProductFilters = {}): Promise<Produ
   }
 
   return {
-    data: (data as unknown as Product[]) ?? [],
+    data: normalizeProducts(data as never),
     total: count ?? 0,
     page,
     pageSize,
@@ -84,7 +110,7 @@ export async function fetchProducts(filters: ProductFilters = {}): Promise<Produ
 export async function fetchProduct(id: string): Promise<Product> {
   const { data, error } = await supabase
     .from('products')
-    .select('*, categories(id, name), variants:product_variants(*)')
+    .select(PRODUCT_SELECT)
     .eq('id', id)
     .single()
 
@@ -92,12 +118,60 @@ export async function fetchProduct(id: string): Promise<Product> {
     throw new Error(`Falha ao buscar produto: ${error.message}`)
   }
 
-  return data as unknown as Product
+  return normalizeProduct(data as never)
+}
+
+// ── Sync categories (dual-write) ───────────────────────
+
+function resolvePrimary(
+  categoryIds: string[],
+  primaryCategoryId?: string
+): string | null {
+  if (categoryIds.length === 0) return null
+  if (primaryCategoryId && categoryIds.includes(primaryCategoryId)) {
+    return primaryCategoryId
+  }
+  return categoryIds[0]
+}
+
+/**
+ * Substitui TODAS as categorias de um produto pelas informadas.
+ * Fonte única de verdade: tabela product_categories.
+ */
+async function syncProductCategories(
+  productId: string,
+  categoryIds: string[],
+  primaryCategoryId?: string
+): Promise<void> {
+  const { error: deleteError } = await supabase
+    .from('product_categories')
+    .delete()
+    .eq('product_id', productId)
+  if (deleteError) {
+    throw new Error(`Falha ao limpar categorias: ${deleteError.message}`)
+  }
+
+  if (categoryIds.length === 0) return
+
+  const primary = resolvePrimary(categoryIds, primaryCategoryId)
+  const rows = categoryIds.map((cid) => ({
+    product_id: productId,
+    category_id: cid,
+    is_primary: cid === primary,
+  }))
+  const { error: insertError } = await supabase
+    .from('product_categories')
+    .insert(rows)
+  if (insertError) {
+    throw new Error(`Falha ao gravar categorias: ${insertError.message}`)
+  }
 }
 
 // ── Create Product ─────────────────────────────────────
 
 export async function createProduct(input: CreateProductInput): Promise<Product> {
+  const categoryIds = input.categoryIds ?? []
+
   const { data, error } = await supabase
     .from('products')
     .insert({
@@ -105,35 +179,43 @@ export async function createProduct(input: CreateProductInput): Promise<Product>
       description: input.description ?? null,
       price: input.price,
       unit: input.unit,
-      category_id: input.category_id ?? null,
       image_url: input.image_url ?? null,
       is_active: input.is_active ?? true,
     })
-    .select('*, categories(id, name), variants:product_variants(*)')
+    .select('id')
     .single()
 
-  if (error) {
-    throw new Error(`Falha ao criar produto: ${error.message}`)
+  if (error || !data) {
+    throw new Error(`Falha ao criar produto: ${error?.message ?? 'sem retorno'}`)
   }
 
-  return data as unknown as Product
+  if (categoryIds.length > 0) {
+    await syncProductCategories(data.id, categoryIds, input.primaryCategoryId)
+  }
+
+  return fetchProduct(data.id)
 }
 
 // ── Update Product ─────────────────────────────────────
 
 export async function updateProduct(id: string, input: UpdateProductInput): Promise<Product> {
-  const { data, error } = await supabase
-    .from('products')
-    .update(input)
-    .eq('id', id)
-    .select('*, categories(id, name), variants:product_variants(*)')
-    .single()
+  const { categoryIds, primaryCategoryId, ...scalarInput } = input
 
-  if (error) {
-    throw new Error(`Falha ao atualizar produto: ${error.message}`)
+  if (Object.keys(scalarInput).length > 0) {
+    const { error } = await supabase
+      .from('products')
+      .update(scalarInput)
+      .eq('id', id)
+    if (error) {
+      throw new Error(`Falha ao atualizar produto: ${error.message}`)
+    }
   }
 
-  return data as unknown as Product
+  if (categoryIds !== undefined) {
+    await syncProductCategories(id, categoryIds, primaryCategoryId)
+  }
+
+  return fetchProduct(id)
 }
 
 // ── Toggle Active ──────────────────────────────────────

@@ -2,7 +2,7 @@ import { useEffect, useState } from 'react'
 import { useForm } from 'react-hook-form'
 import { zodResolver } from '@hookform/resolvers/zod'
 import { z } from 'zod'
-import { Plus, Trash2 } from 'lucide-react'
+import { Check, ChevronsUpDown, Plus, Star, Trash2, X } from 'lucide-react'
 import { toast } from 'sonner'
 import {
   Dialog,
@@ -31,6 +31,21 @@ import {
   SelectTrigger,
   SelectValue,
 } from '@/components/ui/select'
+import {
+  Popover,
+  PopoverContent,
+  PopoverTrigger,
+} from '@/components/ui/popover'
+import {
+  Command,
+  CommandEmpty,
+  CommandGroup,
+  CommandInput,
+  CommandItem,
+  CommandList,
+} from '@/components/ui/command'
+import { Badge } from '@/components/ui/badge'
+import { cn } from '@/lib/utils'
 import { ImageUpload } from './ImageUpload'
 import {
   useCategories,
@@ -58,7 +73,8 @@ const productSchema = z.object({
   description: z.string().optional(),
   price: z.number().positive('Preco deve ser maior que zero'),
   unit: z.enum(['un', 'kg', 'cx', 'maco', 'dz', 'bj', 'pc'] as const),
-  category_id: z.string().optional(),
+  categoryIds: z.array(z.string()),
+  primaryCategoryId: z.string().optional(),
   image_url: z.string().nullable().optional(),
   is_active: z.boolean(),
 })
@@ -135,7 +151,8 @@ export function ProductFormModal({ open, onOpenChange, product }: ProductFormMod
       description: '',
       price: 0,
       unit: 'un',
-      category_id: '',
+      categoryIds: [],
+      primaryCategoryId: undefined,
       image_url: null,
       is_active: true,
     },
@@ -143,18 +160,22 @@ export function ProductFormModal({ open, onOpenChange, product }: ProductFormMod
 
   const imageUrl = watch('image_url')
   const unit = watch('unit')
-  const categoryId = watch('category_id')
+  const categoryIds = watch('categoryIds')
+  const primaryCategoryId = watch('primaryCategoryId')
   const isActive = watch('is_active')
+  const [categoriesOpen, setCategoriesOpen] = useState(false)
 
   useEffect(() => {
     if (open) {
       if (product) {
+        const productCategoryIds = product.categories?.map((c) => c.id) ?? []
         reset({
           name: product.name,
           description: product.description ?? '',
           price: product.price,
           unit: product.unit,
-          category_id: product.category_id ?? '',
+          categoryIds: productCategoryIds,
+          primaryCategoryId: product.primaryCategory?.id,
           image_url: product.image_url ?? null,
           is_active: product.is_active,
         })
@@ -165,7 +186,8 @@ export function ProductFormModal({ open, onOpenChange, product }: ProductFormMod
           description: '',
           price: 0,
           unit: 'un',
-          category_id: '',
+          categoryIds: [],
+          primaryCategoryId: undefined,
           image_url: null,
           is_active: true,
         })
@@ -173,6 +195,22 @@ export function ProductFormModal({ open, onOpenChange, product }: ProductFormMod
       }
     }
   }, [open, product, reset])
+
+  // ── Category helpers ──
+  const toggleCategory = (id: string) => {
+    const next = categoryIds.includes(id)
+      ? categoryIds.filter((c) => c !== id)
+      : [...categoryIds, id]
+    setValue('categoryIds', next, { shouldDirty: true })
+    // Se a primária foi removida, re-elege a primeira remanescente
+    if (!next.includes(primaryCategoryId ?? '')) {
+      setValue('primaryCategoryId', next[0], { shouldDirty: true })
+    }
+  }
+
+  const markPrimary = (id: string) => {
+    setValue('primaryCategoryId', id, { shouldDirty: true })
+  }
 
   // ── Variant helpers ──
   const addVariant = () => {
@@ -214,9 +252,11 @@ export function ProductFormModal({ open, onOpenChange, product }: ProductFormMod
       return
     }
 
+    const { categoryIds: selectedIds, primaryCategoryId: primaryId, ...rest } = data
     const input = {
-      ...data,
-      category_id: data.category_id || undefined,
+      ...rest,
+      categoryIds: selectedIds,
+      primaryCategoryId: primaryId,
       image_url: data.image_url || undefined,
     }
 
@@ -317,22 +357,107 @@ export function ProductFormModal({ open, onOpenChange, product }: ProductFormMod
         </div>
       </div>
 
-      {/* Category */}
+      {/* Categories (multi-select + primary) */}
       <div className="space-y-2">
-        <Label>Categoria</Label>
-        <Select value={categoryId || ''} onValueChange={(v) => setValue('category_id', v === 'none' ? '' : v)}>
-          <SelectTrigger>
-            <SelectValue placeholder="Selecione uma categoria" />
-          </SelectTrigger>
-          <SelectContent>
-            <SelectItem value="none">Sem categoria</SelectItem>
-            {categories?.map((cat) => (
-              <SelectItem key={cat.id} value={cat.id}>
-                {cat.name}
-              </SelectItem>
-            ))}
-          </SelectContent>
-        </Select>
+        <div className="flex items-center justify-between">
+          <Label>Categorias</Label>
+          {categoryIds.length > 0 && (
+            <span className="text-xs text-muted-foreground">
+              {categoryIds.length} selecionada{categoryIds.length > 1 ? 's' : ''}
+            </span>
+          )}
+        </div>
+
+        <Popover open={categoriesOpen} onOpenChange={setCategoriesOpen}>
+          <PopoverTrigger asChild>
+            <Button
+              type="button"
+              variant="outline"
+              role="combobox"
+              aria-expanded={categoriesOpen}
+              className="w-full justify-between font-normal"
+            >
+              {categoryIds.length === 0
+                ? 'Selecione uma ou mais categorias'
+                : `${categoryIds.length} selecionada${categoryIds.length > 1 ? 's' : ''}`}
+              <ChevronsUpDown className="size-4 opacity-50" />
+            </Button>
+          </PopoverTrigger>
+          <PopoverContent className="w-[--radix-popover-trigger-width] p-0" align="start">
+            <Command>
+              <CommandInput placeholder="Buscar categoria..." />
+              <CommandList>
+                <CommandEmpty>Nenhuma categoria encontrada.</CommandEmpty>
+                <CommandGroup>
+                  {categories?.map((cat) => {
+                    const isSelected = categoryIds.includes(cat.id)
+                    return (
+                      <CommandItem
+                        key={cat.id}
+                        value={cat.name}
+                        onSelect={() => toggleCategory(cat.id)}
+                      >
+                        <Check
+                          className={cn(
+                            'mr-2 size-4',
+                            isSelected ? 'opacity-100' : 'opacity-0'
+                          )}
+                        />
+                        {cat.name}
+                      </CommandItem>
+                    )
+                  })}
+                </CommandGroup>
+              </CommandList>
+            </Command>
+          </PopoverContent>
+        </Popover>
+
+        {/* Selected categories with primary indicator */}
+        {categoryIds.length > 0 && (
+          <div className="flex flex-wrap gap-1.5 pt-1">
+            {categoryIds.map((id) => {
+              const cat = categories?.find((c) => c.id === id)
+              if (!cat) return null
+              const isPrimary = primaryCategoryId === id
+              return (
+                <Badge
+                  key={id}
+                  variant={isPrimary ? 'default' : 'secondary'}
+                  className="gap-1 pr-1"
+                >
+                  {!isPrimary && (
+                    <button
+                      type="button"
+                      onClick={() => markPrimary(id)}
+                      className="inline-flex size-3.5 items-center justify-center rounded-sm opacity-60 hover:opacity-100"
+                      title="Marcar como categoria principal"
+                      aria-label={`Marcar ${cat.name} como principal`}
+                    >
+                      <Star className="size-3" />
+                    </button>
+                  )}
+                  {isPrimary && <Star className="size-3 fill-current" />}
+                  <span>{cat.name}</span>
+                  <button
+                    type="button"
+                    onClick={() => toggleCategory(id)}
+                    className="inline-flex size-3.5 items-center justify-center rounded-sm hover:bg-background/20"
+                    aria-label={`Remover ${cat.name}`}
+                  >
+                    <X className="size-3" />
+                  </button>
+                </Badge>
+              )
+            })}
+          </div>
+        )}
+
+        {categoryIds.length > 1 && (
+          <p className="text-[11px] text-muted-foreground">
+            ★ indica a categoria principal. Clique na estrela de outra para trocar.
+          </p>
+        )}
       </div>
 
       {/* Description */}

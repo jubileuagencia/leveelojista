@@ -2,7 +2,7 @@ import { useEffect } from 'react'
 import { useForm } from 'react-hook-form'
 import { zodResolver } from '@hookform/resolvers/zod'
 import { z } from 'zod'
-import { Loader2 } from 'lucide-react'
+import { Loader2, Star } from 'lucide-react'
 import {
   Dialog,
   DialogContent,
@@ -21,6 +21,7 @@ const schema = z.object({
   name: z.string().min(1, 'Nome é obrigatório'),
   icon: z.string().optional(),
   color: z.string().optional(),
+  is_featured: z.boolean(),
 })
 
 type FormValues = z.infer<typeof schema>
@@ -44,7 +45,7 @@ export function CategoryFormModal({ open, onOpenChange, category }: CategoryForm
     formState: { errors },
   } = useForm<FormValues>({
     resolver: zodResolver(schema),
-    defaultValues: { name: '', icon: '', color: '' },
+    defaultValues: { name: '', icon: '', color: '', is_featured: false },
   })
 
   useEffect(() => {
@@ -53,6 +54,7 @@ export function CategoryFormModal({ open, onOpenChange, category }: CategoryForm
         name: category?.name ?? '',
         icon: category?.icon ?? '',
         color: category?.color ?? '',
+        is_featured: category?.is_featured ?? false,
       })
     }
   }, [open, category, reset])
@@ -62,6 +64,7 @@ export function CategoryFormModal({ open, onOpenChange, category }: CategoryForm
       name: values.name,
       icon: values.icon || undefined,
       color: values.color || undefined,
+      is_featured: values.is_featured,
     }
 
     if (isEditing) {
@@ -124,6 +127,16 @@ export function CategoryFormModal({ open, onOpenChange, category }: CategoryForm
               </div>
             </div>
           </div>
+
+          <label className="flex items-center gap-2 cursor-pointer">
+            <input
+              type="checkbox"
+              className="size-4 accent-primary rounded"
+              {...register('is_featured')}
+            />
+            <Star className="size-4 text-amber-500" />
+            <span className="text-sm">Exibir como destaque na Home</span>
+          </label>
 
           <DialogFooter>
             <Button

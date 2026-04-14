@@ -1,5 +1,5 @@
 import { useState, useEffect, useCallback } from 'react'
-import { useNavigate } from 'react-router-dom'
+import { Link, useNavigate, useSearchParams } from 'react-router-dom'
 import {
   Package,
   Zap,
@@ -16,15 +16,21 @@ import {
   ProductCard,
   ProductCardSkeleton,
 } from '@/features/catalog/components/ProductCard'
+import { ProductCarousel } from '@/features/catalog/components/ProductCarousel'
 import { CategoryFilter } from '@/features/catalog/components/CategoryFilter'
 import { SearchBar } from '@/features/catalog/components/SearchBar'
 import {
   getProducts,
-  getCategories,
+  getFeaturedCategories,
   getLastOrderItems,
 } from '@/features/catalog/services/products'
 import { useFavoritesStore } from '@/features/favorites/stores/favorites-store'
 import type { Product, Category } from '@/types/database'
+
+const FEATURED_CATEGORY_ID =
+  (import.meta.env.VITE_FEATURED_CATEGORY_ID as string | undefined) ??
+  '0c8e7bfb-afc1-40ca-9a89-e8ad087e6a60'
+const FEATURED_CATEGORY_TITLE = 'Destaques em Empório'
 
 const TIER_CONFIG = {
   ouro: {
@@ -46,6 +52,7 @@ const TIER_CONFIG = {
 
 export default function HomePage() {
   const navigate = useNavigate()
+  const [searchParams, setSearchParams] = useSearchParams()
   const user = useAuthStore((s) => s.user)
   const profile = useAuthStore((s) => s.profile)
   const fetchFavorites = useFavoritesStore((s) => s.fetchFavorites)
@@ -53,7 +60,7 @@ export default function HomePage() {
   const [products, setProducts] = useState<Product[]>([])
   const [categories, setCategories] = useState<Category[]>([])
   const [lastOrderItems, setLastOrderItems] = useState<Product[]>([])
-  const [selectedCategory, setSelectedCategory] = useState<string | null>(null)
+  const selectedCategory = searchParams.get('categoria')
   const [searchQuery, setSearchQuery] = useState('')
   const [loading, setLoading] = useState(true)
   const [categoriesLoading, setCategoriesLoading] = useState(true)
@@ -64,7 +71,7 @@ export default function HomePage() {
     async function loadCategories() {
       setCategoriesLoading(true)
       try {
-        const data = await getCategories()
+        const data = await getFeaturedCategories()
         setCategories(data)
       } catch (error) {
         console.error('Error loading categories:', error)
@@ -99,7 +106,9 @@ export default function HomePage() {
     loadLastOrder()
   }, [user])
 
-  // Load products with filters
+  const hasFilters = !!searchQuery || !!selectedCategory
+
+  // Load products only when filters are active
   const loadProducts = useCallback(async () => {
     setLoading(true)
     try {
@@ -116,16 +125,25 @@ export default function HomePage() {
   }, [selectedCategory, searchQuery])
 
   useEffect(() => {
+    if (!hasFilters) {
+      setProducts([])
+      setLoading(false)
+      return
+    }
     loadProducts()
-  }, [loadProducts])
+  }, [hasFilters, loadProducts])
 
   const handleSearch = useCallback((query: string) => {
     setSearchQuery(query)
   }, [])
 
   const handleCategorySelect = useCallback((categoryId: string | null) => {
-    setSelectedCategory(categoryId)
-  }, [])
+    if (categoryId) {
+      setSearchParams({ categoria: categoryId }, { replace: true })
+    } else {
+      setSearchParams({}, { replace: true })
+    }
+  }, [setSearchParams])
 
   const handleNavigateToProduct = useCallback(
     (productId: string) => {
@@ -172,12 +190,22 @@ export default function HomePage() {
 
       {/* Category filter */}
       <div className="mx-auto max-w-7xl px-4 md:px-6 py-3">
-        <CategoryFilter
-          categories={categories}
-          selectedCategoryId={selectedCategory}
-          onSelect={handleCategorySelect}
-          loading={categoriesLoading}
-        />
+        <div className="flex items-center gap-2">
+          <div className="min-w-0 flex-1">
+            <CategoryFilter
+              categories={categories}
+              selectedCategoryId={selectedCategory}
+              onSelect={handleCategorySelect}
+              loading={categoriesLoading}
+            />
+          </div>
+          <Link
+            to="/categorias"
+            className="shrink-0 text-xs text-primary hover:underline whitespace-nowrap"
+          >
+            Ver todas &rarr;
+          </Link>
+        </div>
       </div>
 
       {/* Quick reorder section */}
@@ -190,50 +218,59 @@ export default function HomePage() {
       )}
 
       {/* Products section */}
-      <div className="mx-auto max-w-7xl px-4 md:px-6 pt-2 pb-4">
-        <div className="flex items-center justify-between mb-3">
-          <h2 className="text-base font-semibold text-foreground">
-            {searchQuery
-              ? `Resultados para "${searchQuery}"`
-              : selectedCategory
-                ? categories.find((c) => c.id === selectedCategory)?.name ??
-                  'Categoria'
-                : 'Todos os produtos'}
-          </h2>
-          {!loading && (
-            <span className="text-xs text-muted-foreground">
-              {products.length} {products.length === 1 ? 'produto' : 'produtos'}
-            </span>
+      {hasFilters ? (
+        <div className="mx-auto max-w-7xl px-4 md:px-6 pt-2 pb-4">
+          <div className="flex items-center justify-between mb-3">
+            <h2 className="text-base font-semibold text-foreground">
+              {searchQuery
+                ? `Resultados para "${searchQuery}"`
+                : categories.find((c) => c.id === selectedCategory)?.name ??
+                  'Categoria'}
+            </h2>
+            {!loading && (
+              <span className="text-xs text-muted-foreground">
+                {products.length}{' '}
+                {products.length === 1 ? 'produto' : 'produtos'}
+              </span>
+            )}
+          </div>
+
+          {loading ? (
+            <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-3">
+              {Array.from({ length: 8 }).map((_, i) => (
+                <ProductCardSkeleton key={i} />
+              ))}
+            </div>
+          ) : products.length === 0 ? (
+            <EmptyState
+              searchQuery={searchQuery}
+              onClear={() => {
+                setSearchQuery('')
+                setSearchParams({}, { replace: true })
+              }}
+              onRefresh={loadProducts}
+            />
+          ) : (
+            <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-3">
+              {products.map((product) => (
+                <ProductCard
+                  key={product.id}
+                  product={product}
+                  onNavigate={handleNavigateToProduct}
+                />
+              ))}
+            </div>
           )}
         </div>
-
-        {loading ? (
-          <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-3">
-            {Array.from({ length: 8 }).map((_, i) => (
-              <ProductCardSkeleton key={i} />
-            ))}
-          </div>
-        ) : products.length === 0 ? (
-          <EmptyState
-            searchQuery={searchQuery}
-            onClear={() => {
-              setSearchQuery('')
-              setSelectedCategory(null)
-            }}
-            onRefresh={loadProducts}
-          />
-        ) : (
-          <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-3">
-            {products.map((product) => (
-              <ProductCard
-                key={product.id}
-                product={product}
-                onNavigate={handleNavigateToProduct}
-              />
-            ))}
-          </div>
-        )}
-      </div>
+      ) : (
+        <ProductCarousel
+          categoryId={FEATURED_CATEGORY_ID}
+          title={FEATURED_CATEGORY_TITLE}
+          limit={10}
+          viewAllHref={`/?categoria=${FEATURED_CATEGORY_ID}`}
+          onProductClick={handleNavigateToProduct}
+        />
+      )}
     </div>
   )
 }

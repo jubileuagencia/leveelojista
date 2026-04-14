@@ -14,7 +14,6 @@ import {
   Home,
   Grid3X3,
   ClipboardList,
-  Star,
 } from 'lucide-react'
 import { Button } from '@/components/ui/button'
 import { Input } from '@/components/ui/input'
@@ -40,6 +39,7 @@ import {
 import { useAuthStore } from '@/stores/auth-store'
 import { useCartStore } from '@/stores/cart-store'
 import type { UserTier } from '@/types/database'
+import { Logo } from '@/components/ui/Logo'
 import { cn } from '@/lib/utils'
 
 const TIER_CONFIG: Record<UserTier, { label: string; className: string }> = {
@@ -68,7 +68,6 @@ const MOBILE_NAV_ITEMS: MobileNavItem[] = [
   { label: 'Categorias', href: '/categorias', icon: <Grid3X3 className="size-5" /> },
   { label: 'Pedidos', href: '/pedidos', icon: <ClipboardList className="size-5" /> },
   { label: 'Favoritos', href: '/favoritos', icon: <Heart className="size-5" /> },
-  { label: 'Destaques', href: '/destaques', icon: <Star className="size-5" /> },
 ]
 
 export function Header() {
@@ -127,9 +126,8 @@ export function Header() {
             to="/"
             className="flex items-center gap-2 transition-opacity hover:opacity-80"
           >
-            <span className="text-xl font-bold tracking-tight text-emerald-600 md:text-2xl">
-              Levee
-            </span>
+            <Logo size="sm" withText className="hidden md:inline-flex" />
+            <Logo size="xs" withText className="md:hidden" />
           </Link>
 
           {/* Desktop Search */}
@@ -234,10 +232,6 @@ export function Header() {
                     <Heart className="size-4" />
                     Favoritos
                   </DropdownMenuItem>
-                  <DropdownMenuItem onClick={() => navigate('/configuracoes')}>
-                    <Settings className="size-4" />
-                    Configurações
-                  </DropdownMenuItem>
                 </DropdownMenuGroup>
                 <DropdownMenuSeparator />
                 <DropdownMenuItem
@@ -290,9 +284,7 @@ export function Header() {
         <SheetContent side="left" className="w-[280px] p-0">
           <SheetHeader className="border-b px-4 py-4">
             <SheetTitle className="text-left">
-              <span className="text-xl font-bold tracking-tight text-emerald-600">
-                Levee
-              </span>
+              <Logo size="sm" withText />
             </SheetTitle>
           </SheetHeader>
 
@@ -361,7 +353,7 @@ export function Header() {
                 )}
               </Link>
               <Link
-                to="/configuracoes"
+                to="/perfil"
                 onClick={() => setMobileMenuOpen(false)}
                 className="hover:bg-accent flex items-center gap-3 rounded-lg px-3 py-2.5 text-sm font-medium transition-colors"
               >
