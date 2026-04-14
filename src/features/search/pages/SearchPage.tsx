@@ -104,7 +104,7 @@ export default function SearchPage() {
 
         // Filter by category client-side if a category is selected
         const filtered = categoryId
-          ? data.filter((p) => p.category_id === categoryId)
+          ? data.filter((p) => p.categories?.some((c) => c.id === categoryId))
           : data
 
         setResults(filtered)

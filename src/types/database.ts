@@ -24,6 +24,8 @@ export interface Category {
   name: string
   icon: string | null
   color: string | null
+  sort_order: number
+  is_featured: boolean
   created_at: string
 }
 
@@ -47,7 +49,6 @@ export interface Product {
   price: number
   unit: ProductUnit
   image_url: string | null
-  category_id: string | null
   is_active: boolean
   deleted_at: string | null
   display_id: number
@@ -60,7 +61,10 @@ export interface Product {
   on_sale: boolean
   sale_discount_pct: number | null
   sort_order: number | null
-  categories?: Category
+  /** Todas as categorias do produto (N-N via product_categories). */
+  categories?: Category[]
+  /** Atalho para a categoria marcada como primária. */
+  primaryCategory?: Category | null
   variants?: ProductVariant[]
 }
 

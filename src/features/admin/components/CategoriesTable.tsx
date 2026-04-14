@@ -1,4 +1,4 @@
-import { ChevronUp, ChevronDown, Pencil, Trash2, Layers } from 'lucide-react'
+import { ChevronUp, ChevronDown, Pencil, Trash2, Layers, Star } from 'lucide-react'
 import { Button } from '@/components/ui/button'
 import { Skeleton } from '@/components/ui/skeleton'
 import type { Category } from '@/types/database'
@@ -73,6 +73,7 @@ export function CategoriesTable({
                 />
               )}
               <span className="text-sm font-medium truncate">{cat.name}</span>
+              {cat.is_featured && <Star className="size-3.5 shrink-0 text-amber-500 fill-amber-500" />}
             </div>
 
             {/* Actions */}
@@ -138,7 +139,12 @@ export function CategoriesTable({
                     </Button>
                   </div>
                 </td>
-                <td className="px-3 py-2.5 font-medium">{cat.name}</td>
+                <td className="px-3 py-2.5 font-medium">
+                  <span className="inline-flex items-center gap-1.5">
+                    {cat.name}
+                    {cat.is_featured && <Star className="size-3.5 text-amber-500 fill-amber-500" />}
+                  </span>
+                </td>
                 <td className="px-3 py-2.5 text-center text-lg">{cat.icon ?? '—'}</td>
                 <td className="px-3 py-2.5">
                   <div className="flex justify-center">

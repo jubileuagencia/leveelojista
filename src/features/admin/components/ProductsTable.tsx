@@ -109,10 +109,10 @@ export function ProductsTable({
                 <span>#{product.display_id}</span>
                 <span>&middot;</span>
                 <span>{product.unit}</span>
-                {product.categories?.name && (
+                {product.primaryCategory?.name && (
                   <>
                     <span>&middot;</span>
-                    <span>{product.categories.name}</span>
+                    <span>{product.primaryCategory?.name ?? ""}</span>
                   </>
                 )}
               </div>
@@ -214,9 +214,9 @@ export function ProductsTable({
 
                 {/* Category */}
                 <td className="px-3 py-2.5">
-                  {product.categories?.name ? (
+                  {product.primaryCategory?.name ? (
                     <Badge variant="secondary" className="text-xs">
-                      {product.categories.name}
+                      {product.primaryCategory?.name ?? ""}
                     </Badge>
                   ) : (
                     <span className="text-xs text-muted-foreground">—</span>

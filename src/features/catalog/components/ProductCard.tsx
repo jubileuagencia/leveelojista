@@ -161,14 +161,17 @@ export function ProductCard({ product, onNavigate }: ProductCardProps) {
 
       {/* Product info */}
       <div className="flex flex-1 flex-col gap-1.5 p-2 sm:gap-2 sm:p-3">
-        {/* Category + unit */}
+        {/* Categories + unit */}
         <div className="flex items-center gap-1 overflow-hidden">
-          {product.categories?.name && (
-            <span className="truncate text-[9px] font-medium text-muted-foreground uppercase tracking-wider sm:text-[10px]">
-              {product.categories.name}
-            </span>
+          {product.categories && product.categories.length > 0 && (
+            <>
+              <span className="truncate text-[9px] font-medium text-muted-foreground uppercase tracking-wider sm:text-[10px]">
+                {product.categories.slice(0, 2).map((c) => c.name).join(' · ')}
+                {product.categories.length > 2 && ` +${product.categories.length - 2}`}
+              </span>
+              <span className="shrink-0 text-muted-foreground/30">|</span>
+            </>
           )}
-          <span className="shrink-0 text-muted-foreground/30">|</span>
           <Badge variant="secondary" className="shrink-0 text-[9px] px-1 py-0 h-3.5 sm:text-[10px] sm:px-1.5 sm:h-4">
             {getUnitShort(activeUnit)}
           </Badge>

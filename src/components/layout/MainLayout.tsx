@@ -5,6 +5,7 @@ import { Sidebar } from '@/components/layout/Sidebar'
 import { BottomNav } from '@/components/layout/BottomNav'
 import { useAuthStore } from '@/stores/auth-store'
 import { useCartStore } from '@/stores/cart-store'
+import { Logo } from '@/components/ui/Logo'
 
 export function MainLayout() {
   const navigate = useNavigate()
@@ -35,9 +36,7 @@ export function MainLayout() {
     return (
       <div className="flex h-screen items-center justify-center">
         <div className="flex flex-col items-center gap-3">
-          <span className="text-2xl font-bold tracking-tight text-emerald-600">
-            Levee
-          </span>
+          <Logo size="lg" />
           <div className="size-6 animate-spin rounded-full border-2 border-emerald-600 border-t-transparent" />
         </div>
       </div>

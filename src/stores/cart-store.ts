@@ -1,6 +1,12 @@
 import { create } from 'zustand'
 import type { CartItem, Product, ProductVariant } from '@/types/database'
 import { supabase } from '@/lib/supabase'
+import { normalizeProduct } from '@/lib/product-utils'
+
+function normalizeCartItem<T extends { product?: unknown }>(item: T): T {
+  if (!item.product) return item
+  return { ...item, product: normalizeProduct(item.product as never) }
+}
 
 interface CartState {
   items: CartItem[]
@@ -23,10 +29,11 @@ export const useCartStore = create<CartState>((set, get) => ({
     set({ loading: true })
     const { data } = await supabase
       .from('cart_items')
-      .select('*, product:products(*, categories(*), variants:product_variants(*)), variant:product_variants(*)')
+      .select('*, product:products(*, category_links:product_categories(is_primary, category:categories(*)), variants:product_variants(*)), variant:product_variants(*)')
       .eq('user_id', userId)
 
-    set({ items: (data as CartItem[]) ?? [], loading: false })
+    const items = ((data as CartItem[]) ?? []).map(normalizeCartItem)
+    set({ items, loading: false })
   },
 
   addItem: async (userId, product, quantity = 1, variant) => {
@@ -67,7 +74,7 @@ export const useCartStore = create<CartState>((set, get) => ({
     const { data, error } = await supabase
       .from('cart_items')
       .insert(insertData)
-      .select('*, product:products(*, categories(*), variants:product_variants(*)), variant:product_variants(*)')
+      .select('*, product:products(*, category_links:product_categories(is_primary, category:categories(*)), variants:product_variants(*)), variant:product_variants(*)')
       .single()
 
     if (error) {
@@ -75,8 +82,9 @@ export const useCartStore = create<CartState>((set, get) => ({
       throw error
     }
 
+    const normalized = normalizeCartItem(data as CartItem)
     set(s => ({
-      items: s.items.map(i => i.id === tempItem.id ? (data as CartItem) : i),
+      items: s.items.map(i => i.id === tempItem.id ? normalized : i),
     }))
   },
 
@@ -126,6 +134,6 @@ export const useCartStore = create<CartState>((set, get) => ({
   },
 
   getItemCount: () => {
-    return get().items.reduce((sum, item) => sum + item.quantity, 0)
+    return get().items.length
   },
 }))

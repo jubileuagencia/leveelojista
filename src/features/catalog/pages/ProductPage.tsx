@@ -1,5 +1,5 @@
 import { useState, useEffect, useMemo } from 'react'
-import { useParams, useNavigate } from 'react-router-dom'
+import { Link, useParams, useNavigate } from 'react-router-dom'
 import {
   ArrowLeft,
   ShoppingCart,
@@ -207,13 +207,18 @@ export default function ProductPage() {
 
       {/* Product details */}
       <div className="px-4 pt-5 space-y-4">
-        {/* Category + unit badges */}
+        {/* Categories + unit badges */}
         <div className="flex items-center gap-2 flex-wrap">
-          {product.categories?.name && (
-            <Badge variant="secondary" className="text-xs">
-              {product.categories.name}
-            </Badge>
-          )}
+          {product.categories?.map((cat) => (
+            <Link key={cat.id} to={`/?categoria=${cat.id}`} onClick={(e) => e.stopPropagation()}>
+              <Badge
+                variant={cat.id === product.primaryCategory?.id ? 'default' : 'secondary'}
+                className="text-xs hover:opacity-80 transition-opacity"
+              >
+                {cat.name}
+              </Badge>
+            </Link>
+          ))}
           <Badge variant="outline" className="text-xs">
             {getUnitLabel(activeUnit)}
           </Badge>
