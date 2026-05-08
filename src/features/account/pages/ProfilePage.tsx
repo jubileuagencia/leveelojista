@@ -7,6 +7,7 @@ import { Separator } from '@/components/ui/separator'
 import { useAuthStore } from '@/stores/auth-store'
 import type { UserTier } from '@/types/database'
 import { cn } from '@/lib/utils'
+import { formatPhone } from '@/lib/format'
 
 const TIER_CONFIG: Record<UserTier, { label: string; className: string }> = {
   ouro: {
@@ -99,7 +100,7 @@ export default function ProfilePage() {
             value={formatDocument(profile?.document_type ?? 'cnpj', profile?.document_number ?? null, profile?.cnpj ?? null)}
           />
           <Separator />
-          <ProfileField icon={Phone} label="Telefone" value={profile?.phone} />
+          <ProfileField icon={Phone} label="Telefone" value={profile?.phone ? formatPhone(profile.phone) : undefined} />
         </CardContent>
       </Card>
 
