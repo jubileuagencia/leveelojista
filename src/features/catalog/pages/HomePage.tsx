@@ -6,11 +6,13 @@ import {
   TrendingUp,
   RefreshCw,
   SearchX,
+  Check,
 } from 'lucide-react'
 import { Badge } from '@/components/ui/badge'
 import { Button } from '@/components/ui/button'
 import { Separator } from '@/components/ui/separator'
 import { cn } from '@/lib/utils'
+import { useCartQuantityForProduct } from '@/hooks/use-cart-quantity'
 import { useAuthStore } from '@/stores/auth-store'
 import {
   ProductCard,
@@ -346,13 +348,22 @@ function QuickReorderCard({
   onNavigate: (id: string) => void
 }) {
   const [imageError, setImageError] = useState(false)
+  // LV-128: feedback visual minimal — destaca produtos que ja estao no carrinho.
+  // Botao Adicionar/stepper e responsabilidade de LV-144.
+  const { hasInCart, totalQuantity } = useCartQuantityForProduct(product.id)
 
   return (
     <button
       onClick={() => onNavigate(product.id)}
-      className="shrink-0 w-[140px] rounded-xl border bg-card overflow-hidden text-left transition-all hover:shadow-md hover:border-primary/20"
+      aria-current={hasInCart ? 'true' : undefined}
+      className={cn(
+        'shrink-0 w-[140px] rounded-xl border bg-card overflow-hidden text-left transition-all hover:shadow-md',
+        hasInCart
+          ? 'border-primary/40 ring-1 ring-primary/10 hover:border-primary/60'
+          : 'hover:border-primary/20'
+      )}
     >
-      <div className="aspect-square w-full bg-muted/30 overflow-hidden">
+      <div className="relative aspect-square w-full bg-muted/30 overflow-hidden">
         {product.image_url && !imageError ? (
           <img
             src={product.image_url}
@@ -363,6 +374,15 @@ function QuickReorderCard({
         ) : (
           <div className="flex size-full items-center justify-center bg-muted/50">
             <Package className="size-8 text-muted-foreground/40" />
+          </div>
+        )}
+        {hasInCart && (
+          <div
+            aria-label={`${totalQuantity} no carrinho`}
+            className="absolute top-1.5 left-1.5 flex items-center gap-0.5 rounded-full bg-primary text-primary-foreground text-[10px] font-semibold px-1.5 py-0.5 shadow-sm"
+          >
+            <Check className="size-3" />
+            <span className="tabular-nums">{totalQuantity}</span>
           </div>
         )}
       </div>

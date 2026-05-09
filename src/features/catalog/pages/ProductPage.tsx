@@ -1,4 +1,4 @@
-import { useState, useEffect, useMemo } from 'react'
+import { useState, useEffect, useMemo, useRef, useCallback } from 'react'
 import { Link, useParams, useNavigate } from 'react-router-dom'
 import {
   ArrowLeft,
@@ -9,6 +9,8 @@ import {
   Heart,
   Tag,
   AlertTriangle,
+  Trash2,
+  Check,
 } from 'lucide-react'
 import { Button } from '@/components/ui/button'
 import { Badge } from '@/components/ui/badge'
@@ -19,11 +21,14 @@ import { cn } from '@/lib/utils'
 import { formatCurrency } from '@/lib/format'
 import { getUnitLabel, getUnitShort } from '@/lib/unit-labels'
 import { useTierPrice } from '@/hooks/use-tier-price'
+import { useCartQuantity } from '@/hooks/use-cart-quantity'
 import { useAuthStore } from '@/stores/auth-store'
 import { useCartStore } from '@/stores/cart-store'
 import { useFavoritesStore } from '@/features/favorites/stores/favorites-store'
 import { getProductById } from '@/features/catalog/services/products'
 import type { Product, ProductVariant } from '@/types/database'
+
+const CART_DEBOUNCE_MS = 300
 
 export default function ProductPage() {
   const { id } = useParams<{ id: string }>()
@@ -40,12 +45,38 @@ export default function ProductPage() {
   const user = useAuthStore((s) => s.user)
   const profile = useAuthStore((s) => s.profile)
   const addItem = useCartStore((s) => s.addItem)
+  const updateQuantity = useCartStore((s) => s.updateQuantity)
+  const removeItem = useCartStore((s) => s.removeItem)
   const { toggleFavorite, isFavorite } = useFavoritesStore()
 
   const variants = useMemo(() => {
     const v = product?.variants ?? []
     return v.sort((a, b) => a.sort_order - b.sort_order)
   }, [product?.variants])
+
+  // Cart sync for selected product+variant (LV-128: same Opcao A pattern as ProductCard)
+  const { quantity: quantityInCart, cartItemId } = useCartQuantity(
+    product?.id ?? '',
+    selectedVariant?.id ?? null
+  )
+  const isInCart = quantityInCart > 0
+
+  const [pendingQty, setPendingQty] = useState<number | null>(null)
+  const pendingRef = useRef<number | null>(null)
+  const debounceRef = useRef<ReturnType<typeof setTimeout> | null>(null)
+
+  useEffect(() => {
+    setPendingQty(null)
+    pendingRef.current = null
+  }, [quantityInCart])
+
+  useEffect(() => {
+    return () => {
+      if (debounceRef.current) clearTimeout(debounceRef.current)
+    }
+  }, [])
+
+  const displayCartQty = pendingQty ?? quantityInCart
 
   useEffect(() => {
     async function load() {
@@ -94,6 +125,52 @@ export default function ProductPage() {
       toast.error('Erro ao adicionar ao carrinho')
     } finally {
       setIsAdding(false)
+    }
+  }
+
+  const commitCartQty = useCallback(() => {
+    if (debounceRef.current) clearTimeout(debounceRef.current)
+    debounceRef.current = setTimeout(async () => {
+      if (!cartItemId) return
+      const target = pendingRef.current
+      if (target == null) return
+      try {
+        if (target <= 0) {
+          await removeItem(cartItemId)
+        } else {
+          const rounded = isFractional
+            ? Math.round(target * 10) / 10
+            : Math.max(1, Math.round(target))
+          await updateQuantity(cartItemId, rounded)
+        }
+      } catch {
+        toast.error('Erro ao atualizar carrinho')
+        setPendingQty(null)
+        pendingRef.current = null
+      }
+    }, CART_DEBOUNCE_MS)
+  }, [cartItemId, isFractional, removeItem, updateQuantity])
+
+  const handleCartStep = (delta: number) => {
+    const step = isFractional ? 0.1 : 1
+    const base = pendingRef.current ?? quantityInCart
+    const next = Math.max(0, Math.round((base + delta * step) * 10) / 10)
+    pendingRef.current = next
+    setPendingQty(next)
+    commitCartQty()
+  }
+
+  const handleRemoveFromCart = async () => {
+    if (!cartItemId) return
+    if (debounceRef.current) clearTimeout(debounceRef.current)
+    setPendingQty(0)
+    pendingRef.current = 0
+    try {
+      await removeItem(cartItemId)
+    } catch {
+      toast.error('Erro ao remover do carrinho')
+      setPendingQty(null)
+      pendingRef.current = null
     }
   }
 
@@ -196,13 +273,22 @@ export default function ProductPage() {
           </div>
         )}
 
-        {hasDiscount && (
-          <div className="absolute top-4 left-4">
+        <div className="absolute top-4 left-4 flex flex-col gap-1.5 items-start">
+          {isInCart && (
+            <Badge
+              aria-label={`${formatQty(displayCartQty)} ${getUnitShort(activeUnit)} no carrinho`}
+              className="bg-primary text-primary-foreground text-sm px-3 py-1 font-semibold shadow-md gap-1.5"
+            >
+              <Check className="size-3.5" />
+              {formatQty(displayCartQty)}{isFractional ? ` ${getUnitShort(activeUnit)}` : ''} no carrinho
+            </Badge>
+          )}
+          {hasDiscount && (
             <Badge className="bg-emerald-500 text-white text-sm px-3 py-1 font-semibold shadow-md">
               -{Math.round(discountRate * 100)}% desconto {tier}
             </Badge>
-          </div>
-        )}
+          )}
+        </div>
       </div>
 
       {/* Product details */}
@@ -334,9 +420,11 @@ export default function ProductPage() {
           </div>
         )}
 
-        <Separator />
-
-        {/* Quantity selector */}
+        {/* Quantity selector — escondido quando o item ja esta no carrinho.
+            Quando in-cart, o stepper full-width do bottom CTA e o unico
+            controle de quantidade (evita 2 steppers concorrentes). */}
+        {!isInCart && <Separator />}
+        {!isInCart && (
         <div className="space-y-3">
           <span className="text-sm font-medium text-muted-foreground">
             Quantidade {isFractional && <span className="text-xs">(em {getUnitShort(activeUnit)})</span>}
@@ -373,6 +461,7 @@ export default function ProductPage() {
             </div>
           </div>
         </div>
+        )}
 
         {/* Storage/nutritional info */}
         {(product.storage_instructions || product.nutritional_info) && (
@@ -397,18 +486,62 @@ export default function ProductPage() {
       </div>
       </div>
 
-      {/* Bottom CTA */}
-      <div className="fixed bottom-16 md:bottom-0 left-0 right-0 z-40 border-t bg-background/95 backdrop-blur-sm p-4 md:pb-4">
+      {/* Bottom CTA — Opcao A: stepper full-width quando in-cart */}
+      <div
+        aria-current={isInCart ? 'true' : undefined}
+        className="fixed bottom-16 md:bottom-0 left-0 right-0 z-40 border-t bg-background/95 backdrop-blur-sm p-4 md:pb-4"
+      >
         <div className="max-w-3xl mx-auto">
-          <Button
-            size="lg"
-            className="w-full h-12 text-base font-semibold gap-2 rounded-xl"
-            onClick={handleAddToCart}
-            disabled={isAdding}
-          >
-            <ShoppingCart className="size-5" />
-            {isAdding ? 'Adicionando...' : 'Adicionar ao carrinho'}
-          </Button>
+          {isInCart ? (
+            <div className="flex items-center gap-2">
+              <div className="flex-1 flex items-center rounded-xl border-2 border-primary bg-primary/5 h-12 overflow-hidden">
+                <Button
+                  variant="ghost"
+                  size="icon"
+                  className="rounded-none h-full w-12 hover:bg-primary/10"
+                  aria-label={`Diminuir ${product.name} no carrinho`}
+                  onClick={() => handleCartStep(-1)}
+                >
+                  <Minus className="size-5 text-primary" />
+                </Button>
+                <div className="flex-1 flex items-center justify-center gap-1.5 font-semibold text-primary text-base">
+                  <Check className="size-4" />
+                  <span className="tabular-nums">{formatQty(displayCartQty)}</span>
+                  <span className="text-sm font-normal opacity-80">
+                    {isFractional ? getUnitShort(activeUnit) : 'no carrinho'}
+                  </span>
+                </div>
+                <Button
+                  variant="ghost"
+                  size="icon"
+                  className="rounded-none h-full w-12 hover:bg-primary/10"
+                  aria-label={`Aumentar ${product.name} no carrinho`}
+                  onClick={() => handleCartStep(1)}
+                >
+                  <Plus className="size-5 text-primary" />
+                </Button>
+              </div>
+              <Button
+                variant="outline"
+                size="icon"
+                className="h-12 w-12 shrink-0 rounded-xl text-destructive hover:text-destructive hover:bg-destructive/10 border-destructive/30"
+                aria-label={`Remover ${product.name} do carrinho`}
+                onClick={handleRemoveFromCart}
+              >
+                <Trash2 className="size-5" />
+              </Button>
+            </div>
+          ) : (
+            <Button
+              size="lg"
+              className="w-full h-12 text-base font-semibold gap-2 rounded-xl"
+              onClick={handleAddToCart}
+              disabled={isAdding}
+            >
+              <ShoppingCart className="size-5" />
+              {isAdding ? 'Adicionando...' : 'Adicionar ao carrinho'}
+            </Button>
+          )}
         </div>
       </div>
     </div>
