@@ -1,4 +1,4 @@
-import { useState, useEffect, useMemo, useRef, useCallback } from 'react'
+import { useState, useEffect, useMemo } from 'react'
 import { Link, useParams, useNavigate } from 'react-router-dom'
 import {
   ArrowLeft,
@@ -22,13 +22,12 @@ import { formatCurrency } from '@/lib/format'
 import { getUnitLabel, getUnitShort } from '@/lib/unit-labels'
 import { useTierPrice } from '@/hooks/use-tier-price'
 import { useCartQuantity } from '@/hooks/use-cart-quantity'
+import { useCartItemController, FRACTIONAL_STEP } from '@/hooks/use-cart-item-controller'
 import { useAuthStore } from '@/stores/auth-store'
 import { useCartStore } from '@/stores/cart-store'
 import { useFavoritesStore } from '@/features/favorites/stores/favorites-store'
 import { getProductById } from '@/features/catalog/services/products'
 import type { Product, ProductVariant } from '@/types/database'
-
-const CART_DEBOUNCE_MS = 300
 
 export default function ProductPage() {
   const { id } = useParams<{ id: string }>()
@@ -45,8 +44,6 @@ export default function ProductPage() {
   const user = useAuthStore((s) => s.user)
   const profile = useAuthStore((s) => s.profile)
   const addItem = useCartStore((s) => s.addItem)
-  const updateQuantity = useCartStore((s) => s.updateQuantity)
-  const removeItem = useCartStore((s) => s.removeItem)
   const { toggleFavorite, isFavorite } = useFavoritesStore()
 
   const variants = useMemo(() => {
@@ -56,27 +53,21 @@ export default function ProductPage() {
 
   // Cart sync for selected product+variant (LV-128: same Opcao A pattern as ProductCard)
   const { quantity: quantityInCart, cartItemId } = useCartQuantity(
-    product?.id ?? '',
-    selectedVariant?.id ?? null
+    product?.id,
+    selectedVariant?.id ?? null,
   )
   const isInCart = quantityInCart > 0
 
-  const [pendingQty, setPendingQty] = useState<number | null>(null)
-  const pendingRef = useRef<number | null>(null)
-  const debounceRef = useRef<ReturnType<typeof setTimeout> | null>(null)
+  const isFractionalForController =
+    selectedVariant?.allows_fractional ??
+    (selectedVariant?.unit_type ?? product?.unit ?? 'un') === 'kg'
 
-  useEffect(() => {
-    setPendingQty(null)
-    pendingRef.current = null
-  }, [quantityInCart])
-
-  useEffect(() => {
-    return () => {
-      if (debounceRef.current) clearTimeout(debounceRef.current)
-    }
-  }, [])
-
-  const displayCartQty = pendingQty ?? quantityInCart
+  // Centralized optimistic stepper + debounced commit (shared with ProductCard)
+  const { displayQty: displayCartQty, handleStep, handleRemove } = useCartItemController(
+    cartItemId,
+    quantityInCart,
+    isFractionalForController,
+  )
 
   useEffect(() => {
     async function load() {
@@ -128,52 +119,6 @@ export default function ProductPage() {
     }
   }
 
-  const commitCartQty = useCallback(() => {
-    if (debounceRef.current) clearTimeout(debounceRef.current)
-    debounceRef.current = setTimeout(async () => {
-      if (!cartItemId) return
-      const target = pendingRef.current
-      if (target == null) return
-      try {
-        if (target <= 0) {
-          await removeItem(cartItemId)
-        } else {
-          const rounded = isFractional
-            ? Math.round(target * 10) / 10
-            : Math.max(1, Math.round(target))
-          await updateQuantity(cartItemId, rounded)
-        }
-      } catch {
-        toast.error('Erro ao atualizar carrinho')
-        setPendingQty(null)
-        pendingRef.current = null
-      }
-    }, CART_DEBOUNCE_MS)
-  }, [cartItemId, isFractional, removeItem, updateQuantity])
-
-  const handleCartStep = (delta: number) => {
-    const step = isFractional ? 0.1 : 1
-    const base = pendingRef.current ?? quantityInCart
-    const next = Math.max(0, Math.round((base + delta * step) * 10) / 10)
-    pendingRef.current = next
-    setPendingQty(next)
-    commitCartQty()
-  }
-
-  const handleRemoveFromCart = async () => {
-    if (!cartItemId) return
-    if (debounceRef.current) clearTimeout(debounceRef.current)
-    setPendingQty(0)
-    pendingRef.current = 0
-    try {
-      await removeItem(cartItemId)
-    } catch {
-      toast.error('Erro ao remover do carrinho')
-      setPendingQty(null)
-      pendingRef.current = null
-    }
-  }
-
   const handleToggleFavorite = async () => {
     if (!user || !product) return
     await toggleFavorite(user.id, product.id)
@@ -191,12 +136,11 @@ export default function ProductPage() {
   }
 
   const handleQuantityDelta = (delta: number) => {
-    const step = isFractional ? 0.1 : 1
-    const min = isFractional ? 0.1 : 1
+    const step = isFractional ? FRACTIONAL_STEP : 1
     const d = delta > 0 ? step : -step
     setQuantity((prev) => {
       const next = Math.round((prev + d) * 10) / 10
-      return Math.max(min, next)
+      return Math.max(step, next)
     })
   }
 
@@ -274,6 +218,9 @@ export default function ProductPage() {
         )}
 
         <div className="absolute top-4 left-4 flex flex-col gap-1.5 items-start">
+          {/* In-cart badge: verbose ("✓ N no carrinho") because the detail page
+              has space. ProductCard uses a compact form ("✓ N") in the same role
+              due to grid space constraints — same a11y label in both. */}
           {isInCart && (
             <Badge
               aria-label={`${formatQty(displayCartQty)} ${getUnitShort(activeUnit)} no carrinho`}
@@ -500,7 +447,7 @@ export default function ProductPage() {
                   size="icon"
                   className="rounded-none h-full w-12 hover:bg-primary/10"
                   aria-label={`Diminuir ${product.name} no carrinho`}
-                  onClick={() => handleCartStep(-1)}
+                  onClick={() => handleStep(-1)}
                 >
                   <Minus className="size-5 text-primary" />
                 </Button>
@@ -516,7 +463,7 @@ export default function ProductPage() {
                   size="icon"
                   className="rounded-none h-full w-12 hover:bg-primary/10"
                   aria-label={`Aumentar ${product.name} no carrinho`}
-                  onClick={() => handleCartStep(1)}
+                  onClick={() => handleStep(1)}
                 >
                   <Plus className="size-5 text-primary" />
                 </Button>
@@ -526,7 +473,7 @@ export default function ProductPage() {
                 size="icon"
                 className="h-12 w-12 shrink-0 rounded-xl text-destructive hover:text-destructive hover:bg-destructive/10 border-destructive/30"
                 aria-label={`Remover ${product.name} do carrinho`}
-                onClick={handleRemoveFromCart}
+                onClick={() => void handleRemove()}
               >
                 <Trash2 className="size-5" />
               </Button>

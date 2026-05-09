@@ -6,31 +6,34 @@ export interface CartQuantityInfo {
   cartItemId: string | null
 }
 
+// Read the cart entry for a specific product+variant combo. Accepts null/undefined
+// productId so consumers can call the hook before the product has loaded
+// (returns empty state in that case — hooks cannot be called conditionally).
 export function useCartQuantity(
-  productId: string,
-  variantId: string | null
+  productId: string | null | undefined,
+  variantId: string | null,
 ): CartQuantityInfo {
   return useCartStore(
     useShallow((state) => {
+      if (!productId) return { quantity: 0, cartItemId: null }
       const item = state.items.find(
-        (i) => i.product_id === productId && i.variant_id === variantId
+        (i) => i.product_id === productId && i.variant_id === variantId,
       )
       return {
         quantity: item?.quantity ?? 0,
         cartItemId: item?.id ?? null,
       }
-    })
+    }),
   )
 }
 
 export interface ProductCartTotals {
   totalQuantity: number
   hasInCart: boolean
-  variantCount: number
 }
 
 // Sum across ALL variants of a product. Used in contexts without a selected
-// variant (ex: QuickReorderCard) where we only need to flag "is in cart".
+// variant (ex: QuickReorderCard) where we only need a "is in cart" signal.
 export function useCartQuantityForProduct(productId: string): ProductCartTotals {
   return useCartStore(
     useShallow((state) => {
@@ -39,8 +42,7 @@ export function useCartQuantityForProduct(productId: string): ProductCartTotals 
       return {
         totalQuantity: total,
         hasInCart: total > 0,
-        variantCount: items.length,
       }
-    })
+    }),
   )
 }
