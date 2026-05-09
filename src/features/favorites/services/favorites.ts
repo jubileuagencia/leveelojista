@@ -8,10 +8,15 @@ function normalizeFavorite(f: Favorite): Favorite {
 }
 
 export async function getFavorites(userId: string): Promise<Favorite[]> {
+  // !inner + is_active/deleted_at filters: hide favorites pointing to
+  // inactive/soft-deleted products. Otherwise the user can re-add them to
+  // the cart and trigger a 400 at checkout (Produto inativo).
   const { data, error } = await supabase
     .from('favorites')
-    .select('*, product:products(*, category_links:product_categories(is_primary, category:categories(*)))')
+    .select('*, product:products!inner(*, category_links:product_categories(is_primary, category:categories(*)))')
     .eq('user_id', userId)
+    .eq('product.is_active', true)
+    .is('product.deleted_at', null)
     .order('created_at', { ascending: false })
 
   if (error) {
@@ -19,7 +24,9 @@ export async function getFavorites(userId: string): Promise<Favorite[]> {
     throw new Error(`Falha ao buscar favoritos: ${error.message}`)
   }
 
-  return ((data as Favorite[]) ?? []).map(normalizeFavorite)
+  return ((data as Favorite[]) ?? [])
+    .filter((f) => f.product)
+    .map(normalizeFavorite)
 }
 
 export async function addFavorite(
@@ -29,7 +36,7 @@ export async function addFavorite(
   const { data, error } = await supabase
     .from('favorites')
     .insert({ user_id: userId, product_id: productId })
-    .select('*, product:products(*, category_links:product_categories(is_primary, category:categories(*)))')
+    .select('*, product:products!inner(*, category_links:product_categories(is_primary, category:categories(*)))')
     .single()
 
   if (error) {

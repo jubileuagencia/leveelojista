@@ -27,12 +27,19 @@ export const useCartStore = create<CartState>((set, get) => ({
 
   fetchCart: async (userId) => {
     set({ loading: true })
+    // !inner + is_active/deleted_at filters: cart entries pointing to inactive
+    // or soft-deleted products are excluded server-side. Prevents the
+    // create_order_validated RPC from rejecting the order at checkout.
     const { data } = await supabase
       .from('cart_items')
-      .select('*, product:products(*, category_links:product_categories(is_primary, category:categories(*)), variants:product_variants(*)), variant:product_variants(*)')
+      .select('*, product:products!inner(*, category_links:product_categories(is_primary, category:categories(*)), variants:product_variants(*)), variant:product_variants(*)')
       .eq('user_id', userId)
+      .eq('product.is_active', true)
+      .is('product.deleted_at', null)
 
-    const items = ((data as CartItem[]) ?? []).map(normalizeCartItem)
+    const items = ((data as CartItem[]) ?? [])
+      .filter((i) => i.product) // defense-in-depth: drop any rows without product
+      .map(normalizeCartItem)
     set({ items, loading: false })
   },
 
@@ -74,7 +81,7 @@ export const useCartStore = create<CartState>((set, get) => ({
     const { data, error } = await supabase
       .from('cart_items')
       .insert(insertData)
-      .select('*, product:products(*, category_links:product_categories(is_primary, category:categories(*)), variants:product_variants(*)), variant:product_variants(*)')
+      .select('*, product:products!inner(*, category_links:product_categories(is_primary, category:categories(*)), variants:product_variants(*)), variant:product_variants(*)')
       .single()
 
     if (error) {
