@@ -1,5 +1,5 @@
-import { useState, useMemo } from 'react'
-import { Heart, Minus, Plus, ShoppingCart, Package, AlertTriangle } from 'lucide-react'
+import { useState, useMemo, useEffect, useRef, useCallback } from 'react'
+import { Heart, Minus, Plus, ShoppingCart, Package, AlertTriangle, Trash2, Check } from 'lucide-react'
 import { toast } from 'sonner'
 import { Button } from '@/components/ui/button'
 import { Badge } from '@/components/ui/badge'
@@ -8,10 +8,13 @@ import { cn } from '@/lib/utils'
 import { formatCurrency } from '@/lib/format'
 import { getUnitShort } from '@/lib/unit-labels'
 import { useTierPrice } from '@/hooks/use-tier-price'
+import { useCartQuantity } from '@/hooks/use-cart-quantity'
 import { useAuthStore } from '@/stores/auth-store'
 import { useCartStore } from '@/stores/cart-store'
 import { useFavoritesStore } from '@/features/favorites/stores/favorites-store'
 import type { Product, ProductVariant } from '@/types/database'
+
+const CART_DEBOUNCE_MS = 300
 
 interface ProductCardProps {
   product: Product
@@ -37,11 +40,91 @@ export function ProductCard({ product, onNavigate }: ProductCardProps) {
 
   const user = useAuthStore((s) => s.user)
   const addItem = useCartStore((s) => s.addItem)
+  const updateQuantity = useCartStore((s) => s.updateQuantity)
+  const removeItem = useCartStore((s) => s.removeItem)
   const { toggleFavorite, isFavorite } = useFavoritesStore()
 
   const activePrice = selectedVariant?.unit_price ?? product.price
   const activeUnit = selectedVariant?.unit_type ?? product.unit
   const isFractional = selectedVariant?.allows_fractional ?? activeUnit === 'kg'
+
+  // Cart sync: read current quantity in cart for this product+variant
+  const { quantity: quantityInCart, cartItemId } = useCartQuantity(
+    product.id,
+    selectedVariant?.id ?? null
+  )
+  const isInCart = quantityInCart > 0
+
+  // Optimistic local quantity for the in-cart stepper. Reflects user clicks
+  // immediately; debounced commit to the cart-store keeps requests low.
+  const [pendingQty, setPendingQty] = useState<number | null>(null)
+  // Ref accumulator: synchronous source of truth for rapid bursts (avoids stale
+  // state when multiple clicks fire in the same tick before React re-renders).
+  const pendingRef = useRef<number | null>(null)
+  const debounceRef = useRef<ReturnType<typeof setTimeout> | null>(null)
+
+  // Whenever the cart store value changes externally, drop the pending state.
+  useEffect(() => {
+    setPendingQty(null)
+    pendingRef.current = null
+  }, [quantityInCart])
+
+  // Cleanup pending timer on unmount.
+  useEffect(() => {
+    return () => {
+      if (debounceRef.current) clearTimeout(debounceRef.current)
+    }
+  }, [])
+
+  const displayQty = pendingQty ?? quantityInCart
+  const minStep = isFractional ? 0.1 : 1
+
+  const commitCartQty = useCallback(() => {
+    if (debounceRef.current) clearTimeout(debounceRef.current)
+    debounceRef.current = setTimeout(async () => {
+      if (!cartItemId) return
+      const target = pendingRef.current
+      if (target == null) return
+      try {
+        if (target <= 0) {
+          await removeItem(cartItemId)
+        } else {
+          const rounded = isFractional
+            ? Math.round(target * 10) / 10
+            : Math.max(1, Math.round(target))
+          await updateQuantity(cartItemId, rounded)
+        }
+      } catch {
+        toast.error('Erro ao atualizar carrinho')
+        setPendingQty(null)
+        pendingRef.current = null
+      }
+    }, CART_DEBOUNCE_MS)
+  }, [cartItemId, isFractional, removeItem, updateQuantity])
+
+  const handleCartStep = (e: React.MouseEvent, delta: number) => {
+    e.stopPropagation()
+    const base = pendingRef.current ?? quantityInCart
+    const next = Math.max(0, Math.round((base + delta * minStep) * 10) / 10)
+    pendingRef.current = next
+    setPendingQty(next)
+    commitCartQty()
+  }
+
+  const handleRemoveFromCart = async (e: React.MouseEvent) => {
+    e.stopPropagation()
+    if (!cartItemId) return
+    if (debounceRef.current) clearTimeout(debounceRef.current)
+    setPendingQty(0)
+    pendingRef.current = 0
+    try {
+      await removeItem(cartItemId)
+    } catch {
+      toast.error('Erro ao remover do carrinho')
+      setPendingQty(null)
+      pendingRef.current = null
+    }
+  }
 
   const {
     finalPrice,
@@ -106,10 +189,12 @@ export function ProductCard({ product, onNavigate }: ProductCardProps) {
   return (
     <div
       onClick={() => onNavigate?.(product.id)}
+      aria-current={isInCart ? 'true' : undefined}
       className={cn(
         'group relative flex flex-col overflow-hidden rounded-2xl border bg-card transition-all duration-200',
         'hover:shadow-lg hover:shadow-primary/5 hover:border-primary/20',
-        onNavigate && 'cursor-pointer'
+        onNavigate && 'cursor-pointer',
+        isInCart && 'border-primary/40 ring-1 ring-primary/10'
       )}
     >
       {/* Favorite button */}
@@ -127,14 +212,24 @@ export function ProductCard({ product, onNavigate }: ProductCardProps) {
         />
       </button>
 
-      {/* Discount badge */}
-      {hasDiscount && (
-        <div className="absolute top-2.5 left-2.5 z-10">
+      {/* Top-left badges: in-cart marker stacks above discount */}
+      <div className="absolute top-2.5 left-2.5 z-10 flex flex-col items-start gap-1">
+        {isInCart && (
+          <Badge
+            aria-label={`${formatQty(displayQty)}${isFractional ? ` ${getUnitShort(activeUnit)}` : ''} no carrinho`}
+            className="bg-primary text-primary-foreground text-[10px] px-1.5 py-0.5 font-semibold shadow-sm gap-0.5"
+          >
+            <Check className="size-2.5" aria-hidden="true" />
+            {formatQty(displayQty)}
+            {isFractional && getUnitShort(activeUnit)}
+          </Badge>
+        )}
+        {hasDiscount && (
           <Badge className="bg-emerald-500 text-white text-[10px] px-1.5 py-0.5 font-semibold shadow-sm">
             -{Math.round(discountRate * 100)}%
           </Badge>
-        </div>
-      )}
+        )}
+      </div>
 
       {/* Product image */}
       <div className="relative aspect-square w-full overflow-hidden bg-muted/30">
@@ -233,41 +328,88 @@ export function ProductCard({ product, onNavigate }: ProductCardProps) {
           </div>
         )}
 
-        {/* Quantity + Add to cart */}
-        <div className="flex flex-col gap-1.5 pt-0.5 sm:flex-row sm:items-center sm:gap-2 sm:pt-1">
-          <div className="flex items-center justify-center rounded-lg border bg-muted/30">
+        {/* Quantity + Add to cart — switches to in-cart stepper when item is in cart */}
+        {isInCart ? (
+          <div className="flex items-center gap-1.5 pt-0.5 sm:pt-1" onClick={(e) => e.stopPropagation()}>
+            <div className="flex flex-1 items-center justify-between rounded-lg border border-primary/40 bg-primary/5 h-9 px-1">
+              <Button
+                variant="ghost"
+                size="icon-xs"
+                className="h-7 w-7 hover:bg-primary/10"
+                onClick={(e) => handleCartStep(e, -1)}
+                aria-label={`Diminuir ${product.name}`}
+              >
+                <Minus className="size-3.5 text-primary" />
+              </Button>
+              <span
+                aria-live="polite"
+                className="min-w-[3rem] text-center text-sm font-bold tabular-nums text-primary"
+              >
+                {formatQty(displayQty)}
+                {isFractional && (
+                  <span className="ml-0.5 text-[10px] font-medium opacity-70">
+                    {getUnitShort(activeUnit)}
+                  </span>
+                )}
+              </span>
+              <Button
+                variant="ghost"
+                size="icon-xs"
+                className="h-7 w-7 hover:bg-primary/10"
+                onClick={(e) => handleCartStep(e, 1)}
+                aria-label={`Aumentar ${product.name}`}
+              >
+                <Plus className="size-3.5 text-primary" />
+              </Button>
+            </div>
             <Button
               variant="ghost"
               size="icon-xs"
-              className="rounded-r-none h-7 w-7"
-              onClick={(e) => handleQuantityChange(e, -1)}
-              disabled={quantity <= (isFractional ? 0.1 : 1)}
+              className="h-9 w-9 shrink-0 text-muted-foreground hover:text-destructive hover:bg-destructive/10"
+              onClick={handleRemoveFromCart}
+              aria-label={`Remover ${product.name} do carrinho`}
             >
-              <Minus className="size-3" />
-            </Button>
-            <span className="min-w-[1.75rem] text-center text-xs font-medium tabular-nums sm:min-w-[2rem] sm:text-sm">
-              {formatQty(quantity)}
-            </span>
-            <Button
-              variant="ghost"
-              size="icon-xs"
-              className="rounded-l-none h-7 w-7"
-              onClick={(e) => handleQuantityChange(e, 1)}
-            >
-              <Plus className="size-3" />
+              <Trash2 className="size-3.5" />
             </Button>
           </div>
+        ) : (
+          <div className="flex flex-col gap-1.5 pt-0.5 sm:flex-row sm:items-center sm:gap-2 sm:pt-1">
+            <div className="flex items-center justify-center rounded-lg border bg-muted/30">
+              <Button
+                variant="ghost"
+                size="icon-xs"
+                className="rounded-r-none h-7 w-7"
+                onClick={(e) => handleQuantityChange(e, -1)}
+                disabled={quantity <= (isFractional ? 0.1 : 1)}
+                aria-label="Diminuir quantidade a adicionar"
+              >
+                <Minus className="size-3" />
+              </Button>
+              <span className="min-w-[1.75rem] text-center text-xs font-medium tabular-nums sm:min-w-[2rem] sm:text-sm">
+                {formatQty(quantity)}
+              </span>
+              <Button
+                variant="ghost"
+                size="icon-xs"
+                className="rounded-l-none h-7 w-7"
+                onClick={(e) => handleQuantityChange(e, 1)}
+                aria-label="Aumentar quantidade a adicionar"
+              >
+                <Plus className="size-3" />
+              </Button>
+            </div>
 
-          <Button
-            size="sm"
-            className="h-8 w-full gap-1.5 text-xs font-semibold rounded-lg sm:flex-1 sm:w-auto"
-            onClick={handleAddToCart}
-            disabled={isAdding}
-          >
-            <ShoppingCart className="size-3.5" />
-            <span className="sm:inline">{isAdding ? 'Aguarde...' : 'Adicionar'}</span>
-          </Button>
-        </div>
+            <Button
+              size="sm"
+              className="h-8 w-full gap-1.5 text-xs font-semibold rounded-lg sm:flex-1 sm:w-auto"
+              onClick={handleAddToCart}
+              disabled={isAdding}
+            >
+              <ShoppingCart className="size-3.5" />
+              <span className="sm:inline">{isAdding ? 'Aguarde...' : 'Adicionar'}</span>
+            </Button>
+          </div>
+        )}
       </div>
     </div>
   )
