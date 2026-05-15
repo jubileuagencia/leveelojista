@@ -5,7 +5,7 @@ import { Button } from '@/components/ui/button'
 import { Badge } from '@/components/ui/badge'
 import { Skeleton } from '@/components/ui/skeleton'
 import { cn } from '@/lib/utils'
-import { formatCurrency } from '@/lib/format'
+import { formatCurrency, formatFractionalQty } from '@/lib/format'
 import { getUnitShort } from '@/lib/unit-labels'
 import { useTierPrice } from '@/hooks/use-tier-price'
 import { useCartQuantity } from '@/hooks/use-cart-quantity'
@@ -125,10 +125,9 @@ export function ProductCard({ product, onNavigate }: ProductCardProps) {
     }
   }
 
-  const formatQty = (q: number) => {
-    if (isFractional) return q.toFixed(1).replace('.', ',')
-    return String(q)
-  }
+  // Fractional → "500g" / "1,5kg" (adaptive unit). Non-fractional → bare integer.
+  const formatQty = (q: number) =>
+    isFractional ? formatFractionalQty(q) : String(q)
 
   return (
     <div
@@ -163,12 +162,11 @@ export function ProductCard({ product, onNavigate }: ProductCardProps) {
       <div className="absolute top-2.5 left-2.5 z-10 flex flex-col items-start gap-1">
         {isInCart && (
           <Badge
-            aria-label={`${formatQty(displayQty)}${isFractional ? ` ${getUnitShort(activeUnit)}` : ''} no carrinho`}
+            aria-label={`${formatQty(displayQty)}${isFractional ? '' : ` ${getUnitShort(activeUnit)}`} no carrinho`}
             className="bg-primary text-primary-foreground text-[10px] px-1.5 py-0.5 font-semibold shadow-sm gap-0.5"
           >
             <Check className="size-2.5" aria-hidden="true" />
             {formatQty(displayQty)}
-            {isFractional && getUnitShort(activeUnit)}
           </Badge>
         )}
         {hasDiscount && (
@@ -293,11 +291,6 @@ export function ProductCard({ product, onNavigate }: ProductCardProps) {
                 className="min-w-[3rem] text-center text-sm font-bold tabular-nums text-primary"
               >
                 {formatQty(displayQty)}
-                {isFractional && (
-                  <span className="ml-0.5 text-[10px] font-medium opacity-70">
-                    {getUnitShort(activeUnit)}
-                  </span>
-                )}
               </span>
               <Button
                 variant="ghost"

@@ -18,7 +18,7 @@ import { Separator } from '@/components/ui/separator'
 import { Skeleton } from '@/components/ui/skeleton'
 import { toast } from 'sonner'
 import { cn } from '@/lib/utils'
-import { formatCurrency } from '@/lib/format'
+import { formatCurrency, formatFractionalQty } from '@/lib/format'
 import { getUnitLabel, getUnitShort } from '@/lib/unit-labels'
 import { useTierPrice } from '@/hooks/use-tier-price'
 import { useCartQuantity } from '@/hooks/use-cart-quantity'
@@ -144,10 +144,9 @@ export default function ProductPage() {
     })
   }
 
-  const formatQty = (q: number) => {
-    if (isFractional) return q.toFixed(1).replace('.', ',')
-    return String(q)
-  }
+  // Fractional → "500g" / "1,5kg" (adaptive unit). Non-fractional → bare integer.
+  const formatQty = (q: number) =>
+    isFractional ? formatFractionalQty(q) : String(q)
 
   if (loading) {
     return <ProductPageSkeleton onBack={() => navigate(-1)} />
@@ -223,11 +222,11 @@ export default function ProductPage() {
               due to grid space constraints — same a11y label in both. */}
           {isInCart && (
             <Badge
-              aria-label={`${formatQty(displayCartQty)} ${getUnitShort(activeUnit)} no carrinho`}
+              aria-label={`${formatQty(displayCartQty)}${isFractional ? '' : ` ${getUnitShort(activeUnit)}`} no carrinho`}
               className="bg-primary text-primary-foreground text-sm px-3 py-1 font-semibold shadow-md gap-1.5"
             >
               <Check className="size-3.5" />
-              {formatQty(displayCartQty)}{isFractional ? ` ${getUnitShort(activeUnit)}` : ''} no carrinho
+              {formatQty(displayCartQty)} no carrinho
             </Badge>
           )}
           {hasDiscount && (
@@ -454,9 +453,9 @@ export default function ProductPage() {
                 <div className="flex-1 flex items-center justify-center gap-1.5 font-semibold text-primary text-base">
                   <Check className="size-4" />
                   <span className="tabular-nums">{formatQty(displayCartQty)}</span>
-                  <span className="text-sm font-normal opacity-80">
-                    {isFractional ? getUnitShort(activeUnit) : 'no carrinho'}
-                  </span>
+                  {!isFractional && (
+                    <span className="text-sm font-normal opacity-80">no carrinho</span>
+                  )}
                 </div>
                 <Button
                   variant="ghost"

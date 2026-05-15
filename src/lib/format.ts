@@ -29,6 +29,21 @@ export function formatOrderNumber(num: number): string {
   return `#${num}`
 }
 
+// Fractional quantities (kg) — adaptive g/kg unit:
+//   < 1kg → grams ("500g", "100g", "50g")
+//   ≥ 1kg → kilograms with pt-BR decimal ("1kg", "1,5kg", "20kg")
+// No trailing zero on whole kilos, no space between number and unit.
+// Non-fractional quantities are not handled here — call sites keep their own integer formatting.
+export function formatFractionalQty(qty: number): string {
+  if (qty < 1) {
+    const grams = Math.round(qty * 1000)
+    return `${grams}g`
+  }
+  const isWhole = Number.isInteger(qty)
+  const kg = isWhole ? String(qty) : qty.toFixed(1).replace('.', ',')
+  return `${kg}kg`
+}
+
 export function formatDate(date: string): string {
   return new Intl.DateTimeFormat('pt-BR', {
     day: '2-digit',

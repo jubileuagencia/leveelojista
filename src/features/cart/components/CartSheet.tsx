@@ -20,7 +20,7 @@ import { Badge } from '@/components/ui/badge'
 import { Separator } from '@/components/ui/separator'
 import { ScrollArea } from '@/components/ui/scroll-area'
 import { cn } from '@/lib/utils'
-import { formatCurrency } from '@/lib/format'
+import { formatCurrency, formatFractionalQty } from '@/lib/format'
 import { useTierPrice } from '@/hooks/use-tier-price'
 import { useCartStore } from '@/stores/cart-store'
 import { useAuthStore } from '@/stores/auth-store'
@@ -139,6 +139,7 @@ function CartSheetItem({ item }: { item: CartItem }) {
 
   const { finalPrice, hasDiscount } = useTierPrice(item.variant?.unit_price ?? item.product?.price ?? 0)
   const lineTotal = finalPrice * item.quantity
+  const isFractional = item.variant?.allows_fractional ?? false
 
   return (
     <div className="flex gap-3 rounded-xl border bg-card p-3">
@@ -202,7 +203,7 @@ function CartSheetItem({ item }: { item: CartItem }) {
               <Minus className="size-3" />
             </Button>
             <span className="min-w-[1.5rem] text-center text-xs font-medium tabular-nums">
-              {item.quantity}
+              {isFractional ? formatFractionalQty(item.quantity) : item.quantity}
             </span>
             <Button
               variant="ghost"

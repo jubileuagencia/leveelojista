@@ -3,7 +3,7 @@ import { toast } from 'sonner'
 import { Button } from '@/components/ui/button'
 import { Badge } from '@/components/ui/badge'
 import { Separator } from '@/components/ui/separator'
-import { formatCurrency, formatCEP } from '@/lib/format'
+import { formatCurrency, formatCEP, formatFractionalQty } from '@/lib/format'
 import { getUnitShort } from '@/lib/unit-labels'
 import { useCheckoutStore } from '@/features/checkout/stores/checkout-store'
 import { useCartStore } from '@/stores/cart-store'
@@ -127,6 +127,8 @@ export function StepReview() {
             const lineTotal = finalPrice * item.quantity
             const unitType = item.variant?.unit_type ?? item.product?.unit ?? 'un'
             const unitLabel = item.variant?.unit_label ?? getUnitShort(unitType)
+            const isFractional = item.variant?.allows_fractional ?? false
+            const qtyDisplay = isFractional ? formatFractionalQty(item.quantity) : `${item.quantity}x`
 
             return (
               <div
@@ -158,7 +160,7 @@ export function StepReview() {
                       {unitLabel}
                     </Badge>
                     <span className="text-xs text-muted-foreground">
-                      {item.quantity}x{' '}
+                      {qtyDisplay}{' '}
                       {discountRate > 0 ? (
                         <span className="text-emerald-600">{formatCurrency(finalPrice)}</span>
                       ) : (

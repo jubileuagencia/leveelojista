@@ -16,7 +16,7 @@ import { Separator } from '@/components/ui/separator'
 import { Skeleton } from '@/components/ui/skeleton'
 import { Badge } from '@/components/ui/badge'
 import { cn } from '@/lib/utils'
-import { formatCurrency, formatDateTime, formatOrderNumber } from '@/lib/format'
+import { formatCurrency, formatDateTime, formatOrderNumber, formatFractionalQty } from '@/lib/format'
 import { formatDeliveryDate } from '@/lib/delivery'
 import { getUnitShort } from '@/lib/unit-labels'
 import { getOrderById } from '@/features/orders/services/orders'
@@ -143,8 +143,10 @@ export default function OrderDetailsPage() {
                     {item.product?.name ?? 'Produto'}
                   </p>
                   <p className="text-xs text-muted-foreground">
-                    {item.quantity}
-                    {item.unit_type ? ` ${getUnitShort(item.unit_type)}` : ''} x{' '}
+                    {item.unit_type === 'kg'
+                      ? formatFractionalQty(item.quantity)
+                      : `${item.quantity}${item.unit_type ? ` ${getUnitShort(item.unit_type)}` : ''}`}
+                    {' x '}
                     {formatCurrency(item.unit_price)}
                   </p>
                 </div>

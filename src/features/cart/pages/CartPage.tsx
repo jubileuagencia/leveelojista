@@ -14,7 +14,7 @@ import { Button } from '@/components/ui/button'
 import { Badge } from '@/components/ui/badge'
 import { Separator } from '@/components/ui/separator'
 import { cn } from '@/lib/utils'
-import { formatCurrency } from '@/lib/format'
+import { formatCurrency, formatFractionalQty } from '@/lib/format'
 import { getUnitShort } from '@/lib/unit-labels'
 import { useTierPrice } from '@/hooks/use-tier-price'
 import { useCartStore } from '@/stores/cart-store'
@@ -186,10 +186,9 @@ function CartItemRow({ item }: { item: CartItem }) {
     updateQuantity(item.id, next)
   }
 
-  const formatQty = (q: number) => {
-    if (isFractional) return q.toFixed(1).replace('.', ',')
-    return String(q)
-  }
+  // Fractional → "500g" / "1,5kg" (adaptive unit). Non-fractional → bare integer.
+  const formatQty = (q: number) =>
+    isFractional ? formatFractionalQty(q) : String(q)
 
   return (
     <>
