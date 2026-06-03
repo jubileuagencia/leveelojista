@@ -2,10 +2,9 @@ import { Check } from 'lucide-react'
 import { cn } from '@/lib/utils'
 
 const steps = [
-  { number: 1, label: 'Endereco' },
-  { number: 2, label: 'Pagamento' },
-  { number: 3, label: 'Revisao' },
-  { number: 4, label: 'Confirmacao' },
+  { number: 1, label: 'Endereço' },
+  { number: 2, label: 'Revisão' },
+  { number: 3, label: 'Confirmação' },
 ]
 
 interface StepIndicatorProps {
@@ -23,41 +22,27 @@ export function StepIndicator({ currentStep }: StepIndicatorProps) {
 
           return (
             <div key={step.number} className="flex items-center flex-1 last:flex-none">
-              {/* Step circle + label */}
               <div className="flex flex-col items-center gap-1.5">
                 <div
                   className={cn(
                     'flex size-8 items-center justify-center rounded-full text-xs font-semibold transition-colors shrink-0',
-                    isCompleted &&
-                      'bg-primary text-primary-foreground',
-                    isActive &&
-                      'bg-primary text-primary-foreground ring-4 ring-primary/20',
-                    !isCompleted &&
-                      !isActive &&
-                      'bg-muted text-muted-foreground'
+                    isCompleted && 'bg-primary text-primary-foreground',
+                    isActive && 'bg-primary text-primary-foreground ring-4 ring-primary/20',
+                    !isCompleted && !isActive && 'bg-muted text-muted-foreground'
                   )}
                 >
-                  {isCompleted ? (
-                    <Check className="size-4" />
-                  ) : (
-                    step.number
-                  )}
+                  {isCompleted ? <Check className="size-4" /> : step.number}
                 </div>
                 <span
                   className={cn(
                     'text-[10px] sm:text-xs font-medium text-center leading-tight',
-                    isActive
-                      ? 'text-primary'
-                      : isCompleted
-                        ? 'text-foreground'
-                        : 'text-muted-foreground'
+                    isActive ? 'text-primary' : isCompleted ? 'text-foreground' : 'text-muted-foreground'
                   )}
                 >
                   {step.label}
                 </span>
               </div>
 
-              {/* Connector line */}
               {!isLast && (
                 <div className="flex-1 mx-2 mt-[-1.25rem]">
                   <div

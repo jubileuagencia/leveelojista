@@ -1,7 +1,34 @@
 export type UserRole = 'customer' | 'admin' | 'super_admin'
 export type UserTier = 'ouro' | 'platina' | 'diamante'
-export type PaymentMethod = 'pix' | 'boleto'
-export type OrderStatus = 'pending' | 'approved' | 'preparing' | 'shipped' | 'delivered' | 'rejected' | 'cancelled'
+export type PaymentMethod =
+  | 'pix'
+  | 'boleto'
+  | 'cartao_online'      // cartão via MP Checkout Pro
+  | 'cartao_entrega'     // máquina de cartão presencial (débito ou crédito — distinção no POS)
+  | 'dinheiro_entrega'   // dinheiro na entrega (com ou sem troco)
+
+export type OrderStatus =
+  | 'pending'            // pedido criado, aguardando loja iniciar separação
+  | 'separating'         // loja está separando os itens fisicamente
+  | 'awaiting_payment'   // separação finalizada, aguardando cliente pagar
+  | 'approved'           // pago e aprovado para preparo
+  | 'preparing'          // preparando para envio
+  | 'shipped'            // despachado
+  | 'delivered'          // entregue ao cliente
+  | 'rejected'           // recusado pela loja
+  | 'cancelled'          // cancelado (cliente ou loja)
+
+export type SeparationStatus = 'pending' | 'separated' | 'removed' | 'added' | 'substituted'
+
+export type SeparationAuditAction =
+  | 'separation_started'
+  | 'qty_changed'
+  | 'item_removed'
+  | 'item_added'
+  | 'item_substituted'
+  | 'note_added'
+  | 'separation_completed'
+  | 'separation_reverted'
 export type ProductUnit = 'un' | 'kg' | 'cx' | 'maco' | 'dz' | 'bj' | 'pc'
 
 export type DocumentType = 'cpf' | 'cnpj'
@@ -87,12 +114,22 @@ export interface Order {
   user_id: string
   address_id: string | null
   status: OrderStatus
-  payment_method: PaymentMethod
+  payment_method: PaymentMethod | null  // null até cliente escolher em /pedido/:id/pagamento
   subtotal: number
   discount: number
   total: number
   estimated_delivery_date: string | null
   created_at: string
+  // Campos do fluxo pós-separação
+  separated_at: string | null
+  separated_by: string | null
+  paid_at: string | null
+  mp_payment_id: string | null
+  mp_preference_id: string | null
+  original_subtotal: number | null
+  original_total: number | null
+  separation_notes: string | null
+  delivery_change_for: number | null    // troco solicitado (só dinheiro_entrega + pediu troco)
   profile?: Profile
   address?: UserAddress
   items?: OrderItem[]
@@ -108,7 +145,23 @@ export interface OrderItem {
   total_price: number
   unit_type: string | null
   created_at: string
+  // Campos do fluxo pós-separação
+  original_quantity: number | null
+  original_total_price: number | null
+  separation_status: SeparationStatus
+  separation_note: string | null
+  substituted_from_item_id: string | null
   product?: Product
+}
+
+export interface OrderSeparationAudit {
+  id: string
+  order_id: string
+  order_item_id: string | null
+  action: SeparationAuditAction
+  user_id: string
+  payload: Record<string, unknown>
+  created_at: string
 }
 
 export interface CartItem {
@@ -152,14 +205,23 @@ export interface Database {
       user_addresses: { Row: UserAddress; Insert: Partial<UserAddress>; Update: Partial<UserAddress> }
       orders: { Row: Order; Insert: Partial<Order>; Update: Partial<Order> }
       order_items: { Row: OrderItem; Insert: Partial<OrderItem>; Update: Partial<OrderItem> }
+      order_separation_audit: { Row: OrderSeparationAudit; Insert: Partial<OrderSeparationAudit>; Update: never }
       cart_items: { Row: CartItem; Insert: Partial<CartItem>; Update: Partial<CartItem> }
       favorites: { Row: Favorite; Insert: Partial<Favorite>; Update: Partial<Favorite> }
       app_config: { Row: AppConfig; Insert: Partial<AppConfig>; Update: Partial<AppConfig> }
     }
     Functions: {
       create_order_validated: {
-        Args: { p_address_id: string; p_payment_method: string; p_items: unknown }
+        Args: { p_address_id: string; p_payment_method?: string | null; p_items: unknown }
         Returns: string
+      }
+      start_separation: {
+        Args: { p_order_id: string }
+        Returns: void
+      }
+      finalize_separation: {
+        Args: { p_order_id: string }
+        Returns: void
       }
       set_main_address: {
         Args: { target_address_id: string }

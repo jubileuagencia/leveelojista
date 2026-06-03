@@ -1,4 +1,4 @@
-import { MapPin, CreditCard, Package, Percent, Loader2, CalendarDays } from 'lucide-react'
+import { MapPin, Package, Percent, Loader2, CalendarDays } from 'lucide-react'
 import { toast } from 'sonner'
 import { Button } from '@/components/ui/button'
 import { Badge } from '@/components/ui/badge'
@@ -11,15 +11,9 @@ import { useAuthStore } from '@/stores/auth-store'
 import { useConfigStore } from '@/stores/config-store'
 import { useEstimatedDelivery } from '@/lib/delivery'
 
-const paymentLabels: Record<string, string> = {
-  pix: 'PIX',
-  boleto: 'Boleto Bancario',
-}
-
 export function StepReview() {
   const addresses = useCheckoutStore((s) => s.addresses)
   const selectedAddressId = useCheckoutStore((s) => s.selectedAddressId)
-  const paymentMethod = useCheckoutStore((s) => s.paymentMethod)
   const loading = useCheckoutStore((s) => s.loading)
   const setStep = useCheckoutStore((s) => s.setStep)
   const submitOrder = useCheckoutStore((s) => s.submitOrder)
@@ -88,15 +82,13 @@ export function StepReview() {
         )}
       </div>
 
-      {/* Payment method */}
+      {/* Payment info */}
       <div className="px-4">
-        <div className="flex items-center gap-2 mb-2">
-          <CreditCard className="size-4 text-muted-foreground" />
-          <h3 className="text-sm font-medium">Forma de pagamento</h3>
+        <div className="rounded-xl border border-amber-200 bg-amber-50 dark:bg-amber-950/30 dark:border-amber-900 px-3 py-2.5">
+          <p className="text-sm text-amber-800 dark:text-amber-300">
+            💳 Você escolherá como pagar <strong>após a loja separar os itens</strong>. PIX, boleto, cartão ou na entrega.
+          </p>
         </div>
-        <Badge variant="secondary" className="text-xs px-3 py-1">
-          {paymentMethod ? paymentLabels[paymentMethod] : ''}
-        </Badge>
       </div>
 
       {/* Estimated delivery */}
@@ -230,7 +222,7 @@ export function StepReview() {
           variant="outline"
           size="lg"
           className="flex-1 h-12 rounded-xl"
-          onClick={() => setStep(2)}
+          onClick={() => setStep(1)}
           disabled={loading}
         >
           Voltar

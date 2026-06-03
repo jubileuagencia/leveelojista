@@ -1,5 +1,5 @@
 import { supabase } from '@/lib/supabase'
-import type { UserAddress, Order, PaymentMethod } from '@/types/database'
+import type { UserAddress, Order } from '@/types/database'
 
 export async function getUserAddresses(userId: string): Promise<UserAddress[]> {
   const { data, error } = await supabase
@@ -36,12 +36,10 @@ export async function setMainAddress(addressId: string): Promise<void> {
 
 export async function createOrder(params: {
   addressId: string
-  paymentMethod: PaymentMethod
   items: { product_id: string; quantity: number; unit_price: number; variant_id?: string | null }[]
 }): Promise<string> {
   const rpcParams = {
     p_address_id: params.addressId,
-    p_payment_method: params.paymentMethod,
     p_items: params.items,
   }
   const { data, error } = await supabase.rpc('create_order_validated', rpcParams)

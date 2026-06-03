@@ -170,8 +170,12 @@ ALTER TABLE orders ADD COLUMN mp_preference_id TEXT;    -- preference_id do MP C
 ALTER TABLE orders ADD COLUMN original_subtotal NUMERIC; -- snapshot do subtotal antes da separacao
 ALTER TABLE orders ADD COLUMN original_total NUMERIC;    -- snapshot do total antes da separacao
 ALTER TABLE orders ADD COLUMN separation_notes TEXT;     -- nota geral da loja sobre a separacao (opcional)
+ALTER TABLE orders ADD COLUMN delivery_change_for NUMERIC(12,2) NULL;
+  -- troco solicitado pelo cliente; preenchido apenas quando payment_method='dinheiro_entrega' + cliente pediu troco
+  -- null = pagamento exato ou nao-dinheiro
+  -- CONSTRAINT enforced no app: delivery_change_for > total
 
--- payment_method passa a aceitar: 'pix' | 'boleto' | 'cartao_online' | 'cartao_entrega' | null (so se status=pending)
+-- payment_method passa a aceitar: 'pix' | 'boleto' | 'cartao_online' | 'cartao_entrega' | 'dinheiro_entrega' | null
 -- Adicionar valores ao enum payment_method
 ```
 
@@ -246,9 +250,12 @@ export type PaymentMethod =
   | 'pix'
   | 'boleto'
   | 'cartao_online'      // cartao via MP Checkout Pro
-  | 'cartao_entrega'     // maquina de cartao presencial
+  | 'cartao_entrega'     // maquina de cartao presencial (debito ou credito — cliente escolhe na maquina)
+  | 'dinheiro_entrega'   // dinheiro na entrega (com ou sem troco)
   | null                 // ainda nao escolhido (status=pending|separating|awaiting_payment)
 ```
+
+> **Decisão 2026-06-03 (rodada 2):** `cartao_entrega` permanece único (sem separar débito/crédito no sistema — distinção fica no POS físico). `dinheiro_entrega` é separado porque impacta logística (troco). Ver campo `delivery_change_for` em §4.1.
 
 ## 5. Fluxo detalhado por etapa
 
@@ -385,15 +392,37 @@ Ver §7 (Email) e §8 (Badge in-app).
 
 ### 5.8 Etapa 7b — "Pagar na entrega"
 
-- Cliente clica "Pagar na entrega" → modal de confirmação clara: "Você vai pagar com cartão/dinheiro quando o pedido chegar. OK?"
-- Confirma → UPDATE order: `status='approved'`, `payment_method='cartao_entrega'`
-- Cliente vê tela de sucesso: "Pedido aprovado para preparo. Pagamento será na entrega."
-- Loja prepara/despacha normalmente
-- **Confirmação do pagamento:** quando admin marca pedido como `delivered`, a UI pergunta "Pagamento foi recebido?" — se sim, registra `paid_at=NOW()`. Se não (cliente recusou), loja registra issue separadamente (fora do escopo deste doc).
+Cliente clica "Pagar na entrega" → abre modal/sheet com 2 steps:
+
+**Step 1 — Escolher forma:**
+- Opção A: Cartão (débito ou crédito — cliente escolhe na maquininha)
+- Opção B: Dinheiro
+- RadioGroup sem default; botão "Continuar" desabilitado até seleção
+
+**Step 2 — Troco (só se Dinheiro):**
+- Pergunta: "Vai precisar de troco?"
+- Checkbox/toggle Sim / Não (sem default)
+- Se Sim → input de valor aparece: "Troco para quanto?" (mask moeda BR)
+  - Validação: valor informado deve ser **maior que o total do pedido**
+  - Erro inline se valor ≤ total: "O valor deve ser maior que R$ {total}"
+  - Botão "Confirmar" desabilitado até valor válido
+- Se Não → confirma direto sem campo adicional
+- Se Cartão (Step 1A) → pula Step 2, confirma direto
+
+**Confirma → UPDATE order:**
+- `status='approved'`
+- `payment_method='cartao_entrega'` ou `'dinheiro_entrega'`
+- `delivery_change_for = valor_informado` (só se dinheiro + pediu troco; caso contrário `null`)
+
+Cliente vê toast: "Pedido aprovado! Pagamento na entrega." + redirect para `/pedido/:id`.
+
+Loja prepara/despacha normalmente. Quando admin marca `delivered`, a UI pergunta "Pagamento foi recebido?" — se sim, registra `paid_at=NOW()`.
 
 **Aceitação:**
-- [ ] `cartao_entrega` não chama MP
-- [ ] Status fica `approved` sem `paid_at` preenchido (será preenchido em `delivered`)
+- [ ] `cartao_entrega` e `dinheiro_entrega` não chamam MP
+- [ ] Status fica `approved` sem `paid_at` (será preenchido em `delivered`)
+- [ ] Input de troco valida `> total` com erro inline claro
+- [ ] `delivery_change_for` persistido quando dinheiro + pediu troco
 - [ ] Admin tem indicador visual de pedidos "pagar na entrega" pendentes de confirmação
 
 ## 6. Regras de negócio
@@ -687,6 +716,7 @@ NÃO incluir botões separados para "Pagar online" vs "Pagar na entrega" no emai
 | Data | Mudança | Autor |
 |---|---|---|
 | 2026-05-15 | Criação inicial — 8 decisões aprovadas | Orion (facilitação) + Fernando Gleisson (decisão) |
+| 2026-06-03 | Rodada 2 — gate §3.3 B: `payment_method` enum passa a ter `cartao_entrega \| dinheiro_entrega`; campo `delivery_change_for NUMERIC(12,2) NULL` adicionado em §4.1; §5.8 reescrito com sub-fluxo 2 steps; sem email extra pós-entrega | Orion (facilitação) + Fernando Gleisson (decisão) |
 
 ---
 

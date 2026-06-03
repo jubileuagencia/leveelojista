@@ -51,9 +51,9 @@ export function StepSuccess() {
 
       {/* Success message */}
       <div className="text-center space-y-2">
-        <h2 className="text-2xl font-bold">Pedido realizado com sucesso!</h2>
+        <h2 className="text-2xl font-bold">Pedido realizado!</h2>
         <p className="text-sm text-muted-foreground max-w-xs mx-auto">
-          Seu pedido foi enviado e esta aguardando aprovacao.
+          A loja vai separar os itens e você receberá uma notificação para finalizar o pagamento.
         </p>
       </div>
 
