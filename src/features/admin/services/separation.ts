@@ -66,6 +66,19 @@ async function getAuthUserId(): Promise<string> {
   return data.user.id
 }
 
+/**
+ * Garante que um UPDATE afetou ao menos 1 linha.
+ * RLS bloqueado NÃO gera erro no PostgREST — atualiza 0 linhas silenciosamente.
+ * Sem esta checagem, a UI mostra sucesso sem nada ter sido persistido.
+ */
+function assertRowsAffected(rows: unknown[] | null, operation: string): void {
+  if (!rows || rows.length === 0) {
+    throw new Error(
+      `${operation}: nenhuma linha foi alterada — sem permissão (RLS) ou item inexistente.`
+    )
+  }
+}
+
 async function insertAudit(params: {
   orderId: string
   orderItemId?: string | null
@@ -161,7 +174,7 @@ export async function confirmSeparationItem(params: {
   const nextStatus: SeparationStatus =
     item.separation_status === 'added' ? 'added' : 'separated'
 
-  const { error } = await supabase
+  const { data: updated, error } = await supabase
     .from('order_items')
     .update({
       quantity,
@@ -173,10 +186,12 @@ export async function confirmSeparationItem(params: {
       original_total_price: item.original_total_price ?? item.total_price,
     })
     .eq('id', item.id)
+    .select('id')
 
   if (error) {
     throw new Error(`Falha ao confirmar item: ${error.message}`)
   }
+  assertRowsAffected(updated, 'Falha ao confirmar item')
 
   if (qtyChanged) {
     await insertAudit({
@@ -203,7 +218,7 @@ export async function confirmSeparationItem(params: {
 
 /** Marca um item como removido da separação (não deleta a linha — auditável). */
 export async function removeSeparationItem(item: SeparationItem): Promise<void> {
-  const { error } = await supabase
+  const { data: updated, error } = await supabase
     .from('order_items')
     .update({
       separation_status: 'removed',
@@ -211,10 +226,12 @@ export async function removeSeparationItem(item: SeparationItem): Promise<void> 
       original_total_price: item.original_total_price ?? item.total_price,
     })
     .eq('id', item.id)
+    .select('id')
 
   if (error) {
     throw new Error(`Falha ao remover item: ${error.message}`)
   }
+  assertRowsAffected(updated, 'Falha ao remover item')
 
   await insertAudit({
     orderId: item.order_id,
@@ -231,14 +248,16 @@ export async function removeSeparationItem(item: SeparationItem): Promise<void> 
 
 /** Desfaz a remoção de um item (volta para `pending`). */
 export async function restoreSeparationItem(item: SeparationItem): Promise<void> {
-  const { error } = await supabase
+  const { data: updated, error } = await supabase
     .from('order_items')
     .update({ separation_status: 'pending' })
     .eq('id', item.id)
+    .select('id')
 
   if (error) {
     throw new Error(`Falha ao restaurar item: ${error.message}`)
   }
+  assertRowsAffected(updated, 'Falha ao restaurar item')
 
   await insertAudit({
     orderId: item.order_id,
