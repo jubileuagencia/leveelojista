@@ -50,6 +50,8 @@ const NORMAL_STEPS: TimelineStep[] = [
 
 const STATUS_ORDER: Record<OrderStatus, number> = {
   pending: 0,
+  separating: 0,        // ainda na etapa "Pedido realizado" (separação acontece antes da aprovação)
+  awaiting_payment: 0,  // idem — aprovação só ocorre após o pagamento
   approved: 1,
   preparing: 2,
   shipped: 3,

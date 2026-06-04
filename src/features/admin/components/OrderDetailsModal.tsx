@@ -1,5 +1,6 @@
 import { useState } from 'react'
-import { Package, CalendarDays } from 'lucide-react'
+import { Package, CalendarDays, PackageOpen } from 'lucide-react'
+import { Button } from '@/components/ui/button'
 import {
   Sheet,
   SheetContent,
@@ -36,9 +37,15 @@ interface OrderDetailsModalProps {
   orderId: string | null
   open: boolean
   onOpenChange: (open: boolean) => void
+  onOpenSeparation?: (orderId: string) => void
 }
 
-export function OrderDetailsModal({ orderId, open, onOpenChange }: OrderDetailsModalProps) {
+export function OrderDetailsModal({
+  orderId,
+  open,
+  onOpenChange,
+  onOpenSeparation,
+}: OrderDetailsModalProps) {
   const { data: order, isLoading } = useOrderDetail(orderId)
   const updateStatus = useUpdateOrderStatus()
   const [pendingStatus, setPendingStatus] = useState<OrderStatus | null>(null)
@@ -79,6 +86,18 @@ export function OrderDetailsModal({ orderId, open, onOpenChange }: OrderDetailsM
             </SheetHeader>
 
             <div className="space-y-5 px-4 pb-6 sm:px-6">
+              {/* Separação (fluxo pós-separação) */}
+              {onOpenSeparation &&
+                (order.status === 'pending' || order.status === 'separating') && (
+                  <Button
+                    className="w-full"
+                    onClick={() => orderId && onOpenSeparation(orderId)}
+                  >
+                    <PackageOpen className="size-4" />
+                    {order.status === 'pending' ? 'Iniciar separação' : 'Continuar separação'}
+                  </Button>
+                )}
+
               {/* Status change */}
               <div className="space-y-2">
                 <label className="text-sm font-medium">Alterar status</label>

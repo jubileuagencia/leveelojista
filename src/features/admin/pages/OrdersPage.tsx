@@ -20,6 +20,7 @@ import {
 import { OrdersTable } from '../components/OrdersTable'
 import { OrderFilters } from '../components/OrderFilters'
 import { OrderDetailsModal } from '../components/OrderDetailsModal'
+import { OrderSeparationModal } from '../components/OrderSeparationModal'
 import { Pagination } from '../components/Pagination'
 import { ALL_STATUSES, getStatusLabel } from '../components/OrderStatusBadge'
 import { useOrders, useBulkUpdateOrderStatus } from '../hooks/useOrders'
@@ -36,6 +37,9 @@ export default function OrdersPage() {
   const [detailOrderId, setDetailOrderId] = useState<string | null>(null)
   const [detailOpen, setDetailOpen] = useState(false)
 
+  const [separationOrderId, setSeparationOrderId] = useState<string | null>(null)
+  const [separationOpen, setSeparationOpen] = useState(false)
+
   const [selectedIds, setSelectedIds] = useState<Set<string>>(new Set())
   const [bulkStatus, setBulkStatus] = useState<string>('')
   const [bulkConfirmOpen, setBulkConfirmOpen] = useState(false)
@@ -51,6 +55,7 @@ export default function OrdersPage() {
 
   const { data, isLoading } = useOrders(filters)
   const bulkUpdate = useBulkUpdateOrderStatus()
+  const pageOrders = data?.data
 
   const handleSearchChange = (v: string) => { setSearch(v); setPage(1) }
 
@@ -73,6 +78,12 @@ export default function OrdersPage() {
     setDetailOpen(true)
   }
 
+  const handleOpenSeparation = (id: string) => {
+    setDetailOpen(false)
+    setSeparationOrderId(id)
+    setSeparationOpen(true)
+  }
+
   // Selection
   const handleToggleSelect = useCallback((id: string) => {
     setSelectedIds((prev) => {
@@ -84,13 +95,13 @@ export default function OrdersPage() {
   }, [])
 
   const handleToggleSelectAll = useCallback(() => {
-    if (!data?.data) return
+    if (!pageOrders) return
     setSelectedIds((prev) => {
-      const allSelected = data.data.every((o) => prev.has(o.id))
+      const allSelected = pageOrders.every((o) => prev.has(o.id))
       if (allSelected) return new Set()
-      return new Set(data.data.map((o) => o.id))
+      return new Set(pageOrders.map((o) => o.id))
     })
-  }, [data?.data])
+  }, [pageOrders])
 
   const handleBulkConfirm = () => {
     if (!bulkStatus || selectedIds.size === 0) return
@@ -189,6 +200,14 @@ export default function OrdersPage() {
         orderId={detailOrderId}
         open={detailOpen}
         onOpenChange={setDetailOpen}
+        onOpenSeparation={handleOpenSeparation}
+      />
+
+      {/* Separation Modal */}
+      <OrderSeparationModal
+        orderId={separationOrderId}
+        open={separationOpen}
+        onOpenChange={setSeparationOpen}
       />
 
       {/* Bulk update confirmation */}

@@ -5,6 +5,8 @@ import type { OrdersByStatus } from '../services/dashboard'
 
 const STATUS_CHART: Record<OrderStatus, { label: string; color: string }> = {
   pending: { label: 'Pendente', color: '#f59e0b' },
+  separating: { label: 'Em separação', color: '#ea580c' },
+  awaiting_payment: { label: 'Aguardando pagamento', color: '#d97706' },
   approved: { label: 'Aprovado', color: '#3b82f6' },
   preparing: { label: 'Preparando', color: '#a855f7' },
   shipped: { label: 'Enviado', color: '#06b6d4' },
@@ -14,7 +16,7 @@ const STATUS_CHART: Record<OrderStatus, { label: string; color: string }> = {
 }
 
 const ORDERED_STATUSES: OrderStatus[] = [
-  'pending', 'approved', 'preparing', 'shipped', 'delivered', 'rejected', 'cancelled',
+  'pending', 'separating', 'awaiting_payment', 'approved', 'preparing', 'shipped', 'delivered', 'rejected', 'cancelled',
 ]
 
 interface OrdersByStatusChartProps {
